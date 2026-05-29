@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="titleBlock">
+
+  <div class="mainTitle">
+    Soulkin 1.0
+  </div>
+
+  <div class="subTitle">
+    The Five Stages of Man
+  </div>
+
+  <div class="copyRight">
+    © Akbal 2026
+  </div>
+
+  <div class="support">
+    Support the development of Soulkin:
+
+    <a href="https://ko-fi.com/soulkin"
+       target="_blank">
+       ko-fi.com/soulkin
+    </a>
+  </div>
+
+</div>
+
+
+  <!-- ===== CONTROLS ===== -->
+
+  <div class="controls">
+
+<input type="date" id="datePicker">
+
+<button onclick="step()">
+  Step
+</button>
+
+
+  </div>
+
+
+<div id="aboutBox">
+
+  <div class="aboutTitle">
+    What is Soulkin?
+  </div>
+
+  <div class="aboutText">
+
+    Soulkin is an experimental symbolic calendar
+    based on the 260-day Tzolkin cycle,
+    sacred geometry, directional movement,
+    consciousness exploration and cyclic transformation.
+
+    <br><br>
+
+    The pentagram in Soulkin is used as a
+    movement structure inside the mechanism,
+    not as a satanic symbol.
+
+    <br><br>
+
+    If you were born before sunrise,
+    it may be worth checking the previous date
+    as well, since many ancient calendar systems
+    counted the new day from sunrise instead
+    of midnight.
+
+  </div>
+
+</div>
+
+
+
+<!-- ===== INFO TABS ===== -->
+
+<div id="infoTabs">
+
+  <div id="toneTab" class="infoTab toneTab">
+
+    <img id="toneTabSymbol"
+         src="zodiac/1.svg"
+         width="36"
+         height="36">
+
+</div>
+
+  <div class="infoTab blueTab" id="antipodeTab">
+    <img id="antipodeTabSymbol"
+         src="other/hear.svg"
+         width="40"
+         height="40"
+	 pointer-events="none">
+  </div>
+
+  <div class="infoTab redTab" id="analogTab">
+    <img id="analogTabSymbol"
+         src="other/smell.svg"
+         width="40"
+         height="40"
+	 pointer-events="none">
+  </div>
+
+  <div class="infoTab greenTab" id="birthTab">
+    <img id="birthTabSymbol"
+         src="other/touch.svg"
+         width="40"
+         height="40"
+	 pointer-events="none">
+
+  </div>
+
+<div class="infoTab whiteTab" id="occultTab">
+
+  <img id="occultTabSymbol"
+       src="other/taste.svg"
+       width="40"
+       height="40"
+       pointer-events="none">
+
+</div>
+
+  <div class="infoTab yellowTab" id="guideTab">
+    <img id="guideTabSymbol"
+         src="other/sight.svg"
+         width="40"
+         height="40"
+         pointer-events="none">
+  </div>
+
+  <div class="infoTab nightTab" id="nightTab">
+    <img id="crownTabSymbol"
+         src="other/crown.svg"
+         width="50"
+         height="50"
+         pointer-events="none">
+  </div>
+
+
+<div id="infoPanel">
+
+  <div id="infoPanelTitle">
+    Soulkin
+  </div>
+
+  <div id="infoPanelContent"></div>
+
+</div>
+
+
+</div>
+
+  <!-- ===== SVG ===== -->
+
+<svg width="1200"
+    height="700"
+    viewBox="-450 -350 1200 800">
+
+
+<!-- ===== ACHTERGROND ===== -->
+
+<image id="yinYang"
+       href="other/yinyang.svg"
+       x="-220"
+       y="-220"
+       width="440"
+       height="440"
+       opacity="0.3"/>
+
+<image id="HeartChakra"
+       href="other/heartchakra.svg"
+       x="-220"
+       y="-220"
+       width="440"
+       height="440"/>
+
+<image id="Background"
+       href="other/background.svg"
+       x="-220"
+       y="-220"
+       width="440"
+       height="440"/>
+
+<!-- ===== ROTATIE GROEP ===== -->
+
+<g id="rotGroup">
+
+  <polygon points="0,250 -57,76 58,76"
+           fill="green"
+           opacity="0.65"/>
+
+  <polygon points="-238,77 -91,-30 -57,76"
+           fill="red"
+           opacity="0.65"/>
+
+  <polygon points="-147,-202 -91,-30 -1,-95"
+           fill="white"
+           opacity="0.65"/>
+
+  <polygon points="147,-202 91,-29 -1,-95"
+           fill="blue"
+           opacity="0.65"/>
+
+  <polygon points="238,77 55,78 91,-29"
+           fill="yellow"
+           opacity="0.65"/>
+
+  <polygon id="castleCore"
+           points="
+           0,-95
+           91,-29
+           58,76
+           -57,76
+           -91,-30
+           "
+           fill="red"
+           opacity="0.65"/>
+
+  <!-- ===== ZINTUIGEN ===== -->
+
+  <image href="other/touch.svg"
+         x="-30"
+         y="100"
+         width="60"
+         height="60"/>
+
+  <image href="other/smell.svg"
+         x="-135"
+         y="30"
+         width="60"
+         height="60"
+         transform="rotate(71 -100 40)"/>
+
+  <image href="other/sight.svg"
+         x="-233"
+         y="115"
+         width="60"
+         height="60"
+         transform="rotate(144 -100 40)"/>
+
+  <image href="other/hear.svg"
+         x="-189"
+         y="230"
+         width="60"
+         height="60"
+         transform="rotate(-145 -100 40)"/>
+
+  <image href="other/taste.svg"
+         x="-60"
+         y="225"
+         width="60"
+         height="60"
+         transform="rotate(-72 -100 40)"/>
+
+  <!-- ===== PENTAGRAM ===== -->
+
+  <path d="M 0 250 L -147 -202 L 238 77 L -238 77 L 147 -202 Z"
+        fill="none"
+        stroke="black"
+        stroke-width="2"/>
+
+  <!-- ===== STIP ===== -->
+
+  <circle id="dot"
+          r="12"
+          fill="black"/>
+
+</g>
+
+<!-- ===== RICHTINGEN ===== -->
+
+<g id="directionGroup">
+
+  <text id="letterQ"
+        text-anchor="middle"
+        font-size="42"
+        font-weight="bold"
+        fill="blue"
+        stroke="black"
+        stroke-width="2"
+        style="paint-order:stroke"
+        pointer-events="none">
+    q
+  </text>
+
+  <text id="letterD"
+        text-anchor="middle"
+        font-size="42"
+        font-weight="bold"
+        fill="white"
+        stroke="black"
+        stroke-width="2"
+        style="paint-order:stroke"
+        pointer-events="none">
+    d
+  </text>
+
+  <text id="letterB"
+        text-anchor="middle"
+        font-size="42"
+        font-weight="bold"
+        fill="red"
+        stroke="black"
+        stroke-width="2"
+        style="paint-order:stroke"
+        pointer-events="none">
+    b
+  </text>
+
+  <text id="letterP"
+        text-anchor="middle"
+        font-size="42"
+        font-weight="bold"
+        fill="yellow"
+        stroke="black"
+        stroke-width="2"
+        style="paint-order:stroke"
+        pointer-events="none">
+    p
+  </text>
+
+</g>
+
+<!-- ===== I CHING ===== -->
+
+<image id="iChing"
+       href="other/iching.svg"
+       x="-70"
+       y="-70"
+       width="140"
+       height="140"/>
+
+<!-- ===== TOON ===== -->
+
+<image id="toneSymbol"
+       href="tones/tone1.svg"
+       x="-20"
+       y="-20"
+       width="40"
+       height="40"/>
+
+<!-- ===== RING ===== -->
+
+<g id="ringSegments"></g>
+<g id="hoverLayer"></g>
+<g id="ringAnimals"></g>
+
+<!-- ===== INFO ===== -->
+
+<text id="info"
+      x="50"
+      y="360"
+      font-size="27"
+      text-anchor="start"></text>
+
+
+  </svg>
+
+<div id="pageContainer"></div>
+
+<script src="pages/muladhara.js"></script>
+<script src="pages/svadhisthana.js"></script>
+<script src="pages/manipura.js"></script>
+<script src="pages/anahata.js"></script>
+<script src="pages/vishuddha.js"></script>
+<script src="pages/ajna.js"></script>
+<script src="pages/sahasrara.js"></script>
+
+<script defer src="script.js"></script>
+
+</body>
+
+</html>
