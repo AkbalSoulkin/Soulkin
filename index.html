@@ -5,15 +5,21 @@
 <head>
   <meta charset="UTF-8">
 
+  <title>Soulkin</title>
+
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="hunabku.png">
+
 </head>
 
 <body>
 
+<div id="app">
+
 <div class="titleBlock">
 
   <div class="mainTitle">
-    Soulkin 1.0
+    Soulkin 1.1
   </div>
 
   <div class="subTitle">
@@ -24,14 +30,14 @@
     © Akbal 2026
   </div>
 
-  <div class="support">
+  <div class="support" id="supportText">
     Support the development of Soulkin:
 
     <a href="https://ko-fi.com/soulkin"
        target="_blank">
        ko-fi.com/soulkin
     </a>
-  </div>
+</div>
 
 </div>
 
@@ -40,9 +46,15 @@
 
   <div class="controls">
 
+<button id="languageButton" onclick="toggleLanguage()">
+  NL
+</button>
+
 <input type="date" id="datePicker">
 
-<button onclick="step()">
+<button
+  id="stepButton"
+  onclick="step()">
   Step
 </button>
 
@@ -52,35 +64,11 @@
 
 <div id="aboutBox">
 
-  <div class="aboutTitle">
-    What is Soulkin?
-  </div>
+  <div class="aboutTitle"></div>
 
-  <div class="aboutText">
-
-    Soulkin is an experimental symbolic calendar
-    based on the 260-day Tzolkin cycle,
-    sacred geometry, directional movement,
-    consciousness exploration and cyclic transformation.
-
-    <br><br>
-
-    The pentagram in Soulkin is used as a
-    movement structure inside the mechanism,
-    not as a satanic symbol.
-
-    <br><br>
-
-    If you were born before sunrise,
-    it may be worth checking the previous date
-    as well, since many ancient calendar systems
-    counted the new day from sunrise instead
-    of midnight.
-
-  </div>
+  <div class="aboutText"></div>
 
 </div>
-
 
 
 <!-- ===== INFO TABS ===== -->
@@ -352,6 +340,8 @@
 
 <!-- ===== RING ===== -->
 
+<g id="kingWenRing"></g>
+<g id="hexagramRing"></g>
 <g id="ringSegments"></g>
 <g id="hoverLayer"></g>
 <g id="ringAnimals"></g>
@@ -367,7 +357,8 @@
 
   </svg>
 
-<div id="pageContainer"></div>
+</div>
+
 
 <script src="pages/muladhara.js"></script>
 <script src="pages/svadhisthana.js"></script>
@@ -376,7 +367,10 @@
 <script src="pages/vishuddha.js"></script>
 <script src="pages/ajna.js"></script>
 <script src="pages/sahasrara.js"></script>
-
+<script src="pages/hexagramStates.js"></script>
+<script src="pages/kingWen.js"></script>
+<script src="languages/en.js"></script>
+<script src="languages/nl.js"></script>
 <script defer src="script.js"></script>
 
 </body>

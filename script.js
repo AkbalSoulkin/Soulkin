@@ -24,6 +24,11 @@ for(let k=0;k<260;k++){
 }
 
 // ===== STATE =====
+let language = "en";
+
+let lang = lang_en;
+
+let hexState = 1;
 let kin = 0;
 let dayOffset = 0;
 
@@ -40,6 +45,28 @@ let animating = false;
 
 let activePage = "intro";
 
+const sealKeys = [
+  "imix",
+  "ik",
+  "akbal",
+  "kan",
+  "chicchan",
+  "cimi",
+  "manik",
+  "lamat",
+  "muluc",
+  "oc",
+  "chuen",
+  "eb",
+  "ben",
+  "ix",
+  "men",
+  "cib",
+  "caban",
+  "etznab",
+  "cauac",
+  "ahau"
+];
 
 // ===== BASISDATUM =====
 const baseDate = new Date("1982-08-22");
@@ -146,6 +173,16 @@ const nightNamesNL = [
   "Earth"     // G9
 ];
 
+const kingWenOrder = [
+  64, 1, 35, 18, 59, 24, 17, 3,
+  60, 56, 57, 8, 48, 62, 9, 5,
+  39, 26, 49, 4, 38, 42, 2, 33,
+  40, 58, 34, 31, 19, 46, 15, 29,
+  16, 61, 6, 41, 44, 54, 11, 21,
+  50, 36, 63, 32, 7, 25, 23, 27,
+  47, 30, 37, 10, 12, 53, 45, 14,
+  28, 55, 20, 51, 52, 13, 43, 22
+];
 
 // ===== UPDATE =====
 function updateFromKin(){
@@ -154,7 +191,7 @@ function updateFromKin(){
 
   seal = kin % 20;
 
-  night = ((kin + 8) % 9) + 1;
+  night = (((dayOffset % 9) + 9) % 9 + 8) % 9 + 1;
 
   pos = cycle[kin].pos;
 
@@ -207,6 +244,12 @@ const ringSegments =
 
 const ringAnimals =
   document.getElementById("ringAnimals");
+
+const hexagramRing =
+  document.getElementById("hexagramRing");
+
+const kingWenRing =
+  document.getElementById("kingWenRing");
 
 const segments = [];
 const hoverPath = document.createElementNS(
@@ -334,6 +377,165 @@ for(let i=0;i<20;i++){
   ringAnimals.appendChild(img);
 }
 
+// ===== HEXAGRAM RING =====
+
+const hexagrams = [];
+
+for(let i=0;i<64;i++){
+
+  let angle =
+    -i * (360 / 64) + 90;
+
+  let radius = 245;
+
+  let x =
+    Math.cos(angle * Math.PI / 180) * radius;
+
+  let y =
+    Math.sin(angle * Math.PI / 180) * radius;
+
+  let img =
+    document.createElementNS(
+      "http://www.w3.org/2000/svg",
+      "image"
+    );
+
+  img.setAttribute(
+    "href",
+    `hexagrams/h${i + 1}.svg`
+  );
+
+  img.setAttribute("width",22);
+  img.setAttribute("height",22);
+
+  img.setAttribute("x",-11);
+  img.setAttribute("y",-11);
+
+  img.setAttribute(
+    "transform",
+    `
+    translate(${x},${y})
+    rotate(${angle - 90})
+    `
+  );
+
+  hexagramRing.appendChild(img);
+
+  hexagrams.push(img);
+}
+
+function isHexagramGate(k){
+
+  let t =
+    (k % 13) + 1;
+
+  let s =
+    k % 20;
+
+  return (
+    t === 13 &&
+    [4,9,14,19].includes(s)
+  );
+}
+
+const kingWenHexagrams = [];
+
+for(let i=0;i<64;i++){
+
+  let angle =
+    -i * (360 / 64) + 90;
+
+  let radius = 225;
+
+  let x =
+    Math.cos(angle * Math.PI / 180) * radius;
+
+  let y =
+    Math.sin(angle * Math.PI / 180) * radius;
+
+  let img =
+    document.createElementNS(
+      "http://www.w3.org/2000/svg",
+      "image"
+    );
+
+  img.setAttribute(
+    "href",
+    `hexagrams/h${kingWenOrder[i]}.svg`
+  );
+
+  img.setAttribute("width",16);
+  img.setAttribute("height",16);
+
+  img.setAttribute("x",-8);
+  img.setAttribute("y",-8);
+
+  img.setAttribute(
+    "transform",
+    `
+    translate(${x},${y})
+    rotate(${angle - 90})
+    `
+  );
+
+  kingWenRing.appendChild(img);
+
+  kingWenHexagrams.push(img);
+}
+
+window.updateLanguage = function(){
+
+  document.querySelector(".aboutTitle").innerHTML =
+    lang.aboutTitle;
+
+  document.querySelector(".aboutText").innerHTML =
+    lang.aboutText;
+
+  document.getElementById("stepButton").innerHTML =
+    lang.step;
+
+  const supportText =
+    document.getElementById("supportText");
+
+  if(supportText){
+
+    supportText.innerHTML =
+      `
+      ${lang.supportText}
+
+      <a href="https://ko-fi.com/soulkin"
+         target="_blank">
+         ko-fi.com/soulkin
+      </a>
+      `;
+  }
+
+  updateActivePage();
+};
+
+window.toggleLanguage = function(){
+
+  if(language === "en"){
+
+    language = "nl";
+    lang = lang_nl;
+
+    document.getElementById("languageButton").innerHTML =
+      "EN";
+
+  } else {
+
+    language = "en";
+    lang = lang_en;
+
+    document.getElementById("languageButton").innerHTML =
+      "NL";
+  }
+
+  window.updateLanguage();
+};
+
+
 // ===== RENDER =====
 function render(){
 
@@ -388,6 +590,49 @@ let sacredAlignment =
   night === 1 &&
   sacredSeals.includes(seal);
 
+
+// ===== HEXAGRAM CYCLUS =====
+
+if(isHexagramGate(kin)){
+
+  hexState = 0;
+
+  hexagramRing.setAttribute("opacity","0");
+  kingWenRing.setAttribute("opacity","0");
+
+} else {
+
+  hexagramRing.setAttribute("opacity","1");
+  kingWenRing.setAttribute("opacity","1");
+
+  let hexStep = 0;
+
+  let tempKin = kin;
+
+  while(!isHexagramGate(tempKin)){
+
+    hexStep++;
+
+    tempKin =
+      (tempKin - 1 + 260) % 260;
+  }
+
+  hexState = hexStep;
+
+  let hexRotation =
+    (hexStep - 1) * (360 / 64);
+
+  hexagramRing.setAttribute(
+    "transform",
+    `rotate(${hexRotation})`
+  );
+
+  kingWenRing.setAttribute(
+    "transform",
+    `rotate(${hexRotation})`
+  );
+}
+
 // ===== I-CHING ROTATIE =====
 
 // G9 en G1 = stil
@@ -439,7 +684,7 @@ if(superHeart){
   document.getElementById("Background")
     .setAttribute("opacity","1");
 
-  heartScale = 1.35;
+  heartScale = 1.64;
 
 } else if(specialHeart){
 
@@ -472,14 +717,13 @@ if(superHeart){
 }
 
 
-
 // ===== HART CHAKRA ROTATIE =====
 
 document.getElementById("HeartChakra")
   .setAttribute(
     "transform",
     `
-    rotate(${heartAngle})
+    rotate(${heartAngle - 19})
     scale(${heartScale})
     `
   );
@@ -517,11 +761,10 @@ document.getElementById("yinYang")
   .setAttribute(
     "transform",
     `
-    rotate(${yinAngle - 270})
+    rotate(${yinAngle - 352})
     scale(1.2)
     `
   );
-
 
 // ===== BACKGROUND ROTATIE =====
 
@@ -568,7 +811,7 @@ letters.forEach((id, i) => {
   });
 
   segments[seal]
-    .setAttribute("stroke-width","6");
+    .setAttribute("stroke-width","4");
 
   // kasteel kleur
   let castle = Math.floor(kin / 52);
@@ -583,15 +826,15 @@ letters.forEach((id, i) => {
 document.getElementById("info").innerHTML =
   `
   <tspan x="-70" dy="0">
-    Moonseal: G${night} (${nightNamesNL[night-1]})
+    ${lang.moon}: G${night} (${lang.nightNames[night-1]})
   </tspan>
 
   <tspan x="-70" dy="32">
-    Sunseal: ${animals[seal]}
+    ${lang.sun}: ${animals[seal]}
   </tspan>
 
   <tspan x="-70" dy="32">
-    Starseed: Tone ${tone} (${toneNames[tone-1]})
+    ${lang.star}: ${lang.tone} ${tone} (${toneNames[tone-1]})
   </tspan>
   `;
 
@@ -736,10 +979,13 @@ const nightTab =
 
 nightTabHover.onclick = () => {
 
-  activePage = "sahasrara";
-
-  updateActivePage();
+  setActivePage("sahasrara", "nightTab");
 };
+
+const stepButton =
+  document.getElementById(
+    "stepButton"
+  );
 
 let nightColor =
   "rgba(0,128,0,0.7)";
@@ -848,21 +1094,12 @@ function updateActivePage(){
     panel.style.background =
       "rgba(0,0,0,0.35)";
 
-    title.innerHTML = "Soulkin";
+  title.innerHTML =
+    lang.introTitle;
 
-    content.innerHTML =
-      `
-      Welcome to Soulkin.<br><br>
+  content.innerHTML =
+    lang.introText;
 
-      Select one of the tabs above
-      to explore the symbolic layers
-      of the calendar mechanism.<br><br>
-
-      The information shown here will
-      change dynamically depending on
-      the selected chakra, kin relationship
-      or archetype.
-      `;
   }
 
   if(activePage === "muladhara"){
@@ -870,10 +1107,19 @@ function updateActivePage(){
     panel.style.background =
       "rgba(120,0,0,0.35)";
 
-    title.innerHTML = "Muladhara";
+    title.innerHTML = lang.muladhara;
+
+    let kingWenText = "";
+
+    if(hexState >= 1 && hexState <= 64){
+
+      kingWenText =
+        `<hr>` + kingWenPages[hexState];
+    }
 
     content.innerHTML =
-      muladharaPages[tone];
+      muladharaPages[tone] +
+      kingWenText;
   }
 
   if(activePage === "sahasrara"){
@@ -881,7 +1127,7 @@ function updateActivePage(){
     panel.style.background =
       "rgba(255,255,255,0.18)";
 
-    title.innerHTML = "Sahasrara";
+    title.innerHTML = lang.sahasrara;
 
     content.innerHTML =
       sahasraraPages[night];
@@ -892,18 +1138,27 @@ function updateActivePage(){
     panel.style.background =
       "rgba(0,128,0,0.25)";
 
-    title.innerHTML = "Anahata";
+    title.innerHTML = lang.anahata;
+
+    let rootStateText = "";
+
+    if(hexState >= 1 && hexState <= 64){
+
+      rootStateText =
+        `<hr>` + hexagramStatePages[hexState];
+    }
 
     content.innerHTML =
-      anahataPages[seal + 1];
-  }
+      anahataPages[seal + 1] +
+      rootStateText;
+    }
 
   if(activePage === "vishuddha"){
 
     panel.style.background =
       "rgba(80,180,255,0.25)";
 
-    title.innerHTML = "Vishuddha";
+    title.innerHTML = lang.vishuddha;
 
     content.innerHTML =
       vishuddhaPages[seal + 1];
@@ -914,7 +1169,7 @@ function updateActivePage(){
     panel.style.background =
       "rgba(255,120,0,0.25)";
 
-    title.innerHTML = "Svadhisthana";
+    title.innerHTML = lang.svadhisthana;
 
     content.innerHTML =
       svadhisthanaPages[seal + 1];
@@ -925,7 +1180,7 @@ function updateActivePage(){
     panel.style.background =
       "rgba(255,220,0,0.25)";
 
-    title.innerHTML = "Manipura";
+    title.innerHTML = lang.manipura;
 
     content.innerHTML =
       manipuraPages[seal + 1];
@@ -936,21 +1191,61 @@ function updateActivePage(){
     panel.style.background =
       "rgba(90,70,180,0.28)";
 
-    title.innerHTML = "Ajna";
+    title.innerHTML = lang.ajna;
+
+    const sealKey =
+      sealKeys[seal];
+
+    const guideOrder = [
+      seal,
+      (seal + 4) % 20,
+      (seal + 8) % 20,
+      (seal + 12) % 20,
+      (seal + 16) % 20
+    ];
+
+    const guideStep =
+      guideOrder.indexOf(guideSeal) + 1;
 
     content.innerHTML =
-      ajnaPages[guideSeal + 1];
+      ajnaPages[sealKey][guideStep];
   }
 }
+
+function setActivePage(pageName, tabId){
+
+  if(activePage === pageName){
+
+    activePage = "intro";
+
+  } else {
+
+    activePage = pageName;
+  }
+
+  document
+    .querySelectorAll(".infoTab")
+    .forEach(tab => {
+      tab.classList.remove("activeTab");
+    });
+
+  if(activePage !== "intro"){
+
+    document
+      .getElementById(tabId)
+      .classList.add("activeTab");
+  }
+
+  updateActivePage();
+}
+
 
 const toneTab =
   document.getElementById("toneTab");
 
 toneTab.onclick = () => {
 
-  activePage = "muladhara";
-
-  updateActivePage();
+  setActivePage("muladhara", "toneTab");
 };
 
 toneTab.onmouseenter = () => {
@@ -981,11 +1276,41 @@ const birthTabClick =
 
 birthTabClick.onclick = () => {
 
-  activePage = "anahata";
-
-  updateActivePage();
+  setActivePage("anahata", "birthTab");
 };
 
+
+const occultTabClick =
+  document.getElementById("occultTab");
+
+occultTabClick.onclick = () => {
+
+  setActivePage("vishuddha", "occultTab");
+};
+
+const antipodeTabClick =
+  document.getElementById("antipodeTab");
+
+antipodeTabClick.onclick = () => {
+
+  setActivePage("svadhisthana", "antipodeTab");
+};
+
+const analogTabClick =
+  document.getElementById("analogTab");
+
+analogTabClick.onclick = () => {
+
+  setActivePage("manipura", "analogTab");
+};
+
+const guideTabClick =
+  document.getElementById("guideTab");
+
+guideTabClick.onclick = () => {
+
+  setActivePage("ajna", "guideTab");
+};
 
 const nightTabHover =
   document.getElementById("nightTab");
@@ -1009,45 +1334,6 @@ nightTabHover.onmouseleave = () => {
   }
 };
 
-const occultTabClick =
-  document.getElementById("occultTab");
-
-occultTabClick.onclick = () => {
-
-  activePage = "vishuddha";
-
-  updateActivePage();
-};
-
-const antipodeTabClick =
-  document.getElementById("antipodeTab");
-
-antipodeTabClick.onclick = () => {
-
-  activePage = "svadhisthana";
-
-  updateActivePage();
-};
-
-const analogTabClick =
-  document.getElementById("analogTab");
-
-analogTabClick.onclick = () => {
-
-  activePage = "manipura";
-
-  updateActivePage();
-};
-
-const guideTabClick =
-  document.getElementById("guideTab");
-
-guideTabClick.onclick = () => {
-
-  activePage = "ajna";
-
-  updateActivePage();
-};
 
 // ===== STEP =====
 function step(){
@@ -1096,6 +1382,7 @@ function step(){
 
   render();
 }
+
 
 // ===== MOVE =====
 function animateMove(from,to,duration,callback){
@@ -1175,6 +1462,8 @@ kin = ((dayOffset % 260) + 260) % 260;
 updateFromKin();
 
 updateDateFromKin();
+
+updateLanguage();
 
 render();
 

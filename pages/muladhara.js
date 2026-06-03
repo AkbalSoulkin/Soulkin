@@ -1,7 +1,7 @@
 const muladharaPages = {
 
 1: `
-Who am I? With what intention do I enter the world?
+With what intention do I enter the world?
 
 Every journey begins with a first impulse.
 

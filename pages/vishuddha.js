@@ -197,7 +197,7 @@ The desire behind awareness is generosity.
 `,
 
 15: `
-Chicchan reveals the hidden desire of Men.
+Cimi reveals the hidden desire of Men.
 
 Perspective seeks life.
 
@@ -207,21 +207,21 @@ You do not rise above life to escape it.
 
 You rise above it to re-enter it more fully.
 
-The desire behind perspective is participation.
+The desire behind perspective is transformation.
 `,
 
 16: `
-Cimi reveals the hidden desire of Cib.
+Chicchan reveals the hidden desire of Cib.
 
-Wisdom seeks renewal.
+Wisdom seeks vitality.
 
-Every answer eventually becomes the beginning of a new question.
+Understanding becomes meaningful when it is lived.
 
-You do not seek wisdom to stop growing.
+Knowledge alone cannot replace experience.
 
-You seek wisdom to continue evolving.
+Insight wishes to become movement.
 
-The desire behind wisdom is transformation.
+The desire behind wisdom is aliveness.
 `,
 
 17: `
