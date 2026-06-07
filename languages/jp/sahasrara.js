@@ -1,113 +1,120 @@
 const sahasraraPages_jp = {
 
 1: `
-日本語: How do I stay on the path?
+どのように道を歩み続けるのか？
 
-The path is not always found through movement.
+ときには前進することではなく、
+なぜ始めたのかを思い出すことが大切です。
 
-Sometimes the next step is remembering why you started.
+心は中心への帰還を促します。
 
-Heart periods ask you to return to your center before choosing a direction.
+すべてが不確かに見えるときは、
+まだ意味を感じられるものを探してください。
 
-If everything feels uncertain, look for what still feels meaningful.
-
-Meaning often survives long after excitement has disappeared.
+意味は熱意よりも長く残ることがあります。
 `,
 
 2: `
-日本語: Thunder brings movement and disruption.
+雷は動きと変化をもたらします。
 
-Something that has become stagnant is trying to wake up.
+停滞していたものが目覚めようとしています。
 
-Do not focus only on what changed.
+何が変わったのかだけでなく、
+その変化が何を示しているのかを見つめてください。
 
-Ask yourself what the change is trying to reveal.
-
-The path often becomes visible after the ground begins to shake.
+道は揺れの後に見えてくることがあります。
 `,
 
 3: `
-日本語: Fire illuminates both strengths and weaknesses.
+火は隠れていたものを照らします。
 
-What is hidden becomes easier to see.
+長所も短所も見えやすくなります。
 
-Avoid becoming fascinated by appearances alone.
+見た目だけに惑わされないでください。
 
-Light is useful when it reveals truth.
+光は真実を映し出すときに価値を持ちます。
 
-The path becomes clearer when you are willing to see things as they are.
+ありのままを見ることで道は明確になります。
 `,
 
 4: `
-日本語: Wind carries messages from unexpected directions.
+風は予想外の方向からメッセージを運びます。
 
-Listen before acting.
+行動する前に耳を傾けてください。
 
-Small influences can change the course of a journey.
+小さな影響が旅の流れを変えることがあります。
 
-Pay attention to recurring thoughts, conversations and opportunities.
+繰り返し現れる考えや会話に注意を向けてください。
 
-The path is often adjusted through gentle corrections rather than dramatic events.
+道は静かな修正によって整えられることがあります。
 `,
 
 5: `
-日本語: Heaven invites a wider perspective.
+天は広い視野を招きます。
 
-Try to rise above immediate concerns.
+目の前の問題から少し距離を置いてみてください。
 
-Not every problem requires an immediate solution.
+すべての問題が即座の答えを必要とするわけではありません。
 
-Sometimes clarity comes from seeing how a challenge fits into a larger pattern.
+大きな流れの中で見ることで理解が深まることがあります。
 
-The path becomes easier when you stop mistaking every obstacle for the destination.
+障害を目的地と取り違えないでください。
 `,
 
 6: `
-日本語: Lake reminds you that joy is part of the journey.
+湖は喜びも旅の一部であることを思い出させます。
 
-A path sustained only by discipline eventually becomes brittle.
+規律だけでは道は長続きしません。
 
-Look for what nourishes your spirit.
+心を養うものを探してください。
 
-Meaning grows more easily when accompanied by gratitude and connection.
+感謝とつながりがあるとき、
+意味はより自然に育ちます。
 
-The path is not only about where you are going, but also about how you travel.
+旅は目的地だけではありません。
 `,
 
 7: `
-日本語: Water tests adaptability.
+水は適応する力を試します。
 
-When resistance becomes exhausting, flexibility may be the wiser choice.
+抵抗が疲れを生むなら、
+柔軟さがより良い答えかもしれません。
 
-Water does not defeat obstacles through force.
+水は力で障害を越えません。
 
-It flows around them.
+それを回り込みながら進みます。
 
-The path continues when you learn the difference between persistence and stubbornness.
+粘り強さと頑固さの違いを学ぶとき、
+道は続いていきます。
 `,
 
 8: `
-日本語: Mountain tests patience more than strength.
+山は力よりも忍耐を試します。
 
-Progress may appear slow, but stillness has its own purpose.
+進展が遅く見えても、
+静止には意味があります。
 
-What feels like a delay can reveal weaknesses that would otherwise remain hidden.
+遅れに見えるものが、
+見えなかった課題を明らかにすることがあります。
 
-Instead of asking how far you still have to go, ask what this moment is trying to teach you.
+どれだけ先が残っているかではなく、
+この瞬間が何を教えているかを見つめてください。
 
-Sometimes standing still is part of moving forward.
+立ち止まることも前進の一部です。
 `,
 
 9: `
-日本語: Earth encourages balance and integration.
+地は調和と統合を促します。
 
-Different parts of your life are seeking harmony.
+人生のさまざまな側面が均衡を求めています。
 
-Rather than chasing the next destination, focus on creating stability where you stand.
+次の目的地を追うよりも、
+今いる場所に安定を築いてください。
 
-Growth becomes sustainable when your actions align with your values.
+行動と価値観が一致するとき、
+成長は持続可能になります。
 
-The path remains steady when your foundations are strong.
+強い基盤が道を安定させます。
 `
 
 };
