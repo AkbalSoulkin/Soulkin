@@ -198,7 +198,7 @@ const pageSets = {
     ajna: ajnaPages_en,
     sahasrara: sahasraraPages_en,
     hexagramStates: hexagramStatePages_en,
-    kingWen: kingWenPages_en
+    kingwen: kingWenPages_en
   },
 
   nl: {
@@ -210,7 +210,7 @@ const pageSets = {
     ajna: ajnaPages_nl,
     sahasrara: sahasraraPages_nl,
     hexagramStates: hexagramStatePages_nl,
-    kingWen: kingWenPages_nl
+    kingwen: kingWenPages_nl
   },
 
   jp: {
@@ -222,7 +222,7 @@ const pageSets = {
     ajna: ajnaPages_jp,
     sahasrara: sahasraraPages_jp,
     hexagramStates: hexagramStatePages_jp,
-    kingWen: kingWenPages_jp
+    kingwen: kingWenPages_jp
   }
 };
 
