@@ -1,5 +1,21 @@
 const lang_nl = {
 
+toneNames: [
+  "Ram",
+  "Stier",
+  "Tweelingen",
+  "Kreeft",
+  "Leeuw",
+  "Maagd",
+  "Weegschaal",
+  "Schorpioen",
+  "Slangendrager",
+  "Boogschutter",
+  "Steenbok",
+  "Waterman",
+  "Vissen"
+],
+
 nightNames: [
   "Hart",
   "Donder",
@@ -12,10 +28,20 @@ nightNames: [
   "Aarde"
 ],
 
+  muladhara: "Muladhara",
+  svadhisthana: "Svadhisthana",
+  manipura: "Manipura",
+  anahata: "Anahata",
+  vishuddha: "Vishuddha",
+  ajna: "Ajna",
+  sahasrara: "Sahasrara",
+
 moon: "Maan",
 sun: "Zon",
 star: "Ster",
 tone: "Toon",
+
+go: "Ga",
 
 aboutTitle: "Wat is Soulkin?",
 

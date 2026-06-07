@@ -1,5 +1,21 @@
 const lang_en = {
 
+toneNames: [
+  "Aries",
+  "Taurus",
+  "Gemini",
+  "Cancer",
+  "Leo",
+  "Virgo",
+  "Libra",
+  "Scorpio",
+  "Ophiuchus",
+  "Sagitarius",
+  "Capricorn",
+  "Aquarius",
+  "Pisces"
+],
+
 nightNames: [
   "Heart",
   "Thunder",
@@ -12,10 +28,20 @@ nightNames: [
   "Earth"
 ],
 
+  muladhara: "Muladhara",
+  svadhisthana: "Svadhisthana",
+  manipura: "Manipura",
+  anahata: "Anahata",
+  vishuddha: "Vishuddha",
+  ajna: "Ajna",
+  sahasrara: "Sahasrara",
+
 moon: "Moon",
 sun: "Sun",
 star: "Star",
 tone: "Tone",
+
+go: "Go",
 
 aboutTitle: "What is Soulkin?",
 
