@@ -82,26 +82,26 @@ const pts = [
 
 // ===== FRACTALS =====
 const animals = [
-  "0001 (Imix)",
-  "0011 (Ik)",
-  "0010 (Akbal)",
-  "0000 (Kan)",
-  "01 (Chicchan)",
-  "0111 (Cimi)",
-  "0110 (Manik)",
-  "0100 (Lamat)",
-  "0101 (Muluc)",
-  "11 (Oc)",
-  "1110 (Chuen)",
-  "1100 (Eb)",
-  "1101 (Ben)",
-  "1111 (Ix)",
-  "10 (Men)",
-  "1000 (Cib)",
-  "1001 (Caban)",
-  "1011 (Etznab)",
-  "1010 (Cauac)",
-  "00 (Ahau)"
+  "Imix (0001)",
+  "Ik (0011)",
+  "Akbal (0010)",
+  "Kan (0000)",
+  "Chicchan (01)",
+  "Cimi (0111)",
+  "Manik (0110)",
+  "Lamat (0100)",
+  "Muluc (0101)",
+  "Oc (11)",
+  "Chuen (1110)",
+  "Eb (1100)",
+  "Ben (1101)",
+  "Ix (1111)",
+  "Men (10)",
+  "Cib (1000)",
+  "Caban (1001)",
+  "Etznab (1011)",
+  "Cauac (1010)",
+  "Ahau (00)"
 ];
 
 const animalFiles = [
@@ -129,22 +129,6 @@ const castleColors = [
   "green"
 ];
 
-const toneNames = [
-  "Aries",
-  "Taurus",
-  "Gemini",
-  "Cancer",
-  "Leo",
-  "Virgo",
-  "Libra",
-  "Scorpio",
-  "Ophiuchus",
-  "Sagitarius",
-  "Capricorn",
-  "Aquarius",
-  "Pisces"
-];
-
 const toneColors = [
   "rgba(255,0,0,0.7)",
   "rgba(255,255,0,0.7)",
@@ -161,18 +145,6 @@ const toneColors = [
   "rgba(0,0,255,0.7)"
 ];
 
-const nightNamesNL = [
-  "Heart",    // G1
-  "Thunder",  // G2
-  "Fire",     // G3
-  "Wind",     // G4
-  "Heaven",   // G5
-  "Lake",     // G6
-  "Water",    // G7
-  "Mountain", // G8
-  "Earth"     // G9
-];
-
 const kingWenOrder = [
   64, 1, 35, 18, 59, 24, 17, 3,
   60, 56, 57, 8, 48, 62, 9, 5,
@@ -183,6 +155,78 @@ const kingWenOrder = [
   47, 30, 37, 10, 12, 53, 45, 14,
   28, 55, 20, 51, 52, 13, 43, 22
 ];
+
+const languageNames = {
+
+  en: "English",
+
+  nl: "Nederlands",
+
+  jp: "日本語"
+
+};
+
+const languages = {
+
+  en: lang_en,
+  nl: lang_nl,
+  jp: lang_jp
+
+};
+
+const languageSelect =
+  document.getElementById(
+    "languageSelect"
+  );
+
+languageSelect.onchange = () => {
+
+language = languageSelect.value;
+lang = languages[language];
+pages = pageSets[language];
+
+updateLanguage();
+};
+
+const pageSets = {
+  en: {
+    muladhara: muladharaPages_en,
+    svadhisthana: svadhisthanaPages_en,
+    manipura: manipuraPages_en,
+    anahata: anahataPages_en,
+    vishuddha: vishuddhaPages_en,
+    ajna: ajnaPages_en,
+    sahasrara: sahasraraPages_en,
+    hexagramStates: hexagramStatePages_en,
+    kingWen: kingWenPages_en
+  },
+
+  nl: {
+    muladhara: muladharaPages_nl,
+    svadhisthana: svadhisthanaPages_nl,
+    manipura: manipuraPages_nl,
+    anahata: anahataPages_nl,
+    vishuddha: vishuddhaPages_nl,
+    ajna: ajnaPages_nl,
+    sahasrara: sahasraraPages_nl,
+    hexagramStates: hexagramStatePages_nl,
+    kingWen: kingWenPages_nl
+  },
+
+  jp: {
+    muladhara: muladharaPages_jp,
+    svadhisthana: svadhisthanaPages_jp,
+    manipura: manipuraPages_jp,
+    anahata: anahataPages_jp,
+    vishuddha: vishuddhaPages_jp,
+    ajna: ajnaPages_jp,
+    sahasrara: sahasraraPages_jp,
+    hexagramStates: hexagramStatePages_jp,
+    kingWen: kingWenPages_jp
+  }
+};
+
+let pages = pageSets.en;
 
 // ===== UPDATE =====
 function updateFromKin(){
@@ -201,38 +245,61 @@ function updateFromKin(){
 // ===== DATUM UPDATE =====
 function updateDateFromKin(){
 
-  let d = new Date(baseDate);
+  const base =
+    new Date(Date.UTC(1982, 7, 22));
 
-  d.setDate(baseDate.getDate() + dayOffset);
+  let d =
+    new Date(base);
 
-  let yyyy = d.getFullYear();
+  d.setUTCDate(base.getUTCDate() + dayOffset);
 
-  let mm = String(d.getMonth()+1).padStart(2,"0");
+  document.getElementById("dayInput").value =
+    d.getUTCDate();
 
-  let dd = String(d.getDate()).padStart(2,"0");
+  document.getElementById("monthInput").value =
+    d.getUTCMonth() + 1;
 
-  document.getElementById("datePicker").value =
-    `${yyyy}-${mm}-${dd}`;
+  document.getElementById("yearInput").value =
+    d.getUTCFullYear();
 }
 
 // ===== DATE PICKER =====
-document.getElementById("datePicker")
-.addEventListener("change", e => {
+function goToDate(){
 
-  let d = new Date(e.target.value);
+  const day =
+    Number(document.getElementById("dayInput").value);
 
-  let diff = Math.floor(
-    (d - baseDate) / (1000*60*60*24)
-  );
+  const month =
+    Number(document.getElementById("monthInput").value);
+
+  const year =
+    Number(document.getElementById("yearInput").value);
+
+  if(!day || !month || !year){
+    return;
+  }
+
+  const d =
+    new Date(Date.UTC(year, month - 1, day));
+
+  const base =
+    new Date(Date.UTC(1982, 7, 22));
+
+  const diff =
+    Math.floor(
+      (d - base) / (1000 * 60 * 60 * 24)
+    );
 
   dayOffset = diff;
 
-  kin = ((dayOffset % 260) + 260) % 260;
+  kin =
+    ((dayOffset % 260) + 260) % 260;
 
   updateFromKin();
 
   render();
-});
+}
+
 
 // ===== RING =====
 
@@ -494,6 +561,9 @@ window.updateLanguage = function(){
   document.getElementById("stepButton").innerHTML =
     lang.step;
 
+  document.getElementById("goDateButton").innerHTML =
+    lang.go;
+
   const supportText =
     document.getElementById("supportText");
 
@@ -510,29 +580,7 @@ window.updateLanguage = function(){
       `;
   }
 
-  updateActivePage();
-};
-
-window.toggleLanguage = function(){
-
-  if(language === "en"){
-
-    language = "nl";
-    lang = lang_nl;
-
-    document.getElementById("languageButton").innerHTML =
-      "EN";
-
-  } else {
-
-    language = "en";
-    lang = lang_en;
-
-    document.getElementById("languageButton").innerHTML =
-      "NL";
-  }
-
-  window.updateLanguage();
+  render();
 };
 
 
@@ -834,7 +882,7 @@ document.getElementById("info").innerHTML =
   </tspan>
 
   <tspan x="-70" dy="32">
-    ${lang.star}: ${lang.tone} ${tone} (${toneNames[tone-1]})
+    ${lang.star}: ${lang.tone} ${tone} (${lang.toneNames[tone-1]})
   </tspan>
   `;
 
@@ -1114,11 +1162,11 @@ function updateActivePage(){
     if(hexState >= 1 && hexState <= 64){
 
       kingWenText =
-        `<hr>` + kingWenPages[hexState];
+        `<hr>` + pages.kingWen[hexState];
     }
 
     content.innerHTML =
-      muladharaPages[tone] +
+      pages.muladhara[tone] +
       kingWenText;
   }
 
@@ -1130,7 +1178,7 @@ function updateActivePage(){
     title.innerHTML = lang.sahasrara;
 
     content.innerHTML =
-      sahasraraPages[night];
+      pages.sahasrara[night];
   }
 
   if(activePage === "anahata"){
@@ -1145,11 +1193,11 @@ function updateActivePage(){
     if(hexState >= 1 && hexState <= 64){
 
       rootStateText =
-        `<hr>` + hexagramStatePages[hexState];
+        `<hr>` + pages.hexagramStates[hexState];
     }
 
     content.innerHTML =
-      anahataPages[seal + 1] +
+      pages.anahata[seal + 1] +
       rootStateText;
     }
 
@@ -1161,7 +1209,7 @@ function updateActivePage(){
     title.innerHTML = lang.vishuddha;
 
     content.innerHTML =
-      vishuddhaPages[seal + 1];
+      pages.vishuddha[seal + 1];
   }
 
   if(activePage === "svadhisthana"){
@@ -1172,7 +1220,7 @@ function updateActivePage(){
     title.innerHTML = lang.svadhisthana;
 
     content.innerHTML =
-      svadhisthanaPages[seal + 1];
+      pages.svadhisthana[seal + 1];
   }
 
   if(activePage === "manipura"){
@@ -1183,7 +1231,7 @@ function updateActivePage(){
     title.innerHTML = lang.manipura;
 
     content.innerHTML =
-      manipuraPages[seal + 1];
+      pages.manipura[seal + 1];
   }
 
   if(activePage === "ajna"){
@@ -1208,7 +1256,7 @@ function updateActivePage(){
       guideOrder.indexOf(guideSeal) + 1;
 
     content.innerHTML =
-      ajnaPages[sealKey][guideStep];
+      pages.ajna[sealKey][guideStep];
   }
 }
 
@@ -1466,5 +1514,7 @@ updateDateFromKin();
 updateLanguage();
 
 render();
+
+window.goToDate = goToDate;
 
 window.step = step;

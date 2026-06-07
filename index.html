@@ -5,6 +5,10 @@
 <head>
   <meta charset="UTF-8">
 
+  <meta
+    name="description"
+    content="Soulkin is an experimental symbolic calendar based on the 260-day Tzolkin cycle,   sacred geometry and symbolic exploration.">
+
   <title>Soulkin</title>
 
   <link rel="stylesheet" href="style.css">
@@ -19,7 +23,7 @@
 <div class="titleBlock">
 
   <div class="mainTitle">
-    Soulkin 1.1
+    Soulkin 1.2
   </div>
 
   <div class="subTitle">
@@ -46,11 +50,35 @@
 
   <div class="controls">
 
-<button id="languageButton" onclick="toggleLanguage()">
-  NL
-</button>
+<select id="languageSelect">
 
-<input type="date" id="datePicker">
+  <option value="en">
+    English
+  </option>
+
+  <option value="nl">
+    Nederlands
+  </option>
+
+  <option value="jp">
+    日本語
+  </option>
+
+</select>
+
+<div class="dateControls">
+
+  <input id="dayInput" type="number" placeholder="DD">
+
+  <input id="monthInput" type="number" placeholder="MM">
+
+  <input id="yearInput" type="number" placeholder="YYYY">
+
+  <button id="goDateButton" onclick="goToDate()">
+    Go
+  </button>
+
+</div>
 
 <button
   id="stepButton"
@@ -359,18 +387,37 @@
 
 </div>
 
+<script src="languages/en/ui.js"></script>
+<script src="languages/nl/ui.js"></script>
+<script src="languages/jp/ui.js"></script>
+<script src="languages/en/muladhara.js"></script>
+<script src="languages/nl/muladhara.js"></script>
+<script src="languages/jp/muladhara.js"></script>
+<script src="languages/en/svadhisthana.js"></script>
+<script src="languages/nl/svadhisthana.js"></script>
+<script src="languages/jp/svadhisthana.js"></script>
+<script src="languages/en/manipura.js"></script>
+<script src="languages/nl/manipura.js"></script>
+<script src="languages/jp/manipura.js"></script>
+<script src="languages/en/anahata.js"></script>
+<script src="languages/nl/anahata.js"></script>
+<script src="languages/jp/anahata.js"></script>
+<script src="languages/en/vishuddha.js"></script>
+<script src="languages/nl/vishuddha.js"></script>
+<script src="languages/jp/vishuddha.js"></script>
+<script src="languages/en/ajna.js"></script>
+<script src="languages/nl/ajna.js"></script>
+<script src="languages/jp/ajna.js"></script>
+<script src="languages/en/sahasrara.js"></script>
+<script src="languages/nl/sahasrara.js"></script>
+<script src="languages/jp/sahasrara.js"></script>
+<script src="languages/en/hexagramStates.js"></script>
+<script src="languages/nl/hexagramStates.js"></script>
+<script src="languages/jp/hexagramStates.js"></script>
+<script src="languages/en/kingWen.js"></script>
+<script src="languages/nl/kingWen.js"></script>
+<script src="languages/jp/kingWen.js"></script>
 
-<script src="pages/muladhara.js"></script>
-<script src="pages/svadhisthana.js"></script>
-<script src="pages/manipura.js"></script>
-<script src="pages/anahata.js"></script>
-<script src="pages/vishuddha.js"></script>
-<script src="pages/ajna.js"></script>
-<script src="pages/sahasrara.js"></script>
-<script src="pages/hexagramStates.js"></script>
-<script src="pages/kingWen.js"></script>
-<script src="languages/en.js"></script>
-<script src="languages/nl.js"></script>
 <script defer src="script.js"></script>
 
 </body>

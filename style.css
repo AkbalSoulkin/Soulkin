@@ -20,7 +20,7 @@
 
 @font-face{
   font-family:"copyright";
-  src:url("fonts/notosans.otf");
+  src:url("fonts/copyright.otf");
 }
 
 
@@ -69,8 +69,8 @@ body{
 .copyRight {
   font-size: 27px;
   position:absolute;
-  top:870px;
-  left:1730px;
+  top:875px;
+  left:1785px;
   color: #444;
   font-family:"copyright";
   font-weight: bold;
@@ -80,7 +80,7 @@ body{
   display: flex;
   position:absolute;
   top:160px;
-  left:770px;
+  left:660px;
   gap: 18px;
   margin-bottom: 20px;
   z-index:50;
@@ -352,4 +352,23 @@ body{
   transform:scale(1.08);
 
   z-index:80;
+}
+
+.dateControls{
+
+  display:flex;
+  gap:6px;
+  align-items:center;
+}
+
+#dayInput{
+  width:35px;
+}
+
+#monthInput{
+  width:35px;
+}
+
+#yearInput{
+  width:55px;
 }
