@@ -715,7 +715,7 @@ let heartScale = 1;
 
 const superHeart =
   tone === 13 &&
-  night === 1 &&
+  night === 5 &&
   seal === 19;
 
 
@@ -771,7 +771,7 @@ document.getElementById("HeartChakra")
   .setAttribute(
     "transform",
     `
-    rotate(${heartAngle - 19})
+    rotate(${heartAngle - 59})
     scale(${heartScale})
     `
   );
