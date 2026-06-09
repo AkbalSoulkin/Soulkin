@@ -1,285 +1,292 @@
 const vishuddhaPages_jp = {
 
 1: `
-日本語 Ahau reveals the hidden desire of Imix.
+アハウはイミシュの隠された願いを明らかにします。
 
-Every beginning seeks wholeness.
+すべての始まりは全体性を求めます。
 
-New possibilities are exciting, but beneath them lies a deeper wish.
+新しい可能性は魅力的ですが、
+その奥にはより深い願いがあります。
 
-You do not simply seek new experiences.
+あなたは新しい経験だけを求めているのではありません。
 
-You seek understanding.
+理解を求めています。
 
-The desire behind every beginning is completeness.
+すべての始まりの背後にある願いは完全性です。
 `,
 
 2: `
-日本語 Cauac reveals the hidden desire of Ik.
+カウアクはイクの隠された願いを明らかにします。
 
-Communication ultimately seeks renewal.
+コミュニケーションは最終的に再生を求めます。
 
-Words become meaningful when they create change.
+言葉は変化を生み出すとき意味を持ちます。
 
-You do not speak merely to exchange information.
+あなたは単に情報を交換するために話すのではありません。
 
-You seek transformation.
+変容を求めています。
 
-The desire behind communication is growth.
+コミュニケーションの背後にある願いは成長です。
 `,
 
 3: `
-日本語 Etznab reveals the hidden desire of Akbal.
+エツナブはアクバルの隠された願いを明らかにします。
 
-Mystery seeks truth.
+神秘は真実を求めます。
 
-The unknown is attractive because something wishes to be revealed.
+未知が魅力的なのは、
+何かが明らかになろうとしているからです。
 
-You do not seek darkness for its own sake.
+あなたは闇そのものを求めているのではありません。
 
-You seek clarity hidden within it.
+その中に隠された明晰さを求めています。
 
-The desire behind mystery is understanding.
+神秘の背後にある願いは理解です。
 `,
 
 4: `
-日本語 Caban reveals the hidden desire of Kan.
+カバンはカンの隠された願いを明らかにします。
 
-Growth seeks discovery.
+成長は発見を求めます。
 
-Potential longs to become experience.
+可能性は経験になることを望んでいます。
 
-You do not grow merely to become larger.
+あなたは単に大きくなるために成長するのではありません。
 
-You grow to explore what is possible.
+可能なことを探究するために成長します。
 
-The desire behind growth is exploration.
+成長の背後にある願いは探究です。
 `,
 
 5: `
-日本語 Cib reveals the hidden desire of Chicchan.
+シブはチクチャンの隠された願いを明らかにします。
 
-Vitality seeks wisdom.
+生命力は知恵を求めます。
 
-Experience alone is never enough.
+経験だけでは十分ではありません。
 
-Every passion carries a lesson.
+すべての情熱には学びがあります。
 
-The desire behind intensity is understanding.
+強い感情の背後にある願いは理解です。
 
-Life wishes to teach through feeling.
+生命は感覚を通して教えようとしています。
 `,
 
 6: `
-日本語 Men reveals the hidden desire of Cimi.
+メンはシミの隠された願いを明らかにします。
 
-Transformation seeks perspective.
+変容は視点を求めます。
 
-Change becomes easier when viewed from a greater height.
+変化はより大きな全体から見たとき受け入れやすくなります。
 
-You do not change simply to leave something behind.
+あなたは何かを置き去りにするためだけに変わるのではありません。
 
-You change to see further.
+より遠くを見るために変わります。
 
-The desire behind transformation is vision.
+変容の背後にある願いはビジョンです。
 `,
 
 7: `
-日本語 Ix reveals the hidden desire of Manik.
+イシュはマニクの隠された願いを明らかにします。
 
-Service seeks awareness.
+奉仕は気づきを求めます。
 
-Helping others eventually becomes a path of self-discovery.
+他者を助けることは、
+やがて自己発見の道になります。
 
-You do not serve merely to give.
+あなたは与えるためだけに奉仕するのではありません。
 
-You serve to understand.
+理解するために奉仕します。
 
-The desire behind service is consciousness.
+奉仕の背後にある願いは気づきです。
 `,
 
 8: `
-日本語 Ben reveals the hidden desire of Lamat.
+ベンはラマトの隠された願いを明らかにします。
 
-Beauty seeks purpose.
+美は目的を求めます。
 
-Harmony wishes to become something lasting.
+調和は永続する何かになろうとします。
 
-You do not appreciate beauty only to admire it.
+あなたは美をただ鑑賞するためだけに求めるのではありません。
 
-You wish to build with it.
+それを用いて創造したいのです。
 
-The desire behind beauty is creation.
+美の背後にある願いは創造です。
 `,
 
 9: `
-日本語 Eb reveals the hidden desire of Muluc.
+エブはムルクの隠された願いを明らかにします。
 
-Meaning seeks experience.
+意味は経験を求めます。
 
-Purpose becomes real only when lived.
+目的は生きられることで現実になります。
 
-You do not seek meaning merely to possess it.
+あなたは意味を所有するためだけに求めるのではありません。
 
-You seek to walk it.
+それを歩むために求めます。
 
-The desire behind meaning is participation.
+意味の背後にある願いは参加です。
 `,
 
 10: `
-日本語 Chuen reveals the hidden desire of Oc.
+チューエンはオクの隠された願いを明らかにします。
 
-Loyalty seeks joy.
+忠誠は喜びを求めます。
 
-Connection flourishes through creativity and play.
+つながりは創造性と遊びによって育まれます。
 
-You do not remain devoted only out of duty.
+あなたは義務だけで忠実であり続けるのではありません。
 
-You remain because life becomes richer together.
+共にいることで人生が豊かになるからです。
 
-The desire behind loyalty is shared happiness.
+忠誠の背後にある願いは共有された幸福です。
 `,
 
 11: `
-日本語 Oc reveals the hidden desire of Chuen.
+オクはチューエンの隠された願いを明らかにします。
 
-Creativity seeks connection.
+創造性はつながりを求めます。
 
-Ideas become alive when shared.
+アイデアは共有されることで生き始めます。
 
-You do not create merely to express yourself.
+あなたは自分を表現するためだけに創造するのではありません。
 
-You create to build relationships.
+関係を築くために創造します。
 
-The desire behind creativity is belonging.
+創造性の背後にある願いは結びつきです。
 `,
 
 12: `
-日本語 Muluc reveals the hidden desire of Eb.
+ムルクはエブの隠された願いを明らかにします。
 
-Experience seeks meaning.
+経験は意味を求めます。
 
-Every journey eventually asks why it matters.
+すべての旅は、
+やがてなぜ重要なのかを問いかけます。
 
-You do not travel simply to move.
+あなたはただ前進するために動くのではありません。
 
-You move to discover purpose.
+目的を発見するために動きます。
 
-The desire behind experience is significance.
+経験の背後にある願いは意味です。
 `,
 
 13: `
-日本語 Lamat reveals the hidden desire of Ben.
+ラマトはベンの隠された願いを明らかにします。
 
-Vision seeks beauty.
+ビジョンは美を求めます。
 
-A future worth building must also be worth loving.
+築く価値のある未来は、
+愛する価値もなければなりません。
 
-You do not create only for function.
+あなたは機能のためだけに創造するのではありません。
 
-You create for harmony.
+調和のために創造します。
 
-The desire behind vision is beauty.
+ビジョンの背後にある願いは美です。
 `,
 
 14: `
-日本語 Manik reveals the hidden desire of Ix.
+マニクはイシュの隠された願いを明らかにします。
 
-Awareness seeks service.
+気づきは奉仕を求めます。
 
-Insight naturally wishes to become useful.
+洞察は自然に役立つものになろうとします。
 
-You do not understand merely for yourself.
+あなたは自分のためだけに理解するのではありません。
 
-You understand to contribute.
+貢献するために理解します。
 
-The desire behind awareness is generosity.
+気づきの背後にある願いは寛大さです。
 `,
 
 15: `
-日本語 Cimi reveals the hidden desire of Men.
+シミはメンの隠された願いを明らかにします。
 
-Perspective seeks life.
+視点は生命を求めます。
 
-A distant view eventually returns to direct experience.
+遠くからの眺めは、
+やがて直接の経験へと戻ります。
 
-You do not rise above life to escape it.
+あなたは人生から逃げるために高く昇るのではありません。
 
-You rise above it to re-enter it more fully.
+より深く人生に戻るために昇るのです。
 
-The desire behind perspective is transformation.
+視点の背後にある願いは変容です。
 `,
 
 16: `
-日本語 Chicchan reveals the hidden desire of Cib.
+チクチャンはシブの隠された願いを明らかにします。
 
-Wisdom seeks vitality.
+知恵は生命力を求めます。
 
-Understanding becomes meaningful when it is lived.
+理解は生きられることで意味を持ちます。
 
-Knowledge alone cannot replace experience.
+知識だけでは経験の代わりにはなりません。
 
-Insight wishes to become movement.
+洞察は動きになることを望んでいます。
 
-The desire behind wisdom is aliveness.
+知恵の背後にある願いは生命です。
 `,
 
 17: `
-日本語 Kan reveals the hidden desire of Caban.
+カンはカバンの隠された願いを明らかにします。
 
-Discovery seeks growth.
+発見は成長を求めます。
 
-Exploration reveals possibilities that wish to be developed.
+探究は発展したがっている可能性を明らかにします。
 
-You do not seek answers merely to know.
+あなたは知るためだけに答えを求めるのではありません。
 
-You seek them to become.
+成るために答えを求めます。
 
-The desire behind discovery is development.
+発見の背後にある願いは成長です。
 `,
 
 18: `
-日本語 Akbal reveals the hidden desire of Etznab.
+アクバルはエツナブの隠された願いを明らかにします。
 
-Truth seeks mystery.
+真実は神秘を求めます。
 
-Every revelation opens another door.
+すべての啓示は新たな扉を開きます。
 
-You do not seek truth to end the search.
+あなたは探求を終わらせるために真実を求めるのではありません。
 
-You seek truth to deepen it.
+探求を深めるために真実を求めます。
 
-The desire behind clarity is wonder.
+明晰さの背後にある願いは驚きです。
 `,
 
 19: `
-日本語 Ik reveals the hidden desire of Cauac.
+イクはカウアクの隠された願いを明らかにします。
 
-Renewal seeks connection.
+再生はつながりを求めます。
 
-After every storm comes a need to communicate, reconnect and rebuild.
+嵐の後には、
+再び語り合い、結びつき、築き直したいという願いが生まれます。
 
-You do not transform merely to change.
+あなたは変化するためだけに変容するのではありません。
 
-You transform to relate differently.
+新しい関係の在り方を見つけるために変容します。
 
-The desire behind renewal is relationship.
+再生の背後にある願いは関係性です。
 `,
 
 20: `
-日本語 Imix reveals the hidden desire of Ahau.
+イミシュはアハウの隠された願いを明らかにします。
 
-Wholeness seeks new beginnings.
+全体性は新しい始まりを求めます。
 
-Completion is never final.
+完成は決して最終地点ではありません。
 
-Every ending contains another seed.
+すべての終わりには新しい種があります。
 
-You do not seek fulfillment to stop.
+あなたは終わるために充足を求めるのではありません。
 
-You seek fulfillment to begin again.
+再び始めるために充足を求めます。
 
-The desire behind wholeness is creation.
+全体性の背後にある願いは創造です。
 `
 
 };

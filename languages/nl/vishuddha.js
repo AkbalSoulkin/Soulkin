@@ -1,285 +1,272 @@
 const vishuddhaPages_nl = {
 
 1: `
-Ahau reveals the hidden desire of Imix.
+Ahau onthult het verborgen verlangen van Imix.
 
-Every beginning seeks wholeness.
+Elk begin zoekt heelheid.
 
-New possibilities are exciting, but beneath them lies a deeper wish.
+Nieuwe mogelijkheden zijn opwindend, maar daaronder ligt een diepere wens.
 
-You do not simply seek new experiences.
+Je zoekt niet alleen nieuwe ervaringen.
 
-You seek understanding.
+Je zoekt begrip.
 
-The desire behind every beginning is completeness.
+Het verlangen achter ieder begin is volledigheid.
 `,
 
 2: `
-Cauac reveals the hidden desire of Ik.
+Cauac onthult het verborgen verlangen van Ik.
 
-Communication ultimately seeks renewal.
+Communicatie zoekt uiteindelijk vernieuwing.
 
-Words become meaningful when they create change.
+Woorden krijgen betekenis wanneer zij verandering creëren.
 
-You do not speak merely to exchange information.
+Je spreekt niet alleen om informatie uit te wisselen.
 
-You seek transformation.
+Je zoekt transformatie.
 
-The desire behind communication is growth.
+Het verlangen achter communicatie is groei.
 `,
 
 3: `
-Etznab reveals the hidden desire of Akbal.
+Etznab onthult het verborgen verlangen van Akbal.
 
-Mystery seeks truth.
+Mysterie zoekt waarheid.
 
-The unknown is attractive because something wishes to be revealed.
+Het onbekende is aantrekkelijk omdat iets onthuld wil worden.
 
-You do not seek darkness for its own sake.
+Je zoekt niet het duister omwille van het duister.
 
-You seek clarity hidden within it.
+Je zoekt de helderheid die erin verborgen ligt.
 
-The desire behind mystery is understanding.
+Het verlangen achter mysterie is begrip.
 `,
 
 4: `
-Caban reveals the hidden desire of Kan.
+Caban onthult het verborgen verlangen van Kan.
 
-Growth seeks discovery.
+Groei zoekt ontdekking.
 
-Potential longs to become experience.
+Potentieel verlangt ernaar ervaring te worden.
 
-You do not grow merely to become larger.
+Je groeit niet alleen om groter te worden.
 
-You grow to explore what is possible.
+Je groeit om te ontdekken wat mogelijk is.
 
-The desire behind growth is exploration.
+Het verlangen achter groei is verkenning.
 `,
 
 5: `
-Cib reveals the hidden desire of Chicchan.
+Cib onthult het verborgen verlangen van Chicchan.
 
-Vitality seeks wisdom.
+Vitaliteit zoekt wijsheid.
 
-Experience alone is never enough.
+Ervaring alleen is nooit voldoende.
 
-Every passion carries a lesson.
+Elke passie draagt een les in zich.
 
-The desire behind intensity is understanding.
+Het verlangen achter intensiteit is begrip.
 
-Life wishes to teach through feeling.
+Het leven wil onderwijzen door gevoel.
 `,
 
 6: `
-Men reveals the hidden desire of Cimi.
+Men onthult het verborgen verlangen van Cimi.
 
-Transformation seeks perspective.
+Transformatie zoekt perspectief.
 
-Change becomes easier when viewed from a greater height.
+Verandering wordt gemakkelijker wanneer zij vanuit een groter geheel wordt bekeken.
 
-You do not change simply to leave something behind.
+Je verandert niet alleen om iets achter te laten.
 
-You change to see further.
+Je verandert om verder te kunnen zien.
 
-The desire behind transformation is vision.
+Het verlangen achter transformatie is visie.
 `,
 
 7: `
-Ix reveals the hidden desire of Manik.
+Ix onthult het verborgen verlangen van Manik.
 
-Service seeks awareness.
+Dienstbaarheid zoekt bewustzijn.
 
-Helping others eventually becomes a path of self-discovery.
+Anderen helpen wordt uiteindelijk een pad van zelfontdekking.
 
-You do not serve merely to give.
+Je dient niet alleen om te geven.
 
-You serve to understand.
+Je dient om te begrijpen.
 
-The desire behind service is consciousness.
+Het verlangen achter dienstbaarheid is bewustzijn.
 `,
 
 8: `
-Ben reveals the hidden desire of Lamat.
+Ben onthult het verborgen verlangen van Lamat.
 
-Beauty seeks purpose.
+Schoonheid zoekt doel.
 
-Harmony wishes to become something lasting.
+Harmonie verlangt ernaar iets blijvends te worden.
 
-You do not appreciate beauty only to admire it.
+Je waardeert schoonheid niet alleen om haar te bewonderen.
 
-You wish to build with it.
+Je wilt ermee bouwen.
 
-The desire behind beauty is creation.
+Het verlangen achter schoonheid is schepping.
 `,
 
 9: `
-Eb reveals the hidden desire of Muluc.
+Eb onthult het verborgen verlangen van Muluc.
 
-Meaning seeks experience.
+Betekenis zoekt ervaring.
 
-Purpose becomes real only when lived.
+Doel wordt pas werkelijk wanneer het wordt geleefd.
 
-You do not seek meaning merely to possess it.
+Je zoekt betekenis niet alleen om haar te bezitten.
 
-You seek to walk it.
+Je zoekt haar om te bewandelen.
 
-The desire behind meaning is participation.
-`,
-
-10: `
-Chuen reveals the hidden desire of Oc.
-
-Loyalty seeks joy.
-
-Connection flourishes through creativity and play.
-
-You do not remain devoted only out of duty.
-
-You remain because life becomes richer together.
-
-The desire behind loyalty is shared happiness.
+Het verlangen achter betekenis is deelname.
 `,
 
 11: `
-Oc reveals the hidden desire of Chuen.
+Oc onthult het verborgen verlangen van Chuen.
 
-Creativity seeks connection.
+Creativiteit zoekt verbinding.
 
-Ideas become alive when shared.
+Ideeën komen tot leven wanneer zij worden gedeeld.
 
-You do not create merely to express yourself.
+Je creëert niet alleen om jezelf uit te drukken.
 
-You create to build relationships.
+Je creëert om relaties op te bouwen.
 
-The desire behind creativity is belonging.
+Het verlangen achter creativiteit is verbondenheid.
 `,
 
 12: `
-Muluc reveals the hidden desire of Eb.
+Muluc onthult het verborgen verlangen van Eb.
 
-Experience seeks meaning.
+Ervaring zoekt betekenis.
 
-Every journey eventually asks why it matters.
+Elke reis stelt uiteindelijk de vraag waarom zij belangrijk is.
 
-You do not travel simply to move.
+Je beweegt niet alleen om vooruit te komen.
 
-You move to discover purpose.
+Je beweegt om doel te ontdekken.
 
-The desire behind experience is significance.
+Het verlangen achter ervaring is betekenis.
 `,
 
 13: `
-Lamat reveals the hidden desire of Ben.
+Lamat onthult het verborgen verlangen van Ben.
 
-Vision seeks beauty.
+Visie zoekt schoonheid.
 
-A future worth building must also be worth loving.
+Een toekomst die de moeite waard is om te bouwen,
+moet ook de moeite waard zijn om lief te hebben.
 
-You do not create only for function.
+Je creëert niet alleen voor functionaliteit.
 
-You create for harmony.
+Je creëert voor harmonie.
 
-The desire behind vision is beauty.
+Het verlangen achter visie is schoonheid.
 `,
 
 14: `
-Manik reveals the hidden desire of Ix.
+Manik onthult het verborgen verlangen van Ix.
 
-Awareness seeks service.
+Bewustzijn zoekt dienstbaarheid.
 
-Insight naturally wishes to become useful.
+Inzicht wil van nature nuttig worden.
 
-You do not understand merely for yourself.
+Je begrijpt niet alleen voor jezelf.
 
-You understand to contribute.
+Je begrijpt om bij te dragen.
 
-The desire behind awareness is generosity.
+Het verlangen achter bewustzijn is vrijgevigheid.
 `,
 
 15: `
-Cimi reveals the hidden desire of Men.
+Cimi onthult het verborgen verlangen van Men.
 
-Perspective seeks life.
+Perspectief zoekt leven.
 
-A distant view eventually returns to direct experience.
+Een verre blik keert uiteindelijk terug naar directe ervaring.
 
-You do not rise above life to escape it.
+Je stijgt niet boven het leven uit om eraan te ontsnappen.
 
-You rise above it to re-enter it more fully.
+Je stijgt erboven uit om er vollediger naar terug te keren.
 
-The desire behind perspective is transformation.
+Het verlangen achter perspectief is transformatie.
 `,
 
 16: `
-Chicchan reveals the hidden desire of Cib.
+Chicchan onthult het verborgen verlangen van Cib.
 
-Wisdom seeks vitality.
+Wijsheid zoekt vitaliteit.
 
-Understanding becomes meaningful when it is lived.
+Begrip krijgt betekenis wanneer het wordt geleefd.
 
-Knowledge alone cannot replace experience.
+Kennis alleen kan ervaring niet vervangen.
 
-Insight wishes to become movement.
+Inzicht verlangt ernaar beweging te worden.
 
-The desire behind wisdom is aliveness.
+Het verlangen achter wijsheid is levendigheid.
 `,
 
 17: `
-Kan reveals the hidden desire of Caban.
+Kan onthult het verborgen verlangen van Caban.
 
-Discovery seeks growth.
+Ontdekking zoekt groei.
 
-Exploration reveals possibilities that wish to be developed.
+Verkenning onthult mogelijkheden die ontwikkeld willen worden.
 
-You do not seek answers merely to know.
+Je zoekt antwoorden niet alleen om te weten.
 
-You seek them to become.
+Je zoekt ze om te worden.
 
-The desire behind discovery is development.
+Het verlangen achter ontdekking is ontwikkeling.
 `,
 
 18: `
-Akbal reveals the hidden desire of Etznab.
+Akbal onthult het verborgen verlangen van Etznab.
 
-Truth seeks mystery.
+Waarheid zoekt mysterie.
 
-Every revelation opens another door.
+Elke openbaring opent een nieuwe deur.
 
-You do not seek truth to end the search.
+Je zoekt waarheid niet om de zoektocht te beëindigen.
 
-You seek truth to deepen it.
+Je zoekt waarheid om haar te verdiepen.
 
-The desire behind clarity is wonder.
+Het verlangen achter helderheid is verwondering.
 `,
 
 19: `
-Ik reveals the hidden desire of Cauac.
+Ik onthult het verborgen verlangen van Cauac.
 
-Renewal seeks connection.
+Vernieuwing zoekt verbinding.
 
-After every storm comes a need to communicate, reconnect and rebuild.
+Na iedere storm ontstaat de behoefte om opnieuw contact te maken, te communiceren en te herbouwen.
 
-You do not transform merely to change.
+Je transformeert niet alleen om te veranderen.
 
-You transform to relate differently.
+Je transformeert om anders te kunnen verbinden.
 
-The desire behind renewal is relationship.
+Het verlangen achter vernieuwing is relatie.
 `,
 
 20: `
-Imix reveals the hidden desire of Ahau.
+Imix onthult het verborgen verlangen van Ahau.
 
-Wholeness seeks new beginnings.
+Heelheid zoekt nieuwe beginnen.
 
-Completion is never final.
+Voltooiing is nooit definitief.
 
-Every ending contains another seed.
+Elk einde bevat een nieuw zaad.
 
-You do not seek fulfillment to stop.
+Je zoekt vervulling niet om te stoppen.
 
-You seek fulfillment to begin again.
+Je zoekt vervulling om opnieuw te beginnen.
 
-The desire behind wholeness is creation.
+Het verlangen achter heelheid is schepping.
 `
 
 };
