@@ -1142,8 +1142,9 @@ function updateActivePage(){
     panel.style.background =
       "rgba(0,0,0,0.35)";
 
-  title.innerHTML =
-    lang.introTitle;
+    title.innerHTML = lang.introTitle;
+
+  title.classList.add("chakraTitle");
 
   content.innerHTML =
     lang.introText;
@@ -1156,6 +1157,8 @@ function updateActivePage(){
       "rgba(120,0,0,0.35)";
 
     title.innerHTML = lang.muladhara;
+
+    title.classList.remove("chakraTitle");
 
     let kingWenText = "";
 
@@ -1177,6 +1180,8 @@ function updateActivePage(){
 
     title.innerHTML = lang.sahasrara;
 
+    title.classList.remove("chakraTitle");
+
     content.innerHTML =
       pages.sahasrara[night];
   }
@@ -1187,6 +1192,8 @@ function updateActivePage(){
       "rgba(0,128,0,0.25)";
 
     title.innerHTML = lang.anahata;
+
+    title.classList.remove("chakraTitle");
 
     let rootStateText = "";
 
@@ -1208,6 +1215,8 @@ function updateActivePage(){
 
     title.innerHTML = lang.vishuddha;
 
+    title.classList.remove("chakraTitle");
+
     content.innerHTML =
       pages.vishuddha[seal + 1];
   }
@@ -1218,6 +1227,8 @@ function updateActivePage(){
       "rgba(255,120,0,0.25)";
 
     title.innerHTML = lang.svadhisthana;
+
+    title.classList.remove("chakraTitle");
 
     content.innerHTML =
       pages.svadhisthana[seal + 1];
@@ -1230,6 +1241,8 @@ function updateActivePage(){
 
     title.innerHTML = lang.manipura;
 
+    title.classList.remove("chakraTitle");
+
     content.innerHTML =
       pages.manipura[seal + 1];
   }
@@ -1240,6 +1253,8 @@ function updateActivePage(){
       "rgba(90,70,180,0.28)";
 
     title.innerHTML = lang.ajna;
+
+    title.classList.remove("chakraTitle");
 
     const sealKey =
       sealKeys[seal];
