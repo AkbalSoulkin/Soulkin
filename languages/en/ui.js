@@ -66,7 +66,7 @@ counted the new day from sunrise instead
 of midnight.
 `,
 
-introTitle: "Soulkin",
+introTitle: "&nbsp;&nbsp;S&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;o&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;l&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;k&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;n",
 
 introText: `
 Welcome to Soulkin.

@@ -67,7 +67,7 @@ Soulkinで使われている五芒星は、
 真夜中ではなく日の出から数えるものも多かったからです。
 `,
 
-  introTitle: "Soulkin",
+introTitle: "&nbsp;&nbsp;S&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;o&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;l&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;k&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;n",
 
 introText: `
 Soulkinへようこそ。

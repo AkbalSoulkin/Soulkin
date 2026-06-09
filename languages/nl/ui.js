@@ -66,7 +66,7 @@ de nieuwe dag vanaf zonsopkomst telden
 in plaats van vanaf middernacht.
 `,
 
-introTitle: "Soulkin",
+introTitle: "&nbsp;&nbsp;S&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;o&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;l&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;k&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;n",
 
 introText: `
 Welkom bij Soulkin.
