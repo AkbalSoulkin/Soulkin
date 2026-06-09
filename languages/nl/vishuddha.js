@@ -126,6 +126,20 @@ Je zoekt haar om te bewandelen.
 Het verlangen achter betekenis is deelname.
 `,
 
+10: `
+Chuen onthult het verborgen verlangen van Oc.
+
+Loyaliteit zoekt vreugde.
+
+Verbinding bloeit door creativiteit en spel.
+
+Je blijft niet toegewijd uit plicht alleen.
+
+Je blijft omdat het leven samen rijker wordt.
+
+Het verlangen achter loyaliteit is gedeeld geluk.
+`,
+
 11: `
 Oc onthult het verborgen verlangen van Chuen.
 
