@@ -3,84 +3,85 @@ const ajnaPages_jp = {
 imix: {
 
   1: `
-Imix reflects Imix.
+イミシュはイミシュを映します。
 
-Possibility recognizes itself.
+可能性は自らを認識します。
 
-Every beginning contains another beginning.
+すべての始まりには、新たな始まりが含まれています。
 
-The search is not for certainty.
+探求は確実性を求めるものではありません。
 
-It is for the next opening.
+それは次なる扉を見つけるためのものです。
 
-When possibility reflects itself, curiosity becomes the path.
+可能性が自らを映すとき、
+好奇心は道となります。
 
-The search begins again.
+探求は再び始まります。
 `,
 
-
   2: `
-Chicchan guides Imix.
+チクチャンはイミシュを導きます。
 
-Possibility seeks vitality.
+可能性は生命力を求めます。
 
-Ideas become meaningful when they are lived.
+アイデアは生きられることで意味を持ちます。
 
-A path cannot be discovered through thought alone.
+道は思考だけでは発見できません。
 
-Movement reveals what imagination cannot.
+動きは想像だけでは見えないものを明らかにします。
 
-The search awakens through participation.
+探求は参加によって目覚めます。
 
-Life gives possibility its heartbeat.
+生命は可能性に鼓動を与えます。
 `,
 
   3: `
-Muluc guides Imix.
+ムルクはイミシュを導きます。
 
-Possibility seeks meaning.
+可能性は意味を求めます。
 
-Many doors may open.
+多くの扉が開くかもしれません。
 
-Not every door belongs to your journey.
+しかし、すべてがあなたの旅の扉ではありません。
 
-The guide asks what truly matters.
+ガイドは本当に大切なものを問いかけます。
 
-Meaning transforms curiosity into direction.
+意味は好奇心を方向へと変えます。
 
-Purpose gives possibility its depth.
+目的は可能性に深みを与えます。
 `,
 
   4: `
-Ben guides Imix.
+ベンはイミシュを導きます。
 
-Possibility seeks vision.
+可能性はビジョンを求めます。
 
-A beginning becomes stronger when it can see beyond itself.
+始まりは、自分自身を超えて見渡せるとき強くなります。
 
-The future does not need to be fully known.
+未来を完全に知る必要はありません。
 
-It only needs to be visible enough to move toward.
+進むために十分見えていればよいのです。
 
-Vision transforms potential into intention.
+ビジョンは可能性を意図へと変えます。
 
-Direction gives possibility its horizon.
+方向は可能性に地平線を与えます。
 `,
 
-    5: `
-Caban guides Imix.
+  5: `
+カバンはイミシュを導きます。
 
-Possibility seeks discovery.
+可能性は発見を求めます。
 
-Every answer reveals another question.
+ひとつの答えは新たな問いを生みます。
 
-Every horizon reveals another landscape.
+ひとつの地平線は新たな景色を見せます。
 
-The search continues because reality remains larger than expectation.
+現実は期待よりも広いため、
+探求は続いていきます。
 
-Discovery transforms potential into experience.
+発見は可能性を経験へと変えます。
 
-Wonder gives possibility its adventure.
+驚きは可能性に冒険を与えます。
 `
 
   },
@@ -88,1468 +89,1453 @@ Wonder gives possibility its adventure.
 ik: {
 
   1: `
-Ik reflects Ik.
+イクはイクを映します。
 
-Connection recognizes itself.
+つながりは自らを認識します。
 
-Every relationship begins with awareness.
+すべての関係は気づきから始まります。
 
-Before understanding another, you must first become present.
+他者を理解する前に、
+まず自分自身がその場に存在する必要があります。
 
-The search is not for agreement.
+探求は同意を求めるものではありません。
 
-It is for genuine contact.
+それは真の接触を求めるものです。
 
-Connection begins wherever separation ends.
+つながりは分離が終わる場所から始まります。
 `,
 
   2: `
-Cimi guides Ik.
+シミはイクを導きます。
 
-Connection seeks transformation.
+つながりは変容を求めます。
 
-No relationship remains unchanged.
+どの関係も同じままではいられません。
 
-Every encounter leaves a mark.
+すべての出会いは痕跡を残します。
 
-Growth asks both people to evolve beyond who they were before.
+成長は、以前の自分を超えて進むことを求めます。
 
-The search continues because connection changes those who enter it.
+探求は続きます。
 
-Transformation gives connection its depth.
+なぜなら、つながりは関わる者を変えるからです。
+
+変容はつながりに深みを与えます。
 `,
 
   3: `
-Oc guides Ik.
+オクはイクを導きます。
 
-Connection seeks belonging.
+つながりは帰属を求めます。
 
-Understanding grows through trust.
+理解は信頼を通して育ちます。
 
-A bridge becomes meaningful when it can be crossed from both directions.
+橋は両側から渡れるときに意味を持ちます。
 
-The search is not only for contact.
+探求は接触だけを求めるものではありません。
 
-It is also for companionship.
+それは仲間を求めるものでもあります。
 
-Belonging gives connection its warmth.
+帰属はつながりに温かさを与えます。
 `,
 
   4: `
-Ix guides Ik.
+イシュはイクを導きます。
 
-Connection seeks awareness.
+つながりは気づきを求めます。
 
-Not everything spoken is understood.
+語られたすべてが理解されるわけではありません。
 
-Not everything understood is spoken.
+理解されたすべてが語られるわけでもありません。
 
-Attention reveals what words often conceal.
+注意深さは言葉が隠すものを明らかにします。
 
-The search deepens when observation deepens.
+観察が深まると探求も深まります。
 
-Awareness gives connection its clarity.
+気づきはつながりに明晰さを与えます。
 `,
 
   5: `
-Etznab guides Ik.
+エツナブはイクを導きます。
 
-Connection seeks truth.
+つながりは真実を求めます。
 
-Relationships become stronger when illusion falls away.
+幻想が取り除かれると関係は強くなります。
 
-Honesty may feel uncomfortable.
+正直さは時に心地よくないかもしれません。
 
-Yet what is real can withstand examination.
+しかし、本物は検証に耐えることができます。
 
-The search asks for authenticity before certainty.
+探求は確実性よりも先に誠実さを求めます。
 
-Truth gives connection its foundation.
+真実はつながりに土台を与えます。
 `
+
 
   },
 
 akbal: {
 
   1: `
-Akbal reflects Akbal.
+アクバルはアクバルを映します。
 
-Mystery recognizes itself.
+神秘は自らを認識します。
 
-Not every unknown asks to be solved.
+すべての未知が解かれることを望んでいるわけではありません。
 
-Some doors remain valuable because they remain unopened.
+ある扉は開かれないままでいるからこそ価値があります。
 
-The search is not for certainty.
+探求は確実性を求めるものではありません。
 
-It is for the depth behind the question.
+それは問いの奥にある深みを求めるものです。
 
-Mystery becomes its own path.
+神秘はそれ自体が道となります。
 `,
 
   2: `
-Manik guides Akbal.
+マニクはアクバルを導きます。
 
-Mystery seeks service.
+神秘は奉仕を求めます。
 
-What is hidden becomes meaningful when it helps someone see more clearly.
+隠されたものは、
+誰かがより明確に見えるよう助けるとき意味を持ちます。
 
-Insight is not meant to remain isolated.
+洞察は孤立するためのものではありません。
 
-The guide asks how inner discoveries can become useful.
+ガイドは内なる発見がどのように役立つかを問いかけます。
 
-Service gives mystery a hand.
+奉仕は神秘に手を与えます。
 `,
 
   3: `
-Chuen guides Akbal.
+チューエンはアクバルを導きます。
 
-Mystery seeks creativity.
+神秘は創造性を求めます。
 
-The unknown does not always need a serious face.
+未知は必ずしも深刻な顔をしている必要はありません。
 
-Imagination can enter places logic cannot.
+想像力は論理が届かない場所へ入ることができます。
 
-Play opens hidden doors.
+遊びは隠れた扉を開きます。
 
-Creativity gives mystery its language.
+創造性は神秘に言葉を与えます。
 `,
 
   4: `
-Men guides Akbal.
+メンはアクバルを導きます。
 
-Mystery seeks perspective.
+神秘は視点を求めます。
 
-Darkness changes when seen from above.
+闇は高い場所から見ると姿を変えます。
 
-What feels confusing up close may reveal a pattern from a wider view.
+近くでは混乱に見えるものも、
+広い視野からはひとつのパターンを示すかもしれません。
 
-The guide does not remove the mystery.
+ガイドは神秘を取り除きません。
 
-It teaches you how to look.
+見方を教えるのです。
 
-Perspective gives mystery its horizon.
+視点は神秘に地平線を与えます。
 `,
 
   5: `
-Cauac guides Akbal.
+カウアクはアクバルを導きます。
 
-Mystery seeks renewal.
+神秘は再生を求めます。
 
-The unknown can become too familiar.
+未知は時に馴染み深くなりすぎます。
 
-A storm breaks the old interpretation open.
+嵐は古い解釈を打ち破ります。
 
-What once seemed hidden may be ready to transform.
+隠されていたものは、
+変容の準備ができているかもしれません。
 
-Renewal gives mystery its movement.
+再生は神秘に動きを与えます。
 `
+
 
   },
 
 kan: {
 
   1: `
-Kan reflects Kan.
+カンはカンを映します。
 
-Potential recognizes itself.
+可能性は自らを認識します。
 
-Every possibility exists before it takes form.
+あらゆる可能性は形になる前から存在しています。
 
-Nothing has been chosen.
+まだ何も選ばれていません。
 
-Nothing has been rejected.
+まだ何も拒まれていません。
 
-The search begins in openness.
+探求は開かれた状態から始まります。
 
-Potential becomes aware of its own abundance.
+可能性は自らの豊かさに気づきます。
 `,
 
   2: `
-Lamat guides Kan.
+ラマトはカンを導きます。
 
-Potential seeks beauty.
+可能性は美を求めます。
 
-Growth is encouraged by what inspires it.
+成長はインスピレーションによって育まれます。
 
-Not every possibility deserves equal attention.
+すべての可能性が同じ注意を必要とするわけではありません。
 
-Some paths shine because they resonate more deeply.
+ある道はより深く共鳴するため輝いて見えます。
 
-Beauty gives potential its attraction.
+美は可能性に引力を与えます。
 `,
 
   3: `
-Eb guides Kan.
+エブはカンを導きます。
 
-Potential seeks experience.
+可能性は経験を求めます。
 
-A possibility remains theoretical until it is lived.
+可能性は生きられるまでは理論のままです。
 
-Understanding grows through participation.
+理解は参加によって育ちます。
 
-The guide invites you to step onto the road.
+ガイドはあなたを道へと招きます。
 
-Experience gives potential its reality.
+経験は可能性に現実を与えます。
 `,
 
   4: `
-Cib guides Kan.
+シブはカンを導きます。
 
-Potential seeks wisdom.
+可能性は知恵を求めます。
 
-Many opportunities appear valuable.
+多くの機会は価値があるように見えます。
 
-Time reveals which ones truly matter.
+時間だけが本当に大切なものを明らかにします。
 
-The guide encourages patience and reflection.
+ガイドは忍耐と内省を促します。
 
-Wisdom gives potential its discernment.
+知恵は可能性に識別する力を与えます。
 `,
 
   5: `
-Ahau guides Kan.
+アハウはカンを導きます。
 
-Potential seeks wholeness.
+可能性は全体性を求めます。
 
-Every seed contains more than a single outcome.
+ひとつの種には複数の未来が含まれています。
 
-Growth moves toward integration.
+成長は統合へ向かいます。
 
-The guide reminds you that possibilities become meaningful when they serve a larger whole.
+ガイドは、可能性がより大きな全体に仕えるとき意味を持つことを思い出させます。
 
-Wholeness gives potential its purpose.
+全体性は可能性に目的を与えます。
 `
+
 
   },
 
 chicchan: {
 
   1: `
-Chicchan reflects Chicchan.
+チクチャンはチクチャンを映します。
 
-Vitality recognizes itself.
+生命力は自らを認識します。
 
-Life wishes to express itself fully.
+生命は自らを完全に表現したいと願っています。
 
-Energy seeks movement.
+エネルギーは動きを求めます。
 
-Movement seeks experience.
+動きは経験を求めます。
 
-The search is not for permission.
+探求は許可を求めるものではありません。
 
-It is for participation.
+それは参加を求めるものです。
 
-Vitality becomes aware of its own aliveness.
+生命力は自らの生き生きとした力に気づきます。
 `,
 
   2: `
-Muluc guides Chicchan.
+ムルクはチクチャンを導きます。
 
-Vitality seeks meaning.
+生命力は意味を求めます。
 
-Energy alone is not enough.
+エネルギーだけでは十分ではありません。
 
-Movement becomes more powerful when it serves something that matters.
+動きは大切なものに仕えるとき、より強い力を持ちます。
 
-The guide asks what your passion is truly feeding.
+ガイドは、あなたの情熱が何を育んでいるのかを問いかけます。
 
-Meaning gives vitality its depth.
+意味は生命力に深みを与えます。
 `,
 
   3: `
-Ben guides Chicchan.
+ベンはチクチャンを導きます。
 
-Vitality seeks vision.
+生命力はビジョンを求めます。
 
-Life naturally moves.
+生命は自然に動き続けます。
 
-The question is where it is moving.
+問題はどこへ向かっているかです。
 
-A clear horizon transforms impulse into direction.
+明確な地平線は衝動を方向へと変えます。
 
-Vision gives vitality its aim.
+ビジョンは生命力に目的を与えます。
 `,
 
   4: `
-Caban guides Chicchan.
+カバンはチクチャンを導きます。
 
-Vitality seeks discovery.
+生命力は発見を求めます。
 
-The living world is larger than any expectation.
+生きた世界はどんな期待よりも大きなものです。
 
-Curiosity invites experience beyond familiar boundaries.
+好奇心は慣れ親しんだ境界の外へと招きます。
 
-The guide encourages exploration.
+ガイドは探検を促します。
 
-Discovery gives vitality its adventure.
+発見は生命力に冒険を与えます。
 `,
 
   5: `
-Imix guides Chicchan.
+イミシュはチクチャンを導きます。
 
-Vitality seeks possibility.
+生命力は可能性を求めます。
 
-Life does not wish to repeat itself forever.
+生命は永遠に同じことを繰り返したいわけではありません。
 
-Every ending contains another beginning.
+すべての終わりには新しい始まりがあります。
 
-The guide reveals paths not yet considered.
+ガイドはまだ考えられていない道を示します。
 
-Possibility gives vitality its future.
+可能性は生命力に未来を与えます。
 `
+
 
   },
 
 cimi: {
 
   1: `
-Cimi reflects Cimi.
+シミはシミを映します。
 
-Transformation recognizes itself.
+変容は自らを認識します。
 
-Change is a constant companion.
+変化は常に旅の伴侶です。
 
-Nothing remains exactly as it was.
+何ひとつ、そのままではあり続けません。
 
-Every ending creates space for a beginning.
+すべての終わりは新しい始まりのための空間を生みます。
 
-The search is not for permanence.
+探求は永続性を求めるものではありません。
 
-It is for renewal.
+それは再生を求めるものです。
 
-Transformation becomes aware of its own rhythm.
+変容は自らのリズムに気づきます。
 `,
 
   2: `
-Oc guides Cimi.
+オクはシミを導きます。
 
-Transformation seeks belonging.
+変容は帰属を求めます。
 
-Change becomes easier when it is shared.
+変化は分かち合われると受け入れやすくなります。
 
-Support allows growth to continue through uncertainty.
+支えは不確実な時期にも成長を続けさせます。
 
-The guide reminds you that no journey must be walked alone.
+ガイドは、どんな旅も一人で歩む必要はないことを思い出させます。
 
-Belonging gives transformation its courage.
+帰属は変容に勇気を与えます。
 `,
 
   3: `
-Ix guides Cimi.
+イシュはシミを導きます。
 
-Transformation seeks awareness.
+変容は気づきを求めます。
 
-Many changes begin long before they become visible.
+多くの変化は目に見える前から始まっています。
 
-The guide encourages careful observation.
+ガイドは注意深い観察を促します。
 
-What appears sudden often has deep roots.
+突然に見えるものも、しばしば深い根を持っています。
 
-Awareness gives transformation its clarity.
+気づきは変容に明晰さを与えます。
 `,
 
   4: `
-Etznab guides Cimi.
+エツナブはシミを導きます。
 
-Transformation seeks truth.
+変容は真実を求めます。
 
-Not every change leads forward.
+すべての変化が前進を意味するわけではありません。
 
-Some paths only repeat old patterns in new forms.
+ある道は古いパターンを新しい形で繰り返します。
 
-The guide removes illusion from the process.
+ガイドは幻想を取り除きます。
 
-Truth gives transformation its direction.
+真実は変容に方向を与えます。
 `,
 
   5: `
-Ik guides Cimi.
+イクはシミを導きます。
 
-Transformation seeks connection.
+変容はつながりを求めます。
 
-Growth changes how you relate to the world.
+成長は世界との関わり方を変えます。
 
-Old relationships evolve.
+古い関係は変化します。
 
-New relationships emerge.
+新しい関係が生まれます。
 
-The guide reminds you that change is never purely personal.
+ガイドは、変化が決して個人的なものだけではないことを思い出させます。
 
-Connection gives transformation its humanity.
+つながりは変容に人間らしさを与えます。
 `
+
 
   },
 
 manik: {
 
   1: `
-Manik reflects Manik.
+マニクはマニクを映します。
 
-Service recognizes itself.
+奉仕は自らを認識します。
 
-Helping others begins with understanding what is needed.
+人を助けることは、本当に必要なものを理解することから始まります。
 
-Not every problem asks to be solved.
+すべての問題が解決を求めているわけではありません。
 
-Not every burden asks to be carried.
+すべての重荷が背負われることを望んでいるわけでもありません。
 
-The search is not for usefulness alone.
+探求は有用性だけを求めるものではありません。
 
-It is for meaningful contribution.
+それは意味のある貢献を求めるものです。
 
-Service becomes aware of its own purpose.
+奉仕は自らの目的に気づきます。
 `,
 
   2: `
-Chuen guides Manik.
+チューエンはマニクを導きます。
 
-Service seeks creativity.
+奉仕は創造性を求めます。
 
-There is more than one way to help.
+助ける方法はひとつではありません。
 
-The guide encourages flexibility and imagination.
+ガイドは柔軟さと想像力を促します。
 
-New solutions appear when old assumptions are released.
+古い前提を手放すと、新しい解決策が現れます。
 
-Creativity gives service its adaptability.
+創造性は奉仕に適応力を与えます。
 `,
 
   3: `
-Men guides Manik.
+メンはマニクを導きます。
 
-Service seeks perspective.
+奉仕は視点を求めます。
 
-Good intentions are strengthened by understanding the larger picture.
+善意は大きな全体像を理解するとさらに力を持ちます。
 
-The guide invites you to step back before stepping forward.
+ガイドは行動する前に一歩引くことを勧めます。
 
-A wider view reveals where effort is most effective.
+広い視野は、努力が最も役立つ場所を明らかにします。
 
-Perspective gives service its wisdom.
+視点は奉仕に知恵を与えます。
 `,
 
   4: `
-Cauac guides Manik.
+カウアクはマニクを導きます。
 
-Service seeks renewal.
+奉仕は再生を求めます。
 
-Even the most dedicated path can become routine.
+どれほど献身的な道であっても、習慣になることがあります。
 
-The guide arrives like a storm.
+ガイドは嵐のように現れます。
 
-Old methods give way to new possibilities.
+古い方法は新しい可能性へと道を譲ります。
 
-Renewal gives service its vitality.
+再生は奉仕に生命力を与えます。
 `,
 
   5: `
-Akbal guides Manik.
+アクバルはマニクを導きます。
 
-Service seeks mystery.
+奉仕は神秘を求めます。
 
-Not every answer is immediately visible.
+すべての答えがすぐに見えるわけではありません。
 
-Some forms of help begin with listening rather than acting.
+ある種の助けは、行動することよりも耳を傾けることから始まります。
 
-The guide teaches patience with the unknown.
+ガイドは未知に対する忍耐を教えます。
 
-Mystery gives service its humility.
+神秘は奉仕に謙虚さを与えます。
 `
+
 
   },
 
 lamat: {
 
   1: `
-Lamat reflects Lamat.
+ラマトはラマトを映します。
 
-Beauty recognizes itself.
+美は自らを認識します。
 
-Harmony appears when things align naturally.
+ある真実は分析だけでは理解できません。
 
-The search is not for perfection.
+それは感じられるものです。
 
-It is for resonance.
+美は感謝への扉を開きます。
 
-What is beautiful often feels effortless because it reflects a deeper order.
+探求は驚きに注意を向けることから始まります。
 
-Beauty becomes aware of its own radiance.
+美は自らの光に気づきます。
 `,
 
   2: `
-Eb guides Lamat.
+エブはラマトを導きます。
 
-Beauty seeks experience.
+美は経験を求めます。
 
-Inspiration becomes meaningful when it is lived.
+インスピレーションは生きられることで意味を持ちます。
 
-The guide encourages you to walk the road rather than admire it from afar.
+ガイドは、ただ眺めるのではなく参加するよう招きます。
 
-Beauty grows richer through participation.
+経験は賞賛を理解へと変えます。
 
-Experience gives beauty its substance.
+経験は美に存在感を与えます。
 `,
 
   3: `
-Cib guides Lamat.
+シブはラマトを導きます。
 
-Beauty seeks wisdom.
+美は知恵を求めます。
 
-What appears attractive is not always valuable.
+魅力的なものすべてが価値あるわけではありません。
 
-Time reveals the difference.
+ガイドは輝きと意味を区別する助けをします。
 
-The guide encourages discernment.
+知恵は長く残るものを明らかにします。
 
-Wisdom gives beauty its depth.
+知恵は美に深みを与えます。
 `,
 
   4: `
-Ahau guides Lamat.
+アハウはラマトを導きます。
 
-Beauty seeks wholeness.
+美は全体性を求めます。
 
-Harmony expands when all parts are allowed their place.
+真の美は多くの部分を調和へと結びつけます。
 
-The guide reminds you that true beauty does not exclude.
+ガイドは、何ひとつ完全に孤立して存在しないことを思い出させます。
 
-It integrates.
-
-Wholeness gives beauty its completeness.
+全体性は美に調和を与えます。
 `,
 
   5: `
-Kan guides Lamat.
+カンはラマトを導きます。
 
-Beauty seeks potential.
+美は可能性を求めます。
 
-Every masterpiece begins as a possibility.
+すべての花の背後には種があります。
 
-Every expression begins as a seed.
+すべての完成の背後には新しい可能性があります。
 
-The guide points toward what has not yet emerged.
+ガイドはまだ生まれていないものを示します。
 
-Potential gives beauty its future.
+可能性は美に未来を与えます。
 `
+
 
   },
 
 muluc: {
 
   1: `
-Muluc reflects Muluc.
+ムルクはムルクを映します。
 
-Meaning recognizes itself.
+意味は自らを認識します。
 
-Some moments ask to be understood rather than explained.
+価値のあるものすべてが測定できるわけではありません。
 
-Not everything valuable can be measured.
+あるものは感じられることで初めて姿を現します。
 
-The search is not for answers alone.
+探求は本当に大切なものを問うことから始まります。
 
-It is for significance.
-
-Meaning becomes aware of its own depth.
+意味は自らの深さに気づきます。
 `,
 
   2: `
-Ben guides Muluc.
+ベンはムルクを導きます。
 
-Meaning seeks vision.
+意味はビジョンを求めます。
 
-Purpose grows stronger when it can see beyond the present moment.
+価値観はより大きな地平線と結びつくことで方向を得ます。
 
-The guide encourages you to look toward the horizon.
+ガイドは目の前の状況を超えて見るよう促します。
 
-A larger vision reveals a larger meaning.
+ビジョンは、なぜそれが価値あるものなのかを明らかにします。
 
-Vision gives meaning its direction.
+ビジョンは意味に未来を与えます。
 `,
 
   3: `
-Caban guides Muluc.
+カバンはムルクを導きます。
 
-Meaning seeks discovery.
+意味は発見を求めます。
 
-Understanding deepens through exploration.
+信念は探究されることで強くなります。
 
-The guide invites you beyond familiar conclusions.
+ガイドは好奇心を促します。
 
-New experiences reveal new layers of significance.
+新しい経験は価値の隠れた層を明らかにするかもしれません。
 
-Discovery gives meaning its expansion.
+発見は意味に成長を与えます。
 `,
 
   4: `
-Imix guides Muluc.
+イミシュはムルクを導きます。
 
-Meaning seeks possibility.
+意味は可能性を求めます。
 
-A purpose can become too narrow.
+今日重要に見えるものも、
+明日には新しい形を取るかもしれません。
 
-The guide reminds you that more paths exist than you currently see.
+ガイドは意味が常に進化していることを思い出させます。
 
-New possibilities renew old meanings.
+新しい可能性は価値を生きたものに保ちます。
 
-Possibility gives meaning its freedom.
+可能性は意味に再生を与えます。
 `,
 
   5: `
-Chicchan guides Muluc.
+チクチャンはムルクを導きます。
 
-Meaning seeks vitality.
+意味は生命力を求めます。
 
-Purpose becomes strongest when it is lived.
+生きられない理想は力を失います。
 
-The guide asks not only what matters.
+ガイドは参加を促します。
 
-It asks what brings life to what matters.
+価値観は経験を通して流れるとき現実になります。
 
-Vitality gives meaning its heartbeat.
+生命力は意味に鼓動を与えます。
 `
+
 
   },
 
 oc: {
 
   1: `
-Oc reflects Oc.
+オクはオクを映します。
 
-Belonging recognizes itself.
+つながりは自らを認識します。
 
-Trust grows through consistency.
+どんな存在も完全に一人では成長できません。
 
-Relationships deepen through presence.
+関係は世界と世界を結ぶ道となります。
 
-The search is not for approval.
+探求は信頼が可能になるとき始まります。
 
-It is for connection that can endure.
-
-Belonging becomes aware of its own warmth.
+つながりは自らの力に気づきます。
 `,
 
   2: `
-Ix guides Oc.
+イシュはオクを導きます。
 
-Belonging seeks awareness.
+つながりは気づきを求めます。
 
-Connection becomes stronger when people truly see one another.
+すべての結びつきが表面に見えているわけではありません。
 
-The guide encourages attention beyond appearances.
+ガイドは注意深い観察を促します。
 
-Understanding grows through observation.
+判断よりも存在が大切になるとき、
+より深い理解が生まれます。
 
-Awareness gives belonging its depth.
+気づきはつながりに明晰さを与えます。
 `,
 
   3: `
-Etznab guides Oc.
+エツナブはオクを導きます。
 
-Belonging seeks truth.
+つながりは真実を求めます。
 
-Trust cannot flourish where illusion remains.
+信頼は完璧さによって育つのではありません。
 
-The guide asks for honesty before comfort.
+それは誠実さによって育ちます。
 
-What is genuine can withstand examination.
+ガイドは本物でないものを取り除きます。
 
-Truth gives belonging its foundation.
+真実はつながりに土台を与えます。
 `,
 
   4: `
-Ik guides Oc.
+イクはオクを導きます。
 
-Belonging seeks connection.
+つながりは結びつきを求めます。
 
-A bond remains alive through exchange.
+関係は相互のコミュニケーションによって深まります。
 
-The guide reminds you that relationships are built together.
+話すことと同じくらい、
+聞くことも大切です。
 
-Understanding grows when both sides participate.
+ガイドは相互性が橋を築くことを思い出させます。
 
-Connection gives belonging its expression.
+結びつきはつながりに流れを与えます。
 `,
 
   5: `
-Cimi guides Oc.
+シミはオクを導きます。
 
-Belonging seeks transformation.
+つながりは変容を求めます。
 
-Every relationship changes over time.
+どんな関係も同じままではありません。
 
-Growth asks people to evolve without abandoning one another.
+共に成長するには変化のための空間が必要です。
 
-The guide teaches flexibility within commitment.
+ガイドは古い形を手放し、
+新しい形が生まれることを助けます。
 
-Transformation gives belonging its resilience.
+変容はつながりに未来を与えます。
 `
+
 
   },
 
 chuen: {
 
   1: `
-Chuen reflects Chuen.
+チューエンはチューエンを映します。
 
-Creativity recognizes itself.
+創造性は自らを認識します。
 
-Imagination reveals possibilities hidden from routine perception.
+すべてを事前に理解する必要はありません。
 
-The search is not for repetition.
+ある発見は過程の中で生まれます。
 
-It is for expression.
+探求は好奇心が支配よりも大切になるとき始まります。
 
-Every creation begins as a new way of seeing.
-
-Creativity becomes aware of its own freedom.
+創造性は自らの自由に気づきます。
 `,
 
   2: `
-Men guides Chuen.
+メンはチューエンを導きます。
 
-Creativity seeks perspective.
+創造性は視点を求めます。
 
-Ideas grow stronger when they can be viewed from different angles.
+想像力は現在を超えて見渡せるとき、より大きな力を持ちます。
 
-The guide encourages distance before action.
+ガイドはより高い場所からパターンを見るよう促します。
 
-A wider horizon reveals new connections.
-
-Perspective gives creativity its range.
+視点は創造性に地平線を与えます。
 `,
 
   3: `
-Cauac guides Chuen.
+カウアクはチューエンを導きます。
 
-Creativity seeks renewal.
+創造性は再生を求めます。
 
-What once felt inspiring can become familiar.
+新しいアイデアは古い形が崩れるときに生まれることがあります。
 
-The guide arrives like a storm.
+ガイドは変化として現れます。
 
-Old patterns loosen.
+混乱に見えるものが入口であることもあります。
 
-New possibilities emerge.
-
-Renewal gives creativity its vitality.
+再生は創造性に動きを与えます。
 `,
 
   4: `
-Akbal guides Chuen.
+アクバルはチューエンを導きます。
 
-Creativity seeks mystery.
+創造性は神秘を求めます。
 
-Not every idea arrives fully formed.
+すべてを説明する必要はありません。
 
-Some inspirations emerge from places beyond explanation.
+未知のための空間があるとき、
+洞察はより自然に現れます。
 
-The guide teaches patience with the unknown.
+ガイドは驚きを育てます。
 
-Mystery gives creativity its depth.
+神秘は創造性に深みを与えます。
 `,
 
   5: `
-Manik guides Chuen.
+マニクはチューエンを導きます。
 
-Creativity seeks service.
+創造性は奉仕を求めます。
 
-Expression becomes meaningful when it benefits more than the creator.
+アイデアは他者の成長を助けるとき、
+より大きな価値を持ちます。
 
-The guide asks how imagination can become useful.
+ガイドはインスピレーションをどのように共有できるかを問いかけます。
 
-A gift grows stronger when it is shared.
-
-Service gives creativity its purpose.
+奉仕は創造性に意味を与えます。
 `
+
 
   },
 
 eb: {
 
   1: `
-Eb reflects Eb.
+エブはエブを映します。
 
-Experience recognizes itself.
+経験は自らを認識します。
 
-Understanding grows through participation.
+道は眺めるだけでは理解できません。
 
-Some lessons cannot be learned from observation alone.
+実際に歩くことで理解されます。
 
-The search is not for theory.
+探求は理論が参加へと変わるとき始まります。
 
-It is for direct encounter.
-
-Experience becomes aware of its own value.
+経験は自らの価値に気づきます。
 `,
 
   2: `
-Cib guides Eb.
+シブはエブを導きます。
 
-Experience seeks wisdom.
+経験は知恵を求めます。
 
-Many events pass through a lifetime.
+すべての出来事が自動的に洞察へ変わるわけではありません。
 
-Not all of them become lessons.
+振り返りは出来事を学びへと変えます。
 
-The guide encourages reflection upon what has been lived.
+ガイドは過去を見つめながらも、
+そこに留まらないよう促します。
 
-Wisdom gives experience its meaning.
+知恵は経験に意味を与えます。
 `,
 
   3: `
-Ahau guides Eb.
+アハウはエブを導きます。
 
-Experience seeks wholeness.
+経験は全体性を求めます。
 
-Individual moments often appear disconnected.
+個々の瞬間はより大きな物語の一部です。
 
-The guide reveals the larger pattern.
+ガイドは出来事のあいだにあるパターンを示します。
 
-What once seemed separate begins to belong together.
-
-Wholeness gives experience its coherence.
+全体性は経験に調和を与えます。
 `,
 
   4: `
-Kan guides Eb.
+カンはエブを導きます。
 
-Experience seeks potential.
+経験は可能性を求めます。
 
-Every journey changes what becomes possible.
+一歩ごとに新しい可能性が開かれます。
 
-The guide reminds you that growth does not end with understanding.
+旅は可能だと思っていたことを変化させます。
 
-New opportunities emerge from every lesson.
+ガイドは成長に終わりがないことを思い出させます。
 
-Potential gives experience its future.
+可能性は経験に地平線を与えます。
 `,
 
   5: `
-Lamat guides Eb.
+ラマトはエブを導きます。
 
-Experience seeks beauty.
+経験は美を求めます。
 
-Some moments remain memorable not because they were useful.
+価値あるものすべてが実用的とは限りません。
 
-They remain because they were meaningful.
+ある瞬間は心を動かしたからこそ大切なのです。
 
-The guide reveals harmony hidden within the journey.
+ガイドは日常の中の美しさに気づくよう促します。
 
-Beauty gives experience its appreciation.
+美は経験に彩りを与えます。
 `
+
 
   },
 
 ben: {
 
   1: `
-Ben reflects Ben.
+ベンはベンを映します。
 
-Vision recognizes itself.
+ビジョンは自らを認識します。
 
-The future begins as an image before it becomes a reality.
+方向は目的地が見える前に生まれます。
 
-Every direction starts with the ability to see beyond the present moment.
+すべての一歩を事前に知る必要はありません。
 
-The search is not for prediction.
+探求は疑いよりも信頼が大きくなるとき始まります。
 
-It is for orientation.
-
-Vision becomes aware of its own horizon.
+ビジョンは自らの地平線に気づきます。
 `,
 
   2: `
-Caban guides Ben.
+カバンはベンを導きます。
 
-Vision seeks discovery.
+ビジョンは発見を求めます。
 
-A horizon gains meaning when it can be explored.
+地平線は探究されることで意味を持ちます。
 
-The guide invites you beyond familiar territory.
+ガイドは好奇心を促します。
 
-Every new discovery reshapes what seemed possible.
+新しい経験は古い期待を洗練します。
 
-Discovery gives vision its expansion.
+発見はビジョンに成長を与えます。
 `,
 
   3: `
-Imix guides Ben.
+イミシュはベンを導きます。
 
-Vision seeks possibility.
+ビジョンは可能性を求めます。
 
-The future is never limited to a single outcome.
+未来は決して完全には固定されていません。
 
-The guide reminds you that every path contains alternatives.
+道が開かれるにつれて新しい可能性が現れます。
 
-New beginnings remain hidden within every destination.
+ガイドは予想外の機会に心を開くよう促します。
 
-Possibility gives vision its freedom.
+可能性はビジョンに柔軟性を与えます。
 `,
 
   4: `
-Chicchan guides Ben.
+チクチャンはベンを導きます。
 
-Vision seeks vitality.
+ビジョンは生命力を求めます。
 
-A dream remains distant until it enters life.
+行動のない夢はただの考えのままです。
 
-The guide encourages movement instead of hesitation.
+ガイドは実践を促します。
 
-Energy transforms ideas into action.
+生命力は方向を前進へと変えます。
 
-Vitality gives vision its momentum.
+生命力はビジョンに勢いを与えます。
 `,
 
   5: `
-Muluc guides Ben.
+ムルクはベンを導きます。
 
-Vision seeks meaning.
+ビジョンは意味を求めます。
 
-A destination becomes valuable when it serves something greater than itself.
+すべての目的地が価値あるわけではありません。
 
-The guide asks why the journey matters.
+ガイドは、その目標がなぜ重要なのかを問いかけます。
 
-Purpose reveals which horizons are worth pursuing.
+価値観は志に方向を与えます。
 
-Meaning gives vision its significance.
+意味はビジョンに羅針盤を与えます。
 `
 
+
   },
+
 
 ix: {
 
   1: `
-Ix reflects Ix.
+イシュはイシュを映します。
 
-Awareness recognizes itself.
+気づきは自らを認識します。
 
-Some truths become visible only through careful attention.
+本当に存在するものすべてが、
+すぐに見えるわけではありません。
 
-The search is not for control.
+ある真実は、
+注意が静かになったとき初めて姿を現します。
 
-It is for understanding.
+探求は観察から始まります。
 
-Presence reveals what distraction conceals.
-
-Awareness becomes aware of its own depth.
+気づきは自らに気づきます。
 `,
 
   2: `
-Etznab guides Ix.
+エツナブはイシュを導きます。
 
-Awareness seeks truth.
+気づきは真実を求めます。
 
-Observation becomes meaningful when it is honest.
+幻想が取り除かれると、
+観察はより鋭くなります。
 
-The guide removes assumptions and appearances.
+ガイドは誠実に見ることを促します。
 
-What remains is what can genuinely be known.
+心地よいものすべてが真実とは限りません。
 
-Truth gives awareness its precision.
+真実は気づきに鋭さを与えます。
 `,
 
   3: `
-Ik guides Ix.
+イクはイシュを導きます。
 
-Awareness seeks connection.
+気づきはつながりを求めます。
 
-Understanding deepens when it is shared.
+理解は反応することよりも、
+耳を傾けることを大切にすると育ちます。
 
-The guide reminds you that perception grows through relationship.
+ガイドは注意が関係を深めることを思い出させます。
 
-Different viewpoints reveal different aspects of reality.
-
-Connection gives awareness its humanity.
+つながりは気づきに人間らしさを与えます。
 `,
 
   4: `
-Cimi guides Ix.
+シミはイシュを導きます。
 
-Awareness seeks transformation.
+気づきは変容を求めます。
 
-What is seen clearly can no longer remain unchanged.
+見ることは見られるものを変えます。
 
-The guide reveals opportunities for growth hidden within understanding.
+新しい洞察は古い視点を小さくします。
 
-Insight becomes the beginning of renewal.
+ガイドは成長が認識から始まることを示します。
 
-Transformation gives awareness its evolution.
+変容は気づきに動きを与えます。
 `,
 
   5: `
-Oc guides Ix.
+オクはイシュを導きます。
 
-Awareness seeks belonging.
+気づきは結びつきを求めます。
 
-The deepest understanding often reveals what already connects us.
+注意は人々を結ぶ糸を明らかにします。
 
-The guide reminds you that separation is rarely as complete as it appears.
+ガイドは孤立を超えて見るよう招きます。
 
-Recognition creates trust.
-
-Belonging gives awareness its heart.
+結びつきは気づきに心を与えます。
 `
+
 
   },
 
 men: {
 
   1: `
-Men reflects Men.
+メンはメンを映します。
 
-Perspective recognizes itself.
+視点は自らを認識します。
 
-Distance reveals patterns hidden within immediate experience.
+すべてを近くから見る必要はありません。
 
-The search is not for escape.
+あるパターンは距離ができたとき初めて見えてきます。
 
-It is for understanding.
+探求は細部よりも全体が重要になるとき始まります。
 
-A wider view transforms confusion into context.
-
-Perspective becomes aware of its own horizon.
+視点は自らの高さに気づきます。
 `,
 
   2: `
-Cauac guides Men.
+カウアクはメンを導きます。
 
-Perspective seeks renewal.
+視点は再生を求めます。
 
-A viewpoint can become familiar.
+高い場所から見ると、
+古い地図がもはや正しくないことが分かります。
 
-The guide arrives to disrupt certainty.
+ガイドは変化として現れます。
 
-New angles emerge where old assumptions once stood.
+混乱に見えるものが、
+新しい秩序の準備であることもあります。
 
-Renewal gives perspective its freshness.
+再生は視点に翼を与えます。
 `,
 
   3: `
-Akbal guides Men.
+アクバルはメンを導きます。
 
-Perspective seeks mystery.
+視点は神秘を求めます。
 
-Not everything can be understood from a distance.
+見えるものすべてを説明する必要はありません。
 
-Some truths invite deeper exploration.
+ある洞察は言葉よりも大きなまま残ります。
 
-The guide reminds you that understanding begins where certainty ends.
+ガイドは未知のための余白を残すよう促します。
 
-Mystery gives perspective its depth.
+神秘は視点に深みを与えます。
 `,
 
   4: `
-Manik guides Men.
+マニクはメンを導きます。
 
-Perspective seeks service.
+視点は奉仕を求めます。
 
-Insight becomes valuable when it benefits more than the observer.
+洞察は共有されることで価値を持ちます。
 
-The guide asks how understanding can become contribution.
+ガイドは、その理解がどのように他者を助けられるかを問いかけます。
 
-A wider view carries responsibility.
+知恵は活かされることで意味を持ちます。
 
-Service gives perspective its purpose.
+奉仕は視点に方向を与えます。
 `,
 
   5: `
-Chuen guides Men.
+チューエンはメンを導きます。
 
-Perspective seeks creativity.
+視点は創造性を求めます。
 
-Every viewpoint reveals possibilities unseen from another angle.
+新しい視点は新しい可能性を開きます。
 
-The guide encourages imagination beyond established conclusions.
+ガイドは遊び心を促します。
 
-New perspectives create new realities.
+想像力は既存の限界を超えて見ることを助けます。
 
-Creativity gives perspective its freedom.
+創造性は視点に自由を与えます。
 `
+
 
   },
 
 cib: {
 
   1: `
-Cib reflects Cib.
+シブはシブを映します。
 
-Wisdom recognizes itself.
+知恵は自らを認識します。
 
-Understanding grows through reflection upon experience.
+知識は事実を集めます。
 
-Knowledge may be gathered.
+知恵はつながりを理解します。
 
-Wisdom must be earned.
+探求は経験が洞察へと変わるとき始まります。
 
-The search is not for information.
-
-It is for insight.
-
-Wisdom becomes aware of its own depth.
+知恵は自らの深さに気づきます。
 `,
 
   2: `
-Ahau guides Cib.
+アハウはシブを導きます。
 
-Wisdom seeks wholeness.
+知恵は全体性を求めます。
 
-Individual lessons reveal only part of the picture.
+洞察はより大きな全体と結びつくことで意味を持ちます。
 
-The guide encourages integration.
+ガイドは個々の学びをひとつに結びます。
 
-Understanding deepens when separate insights begin to connect.
-
-Wholeness gives wisdom its completeness.
+全体性は知恵に調和を与えます。
 `,
 
   3: `
-Kan guides Cib.
+カンはシブを導きます。
 
-Wisdom seeks potential.
+知恵は可能性を求めます。
 
-Every lesson contains possibilities not yet explored.
+すべての答えには新しい可能性が含まれています。
 
-The guide reminds you that understanding is never the end of growth.
+ガイドは学びに終わりがないことを思い出させます。
 
-New opportunities emerge from what has been learned.
+古い洞察でさえ新しい扉を開くことができます。
 
-Potential gives wisdom its future.
+可能性は知恵に生命力を与えます。
 `,
 
   4: `
-Lamat guides Cib.
+ラマトはシブを導きます。
 
-Wisdom seeks beauty.
+知恵は美を求めます。
 
-Truth becomes easier to recognize when expressed with harmony.
+ある真実は論理だけでは人を動かしません。
 
-The guide reveals elegance hidden within complexity.
+それは単純さと優雅さによって伝わります。
 
-Understanding often arrives through appreciation.
+ガイドは明晰な理解の美しさを示します。
 
-Beauty gives wisdom its grace.
+美は知恵に優雅さを与えます。
 `,
 
   5: `
-Eb guides Cib.
+エブはシブを導きます。
 
-Wisdom seeks experience.
+知恵は経験を求めます。
 
-Insight remains incomplete until it is tested in life.
+生きられていない洞察は未完成のままです。
 
-The guide encourages participation rather than observation alone.
+ガイドは実践を促します。
 
-Every lesson deepens when it is lived.
+理解は日常の一部になることで深まります。
 
-Experience gives wisdom its reality.
+経験は知恵に根を与えます。
 `
+
 
   },
 
 caban: {
 
   1: `
-Caban reflects Caban.
+カバンはカバンを映します。
 
-Discovery recognizes itself.
+発見は自らを認識します。
 
-Every answer reveals another question.
+ひとつの地平線は新たな地平線を明らかにします。
 
-Every horizon reveals another horizon.
+世界は既に知っているものよりも大きなものです。
 
-The search is not for completion.
+探求は確実性よりも好奇心が強くなるとき始まります。
 
-It is for exploration.
-
-Discovery becomes aware of its own wonder.
+発見は自らの冒険に気づきます。
 `,
 
   2: `
-Imix guides Caban.
+イミシュはカバンを導きます。
 
-Discovery seeks possibility.
+発見は可能性を求めます。
 
-The unknown invites new beginnings.
+未知の扉が開かれると新しい洞察が生まれます。
 
-The guide reminds you that every discovery opens doors not previously imagined.
+ガイドは、ひとつの問いに複数の答えがあり得ることを思い出させます。
 
-What is found changes what can be found next.
-
-Possibility gives discovery its future.
+可能性は発見に開放性を与えます。
 `,
 
   3: `
-Chicchan guides Caban.
+チクチャンはカバンを導きます。
 
-Discovery seeks vitality.
+発見は生命力を求めます。
 
-Exploration becomes meaningful when it is experienced directly.
+冒険は体験されるまではただの考えです。
 
-The guide encourages participation rather than observation alone.
+ガイドは参加を促します。
 
-Life reveals what theory cannot.
+生命は理論では見えないものを明らかにします。
 
-Vitality gives discovery its excitement.
+生命力は発見に動きを与えます。
 `,
 
   4: `
-Muluc guides Caban.
+ムルクはカバンを導きます。
 
-Discovery seeks meaning.
+発見は意味を求めます。
 
-Not every finding carries equal significance.
+新しいものすべてが重要とは限りません。
 
-The guide asks what truly matters within what has been uncovered.
+ガイドは気晴らしと価値を区別する助けをします。
 
-Understanding grows when knowledge becomes purpose.
-
-Meaning gives discovery its depth.
+意味は発見に方向を与えます。
 `,
 
   5: `
-Ben guides Caban.
+ベンはカバンを導きます。
 
-Discovery seeks vision.
+発見はビジョンを求めます。
 
-A new landscape changes the horizon.
+地平線はより大きな目的と結びつくことで意味を持ちます。
 
-The guide reveals directions that could not be seen before.
+ガイドは次の答えの先を見るよう促します。
 
-Every discovery reshapes the future.
-
-Vision gives discovery its destination.
+ビジョンは発見に目的地を与えます。
 `
+
 
   },
 
 etznab: {
 
   1: `
-Etznab reflects Etznab.
+エツナブはエツナブを映します。
 
-Truth recognizes itself.
+真実は自らを認識します。
 
-Clarity reveals what was already present.
+本当に存在するものは、
+自らを守る必要がありません。
 
-Illusion fades when examined honestly.
+幻想は常に守られなければなりません。
 
-The search is not for comfort.
+探求は快適さよりも誠実さが重要になるとき始まります。
 
-It is for what remains when appearances fall away.
-
-Truth becomes aware of its own light.
+真実は自らの明晰さに気づきます。
 `,
 
   2: `
-Ik guides Etznab.
+イクはエツナブを導きます。
 
-Truth seeks connection.
+真実はつながりを求めます。
 
-Understanding grows stronger when it can be shared.
+結びつきのない正直さは距離を生むことがあります。
 
-The guide reminds you that clarity does not need isolation.
+ガイドは、共有できる真実が最も力を持つことを思い出させます。
 
-What is real becomes more meaningful when it builds bridges.
-
-Connection gives truth its voice.
+つながりは真実に橋を与えます。
 `,
 
   3: `
-Cimi guides Etznab.
+シミはエツナブを導きます。
 
-Truth seeks transformation.
+真実は変容を求めます。
 
-A genuine insight changes the one who receives it.
+見られたものは、
+もはや完全には隠されたままでいられません。
 
-The guide reveals that understanding carries consequences.
+ガイドは変化の準備が整ったものを明らかにします。
 
-What is seen clearly can no longer remain unchanged.
-
-Transformation gives truth its power.
+変容は真実に動きを与えます。
 `,
 
   4: `
-Oc guides Etznab.
+オクはエツナブを導きます。
 
-Truth seeks belonging.
+真実は結びつきを求めます。
 
-Honesty creates trust.
+現実が見せかけよりも重要になるとき、
+信頼は育ちます。
 
-The guide reminds you that authenticity strengthens relationships.
+ガイドは本物であることを促します。
 
-What is real can withstand closeness.
-
-Belonging gives truth its warmth.
+結びつきは真実に人間らしさを与えます。
 `,
 
   5: `
-Ix guides Etznab.
+イシュはエツナブを導きます。
 
-Truth seeks awareness.
+真実は気づきを求めます。
 
-Clarity begins with attention.
+明確に見るためには注意が必要です。
 
-The guide encourages observation before conclusion.
+ガイドは現実と投影を区別する助けをします。
 
-What is overlooked often contains what is most important.
-
-Awareness gives truth its depth.
+気づきは真実に鋭さを与えます。
 `
+
 
   },
 
 cauac: {
 
   1: `
-Cauac reflects Cauac.
+カウアクはカウアクを映します。
 
-Renewal recognizes itself.
+再生は自らを認識します。
 
-Change clears space for what wishes to emerge.
+崩れるものすべてが失われるわけではありません。
 
-The old does not disappear without reason.
+新しいものが生まれるために、
+壊れなければならない構造もあります。
 
-The new does not arrive without invitation.
+探求は変化が恐れられなくなるとき始まります。
 
-The search is not for stability.
-
-It is for growth.
-
-Renewal becomes aware of its own power.
+再生は自らの力に気づきます。
 `,
 
   2: `
-Akbal guides Cauac.
+アクバルはカウアクを導きます。
 
-Renewal seeks mystery.
+再生は神秘を求めます。
 
-Not every transformation begins with understanding.
+すべての変化が事前に理解できるわけではありません。
 
-The guide teaches patience with uncertainty.
+ガイドは未知への信頼を促します。
 
-What appears chaotic may contain hidden meaning.
+今日混乱に見えるものが、
+明日には意味を持つかもしれません。
 
-Mystery gives renewal its depth.
+神秘は再生に深みを与えます。
 `,
 
   3: `
-Manik guides Cauac.
+マニクはカウアクを導きます。
 
-Renewal seeks service.
+再生は奉仕を求めます。
 
-Change becomes meaningful when it benefits more than yourself.
+変化は成長を支えるとき、
+より大きな価値を持ちます。
 
-The guide asks how transformation can become contribution.
+ガイドは新しいエネルギーをどのように他者のために使えるかを問いかけます。
 
-Growth reaches its fullest expression when it is shared.
-
-Service gives renewal its purpose.
+奉仕は再生に方向を与えます。
 `,
 
   4: `
-Chuen guides Cauac.
+チューエンはカウアクを導きます。
 
-Renewal seeks creativity.
+再生は創造性を求めます。
 
-The future cannot be built from old patterns alone.
+古い形が消えると、
+新しい可能性のための空間が生まれます。
 
-The guide encourages experimentation and imagination.
+ガイドは実験することを促します。
 
-New possibilities emerge when familiar boundaries dissolve.
-
-Creativity gives renewal its freedom.
+創造性は再生に想像力を与えます。
 `,
 
   5: `
-Men guides Cauac.
+メンはカウアクを導きます。
 
-Renewal seeks perspective.
+再生は視点を求めます。
 
-A storm appears differently when viewed from a greater height.
+嵐はその中心にいるときと、
+高い場所から見るときでは違って見えます。
 
-The guide reveals patterns hidden within disruption.
+ガイドはより大きなパターンを見る助けをします。
 
-What once seemed destructive may become transformative.
-
-Perspective gives renewal its wisdom.
+視点は再生に知恵を与えます。
 `
+
 
   },
 
 ahau: {
 
   1: `
-Ahau reflects Ahau.
+アハウはアハウを映します。
 
-Wholeness recognizes itself.
+全体性は自らを認識します。
 
-Completion is not an ending.
+分離しているように見えるものも、
+同じ全体の一部です。
 
-It is the moment when all parts become visible together.
+探求は断片が再び結び合わされるとき始まります。
 
-The search is not for perfection.
+統一は違いを消すことで生まれるのではありません。
 
-It is for integration.
+それらを理解することで生まれます。
 
-Wholeness becomes aware of its own light.
+全体性は自らの光に気づきます。
 `,
 
   2: `
-Kan guides Ahau.
+カンはアハウを導きます。
 
-Wholeness seeks potential.
+全体性は可能性を求めます。
 
-Every completion contains a beginning.
+完成は終わりではありません。
 
-The guide reminds you that no cycle truly ends.
+すべての達成は新しい可能性を開きます。
 
-New possibilities emerge from every achievement.
+ガイドは成長が止まることのないことを思い出させます。
 
-Potential gives wholeness its renewal.
+可能性は全体性に未来を与えます。
 `,
 
   3: `
-Lamat guides Ahau.
+ラマトはアハウを導きます。
 
-Wholeness seeks beauty.
+全体性は美を求めます。
 
-Harmony appears when every part is allowed its place.
+多くの部分が調和するとき、
+部分の総和を超えるものが生まれます。
 
-The guide reveals elegance within complexity.
+ガイドは結びついたパターンの美しさを示します。
 
-What is complete often feels beautiful because nothing essential is missing.
-
-Beauty gives wholeness its radiance.
+美は全体性に輝きを与えます。
 `,
 
   4: `
-Eb guides Ahau.
+エブはアハウを導きます。
 
-Wholeness seeks experience.
+全体性は経験を求めます。
 
-Understanding grows through participation in life.
+知恵は人生の外には見つかりません。
 
-The guide reminds you that wisdom cannot remain separate from reality.
+それは参加を通して育ちます。
 
-What is integrated must also be lived.
+ガイドはすべての道が大きな物語の一部であることを思い出させます。
 
-Experience gives wholeness its humanity.
+経験は全体性に現実を与えます。
 `,
 
   5: `
-Cib guides Ahau.
+シブはアハウを導きます。
 
-Wholeness seeks wisdom.
+全体性は知恵を求めます。
 
-The larger picture becomes clearer through reflection.
+多くの学びが結びつくと洞察が生まれます。
 
-The guide reveals meaning hidden within the journey.
+ガイドは以前は見えなかったパターンを示します。
 
-Every lesson contributes to the whole.
+知恵は全体性に深みを与えます。
 
-Wisdom gives wholeness its understanding.
+終わりは始まりを明らかにします。
 `
+
 
   }
 

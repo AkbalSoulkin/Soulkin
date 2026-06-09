@@ -3,168 +3,166 @@ const ajnaPages_nl = {
 imix: {
 
   1: `
-NL Imix reflects Imix.
+Imix weerspiegelt Imix.
 
-Possibility recognizes itself.
+Mogelijkheid herkent zichzelf.
 
-Every beginning contains another beginning.
+Elk begin bevat een nieuw begin.
 
-The search is not for certainty.
+De zoektocht gaat niet over zekerheid.
 
-It is for the next opening.
+Zij gaat over de volgende opening.
 
-When possibility reflects itself, curiosity becomes the path.
+Wanneer mogelijkheid zichzelf weerspiegelt, wordt nieuwsgierigheid het pad.
 
-The search begins again.
+De zoektocht begint opnieuw.
 `,
 
-
   2: `
-NL Chicchan guides Imix.
+Chicchan begeleidt Imix.
 
-Possibility seeks vitality.
+Mogelijkheid zoekt vitaliteit.
 
-Ideas become meaningful when they are lived.
+Ideeën krijgen betekenis wanneer ze geleefd worden.
 
-A path cannot be discovered through thought alone.
+Een pad kan niet uitsluitend door denken worden ontdekt.
 
-Movement reveals what imagination cannot.
+Beweging onthult wat verbeelding niet kan.
 
-The search awakens through participation.
+De zoektocht ontwaakt door deelname.
 
-Life gives possibility its heartbeat.
+Leven geeft mogelijkheid haar hartslag.
 `,
 
   3: `
-NL Muluc guides Imix.
+Muluc begeleidt Imix.
 
-Possibility seeks meaning.
+Mogelijkheid zoekt betekenis.
 
-Many doors may open.
+Vele deuren kunnen zich openen.
 
-Not every door belongs to your journey.
+Niet iedere deur behoort tot jouw reis.
 
-The guide asks what truly matters.
+De gids vraagt wat werkelijk belangrijk is.
 
-Meaning transforms curiosity into direction.
+Betekenis verandert nieuwsgierigheid in richting.
 
-Purpose gives possibility its depth.
+Doel geeft mogelijkheid haar diepte.
 `,
 
   4: `
-NL Ben guides Imix.
+Ben begeleidt Imix.
 
-Possibility seeks vision.
+Mogelijkheid zoekt visie.
 
-A beginning becomes stronger when it can see beyond itself.
+Een begin wordt sterker wanneer het voorbij zichzelf kan kijken.
 
-The future does not need to be fully known.
+De toekomst hoeft niet volledig bekend te zijn.
 
-It only needs to be visible enough to move toward.
+Zij hoeft slechts zichtbaar genoeg te zijn om ernaartoe te bewegen.
 
-Vision transforms potential into intention.
+Visie verandert potentieel in intentie.
 
-Direction gives possibility its horizon.
+Richting geeft mogelijkheid haar horizon.
 `,
 
-    5: `
-NL Caban guides Imix.
+  5: `
+Caban begeleidt Imix.
 
-Possibility seeks discovery.
+Mogelijkheid zoekt ontdekking.
 
-Every answer reveals another question.
+Elk antwoord onthult een nieuwe vraag.
 
-Every horizon reveals another landscape.
+Elke horizon onthult een nieuw landschap.
 
-The search continues because reality remains larger than expectation.
+De zoektocht gaat verder omdat de werkelijkheid groter blijft dan verwachting.
 
-Discovery transforms potential into experience.
+Ontdekking verandert potentieel in ervaring.
 
-Wonder gives possibility its adventure.
+Verwondering geeft mogelijkheid haar avontuur.
 `
-
   },
 
 ik: {
 
   1: `
-NL Ik reflects Ik.
+Ik weerspiegelt Ik.
 
-Connection recognizes itself.
+Verbinding herkent zichzelf.
 
-Every relationship begins with awareness.
+Elke relatie begint met bewustzijn.
 
-Before understanding another, you must first become present.
+Voordat je een ander kunt begrijpen, moet je eerst aanwezig worden.
 
-The search is not for agreement.
+De zoektocht gaat niet over overeenstemming.
 
-It is for genuine contact.
+Zij gaat over oprecht contact.
 
-Connection begins wherever separation ends.
+Verbinding begint waar afscheiding eindigt.
 `,
 
   2: `
-NL Cimi guides Ik.
+Cimi begeleidt Ik.
 
-Connection seeks transformation.
+Verbinding zoekt transformatie.
 
-No relationship remains unchanged.
+Geen enkele relatie blijft onveranderd.
 
-Every encounter leaves a mark.
+Elke ontmoeting laat een spoor achter.
 
-Growth asks both people to evolve beyond who they were before.
+Groei vraagt beide mensen verder te ontwikkelen dan wie zij eerder waren.
 
-The search continues because connection changes those who enter it.
+De zoektocht gaat verder omdat verbinding degenen verandert die haar betreden.
 
-Transformation gives connection its depth.
+Transformatie geeft verbinding haar diepte.
 `,
 
   3: `
-NL Oc guides Ik.
+Oc begeleidt Ik.
 
-Connection seeks belonging.
+Verbinding zoekt verbondenheid.
 
-Understanding grows through trust.
+Begrip groeit door vertrouwen.
 
-A bridge becomes meaningful when it can be crossed from both directions.
+Een brug krijgt betekenis wanneer zij van beide kanten bewandeld kan worden.
 
-The search is not only for contact.
+De zoektocht gaat niet alleen over contact.
 
-It is also for companionship.
+Zij gaat ook over gezelschap.
 
-Belonging gives connection its warmth.
+Verbondenheid geeft verbinding haar warmte.
 `,
 
   4: `
-NL Ix guides Ik.
+Ix begeleidt Ik.
 
-Connection seeks awareness.
+Verbinding zoekt bewustzijn.
 
-Not everything spoken is understood.
+Niet alles wat gesproken wordt, wordt begrepen.
 
-Not everything understood is spoken.
+Niet alles wat begrepen wordt, wordt uitgesproken.
 
-Attention reveals what words often conceal.
+Aandacht onthult wat woorden vaak verbergen.
 
-The search deepens when observation deepens.
+De zoektocht verdiept zich wanneer observatie verdiept.
 
-Awareness gives connection its clarity.
+Bewustzijn geeft verbinding haar helderheid.
 `,
 
   5: `
-NL Etznab guides Ik.
+Etznab begeleidt Ik.
 
-Connection seeks truth.
+Verbinding zoekt waarheid.
 
-Relationships become stronger when illusion falls away.
+Relaties worden sterker wanneer illusies verdwijnen.
 
-Honesty may feel uncomfortable.
+Eerlijkheid kan ongemakkelijk aanvoelen.
 
-Yet what is real can withstand examination.
+Toch kan wat werkelijk is onderzoek doorstaan.
 
-The search asks for authenticity before certainty.
+De zoektocht vraagt om authenticiteit vóór zekerheid.
 
-Truth gives connection its foundation.
+Waarheid geeft verbinding haar fundament.
 `
 
   },
@@ -172,1384 +170,1338 @@ Truth gives connection its foundation.
 akbal: {
 
   1: `
-NL Akbal reflects Akbal.
+Akbal weerspiegelt Akbal.
 
-Mystery recognizes itself.
+Mysterie herkent zichzelf.
 
-Not every unknown asks to be solved.
+Niet ieder onbekend vraagt om opgelost te worden.
 
-Some doors remain valuable because they remain unopened.
+Sommige deuren blijven waardevol omdat zij gesloten blijven.
 
-The search is not for certainty.
+De zoektocht gaat niet over zekerheid.
 
-It is for the depth behind the question.
+Zij gaat over de diepte achter de vraag.
 
-Mystery becomes its own path.
+Mysterie wordt zijn eigen pad.
 `,
 
   2: `
-Manik guides Akbal.
+Manik begeleidt Akbal.
 
-Mystery seeks service.
+Mysterie zoekt dienstbaarheid.
 
-What is hidden becomes meaningful when it helps someone see more clearly.
+Wat verborgen is krijgt betekenis wanneer het iemand helpt helderder te zien.
 
-Insight is not meant to remain isolated.
+Inzicht is niet bedoeld om geïsoleerd te blijven.
 
-The guide asks how inner discoveries can become useful.
+De gids vraagt hoe innerlijke ontdekkingen bruikbaar kunnen worden.
 
-Service gives mystery a hand.
+Dienstbaarheid geeft mysterie een hand.
 `,
 
   3: `
-Chuen guides Akbal.
+Chuen begeleidt Akbal.
 
-Mystery seeks creativity.
+Mysterie zoekt creativiteit.
 
-The unknown does not always need a serious face.
+Het onbekende hoeft niet altijd een ernstig gezicht te dragen.
 
-Imagination can enter places logic cannot.
+Verbeelding bereikt plaatsen waar logica niet kan komen.
 
-Play opens hidden doors.
+Spel opent verborgen deuren.
 
-Creativity gives mystery its language.
+Creativiteit geeft mysterie haar taal.
 `,
 
   4: `
-Men guides Akbal.
+Men begeleidt Akbal.
 
-Mystery seeks perspective.
+Mysterie zoekt perspectief.
 
-Darkness changes when seen from above.
+Duisternis verandert wanneer zij van bovenaf bekeken wordt.
 
-What feels confusing up close may reveal a pattern from a wider view.
+Wat van dichtbij verwarrend lijkt, kan vanuit een ruimer perspectief een patroon onthullen.
 
-The guide does not remove the mystery.
+De gids neemt het mysterie niet weg.
 
-It teaches you how to look.
+Hij leert je anders kijken.
 
-Perspective gives mystery its horizon.
+Perspectief geeft mysterie haar horizon.
 `,
 
   5: `
-Cauac guides Akbal.
+Cauac begeleidt Akbal.
 
-Mystery seeks renewal.
+Mysterie zoekt vernieuwing.
 
-The unknown can become too familiar.
+Het onbekende kan te vertrouwd worden.
 
-A storm breaks the old interpretation open.
+Een storm breekt oude interpretaties open.
 
-What once seemed hidden may be ready to transform.
+Wat verborgen leek, kan klaar zijn om te transformeren.
 
-Renewal gives mystery its movement.
+Vernieuwing geeft mysterie beweging.
 `
+
 
   },
 
 kan: {
 
   1: `
-Kan reflects Kan.
+Kan weerspiegelt Kan.
 
-Potential recognizes itself.
+Potentieel herkent zichzelf.
 
-Every possibility exists before it takes form.
+Elke mogelijkheid bestaat voordat zij vorm krijgt.
 
-Nothing has been chosen.
+Niets is gekozen.
 
-Nothing has been rejected.
+Niets is verworpen.
 
-The search begins in openness.
+De zoektocht begint in openheid.
 
-Potential becomes aware of its own abundance.
+Potentieel wordt zich bewust van zijn eigen overvloed.
 `,
 
   2: `
-Lamat guides Kan.
+Lamat begeleidt Kan.
 
-Potential seeks beauty.
+Potentieel zoekt schoonheid.
 
-Growth is encouraged by what inspires it.
+Groei wordt gevoed door wat inspireert.
 
-Not every possibility deserves equal attention.
+Niet iedere mogelijkheid verdient dezelfde aandacht.
 
-Some paths shine because they resonate more deeply.
+Sommige paden lichten op omdat zij dieper resoneren.
 
-Beauty gives potential its attraction.
+Schoonheid geeft potentieel haar aantrekkingskracht.
 `,
 
   3: `
-Eb guides Kan.
+Eb begeleidt Kan.
 
-Potential seeks experience.
+Potentieel zoekt ervaring.
 
-A possibility remains theoretical until it is lived.
+Een mogelijkheid blijft theoretisch totdat zij geleefd wordt.
 
-Understanding grows through participation.
+Begrip groeit door deelname.
 
-The guide invites you to step onto the road.
+De gids nodigt je uit de weg op te gaan.
 
-Experience gives potential its reality.
+Ervaring geeft potentieel werkelijkheid.
 `,
 
   4: `
-Cib guides Kan.
+Cib begeleidt Kan.
 
-Potential seeks wisdom.
+Potentieel zoekt wijsheid.
 
-Many opportunities appear valuable.
+Veel kansen lijken waardevol.
 
-Time reveals which ones truly matter.
+De tijd onthult welke werkelijk betekenis hebben.
 
-The guide encourages patience and reflection.
+De gids moedigt geduld en reflectie aan.
 
-Wisdom gives potential its discernment.
+Wijsheid geeft potentieel onderscheidingsvermogen.
 `,
 
   5: `
-Ahau guides Kan.
+Ahau begeleidt Kan.
 
-Potential seeks wholeness.
+Potentieel zoekt heelheid.
 
-Every seed contains more than a single outcome.
+Elk zaad bevat meer dan één mogelijke uitkomst.
 
-Growth moves toward integration.
+Groei beweegt richting integratie.
 
-The guide reminds you that possibilities become meaningful when they serve a larger whole.
+De gids herinnert je eraan dat mogelijkheden betekenis krijgen wanneer zij een groter geheel dienen.
 
-Wholeness gives potential its purpose.
+Heelheid geeft potentieel zijn doel.
 `
+
 
   },
 
 chicchan: {
 
   1: `
-Chicchan reflects Chicchan.
+Chicchan weerspiegelt Chicchan.
 
-Vitality recognizes itself.
+Vitaliteit herkent zichzelf.
 
-Life wishes to express itself fully.
+Het leven wil zichzelf volledig uitdrukken.
 
-Energy seeks movement.
+Energie zoekt beweging.
 
-Movement seeks experience.
+Beweging zoekt ervaring.
 
-The search is not for permission.
+De zoektocht vraagt niet om toestemming.
 
-It is for participation.
+Zij vraagt om deelname.
 
-Vitality becomes aware of its own aliveness.
+Vitaliteit wordt zich bewust van haar eigen levendigheid.
 `,
 
   2: `
-Muluc guides Chicchan.
+Muluc begeleidt Chicchan.
 
-Vitality seeks meaning.
+Vitaliteit zoekt betekenis.
 
-Energy alone is not enough.
+Energie alleen is niet voldoende.
 
-Movement becomes more powerful when it serves something that matters.
+Beweging krijgt meer kracht wanneer zij iets dient dat werkelijk belangrijk is.
 
-The guide asks what your passion is truly feeding.
+De gids vraagt wat jouw passie werkelijk voedt.
 
-Meaning gives vitality its depth.
+Betekenis geeft vitaliteit haar diepte.
 `,
 
   3: `
-Ben guides Chicchan.
+Ben begeleidt Chicchan.
 
-Vitality seeks vision.
+Vitaliteit zoekt visie.
 
-Life naturally moves.
+Het leven beweegt van nature.
 
-The question is where it is moving.
+De vraag is waarheen.
 
-A clear horizon transforms impulse into direction.
+Een heldere horizon verandert impuls in richting.
 
-Vision gives vitality its aim.
+Visie geeft vitaliteit haar doel.
 `,
 
   4: `
-Caban guides Chicchan.
+Caban begeleidt Chicchan.
 
-Vitality seeks discovery.
+Vitaliteit zoekt ontdekking.
 
-The living world is larger than any expectation.
+De levende wereld is groter dan iedere verwachting.
 
-Curiosity invites experience beyond familiar boundaries.
+Nieuwsgierigheid nodigt uit tot ervaringen buiten vertrouwde grenzen.
 
-The guide encourages exploration.
+De gids moedigt verkenning aan.
 
-Discovery gives vitality its adventure.
+Ontdekking geeft vitaliteit haar avontuur.
 `,
 
   5: `
-Imix guides Chicchan.
+Imix begeleidt Chicchan.
 
-Vitality seeks possibility.
+Vitaliteit zoekt mogelijkheid.
 
-Life does not wish to repeat itself forever.
+Het leven wil zichzelf niet eindeloos herhalen.
 
-Every ending contains another beginning.
+Elk einde bevat een nieuw begin.
 
-The guide reveals paths not yet considered.
+De gids onthult paden die nog niet zijn overwogen.
 
-Possibility gives vitality its future.
+Mogelijkheid geeft vitaliteit haar toekomst.
 `
+
 
   },
 
 cimi: {
 
   1: `
-Cimi reflects Cimi.
+Cimi weerspiegelt Cimi.
 
-Transformation recognizes itself.
+Transformatie herkent zichzelf.
 
-Change is a constant companion.
+Verandering is een voortdurende metgezel.
 
-Nothing remains exactly as it was.
+Niets blijft precies zoals het was.
 
-Every ending creates space for a beginning.
+Elk einde creëert ruimte voor een nieuw begin.
 
-The search is not for permanence.
+De zoektocht gaat niet over permanentie.
 
-It is for renewal.
+Zij gaat over vernieuwing.
 
-Transformation becomes aware of its own rhythm.
+Transformatie wordt zich bewust van haar eigen ritme.
 `,
 
   2: `
-Oc guides Cimi.
+Oc begeleidt Cimi.
 
-Transformation seeks belonging.
+Transformatie zoekt verbondenheid.
 
-Change becomes easier when it is shared.
+Verandering wordt draaglijker wanneer zij gedeeld wordt.
 
-Support allows growth to continue through uncertainty.
+Ondersteuning maakt groei mogelijk tijdens perioden van onzekerheid.
 
-The guide reminds you that no journey must be walked alone.
+De gids herinnert je eraan dat geen enkele reis alleen hoeft te worden afgelegd.
 
-Belonging gives transformation its courage.
+Verbondenheid geeft transformatie haar moed.
 `,
 
   3: `
-Ix guides Cimi.
+Ix begeleidt Cimi.
 
-Transformation seeks awareness.
+Transformatie zoekt bewustzijn.
 
-Many changes begin long before they become visible.
+Veel veranderingen beginnen lang voordat zij zichtbaar worden.
 
-The guide encourages careful observation.
+De gids moedigt aandachtige observatie aan.
 
-What appears sudden often has deep roots.
+Wat plotseling lijkt, heeft vaak diepe wortels.
 
-Awareness gives transformation its clarity.
+Bewustzijn geeft transformatie haar helderheid.
 `,
 
   4: `
-Etznab guides Cimi.
+Etznab begeleidt Cimi.
 
-Transformation seeks truth.
+Transformatie zoekt waarheid.
 
-Not every change leads forward.
+Niet iedere verandering leidt vooruit.
 
-Some paths only repeat old patterns in new forms.
+Sommige paden herhalen oude patronen in een nieuwe vorm.
 
-The guide removes illusion from the process.
+De gids verwijdert illusies uit het proces.
 
-Truth gives transformation its direction.
+Waarheid geeft transformatie haar richting.
 `,
 
   5: `
-Ik guides Cimi.
+Ik begeleidt Cimi.
 
-Transformation seeks connection.
+Transformatie zoekt verbinding.
 
-Growth changes how you relate to the world.
+Groei verandert de manier waarop je je tot de wereld verhoudt.
 
-Old relationships evolve.
+Oude relaties ontwikkelen zich.
 
-New relationships emerge.
+Nieuwe relaties ontstaan.
 
-The guide reminds you that change is never purely personal.
+De gids herinnert je eraan dat verandering nooit uitsluitend persoonlijk is.
 
-Connection gives transformation its humanity.
+Verbinding geeft transformatie haar menselijkheid.
 `
+
 
   },
 
 manik: {
 
   1: `
-Manik reflects Manik.
+Manik weerspiegelt Manik.
 
-Service recognizes itself.
+Dienstbaarheid herkent zichzelf.
 
-Helping others begins with understanding what is needed.
+Anderen helpen begint met begrijpen wat werkelijk nodig is.
 
-Not every problem asks to be solved.
+Niet ieder probleem vraagt om een oplossing.
 
-Not every burden asks to be carried.
+Niet iedere last vraagt om gedragen te worden.
 
-The search is not for usefulness alone.
+De zoektocht gaat niet alleen over nuttigheid.
 
-It is for meaningful contribution.
+Zij gaat over betekenisvolle bijdrage.
 
-Service becomes aware of its own purpose.
+Dienstbaarheid wordt zich bewust van haar eigen doel.
 `,
 
   2: `
-Chuen guides Manik.
+Chuen begeleidt Manik.
 
-Service seeks creativity.
+Dienstbaarheid zoekt creativiteit.
 
-There is more than one way to help.
+Er bestaat meer dan één manier om te helpen.
 
-The guide encourages flexibility and imagination.
+De gids moedigt flexibiliteit en verbeeldingskracht aan.
 
-New solutions appear when old assumptions are released.
+Nieuwe oplossingen verschijnen wanneer oude aannames worden losgelaten.
 
-Creativity gives service its adaptability.
+Creativiteit geeft dienstbaarheid haar aanpassingsvermogen.
 `,
 
   3: `
-Men guides Manik.
+Men begeleidt Manik.
 
-Service seeks perspective.
+Dienstbaarheid zoekt perspectief.
 
-Good intentions are strengthened by understanding the larger picture.
+Goede bedoelingen worden sterker wanneer zij het grotere geheel begrijpen.
 
-The guide invites you to step back before stepping forward.
+De gids nodigt je uit eerst afstand te nemen voordat je handelt.
 
-A wider view reveals where effort is most effective.
+Een ruimer perspectief onthult waar inspanning het meeste effect heeft.
 
-Perspective gives service its wisdom.
+Perspectief geeft dienstbaarheid haar wijsheid.
 `,
 
   4: `
-Cauac guides Manik.
+Cauac begeleidt Manik.
 
-Service seeks renewal.
+Dienstbaarheid zoekt vernieuwing.
 
-Even the most dedicated path can become routine.
+Zelfs het meest toegewijde pad kan routine worden.
 
-The guide arrives like a storm.
+De gids arriveert als een storm.
 
-Old methods give way to new possibilities.
+Oude methoden maken plaats voor nieuwe mogelijkheden.
 
-Renewal gives service its vitality.
+Vernieuwing geeft dienstbaarheid haar vitaliteit.
 `,
 
   5: `
-Akbal guides Manik.
+Akbal begeleidt Manik.
 
-Service seeks mystery.
+Dienstbaarheid zoekt mysterie.
 
-Not every answer is immediately visible.
+Niet ieder antwoord wordt direct zichtbaar.
 
-Some forms of help begin with listening rather than acting.
+Sommige vormen van hulp beginnen met luisteren in plaats van handelen.
 
-The guide teaches patience with the unknown.
+De gids leert geduld met het onbekende.
 
-Mystery gives service its humility.
+Mysterie geeft dienstbaarheid haar nederigheid.
 `
+
 
   },
 
 lamat: {
 
   1: `
-Lamat reflects Lamat.
+Lamat weerspiegelt Lamat.
 
-Beauty recognizes itself.
+Schoonheid herkent zichzelf.
 
-Harmony appears when things align naturally.
+Sommige waarheden worden niet begrepen door analyse alleen.
 
-The search is not for perfection.
+Zij worden gevoeld.
 
-It is for resonance.
+Schoonheid opent de deur naar waardering.
 
-What is beautiful often feels effortless because it reflects a deeper order.
+De zoektocht begint wanneer verwondering aandacht krijgt.
 
-Beauty becomes aware of its own radiance.
+Schoonheid wordt zich bewust van haar eigen licht.
 `,
 
   2: `
-Eb guides Lamat.
+Eb begeleidt Lamat.
 
-Beauty seeks experience.
+Schoonheid zoekt ervaring.
 
-Inspiration becomes meaningful when it is lived.
+Inspiratie krijgt betekenis wanneer zij wordt geleefd.
 
-The guide encourages you to walk the road rather than admire it from afar.
+De gids nodigt je uit om niet alleen te bewonderen, maar ook deel te nemen.
 
-Beauty grows richer through participation.
+Ervaring verandert bewondering in begrip.
 
-Experience gives beauty its substance.
+Ervaring geeft schoonheid haar aanwezigheid.
 `,
 
   3: `
-Cib guides Lamat.
+Cib begeleidt Lamat.
 
-Beauty seeks wisdom.
+Schoonheid zoekt wijsheid.
 
-What appears attractive is not always valuable.
+Niet alles wat aantrekkelijk is, is waardevol.
 
-Time reveals the difference.
+De gids helpt onderscheid te maken tussen glans en betekenis.
 
-The guide encourages discernment.
+Wijsheid onthult wat duurzaam is.
 
-Wisdom gives beauty its depth.
+Wijsheid geeft schoonheid haar diepte.
 `,
 
   4: `
-Ahau guides Lamat.
+Ahau begeleidt Lamat.
 
-Beauty seeks wholeness.
+Schoonheid zoekt heelheid.
 
-Harmony expands when all parts are allowed their place.
+Ware schoonheid verbindt delen tot een harmonieus geheel.
 
-The guide reminds you that true beauty does not exclude.
+De gids herinnert je eraan dat niets volledig op zichzelf staat.
 
-It integrates.
-
-Wholeness gives beauty its completeness.
+Heelheid geeft schoonheid haar samenhang.
 `,
 
   5: `
-Kan guides Lamat.
+Kan begeleidt Lamat.
 
-Beauty seeks potential.
+Schoonheid zoekt potentieel.
 
-Every masterpiece begins as a possibility.
+Achter elke bloem schuilt een zaad.
 
-Every expression begins as a seed.
+Achter elke vervulling een nieuwe mogelijkheid.
 
-The guide points toward what has not yet emerged.
+De gids onthult wat nog kan ontstaan.
 
-Potential gives beauty its future.
+Potentieel geeft schoonheid haar toekomst.
 `
+
 
   },
 
 muluc: {
 
   1: `
-Muluc reflects Muluc.
+Muluc weerspiegelt Muluc.
 
-Meaning recognizes itself.
+Betekenis herkent zichzelf.
 
-Some moments ask to be understood rather than explained.
+Niet alles wat waardevol is kan worden gemeten.
 
-Not everything valuable can be measured.
+Sommige dingen worden pas zichtbaar wanneer zij gevoeld worden.
 
-The search is not for answers alone.
+De zoektocht begint met de vraag wat werkelijk belangrijk is.
 
-It is for significance.
-
-Meaning becomes aware of its own depth.
+Betekenis wordt zich bewust van haar eigen diepte.
 `,
 
   2: `
-Ben guides Muluc.
+Ben begeleidt Muluc.
 
-Meaning seeks vision.
+Betekenis zoekt visie.
 
-Purpose grows stronger when it can see beyond the present moment.
+Waarden krijgen richting wanneer zij verbonden worden met een grotere horizon.
 
-The guide encourages you to look toward the horizon.
+De gids nodigt je uit verder te kijken dan onmiddellijke omstandigheden.
 
-A larger vision reveals a larger meaning.
+Visie onthult waarom iets de moeite waard is.
 
-Vision gives meaning its direction.
+Visie geeft betekenis haar toekomst.
 `,
 
   3: `
-Caban guides Muluc.
+Caban begeleidt Muluc.
 
-Meaning seeks discovery.
+Betekenis zoekt ontdekking.
 
-Understanding deepens through exploration.
+Een overtuiging wordt sterker wanneer zij onderzocht wordt.
 
-The guide invites you beyond familiar conclusions.
+De gids moedigt nieuwsgierigheid aan.
 
-New experiences reveal new layers of significance.
+Nieuwe ervaringen kunnen verborgen lagen van waarde onthullen.
 
-Discovery gives meaning its expansion.
+Ontdekking geeft betekenis haar groei.
 `,
 
   4: `
-Imix guides Muluc.
+Imix begeleidt Muluc.
 
-Meaning seeks possibility.
+Betekenis zoekt mogelijkheid.
 
-A purpose can become too narrow.
+Wat vandaag belangrijk lijkt, kan morgen een nieuwe vorm aannemen.
 
-The guide reminds you that more paths exist than you currently see.
+De gids herinnert je eraan dat betekenis blijft evolueren.
 
-New possibilities renew old meanings.
+Nieuwe mogelijkheden houden waarden levend.
 
-Possibility gives meaning its freedom.
+Mogelijkheid geeft betekenis haar vernieuwing.
 `,
 
   5: `
-Chicchan guides Muluc.
+Chicchan begeleidt Muluc.
 
-Meaning seeks vitality.
+Betekenis zoekt vitaliteit.
 
-Purpose becomes strongest when it is lived.
+Een ideaal dat nooit geleefd wordt, verliest zijn kracht.
 
-The guide asks not only what matters.
+De gids moedigt deelname aan.
 
-It asks what brings life to what matters.
+Waarden worden werkelijk wanneer zij door ervaring stromen.
 
-Vitality gives meaning its heartbeat.
+Vitaliteit geeft betekenis haar hartslag.
 `
+
 
   },
 
 oc: {
 
   1: `
-Oc reflects Oc.
+Oc weerspiegelt Oc.
 
-Belonging recognizes itself.
+Verbondenheid herkent zichzelf.
 
-Trust grows through consistency.
+Geen enkel wezen groeit volledig alleen.
 
-Relationships deepen through presence.
+Relaties vormen paden tussen werelden.
 
-The search is not for approval.
+De zoektocht begint wanneer vertrouwen mogelijk wordt.
 
-It is for connection that can endure.
-
-Belonging becomes aware of its own warmth.
+Verbondenheid wordt zich bewust van haar eigen kracht.
 `,
 
   2: `
-Ix guides Oc.
+Ix begeleidt Oc.
 
-Belonging seeks awareness.
+Verbondenheid zoekt bewustzijn.
 
-Connection becomes stronger when people truly see one another.
+Niet iedere verbinding is zichtbaar aan de oppervlakte.
 
-The guide encourages attention beyond appearances.
+De gids nodigt uit tot aandachtig kijken.
 
-Understanding grows through observation.
+Dieper begrip ontstaat wanneer aanwezigheid belangrijker wordt dan oordeel.
 
-Awareness gives belonging its depth.
+Bewustzijn geeft verbondenheid haar helderheid.
 `,
 
   3: `
-Etznab guides Oc.
+Etznab begeleidt Oc.
 
-Belonging seeks truth.
+Verbondenheid zoekt waarheid.
 
-Trust cannot flourish where illusion remains.
+Vertrouwen groeit niet door perfectie.
 
-The guide asks for honesty before comfort.
+Het groeit door eerlijkheid.
 
-What is genuine can withstand examination.
+De gids verwijdert wat niet authentiek is.
 
-Truth gives belonging its foundation.
+Waarheid geeft verbondenheid haar fundament.
 `,
 
   4: `
-Ik guides Oc.
+Ik begeleidt Oc.
 
-Belonging seeks connection.
+Verbondenheid zoekt verbinding.
 
-A bond remains alive through exchange.
+Relaties verdiepen zich wanneer communicatie wederzijds wordt.
 
-The guide reminds you that relationships are built together.
+Luisteren is even belangrijk als spreken.
 
-Understanding grows when both sides participate.
+De gids herinnert je eraan dat wederkerigheid een brug vormt.
 
-Connection gives belonging its expression.
+Verbinding geeft verbondenheid haar stroom.
 `,
 
   5: `
-Cimi guides Oc.
+Cimi begeleidt Oc.
 
-Belonging seeks transformation.
+Verbondenheid zoekt transformatie.
 
-Every relationship changes over time.
+Geen relatie blijft onveranderd.
 
-Growth asks people to evolve without abandoning one another.
+Samen groeien vraagt ruimte voor verandering.
 
-The guide teaches flexibility within commitment.
+De gids helpt oude vormen los te laten zodat nieuwe kunnen ontstaan.
 
-Transformation gives belonging its resilience.
+Transformatie geeft verbondenheid haar toekomst.
 `
+
 
   },
 
 chuen: {
 
   1: `
-Chuen reflects Chuen.
+Chuen weerspiegelt Chuen.
 
-Creativity recognizes itself.
+Creativiteit herkent zichzelf.
 
-Imagination reveals possibilities hidden from routine perception.
+Niet alles hoeft vooraf begrepen te worden.
 
-The search is not for repetition.
+Sommige ontdekkingen ontstaan tijdens het proces.
 
-It is for expression.
+De zoektocht begint wanneer nieuwsgierigheid belangrijker wordt dan controle.
 
-Every creation begins as a new way of seeing.
-
-Creativity becomes aware of its own freedom.
+Creativiteit wordt zich bewust van haar eigen vrijheid.
 `,
 
   2: `
-Men guides Chuen.
+Men begeleidt Chuen.
 
-Creativity seeks perspective.
+Creativiteit zoekt perspectief.
 
-Ideas grow stronger when they can be viewed from different angles.
+Verbeelding wordt krachtiger wanneer zij verder kan kijken dan het huidige moment.
 
-The guide encourages distance before action.
+De gids nodigt uit om patronen vanuit een grotere hoogte te bekijken.
 
-A wider horizon reveals new connections.
-
-Perspective gives creativity its range.
+Perspectief geeft creativiteit haar horizon.
 `,
 
   3: `
-Cauac guides Chuen.
+Cauac begeleidt Chuen.
 
-Creativity seeks renewal.
+Creativiteit zoekt vernieuwing.
 
-What once felt inspiring can become familiar.
+Nieuwe ideeën ontstaan vaak wanneer oude vormen uiteenvallen.
 
-The guide arrives like a storm.
+De gids verschijnt als verandering.
 
-Old patterns loosen.
+Wat eerst als verstoring voelt, kan een opening blijken.
 
-New possibilities emerge.
-
-Renewal gives creativity its vitality.
+Vernieuwing geeft creativiteit haar beweging.
 `,
 
   4: `
-Akbal guides Chuen.
+Akbal begeleidt Chuen.
 
-Creativity seeks mystery.
+Creativiteit zoekt mysterie.
 
-Not every idea arrives fully formed.
+Niet alles hoeft verklaard te worden.
 
-Some inspirations emerge from places beyond explanation.
+Sommige inzichten verschijnen juist wanneer ruimte wordt gelaten voor het onbekende.
 
-The guide teaches patience with the unknown.
+De gids moedigt verwondering aan.
 
-Mystery gives creativity its depth.
+Mysterie geeft creativiteit haar diepte.
 `,
 
   5: `
-Manik guides Chuen.
+Manik begeleidt Chuen.
 
-Creativity seeks service.
+Creativiteit zoekt dienstbaarheid.
 
-Expression becomes meaningful when it benefits more than the creator.
+Een idee wordt waardevoller wanneer het anderen helpt groeien.
 
-The guide asks how imagination can become useful.
+De gids vraagt hoe inspiratie gedeeld kan worden.
 
-A gift grows stronger when it is shared.
-
-Service gives creativity its purpose.
+Dienstbaarheid geeft creativiteit haar betekenis.
 `
+
 
   },
 
 eb: {
 
   1: `
-Eb reflects Eb.
+Eb weerspiegelt Eb.
 
-Experience recognizes itself.
+Ervaring herkent zichzelf.
 
-Understanding grows through participation.
+Een pad wordt niet begrepen door ernaar te kijken.
 
-Some lessons cannot be learned from observation alone.
+Het wordt begrepen door het te bewandelen.
 
-The search is not for theory.
+De zoektocht begint wanneer theorie plaatsmaakt voor deelname.
 
-It is for direct encounter.
-
-Experience becomes aware of its own value.
+Ervaring wordt zich bewust van haar eigen waarde.
 `,
 
   2: `
-Cib guides Eb.
+Cib begeleidt Eb.
 
-Experience seeks wisdom.
+Ervaring zoekt wijsheid.
 
-Many events pass through a lifetime.
+Niet iedere gebeurtenis leidt automatisch tot inzicht.
 
-Not all of them become lessons.
+Reflectie verandert gebeurtenissen in lessen.
 
-The guide encourages reflection upon what has been lived.
+De gids nodigt uit om terug te kijken zonder vast te blijven zitten.
 
-Wisdom gives experience its meaning.
+Wijsheid geeft ervaring haar betekenis.
 `,
 
   3: `
-Ahau guides Eb.
+Ahau begeleidt Eb.
 
-Experience seeks wholeness.
+Ervaring zoekt heelheid.
 
-Individual moments often appear disconnected.
+Losse momenten vormen samen een groter verhaal.
 
-The guide reveals the larger pattern.
+De gids helpt patronen te herkennen tussen gebeurtenissen.
 
-What once seemed separate begins to belong together.
-
-Wholeness gives experience its coherence.
+Heelheid geeft ervaring haar samenhang.
 `,
 
   4: `
-Kan guides Eb.
+Kan begeleidt Eb.
 
-Experience seeks potential.
+Ervaring zoekt potentieel.
 
-Every journey changes what becomes possible.
+Elke stap opent nieuwe mogelijkheden.
 
-The guide reminds you that growth does not end with understanding.
+De weg verandert voortdurend wat mogelijk lijkt.
 
-New opportunities emerge from every lesson.
+De gids herinnert je eraan dat groei nooit voltooid is.
 
-Potential gives experience its future.
+Potentieel geeft ervaring haar horizon.
 `,
 
   5: `
-Lamat guides Eb.
+Lamat begeleidt Eb.
 
-Experience seeks beauty.
+Ervaring zoekt schoonheid.
 
-Some moments remain memorable not because they were useful.
+Niet alles wat waardevol is, is nuttig.
 
-They remain because they were meaningful.
+Sommige momenten zijn belangrijk omdat zij geraakt hebben.
 
-The guide reveals harmony hidden within the journey.
+De gids nodigt uit om waardering te ontwikkelen voor het eenvoudige.
 
-Beauty gives experience its appreciation.
+Schoonheid geeft ervaring haar kleur.
 `
+
 
   },
 
 ben: {
 
   1: `
-Ben reflects Ben.
+Ben weerspiegelt Ben.
 
-Vision recognizes itself.
+Visie herkent zichzelf.
 
-The future begins as an image before it becomes a reality.
+Een richting ontstaat voordat de bestemming zichtbaar wordt.
 
-Every direction starts with the ability to see beyond the present moment.
+Niet iedere stap hoeft vooraf bekend te zijn.
 
-The search is not for prediction.
+De zoektocht begint wanneer vertrouwen groter wordt dan twijfel.
 
-It is for orientation.
-
-Vision becomes aware of its own horizon.
+Visie wordt zich bewust van haar eigen horizon.
 `,
 
   2: `
-Caban guides Ben.
+Caban begeleidt Ben.
 
-Vision seeks discovery.
+Visie zoekt ontdekking.
 
-A horizon gains meaning when it can be explored.
+Een horizon krijgt betekenis wanneer zij onderzocht wordt.
 
-The guide invites you beyond familiar territory.
+De gids moedigt nieuwsgierigheid aan.
 
-Every new discovery reshapes what seemed possible.
+Nieuwe ervaringen verfijnen oude verwachtingen.
 
-Discovery gives vision its expansion.
+Ontdekking geeft visie haar groei.
 `,
 
   3: `
-Imix guides Ben.
+Imix begeleidt Ben.
 
-Vision seeks possibility.
+Visie zoekt mogelijkheid.
 
-The future is never limited to a single outcome.
+De toekomst staat nooit volledig vast.
 
-The guide reminds you that every path contains alternatives.
+Nieuwe mogelijkheden verschijnen terwijl het pad zich ontvouwt.
 
-New beginnings remain hidden within every destination.
+De gids herinnert je eraan open te blijven voor onverwachte kansen.
 
-Possibility gives vision its freedom.
+Mogelijkheid geeft visie haar flexibiliteit.
 `,
 
   4: `
-Chicchan guides Ben.
+Chicchan begeleidt Ben.
 
-Vision seeks vitality.
+Visie zoekt vitaliteit.
 
-A dream remains distant until it enters life.
+Een droom zonder beweging blijft een idee.
 
-The guide encourages movement instead of hesitation.
+De gids moedigt actie aan.
 
-Energy transforms ideas into action.
+Levenskracht zet richting om in vooruitgang.
 
-Vitality gives vision its momentum.
+Vitaliteit geeft visie haar momentum.
 `,
 
   5: `
-Muluc guides Ben.
+Muluc begeleidt Ben.
 
-Vision seeks meaning.
+Visie zoekt betekenis.
 
-A destination becomes valuable when it serves something greater than itself.
+Niet iedere bestemming is de moeite waard.
 
-The guide asks why the journey matters.
+De gids vraagt waarom een doel belangrijk is.
 
-Purpose reveals which horizons are worth pursuing.
+Waarden geven richting aan ambitie.
 
-Meaning gives vision its significance.
+Betekenis geeft visie haar kompas.
 `
+
 
   },
 
 ix: {
 
   1: `
-Ix reflects Ix.
+Ix weerspiegelt Ix.
 
-Awareness recognizes itself.
+Bewustzijn herkent zichzelf.
 
-Some truths become visible only through careful attention.
+Niet alles wat werkelijk is, is onmiddellijk zichtbaar.
 
-The search is not for control.
+Sommige waarheden verschijnen pas wanneer aandacht stil genoeg wordt.
 
-It is for understanding.
+De zoektocht begint met waarnemen.
 
-Presence reveals what distraction conceals.
-
-Awareness becomes aware of its own depth.
+Bewustzijn wordt zich bewust van zichzelf.
 `,
 
   2: `
-Etznab guides Ix.
+Etznab begeleidt Ix.
 
-Awareness seeks truth.
+Bewustzijn zoekt waarheid.
 
-Observation becomes meaningful when it is honest.
+Waarneming wordt scherper wanneer illusies verdwijnen.
 
-The guide removes assumptions and appearances.
+De gids moedigt eerlijk kijken aan.
 
-What remains is what can genuinely be known.
+Niet alles wat comfortabel voelt is waar.
 
-Truth gives awareness its precision.
+Waarheid geeft bewustzijn haar scherpte.
 `,
 
   3: `
-Ik guides Ix.
+Ik begeleidt Ix.
 
-Awareness seeks connection.
+Bewustzijn zoekt verbinding.
 
-Understanding deepens when it is shared.
+Begrip groeit wanneer luisteren belangrijker wordt dan reageren.
 
-The guide reminds you that perception grows through relationship.
+De gids herinnert je eraan dat aandacht relaties verdiept.
 
-Different viewpoints reveal different aspects of reality.
-
-Connection gives awareness its humanity.
+Verbinding geeft bewustzijn haar menselijkheid.
 `,
 
   4: `
-Cimi guides Ix.
+Cimi begeleidt Ix.
 
-Awareness seeks transformation.
+Bewustzijn zoekt transformatie.
 
-What is seen clearly can no longer remain unchanged.
+Zien verandert wat gezien wordt.
 
-The guide reveals opportunities for growth hidden within understanding.
+Nieuwe inzichten maken oude perspectieven kleiner.
 
-Insight becomes the beginning of renewal.
+De gids laat zien dat groei begint met herkenning.
 
-Transformation gives awareness its evolution.
+Transformatie geeft bewustzijn haar beweging.
 `,
 
   5: `
-Oc guides Ix.
+Oc begeleidt Ix.
 
-Awareness seeks belonging.
+Bewustzijn zoekt verbondenheid.
 
-The deepest understanding often reveals what already connects us.
+Aandacht onthult de draden die mensen met elkaar verbinden.
 
-The guide reminds you that separation is rarely as complete as it appears.
+De gids nodigt uit om voorbij afzondering te kijken.
 
-Recognition creates trust.
-
-Belonging gives awareness its heart.
+Verbondenheid geeft bewustzijn haar hart.
 `
+
 
   },
 
 men: {
 
   1: `
-Men reflects Men.
+Men weerspiegelt Men.
 
-Perspective recognizes itself.
+Perspectief herkent zichzelf.
 
-Distance reveals patterns hidden within immediate experience.
+Niet alles hoeft van dichtbij bekeken te worden.
 
-The search is not for escape.
+Sommige patronen worden pas zichtbaar wanneer afstand ontstaat.
 
-It is for understanding.
+De zoektocht begint wanneer het geheel belangrijker wordt dan het detail.
 
-A wider view transforms confusion into context.
-
-Perspective becomes aware of its own horizon.
+Perspectief wordt zich bewust van zijn eigen hoogte.
 `,
 
   2: `
-Cauac guides Men.
+Cauac begeleidt Men.
 
-Perspective seeks renewal.
+Perspectief zoekt vernieuwing.
 
-A viewpoint can become familiar.
+Een hoger standpunt onthult wanneer oude kaarten niet langer kloppen.
 
-The guide arrives to disrupt certainty.
+De gids verschijnt als verandering.
 
-New angles emerge where old assumptions once stood.
+Wat eerst chaos lijkt, kan een nieuwe orde voorbereiden.
 
-Renewal gives perspective its freshness.
+Vernieuwing geeft perspectief haar vleugels.
 `,
 
   3: `
-Akbal guides Men.
+Akbal begeleidt Men.
 
-Perspective seeks mystery.
+Perspectief zoekt mysterie.
 
-Not everything can be understood from a distance.
+Niet alles wat gezien wordt, hoeft verklaard te worden.
 
-Some truths invite deeper exploration.
+Sommige inzichten blijven groter dan woorden.
 
-The guide reminds you that understanding begins where certainty ends.
+De gids nodigt uit om ruimte te laten voor het onbekende.
 
-Mystery gives perspective its depth.
+Mysterie geeft perspectief haar diepte.
 `,
 
   4: `
-Manik guides Men.
+Manik begeleidt Men.
 
-Perspective seeks service.
+Perspectief zoekt dienstbaarheid.
 
-Insight becomes valuable when it benefits more than the observer.
+Inzicht wordt waardevoller wanneer het gedeeld wordt.
 
-The guide asks how understanding can become contribution.
+De gids vraagt hoe overzicht anderen kan helpen.
 
-A wider view carries responsibility.
+Wijsheid krijgt betekenis door toepassing.
 
-Service gives perspective its purpose.
+Dienstbaarheid geeft perspectief haar richting.
 `,
 
   5: `
-Chuen guides Men.
+Chuen begeleidt Men.
 
-Perspective seeks creativity.
+Perspectief zoekt creativiteit.
 
-Every viewpoint reveals possibilities unseen from another angle.
+Nieuwe gezichtspunten openen nieuwe mogelijkheden.
 
-The guide encourages imagination beyond established conclusions.
+De gids moedigt speelsheid aan.
 
-New perspectives create new realities.
+Verbeelding helpt je verder te kijken dan bestaande grenzen.
 
-Creativity gives perspective its freedom.
+Creativiteit geeft perspectief haar vrijheid.
 `
+
 
   },
 
 cib: {
 
   1: `
-Cib reflects Cib.
+Cib weerspiegelt Cib.
 
-Wisdom recognizes itself.
+Wijsheid herkent zichzelf.
 
-Understanding grows through reflection upon experience.
+Kennis verzamelt feiten.
 
-Knowledge may be gathered.
+Wijsheid begrijpt verbanden.
 
-Wisdom must be earned.
+De zoektocht begint wanneer ervaring wordt omgezet in inzicht.
 
-The search is not for information.
-
-It is for insight.
-
-Wisdom becomes aware of its own depth.
+Wijsheid wordt zich bewust van haar eigen diepte.
 `,
 
   2: `
-Ahau guides Cib.
+Ahau begeleidt Cib.
 
-Wisdom seeks wholeness.
+Wijsheid zoekt heelheid.
 
-Individual lessons reveal only part of the picture.
+Een inzicht krijgt meer betekenis wanneer het verbonden wordt met het grotere geheel.
 
-The guide encourages integration.
+De gids helpt afzonderlijke lessen samen te brengen.
 
-Understanding deepens when separate insights begin to connect.
-
-Wholeness gives wisdom its completeness.
+Heelheid geeft wijsheid haar samenhang.
 `,
 
   3: `
-Kan guides Cib.
+Kan begeleidt Cib.
 
-Wisdom seeks potential.
+Wijsheid zoekt potentieel.
 
-Every lesson contains possibilities not yet explored.
+Ieder antwoord bevat nieuwe mogelijkheden.
 
-The guide reminds you that understanding is never the end of growth.
+De gids herinnert je eraan dat leren nooit voltooid is.
 
-New opportunities emerge from what has been learned.
+Zelfs oude inzichten kunnen nieuwe deuren openen.
 
-Potential gives wisdom its future.
+Potentieel geeft wijsheid haar levendigheid.
 `,
 
   4: `
-Lamat guides Cib.
+Lamat begeleidt Cib.
 
-Wisdom seeks beauty.
+Wijsheid zoekt schoonheid.
 
-Truth becomes easier to recognize when expressed with harmony.
+Sommige waarheden overtuigen niet door logica alleen.
 
-The guide reveals elegance hidden within complexity.
+Zij overtuigen door eenvoud en elegantie.
 
-Understanding often arrives through appreciation.
+De gids onthult de schoonheid van helder begrip.
 
-Beauty gives wisdom its grace.
+Schoonheid geeft wijsheid haar gratie.
 `,
 
   5: `
-Eb guides Cib.
+Eb begeleidt Cib.
 
-Wisdom seeks experience.
+Wijsheid zoekt ervaring.
 
-Insight remains incomplete until it is tested in life.
+Inzicht dat niet geleefd wordt, blijft onvolledig.
 
-The guide encourages participation rather than observation alone.
+De gids moedigt toepassing aan.
 
-Every lesson deepens when it is lived.
+Begrip verdiept zich wanneer het deel wordt van het dagelijks leven.
 
-Experience gives wisdom its reality.
+Ervaring geeft wijsheid haar wortels.
 `
+
 
   },
 
 caban: {
 
   1: `
-Caban reflects Caban.
+Caban weerspiegelt Caban.
 
-Discovery recognizes itself.
+Ontdekking herkent zichzelf.
 
-Every answer reveals another question.
+Iedere horizon onthult een nieuwe horizon.
 
-Every horizon reveals another horizon.
+De wereld is groter dan wat al bekend is.
 
-The search is not for completion.
+De zoektocht begint wanneer nieuwsgierigheid sterker wordt dan zekerheid.
 
-It is for exploration.
-
-Discovery becomes aware of its own wonder.
+Ontdekking wordt zich bewust van haar eigen avontuur.
 `,
 
   2: `
-Imix guides Caban.
+Imix begeleidt Caban.
 
-Discovery seeks possibility.
+Ontdekking zoekt mogelijkheid.
 
-The unknown invites new beginnings.
+Nieuwe inzichten ontstaan wanneer onbekende deuren worden geopend.
 
-The guide reminds you that every discovery opens doors not previously imagined.
+De gids herinnert je eraan dat iedere vraag meerdere antwoorden kan bevatten.
 
-What is found changes what can be found next.
-
-Possibility gives discovery its future.
+Mogelijkheid geeft ontdekking haar openheid.
 `,
 
   3: `
-Chicchan guides Caban.
+Chicchan begeleidt Caban.
 
-Discovery seeks vitality.
+Ontdekking zoekt vitaliteit.
 
-Exploration becomes meaningful when it is experienced directly.
+Een avontuur blijft een idee totdat het wordt beleefd.
 
-The guide encourages participation rather than observation alone.
+De gids moedigt deelname aan.
 
-Life reveals what theory cannot.
+Leven onthult wat theorie niet kan tonen.
 
-Vitality gives discovery its excitement.
+Vitaliteit geeft ontdekking haar beweging.
 `,
 
   4: `
-Muluc guides Caban.
+Muluc begeleidt Caban.
 
-Discovery seeks meaning.
+Ontdekking zoekt betekenis.
 
-Not every finding carries equal significance.
+Niet alles wat nieuw is, is belangrijk.
 
-The guide asks what truly matters within what has been uncovered.
+De gids helpt onderscheid maken tussen afleiding en waarde.
 
-Understanding grows when knowledge becomes purpose.
-
-Meaning gives discovery its depth.
+Betekenis geeft ontdekking haar richting.
 `,
 
   5: `
-Ben guides Caban.
+Ben begeleidt Caban.
 
-Discovery seeks vision.
+Ontdekking zoekt visie.
 
-A new landscape changes the horizon.
+Een horizon krijgt betekenis wanneer zij verbonden wordt met een groter doel.
 
-The guide reveals directions that could not be seen before.
+De gids helpt je verder te kijken dan het volgende antwoord.
 
-Every discovery reshapes the future.
-
-Vision gives discovery its destination.
+Visie geeft ontdekking haar bestemming.
 `
+
 
   },
 
 etznab: {
 
   1: `
-Etznab reflects Etznab.
+Etznab weerspiegelt Etznab.
 
-Truth recognizes itself.
+Waarheid herkent zichzelf.
 
-Clarity reveals what was already present.
+Wat werkelijk is hoeft niet verdedigd te worden.
 
-Illusion fades when examined honestly.
+Illusies vragen voortdurend om bescherming.
 
-The search is not for comfort.
+De zoektocht begint wanneer eerlijkheid belangrijker wordt dan comfort.
 
-It is for what remains when appearances fall away.
-
-Truth becomes aware of its own light.
+Waarheid wordt zich bewust van haar eigen helderheid.
 `,
 
   2: `
-Ik guides Etznab.
+Ik begeleidt Etznab.
 
-Truth seeks connection.
+Waarheid zoekt verbinding.
 
-Understanding grows stronger when it can be shared.
+Eerlijkheid zonder verbinding kan afstand creëren.
 
-The guide reminds you that clarity does not need isolation.
+De gids herinnert je eraan dat waarheid het krachtigst is wanneer zij gedeeld kan worden.
 
-What is real becomes more meaningful when it builds bridges.
-
-Connection gives truth its voice.
+Verbinding geeft waarheid haar brug.
 `,
 
   3: `
-Cimi guides Etznab.
+Cimi begeleidt Etznab.
 
-Truth seeks transformation.
+Waarheid zoekt transformatie.
 
-A genuine insight changes the one who receives it.
+Wat gezien wordt kan niet langer volledig verborgen blijven.
 
-The guide reveals that understanding carries consequences.
+De gids onthult wat klaar is om te veranderen.
 
-What is seen clearly can no longer remain unchanged.
-
-Transformation gives truth its power.
+Transformatie geeft waarheid haar beweging.
 `,
 
   4: `
-Oc guides Etznab.
+Oc begeleidt Etznab.
 
-Truth seeks belonging.
+Waarheid zoekt verbondenheid.
 
-Honesty creates trust.
+Vertrouwen groeit wanneer werkelijkheid belangrijker wordt dan schijn.
 
-The guide reminds you that authenticity strengthens relationships.
+De gids moedigt authenticiteit aan.
 
-What is real can withstand closeness.
-
-Belonging gives truth its warmth.
+Verbondenheid geeft waarheid haar menselijkheid.
 `,
 
   5: `
-Ix guides Etznab.
+Ix begeleidt Etznab.
 
-Truth seeks awareness.
+Waarheid zoekt bewustzijn.
 
-Clarity begins with attention.
+Helder zien vraagt aandacht.
 
-The guide encourages observation before conclusion.
+De gids helpt onderscheiden wat werkelijk aanwezig is van wat wordt geprojecteerd.
 
-What is overlooked often contains what is most important.
-
-Awareness gives truth its depth.
+Bewustzijn geeft waarheid haar scherpte.
 `
+
 
   },
 
 cauac: {
 
   1: `
-Cauac reflects Cauac.
+Cauac weerspiegelt Cauac.
 
-Renewal recognizes itself.
+Vernieuwing herkent zichzelf.
 
-Change clears space for what wishes to emerge.
+Niet alles wat uiteenvalt is verloren.
 
-The old does not disappear without reason.
+Sommige structuren moeten breken zodat iets nieuws kan ontstaan.
 
-The new does not arrive without invitation.
+De zoektocht begint wanneer verandering niet langer wordt gevreesd.
 
-The search is not for stability.
-
-It is for growth.
-
-Renewal becomes aware of its own power.
+Vernieuwing wordt zich bewust van haar eigen kracht.
 `,
 
   2: `
-Akbal guides Cauac.
+Akbal begeleidt Cauac.
 
-Renewal seeks mystery.
+Vernieuwing zoekt mysterie.
 
-Not every transformation begins with understanding.
+Niet iedere verandering kan vooraf begrepen worden.
 
-The guide teaches patience with uncertainty.
+De gids nodigt uit vertrouwen te hebben in het onbekende.
 
-What appears chaotic may contain hidden meaning.
+Wat vandaag verwarrend lijkt, kan morgen betekenis krijgen.
 
-Mystery gives renewal its depth.
+Mysterie geeft vernieuwing haar diepte.
 `,
 
   3: `
-Manik guides Cauac.
+Manik begeleidt Cauac.
 
-Renewal seeks service.
+Vernieuwing zoekt dienstbaarheid.
 
-Change becomes meaningful when it benefits more than yourself.
+Verandering wordt waardevoller wanneer zij groei ondersteunt.
 
-The guide asks how transformation can become contribution.
+De gids vraagt hoe nieuwe energie gebruikt kan worden om anderen te helpen.
 
-Growth reaches its fullest expression when it is shared.
-
-Service gives renewal its purpose.
+Dienstbaarheid geeft vernieuwing haar richting.
 `,
 
   4: `
-Chuen guides Cauac.
+Chuen begeleidt Cauac.
 
-Renewal seeks creativity.
+Vernieuwing zoekt creativiteit.
 
-The future cannot be built from old patterns alone.
+Wanneer oude vormen verdwijnen ontstaat ruimte voor nieuwe mogelijkheden.
 
-The guide encourages experimentation and imagination.
+De gids moedigt experimenteren aan.
 
-New possibilities emerge when familiar boundaries dissolve.
-
-Creativity gives renewal its freedom.
+Creativiteit geeft vernieuwing haar verbeeldingskracht.
 `,
 
   5: `
-Men guides Cauac.
+Men begeleidt Cauac.
 
-Renewal seeks perspective.
+Vernieuwing zoekt perspectief.
 
-A storm appears differently when viewed from a greater height.
+Een storm voelt anders vanuit het midden dan van bovenaf.
 
-The guide reveals patterns hidden within disruption.
+De gids helpt het grotere patroon te zien.
 
-What once seemed destructive may become transformative.
-
-Perspective gives renewal its wisdom.
+Perspectief geeft vernieuwing haar wijsheid.
 `
+
 
   },
 
 ahau: {
 
   1: `
-Ahau reflects Ahau.
+Ahau weerspiegelt Ahau.
 
-Wholeness recognizes itself.
+Heelheid herkent zichzelf.
 
-Completion is not an ending.
+Wat gescheiden leek, maakt deel uit van hetzelfde geheel.
 
-It is the moment when all parts become visible together.
+De zoektocht begint wanneer fragmenten worden samengebracht.
 
-The search is not for perfection.
+Eenheid ontstaat niet door verschillen te verwijderen.
 
-It is for integration.
+Zij ontstaat door ze te begrijpen.
 
-Wholeness becomes aware of its own light.
+Heelheid wordt zich bewust van haar eigen licht.
 `,
 
   2: `
-Kan guides Ahau.
+Kan begeleidt Ahau.
 
-Wholeness seeks potential.
+Heelheid zoekt potentieel.
 
-Every completion contains a beginning.
+Voltooiing is geen einde.
 
-The guide reminds you that no cycle truly ends.
+Elke vervulling opent nieuwe mogelijkheden.
 
-New possibilities emerge from every achievement.
+De gids herinnert je eraan dat groei nooit stilstaat.
 
-Potential gives wholeness its renewal.
+Potentieel geeft heelheid haar toekomst.
 `,
 
   3: `
-Lamat guides Ahau.
+Lamat begeleidt Ahau.
 
-Wholeness seeks beauty.
+Heelheid zoekt schoonheid.
 
-Harmony appears when every part is allowed its place.
+Wanneer delen in harmonie samenwerken ontstaat iets dat groter is dan de som der delen.
 
-The guide reveals elegance within complexity.
+De gids onthult de elegantie van verbonden patronen.
 
-What is complete often feels beautiful because nothing essential is missing.
-
-Beauty gives wholeness its radiance.
+Schoonheid geeft heelheid haar uitstraling.
 `,
 
   4: `
-Eb guides Ahau.
+Eb begeleidt Ahau.
 
-Wholeness seeks experience.
+Heelheid zoekt ervaring.
 
-Understanding grows through participation in life.
+Wijsheid wordt niet gevonden buiten het leven.
 
-The guide reminds you that wisdom cannot remain separate from reality.
+Zij groeit door deelname.
 
-What is integrated must also be lived.
+De gids herinnert je eraan dat ieder pad deel uitmaakt van het grotere verhaal.
 
-Experience gives wholeness its humanity.
+Ervaring geeft heelheid haar werkelijkheid.
 `,
 
   5: `
-Cib guides Ahau.
+Cib begeleidt Ahau.
 
-Wholeness seeks wisdom.
+Heelheid zoekt wijsheid.
 
-The larger picture becomes clearer through reflection.
+Inzicht ontstaat wanneer vele lessen samenkomen.
 
-The guide reveals meaning hidden within the journey.
+De gids helpt patronen herkennen die eerder verborgen waren.
 
-Every lesson contributes to the whole.
+Wijsheid geeft heelheid haar diepte.
 
-Wisdom gives wholeness its understanding.
+Het einde onthult het begin.
 `
+
 
   }
 
