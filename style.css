@@ -31,7 +31,7 @@ body{
 
   background-image:url("backgrounds/sun.png");
 
-  background-size:cover;
+  background-size:contain;
 
   background-position:center;
 
