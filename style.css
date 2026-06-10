@@ -29,15 +29,6 @@ body{
   text-align:center;
   font-family:"text";
 
-  background-image:url("backgrounds/sun.png");
-
-  background-size:contain;
-
-  background-position:center;
-
-  background-repeat:no-repeat;
-
-  background-attachment:fixed;
 }
 
 .titleBlock{
@@ -311,6 +302,22 @@ body{
 
 }
 
+#appBackground{
+  position:absolute;
+
+  left:0;
+  top:0;
+
+  width:2000px;
+  height:1000px;
+
+  object-fit:cover;
+  object-position:center;
+
+  z-index:-1;
+
+  pointer-events:none;
+}
 
 #app{
   position:relative;
@@ -319,7 +326,7 @@ body{
   height:1000px;
 
   margin:0 auto;
-
+  overflow:hidden;
   transform-origin:top center;
 }
 

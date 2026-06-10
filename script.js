@@ -722,7 +722,7 @@ const superHeart =
 const specialHeart =
   tone === 13 &&
   night === 1 &&
-  [4,9,14].includes(seal);
+  [4,9,14,19].includes(seal);
 
 if(superHeart){
 
@@ -873,15 +873,15 @@ letters.forEach((id, i) => {
   // info
 document.getElementById("info").innerHTML =
   `
-  <tspan x="-70" dy="0">
+  <tspan x="-90" dy="0">
     ${lang.moon}: G${night} (${lang.nightNames[night-1]})
   </tspan>
 
-  <tspan x="-70" dy="32">
+  <tspan x="-90" dy="36">
     ${lang.sun}: ${animals[seal]}
   </tspan>
 
-  <tspan x="-70" dy="32">
+  <tspan x="-90" dy="36">
     ${lang.star}: ${lang.tone} ${tone} (${lang.toneNames[tone-1]})
   </tspan>
   `;
