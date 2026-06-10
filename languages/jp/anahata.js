@@ -1,256 +1,285 @@
 const anahataPages_jp = {
 
 1: `
-Imix is drawn toward beginnings.
+イミシュは新しい始まりに惹かれます。
 
-You may find yourself repeatedly attracted to new ideas, new stories and unexplored possibilities.
+あなたは新しい考えや物語、
+そして未知の可能性に繰り返し惹かれるかもしれません。
 
-There is joy in opening doors.
+扉を開くことには喜びがあります。
 
-Not every seed needs to become a tree.
+すべての種が木になる必要はありません。
 
-Sometimes your role is simply to recognize potential before others can see it.
+時には他者より先に可能性を見出すことがあなたの役割です。
 
-Love grows where curiosity remains alive.
+愛は好奇心が生き続ける場所で育ちます。
 `,
 
 2: `
-Ik is drawn toward connection.
+イクはつながりに惹かれます。
 
-You may naturally seek exchange, communication and understanding.
+あなたは自然に交流、対話、理解を求めます。
 
-Words, ideas and perspectives often carry more value than possessions.
+言葉や考え、視点は所有物以上の価値を持つことがあります。
 
-Listen as carefully as you speak.
+話すのと同じくらい注意深く耳を傾けてください。
 
-The strongest connections are built through mutual recognition.
+最も強い結びつきは相互の認識から生まれます。
 
-Love grows through dialogue.
+愛は対話を通して育ちます。
 `,
 
 3: `
-Akbal is drawn toward mystery.
+アクバルは神秘に惹かれます。
 
-The unknown rarely feels empty.
+未知は空虚に感じられることはほとんどありません。
 
-It feels alive.
+それは生きているように感じられます。
 
-You may find yourself exploring questions that cannot be answered immediately.
+あなたはすぐには答えの出ない問いを探究することに惹かれるかもしれません。
 
-Trust the value of reflection.
+内省の価値を信頼してください。
 
-Love grows when hidden truths are allowed to emerge in their own time.
+愛は隠された真実が自らの時を得て現れるとき育ちます。
 `,
 
 4: `
-Kan is drawn toward growth.
+カンは成長に惹かれます。
 
-Potential matters.
+可能性は大切です。
 
-You may enjoy helping ideas, people or projects develop beyond their current form.
+あなたは人や考え、計画が成長するのを助けることに喜びを感じるかもしれません。
 
-Patience becomes a creative force.
+忍耐は創造的な力になります。
 
-Love grows when possibilities are nurtured rather than forced.
+愛は可能性が強制されるのではなく育まれるとき育ちます。
 `,
 
 5: `
-Chicchan is drawn toward vitality.
+チクチャンは生命力に惹かれます。
 
-Life is meant to be experienced.
+人生は体験されるためにあります。
 
-Movement, passion and instinct often guide your attention.
+動き、情熱、直感はしばしばあなたの注意を引きます。
 
-Do not ignore what energizes you.
+あなたを活力づけるものを無視しないでください。
 
-Love grows when enthusiasm is honored rather than suppressed.
+愛は情熱が抑え込まれるのではなく尊重されるとき育ちます。
 `,
 
 6: `
-Cimi is drawn toward transformation.
+シミは変容に惹かれます。
 
-You may find yourself helping others navigate change.
+変化は停滞ほど恐ろしいものではありません。
 
-Endings do not frighten you as much as stagnation.
+あなたは終わりが新しい始まりのための空間を作ることを理解しています。
 
-Every transition contains a hidden beginning.
+移行の時期には隠れた機会が含まれています。
 
-Love grows when change is embraced rather than resisted.
+再生の過程を信頼してください。
+
+愛は変化が恐れられるのではなく受け入れられるとき育ちます。
 `,
 
 7: `
-Manik is drawn toward service.
+マニクは奉仕に惹かれます。
 
-There is satisfaction in being useful.
+誰かの役に立つことには満足があります。
 
-You may naturally support, guide or assist others.
+あなたは自然に他者を支え、導き、励ますかもしれません。
 
-Helping does not require self-sacrifice.
+忘れないでください。
 
-Love grows when generosity remains balanced with self-respect.
+思いやりは自分自身にも向けられるべきです。
+
+真の奉仕にはバランスが必要です。
+
+愛は寛大さと自己尊重が出会うとき育ちます。
 `,
 
 8: `
-Lamat is drawn toward beauty.
+ラマトは美に惹かれます。
 
-Beauty is not limited to appearance.
+美は多くの形で現れます。
 
-It can be found in ideas, relationships, craftsmanship and harmony.
+外見だけでなく、
+調和や技術、関係性の中にも存在します。
 
-You may feel compelled to improve what already exists.
+あなたは物事をより美しくしたいと感じるかもしれません。
 
-Love grows where appreciation is practiced.
+感謝は平凡な瞬間を特別なものへと変えます。
+
+愛は感謝が実践される場所で育ちます。
 `,
 
 9: `
-Muluc is drawn toward meaning.
+ムルクは意味に惹かれます。
 
-Experiences become valuable when they connect to something deeper.
+経験はより深いものと結びつくと価値を持ちます。
 
-You may seek authenticity more than recognition.
+あなたは承認よりも誠実さを求めるかもしれません。
 
-Give attention to what feels sincere.
+本当に響くものに注意を向けてください。
 
-Love grows when emotion and purpose meet.
+大きな声のものが最も重要とは限りません。
+
+愛は感情と目的が出会うとき育ちます。
 `,
 
 10: `
-Oc is drawn toward loyalty.
+オクは忠誠に惹かれます。
 
-Relationships matter.
+関係は大切です。
 
-You may value trust, commitment and shared journeys.
+信頼、献身、そして共有された経験には価値があります。
 
-Not every connection is meant to last forever.
+すべてのつながりが永遠に続くわけではありません。
 
-But every genuine connection leaves a mark.
+しかし本物のつながりは必ず痕跡を残します。
 
-Love grows through devotion.
+愛は献身を通して育ちます。
 `,
 
 11: `
-Chuen is drawn toward creativity.
+チューエンは創造性に惹かれます。
 
-Life becomes richer when imagination is allowed to play.
+想像力に余白があると人生はより豊かになります。
 
-You may enjoy exploring ideas that others overlook.
+あなたは他者が見逃すアイデアに魅力を感じるかもしれません。
 
-Do not underestimate the value of curiosity.
+好奇心の力を過小評価しないでください。
 
-Many discoveries begin as experiments.
+多くの発見は実験として始まります。
 
-Love grows where creativity remains free.
+愛は創造性が自由に動ける場所で育ちます。
 `,
 
 12: `
-Eb is drawn toward growth through experience.
+エブは経験による成長に惹かれます。
 
-The journey itself often matters more than the destination.
+旅そのものが目的地より重要であることがあります。
 
-You may learn best through direct participation rather than theory.
+あなたは理論よりも実際の参加から学ぶかもしれません。
 
-Every step teaches something.
+すべての一歩には学びがあります。
 
-Love grows when life is approached as a path rather than a problem.
+前進は動きの中で生まれます。
+
+愛は人生を問題ではなく道として見るとき育ちます。
 `,
 
 13: `
-Ben is drawn toward vision.
+ベンはビジョンに惹かれます。
 
-You may feel called to build something that extends beyond yourself.
+あなたは自分を超える何かを築きたいと感じるかもしれません。
 
-A strong future begins with strong roots.
+強い未来は強い根から始まります。
 
-Leadership is not control.
+リーダーシップは支配ではありません。
 
-It is the ability to inspire direction.
+方向性を示す力です。
 
-Love grows when purpose is shared.
+愛は目的が共有されるとき育ちます。
 `,
 
 14: `
-Ix is drawn toward inner awareness.
+イシュは内なる気づきに惹かれます。
 
-There is wisdom in observation.
+観察には知恵があります。
 
-You may notice patterns, meanings and connections that others miss.
+あなたは他者が見逃すパターンや意味に気づくかもしれません。
 
-Silence can be as informative as conversation.
+沈黙は言葉と同じくらい多くを語ります。
 
-Love grows when intuition is trusted without abandoning reason.
+理性を失わずに直感を信頼してください。
+
+愛は直感と理解が協力するとき育ちます。
 `,
 
 15: `
-Men is drawn toward perspective.
+メンは視点に惹かれます。
 
-You naturally seek the wider view.
+あなたは自然に全体像を求めます。
 
-Stepping back often reveals what urgency hides.
+一歩引くことで、
+焦りが隠していたものが見えてきます。
 
-Do not become trapped by immediate circumstances.
+今この瞬間の状況に閉じ込められないでください。
 
-Love grows when understanding expands beyond personal concerns.
+広い視野は明晰さをもたらします。
+
+愛は理解が個人的な関心を超えるとき育ちます。
 `,
 
 16: `
-Cib is drawn toward wisdom.
+シブは知恵に惹かれます。
 
-Knowledge becomes meaningful when transformed into understanding.
+知識は理解になることで価値を持ちます。
 
-You may find yourself reflecting on lessons that others overlook.
+あなたは他者が見逃す教訓について考えることがあるかもしれません。
 
-Experience gains value when it is integrated.
+経験は統合されることで豊かになります。
 
-Love grows when learning becomes insight.
+洞察は内省から生まれます。
+
+愛は学びが知恵へと変わるとき育ちます。
 `,
 
 17: `
-Caban is drawn toward discovery.
+カバンは発見に惹かれます。
 
-Questions are often more valuable than answers.
+問いはしばしば答えより価値があります。
 
-You may feel compelled to explore, investigate and understand.
+あなたは探究し、調べ、理解したいと感じるかもしれません。
 
-Growth rarely happens inside certainty.
+確実性が成長を生むことは稀です。
 
-Love grows where exploration remains alive.
+好奇心は新しい世界を開きます。
+
+愛は探究が生き続ける場所で育ちます。
 `,
 
 18: `
-Etznab is drawn toward truth.
+エツナブは真実に惹かれます。
 
-Clarity matters.
+明晰さは重要です。
 
-You may feel uncomfortable with illusion, avoidance or self-deception.
+あなたは幻想や回避、
+あるいは自己欺瞞に違和感を覚えるかもしれません。
 
-Honesty is not always pleasant, but it is often liberating.
+正直さは必ずしも心地よいものではありません。
 
-Love grows when reality is faced directly.
+しかしそれは多くの場合、
+制限するよりも解放します。
+
+愛は現実と正面から向き合うとき育ちます。
 `,
 
 19: `
-Cauac is drawn toward renewal.
+カウアクは再生に惹かれます。
 
-Periods of disruption often contain hidden opportunities.
+混乱の時期には隠れた機会があります。
 
-You may possess an unusual ability to recover after setbacks.
+あなたは困難の後に立ち直る特別な力を持っているかもしれません。
 
-Storms clear what no longer serves.
+嵐は不要になったものを取り除きます。
 
-Love grows when transformation is welcomed rather than feared.
+残されたものには再び成長する空間があります。
+
+愛は変化が歓迎されるとき育ちます。
 `,
 
 20: `
-Ahau is drawn toward wholeness.
+アハウは全体性に惹かれます。
 
-You may seek understanding that brings separate parts together.
+あなたは別々のものを結びつける理解を求めるかもしれません。
 
-Generosity, awareness and perspective naturally reinforce one another.
+気づき、知恵、そして思いやりは自然に互いを支えます。
 
-Completion is not perfection.
+完全性は完璧さではありません。
 
-It is the ability to embrace life as it is.
+それは人生をありのまま受け入れる力です。
 
-Love grows when wisdom and compassion meet.
+愛は知恵と思いやりが出会うとき育ちます。
 `
 };

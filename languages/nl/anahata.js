@@ -1,256 +1,278 @@
 const anahataPages_nl = {
 
 1: `
-Imix is drawn toward beginnings.
+Imix voelt zich aangetrokken tot nieuwe beginnen.
 
-You may find yourself repeatedly attracted to new ideas, new stories and unexplored possibilities.
+Je kunt merken dat je steeds weer wordt aangetrokken tot nieuwe ideeën, verhalen en onontdekte mogelijkheden.
 
-There is joy in opening doors.
+Er schuilt vreugde in het openen van deuren.
 
-Not every seed needs to become a tree.
+Niet ieder zaad hoeft een boom te worden.
 
-Sometimes your role is simply to recognize potential before others can see it.
+Soms is jouw rol simpelweg het herkennen van potentieel voordat anderen het zien.
 
-Love grows where curiosity remains alive.
+Liefde groeit waar nieuwsgierigheid levend blijft.
 `,
 
 2: `
-Ik is drawn toward connection.
+Ik voelt zich aangetrokken tot verbinding.
 
-You may naturally seek exchange, communication and understanding.
+Je zoekt van nature uitwisseling, communicatie en begrip.
 
-Words, ideas and perspectives often carry more value than possessions.
+Woorden, ideeën en perspectieven hebben vaak meer waarde dan bezit.
 
-Listen as carefully as you speak.
+Luister net zo aandachtig als je spreekt.
 
-The strongest connections are built through mutual recognition.
+De sterkste verbindingen ontstaan door wederzijdse herkenning.
 
-Love grows through dialogue.
+Liefde groeit door dialoog.
 `,
 
 3: `
-Akbal is drawn toward mystery.
+Akbal voelt zich aangetrokken tot mysterie.
 
-The unknown rarely feels empty.
+Het onbekende voelt zelden leeg.
 
-It feels alive.
+Het voelt levend.
 
-You may find yourself exploring questions that cannot be answered immediately.
+Je kunt jezelf betrappen op het onderzoeken van vragen die niet direct beantwoord kunnen worden.
 
-Trust the value of reflection.
+Vertrouw op de waarde van reflectie.
 
-Love grows when hidden truths are allowed to emerge in their own time.
+Liefde groeit wanneer verborgen waarheden op hun eigen moment mogen verschijnen.
 `,
 
 4: `
-Kan is drawn toward growth.
+Kan voelt zich aangetrokken tot groei.
 
-Potential matters.
+Potentieel is belangrijk.
 
-You may enjoy helping ideas, people or projects develop beyond their current form.
+Je vindt het misschien prettig om ideeën, mensen of projecten verder te helpen ontwikkelen.
 
-Patience becomes a creative force.
+Geduld wordt een creatieve kracht.
 
-Love grows when possibilities are nurtured rather than forced.
+Liefde groeit wanneer mogelijkheden worden gevoed in plaats van geforceerd.
 `,
 
 5: `
-Chicchan is drawn toward vitality.
+Chicchan voelt zich aangetrokken tot vitaliteit.
 
-Life is meant to be experienced.
+Het leven wil beleefd worden.
 
-Movement, passion and instinct often guide your attention.
+Beweging, passie en instinct trekken vaak je aandacht.
 
-Do not ignore what energizes you.
+Negeer niet wat je energie geeft.
 
-Love grows when enthusiasm is honored rather than suppressed.
+Liefde groeit wanneer enthousiasme wordt geëerd in plaats van onderdrukt.
 `,
 
 6: `
-Cimi is drawn toward transformation.
+Cimi voelt zich aangetrokken tot transformatie.
 
-You may find yourself helping others navigate change.
+Verandering schrikt je minder af dan stilstand.
 
-Endings do not frighten you as much as stagnation.
+Je begrijpt dat ieder einde ruimte maakt voor iets nieuws.
 
-Every transition contains a hidden beginning.
+Overgangen bevatten vaak verborgen kansen.
 
-Love grows when change is embraced rather than resisted.
+Vertrouw op het proces van vernieuwing.
+
+Liefde groeit wanneer verandering wordt omarmd in plaats van gevreesd.
 `,
 
 7: `
-Manik is drawn toward service.
+Manik voelt zich aangetrokken tot dienstbaarheid.
 
-There is satisfaction in being useful.
+Er schuilt voldoening in behulpzaam zijn.
 
-You may naturally support, guide or assist others.
+Je ondersteunt, begeleidt of moedigt anderen vaak van nature aan.
 
-Helping does not require self-sacrifice.
+Vergeet niet dat zorg ook naar jezelf mag stromen.
 
-Love grows when generosity remains balanced with self-respect.
+Ware dienstbaarheid vereist evenwicht.
+
+Liefde groeit wanneer vrijgevigheid en zelfrespect samenkomen.
 `,
 
 8: `
-Lamat is drawn toward beauty.
+Lamat voelt zich aangetrokken tot schoonheid.
 
-Beauty is not limited to appearance.
+Schoonheid verschijnt in vele vormen.
 
-It can be found in ideas, relationships, craftsmanship and harmony.
+Niet alleen in uiterlijk, maar ook in harmonie, vakmanschap en relaties.
 
-You may feel compelled to improve what already exists.
+Je kunt de drang voelen om iets mooier te maken dan je het aantrof.
 
-Love grows where appreciation is practiced.
+Waardering verandert gewone momenten in bijzondere.
+
+Liefde groeit waar dankbaarheid wordt beoefend.
 `,
 
 9: `
-Muluc is drawn toward meaning.
+Muluc voelt zich aangetrokken tot betekenis.
 
-Experiences become valuable when they connect to something deeper.
+Ervaringen krijgen waarde wanneer zij verbonden zijn met iets diepers.
 
-You may seek authenticity more than recognition.
+Je zoekt misschien eerder oprechtheid dan erkenning.
 
-Give attention to what feels sincere.
+Let op wat werkelijk resoneert.
 
-Love grows when emotion and purpose meet.
+Niet alles wat luid is, is belangrijk.
+
+Liefde groeit wanneer gevoel en doel elkaar ontmoeten.
 `,
 
 10: `
-Oc is drawn toward loyalty.
+Oc voelt zich aangetrokken tot loyaliteit.
 
-Relationships matter.
+Relaties zijn belangrijk.
 
-You may value trust, commitment and shared journeys.
+Vertrouwen, toewijding en gedeelde ervaringen hebben betekenis.
 
-Not every connection is meant to last forever.
+Niet iedere verbinding duurt een leven lang.
 
-But every genuine connection leaves a mark.
+Maar iedere oprechte verbinding laat een spoor achter.
 
-Love grows through devotion.
+Liefde groeit door toewijding.
 `,
 
 11: `
-Chuen is drawn toward creativity.
+Chuen voelt zich aangetrokken tot creativiteit.
 
-Life becomes richer when imagination is allowed to play.
+Het leven wordt rijker wanneer verbeelding ruimte krijgt.
 
-You may enjoy exploring ideas that others overlook.
+Je kunt plezier beleven aan ideeën die anderen over het hoofd zien.
 
-Do not underestimate the value of curiosity.
+Onderschat de kracht van nieuwsgierigheid niet.
 
-Many discoveries begin as experiments.
+Veel ontdekkingen beginnen als experimenten.
 
-Love grows where creativity remains free.
+Liefde groeit waar creativiteit vrij mag bewegen.
 `,
 
 12: `
-Eb is drawn toward growth through experience.
+Eb voelt zich aangetrokken tot groei door ervaring.
 
-The journey itself often matters more than the destination.
+De reis zelf is vaak belangrijker dan de bestemming.
 
-You may learn best through direct participation rather than theory.
+Je leert waarschijnlijk het meest door deelname.
 
-Every step teaches something.
+Iedere stap bevat een les.
 
-Love grows when life is approached as a path rather than a problem.
+Vooruitgang ontstaat door beweging.
+
+Liefde groeit wanneer het leven wordt benaderd als een pad in plaats van een probleem.
 `,
 
 13: `
-Ben is drawn toward vision.
+Ben voelt zich aangetrokken tot visie.
 
-You may feel called to build something that extends beyond yourself.
+Je voelt misschien de behoefte om iets op te bouwen dat groter is dan jezelf.
 
-A strong future begins with strong roots.
+Een sterke toekomst begint met sterke wortels.
 
-Leadership is not control.
+Leiderschap gaat niet over controle.
 
-It is the ability to inspire direction.
+Het gaat over het inspireren van richting.
 
-Love grows when purpose is shared.
+Liefde groeit wanneer een doel wordt gedeeld.
 `,
 
 14: `
-Ix is drawn toward inner awareness.
+Ix voelt zich aangetrokken tot innerlijk bewustzijn.
 
-There is wisdom in observation.
+Er schuilt wijsheid in observatie.
 
-You may notice patterns, meanings and connections that others miss.
+Je merkt misschien patronen en verbanden op die anderen ontgaan.
 
-Silence can be as informative as conversation.
+Stilte kan net zo veel vertellen als woorden.
 
-Love grows when intuition is trusted without abandoning reason.
+Vertrouw op intuïtie zonder verstand los te laten.
+
+Liefde groeit wanneer innerlijk weten en helder denken samenwerken.
 `,
 
 15: `
-Men is drawn toward perspective.
+Men voelt zich aangetrokken tot perspectief.
 
-You naturally seek the wider view.
+Je zoekt van nature het grotere geheel.
 
-Stepping back often reveals what urgency hides.
+Afstand nemen onthult vaak wat haast verbergt.
 
-Do not become trapped by immediate circumstances.
+Laat je niet opsluiten door de omstandigheden van het moment.
 
-Love grows when understanding expands beyond personal concerns.
+Ruimer kijken brengt helderheid.
+
+Liefde groeit wanneer begrip verder reikt dan persoonlijke belangen.
 `,
 
 16: `
-Cib is drawn toward wisdom.
+Cib voelt zich aangetrokken tot wijsheid.
 
-Knowledge becomes meaningful when transformed into understanding.
+Kennis krijgt pas waarde wanneer zij begrip wordt.
 
-You may find yourself reflecting on lessons that others overlook.
+Je denkt misschien vaak na over lessen die anderen over het hoofd zien.
 
-Experience gains value when it is integrated.
+Ervaring wordt rijker wanneer zij wordt geïntegreerd.
 
-Love grows when learning becomes insight.
+Inzicht ontstaat door reflectie.
+
+Liefde groeit wanneer leren verandert in wijsheid.
 `,
 
 17: `
-Caban is drawn toward discovery.
+Caban voelt zich aangetrokken tot ontdekking.
 
-Questions are often more valuable than answers.
+Vragen zijn vaak waardevoller dan antwoorden.
 
-You may feel compelled to explore, investigate and understand.
+Je voelt misschien de behoefte om te onderzoeken, te verkennen en te begrijpen.
 
-Growth rarely happens inside certainty.
+Zekerheid is zelden de bron van groei.
 
-Love grows where exploration remains alive.
+Nieuwsgierigheid opent nieuwe werelden.
+
+Liefde groeit waar ontdekking levend blijft.
 `,
 
 18: `
-Etznab is drawn toward truth.
+Etznab voelt zich aangetrokken tot waarheid.
 
-Clarity matters.
+Helderheid is belangrijk.
 
-You may feel uncomfortable with illusion, avoidance or self-deception.
+Je kunt moeite hebben met illusies, ontwijking of zelfbedrog.
 
-Honesty is not always pleasant, but it is often liberating.
+Eerlijkheid is niet altijd gemakkelijk.
 
-Love grows when reality is faced directly.
+Maar zij bevrijdt vaker dan zij beperkt.
+
+Liefde groeit wanneer de werkelijkheid rechtstreeks wordt ontmoet.
 `,
 
 19: `
-Cauac is drawn toward renewal.
+Cauac voelt zich aangetrokken tot vernieuwing.
 
-Periods of disruption often contain hidden opportunities.
+Verstoringen bevatten vaak verborgen kansen.
 
-You may possess an unusual ability to recover after setbacks.
+Je bezit misschien een bijzonder vermogen om terug te veren na tegenslagen.
 
-Storms clear what no longer serves.
+Stormen verwijderen wat niet langer nodig is.
 
-Love grows when transformation is welcomed rather than feared.
+Wat overblijft krijgt ruimte om opnieuw te groeien.
+
+Liefde groeit wanneer verandering welkom wordt geheten.
 `,
 
 20: `
-Ahau is drawn toward wholeness.
+Ahau voelt zich aangetrokken tot heelheid.
 
-You may seek understanding that brings separate parts together.
+Je zoekt misschien naar inzichten die losse delen samenbrengen.
 
-Generosity, awareness and perspective naturally reinforce one another.
+Bewustzijn, wijsheid en compassie versterken elkaar van nature.
 
-Completion is not perfection.
+Volledigheid is niet hetzelfde als perfectie.
 
-It is the ability to embrace life as it is.
+Zij is het vermogen om het leven te omarmen zoals het is.
 
-Love grows when wisdom and compassion meet.
+Liefde groeit wanneer wijsheid en mededogen elkaar ontmoeten.
 `
 };

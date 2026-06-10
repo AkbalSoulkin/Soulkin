@@ -1,245 +1,269 @@
 const manipuraPages_jp = {
 
 1: `
-Etznab walks beside Imix.
+エツナブはイミシュの隣を歩きます。
 
-New beginnings benefit from clarity.
+新しい始まりは明晰さによって強くなります。
 
-Inspiration becomes stronger when illusion is removed.
+幻想が取り除かれると、
+ひらめきはより力を持ちます。
 
-Truth helps potential become reality.
+真実は可能性を現実へと導きます。
 
-Follow what remains meaningful when uncertainty falls away.
+不確実さが消えた後にも意味を持つものに従ってください。
 `,
 
 2: `
-Caban walks beside Ik.
+カバンはイクの隣を歩きます。
 
-Communication becomes deeper through exploration.
+コミュニケーションは探究によって深まります。
 
-Questions reveal pathways that certainty cannot.
+問いは確実性が見せられない道を明らかにします。
 
-Curiosity keeps understanding alive.
+好奇心は理解を生きたものにします。
 
-Follow the desire to discover.
+発見への願いに従ってください。
 `,
 
 3: `
-Cib walks beside Akbal.
+シブはアクバルの隣を歩きます。
 
-Mystery benefits from wisdom.
+神秘は知恵によって支えられます。
 
-Experience provides guidance where certainty cannot.
+経験は確実性が与えられない導きを与えます。
 
-The unknown becomes less intimidating when approached with understanding.
+未知は理解をもって近づくと恐ろしさを失います。
 
-Follow what deepens insight.
+洞察を深めるものに従ってください。
 `,
 
 4: `
-Men walks beside Kan.
+メンはカンの隣を歩きます。
 
-Growth benefits from perspective.
+成長は視点によって強くなります。
 
-Not every possibility deserves equal attention.
+すべての可能性が同じ価値を持つわけではありません。
 
-A broader view helps reveal what truly matters.
+広い視野は本当に重要なものを示します。
 
-Follow what expands awareness.
+意識を広げるものに従ってください。
 `,
 
 5: `
-Ix walks beside Chicchan.
+イシュはチクチャンの隣を歩きます。
 
-Vitality becomes balanced through awareness.
+生命力は気づきによって調和します。
 
-Instinct is powerful, but consciousness gives it direction.
+本能は強力ですが、
+意識が方向を与えます。
 
-The body speaks, but the spirit listens.
+身体は語り、
+精神は耳を傾けます。
 
-Follow what awakens both.
+その両方を目覚めさせるものに従ってください。
 `,
 
 6: `
-Ben walks beside Cimi.
+ベンはシミの隣を歩きます。
 
-Transformation becomes purposeful through vision.
+変容はビジョンによって方向を得ます。
 
-Endings make sense when they serve a greater future.
+変化は向かう先が見えると、
+より意味を持ちます。
 
-A clear direction eases difficult transitions.
+未来への明確なイメージは困難な選択を支えます。
 
-Follow what inspires growth.
+成長を促すものに従ってください。
 `,
 
 7: `
-Eb walks beside Manik.
+エブはマニクの隣を歩きます。
 
-Service becomes sustainable through experience.
+奉仕は経験によって持続可能になります。
 
-Every step teaches something valuable.
+すべての一歩には学びがあります。
 
-Helping others begins with understanding the road itself.
+他者を助けることは、
+まず道そのものを理解することから始まります。
 
-Follow the lessons of the journey.
+旅の教訓に従ってください。
 `,
 
 8: `
-Chuen walks beside Lamat.
+チューエンはラマトの隣を歩きます。
 
-Beauty thrives through creativity.
+美は創造性によって花開きます。
 
-Perfection is less important than expression.
+完璧さよりも表現が大切です。
 
-Joy often appears where imagination is free.
+喜びは想像力が自由な場所に現れます。
 
-Follow what invites playfulness.
+遊び心を招くものに従ってください。
 `,
 
 9: `
-Oc walks beside Muluc.
+オクはムルクの隣を歩きます。
 
-Meaning becomes stronger through connection.
+意味はつながりによって強くなります。
 
-Purpose is rarely discovered in isolation.
+目的は孤立の中で見つかることは稀です。
 
-Shared experiences deepen understanding.
+共有された経験は理解を深めます。
 
-Follow what strengthens trust.
+信頼を強めるものに従ってください。
 `,
 
 10: `
-Muluc walks beside Oc.
+ムルクはオクの隣を歩きます。
 
-Connection becomes meaningful through sincerity.
+つながりは誠実さによって意味を持ちます。
 
-Relationships flourish when they are genuine.
+関係は本物であるとき花開きます。
 
-Authenticity creates lasting bonds.
+真正性は長く続く絆を生み出します。
 
-Follow what feels true.
+真実だと感じるものに従ってください。
 `,
 
 11: `
-Lamat walks beside Chuen.
+ラマトはチューエンの隣を歩きます。
 
-Creativity flourishes when beauty is appreciated.
+創造性は美が認識されることで花開きます。
 
-Not every creation must be useful.
+すべての創造が実用的である必要はありません。
 
-Some things exist simply to inspire.
+あるものはただ人を вдохませるために存在します。
 
-Follow what brings wonder.
+驚きは論理が閉ざした扉を開きます。
+
+美を明らかにするものに従ってください。
 `,
 
 12: `
-Manik walks beside Eb.
+マニクはエブの隣を歩きます。
 
-Experience gains value through service.
+経験は奉仕によって価値を得ます。
 
-Knowledge becomes wisdom when shared.
+知識は共有されることで知恵になります。
 
-The path reveals itself through contribution.
+道は貢献を通して姿を現します。
 
-Follow what benefits others.
+学びは他者を助けるとき意味を持ちます。
+
+全体のためになるものに従ってください。
 `,
 
 13: `
-Cimi walks beside Ben.
+シミはベンの隣を歩きます。
 
-Vision grows stronger through transformation.
+ビジョンは変容によって強くなります。
 
-Plans evolve as life unfolds.
+人生が展開するにつれて計画も変化します。
 
-Change is not an interruption of the journey.
+変化は旅を中断するものではありません。
 
-It is part of it.
+それは旅の一部です。
 
-Follow what renews purpose.
+目的を新たにするものに従ってください。
 `,
 
 14: `
-Chicchan walks beside Ix.
+チクチャンはイシュの隣を歩きます。
 
-Awareness becomes alive through experience.
+気づきは経験によって生きたものになります。
 
-Insight alone is not enough.
+洞察だけでは十分ではありません。
 
-Wisdom must eventually be lived.
+知恵は最終的に生きられることを望みます。
 
-Follow what energizes understanding.
+知識は参加によって力を得ます。
+
+理解に活力を与えるものに従ってください。
 `,
 
 15: `
-Kan walks beside Men.
+カンはメンの隣を歩きます。
 
-Perspective becomes meaningful through growth.
+視点は成長によって意味を持ちます。
 
-A wider view reveals new possibilities.
+より広い視野は新しい可能性を明らかにします。
 
-Potential often appears beyond familiar boundaries.
+可能性はしばしば慣れ親しんだ境界の向こうに現れます。
 
-Follow what encourages development.
+成長は確実性の終わる場所から始まります。
+
+成長を促すものに従ってください。
 `,
 
 16: `
-Akbal walks beside Cib.
+アクバルはシブの隣を歩きます。
 
-Wisdom remains alive through mystery.
+知恵は神秘によって生き続けます。
 
-There is always more to learn.
+学ぶべきことは常に残されています。
 
-Certainty can close doors that curiosity keeps open.
+確実性は好奇心が開いている扉を閉じることがあります。
 
-Follow the questions that endure.
+すべての問いが最終的な答えを必要とするわけではありません。
+
+繰り返し現れる問いに従ってください。
 `,
 
 17: `
-Ik walks beside Caban.
+イクはカバンの隣を歩きます。
 
-Discovery becomes meaningful through communication.
+発見はコミュニケーションによって意味を持ちます。
 
-Insights gain strength when shared.
+洞察は共有されることで強くなります。
 
-Understanding grows through exchange.
+理解は交換を通して成長します。
 
-Follow the conversations that expand awareness.
+アイデアは他者に届くとき目的を果たします。
+
+意識を広げる対話に従ってください。
 `,
 
 18: `
-Imix walks beside Etznab.
+イミシュはエツナブの隣を歩きます。
 
-Truth reveals new beginnings.
+真実は新しい始まりを明らかにします。
 
-Clarity is not an ending.
+明晰さは終わりではありません。
 
-It is often the start of something new.
+それはしばしば新しい段階の始まりです。
 
-Follow what opens fresh possibilities.
+幻想が消えると可能性のための空間が生まれます。
+
+新しい扉を開くものに従ってください。
 `,
 
 19: `
-Ahau walks beside Cauac.
+アハウはカウアクの隣を歩きます。
 
-Renewal benefits from wholeness.
+再生は全体性によって支えられます。
 
-After every storm comes an opportunity to integrate what was learned.
+嵐の後には学びを統合する機会があります。
 
-Healing creates new strength.
+癒しは新しい力を生み出します。
 
-Follow what brings completion.
+壊れたように見えたものも、
+より大きな全体の一部になることができます。
+
+完成へ導くものに従ってください。
 `,
 
 20: `
-Cauac walks beside Ahau.
+カウアクはアハウの隣を歩きます。
 
-Wholeness remains alive through renewal.
+全体性は再生によって生き続けます。
 
-Growth never truly stops.
+成長が完全に止まることはありません。
 
-Even wisdom must continue evolving.
+知恵でさえ進化し続けます。
 
-Follow what keeps transformation alive.
+すべての完成は新しい循環を開きます。
+
+変容を生きたものにするものに従ってください。
 `
 
 };

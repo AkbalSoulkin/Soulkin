@@ -1,245 +1,263 @@
 const manipuraPages_nl = {
 
 1: `
-Etznab walks beside Imix.
+Etznab loopt naast Imix.
 
-New beginnings benefit from clarity.
+Nieuwe beginnen hebben baat bij helderheid.
 
-Inspiration becomes stronger when illusion is removed.
+Inspiratie wordt krachtiger wanneer illusies verdwijnen.
 
-Truth helps potential become reality.
+Waarheid helpt potentieel werkelijkheid te worden.
 
-Follow what remains meaningful when uncertainty falls away.
+Volg wat betekenisvol blijft wanneer onzekerheid wegvalt.
 `,
 
 2: `
-Caban walks beside Ik.
+Caban loopt naast Ik.
 
-Communication becomes deeper through exploration.
+Communicatie verdiept zich door ontdekking.
 
-Questions reveal pathways that certainty cannot.
+Vragen onthullen paden die zekerheid niet kan tonen.
 
-Curiosity keeps understanding alive.
+Nieuwsgierigheid houdt begrip levend.
 
-Follow the desire to discover.
+Volg het verlangen om te ontdekken.
 `,
 
 3: `
-Cib walks beside Akbal.
+Cib loopt naast Akbal.
 
-Mystery benefits from wisdom.
+Mysterie heeft baat bij wijsheid.
 
-Experience provides guidance where certainty cannot.
+Ervaring biedt richting waar zekerheid tekortschiet.
 
-The unknown becomes less intimidating when approached with understanding.
+Het onbekende wordt minder intimiderend wanneer het met begrip wordt benaderd.
 
-Follow what deepens insight.
+Volg wat inzicht verdiept.
 `,
 
 4: `
-Men walks beside Kan.
+Men loopt naast Kan.
 
-Growth benefits from perspective.
+Groei heeft baat bij perspectief.
 
-Not every possibility deserves equal attention.
+Niet iedere mogelijkheid verdient dezelfde aandacht.
 
-A broader view helps reveal what truly matters.
+Een ruimer overzicht onthult wat werkelijk belangrijk is.
 
-Follow what expands awareness.
+Volg wat bewustzijn verruimt.
 `,
 
 5: `
-Ix walks beside Chicchan.
+Ix loopt naast Chicchan.
 
-Vitality becomes balanced through awareness.
+Vitaliteit komt in balans door bewustzijn.
 
-Instinct is powerful, but consciousness gives it direction.
+Instinct is krachtig, maar bewustzijn geeft richting.
 
-The body speaks, but the spirit listens.
+Het lichaam spreekt, maar de geest luistert.
 
-Follow what awakens both.
+Volg wat beide wakker maakt.
 `,
 
 6: `
-Ben walks beside Cimi.
+Ben loopt naast Cimi.
 
-Transformation becomes purposeful through vision.
+Transformatie krijgt richting door visie.
 
-Endings make sense when they serve a greater future.
+Verandering voelt minder willekeurig wanneer zij ergens naartoe beweegt.
 
-A clear direction eases difficult transitions.
+Een helder toekomstbeeld helpt moeilijke keuzes dragen.
 
-Follow what inspires growth.
+Volg wat groei inspireert.
 `,
 
 7: `
-Eb walks beside Manik.
+Eb loopt naast Manik.
 
-Service becomes sustainable through experience.
+Dienstbaarheid wordt duurzaam door ervaring.
 
-Every step teaches something valuable.
+Iedere stap bevat een les.
 
-Helping others begins with understanding the road itself.
+Anderen helpen begint met het begrijpen van de weg zelf.
 
-Follow the lessons of the journey.
+Volg de lessen van de reis.
 `,
 
 8: `
-Chuen walks beside Lamat.
+Chuen loopt naast Lamat.
 
-Beauty thrives through creativity.
+Schoonheid bloeit door creativiteit.
 
-Perfection is less important than expression.
+Perfectie is minder belangrijk dan expressie.
 
-Joy often appears where imagination is free.
+Vreugde verschijnt vaak waar verbeelding vrij is.
 
-Follow what invites playfulness.
+Volg wat speelsheid uitnodigt.
 `,
 
 9: `
-Oc walks beside Muluc.
+Oc loopt naast Muluc.
 
-Meaning becomes stronger through connection.
+Betekenis wordt sterker door verbinding.
 
-Purpose is rarely discovered in isolation.
+Doel wordt zelden gevonden in afzondering.
 
-Shared experiences deepen understanding.
+Gedeelde ervaringen verdiepen begrip.
 
-Follow what strengthens trust.
+Volg wat vertrouwen versterkt.
 `,
 
 10: `
-Muluc walks beside Oc.
+Muluc loopt naast Oc.
 
-Connection becomes meaningful through sincerity.
+Verbinding krijgt betekenis door oprechtheid.
 
-Relationships flourish when they are genuine.
+Relaties bloeien wanneer zij echt zijn.
 
-Authenticity creates lasting bonds.
+Authenticiteit schept duurzame banden.
 
-Follow what feels true.
+Volg wat waarachtig voelt.
 `,
 
 11: `
-Lamat walks beside Chuen.
+Lamat loopt naast Chuen.
 
-Creativity flourishes when beauty is appreciated.
+Creativiteit bloeit wanneer schoonheid wordt gewaardeerd.
 
-Not every creation must be useful.
+Niet iedere creatie hoeft nuttig te zijn.
 
-Some things exist simply to inspire.
+Sommige dingen bestaan eenvoudigweg om te inspireren.
 
-Follow what brings wonder.
+Verwondering opent deuren die logica gesloten laat.
+
+Volg wat schoonheid zichtbaar maakt.
 `,
 
 12: `
-Manik walks beside Eb.
+Manik loopt naast Eb.
 
-Experience gains value through service.
+Ervaring krijgt waarde door dienstbaarheid.
 
-Knowledge becomes wisdom when shared.
+Kennis wordt wijsheid wanneer zij wordt gedeeld.
 
-The path reveals itself through contribution.
+De weg onthult zichzelf door bijdrage.
 
-Follow what benefits others.
+Wat je leert krijgt betekenis wanneer het anderen helpt.
+
+Volg wat ten goede komt aan het geheel.
 `,
 
 13: `
-Cimi walks beside Ben.
+Cimi loopt naast Ben.
 
-Vision grows stronger through transformation.
+Visie wordt sterker door transformatie.
 
-Plans evolve as life unfolds.
+Plannen veranderen terwijl het leven zich ontvouwt.
 
-Change is not an interruption of the journey.
+Verandering onderbreekt de reis niet.
 
-It is part of it.
+Zij is onderdeel van de reis.
 
-Follow what renews purpose.
+Volg wat doel vernieuwt.
 `,
 
 14: `
-Chicchan walks beside Ix.
+Chicchan loopt naast Ix.
 
-Awareness becomes alive through experience.
+Bewustzijn komt tot leven door ervaring.
 
-Insight alone is not enough.
+Inzicht alleen is niet voldoende.
 
-Wisdom must eventually be lived.
+Wijsheid wil uiteindelijk worden geleefd.
 
-Follow what energizes understanding.
+Kennis krijgt kracht door deelname.
+
+Volg wat begrip energie geeft.
 `,
 
 15: `
-Kan walks beside Men.
+Kan loopt naast Men.
 
-Perspective becomes meaningful through growth.
+Perspectief krijgt betekenis door groei.
 
-A wider view reveals new possibilities.
+Een bredere blik onthult nieuwe mogelijkheden.
 
-Potential often appears beyond familiar boundaries.
+Potentieel verschijnt vaak voorbij vertrouwde grenzen.
 
-Follow what encourages development.
+Ontwikkeling begint waar zekerheid eindigt.
+
+Volg wat groei stimuleert.
 `,
 
 16: `
-Akbal walks beside Cib.
+Akbal loopt naast Cib.
 
-Wisdom remains alive through mystery.
+Wijsheid blijft levend door mysterie.
 
-There is always more to learn.
+Er valt altijd meer te leren.
 
-Certainty can close doors that curiosity keeps open.
+Zekerheid kan deuren sluiten die nieuwsgierigheid openhoudt.
 
-Follow the questions that endure.
+Niet iedere vraag verlangt een definitief antwoord.
+
+Volg de vragen die blijven terugkeren.
 `,
 
 17: `
-Ik walks beside Caban.
+Ik loopt naast Caban.
 
-Discovery becomes meaningful through communication.
+Ontdekking krijgt betekenis door communicatie.
 
-Insights gain strength when shared.
+Inzichten worden sterker wanneer zij worden gedeeld.
 
-Understanding grows through exchange.
+Begrip groeit door uitwisseling.
 
-Follow the conversations that expand awareness.
+Een idee bereikt zijn bestemming wanneer het anderen raakt.
+
+Volg de gesprekken die bewustzijn verruimen.
 `,
 
 18: `
-Imix walks beside Etznab.
+Imix loopt naast Etznab.
 
-Truth reveals new beginnings.
+Waarheid onthult nieuwe beginnen.
 
-Clarity is not an ending.
+Helderheid is geen einde.
 
-It is often the start of something new.
+Zij markeert vaak het begin van een nieuwe fase.
 
-Follow what opens fresh possibilities.
+Wanneer illusies verdwijnen ontstaat ruimte voor mogelijkheden.
+
+Volg wat nieuwe deuren opent.
 `,
 
 19: `
-Ahau walks beside Cauac.
+Ahau loopt naast Cauac.
 
-Renewal benefits from wholeness.
+Vernieuwing heeft baat bij heelheid.
 
-After every storm comes an opportunity to integrate what was learned.
+Na iedere storm ontstaat de kans om te integreren wat geleerd is.
 
-Healing creates new strength.
+Genezing brengt nieuwe kracht voort.
 
-Follow what brings completion.
+Wat gebroken leek kan deel worden van een groter geheel.
+
+Volg wat voltooiing brengt.
 `,
 
 20: `
-Cauac walks beside Ahau.
+Cauac loopt naast Ahau.
 
-Wholeness remains alive through renewal.
+Heelheid blijft levend door vernieuwing.
 
-Growth never truly stops.
+Groei stopt nooit volledig.
 
-Even wisdom must continue evolving.
+Zelfs wijsheid blijft zich ontwikkelen.
 
-Follow what keeps transformation alive.
+Iedere voltooiing opent een nieuwe cyclus.
+
+Volg wat transformatie levend houdt.
 `
 
 };
