@@ -370,8 +370,19 @@ body{
 
   #stepButton{
 
-    transform:scale(3);
+    position:fixed;
 
+    right:20px;
+    bottom:20px;
+
+    width:90px;
+    height:90px;
+
+    border-radius:50%;
+
+    font-size:24px;
+
+    z-index:9999;
   }
 
 }
