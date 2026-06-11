@@ -1,788 +1,861 @@
 const hexagramStatePages_jp = {
 
 1: `
-Pure potential remains open.
+純粋な可能性は開かれたままです。
 
-Nothing has been chosen yet.
+まだ何も選ばれていません。
 
-The future exists as possibility rather than direction.
+未来は方向ではなく可能性として存在しています。
 
-The lens invites you to notice what remains available.
+このレンズは、
+まだ利用可能なものに気づくよう促します。
 
-Freedom appears before commitment.
+自由は献身の前に現れます。
 `,
 
 2: `
-A first distinction emerges.
+最初の区別が生まれます。
 
-Potential begins to lean without becoming fixed.
+可能性は固定されることなく傾き始めます。
 
-Something has started to separate itself from the whole.
+何かが全体から分かれ始めています。
 
-The lens invites you to notice what is beginning to take shape.
+このレンズは、
+形になり始めているものに気づくよう促します。
 
-Form appears through contrast.
+形は対比によって現れます。
 `,
 
 3: `
-An inner movement becomes visible.
+内なる動きが見え始めます。
 
-Change begins before action is seen.
+変化は行動が見える前に始まります。
 
-Something is already shifting beneath the surface.
+何かがすでに水面下で動いています。
 
-The lens invites you to notice what is quietly developing.
+このレンズは、
+静かに育っているものに気づくよう促します。
 
-Growth often starts in silence.
+成長はしばしば静寂の中で始まります。
 `,
 
 4: `
-A possibility gains definition.
+一つの可能性が輪郭を得ます。
 
-What was once uncertain begins to reveal its outline.
+かつて不確かだったものが姿を現し始めます。
 
-Direction becomes easier to recognize.
+方向性はより認識しやすくなります。
 
-The lens invites you to notice what is becoming clear.
+このレンズは、
+明確になりつつあるものに気づくよう促します。
 
-Recognition creates momentum.
+認識は勢いを生みます。
 `,
 
 5: `
-Energy gathers around a direction.
+エネルギーが一つの方向へ集まり始めます。
 
-Potential no longer moves equally toward every outcome.
+可能性はもはやすべての結果へ均等には向かいません。
 
-Something has begun to attract attention.
+何かが注意を引き始めています。
 
-The lens invites you to notice what repeatedly calls you forward.
+このレンズは、
+繰り返しあなたを前へ呼ぶものに気づくよう促します。
 
-Focus strengthens possibility.
+集中は可能性を強めます。
 `,
 
 6: `
-A threshold approaches.
+一つの境界が近づいています。
 
-What has been forming now seeks expression.
+形成されてきたものが表現を求めています。
 
-The movement is no longer entirely internal.
+その動きはもはや完全に内側だけのものではありません。
 
-The lens invites you to notice what wishes to emerge.
+このレンズは、
+現れようとしているものに気づくよう促します。
 
-Transition creates opportunity.
+移行は機会を生みます。
 `,
 
 7: `
-An unseen pattern begins to organize itself.
+見えないパターンが組織され始めます。
 
-Separate elements start moving toward relationship.
+別々だった要素が関係へ向かって動き始めます。
 
-What appeared disconnected reveals subtle coherence.
+切り離されていたものが隠れた秩序を示します。
 
-The lens invites you to notice the order beneath appearances.
+このレンズは、
+見た目の下にある構造に気づくよう促します。
 
-Meaning often arrives before explanation.
+意味は説明より先に現れることがあります。
 `,
 
 8: `
-A cycle completes its first expression.
+一つの周期が最初の表現を完了します。
 
-Something that began as possibility can now be observed.
+可能性として始まったものが今や観察できます。
 
-The original impulse has become visible.
+最初の衝動は形となりました。
 
-The lens invites you to notice what has already taken form.
+このレンズは、
+すでに形になったものに気づくよう促します。
 
-Completion reveals the beginning of a new cycle.
+完成は新しい周期の始まりを明らかにします。
 `,
 
 
 9: `
-A new layer begins to emerge.
+新しい層が現れ始めます。
 
-What was previously established now becomes the foundation for further development.
+これまで築かれたものが、
+さらなる成長の土台となります。
 
-Growth does not repeat itself.
+成長は単なる繰り返しではありません。
 
-It builds upon what already exists.
+それは既に存在するものの上に築かれます。
 
-The lens invites you to notice what is ready for expansion.
+このレンズは、
+拡張の準備ができているものに気づくよう促します。
 
-Every beginning contains another beginning.
+すべての始まりの中に新たな始まりがあります。
 `,
 
 10: `
-Potential seeks refinement.
+可能性は洗練を求めます。
 
-The larger structure remains incomplete.
+より大きな構造はまだ完成していません。
 
-Small adjustments create significant consequences.
+小さな調整が大きな結果を生みます。
 
-The lens invites you to notice what benefits from attention.
+このレンズは、
+注意を向ける価値のあるものに気づくよう促します。
 
-Precision strengthens growth.
+正確さは成長を強めます。
 `,
 
 11: `
-An underlying rhythm becomes visible.
+隠れていたリズムが見え始めます。
 
-Events that once appeared unrelated begin moving together.
+無関係に思えた出来事が共に動き始めます。
 
-The pattern has not changed.
+変わったのはパターンではありません。
 
-Awareness has.
+気づきです。
 
-The lens invites you to notice what repeats with purpose.
+このレンズは、
+意味を持って繰り返されるものに気づくよう促します。
 
-Recognition reveals order.
+認識は秩序を明らかにします。
 `,
 
 12: `
-Development encounters resistance.
+発展は抵抗と出会います。
 
-Not every movement forward feels effortless.
+前進が常に容易とは限りません。
 
-Some forms grow stronger through challenge.
+試練によって強くなる形もあります。
 
-The lens invites you to notice what obstacles are teaching.
+このレンズは、
+障害が何を教えているのかに気づくよう促します。
 
-Friction reveals structure.
+摩擦は構造を明らかにします。
 `,
 
 13: `
-Possibility begins to organize itself.
+可能性は組織され始めます。
 
-The future becomes easier to imagine.
+未来はより想像しやすくなります。
 
-A direction emerges from many alternatives.
+多くの選択肢の中から方向が現れます。
 
-The lens invites you to notice what consistently returns to your attention.
+このレンズは、
+繰り返し意識に戻ってくるものに気づくよう促します。
 
-Meaning gathers around repetition.
+意味は反復の周りに集まります。
 `,
 
 14: `
-A hidden connection reveals itself.
+隠れたつながりが明らかになります。
 
-What seemed separate begins to belong together.
+別々に見えたものが結びつき始めます。
 
-Understanding expands beyond individual parts.
+理解は個々の部分を超えて広がります。
 
-The lens invites you to notice relationships rather than isolated events.
+このレンズは、
+出来事ではなく関係性に気づくよう促します。
 
-Connection creates coherence.
+つながりは一貫性を生みます。
 `,
 
 15: `
-The horizon grows wider.
+地平線が広がります。
 
-A larger context begins to appear.
+より大きな文脈が見え始めます。
 
-Questions once considered important are joined by deeper ones.
+かつて重要だった問いに、
+さらに深い問いが加わります。
 
-The lens invites you to notice what lies beyond immediate concerns.
+このレンズは、
+目の前の問題を超えたものに気づくよう促します。
 
-Perspective creates space.
+視点は余白を生みます。
 `,
 
 16: `
-The first cycle reaches maturity.
+最初の周期が成熟に達します。
 
-What began as pure possibility now possesses character.
+純粋な可能性として始まったものは、
+今や個性を持っています。
 
-The path remains unfinished.
+道はまだ終わっていません。
 
-Yet something essential has become established.
+しかし本質的な何かが根を下ろしました。
 
-The lens invites you to notice what has genuinely taken root.
+このレンズは、
+本当に定着したものに気づくよう促します。
 
-Stability creates the foundation for transformation.
+安定は変容の土台となります。
 `,
 
 17: `
-A deeper movement begins.
+より深い動きが始まります。
 
-What has already taken shape now seeks greater understanding.
+すでに形となったものが、
+さらに大きな理解を求めます。
 
-Growth turns inward as well as outward.
+成長は外側だけに向かうものではありません。
 
-The lens invites you to notice what is developing beneath visible events.
+内側にも向かいます。
 
-Depth creates substance.
+このレンズは、
+目に見える出来事の下で育っているものに気づくよう促します。
+
+深さは本質を生みます。
 `,
 
 18: `
-An old pattern becomes visible.
+古いパターンが姿を現します。
 
-Something long present enters awareness.
+長く存在していたものが意識に入ります。
 
-Recognition creates the possibility of change.
+認識は変化の可能性を生みます。
 
-The lens invites you to notice what has quietly shaped your path.
+このレンズは、
+静かにあなたの道を形作ってきたものに気づくよう促します。
 
-Awareness transforms repetition.
+気づきは反復を変容させます。
 `,
 
 19: `
-A hidden potential awakens.
+隠れていた可能性が目覚めます。
 
-What once seemed dormant begins to participate.
+眠っていたように見えたものが参加し始めます。
 
-The future gains an additional dimension.
+未来は新たな次元を得ます。
 
-The lens invites you to notice what is ready to emerge.
+このレンズは、
+現れる準備ができているものに気づくよう促します。
 
-Readiness attracts opportunity.
+準備は機会を引き寄せます。
 `,
 
 20: `
-A structure reveals its purpose.
+構造がその目的を明らかにします。
 
-The pieces begin to explain one another.
+個々の部分が互いを説明し始めます。
 
-Understanding grows through relationship.
+理解は関係性によって成長します。
 
-The lens invites you to notice how separate elements support a larger whole.
+このレンズは、
+別々の要素がより大きな全体を支えていることに気づくよう促します。
 
-Purpose creates direction.
+目的は方向を生みます。
 `,
 
 21: `
-Growth seeks expression.
+成長は表現を求めます。
 
-What has matured internally wishes to become visible.
+内側で成熟したものが見える形になろうとしています。
 
-The movement can no longer remain entirely hidden.
+その動きはもはや隠れたままではいられません。
 
-The lens invites you to notice what wants to be shared.
+このレンズは、
+共有されようとしているものに気づくよう促します。
 
-Expression completes development.
+表現は成長を完成させます。
 `,
 
 22: `
-Balance becomes important.
+調和が重要になります。
 
-Expansion without stability creates uncertainty.
+安定のない拡大は不確実さを生みます。
 
-The system seeks harmony between movement and structure.
+構造は動きとの調和を求めます。
 
-The lens invites you to notice where adjustment creates strength.
+このレンズは、
+どこで調整が強さを生むのかに気づくよう促します。
 
-Balance sustains growth.
+調和は成長を支えます。
 `,
 
 23: `
-A threshold appears.
+一つの境界が現れます。
 
-One phase approaches completion while another waits to begin.
+ある段階が終わりに近づき、
+別の段階が始まりを待っています。
 
-Both realities coexist for a moment.
+二つの現実が一時的に共存します。
 
-The lens invites you to notice what is ending and what is emerging.
+このレンズは、
+何が終わり何が始まるのかに気づくよう促します。
 
-Transition creates renewal.
+移行は再生を生みます。
 `,
 
 24: `
-A cycle turns inward.
+一つの周期が内側へ戻ります。
 
-Reflection becomes more valuable than acceleration.
+加速よりも内省が価値を持ちます。
 
-The journey pauses long enough to understand itself.
+旅は自らを理解するために一度立ち止まります。
 
-The lens invites you to notice what experience has revealed.
+このレンズは、
+経験が何を明らかにしたのかに気づくよう促します。
 
-Reflection transforms knowledge into understanding.
+内省は知識を理解へと変えます。
 `,
 
 25: `
-A new level of understanding begins.
+新しい理解の段階が始まります。
 
-What was learned through experience now seeks integration.
+経験によって学んだことが統合を求めます。
 
-Knowledge becomes part of identity.
+知識は人格の一部になります。
 
-The lens invites you to notice what has become natural.
+このレンズは、
+自然なものとなったことに気づくよう促します。
 
-Growth becomes character.
+成長は人格となります。
 `,
 
 26: `
-Clarity emerges from complexity.
+複雑さの中から明晰さが生まれます。
 
-Many threads begin to weave into a single pattern.
+多くの糸が一つの模様を織り始めます。
 
-Confusion gives way to coherence.
+混乱は一貫性へと変わります。
 
-The lens invites you to notice what now makes sense.
+このレンズは、
+何が理解しやすくなったのかに気づくよう促します。
 
-Understanding creates simplicity.
+理解は単純さを生みます。
 `,
 
 27: `
-An inner foundation strengthens.
+内なる基盤が強くなります。
 
-External conditions continue to change.
+外の世界は変わり続けます。
 
-Something deeper remains stable.
+しかし何か深いものは安定しています。
 
-The lens invites you to notice what can be trusted.
+このレンズは、
+信頼できるものに気づくよう促します。
 
-Stability supports exploration.
+安定は探究を支えます。
 `,
 
 28: `
-Potential seeks renewal.
+可能性は再生を求めます。
 
-Even successful structures must evolve.
+成功した構造であっても進化し続けなければなりません。
 
-Growth requires fresh possibilities.
+成長には新しい可能性が必要です。
 
-The lens invites you to notice where life is asking for adaptation.
+このレンズは、
+どこで適応が求められているかに気づくよう促します。
 
-Renewal prevents stagnation.
+再生は停滞を防ぎます。
 `,
 
 29: `
-A deeper question appears.
+より深い問いが現れます。
 
-Answers that once satisfied no longer feel complete.
+かつて十分だった答えは、
+もはや完全には感じられません。
 
-Awareness reaches beyond familiar conclusions.
+意識は慣れ親しんだ結論を超えて広がります。
 
-The lens invites you to notice what seeks further exploration.
+このレンズは、
+さらに探究したいものに気づくよう促します。
 
-Curiosity expands understanding.
+好奇心は理解を広げます。
 `,
 
 30: `
-Perspective widens.
+視点が広がります。
 
-A larger landscape becomes visible.
+より大きな景色が見えてきます。
 
-What once seemed central now finds its proper place.
+かつて中心だったものは適切な位置を見つけます。
 
-The lens invites you to notice how context changes meaning.
+このレンズは、
+文脈が意味をどう変えるかに気づくよう促します。
 
-Perspective creates freedom.
+視点は自由を生みます。
 `,
 
 31: `
-Integration approaches completion.
+統合は完成へ近づきます。
 
-Many experiences begin to work together.
+多くの経験が協力し始めます。
 
-The whole becomes greater than its parts.
+全体は部分の総和を超えます。
 
-The lens invites you to notice what has quietly unified.
+このレンズは、
+静かに一つになったものに気づくよう促します。
 
-Harmony emerges through participation.
+調和は参加によって生まれます。
 `,
 
 32: `
-The first movement reaches fulfillment.
+最初の動きが完成に達します。
 
-What began as open possibility has become established reality.
+開かれた可能性として始まったものは、
+確立された現実となりました。
 
-The foundation is complete.
+土台は完成しています。
 
-The lens invites you to notice what has fully arrived.
+このレンズは、
+完全に到達したものに気づくよう促します。
 
-Completion prepares the way for expression.
+完成は表現への道を準備します。
 `,
 
 33: `
-Expression begins.
+表現が始まります。
 
-What was previously internal now seeks participation in the world.
+これまで内側にあったものが世界への参加を求めます。
 
-The foundation has been established.
+土台はすでに築かれています。
 
-The next movement is contribution.
+次の動きは貢献です。
 
-The lens invites you to notice what wishes to be shared.
+このレンズは、
+共有されようとしているものに気づくよう促します。
 
-Expression transforms potential into presence.
+表現は可能性を存在へと変えます。
 `,
 
 34: `
-A signal is sent outward.
+一つの信号が外へ送られます。
 
-The inner and outer worlds begin to communicate.
+内なる世界と外なる世界が対話を始めます。
 
-What has been learned seeks relationship.
+学んだことは関係性を求めます。
 
-The lens invites you to notice how understanding reaches beyond yourself.
+このレンズは、
+理解が自分自身を超えて広がることに気づくよう促します。
 
-Communication creates connection.
+コミュニケーションはつながりを生みます。
 `,
 
 35: `
-A new influence appears.
+新しい影響が現れます。
 
-What has been expressed begins to affect its surroundings.
+表現されたものが周囲に影響を与え始めます。
 
-The movement extends beyond personal development.
+その動きは個人的成長を超えて広がります。
 
-The lens invites you to notice the consequences of presence.
+このレンズは、
+存在がどのような影響を与えるかに気づくよう促します。
 
-Influence reveals participation.
+影響は参加を明らかにします。
 `,
 
 36: `
-Purpose becomes visible.
+目的が見え始めます。
 
-Actions begin aligning with deeper intentions.
+行動はより深い意図と調和し始めます。
 
-The path feels less accidental.
+道は偶然の連続ではなくなります。
 
-The lens invites you to notice what consistently calls for attention.
+このレンズは、
+繰り返し注意を引くものに気づくよう促します。
 
-Purpose organizes expression.
+目的は表現を整理します。
 `,
 
 37: `
-Relationships deepen.
+関係が深まります。
 
-Expression discovers response.
+表現は応答と出会います。
 
-The world answers what has been offered.
+世界は差し出されたものに応えます。
 
-The lens invites you to notice the exchanges that shape growth.
+このレンズは、
+成長を形作る交流に気づくよう促します。
 
-Connection transforms understanding.
+つながりは理解を変容させます。
 `,
 
 38: `
-Differences become valuable.
+違いが価値を持ちます。
 
-Not every perspective follows the same path.
+すべての視点が同じ道を歩むわけではありません。
 
-Variation creates richness.
+多様性は豊かさを生みます。
 
-The lens invites you to notice what can be learned from contrast.
+このレンズは、
+対比から学べるものに気づくよう促します。
 
-Diversity expands possibility.
+多様性は可能性を広げます。
 `,
 
 39: `
-A challenge invites adaptation.
+一つの試練が適応を求めます。
 
-Expression encounters realities beyond expectation.
+表現は予想外の現実と出会います。
 
-Growth requires flexibility.
+成長には柔軟さが必要です。
 
-The lens invites you to notice what becomes stronger through adjustment.
+このレンズは、
+変化によって強くなるものに気づくよう促します。
 
-Adaptation sustains movement.
+適応は前進を支えます。
 `,
 
 40: `
-A new equilibrium emerges.
+新しい均衡が生まれます。
 
-The lessons of interaction begin to settle into understanding.
+参加から得た学びが定着し始めます。
 
-Participation creates wisdom unavailable through isolation.
+経験は孤立の中では得られない知恵を生みます。
 
-The lens invites you to notice what experience has revealed.
+このレンズは、
+関わることで明らかになったものに気づくよう促します。
 
-Engagement deepens awareness.
+参加は気づきを深めます。
 `,
 
 41: `
-A larger pattern reveals itself.
+より大きなパターンが姿を現します。
 
-Individual experiences begin to connect across time.
+個々の経験が時間を超えて結びつき始めます。
 
-Events once viewed separately now form a meaningful sequence.
+別々に見えた出来事が一つの物語を形作ります。
 
-The lens invites you to notice the story emerging beneath the details.
+このレンズは、
+どのような共通の流れが見えてきたのかに気づくよう促します。
 
-Understanding grows through continuity.
+理解は継続性によって育ちます。
 `,
 
 42: `
-A gift seeks expression.
+一つの贈り物が表現を求めます。
 
-Something developed through experience wishes to benefit others.
+経験によって育まれたものが他者の役に立とうとします。
 
-Value increases when it circulates.
+価値は共有されることで増します。
 
-The lens invites you to notice what naturally wants to be shared.
+このレンズは、
+自然に外へ流れようとしているものに気づくよう促します。
 
-Contribution extends growth.
+貢献は成長を広げます。
 `,
 
 43: `
-Clarity arrives.
+明晰さが訪れます。
 
-What was previously uncertain becomes easier to recognize.
+かつて不確かだったものが認識しやすくなります。
 
-The next step no longer hides itself.
+次の一歩はもはや隠れていません。
 
-The lens invites you to notice what has become obvious.
+このレンズは、
+何が明らかになったのかに気づくよう促します。
 
-Recognition creates confidence.
+認識は信頼を生みます。
 `,
 
 44: `
-A new opportunity appears.
+新しい機会が現れます。
 
-Readiness meets possibility.
+準備が機会と出会います。
 
-The path opens where preparation and circumstance converge.
+道は備えと状況が重なる場所で開かれます。
 
-The lens invites you to notice what is becoming available.
+このレンズは、
+何が利用可能になっているかに気づくよう促します。
 
-Opportunity rewards participation.
+機会は参加に応えます。
 `,
 
 45: `
-Community emerges.
+共同体が生まれます。
 
-Individual development discovers a larger context.
+個人の成長がより大きな文脈を発見します。
 
-Relationships reveal strengths that solitude cannot.
+関係性は孤立の中では見えない力を明らかにします。
 
-The lens invites you to notice where cooperation creates abundance.
+このレンズは、
+協力がどこで豊かさを生み出しているかに気づくよう促します。
 
-Connection multiplies potential.
+つながりは可能性を増幅します。
 `,
 
 46: `
-Growth seeks elevation.
+成長は高みを目指します。
 
-What has been learned now aims toward a higher expression.
+学んだことがより高い表現を求めます。
 
-The horizon expands once again.
+地平線は再び広がります。
 
-The lens invites you to notice what calls you beyond familiarity.
+このレンズは、
+慣れ親しんだ場所の先へと呼ぶものに気づくよう促します。
 
-Aspiration creates movement.
+志は前進を生みます。
 `,
 
 47: `
-A period of reflection returns.
+再び内省の時期が訪れます。
 
-Not as retreat.
+それは後退ではありません。
 
-As refinement.
+洗練です。
 
-Experience pauses long enough to reveal deeper meaning.
+旅はより深い意味を明らかにするために一度立ち止まります。
 
-The lens invites you to notice what silence is teaching.
+このレンズは、
+静けさが何を教えているのかに気づくよう促します。
 
-Reflection renews direction.
+内省は方向性を新たにします。
 `,
 
 48: `
-A source is uncovered.
+一つの源が見つかります。
 
-Something reliable exists beneath changing circumstances.
+変化する状況の下に信頼できるものが存在します。
 
-The search becomes less urgent.
+探し続ける必要は少なくなります。
 
-The foundation becomes more visible.
+土台はより明確になります。
 
-The lens invites you to notice what consistently nourishes growth.
+このレンズは、
+何が成長を絶えず支えているのかに気づくよう促します。
 
-Depth creates resilience.
+深さは回復力を生みます。
 `,
 
 49: `
-Transformation begins.
+変容が始まります。
 
-What once served its purpose now prepares to evolve.
+その役割を果たしたものが変化の準備を始めます。
 
-Change is not the abandonment of the past.
+変化は過去を否定することではありません。
 
-It is the continuation of growth.
+それは学びを引き継ぐことです。
 
-The lens invites you to notice what is ready for renewal.
+このレンズは、
+何が再生の準備ができているかに気づくよう促します。
 
-Transformation creates possibility.
+変容は新しい可能性を生みます。
 `,
 
 50: `
-A deeper purpose emerges.
+より深い目的が現れます。
 
-Experience has gathered into something meaningful.
+経験は意味あるものへと集約されました。
 
-The pieces now support something greater than themselves.
+個々の要素は今や自分自身を超える何かを支えています。
 
-The lens invites you to notice what has become essential.
+このレンズは、
+何が本当に本質的になったのかに気づくよう促します。
 
-Purpose gives direction to transformation.
+目的は変容に方向を与えます。
 `,
 
 51: `
-A sudden realization arrives.
+突然の気づきが訪れます。
 
-What was hidden becomes visible.
+隠れていたものが明らかになります。
 
-A shift in understanding changes the landscape.
+理解の変化が風景そのものを変えます。
 
-The lens invites you to notice what awakens awareness.
+このレンズは、
+何が意識を目覚めさせるのかに気づくよう促します。
 
-Insight accelerates growth.
+洞察は成長を加速させます。
 `,
 
 52: `
-Stillness becomes valuable.
+静けさが価値を持ちます。
 
-Movement pauses without losing momentum.
+動きは方向を失うことなく一時停止します。
 
-Reflection allows understanding to settle.
+内省は理解を落ち着かせます。
 
-The lens invites you to notice what remains when activity subsides.
+このレンズは、
+活動が静まった後に残るものに気づくよう促します。
 
-Stillness strengthens clarity.
+静けさは明晰さを強めます。
 `,
 
 53: `
-Progress reveals itself.
+進歩が見えるようになります。
 
-Growth that once seemed invisible becomes apparent.
+かつて気づかなかった成長が今では明らかです。
 
-Small changes have accumulated into meaningful development.
+小さな変化が意味ある発展へと積み重なりました。
 
-The lens invites you to notice how far the journey has already come.
+このレンズは、
+旅がどれほど進んだかに気づくよう促します。
 
-Progress rewards patience.
+進歩は忍耐に報います。
 `,
 
 54: `
-A new relationship forms.
+新しい関係が生まれます。
 
-The future enters through unexpected connections.
+未来は思いがけない出会いを通して現れます。
 
-Possibilities expand through participation.
+可能性は参加によって広がります。
 
-The lens invites you to notice what is arriving through encounter.
+このレンズは、
+つながりを通して到来するものに気づくよう促します。
 
-Relationship creates opportunity.
+関係は機会を生みます。
 `,
 
 55: `
-Abundance appears.
+豊かさが現れます。
 
-Many conditions align at once.
+多くの条件が同時に整います。
 
-Energy becomes available for creation and expression.
+創造と表現のためのエネルギーが利用可能になります。
 
-The lens invites you to notice what is flourishing.
+このレンズは、
+何が花開いているかに気づくよう促します。
 
-Abundance encourages generosity.
+豊かさは寛大さを促します。
 `,
 
 56: `
-The traveler continues.
+旅人は歩み続けます。
 
-No destination remains permanent.
+どの目的地も永遠ではありません。
 
-Growth requires movement beyond familiar territory.
+成長は慣れ親しんだ場所を超えることを求めます。
 
-The lens invites you to notice what new environments reveal.
+このレンズは、
+新しい環境が何を明らかにするかに気づくよう促します。
 
-Exploration expands identity.
+探究は自己を広げます。
 `,
 
 57: `
-A subtle influence emerges.
+微かな影響が現れます。
 
-The greatest changes are not always the most visible.
+最も大きな変化が最も目立つとは限りません。
 
-Transformation often continues beneath awareness.
+変容はしばしば意識の外で続いています。
 
-The lens invites you to notice what quietly shapes your direction.
+このレンズは、
+静かに方向を形作っているものに気づくよう促します。
 
-Gentleness creates endurance.
+穏やかさは持続力を生みます。
 `,
 
 58: `
-Joy seeks expression.
+喜びは表現を求めます。
 
-Growth discovers its own appreciation.
+成長は自らを喜ぶことを学びます。
 
-What was once effort becomes participation.
+かつて努力だったものが参加へと変わります。
 
-The lens invites you to notice what naturally brings vitality.
+このレンズは、
+自然に活力をもたらすものに気づくよう促します。
 
-Joy renews engagement.
+喜びは関与を新たにします。
 `,
 
 59: `
-Boundaries begin to dissolve.
+境界が溶け始めます。
 
-What once seemed separate becomes easier to understand.
+かつて分離していたものが理解しやすくなります。
 
-Distance gives way to connection.
+距離はつながりへと変わります。
 
-The lens invites you to notice where unity is emerging.
+このレンズは、
+どこで一体性が現れているかに気づくよう促します。
 
-Openness creates flow.
+開放性は流れを生みます。
 `,
 
 60: `
-Limits reveal their purpose.
+境界はその目的を明らかにします。
 
-Structure does not exist to restrict possibility.
+構造は可能性を制限するために存在するのではありません。
 
-It exists to give possibility form.
+可能性に形を与えるために存在します。
 
-The lens invites you to notice what boundaries make possible.
+このレンズは、
+境界によって可能になるものに気づくよう促します。
 
-Discipline supports freedom.
+規律は自由を支えます。
 `,
 
 61: `
-A deeper truth becomes visible.
+より深い真実が見えてきます。
 
-The search moves beyond appearances.
+探求は見た目を超えて進みます。
 
-Understanding grows from direct experience.
+理解は直接的な経験から育ちます。
 
-The lens invites you to notice what resonates beneath words.
+このレンズは、
+言葉を超えて響くものに気づくよう促します。
 
-Authenticity reveals wisdom.
+真正さは知恵を明らかにします。
 `,
 
 62: `
-Attention returns to the small.
+注意は再び小さなものへ向かいます。
 
-Great understanding expresses itself through simple actions.
+大きな理解は単純な行動として表現されます。
 
-Meaning lives within details.
+意味は細部の中に生きています。
 
-The lens invites you to notice what deserves careful consideration.
+このレンズは、
+丁寧な注意を向ける価値のあるものに気づくよう促します。
 
-Precision refines understanding.
+正確さは理解を磨きます。
 `,
 
 63: `
-Completion approaches.
+完成が近づいています。
 
-The journey reveals its full shape.
+旅はその全体像を明らかにします。
 
-What was once potential has become experience.
+かつて可能性だったものは経験となりました。
 
-The lens invites you to notice what has been accomplished.
+このレンズは、
+本当に達成されたものに気づくよう促します。
 
-Fulfillment prepares transition.
+充足は移行を準備します。
 `,
 
 64: `
-Everything stands at the threshold.
+すべてが境界に立っています。
 
-An ending and a beginning meet.
+終わりと始まりが出会います。
 
-Nothing is unfinished.
+未完成なものはありません。
 
-Nothing is final.
+決定的なものもありません。
 
-The lens invites you to notice the possibilities hidden within completion.
+このレンズは、
+完成の中に隠された可能性に気づくよう促します。
 
-Every ending contains a new opening.
+すべての終わりには新しい始まりがあります。
 `
 
 };

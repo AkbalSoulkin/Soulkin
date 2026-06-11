@@ -1,788 +1,789 @@
 const hexagramStatePages_nl = {
 
 1: `
-Pure potential remains open.
+Zuivere potentie blijft open.
 
-Nothing has been chosen yet.
+Er is nog niets gekozen.
 
-The future exists as possibility rather than direction.
+De toekomst bestaat als mogelijkheid in plaats van richting.
 
-The lens invites you to notice what remains available.
+Deze lens nodigt je uit om op te merken wat nog beschikbaar is.
 
-Freedom appears before commitment.
+Vrijheid verschijnt vóór toewijding.
 `,
 
 2: `
-A first distinction emerges.
+Een eerste onderscheid ontstaat.
 
-Potential begins to lean without becoming fixed.
+Potentie begint zich te bewegen zonder vast te liggen.
 
-Something has started to separate itself from the whole.
+Iets begint zich af te scheiden van het geheel.
 
-The lens invites you to notice what is beginning to take shape.
+Deze lens nodigt je uit om op te merken wat vorm begint te krijgen.
 
-Form appears through contrast.
+Vorm ontstaat door contrast.
 `,
 
 3: `
-An inner movement becomes visible.
+Een innerlijke beweging wordt zichtbaar.
 
-Change begins before action is seen.
+Verandering begint voordat actie zichtbaar wordt.
 
-Something is already shifting beneath the surface.
+Iets verschuift al onder de oppervlakte.
 
-The lens invites you to notice what is quietly developing.
+Deze lens nodigt je uit om op te merken wat zich stil ontwikkelt.
 
-Growth often starts in silence.
+Groei begint vaak in stilte.
 `,
 
 4: `
-A possibility gains definition.
+Een mogelijkheid krijgt vorm.
 
-What was once uncertain begins to reveal its outline.
+Wat eerst onzeker was begint zijn contouren te tonen.
 
-Direction becomes easier to recognize.
+Richting wordt gemakkelijker te herkennen.
 
-The lens invites you to notice what is becoming clear.
+Deze lens nodigt je uit om op te merken wat helder begint te worden.
 
-Recognition creates momentum.
+Herkenning creëert momentum.
 `,
 
 5: `
-Energy gathers around a direction.
+Energie verzamelt zich rond een richting.
 
-Potential no longer moves equally toward every outcome.
+Potentie beweegt niet langer gelijkmatig naar iedere uitkomst.
 
-Something has begun to attract attention.
+Iets begint aandacht aan te trekken.
 
-The lens invites you to notice what repeatedly calls you forward.
+Deze lens nodigt je uit om op te merken wat je steeds opnieuw vooruit roept.
 
-Focus strengthens possibility.
+Focus versterkt mogelijkheid.
 `,
 
 6: `
-A threshold approaches.
+Een drempel nadert.
 
-What has been forming now seeks expression.
+Wat zich heeft gevormd zoekt nu expressie.
 
-The movement is no longer entirely internal.
+De beweging is niet langer volledig innerlijk.
 
-The lens invites you to notice what wishes to emerge.
+Deze lens nodigt je uit om op te merken wat naar buiten wil komen.
 
-Transition creates opportunity.
+Overgang creëert kansen.
 `,
 
 7: `
-An unseen pattern begins to organize itself.
+Een onzichtbaar patroon begint zich te organiseren.
 
-Separate elements start moving toward relationship.
+Afzonderlijke elementen bewegen naar onderlinge samenhang.
 
-What appeared disconnected reveals subtle coherence.
+Wat los leek onthult een verborgen orde.
 
-The lens invites you to notice the order beneath appearances.
+Deze lens nodigt je uit om op te merken welke structuur onder de oppervlakte aanwezig is.
 
-Meaning often arrives before explanation.
+Betekenis verschijnt vaak vóór verklaring.
 `,
 
 8: `
-A cycle completes its first expression.
+Een cyclus voltooit haar eerste uitdrukking.
 
-Something that began as possibility can now be observed.
+Iets wat begon als mogelijkheid kan nu worden waargenomen.
 
-The original impulse has become visible.
+De oorspronkelijke impuls is zichtbaar geworden.
 
-The lens invites you to notice what has already taken form.
+Deze lens nodigt je uit om op te merken wat al vorm heeft gekregen.
 
-Completion reveals the beginning of a new cycle.
+Voltooiing onthult het begin van een nieuwe cyclus.
 `,
 
-
 9: `
-A new layer begins to emerge.
+Een nieuwe laag begint zichtbaar te worden.
 
-What was previously established now becomes the foundation for further development.
+Wat eerder werd opgebouwd vormt nu de basis voor verdere ontwikkeling.
 
-Growth does not repeat itself.
+Groei herhaalt zichzelf niet.
 
-It builds upon what already exists.
+Zij bouwt voort op wat al bestaat.
 
-The lens invites you to notice what is ready for expansion.
+Deze lens nodigt je uit om op te merken wat klaar is voor uitbreiding.
 
-Every beginning contains another beginning.
+Ieder begin bevat een nieuw begin.
 `,
 
 10: `
-Potential seeks refinement.
+Potentie zoekt verfijning.
 
-The larger structure remains incomplete.
+De grotere structuur is nog niet voltooid.
 
-Small adjustments create significant consequences.
+Kleine aanpassingen kunnen grote gevolgen hebben.
 
-The lens invites you to notice what benefits from attention.
+Deze lens nodigt je uit om op te merken wat aandacht verdient.
 
-Precision strengthens growth.
+Nauwkeurigheid versterkt groei.
 `,
 
 11: `
-An underlying rhythm becomes visible.
+Een onderliggend ritme wordt zichtbaar.
 
-Events that once appeared unrelated begin moving together.
+Gebeurtenissen die ooit los van elkaar leken te staan bewegen samen.
 
-The pattern has not changed.
+Het patroon is niet veranderd.
 
-Awareness has.
+Het bewustzijn wel.
 
-The lens invites you to notice what repeats with purpose.
+Deze lens nodigt je uit om op te merken wat zich met betekenis herhaalt.
 
-Recognition reveals order.
+Herkenning onthult orde.
 `,
 
 12: `
-Development encounters resistance.
+Ontwikkeling ontmoet weerstand.
 
-Not every movement forward feels effortless.
+Niet iedere stap vooruit voelt moeiteloos.
 
-Some forms grow stronger through challenge.
+Sommige vormen worden sterker door uitdaging.
 
-The lens invites you to notice what obstacles are teaching.
+Deze lens nodigt je uit om op te merken wat obstakels proberen te leren.
 
-Friction reveals structure.
+Wrijving onthult structuur.
 `,
 
 13: `
-Possibility begins to organize itself.
+Mogelijkheid begint zich te organiseren.
 
-The future becomes easier to imagine.
+De toekomst wordt gemakkelijker voorstelbaar.
 
-A direction emerges from many alternatives.
+Uit vele alternatieven ontstaat een richting.
 
-The lens invites you to notice what consistently returns to your attention.
+Deze lens nodigt je uit om op te merken wat steeds opnieuw terugkeert.
 
-Meaning gathers around repetition.
+Betekenis verzamelt zich rond herhaling.
 `,
 
 14: `
-A hidden connection reveals itself.
+Een verborgen verbinding wordt zichtbaar.
 
-What seemed separate begins to belong together.
+Wat afzonderlijk leek begint samen te horen.
 
-Understanding expands beyond individual parts.
+Begrip groeit voorbij losse onderdelen.
 
-The lens invites you to notice relationships rather than isolated events.
+Deze lens nodigt je uit om relaties op te merken in plaats van afzonderlijke gebeurtenissen.
 
-Connection creates coherence.
+Verbinding creëert samenhang.
 `,
 
 15: `
-The horizon grows wider.
+De horizon wordt breder.
 
-A larger context begins to appear.
+Een grotere context begint zichtbaar te worden.
 
-Questions once considered important are joined by deeper ones.
+Vragen die ooit centraal stonden krijgen gezelschap van diepere vragen.
 
-The lens invites you to notice what lies beyond immediate concerns.
+Deze lens nodigt je uit om op te merken wat voorbij directe zorgen ligt.
 
-Perspective creates space.
+Perspectief creëert ruimte.
 `,
 
 16: `
-The first cycle reaches maturity.
+De eerste cyclus bereikt volwassenheid.
 
-What began as pure possibility now possesses character.
+Wat begon als pure mogelijkheid bezit nu karakter.
 
-The path remains unfinished.
+Het pad is nog niet voltooid.
 
-Yet something essential has become established.
+Maar iets wezenlijks heeft wortel geschoten.
 
-The lens invites you to notice what has genuinely taken root.
+Deze lens nodigt je uit om op te merken wat werkelijk gevestigd is.
 
-Stability creates the foundation for transformation.
+Stabiliteit vormt de basis voor transformatie.
 `,
 
 17: `
-A deeper movement begins.
+Een diepere beweging begint.
 
-What has already taken shape now seeks greater understanding.
+Wat al vorm heeft gekregen zoekt nu groter begrip.
 
-Growth turns inward as well as outward.
+Groei richt zich niet alleen naar buiten.
 
-The lens invites you to notice what is developing beneath visible events.
+Zij beweegt ook naar binnen.
 
-Depth creates substance.
+Deze lens nodigt je uit om op te merken wat zich ontwikkelt onder zichtbare gebeurtenissen.
+
+Diepte creëert inhoud.
 `,
 
 18: `
-An old pattern becomes visible.
+Een oud patroon wordt zichtbaar.
 
-Something long present enters awareness.
+Iets wat lange tijd aanwezig was komt in bewustzijn.
 
-Recognition creates the possibility of change.
+Herkenning creëert de mogelijkheid tot verandering.
 
-The lens invites you to notice what has quietly shaped your path.
+Deze lens nodigt je uit om op te merken wat je pad stilletjes heeft gevormd.
 
-Awareness transforms repetition.
+Bewustzijn transformeert herhaling.
 `,
 
 19: `
-A hidden potential awakens.
+Een verborgen potentieel ontwaakt.
 
-What once seemed dormant begins to participate.
+Wat slapend leek begint deel te nemen.
 
-The future gains an additional dimension.
+De toekomst krijgt een extra dimensie.
 
-The lens invites you to notice what is ready to emerge.
+Deze lens nodigt je uit om op te merken wat klaar is om naar voren te komen.
 
-Readiness attracts opportunity.
+Gereedheid trekt kansen aan.
 `,
 
 20: `
-A structure reveals its purpose.
+Een structuur onthult haar doel.
 
-The pieces begin to explain one another.
+De afzonderlijke delen beginnen elkaar te verklaren.
 
-Understanding grows through relationship.
+Begrip groeit door samenhang.
 
-The lens invites you to notice how separate elements support a larger whole.
+Deze lens nodigt je uit om op te merken hoe losse elementen een groter geheel ondersteunen.
 
-Purpose creates direction.
+Doel creëert richting.
 `,
 
 21: `
-Growth seeks expression.
+Groei zoekt expressie.
 
-What has matured internally wishes to become visible.
+Wat innerlijk is gerijpt wil zichtbaar worden.
 
-The movement can no longer remain entirely hidden.
+De beweging kan niet langer verborgen blijven.
 
-The lens invites you to notice what wants to be shared.
+Deze lens nodigt je uit om op te merken wat gedeeld wil worden.
 
-Expression completes development.
+Expressie voltooit ontwikkeling.
 `,
 
 22: `
-Balance becomes important.
+Evenwicht wordt belangrijk.
 
-Expansion without stability creates uncertainty.
+Uitbreiding zonder stabiliteit creëert onzekerheid.
 
-The system seeks harmony between movement and structure.
+Het systeem zoekt harmonie tussen beweging en structuur.
 
-The lens invites you to notice where adjustment creates strength.
+Deze lens nodigt je uit om op te merken waar aanpassing kracht creëert.
 
-Balance sustains growth.
+Balans ondersteunt groei.
 `,
 
 23: `
-A threshold appears.
+Een drempel verschijnt.
 
-One phase approaches completion while another waits to begin.
+Eén fase nadert voltooiing terwijl een andere wacht om te beginnen.
 
-Both realities coexist for a moment.
+Beide werkelijkheden bestaan kort naast elkaar.
 
-The lens invites you to notice what is ending and what is emerging.
+Deze lens nodigt je uit om op te merken wat eindigt en wat ontstaat.
 
-Transition creates renewal.
+Overgang brengt vernieuwing.
 `,
 
 24: `
-A cycle turns inward.
+Een cyclus keert naar binnen.
 
-Reflection becomes more valuable than acceleration.
+Reflectie wordt waardevoller dan versnelling.
 
-The journey pauses long enough to understand itself.
+De reis vertraagt lang genoeg om zichzelf te begrijpen.
 
-The lens invites you to notice what experience has revealed.
+Deze lens nodigt je uit om op te merken wat ervaring heeft onthuld.
 
-Reflection transforms knowledge into understanding.
+Reflectie transformeert kennis in begrip.
 `,
 
 25: `
-A new level of understanding begins.
+Een nieuw niveau van begrip begint.
 
-What was learned through experience now seeks integration.
+Wat door ervaring werd geleerd zoekt nu integratie.
 
-Knowledge becomes part of identity.
+Kennis wordt onderdeel van identiteit.
 
-The lens invites you to notice what has become natural.
+Deze lens nodigt je uit om op te merken wat vanzelfsprekend is geworden.
 
-Growth becomes character.
+Groei wordt karakter.
 `,
 
 26: `
-Clarity emerges from complexity.
+Helderheid ontstaat uit complexiteit.
 
-Many threads begin to weave into a single pattern.
+Vele draden beginnen samen een patroon te vormen.
 
-Confusion gives way to coherence.
+Verwarring maakt plaats voor samenhang.
 
-The lens invites you to notice what now makes sense.
+Deze lens nodigt je uit om op te merken wat nu logisch begint te voelen.
 
-Understanding creates simplicity.
+Begrip creëert eenvoud.
 `,
 
 27: `
-An inner foundation strengthens.
+Een innerlijk fundament versterkt zich.
 
-External conditions continue to change.
+De buitenwereld blijft veranderen.
 
-Something deeper remains stable.
+Iets diepers blijft stabiel.
 
-The lens invites you to notice what can be trusted.
+Deze lens nodigt je uit om op te merken wat betrouwbaar is gebleken.
 
-Stability supports exploration.
+Stabiliteit ondersteunt ontdekking.
 `,
 
 28: `
-Potential seeks renewal.
+Potentieel zoekt vernieuwing.
 
-Even successful structures must evolve.
+Zelfs succesvolle structuren moeten zich blijven ontwikkelen.
 
-Growth requires fresh possibilities.
+Groei vraagt om nieuwe mogelijkheden.
 
-The lens invites you to notice where life is asking for adaptation.
+Deze lens nodigt je uit om op te merken waar aanpassing nodig is.
 
-Renewal prevents stagnation.
+Vernieuwing voorkomt stilstand.
 `,
 
 29: `
-A deeper question appears.
+Een diepere vraag verschijnt.
 
-Answers that once satisfied no longer feel complete.
+Antwoorden die ooit voldoende waren voelen niet langer compleet.
 
-Awareness reaches beyond familiar conclusions.
+Bewustzijn reikt voorbij vertrouwde conclusies.
 
-The lens invites you to notice what seeks further exploration.
+Deze lens nodigt je uit om op te merken wat verder onderzocht wil worden.
 
-Curiosity expands understanding.
+Nieuwsgierigheid verruimt begrip.
 `,
 
 30: `
-Perspective widens.
+Perspectief verruimt zich.
 
-A larger landscape becomes visible.
+Een groter landschap wordt zichtbaar.
 
-What once seemed central now finds its proper place.
+Wat ooit centraal leek krijgt zijn juiste plaats.
 
-The lens invites you to notice how context changes meaning.
+Deze lens nodigt je uit om op te merken hoe context betekenis verandert.
 
-Perspective creates freedom.
+Perspectief creëert vrijheid.
 `,
 
 31: `
-Integration approaches completion.
+Integratie nadert voltooiing.
 
-Many experiences begin to work together.
+Vele ervaringen beginnen samen te werken.
 
-The whole becomes greater than its parts.
+Het geheel wordt groter dan de afzonderlijke delen.
 
-The lens invites you to notice what has quietly unified.
+Deze lens nodigt je uit om op te merken wat zich stil heeft verenigd.
 
-Harmony emerges through participation.
+Harmonie ontstaat door deelname.
 `,
 
 32: `
-The first movement reaches fulfillment.
+De eerste beweging bereikt vervulling.
 
-What began as open possibility has become established reality.
+Wat begon als open potentie is gevestigde werkelijkheid geworden.
 
-The foundation is complete.
+Het fundament is voltooid.
 
-The lens invites you to notice what has fully arrived.
+Deze lens nodigt je uit om op te merken wat volledig is aangekomen.
 
-Completion prepares the way for expression.
+Voltooiing bereidt de weg voor expressie.
 `,
 
 33: `
-Expression begins.
+Expressie begint.
 
-What was previously internal now seeks participation in the world.
+Wat eerder innerlijk was zoekt nu deelname aan de wereld.
 
-The foundation has been established.
+Het fundament is gelegd.
 
-The next movement is contribution.
+De volgende beweging is bijdrage.
 
-The lens invites you to notice what wishes to be shared.
+Deze lens nodigt je uit om op te merken wat gedeeld wil worden.
 
-Expression transforms potential into presence.
+Expressie transformeert potentieel in aanwezigheid.
 `,
 
 34: `
-A signal is sent outward.
+Een signaal wordt naar buiten gestuurd.
 
-The inner and outer worlds begin to communicate.
+De innerlijke en uiterlijke wereld beginnen met elkaar te communiceren.
 
-What has been learned seeks relationship.
+Wat geleerd is zoekt relatie.
 
-The lens invites you to notice how understanding reaches beyond yourself.
+Deze lens nodigt je uit om op te merken hoe begrip verder reikt dan jezelf.
 
-Communication creates connection.
+Communicatie creëert verbinding.
 `,
 
 35: `
-A new influence appears.
+Een nieuwe invloed verschijnt.
 
-What has been expressed begins to affect its surroundings.
+Wat tot uitdrukking is gebracht begint zijn omgeving te beïnvloeden.
 
-The movement extends beyond personal development.
+De beweging reikt verder dan persoonlijke ontwikkeling.
 
-The lens invites you to notice the consequences of presence.
+Deze lens nodigt je uit om op te merken welke gevolgen aanwezigheid heeft.
 
-Influence reveals participation.
+Invloed onthult deelname.
 `,
 
 36: `
-Purpose becomes visible.
+Doel wordt zichtbaar.
 
-Actions begin aligning with deeper intentions.
+Handelingen beginnen zich af te stemmen op diepere intenties.
 
-The path feels less accidental.
+Het pad voelt minder toevallig.
 
-The lens invites you to notice what consistently calls for attention.
+Deze lens nodigt je uit om op te merken wat steeds opnieuw om aandacht vraagt.
 
-Purpose organizes expression.
+Doel organiseert expressie.
 `,
 
 37: `
-Relationships deepen.
+Relaties verdiepen zich.
 
-Expression discovers response.
+Expressie ontmoet antwoord.
 
-The world answers what has been offered.
+De wereld reageert op wat is aangeboden.
 
-The lens invites you to notice the exchanges that shape growth.
+Deze lens nodigt je uit om op te merken welke uitwisselingen groei vormgeven.
 
-Connection transforms understanding.
+Verbinding transformeert begrip.
 `,
 
 38: `
-Differences become valuable.
+Verschillen krijgen waarde.
 
-Not every perspective follows the same path.
+Niet ieder perspectief volgt hetzelfde pad.
 
-Variation creates richness.
+Variatie creëert rijkdom.
 
-The lens invites you to notice what can be learned from contrast.
+Deze lens nodigt je uit om op te merken wat contrast kan leren.
 
-Diversity expands possibility.
+Diversiteit verruimt mogelijkheid.
 `,
 
 39: `
-A challenge invites adaptation.
+Een uitdaging nodigt uit tot aanpassing.
 
-Expression encounters realities beyond expectation.
+Expressie ontmoet omstandigheden die niet waren voorzien.
 
-Growth requires flexibility.
+Groei vraagt flexibiliteit.
 
-The lens invites you to notice what becomes stronger through adjustment.
+Deze lens nodigt je uit om op te merken wat sterker wordt door verandering.
 
-Adaptation sustains movement.
+Aanpassing ondersteunt beweging.
 `,
 
 40: `
-A new equilibrium emerges.
+Een nieuw evenwicht ontstaat.
 
-The lessons of interaction begin to settle into understanding.
+De lessen van deelname beginnen zich te vestigen.
 
-Participation creates wisdom unavailable through isolation.
+Ervaring creëert wijsheid die niet in afzondering gevonden kan worden.
 
-The lens invites you to notice what experience has revealed.
+Deze lens nodigt je uit om op te merken wat betrokkenheid heeft onthuld.
 
-Engagement deepens awareness.
+Deelname verdiept bewustzijn.
 `,
 
 41: `
-A larger pattern reveals itself.
+Een groter patroon onthult zich.
 
-Individual experiences begin to connect across time.
+Afzonderlijke ervaringen beginnen zich over tijd met elkaar te verbinden.
 
-Events once viewed separately now form a meaningful sequence.
+Gebeurtenissen die los leken blijken deel van hetzelfde verhaal.
 
-The lens invites you to notice the story emerging beneath the details.
+Deze lens nodigt je uit om op te merken welke rode draad zichtbaar wordt.
 
-Understanding grows through continuity.
+Begrip groeit door continuïteit.
 `,
 
 42: `
-A gift seeks expression.
+Een gave zoekt expressie.
 
-Something developed through experience wishes to benefit others.
+Iets dat door ervaring is ontwikkeld wil anderen ten goede komen.
 
-Value increases when it circulates.
+Waarde groeit wanneer zij wordt gedeeld.
 
-The lens invites you to notice what naturally wants to be shared.
+Deze lens nodigt je uit om op te merken wat vanzelf naar buiten wil stromen.
 
-Contribution extends growth.
+Bijdrage verlengt groei.
 `,
 
 43: `
-Clarity arrives.
+Helderheid arriveert.
 
-What was previously uncertain becomes easier to recognize.
+Wat eerder onzeker was wordt gemakkelijker te herkennen.
 
-The next step no longer hides itself.
+De volgende stap hoeft zich niet langer te verbergen.
 
-The lens invites you to notice what has become obvious.
+Deze lens nodigt je uit om op te merken wat nu vanzelfsprekend wordt.
 
-Recognition creates confidence.
+Herkenning creëert vertrouwen.
 `,
 
 44: `
-A new opportunity appears.
+Een nieuwe mogelijkheid verschijnt.
 
-Readiness meets possibility.
+Gereedheid ontmoet gelegenheid.
 
-The path opens where preparation and circumstance converge.
+Het pad opent zich waar voorbereiding en omstandigheden samenkomen.
 
-The lens invites you to notice what is becoming available.
+Deze lens nodigt je uit om op te merken wat beschikbaar wordt.
 
-Opportunity rewards participation.
+Kansen belonen deelname.
 `,
 
 45: `
-Community emerges.
+Gemeenschap ontstaat.
 
-Individual development discovers a larger context.
+Individuele ontwikkeling ontdekt een grotere context.
 
-Relationships reveal strengths that solitude cannot.
+Relaties onthullen krachten die in afzondering verborgen blijven.
 
-The lens invites you to notice where cooperation creates abundance.
+Deze lens nodigt je uit om op te merken waar samenwerking overvloed creëert.
 
-Connection multiplies potential.
+Verbinding vermenigvuldigt potentieel.
 `,
 
 46: `
-Growth seeks elevation.
+Groei zoekt verheffing.
 
-What has been learned now aims toward a higher expression.
+Wat geleerd is streeft naar een hogere uitdrukking.
 
-The horizon expands once again.
+De horizon verruimt zich opnieuw.
 
-The lens invites you to notice what calls you beyond familiarity.
+Deze lens nodigt je uit om op te merken wat je voorbij het vertrouwde roept.
 
-Aspiration creates movement.
+Asp iratie creëert beweging.
 `,
 
 47: `
-A period of reflection returns.
+Een periode van reflectie keert terug.
 
-Not as retreat.
+Niet als terugtrekking.
 
-As refinement.
+Als verfijning.
 
-Experience pauses long enough to reveal deeper meaning.
+De reis vertraagt lang genoeg om een diepere betekenis zichtbaar te maken.
 
-The lens invites you to notice what silence is teaching.
+Deze lens nodigt je uit om op te merken wat stilte probeert te leren.
 
-Reflection renews direction.
+Reflectie vernieuwt richting.
 `,
 
 48: `
-A source is uncovered.
+Een bron wordt ontdekt.
 
-Something reliable exists beneath changing circumstances.
+Onder veranderende omstandigheden blijkt iets betrouwbaars aanwezig.
 
-The search becomes less urgent.
+De zoektocht wordt minder dringend.
 
-The foundation becomes more visible.
+Het fundament wordt zichtbaarder.
 
-The lens invites you to notice what consistently nourishes growth.
+Deze lens nodigt je uit om op te merken wat groei steeds opnieuw voedt.
 
-Depth creates resilience.
+Diepte creëert veerkracht.
 `,
 
 49: `
-Transformation begins.
+Transformatie begint.
 
-What once served its purpose now prepares to evolve.
+Wat zijn doel heeft vervuld bereidt zich voor op verandering.
 
-Change is not the abandonment of the past.
+Verandering betekent niet dat het verleden wordt afgewezen.
 
-It is the continuation of growth.
+Zij bouwt voort op wat eerder is geleerd.
 
-The lens invites you to notice what is ready for renewal.
+Deze lens nodigt je uit om op te merken wat klaar is voor vernieuwing.
 
-Transformation creates possibility.
+Transformatie creëert nieuwe mogelijkheden.
 `,
 
 50: `
-A deeper purpose emerges.
+Een dieper doel verschijnt.
 
-Experience has gathered into something meaningful.
+Ervaringen hebben zich verzameld tot iets betekenisvols.
 
-The pieces now support something greater than themselves.
+De afzonderlijke delen ondersteunen nu iets groters dan zichzelf.
 
-The lens invites you to notice what has become essential.
+Deze lens nodigt je uit om op te merken wat werkelijk essentieel is geworden.
 
-Purpose gives direction to transformation.
+Doel geeft richting aan transformatie.
 `,
 
 51: `
-A sudden realization arrives.
+Een plotseling inzicht verschijnt.
 
-What was hidden becomes visible.
+Wat verborgen was wordt zichtbaar.
 
-A shift in understanding changes the landscape.
+Een verschuiving in begrip verandert het landschap.
 
-The lens invites you to notice what awakens awareness.
+Deze lens nodigt je uit om op te merken wat bewustzijn wakker maakt.
 
-Insight accelerates growth.
+Inzicht versnelt groei.
 `,
 
 52: `
-Stillness becomes valuable.
+Stilte krijgt waarde.
 
-Movement pauses without losing momentum.
+Beweging pauzeert zonder haar richting te verliezen.
 
-Reflection allows understanding to settle.
+Reflectie geeft begrip de kans om te bezinken.
 
-The lens invites you to notice what remains when activity subsides.
+Deze lens nodigt je uit om op te merken wat overblijft wanneer activiteit afneemt.
 
-Stillness strengthens clarity.
+Stilte versterkt helderheid.
 `,
 
 53: `
-Progress reveals itself.
+Vooruitgang wordt zichtbaar.
 
-Growth that once seemed invisible becomes apparent.
+Groei die ooit onmerkbaar leek kan nu worden herkend.
 
-Small changes have accumulated into meaningful development.
+Kleine veranderingen hebben zich verzameld tot betekenisvolle ontwikkeling.
 
-The lens invites you to notice how far the journey has already come.
+Deze lens nodigt je uit om op te merken hoe ver het pad al heeft gereikt.
 
-Progress rewards patience.
+Vooruitgang beloont geduld.
 `,
 
 54: `
-A new relationship forms.
+Een nieuwe relatie ontstaat.
 
-The future enters through unexpected connections.
+De toekomst verschijnt via onverwachte ontmoetingen.
 
-Possibilities expand through participation.
+Mogelijkheden verruimen zich door deelname.
 
-The lens invites you to notice what is arriving through encounter.
+Deze lens nodigt je uit om op te merken wat via verbinding arriveert.
 
-Relationship creates opportunity.
+Relatie creëert kansen.
 `,
 
 55: `
-Abundance appears.
+Overvloed verschijnt.
 
-Many conditions align at once.
+Meerdere omstandigheden komen tegelijk samen.
 
-Energy becomes available for creation and expression.
+Energie wordt beschikbaar voor creatie en expressie.
 
-The lens invites you to notice what is flourishing.
+Deze lens nodigt je uit om op te merken wat tot bloei komt.
 
-Abundance encourages generosity.
+Overvloed moedigt vrijgevigheid aan.
 `,
 
 56: `
-The traveler continues.
+De reiziger vervolgt zijn weg.
 
-No destination remains permanent.
+Geen bestemming blijft voor altijd bestaan.
 
-Growth requires movement beyond familiar territory.
+Groei vraagt beweging voorbij het vertrouwde.
 
-The lens invites you to notice what new environments reveal.
+Deze lens nodigt je uit om op te merken wat nieuwe omgevingen onthullen.
 
-Exploration expands identity.
+Verkenning verruimt identiteit.
 `,
 
 57: `
-A subtle influence emerges.
+Een subtiele invloed verschijnt.
 
-The greatest changes are not always the most visible.
+De grootste veranderingen zijn niet altijd het meest zichtbaar.
 
-Transformation often continues beneath awareness.
+Transformatie gaat vaak verder buiten het directe bewustzijn.
 
-The lens invites you to notice what quietly shapes your direction.
+Deze lens nodigt je uit om op te merken wat stilletjes richting geeft.
 
-Gentleness creates endurance.
+Zachtheid creëert duurzaamheid.
 `,
 
 58: `
-Joy seeks expression.
+Vreugde zoekt expressie.
 
-Growth discovers its own appreciation.
+Groei ontdekt haar eigen waardering.
 
-What was once effort becomes participation.
+Wat ooit inspanning was wordt deelname.
 
-The lens invites you to notice what naturally brings vitality.
+Deze lens nodigt je uit om op te merken wat vanzelf vitaliteit brengt.
 
-Joy renews engagement.
+Vreugde vernieuwt betrokkenheid.
 `,
 
 59: `
-Boundaries begin to dissolve.
+Grenzen beginnen op te lossen.
 
-What once seemed separate becomes easier to understand.
+Wat ooit gescheiden leek wordt gemakkelijker te begrijpen.
 
-Distance gives way to connection.
+Afstand maakt plaats voor verbinding.
 
-The lens invites you to notice where unity is emerging.
+Deze lens nodigt je uit om op te merken waar eenheid zichtbaar wordt.
 
-Openness creates flow.
+Openheid creëert stroom.
 `,
 
 60: `
-Limits reveal their purpose.
+Grenzen onthullen hun doel.
 
-Structure does not exist to restrict possibility.
+Structuur bestaat niet om mogelijkheden te beperken.
 
-It exists to give possibility form.
+Zij geeft mogelijkheden vorm.
 
-The lens invites you to notice what boundaries make possible.
+Deze lens nodigt je uit om op te merken wat juist dankzij grenzen mogelijk wordt.
 
-Discipline supports freedom.
+Discipline ondersteunt vrijheid.
 `,
 
 61: `
-A deeper truth becomes visible.
+Een diepere waarheid wordt zichtbaar.
 
-The search moves beyond appearances.
+De zoektocht beweegt voorbij uiterlijkheden.
 
-Understanding grows from direct experience.
+Begrip groeit door directe ervaring.
 
-The lens invites you to notice what resonates beneath words.
+Deze lens nodigt je uit om op te merken wat resoneert voorbij woorden.
 
-Authenticity reveals wisdom.
+Authenticiteit onthult wijsheid.
 `,
 
 62: `
-Attention returns to the small.
+Aandacht keert terug naar het kleine.
 
-Great understanding expresses itself through simple actions.
+Groot begrip uit zich in eenvoudige handelingen.
 
-Meaning lives within details.
+Betekenis leeft in details.
 
-The lens invites you to notice what deserves careful consideration.
+Deze lens nodigt je uit om op te merken wat zorgvuldige aandacht verdient.
 
-Precision refines understanding.
+Nauwkeurigheid verfijnt begrip.
 `,
 
 63: `
-Completion approaches.
+Voltooiing nadert.
 
-The journey reveals its full shape.
+De reis onthult haar volledige vorm.
 
-What was once potential has become experience.
+Wat ooit potentieel was is ervaring geworden.
 
-The lens invites you to notice what has been accomplished.
+Deze lens nodigt je uit om op te merken wat werkelijk is bereikt.
 
-Fulfillment prepares transition.
+Vervulling bereidt overgang voor.
 `,
 
 64: `
-Everything stands at the threshold.
+Alles staat op de drempel.
 
-An ending and a beginning meet.
+Een einde en een begin ontmoeten elkaar.
 
-Nothing is unfinished.
+Niets is onaf.
 
-Nothing is final.
+Niets is definitief.
 
-The lens invites you to notice the possibilities hidden within completion.
+Deze lens nodigt je uit om de mogelijkheden binnen voltooiing op te merken.
 
-Every ending contains a new opening.
+Ieder einde bevat een nieuwe opening.
 `
 
 };
