@@ -344,7 +344,7 @@ body{
 }
 
 :root{
-  --mobileScale: 0.4;
+  --mobileScale: 0.42;
 }
 
 @media (orientation: portrait){
