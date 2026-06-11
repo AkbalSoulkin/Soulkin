@@ -366,6 +366,16 @@ body{
   }
 }
 
+@media (orientation: portrait){
+
+  #stepButton{
+
+    transform:scale(3);
+
+  }
+
+}
+
 html,
 body{
   margin:0;
