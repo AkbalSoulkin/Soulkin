@@ -1,245 +1,273 @@
 const svadhisthanaPages_nl = {
 
 1: `
-Chuen appears as the challenge of Imix.
+Chuen verschijnt als de uitdaging van Imix.
 
-Beginnings require flexibility.
+Nieuwe beginnen vragen om flexibiliteit.
 
-New ideas become stronger when they are allowed to evolve.
+Nieuwe ideeën worden sterker wanneer zij mogen evolueren.
 
-What starts as inspiration must eventually learn to adapt.
+Wat begint als inspiratie moet uiteindelijk leren aanpassen.
 
-Growth often begins when certainty becomes play.
+Groei begint vaak wanneer zekerheid verandert in spel.
 `,
 
 2: `
-Eb appears as the challenge of Ik.
+Eb verschijnt als de uitdaging van Ik.
 
-Communication becomes meaningful when it is grounded in experience.
+Communicatie krijgt betekenis wanneer zij wordt gegrond in ervaring.
 
-Words alone are rarely enough.
+Woorden alleen zijn zelden voldoende.
 
-The path asks you to walk what you understand.
+Het pad vraagt je te leven wat je begrijpt.
 
-Wisdom grows through participation.
+Wijsheid groeit door deelname.
 `,
 
 3: `
-Ben appears as the challenge of Akbal.
+Ben verschijnt als de uitdaging van Akbal.
 
-Dreams seek direction.
+Dromen zoeken richting.
 
-The unknown becomes easier to navigate when guided by vision.
+Het onbekende wordt gemakkelijker te navigeren wanneer visie de weg wijst.
 
-Not every mystery needs solving.
+Niet ieder mysterie hoeft opgelost te worden.
 
-But every journey benefits from purpose.
+Maar iedere reis heeft baat bij een doel.
 `,
 
 4: `
-Ix appears as the challenge of Kan.
+Ix verschijnt als de uitdaging van Kan.
 
-Growth is not only external.
+Groei is niet alleen uiterlijk zichtbaar.
 
-Inner awareness creates balance.
+Innerlijk bewustzijn creëert evenwicht.
 
-Potential flourishes when reflection accompanies development.
+Potentieel bloeit wanneer reflectie samengaat met ontwikkeling.
 
-The strongest roots often grow unseen.
+De sterkste wortels groeien vaak ongezien.
 `,
 
 5: `
-Men appears as the challenge of Chicchan.
+Men verschijnt als de uitdaging van Chicchan.
 
-Passion gains strength through perspective.
+Passie wordt sterker door perspectief.
 
-Energy without direction can become scattered.
+Energie zonder richting kan versnipperen.
 
-Step back occasionally.
+Neem af en toe afstand.
 
-A wider view reveals a wiser path.
+Een ruimer overzicht onthult een wijzer pad.
 `,
 
 6: `
-Cib appears as the challenge of Cimi.
+Cib verschijnt als de uitdaging van Cimi.
 
-Transformation becomes meaningful through understanding.
+Transformatie krijgt betekenis door begrip.
 
-Change alone is not enough.
+Verandering alleen is niet voldoende.
 
-Lessons emerge when experience becomes wisdom.
+Lessen verschijnen wanneer ervaring wijsheid wordt.
 
-Growth deepens through reflection.
+Groei verdiept zich door reflectie.
+
+Neem tijd om te begrijpen wat verandering je probeert te leren.
 `,
 
 7: `
-Caban appears as the challenge of Manik.
+Caban verschijnt als de uitdaging van Manik.
 
-Service benefits from curiosity.
+Dienstbaarheid heeft baat bij nieuwsgierigheid.
 
-Helping others does not require having all the answers.
+Anderen helpen betekent niet dat je alle antwoorden moet hebben.
 
-Questions often create more growth than solutions.
+Vragen creëren vaak meer groei dan oplossingen.
 
-Remain open to discovery.
+Blijf open voor ontdekking.
+
+Nieuwe inzichten verschijnen wanneer je bereid bent te leren.
 `,
 
 8: `
-Etznab appears as the challenge of Lamat.
+Etznab verschijnt als de uitdaging van Lamat.
 
-Beauty becomes stronger when paired with truth.
+Schoonheid wordt sterker wanneer zij samengaat met waarheid.
 
-Not everything pleasing is beneficial.
+Niet alles wat aantrekkelijk is, is waardevol.
 
-Clarity refines appreciation.
+Helderheid verfijnt waardering.
 
-Honesty protects what is genuinely valuable.
+Eerlijkheid beschermt wat werkelijk betekenis heeft.
+
+Schoonheid en waarheid versterken elkaar.
 `,
 
 9: `
-Cauac appears as the challenge of Muluc.
+Cauac verschijnt als de uitdaging van Muluc.
 
-Meaning sometimes arrives through disruption.
+Betekenis verschijnt soms door verstoring.
 
-Periods of uncertainty can reveal hidden strengths.
+Periodes van onzekerheid kunnen verborgen kracht onthullen.
 
-Trust that renewal often follows turbulence.
+Vertrouw erop dat vernieuwing vaak volgt op turbulentie.
 
-Transformation clears space for growth.
+Transformatie maakt ruimte voor groei.
+
+Soms verschijnt het antwoord pas nadat alles is veranderd.
 `,
 
 10: `
-Ahau appears as the challenge of Oc.
+Ahau verschijnt als de uitdaging van Oc.
 
-Loyalty is strengthened through perspective.
+Loyaliteit wordt sterker door perspectief.
 
-Devotion should not become limitation.
+Toewijding hoeft geen beperking te worden.
 
-Love grows when it includes both commitment and wisdom.
+Liefde groeit wanneer betrokkenheid wordt gecombineerd met wijsheid.
 
-Wholeness expands every relationship.
+Heelheid verruimt iedere relatie.
+
+Ware verbondenheid laat ruimte voor groei.
 `,
 
 11: `
-Imix appears as the challenge of Chuen.
+Imix verschijnt als de uitdaging van Chuen.
 
-Creativity benefits from fresh beginnings.
+Creativiteit heeft baat bij nieuwe beginnen.
 
-Not every idea needs refinement.
+Niet ieder idee hoeft verfijnd te worden.
 
-Sometimes the answer is simply to start.
+Soms is het antwoord simpelweg beginnen.
 
-Potential appears before perfection.
+Potentieel verschijnt vóór perfectie.
+
+Durf ruimte te maken voor het onverwachte.
 `,
 
 12: `
-Ik appears as the challenge of Eb.
+Ik verschijnt als de uitdaging van Eb.
 
-Experience becomes valuable when shared.
+Ervaring krijgt waarde wanneer zij wordt gedeeld.
 
-Learning is strengthened through communication.
+Leren wordt sterker door communicatie.
 
-Understanding grows when knowledge is exchanged.
+Begrip groeit wanneer kennis wordt uitgewisseld.
 
-Connection transforms insight.
+Verbinding transformeert inzicht.
+
+Wat je hebt geleerd kan een brug voor anderen worden.
 `,
 
 13: `
-Akbal appears as the challenge of Ben.
+Akbal verschijnt als de uitdaging van Ben.
 
-Vision requires mystery.
+Visie heeft mysterie nodig.
 
-Not everything important can be planned.
+Niet alles wat belangrijk is kan worden gepland.
 
-Allow room for the unknown.
+Laat ruimte voor het onbekende.
 
-Some discoveries arrive only when control relaxes.
+Sommige ontdekkingen verschijnen pas wanneer controle ontspant.
+
+Vertrouw op wat zich geleidelijk ontvouwt.
 `,
 
 14: `
-Kan appears as the challenge of Ix.
+Kan verschijnt als de uitdaging van Ix.
 
-Awareness seeks expression.
+Bewustzijn zoekt uitdrukking.
 
-Insight becomes meaningful when it influences growth.
+Inzicht krijgt betekenis wanneer het groei beïnvloedt.
 
-Reflection is valuable.
+Reflectie is waardevol.
 
-Application completes the process.
+Toepassing voltooit het proces.
 
-Potential emerges through action.
+Potentieel verschijnt door actie.
 `,
 
 15: `
-Chicchan appears as the challenge of Men.
+Chicchan verschijnt als de uitdaging van Men.
 
-Perspective must eventually return to life itself.
+Perspectief moet uiteindelijk terugkeren naar het leven zelf.
 
-Do not remain above experience.
+Blijf niet boven de ervaring hangen.
 
-Engage with it.
+Neem eraan deel.
 
-Vitality provides the fuel for understanding.
+Vitaliteit levert de brandstof voor begrip.
+
+Wijsheid groeit wanneer inzicht wordt beleefd.
 `,
 
 16: `
-Cimi appears as the challenge of Cib.
+Cimi verschijnt als de uitdaging van Cib.
 
-Wisdom continues to evolve.
+Wijsheid blijft zich ontwikkelen.
 
-Old conclusions may need renewal.
+Oude conclusies kunnen vernieuwing nodig hebben.
 
-Allow understanding to transform.
+Sta toe dat begrip transformeert.
 
-Growth never truly ends.
+Groei bereikt nooit een definitief eindpunt.
+
+Blijf open voor nieuwe inzichten.
 `,
 
 17: `
-Manik appears as the challenge of Caban.
+Manik verschijnt als de uitdaging van Caban.
 
-Discovery benefits from responsibility.
+Ontdekking heeft baat bij verantwoordelijkheid.
 
-Exploration becomes meaningful when it serves something larger.
+Verkenning krijgt betekenis wanneer zij iets groters dient.
 
-Knowledge gains value through application.
+Kennis wordt waardevol door toepassing.
 
-Service grounds insight.
+Dienstbaarheid geeft inzicht een fundament.
+
+Gebruik wat je leert ten goede van het geheel.
 `,
 
 18: `
-Lamat appears as the challenge of Etznab.
+Lamat verschijnt als de uitdaging van Etznab.
 
-Truth does not need to become harsh.
+Waarheid hoeft niet hard te worden.
 
-Beauty remains important.
+Schoonheid blijft belangrijk.
 
-Clarity is strongest when accompanied by grace.
+Helderheid is het krachtigst wanneer zij gepaard gaat met gratie.
 
-Balance strengthens honesty.
+Evenwicht versterkt eerlijkheid.
+
+Waarheid en mededogen kunnen samen bestaan.
 `,
 
 19: `
-Muluc appears as the challenge of Cauac.
+Muluc verschijnt als de uitdaging van Cauac.
 
-Renewal seeks purpose.
+Vernieuwing zoekt betekenis.
 
-Transformation becomes sustainable when connected to meaning.
+Transformatie wordt duurzaam wanneer zij verbonden is met een doel.
 
-Look beyond the storm.
+Kijk voorbij de storm.
 
-The deeper lesson often appears afterward.
+De diepere les verschijnt vaak daarna.
+
+Verandering krijgt richting door betekenis.
 `,
 
 20: `
-Oc appears as the challenge of Ahau.
+Oc verschijnt als de uitdaging van Ahau.
 
-Wholeness includes relationship.
+Heelheid omvat relatie.
 
-Wisdom grows through loyalty, trust and shared experience.
+Wijsheid groeit door loyaliteit, vertrouwen en gedeelde ervaring.
 
-No journey is completed alone.
+Geen enkele reis wordt volledig alleen afgelegd.
 
-Connection remains one of life's greatest teachers.
+Verbinding blijft een van de grootste leermeesters van het leven.
+
+Samen leren is ook groeien.
 `
 
 };

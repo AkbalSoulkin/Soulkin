@@ -1,245 +1,275 @@
 const svadhisthanaPages_jp = {
 
 1: `
-Chuen appears as the challenge of Imix.
+チューエンはイミシュの試練として現れます。
 
-Beginnings require flexibility.
+新しい始まりには柔軟さが必要です。
 
-New ideas become stronger when they are allowed to evolve.
+新しい考えは成長する余地を与えられると強くなります。
 
-What starts as inspiration must eventually learn to adapt.
+ひらめきとして始まったものは、
+やがて適応することを学ばなければなりません。
 
-Growth often begins when certainty becomes play.
+成長は確実性が遊びへと変わるとき始まります。
 `,
 
 2: `
-Eb appears as the challenge of Ik.
+エブはイクの試練として現れます。
 
-Communication becomes meaningful when it is grounded in experience.
+コミュニケーションは経験によって意味を持ちます。
 
-Words alone are rarely enough.
+言葉だけでは十分ではありません。
 
-The path asks you to walk what you understand.
+道は理解したことを生きるよう求めます。
 
-Wisdom grows through participation.
+知恵は参加を通して育ちます。
 `,
 
 3: `
-Ben appears as the challenge of Akbal.
+ベンはアクバルの試練として現れます。
 
-Dreams seek direction.
+夢は方向を求めます。
 
-The unknown becomes easier to navigate when guided by vision.
+未知はビジョンによって導かれると進みやすくなります。
 
-Not every mystery needs solving.
+すべての神秘を解く必要はありません。
 
-But every journey benefits from purpose.
+しかしすべての旅には目的が役立ちます。
 `,
 
 4: `
-Ix appears as the challenge of Kan.
+イシュはカンの試練として現れます。
 
-Growth is not only external.
+成長は外側だけのものではありません。
 
-Inner awareness creates balance.
+内なる気づきが調和を生みます。
 
-Potential flourishes when reflection accompanies development.
+可能性は内省と成長が共にあるとき花開きます。
 
-The strongest roots often grow unseen.
+最も強い根はしばしば見えない場所で育ちます。
 `,
 
 5: `
-Men appears as the challenge of Chicchan.
+メンはチクチャンの試練として現れます。
 
-Passion gains strength through perspective.
+情熱は視点によって強くなります。
 
-Energy without direction can become scattered.
+方向のないエネルギーは散漫になりがちです。
 
-Step back occasionally.
+時には一歩引いてみてください。
 
-A wider view reveals a wiser path.
+広い視野はより賢い道を示します。
 `,
 
 6: `
-Cib appears as the challenge of Cimi.
+シブはシミの試練として現れます。
 
-Transformation becomes meaningful through understanding.
+変容は理解によって意味を持ちます。
 
-Change alone is not enough.
+変化だけでは十分ではありません。
 
-Lessons emerge when experience becomes wisdom.
+経験が知恵になるとき学びが現れます。
 
-Growth deepens through reflection.
+成長は内省によって深まります。
+
+変化が何を教えようとしているのかを理解する時間を持ってください。
 `,
 
 7: `
-Caban appears as the challenge of Manik.
+カバンはマニクの試練として現れます。
 
-Service benefits from curiosity.
+奉仕は好奇心によって豊かになります。
 
-Helping others does not require having all the answers.
+他者を助けることは、
+すべての答えを持つことを意味しません。
 
-Questions often create more growth than solutions.
+問いはしばしば解決策以上の成長を生みます。
 
-Remain open to discovery.
+発見に対して心を開いてください。
+
+学ぶ意欲が新しい洞察をもたらします。
 `,
 
 8: `
-Etznab appears as the challenge of Lamat.
+エツナブはラマトの試練として現れます。
 
-Beauty becomes stronger when paired with truth.
+美は真実と結びつくことで強くなります。
 
-Not everything pleasing is beneficial.
+魅力的なものすべてが価値あるわけではありません。
 
-Clarity refines appreciation.
+明晰さは感謝を洗練します。
 
-Honesty protects what is genuinely valuable.
+誠実さは本当に大切なものを守ります。
+
+美と真実は互いを高め合います。
 `,
 
 9: `
-Cauac appears as the challenge of Muluc.
+カウアクはムルクの試練として現れます。
 
-Meaning sometimes arrives through disruption.
+意味は時として混乱の中に現れます。
 
-Periods of uncertainty can reveal hidden strengths.
+不確実な時期は隠された力を明らかにします。
 
-Trust that renewal often follows turbulence.
+再生はしばしば激動の後に訪れることを信頼してください。
 
-Transformation clears space for growth.
+変容は成長のための空間を作ります。
+
+答えはすべてが変わった後に現れることがあります。
 `,
 
 10: `
-Ahau appears as the challenge of Oc.
+アハウはオクの試練として現れます。
 
-Loyalty is strengthened through perspective.
+忠誠は視点によって強くなります。
 
-Devotion should not become limitation.
+献身は制限になる必要はありません。
 
-Love grows when it includes both commitment and wisdom.
+愛は関わりと知恵が結びつくとき育ちます。
 
-Wholeness expands every relationship.
+全体性はあらゆる関係を広げます。
+
+真のつながりは成長のための余白を残します。
 `,
 
 11: `
-Imix appears as the challenge of Chuen.
+イミシュはチューエンの試練として現れます。
 
-Creativity benefits from fresh beginnings.
+創造性は新しい始まりによって強くなります。
 
-Not every idea needs refinement.
+すべてのアイデアを磨き上げる必要はありません。
 
-Sometimes the answer is simply to start.
+時にはただ始めることが答えです。
 
-Potential appears before perfection.
+可能性は完璧さより先に現れます。
+
+予想外のもののために余白を残してください。
 `,
 
 12: `
-Ik appears as the challenge of Eb.
+イクはエブの試練として現れます。
 
-Experience becomes valuable when shared.
+経験は共有されることで価値を持ちます。
 
-Learning is strengthened through communication.
+学びはコミュニケーションによって強くなります。
 
-Understanding grows when knowledge is exchanged.
+理解は知識が交換されるとき成長します。
 
-Connection transforms insight.
+つながりは洞察を変容させます。
+
+あなたの学びは他者への橋になるかもしれません。
 `,
 
 13: `
-Akbal appears as the challenge of Ben.
+アクバルはベンの試練として現れます。
 
-Vision requires mystery.
+ビジョンには神秘が必要です。
 
-Not everything important can be planned.
+重要なことすべてが計画できるわけではありません。
 
-Allow room for the unknown.
+未知のための余地を残してください。
 
-Some discoveries arrive only when control relaxes.
+ある発見はコントロールを緩めたときにだけ現れます。
+
+ゆっくり展開するものを信頼してください。
 `,
 
 14: `
-Kan appears as the challenge of Ix.
+カンはイシュの試練として現れます。
 
-Awareness seeks expression.
+気づきは表現を求めます。
 
-Insight becomes meaningful when it influences growth.
+洞察は成長に影響を与えるとき意味を持ちます。
 
-Reflection is valuable.
+内省には価値があります。
 
-Application completes the process.
+実践がその過程を完成させます。
 
-Potential emerges through action.
+可能性は行動によって現れます。
 `,
 
 15: `
-Chicchan appears as the challenge of Men.
+チクチャンはメンの試練として現れます。
 
-Perspective must eventually return to life itself.
+視点は最終的に人生そのものへ戻らなければなりません。
 
-Do not remain above experience.
+経験の上に留まり続けないでください。
 
-Engage with it.
+その中に参加してください。
 
-Vitality provides the fuel for understanding.
+生命力は理解のための燃料を与えます。
+
+知恵は洞察が生きられるとき育ちます。
 `,
 
 16: `
-Cimi appears as the challenge of Cib.
+シミはシブの試練として現れます。
 
-Wisdom continues to evolve.
+知恵は進化し続けます。
 
-Old conclusions may need renewal.
+古い結論は再生を必要とすることがあります。
 
-Allow understanding to transform.
+理解が変容することを許してください。
 
-Growth never truly ends.
+成長に最終的な終着点はありません。
+
+新しい洞察に心を開いてください。
 `,
 
 17: `
-Manik appears as the challenge of Caban.
+マニクはカバンの試練として現れます。
 
-Discovery benefits from responsibility.
+発見は責任によって支えられます。
 
-Exploration becomes meaningful when it serves something larger.
+探究はより大きなものに奉仕するとき意味を持ちます。
 
-Knowledge gains value through application.
+知識は実践によって価値を得ます。
 
-Service grounds insight.
+奉仕は洞察に土台を与えます。
+
+学んだことを全体のために活かしてください。
 `,
 
 18: `
-Lamat appears as the challenge of Etznab.
+ラマトはエツナブの試練として現れます。
 
-Truth does not need to become harsh.
+真実は厳しさになる必要はありません。
 
-Beauty remains important.
+美しさもまた重要です。
 
-Clarity is strongest when accompanied by grace.
+明晰さは優しさと共にあるとき最も力を持ちます。
 
-Balance strengthens honesty.
+調和は誠実さを強くします。
+
+真実と思いやりは共に存在できます。
 `,
 
 19: `
-Muluc appears as the challenge of Cauac.
+ムルクはカウアクの試練として現れます。
 
-Renewal seeks purpose.
+再生は意味を求めます。
 
-Transformation becomes sustainable when connected to meaning.
+変容は目的と結びつくことで持続可能になります。
 
-Look beyond the storm.
+嵐の向こう側を見てください。
 
-The deeper lesson often appears afterward.
+より深い学びはその後に現れることがよくあります。
+
+変化は意味によって方向を得ます。
 `,
 
 20: `
-Oc appears as the challenge of Ahau.
+オクはアハウの試練として現れます。
 
-Wholeness includes relationship.
+全体性には関係性が含まれます。
 
-Wisdom grows through loyalty, trust and shared experience.
+知恵は忠誠、信頼、そして共有された経験によって育ちます。
 
-No journey is completed alone.
+どの旅も完全に一人で完結することはありません。
 
-Connection remains one of life's greatest teachers.
+つながりは人生における最も偉大な教師の一つです。
+
+共に学ぶこともまた成長です。
 `
 
 };
