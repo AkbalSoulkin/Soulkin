@@ -343,7 +343,10 @@ body{
   }
 }
 
-/* Telefoon rechtop: draai Soulkin automatisch */
+:root{
+  --mobileScale: 0.34;
+}
+
 @media (orientation: portrait){
 
   #app{
@@ -359,7 +362,7 @@ body{
     transform:
       translate(-50%, -50%)
       rotate(90deg)
-      scale(min(calc(100vw / 1000), calc(100dvh / 2000)));
+      scale(var(--mobileScale));
   }
 }
 
