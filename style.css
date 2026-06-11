@@ -330,14 +330,36 @@ body{
   transform-origin:top center;
 }
 
-@media (max-width: 2000px){
+body{
+  margin:0;
+  overflow:hidden;
+}
+
+/* Desktop + landscape */
+@media (orientation: landscape){
 
   #app{
-    transform:scale(calc(100vw / 2000));
+    transform:scale(min(calc(100vw / 2000), calc(100vh / 1000)));
   }
+}
 
-  body{
-    overflow-x:hidden;
+/* Telefoon rechtop: draai Soulkin automatisch */
+@media (orientation: portrait){
+
+  #app{
+    position:fixed;
+
+    left:50%;
+    top:50%;
+
+    margin:0;
+
+    transform-origin:center center;
+
+    transform:
+      translate(-50%, -50%)
+      rotate(90deg)
+      scale(min(calc(100vw / 1000), calc(100dvh / 2000)));
   }
 }
 
