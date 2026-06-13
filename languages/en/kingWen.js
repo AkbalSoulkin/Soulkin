@@ -643,7 +643,7 @@ Patience becomes more valuable than urgency.
 
 The invitation is to respect the final steps of the process.
 
-Every ending prepares a beginning
+Every ending prepares a beginning.
 `
 
 };

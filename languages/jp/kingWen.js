@@ -1,649 +1,671 @@
 const kingWenPages_jp = {
 
 1: `
-A time of initiative.
+主体性の時です。
 
-The situation favors movement, vision, and self-direction.
+状況は行動、ビジョン、そして自らの方向性を後押しします。
 
-Progress comes through conscious participation rather than hesitation.
+進歩はためらいではなく意識的な参加によって生まれます。
 
-The invitation is to create rather than react.
+求められているのは反応することではなく創造することです。
 `,
 
 2: `
-A time of receptivity.
+受容の時です。
 
-The situation favors listening, support, and patience.
+状況は傾聴、支援、そして忍耐を後押しします。
 
-Growth comes through cooperation with what is already unfolding.
+成長はすでに展開しているものと協力することで生まれます。
 
-The invitation is to receive before acting.
+求められているのは行動する前に受け取ることです。
 `,
 
 3: `
-A time of emergence.
+始まりの時です。
 
-New structures are forming but have not yet stabilized.
+新しい構造が形成されていますが、まだ安定していません。
 
-Confusion is not a sign of failure.
+混乱は失敗の兆候ではありません。
 
-The invitation is to nurture what is beginning rather than demand immediate results.
+求められているのは即座の結果を求めることではなく、芽生えつつあるものを育むことです。
 `,
 
 4: `
-A time of learning.
+学びの時です。
 
-Questions are more valuable than certainty.
+確信よりも問いが価値を持ちます。
 
-Understanding develops through experience rather than assumption.
+理解は思い込みではなく経験によって育ちます。
 
-The invitation is to remain teachable.
+求められているのは学び続ける姿勢を保つことです。
 `,
 
 5: `
-A time of preparation.
+準備の時です。
 
-Not every movement requires immediate action.
+すべての動きが即座の行動を必要とするわけではありません。
 
-Some developments mature through patience.
+成長の中には忍耐によって成熟するものがあります。
 
-The invitation is to trust timing without becoming passive.
+求められているのは受け身になることなく時機を信頼することです。
 `,
 
 6: `
-A time of tension.
+緊張の時です。
 
-Differences seek recognition.
+違いが認識を求めています。
 
-Clarity becomes possible when opposing views are acknowledged honestly.
+対立する視点を誠実に認めることで明晰さが生まれます。
 
-The invitation is to pursue understanding before victory.
+求められているのは勝利よりも理解を優先することです。
 `,
 
 7: `
-A time of discipline.
+規律の時です。
 
-Success depends on organization and commitment.
+成功は組織性と献身に支えられます。
 
-Scattered effort weakens progress.
+散漫な努力は進歩を弱めます。
 
-The invitation is to align intention with action.
+求められているのは意図と行動を一致させることです。
 `,
 
 8: `
-A time of unity.
+結束の時です。
 
-Relationships become more important than individual achievement.
+個人の達成よりも関係性が重要になります。
 
-Strength emerges through cooperation.
+力は協力によって生まれます。
 
-The invitation is to recognize what wishes to come together.
+求められているのは一つになろうとしているものを認識することです。
 `,
 
 9: `
-A time of subtle influence.
+微かな影響の時です。
 
-Small actions accomplish what force cannot.
+小さな行動は力では届かない場所に届きます。
 
-Progress develops through consistency rather than intensity.
+進歩は強さではなく一貫性によって育ちます。
 
-The invitation is to value steady refinement.
+求められているのは着実な洗練を大切にすることです。
 `,
 
 10: `
-A time of careful movement.
+慎重な歩みの時です。
 
-Awareness of consequences becomes important.
+結果への意識が重要になります。
 
-Confidence grows through responsible action.
+信頼は責任ある行動によって育ちます。
 
-The invitation is to proceed with respect and clarity.
+求められているのは敬意と明晰さをもって進むことです。
 `,
 
 11: `
-A time of harmony.
+調和の時です。
 
-Different forces cooperate naturally.
+異なる力が自然に協力します。
 
-What was divided finds common ground.
+分かれていたものが共通の土台を見つけます。
 
-The invitation is to support what is already working well.
+求められているのはすでにうまく働いているものを支えることです。
 `,
 
 12: `
-A time of separation.
+分離の時です。
 
-Communication becomes more difficult.
+コミュニケーションは難しくなります。
 
-Progress slows despite effort.
+努力しても進歩は遅くなります。
 
-The invitation is to preserve integrity until conditions improve.
+求められているのは状況が改善するまで誠実さを保つことです。
 `,
 
 13: `
-A time of shared purpose.
+共有された目的の時です。
 
-People gather around common values.
+人々は共通の価値観の周りに集まります。
 
-Cooperation becomes more powerful than individual effort.
+協力は個人の努力よりも強い力になります。
 
-The invitation is to contribute to something larger than yourself.
+求められているのは自分を超えたものに貢献することです。
 `,
 
 14: `
-A time of abundance.
+豊かさの時です。
 
-Resources, opportunities, or abilities become available.
+資源、機会、能力が利用可能になります。
 
-The challenge is not acquisition.
+課題は手に入れることではありません。
 
-It is wise stewardship.
+賢く扱うことです。
 
-The invitation is to use what has been given responsibly.
+求められているのは与えられたものを責任をもって使うことです。
 `,
 
 15: `
-A time of balance.
+均衡の時です。
 
-True strength does not need exaggeration.
+真の強さは誇張を必要としません。
 
-Humility allows continued growth.
+謙虚さは成長を続ける余地を作ります。
 
-The invitation is to let actions speak more clearly than appearances.
+求められているのは見せかけよりも行動に語らせることです。
 `,
 
 16: `
-A time of inspiration.
+霊感の時です。
 
-Energy seeks movement and expression.
+エネルギーは動きと表現を求めます。
 
-Motivation becomes contagious.
+動機は周囲へ広がります。
 
-The invitation is to direct enthusiasm toward meaningful goals.
+求められているのは熱意を意味ある目的へ向けることです。
 `,
 
 17: `
-A time of alignment.
+調和の時です。
 
-Progress comes through recognizing what deserves your attention.
+進歩は本当に注意を向ける価値のあるものを認識することで生まれます。
 
-Not every path needs to be created.
+すべての道を自ら作る必要はありません。
 
-Some paths need to be recognized.
+中には見つけるだけでよい道もあります。
 
-The invitation is to follow what proves itself worthy.
+求められているのは価値を示したものに従うことです。
 `,
 
 18: `
-A time of restoration.
+修復の時です。
 
-Something neglected seeks renewal.
+見過ごされていたものが再生を求めています。
 
-Past actions continue to influence the present.
+過去の行動は今も現在に影響を与えています。
 
-The invitation is to address what requires care rather than avoidance.
+求められているのは避けることではなく必要なものに注意を向けることです。
 `,
 
 19: `
-A time of opportunity.
+機会の時です。
 
-Distance decreases.
+距離が縮まります。
 
-What was once beyond reach begins to draw nearer.
+かつて手の届かなかったものが近づいてきます。
 
-The invitation is to meet emerging possibilities with openness.
+求められているのは新しい可能性を開かれた心で迎えることです。
 `,
 
 20: `
-A time of observation.
+観察の時です。
 
-Understanding develops through seeing clearly.
+理解は明確に見ることから育ちます。
 
-Action becomes more effective when preceded by awareness.
+行動は気づきによってより効果的になります。
 
-The invitation is to step back and gain perspective.
+求められているのは一歩引いて視野を広げることです。
 `,
 
 21: `
-A time of resolution.
+解決の時です。
 
-An obstacle stands between intention and progress.
+意図と進歩の間に障害があります。
 
-Direct engagement becomes necessary.
+直接向き合うことが必要になります。
 
-The invitation is to address what requires clarity and decisiveness.
+求められているのは明晰さと決断を必要とするものに取り組むことです。
 `,
 
 22: `
-A time of refinement.
+洗練の時です。
 
-Beauty reveals qualities that force cannot.
+美しさは力だけでは示せない価値を明らかにします。
 
-Presentation becomes part of communication.
+表現はコミュニケーションの一部となります。
 
-The invitation is to honor elegance without losing authenticity.
+求められているのは真実さを失わずに優雅さを大切にすることです。
 `,
 
 23: `
-A time of release.
+手放しの時です。
 
-Structures that no longer support growth begin to weaken.
+成長を支えなくなった構造は弱まり始めます。
 
-Not every ending is a failure.
+すべての終わりが失敗ではありません。
 
-The invitation is to let go of what has completed its purpose.
+求められているのは役目を終えたものを手放すことです。
 `,
 
 24: `
-A time of renewal.
+再生の時です。
 
-After decline comes restoration.
+衰退の後には回復があります。
 
-A new cycle quietly begins.
+新しい周期が静かに始まります。
 
-The invitation is to recognize what is returning to life.
+求められているのは再び命を得ようとしているものを認識することです。
 `,
 
 25: `
-A time of sincerity.
+誠実さの時です。
 
-Actions aligned with truth carry their own momentum.
+真実と一致した行動はそれ自体の力を持ちます。
 
-Complications often arise when simplicity is abandoned.
+複雑さはしばしば単純さを失った時に生まれます。
 
-The invitation is to act from authenticity rather than calculation.
+求められているのは計算ではなく本物らしさから行動することです。
 `,
 
 26: `
-A time of accumulation.
+蓄積の時です。
 
-Strength grows through restraint and preparation.
+力は抑制と準備によって育ちます。
 
-Resources become valuable when properly cultivated.
+資源は丁寧に育てられることで価値を持ちます。
 
-The invitation is to develop capacity before seeking expansion.
+求められているのは拡大を求める前に基盤を築くことです。
 `,
 
 27: `
-A time of nourishment.
+養いの時です。
 
-What you consume shapes what you become.
+何を取り入れるかが何になるかを形作ります。
 
-This applies to food, ideas, relationships, and attention.
+これは食べ物だけでなく、
+考え方、関係性、そして注意にも当てはまります。
 
-The invitation is to consider what truly sustains growth.
+求められているのは何が本当に成長を支えるのかを見極めることです。
 `,
 
 28: `
-A time of pressure.
+重圧の時です。
 
-Existing structures carry more weight than usual.
+既存の構造は通常以上の負荷を抱えています。
 
-Adaptation becomes necessary.
+適応が必要になります。
 
-The invitation is to respond with flexibility rather than rigidity.
+求められているのは硬直ではなく柔軟さで応えることです。
 `,
 
 29: `
-A time of depth.
+深みの時です。
 
-Uncertainty invites awareness.
+不確実さは気づきを招きます。
 
-Progress depends upon remaining present rather than seeking escape.
+進歩は逃避ではなく現在に留まることによって生まれます。
 
-The invitation is to move carefully through what cannot yet be controlled.
+求められているのはまだ制御できないものの中を慎重に進むことです。
 `,
 
 30: `
-A time of illumination.
+光明の時です。
 
-Clarity spreads through connection.
+明晰さはつながりを通して広がります。
 
-Light reveals what was previously hidden.
+光は隠れていたものを明らかにします。
 
-The invitation is to strengthen what brings understanding.
+求められているのは理解をもたらすものを強めることです。
 `,
 
 31: `
-A time of attraction.
+引き寄せの時です。
 
-Change emerges through resonance rather than force.
+変化は強制ではなく共鳴によって生まれます。
 
-Mutual recognition creates movement.
+相互の認識が動きを生みます。
 
-The invitation is to notice what naturally draws your attention.
+求められているのは自然に注意を引くものに気づくことです。
 `,
 
 32: `
-A time of continuity.
+継続の時です。
 
-What endures gains strength through consistency.
+続くものは一貫性によって強くなります。
 
-Lasting progress develops through repeated participation.
+持続的な進歩は繰り返しの参加によって育ちます。
 
-The invitation is to support what deserves permanence.
+求められているのは長く価値を持つものを支えることです。
 `,
 
 33: `
-A time of withdrawal.
+退く時です。
 
-Stepping back can preserve strength for what truly matters.
+すべての状況が直接的な関与を求めるわけではありません。
 
-Distance creates clarity when involvement becomes excessive.
+時には距離を取ることで力が生まれます。
 
-The invitation is to recognize when retreat serves growth.
+求められているのは本当に重要なもののために力を温存することです。
 `,
 
 34: `
-A time of strength.
+大いなる力の時です。
 
-Energy seeks expression.
+可能性が開かれ、
+行動は支えられています。
 
-Power becomes most effective when guided by wisdom rather than impulse.
+力は意識的に用いられる時に最も価値を持ちます。
 
-The invitation is to act with confidence and restraint.
+求められているのは衝動よりも方向性を選ぶことです。
 `,
 
 35: `
-A time of advancement.
+前進の時です。
 
-Momentum builds through consistent effort.
+隠れていたものが見えやすくなります。
 
-Opportunities become more visible as movement continues.
+認識と発展がより容易になります。
 
-The invitation is to support what is already moving forward.
+求められているのは現れようとしている成長を受け入れることです。
 `,
 
 36: `
-A time of protection.
+光を守る時です。
 
-Not every truth needs immediate expression.
+すべての真実を今すぐ明らかにする必要はありません。
 
-Wisdom sometimes preserves itself until conditions improve.
+一部の洞察は安全に育つ時間を必要とします。
 
-The invitation is to safeguard what remains valuable.
+求められているのは不明瞭な状況の中でも内なる明晰さを保つことです。
 `,
 
 37: `
-A time of belonging.
+共同体の時です。
 
-Relationships form the structure through which life develops.
+関係性は相互の責任によって築かれます。
 
-Responsibility and care strengthen connection.
+安定はそれぞれが自らの役割を理解することで育ちます。
 
-The invitation is to nurture what creates stability.
+求められているのは健全なつながりに投資することです。
 `,
 
 38: `
-A time of difference.
+違いの時です。
 
-Contrasting perspectives reveal hidden dimensions of reality.
+すべてが一致する必要はありません。
 
-Agreement is not always necessary for understanding.
+対比は理解を深めることができます。
 
-The invitation is to learn from what challenges your viewpoint.
+求められているのはつながりを失わずに違いを尊重することです。
 `,
 
 39: `
-A time of difficulty.
+障害の時です。
 
-Progress encounters resistance.
+前進には別の方法が求められます。
 
-Challenges reveal strengths that comfort cannot develop.
+うまくいかないものを無理に押し進める必要はありません。
 
-The invitation is to seek understanding before forcing movement.
+求められているのは頑固さよりも知恵を選ぶことです。
 `,
 
 40: `
-A time of release.
+解放の時です。
 
-Tension begins to dissolve.
+緊張がほどけ始めます。
 
-What was blocked becomes capable of movement again.
+停滞していたものが再び動き出します。
 
-The invitation is to leave unnecessary burdens behind.
+求められているのは回復と再生のための余白を与えることです。
 `,
 
 41: `
-A time of simplification.
+簡素化の時です。
 
-Something is being reduced so that something more important may grow.
+すべてを保持する必要はありません。
 
-Less can create space for greater clarity.
+不要なものを手放すことで余白が生まれます。
 
-The invitation is to recognize what is no longer essential.
+求められているのは本当に必要なものを見極めることです。
+
+少ないことがより多くを可能にします。
 `,
 
 42: `
-A time of expansion.
+拡大の時です。
 
-Energy becomes available for growth and development.
+価値あるものは成長を求めます。
 
-What is supported begins to flourish.
+資源、エネルギー、そして知恵は広がろうとします。
 
-The invitation is to invest in what creates lasting value.
+求められているのは自然に育とうとしているものを支えることです。
+
+成長は共有されることで強くなります。
 `,
 
 43: `
-A time of decision.
+突破の時です。
 
-What has remained uncertain seeks resolution.
+長く隠れていたものが現れようとしています。
 
-Clarity requires commitment.
+明晰さは表現を求めます。
 
-The invitation is to act upon what has become unmistakably clear.
+求められているのは隠し続けられないものに正直であることです。
 `,
 
 44: `
-A time of encounter.
+出会いの時です。
 
-Something unexpected enters awareness.
+新しい影響が現れます。
 
-Not every opportunity deserves acceptance.
+すべての出会いが永続するわけではありません。
 
-The invitation is to discern what aligns with your path.
+求められているのは本当に自分に合うものを見極めることです。
 `,
 
 45: `
-A time of convergence.
+集結の時です。
 
-People, ideas, and resources begin to assemble.
+人々、考え、資源が共通の目的のもとに集まります。
 
-Collective effort becomes more powerful than individual action.
+協力は一人では届かない可能性を生み出します。
 
-The invitation is to recognize what wishes to unite.
+求められているのはつながりを求めるものに参加することです。
 `,
 
 46: `
-A time of steady advancement.
+上昇の時です。
 
-Growth occurs through persistence rather than force.
+進歩は一歩ずつ生まれます。
 
-Progress develops one step at a time.
+本当の成長には根が必要です。
 
-The invitation is to trust gradual development.
+求められているのは長く続くものを辛抱強く築くことです。
 `,
 
 47: `
-A time of limitation.
+困難の時です。
 
-External pressure reveals internal resources.
+エネルギーは限られているように感じられます。
 
-Strength is discovered through endurance.
+進歩は望むより遅く見えるかもしれません。
 
-The invitation is to remain connected to what cannot be taken away.
+求められているのは状況に依存しない内なる力を見出すことです。
 `,
 
 48: `
-A time of renewal.
+源の時です。
 
-A deeper source remains available beneath changing circumstances.
+変化の下には変わらない本質があります。
 
-What truly sustains life is often already present.
+本当に養うものは枯渇しません。
 
-The invitation is to reconnect with what nourishes you.
+求められているのは持続する価値へ立ち返ることです。
+
+深さは再生を支えます。
 `,
 
 49: `
-A time of transformation.
+変容の時です。
 
-Old forms no longer serve their original purpose.
+その役割を果たしたものが変化の準備を始めます。
 
-Change becomes necessary rather than optional.
+古い形が新しい可能性のために場所を空けることで再生が生まれます。
 
-The invitation is to release what has completed its role.
+求められているのは変化を恐れるのではなく意識的に導くことです。
 `,
 
 50: `
-A time of refinement.
+意味の時です。
 
-Raw experience becomes wisdom through reflection.
+経験はより高い目的の周りに集まります。
 
-Transformation creates nourishment for future growth.
+価値あるものは洗練され保存されます。
 
-The invitation is to cultivate what enriches life.
+求められているのは本当に本質的なものに注意を向けることです。
 `,
 
 51: `
-A time of awakening.
+目覚めの時です。
 
-Sudden events disrupt familiar expectations.
+予期しない出来事が慣れ親しんだパターンを揺さぶります。
 
-Awareness expands through surprise.
+当然だと思っていたものが新たな視点で見直されます。
 
-The invitation is to remain present when certainty is shaken.
+求められているのは驚きから生まれる洞察に開かれていることです。
 `,
 
 52: `
-A time of stillness.
+静寂の時です。
 
-Not every situation benefits from movement.
+動きは休息へと移ります。
 
-Clarity emerges when activity pauses.
+すべてを今すぐ解決する必要はありません。
 
-The invitation is to discover strength within quiet awareness.
+求められているのは無理に求めることなく明晰さが現れるのを待つことです。
 `,
 
 53: `
-A time of steady growth.
+漸進的な成長の時です。
 
-Meaningful change unfolds through patience.
+進歩は一歩ずつ訪れます。
 
-Progress becomes visible through accumulation.
+持続するものが突然生まれることは稀です。
 
-The invitation is to trust the process of becoming.
+求められているのは忍耐を信頼し過程を尊重することです。
 `,
 
 54: `
-A time of adaptation.
+新しい関係の時です。
 
-Circumstances require flexibility and awareness.
+変化は出会いやつながりを通して訪れます。
 
-Not every role is freely chosen.
+すべてが個人の努力だけから生まれるわけではありません。
 
-The invitation is to respond wisely to changing conditions.
+求められているのは他者を通して現れるものに注意を向けることです。
 `,
 
 55: `
-A time of fullness.
+豊かさの時です。
 
-Many forces converge at once.
+多くの可能性が同時に存在しています。
 
-Opportunity and responsibility arrive together.
+力と創造性が高まります。
 
-The invitation is to make good use of what is available.
+求められているのは与えられたものを惜しみなく分かち合うことです。
 `,
 
 56: `
-A time of transition.
+旅の時です。
 
-The journey continues beyond familiar surroundings.
+慣れ親しんだ境界を越えて進みます。
 
-Identity expands through new experiences.
+新しい環境は新しい洞察をもたらします。
 
-The invitation is to remain open while carrying what truly matters.
+求められているのは道が開かれるままに好奇心を保つことです。
 `,
 
 57: `
-A time of subtle influence.
+穏やかな影響の時です。
 
-Change occurs through persistence rather than force.
+最も持続する変化はしばしばゆっくりと生まれます。
 
-Small movements reach places that power cannot.
+柔らかいものほど深く届くことがあります。
 
-The invitation is to trust steady influence over sudden control.
+求められているのは静かに育っているものに気づくことです。
+
+継続は影響力を強めます。
 `,
 
 58: `
-A time of openness.
+喜びの時です。
 
-Shared appreciation strengthens connection.
+開放性と交流が新しい活力をもたらします。
 
-Joy becomes more meaningful when expressed.
+分かち合われたものは成長します。
 
-The invitation is to allow genuine enthusiasm to circulate freely.
+求められているのは真心あるつながりと楽しさのための余白を作ることです。
+
+喜びは関与を新たにします。
 `,
 
 59: `
-A time of release.
+解消の時です。
 
-Barriers that once seemed necessary begin to dissolve.
+かつて必要だった境界が柔らかくなり始めます。
 
-Separation gives way to greater connection.
+分離はつながりへと変わります。
 
-The invitation is to let go of what prevents unity.
+求められているのは協力が可能になる場所を見つけることです。
+
+開放性は流れを生みます。
 `,
 
 60: `
-A time of structure.
+節度の時です。
 
-Boundaries create the conditions within which growth can flourish.
+自由は構造によって形を得ます。
 
-Freedom gains direction through appropriate limits.
+すべての可能性を追う必要はありません。
 
-The invitation is to recognize the value of healthy restraint.
+求められているのは制限を支えとして理解することです。
+
+規律は余白を生みます。
 `,
 
 61: `
-A time of sincerity.
+内なる真実の時です。
 
-Understanding emerges from direct experience rather than appearance.
+本当に大切なものが感じ取れるようになります。
 
-Authenticity becomes more important than certainty.
+誠実さは信頼を生みます。
 
-The invitation is to trust what resonates deeply within.
+求められているのは心の奥深くで響くものに耳を傾けることです。
+
+真正さはつながりを強めます。
 `,
 
 62: `
-A time of careful attention.
+細部への注意の時です。
 
-Small details deserve greater consideration than grand ambitions.
+小さな行動にも意味があります。
 
-Progress develops through precision.
+単純なものほど丁寧さが求められます。
 
-The invitation is to honor what appears modest but meaningful.
+求められているのは正確さの中に価値を見出すことです。
+
+小さなことが大きな結果を支えます。
 `,
 
 63: `
-A time of fulfillment.
+完成の時です。
 
-A cycle has reached its intended conclusion.
+一つの周期がその目的を果たしました。
 
-Success carries its own responsibilities.
+築かれたものが今ここにあります。
 
-The invitation is to remain attentive even when the goal has been achieved.
+求められているのは達成されたものを認めつつ前進を続けることです。
+
+完成は再生を準備します。
 `,
 
 64: `
-A time of transition.
+移行の時です。
 
-The journey approaches fulfillment but remains unfinished.
+終わりと始まりが出会います。
 
-Patience becomes more valuable than urgency.
+過去は完了しましたが未来はまだ定まっていません。
 
-The invitation is to respect the final steps of the process.
+求められているのは展開しようとしているものに開かれていることです。
 
-Every ending prepares a beginning
+すべての終わりには新しい始まりがあります。
 `
 
 };

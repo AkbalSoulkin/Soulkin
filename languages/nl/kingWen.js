@@ -1,649 +1,669 @@
 const kingWenPages_nl = {
 
 1: `
-A time of initiative.
+Een tijd van initiatief.
 
-The situation favors movement, vision, and self-direction.
+De situatie ondersteunt beweging, visie en zelfsturing.
 
-Progress comes through conscious participation rather than hesitation.
+Vooruitgang ontstaat door bewuste deelname in plaats van aarzeling.
 
-The invitation is to create rather than react.
+De uitnodiging is om te creëren in plaats van te reageren.
 `,
 
 2: `
-A time of receptivity.
+Een tijd van ontvankelijkheid.
 
-The situation favors listening, support, and patience.
+De situatie ondersteunt luisteren, ondersteuning en geduld.
 
-Growth comes through cooperation with what is already unfolding.
+Groei ontstaat door samen te werken met wat zich al ontvouwt.
 
-The invitation is to receive before acting.
+De uitnodiging is om eerst te ontvangen voordat je handelt.
 `,
 
 3: `
-A time of emergence.
+Een tijd van ontstaan.
 
-New structures are forming but have not yet stabilized.
+Nieuwe structuren vormen zich maar zijn nog niet gestabiliseerd.
 
-Confusion is not a sign of failure.
+Verwarring is geen teken van mislukking.
 
-The invitation is to nurture what is beginning rather than demand immediate results.
+De uitnodiging is om te verzorgen wat begint te groeien in plaats van directe resultaten te eisen.
 `,
 
 4: `
-A time of learning.
+Een tijd van leren.
 
-Questions are more valuable than certainty.
+Vragen zijn waardevoller dan zekerheid.
 
-Understanding develops through experience rather than assumption.
+Begrip ontwikkelt zich door ervaring in plaats van aannames.
 
-The invitation is to remain teachable.
+De uitnodiging is om leerbaar te blijven.
 `,
 
 5: `
-A time of preparation.
+Een tijd van voorbereiding.
 
-Not every movement requires immediate action.
+Niet iedere beweging vraagt om onmiddellijke actie.
 
-Some developments mature through patience.
+Sommige ontwikkelingen rijpen door geduld.
 
-The invitation is to trust timing without becoming passive.
+De uitnodiging is om op timing te vertrouwen zonder passief te worden.
 `,
 
 6: `
-A time of tension.
+Een tijd van spanning.
 
-Differences seek recognition.
+Verschillen vragen om erkenning.
 
-Clarity becomes possible when opposing views are acknowledged honestly.
+Helderheid wordt mogelijk wanneer tegengestelde standpunten eerlijk worden erkend.
 
-The invitation is to pursue understanding before victory.
+De uitnodiging is om begrip na te streven vóór overwinning.
 `,
 
 7: `
-A time of discipline.
+Een tijd van discipline.
 
-Success depends on organization and commitment.
+Succes hangt af van organisatie en toewijding.
 
-Scattered effort weakens progress.
+Verspreide inspanning verzwakt vooruitgang.
 
-The invitation is to align intention with action.
+De uitnodiging is om intentie en actie met elkaar in overeenstemming te brengen.
 `,
 
 8: `
-A time of unity.
+Een tijd van eenheid.
 
-Relationships become more important than individual achievement.
+Relaties worden belangrijker dan individuele prestaties.
 
-Strength emerges through cooperation.
+Kracht ontstaat door samenwerking.
 
-The invitation is to recognize what wishes to come together.
+De uitnodiging is om te herkennen wat samen wil komen.
 `,
 
 9: `
-A time of subtle influence.
+Een tijd van subtiele invloed.
 
-Small actions accomplish what force cannot.
+Kleine handelingen bereiken wat kracht niet kan.
 
-Progress develops through consistency rather than intensity.
+Vooruitgang ontwikkelt zich door consistentie in plaats van intensiteit.
 
-The invitation is to value steady refinement.
+De uitnodiging is om gestage verfijning te waarderen.
 `,
 
 10: `
-A time of careful movement.
+Een tijd van zorgvuldige beweging.
 
-Awareness of consequences becomes important.
+Bewustzijn van gevolgen wordt belangrijk.
 
-Confidence grows through responsible action.
+Vertrouwen groeit door verantwoordelijk handelen.
 
-The invitation is to proceed with respect and clarity.
+De uitnodiging is om met respect en helderheid verder te gaan.
 `,
 
 11: `
-A time of harmony.
+Een tijd van harmonie.
 
-Different forces cooperate naturally.
+Verschillende krachten werken vanzelf samen.
 
-What was divided finds common ground.
+Wat verdeeld was vindt gemeenschappelijke grond.
 
-The invitation is to support what is already working well.
+De uitnodiging is om te ondersteunen wat al goed werkt.
 `,
 
 12: `
-A time of separation.
+Een tijd van scheiding.
 
-Communication becomes more difficult.
+Communicatie wordt moeilijker.
 
-Progress slows despite effort.
+Vooruitgang vertraagt ondanks inspanning.
 
-The invitation is to preserve integrity until conditions improve.
+De uitnodiging is om integriteit te bewaren totdat omstandigheden verbeteren.
 `,
 
 13: `
-A time of shared purpose.
+Een tijd van gedeeld doel.
 
-People gather around common values.
+Mensen verzamelen zich rond gezamenlijke waarden.
 
-Cooperation becomes more powerful than individual effort.
+Samenwerking wordt krachtiger dan individuele inspanning.
 
-The invitation is to contribute to something larger than yourself.
+De uitnodiging is om bij te dragen aan iets groters dan jezelf.
 `,
 
 14: `
-A time of abundance.
+Een tijd van overvloed.
 
-Resources, opportunities, or abilities become available.
+Middelen, kansen of vermogens worden beschikbaar.
 
-The challenge is not acquisition.
+De uitdaging is niet verkrijgen.
 
-It is wise stewardship.
+Het is wijs beheer.
 
-The invitation is to use what has been given responsibly.
+De uitnodiging is om verantwoordelijk om te gaan met wat gegeven is.
 `,
 
 15: `
-A time of balance.
+Een tijd van balans.
 
-True strength does not need exaggeration.
+Ware kracht hoeft zichzelf niet te overdrijven.
 
-Humility allows continued growth.
+Nederigheid maakt verdere groei mogelijk.
 
-The invitation is to let actions speak more clearly than appearances.
+De uitnodiging is om handelingen duidelijker te laten spreken dan uiterlijkheden.
 `,
 
 16: `
-A time of inspiration.
+Een tijd van inspiratie.
 
-Energy seeks movement and expression.
+Energie zoekt beweging en expressie.
 
-Motivation becomes contagious.
+Motivatie wordt aanstekelijk.
 
-The invitation is to direct enthusiasm toward meaningful goals.
+De uitnodiging is om enthousiasme te richten op betekenisvolle doelen.
 `,
 
 17: `
-A time of alignment.
+Een tijd van afstemming.
 
-Progress comes through recognizing what deserves your attention.
+Vooruitgang ontstaat door te herkennen wat werkelijk aandacht verdient.
 
-Not every path needs to be created.
+Niet ieder pad hoeft gecreëerd te worden.
 
-Some paths need to be recognized.
+Sommige paden hoeven slechts herkend te worden.
 
-The invitation is to follow what proves itself worthy.
+De uitnodiging is om te volgen wat zich waardig toont.
 `,
 
 18: `
-A time of restoration.
+Een tijd van herstel.
 
-Something neglected seeks renewal.
+Iets dat verwaarloosd werd vraagt om vernieuwing.
 
-Past actions continue to influence the present.
+Verleden handelingen blijven invloed uitoefenen op het heden.
 
-The invitation is to address what requires care rather than avoidance.
+De uitnodiging is om zorg te geven aan wat aandacht nodig heeft in plaats van het te vermijden.
 `,
 
 19: `
-A time of opportunity.
+Een tijd van mogelijkheden.
 
-Distance decreases.
+Afstand neemt af.
 
-What was once beyond reach begins to draw nearer.
+Wat ooit buiten bereik lag begint dichterbij te komen.
 
-The invitation is to meet emerging possibilities with openness.
+De uitnodiging is om nieuwe kansen met openheid te ontmoeten.
 `,
 
 20: `
-A time of observation.
+Een tijd van observatie.
 
-Understanding develops through seeing clearly.
+Begrip groeit door helder te zien.
 
-Action becomes more effective when preceded by awareness.
+Handelen wordt effectiever wanneer bewustzijn eraan voorafgaat.
 
-The invitation is to step back and gain perspective.
+De uitnodiging is om een stap terug te doen en perspectief te verkrijgen.
 `,
 
 21: `
-A time of resolution.
+Een tijd van oplossing.
 
-An obstacle stands between intention and progress.
+Een obstakel staat tussen intentie en vooruitgang.
 
-Direct engagement becomes necessary.
+Directe betrokkenheid wordt noodzakelijk.
 
-The invitation is to address what requires clarity and decisiveness.
+De uitnodiging is om aan te pakken wat om helderheid en besluitvaardigheid vraagt.
 `,
 
 22: `
-A time of refinement.
+Een tijd van verfijning.
 
-Beauty reveals qualities that force cannot.
+Schoonheid onthult kwaliteiten die kracht alleen niet kan tonen.
 
-Presentation becomes part of communication.
+Presentatie wordt onderdeel van communicatie.
 
-The invitation is to honor elegance without losing authenticity.
+De uitnodiging is om elegantie te waarderen zonder authenticiteit te verliezen.
 `,
 
 23: `
-A time of release.
+Een tijd van loslaten.
 
-Structures that no longer support growth begin to weaken.
+Structuren die groei niet langer ondersteunen beginnen af te brokkelen.
 
-Not every ending is a failure.
+Niet ieder einde is een mislukking.
 
-The invitation is to let go of what has completed its purpose.
+De uitnodiging is om los te laten wat zijn doel heeft vervuld.
 `,
 
 24: `
-A time of renewal.
+Een tijd van vernieuwing.
 
-After decline comes restoration.
+Na afname volgt herstel.
 
-A new cycle quietly begins.
+Een nieuwe cyclus begint in stilte.
 
-The invitation is to recognize what is returning to life.
+De uitnodiging is om te herkennen wat terugkeert naar het leven.
 `,
 
 25: `
-A time of sincerity.
+Een tijd van oprechtheid.
 
-Actions aligned with truth carry their own momentum.
+Handelingen die in overeenstemming zijn met de waarheid dragen hun eigen kracht.
 
-Complications often arise when simplicity is abandoned.
+Complicaties ontstaan vaak wanneer eenvoud wordt verlaten.
 
-The invitation is to act from authenticity rather than calculation.
+De uitnodiging is om vanuit authenticiteit te handelen in plaats van berekening.
 `,
 
 26: `
-A time of accumulation.
+Een tijd van opbouw.
 
-Strength grows through restraint and preparation.
+Kracht groeit door terughoudendheid en voorbereiding.
 
-Resources become valuable when properly cultivated.
+Middelen worden waardevol wanneer zij zorgvuldig worden ontwikkeld.
 
-The invitation is to develop capacity before seeking expansion.
+De uitnodiging is om capaciteit op te bouwen voordat uitbreiding wordt gezocht.
 `,
 
 27: `
-A time of nourishment.
+Een tijd van voeding.
 
-What you consume shapes what you become.
+Wat je tot je neemt vormt wat je wordt.
 
-This applies to food, ideas, relationships, and attention.
+Dit geldt voor voedsel, ideeën, relaties en aandacht.
 
-The invitation is to consider what truly sustains growth.
+De uitnodiging is om bewust te kiezen wat groei werkelijk ondersteunt.
 `,
 
 28: `
-A time of pressure.
+Een tijd van druk.
 
-Existing structures carry more weight than usual.
+Bestaande structuren dragen meer gewicht dan gebruikelijk.
 
-Adaptation becomes necessary.
+Aanpassing wordt noodzakelijk.
 
-The invitation is to respond with flexibility rather than rigidity.
+De uitnodiging is om met flexibiliteit te reageren in plaats van starheid.
 `,
 
 29: `
-A time of depth.
+Een tijd van diepte.
 
-Uncertainty invites awareness.
+Onzekerheid nodigt uit tot bewustzijn.
 
-Progress depends upon remaining present rather than seeking escape.
+Vooruitgang hangt af van aanwezigheid in plaats van ontsnapping.
 
-The invitation is to move carefully through what cannot yet be controlled.
+De uitnodiging is om zorgvuldig te bewegen door wat nog niet beheerst kan worden.
 `,
 
 30: `
-A time of illumination.
+Een tijd van verlichting.
 
-Clarity spreads through connection.
+Helderheid verspreidt zich via verbinding.
 
-Light reveals what was previously hidden.
+Licht onthult wat eerder verborgen was.
 
-The invitation is to strengthen what brings understanding.
+De uitnodiging is om te versterken wat begrip brengt.
 `,
 
 31: `
-A time of attraction.
+Een tijd van aantrekking.
 
-Change emerges through resonance rather than force.
+Verandering ontstaat door resonantie in plaats van dwang.
 
-Mutual recognition creates movement.
+Wederzijdse herkenning creëert beweging.
 
-The invitation is to notice what naturally draws your attention.
+De uitnodiging is om op te merken wat vanzelf je aandacht trekt.
 `,
 
 32: `
-A time of continuity.
+Een tijd van continuïteit.
 
-What endures gains strength through consistency.
+Wat blijft bestaan wordt sterker door consistentie.
 
-Lasting progress develops through repeated participation.
+Duurzame vooruitgang ontstaat door herhaalde deelname.
 
-The invitation is to support what deserves permanence.
+De uitnodiging is om te ondersteunen wat blijvende waarde heeft.
 `,
 
 33: `
-A time of withdrawal.
+Een tijd van terugtrekking.
 
-Stepping back can preserve strength for what truly matters.
+Niet iedere situatie vraagt om directe betrokkenheid.
 
-Distance creates clarity when involvement becomes excessive.
+Soms ontstaat kracht door afstand te nemen.
 
-The invitation is to recognize when retreat serves growth.
+De uitnodiging is om energie te bewaren voor wat werkelijk belangrijk is.
 `,
 
 34: `
-A time of strength.
+Een tijd van grote kracht.
 
-Energy seeks expression.
+Mogelijkheden zijn beschikbaar en beweging wordt ondersteund.
 
-Power becomes most effective when guided by wisdom rather than impulse.
+Kracht bereikt haar hoogste vorm wanneer zij bewust wordt gebruikt.
 
-The invitation is to act with confidence and restraint.
+De uitnodiging is om richting boven impuls te verkiezen.
 `,
 
 35: `
-A time of advancement.
+Een tijd van vooruitgang.
 
-Momentum builds through consistent effort.
+Wat verborgen was wordt zichtbaarder.
 
-Opportunities become more visible as movement continues.
+Erkenning en ontwikkeling vinden gemakkelijker plaats.
 
-The invitation is to support what is already moving forward.
+De uitnodiging is om open te staan voor groei die zich wil tonen.
 `,
 
 36: `
-A time of protection.
+Een tijd waarin het licht wordt beschermd.
 
-Not every truth needs immediate expression.
+Niet iedere waarheid hoeft onmiddellijk zichtbaar te zijn.
 
-Wisdom sometimes preserves itself until conditions improve.
+Sommige inzichten hebben tijd nodig om zich veilig te ontwikkelen.
 
-The invitation is to safeguard what remains valuable.
+De uitnodiging is om innerlijke helderheid te bewaren tijdens onduidelijke omstandigheden.
 `,
 
 37: `
-A time of belonging.
+Een tijd van gemeenschap.
 
-Relationships form the structure through which life develops.
+Relaties worden gevormd door wederzijdse verantwoordelijkheid.
 
-Responsibility and care strengthen connection.
+Stabiliteit groeit wanneer ieder zijn rol begrijpt.
 
-The invitation is to nurture what creates stability.
+De uitnodiging is om te investeren in gezonde verbindingen.
 `,
 
 38: `
-A time of difference.
+Een tijd van verschillen.
 
-Contrasting perspectives reveal hidden dimensions of reality.
+Niet alles hoeft overeen te komen om waardevol te zijn.
 
-Agreement is not always necessary for understanding.
+Contrast kan begrip verdiepen.
 
-The invitation is to learn from what challenges your viewpoint.
+De uitnodiging is om onderscheid te respecteren zonder verbinding te verliezen.
 `,
 
 39: `
-A time of difficulty.
+Een tijd van obstakels.
 
-Progress encounters resistance.
+Vooruitgang vraagt om een andere benadering.
 
-Challenges reveal strengths that comfort cannot develop.
+Wat niet werkt hoeft niet geforceerd te worden.
 
-The invitation is to seek understanding before forcing movement.
+De uitnodiging is om wijsheid boven koppigheid te verkiezen.
 `,
 
 40: `
-A time of release.
+Een tijd van bevrijding.
 
-Tension begins to dissolve.
+Spanning begint los te laten.
 
-What was blocked becomes capable of movement again.
+Wat vastzat kan opnieuw bewegen.
 
-The invitation is to leave unnecessary burdens behind.
+De uitnodiging is om ruimte te geven aan herstel en vernieuwing.
 `,
 
 41: `
-A time of simplification.
+Een tijd van vereenvoudiging.
 
-Something is being reduced so that something more important may grow.
+Niet alles hoeft behouden te blijven.
 
-Less can create space for greater clarity.
+Ruimte ontstaat wanneer het overbodige wordt losgelaten.
 
-The invitation is to recognize what is no longer essential.
+De uitnodiging is om te herkennen wat werkelijk essentieel is.
+
+Minder kan meer mogelijk maken.
 `,
 
 42: `
-A time of expansion.
+Een tijd van uitbreiding.
 
-Energy becomes available for growth and development.
+Wat waardevol is zoekt groei.
 
-What is supported begins to flourish.
+Middelen, energie of inzicht willen zich vermenigvuldigen.
 
-The invitation is to invest in what creates lasting value.
+De uitnodiging is om te ondersteunen wat op natuurlijke wijze wil bloeien.
+
+Groei wordt sterker wanneer zij wordt gedeeld.
 `,
 
 43: `
-A time of decision.
+Een tijd van doorbraak.
 
-What has remained uncertain seeks resolution.
+Iets dat lange tijd verborgen bleef wil zichtbaar worden.
 
-Clarity requires commitment.
+Helderheid vraagt om uitdrukking.
 
-The invitation is to act upon what has become unmistakably clear.
+De uitnodiging is om eerlijk te zijn over wat niet langer verborgen kan blijven.
 `,
 
 44: `
-A time of encounter.
+Een tijd van ontmoeting.
 
-Something unexpected enters awareness.
+Een nieuwe invloed verschijnt.
 
-Not every opportunity deserves acceptance.
+Niet iedere ontmoeting zal blijvend zijn.
 
-The invitation is to discern what aligns with your path.
+De uitnodiging is om bewust te blijven van wat werkelijk bij je past.
 `,
 
 45: `
-A time of convergence.
+Een tijd van samenkomst.
 
-People, ideas, and resources begin to assemble.
+Mensen, ideeën of middelen verzamelen zich rond een gedeeld doel.
 
-Collective effort becomes more powerful than individual action.
+Samenwerking creëert mogelijkheden die alleen moeilijk bereikbaar zijn.
 
-The invitation is to recognize what wishes to unite.
+De uitnodiging is om deel te nemen aan wat verbinding zoekt.
 `,
 
 46: `
-A time of steady advancement.
+Een tijd van opstijgen.
 
-Growth occurs through persistence rather than force.
+Vooruitgang ontstaat stap voor stap.
 
-Progress develops one step at a time.
+Werkelijke groei heeft wortels nodig.
 
-The invitation is to trust gradual development.
+De uitnodiging is om geduldig te bouwen aan wat duurzaam mag worden.
 `,
 
 47: `
-A time of limitation.
+Een tijd van uitputting.
 
-External pressure reveals internal resources.
+Energie voelt beperkt.
 
-Strength is discovered through endurance.
+Vooruitgang lijkt trager dan gewenst.
 
-The invitation is to remain connected to what cannot be taken away.
+De uitnodiging is om innerlijke bronnen te ontdekken die niet afhankelijk zijn van omstandigheden.
 `,
 
 48: `
-A time of renewal.
+Een tijd van de bron.
 
-A deeper source remains available beneath changing circumstances.
+Onder veranderingen blijft iets essentieels beschikbaar.
 
-What truly sustains life is often already present.
+Wat werkelijk voedt raakt niet uitgeput.
 
-The invitation is to reconnect with what nourishes you.
+De uitnodiging is om terug te keren naar wat blijvende waarde bezit.
+
+Diepte ondersteunt vernieuwing.
 `,
 
 49: `
-A time of transformation.
+Een tijd van transformatie.
 
-Old forms no longer serve their original purpose.
+Wat zijn doel heeft vervuld bereidt zich voor op verandering.
 
-Change becomes necessary rather than optional.
+Vernieuwing ontstaat wanneer oude vormen ruimte maken voor nieuwe mogelijkheden.
 
-The invitation is to release what has completed its role.
+De uitnodiging is om verandering niet te vrezen maar bewust te begeleiden.
 `,
 
 50: `
-A time of refinement.
+Een tijd van betekenis.
 
-Raw experience becomes wisdom through reflection.
+Ervaringen verzamelen zich rond een hoger doel.
 
-Transformation creates nourishment for future growth.
+Wat waardevol is wordt verfijnd en behouden.
 
-The invitation is to cultivate what enriches life.
+De uitnodiging is om aandacht te geven aan wat werkelijk essentieel blijkt te zijn.
 `,
 
 51: `
-A time of awakening.
+Een tijd van ontwaken.
 
-Sudden events disrupt familiar expectations.
+Een onverwachte gebeurtenis doorbreekt vertrouwde patronen.
 
-Awareness expands through surprise.
+Wat vanzelfsprekend leek wordt opnieuw bekeken.
 
-The invitation is to remain present when certainty is shaken.
+De uitnodiging is om open te blijven voor inzichten die uit verrassing ontstaan.
 `,
 
 52: `
-A time of stillness.
+Een tijd van stilte.
 
-Not every situation benefits from movement.
+Beweging maakt plaats voor rust.
 
-Clarity emerges when activity pauses.
+Niet alles hoeft onmiddellijk opgelost te worden.
 
-The invitation is to discover strength within quiet awareness.
+De uitnodiging is om helderheid te laten ontstaan zonder haar te forceren.
 `,
 
 53: `
-A time of steady growth.
+Een tijd van geleidelijke ontwikkeling.
 
-Meaningful change unfolds through patience.
+Vooruitgang voltrekt zich stap voor stap.
 
-Progress becomes visible through accumulation.
+Wat duurzaam is groeit zelden plotseling.
 
-The invitation is to trust the process of becoming.
+De uitnodiging is om geduld te vertrouwen en het proces te respecteren.
 `,
 
 54: `
-A time of adaptation.
+Een tijd van nieuwe verbindingen.
 
-Circumstances require flexibility and awareness.
+Verandering komt via relaties en ontmoetingen.
 
-Not every role is freely chosen.
+Niet alles ontstaat uit persoonlijke inspanning.
 
-The invitation is to respond wisely to changing conditions.
+De uitnodiging is om aandacht te schenken aan wat via anderen verschijnt.
 `,
 
 55: `
-A time of fullness.
+Een tijd van overvloed.
 
-Many forces converge at once.
+Vele mogelijkheden zijn gelijktijdig aanwezig.
 
-Opportunity and responsibility arrive together.
+Kracht en creativiteit nemen toe.
 
-The invitation is to make good use of what is available.
+De uitnodiging is om vrijgevig om te gaan met wat beschikbaar wordt.
 `,
 
 56: `
-A time of transition.
+Een tijd van reizen.
 
-The journey continues beyond familiar surroundings.
+Vertrouwde grenzen worden verlaten.
 
-Identity expands through new experiences.
+Nieuwe omgevingen brengen nieuwe inzichten.
 
-The invitation is to remain open while carrying what truly matters.
+De uitnodiging is om nieuwsgierig te blijven terwijl het pad zich ontvouwt.
 `,
 
 57: `
-A time of subtle influence.
+Een tijd van subtiele invloed.
 
-Change occurs through persistence rather than force.
+De meest blijvende veranderingen ontstaan vaak geleidelijk.
 
-Small movements reach places that power cannot.
+Wat zacht lijkt kan diep doordringen.
 
-The invitation is to trust steady influence over sudden control.
+De uitnodiging is om aandacht te schenken aan wat zich stil ontwikkelt.
+
+Volharding versterkt invloed.
 `,
 
 58: `
-A time of openness.
+Een tijd van vreugde.
 
-Shared appreciation strengthens connection.
+Openheid en uitwisseling brengen nieuwe energie.
 
-Joy becomes more meaningful when expressed.
+Wat gedeeld wordt groeit.
 
-The invitation is to allow genuine enthusiasm to circulate freely.
+De uitnodiging is om ruimte te maken voor oprechte verbinding en plezier.
+
+Vreugde vernieuwt betrokkenheid.
 `,
 
 59: `
-A time of release.
+Een tijd van oplossen.
 
-Barriers that once seemed necessary begin to dissolve.
+Grenzen die ooit noodzakelijk waren beginnen zachter te worden.
 
-Separation gives way to greater connection.
+Scheiding maakt plaats voor verbinding.
 
-The invitation is to let go of what prevents unity.
+De uitnodiging is om te herkennen waar samenwerking mogelijk wordt.
+
+Openheid creëert beweging.
 `,
 
 60: `
-A time of structure.
+Een tijd van begrenzing.
 
-Boundaries create the conditions within which growth can flourish.
+Vrijheid krijgt vorm door structuur.
 
-Freedom gains direction through appropriate limits.
+Niet iedere mogelijkheid hoeft gevolgd te worden.
 
-The invitation is to recognize the value of healthy restraint.
+De uitnodiging is om grenzen te zien als ondersteuning in plaats van beperking.
+
+Discipline creëert ruimte.
 `,
 
 61: `
-A time of sincerity.
+Een tijd van innerlijke waarheid.
 
-Understanding emerges from direct experience rather than appearance.
+Wat werkelijk belangrijk is wordt voelbaar.
 
-Authenticity becomes more important than certainty.
+Oprechtheid creëert vertrouwen.
 
-The invitation is to trust what resonates deeply within.
+De uitnodiging is om te luisteren naar wat diep vanbinnen resoneert.
+
+Authenticiteit versterkt verbinding.
 `,
 
 62: `
-A time of careful attention.
+Een tijd van aandacht voor details.
 
-Small details deserve greater consideration than grand ambitions.
+Kleine handelingen hebben betekenis.
 
-Progress develops through precision.
+Wat eenvoudig lijkt verdient zorgvuldigheid.
 
-The invitation is to honor what appears modest but meaningful.
+De uitnodiging is om waarde te vinden in nauwkeurigheid.
+
+Kleine dingen dragen grote gevolgen.
 `,
 
 63: `
-A time of fulfillment.
+Een tijd van voltooiing.
 
-A cycle has reached its intended conclusion.
+Een cyclus heeft haar doel bereikt.
 
-Success carries its own responsibilities.
+Wat opgebouwd werd staat nu zichtbaar voor je.
 
-The invitation is to remain attentive even when the goal has been achieved.
+De uitnodiging is om waardering te hebben voor wat gerealiseerd is zonder stil te blijven staan.
+
+Voltooiing bereidt vernieuwing voor.
 `,
 
 64: `
-A time of transition.
+Een tijd van overgang.
 
-The journey approaches fulfillment but remains unfinished.
+Een einde en een begin ontmoeten elkaar.
 
-Patience becomes more valuable than urgency.
+Het verleden is afgerond, maar de toekomst is nog niet vastgelegd.
 
-The invitation is to respect the final steps of the process.
+De uitnodiging is om open te blijven voor wat zich wil ontvouwen.
 
-Every ending prepares a beginning
+Ieder einde bevat een nieuw begin.
 `
 
 };
