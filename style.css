@@ -451,21 +451,14 @@ html, body{
   overflow-x: hidden;
 }
 
-body{
-  display: flex;
-  justify-content: center;
-}
-
-#app{
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
 #gameSvg{
-  width: 100%;
-  height: auto;
   display: block;
-  margin: 0 auto;
+}
+
+@media (max-width: 800px){
+  #gameSvg{
+    width: 1200px;
+    max-width: none;
+    transform: translateX(-240px);
+  }
 }
