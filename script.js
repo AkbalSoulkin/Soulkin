@@ -45,132 +45,19 @@ let animating = false;
 
 let activePage = "intro";
 
-const sealKeys = [
-  "imix",
-  "ik",
-  "akbal",
-  "kan",
-  "chicchan",
-  "cimi",
-  "manik",
-  "lamat",
-  "muluc",
-  "oc",
-  "chuen",
-  "eb",
-  "ben",
-  "ix",
-  "men",
-  "cib",
-  "caban",
-  "etznab",
-  "cauac",
-  "ahau"
-];
+let mechanismKin = 0;
+let ringKin = 0;
 
-// ===== BASISDATUM =====
-const baseDate = new Date("1982-08-22");
+let beforeOrAtRoot = false;
 
-// ===== PAD =====
-const pts = [
-  [0,250],
-  [-147,-202],
-  [238,77],
-  [-238,77],
-  [147,-202]
-];
 
-// ===== FRACTALS =====
-const animals = [
-  "Imix (0001)",
-  "Ik (0011)",
-  "Akbal (0010)",
-  "Kan (0000)",
-  "Chicchan (01)",
-  "Cimi (0111)",
-  "Manik (0110)",
-  "Lamat (0100)",
-  "Muluc (0101)",
-  "Oc (11)",
-  "Chuen (1110)",
-  "Eb (1100)",
-  "Ben (1101)",
-  "Ix (1111)",
-  "Men (10)",
-  "Cib (1000)",
-  "Caban (1001)",
-  "Etznab (1011)",
-  "Cauac (1010)",
-  "Ahau (00)"
-];
-
-const animalFiles = [
-  "imix.svg","ik.svg","akbal.svg","kan.svg",
-  "chicchan.svg","cimi.svg","manik.svg","lamat.svg",
-  "muluc.svg","oc.svg","chuen.svg","eb.svg",
-  "ben.svg","ix.svg","men.svg","cib.svg",
-  "caban.svg","etznab.svg","cauac.svg","ahau.svg"
-];
-
-const sacredSeals = [19, 4, 9, 14];
-
-const colors = [
-  "rgba(255,0,0,0.7)",
-  "rgba(255,255,255,0.7)",
-  "rgba(0,0,255,0.7)",
-  "rgba(255,255,0,0.7)"
-];
-
-const castleColors = [
-  "red",
-  "white",
-  "blue",
-  "yellow",
-  "green"
-];
-
-const toneColors = [
-  "rgba(255,0,0,0.7)",
-  "rgba(255,255,0,0.7)",
-  "rgba(255,255,255,0.7)",
-  "rgba(0,0,255,0.7)",
-  "rgba(255,0,0,0.7)",
-  "rgba(255,255,0,0.7)",
-  "rgba(255,255,255,0.7)",
-  "rgba(0,0,255,0.7)",
-  "rgba(0,128,0,0.7)",
-  "rgba(255,0,0,0.7)",
-  "rgba(255,255,0,0.7)",
-  "rgba(255,255,255,0.7)",
-  "rgba(0,0,255,0.7)"
-];
-
-const kingWenOrder = [
-  64, 1, 35, 18, 59, 24, 17, 3,
-  60, 56, 57, 8, 48, 62, 9, 5,
-  39, 26, 49, 4, 38, 42, 2, 33,
-  40, 58, 34, 31, 19, 46, 15, 29,
-  16, 61, 6, 41, 44, 54, 11, 21,
-  50, 36, 63, 32, 7, 25, 23, 27,
-  47, 30, 37, 10, 12, 53, 45, 14,
-  28, 55, 20, 51, 52, 13, 43, 22
-];
-
-const languageNames = {
-
-  en: "English",
-
-  nl: "Nederlands",
-
-  jp: "日本語"
-
-};
 
 const languages = {
 
   en: lang_en,
   nl: lang_nl,
-  jp: lang_jp
+  jp: lang_jp,
+  ru: lang_ru
 
 };
 
@@ -187,6 +74,8 @@ pages = pageSets[language];
 
 updateLanguage();
 };
+
+
 
 const pageSets = {
   en: {
@@ -223,45 +112,152 @@ const pageSets = {
     sahasrara: sahasraraPages_jp,
     hexagramStates: hexagramStatePages_jp,
     kingWen: kingWenPages_jp
+  },
+
+  ru: {
+    muladhara: muladharaPages_ru,
+    svadhisthana: svadhisthanaPages_ru,
+    manipura: manipuraPages_ru,
+    anahata: anahataPages_ru,
+    vishuddha: vishuddhaPages_ru,
+    ajna: ajnaPages_ru,
+    sahasrara: sahasraraPages_ru,
+    hexagramStates: hexagramStatePages_ru,
+    kingWen: kingWenPages_ru
   }
 };
 
+
 let pages = pageSets.en;
 
-// ===== UPDATE =====
 function updateFromKin(){
 
   tone = (kin % 13) + 1;
-
   seal = kin % 20;
 
-  night = (((dayOffset % 9) + 9) % 9 + 8) % 9 + 1;
+  night =
+    (((dayOffset % 9) + 9) % 9 + 8) % 9 + 1;
 
-  pos = cycle[kin].pos;
+  mechanismKin = kin;
+  ringKin = kin;
 
-  rot = cycle[kin].rot;
+  const ROOT_OFFSET = Number(
+    daysFromCivil(-17264374702, 11, 14) -
+    daysFromCivil(1982, 8, 22)
+  );
+
+  beforeOrAtRoot =
+    dayOffset <= ROOT_OFFSET;
+
+  // alles vóór 10/11 blijft bevroren op 13 Ahau
+  if(dayOffset < ROOT_OFFSET - 4){
+
+    tone = 13;
+    seal = 19;
+    night = 5;
+
+    mechanismKin = 259;
+    ringKin = 159; 
+  }
+
+  const specialIndex =
+    dayOffset - ROOT_OFFSET + 4;
+
+  if(specialIndex >= 0 && specialIndex <= 4){
+
+    const special = [
+      {tone:13, seal:19, night:5, mechanismKin:259, ringKin:159}, // 10 nov
+      {tone:1,  seal:4,  night:6, mechanismKin:104, ringKin:159}, // 11 nov = 1 Chicchan
+      {tone:2,  seal:9,  night:7, mechanismKin:209, ringKin:159}, // 12 nov = 2 Oc
+      {tone:3,  seal:14, night:8, mechanismKin:54,  ringKin:159},  // 13 nov = 3 Men
+      {tone:4,  seal:19, night:9, mechanismKin:159, ringKin:159}  // 14 nov = 4 Ahau
+    ][specialIndex];
+
+    tone = special.tone;
+    seal = special.seal;
+    night = special.night;
+    mechanismKin = special.mechanismKin;
+    ringKin = special.ringKin;
+  }
+
+  pos = cycle[mechanismKin].pos;
+  rot = cycle[mechanismKin].rot;
 }
+
+// ===== UPDATE =====
+function civilFromDays(z){
+
+  z = BigInt(z);
+
+  z += 719468n;
+
+  const era = floorDiv(z, 146097n);
+  const doe = z - era * 146097n;
+
+  const yoe =
+    floorDiv(
+      doe -
+      floorDiv(doe, 1460n) +
+      floorDiv(doe, 36524n) -
+      floorDiv(doe, 146096n),
+      365n
+    );
+
+  let y = yoe + era * 400n;
+
+  const doy =
+    doe -
+    (
+      365n * yoe +
+      floorDiv(yoe, 4n) -
+      floorDiv(yoe, 100n)
+    );
+
+  const mp =
+    floorDiv(5n * doy + 2n, 153n);
+
+  const d =
+    doy -
+    floorDiv(153n * mp + 2n, 5n) +
+    1n;
+
+  const m =
+    mp + (mp < 10n ? 3n : -9n);
+
+  y += m <= 2n ? 1n : 0n;
+
+  return {
+    year: Number(y),
+    month: Number(m),
+    day: Number(d)
+  };
+}
+
+
 
 // ===== DATUM UPDATE =====
 function updateDateFromKin(){
 
-  const base =
-    new Date(Date.UTC(1982, 7, 22));
+  const baseDays =
+    daysFromCivil(1982, 8, 22);
 
-  let d =
-    new Date(base);
+  const currentDays =
+    baseDays + BigInt(dayOffset);
 
-  d.setUTCDate(base.getUTCDate() + dayOffset);
+  const d =
+    civilFromDays(currentDays);
 
   document.getElementById("dayInput").value =
-    d.getUTCDate();
+    d.day;
 
   document.getElementById("monthInput").value =
-    d.getUTCMonth() + 1;
+    d.month;
 
   document.getElementById("yearInput").value =
-    d.getUTCFullYear();
+    d.year;
 }
+
+
 
 // ===== DATE PICKER =====
 function goToDate(){
@@ -279,18 +275,16 @@ function goToDate(){
     return;
   }
 
-  const d =
-    new Date(Date.UTC(year, month - 1, day));
+const targetDays =
+  daysFromCivil(year, month, day);
 
-  const base =
-    new Date(Date.UTC(1982, 7, 22));
+const baseDays =
+  daysFromCivil(1982, 8, 22);
 
-  const diff =
-    Math.floor(
-      (d - base) / (1000 * 60 * 60 * 24)
-    );
+const diff =
+  targetDays - baseDays;
 
-  dayOffset = diff;
+  dayOffset = Number(diff);
 
   kin =
     ((dayOffset % 260) + 260) % 260;
@@ -299,6 +293,7 @@ function goToDate(){
 
   render();
 }
+
 
 
 // ===== RING =====
@@ -610,29 +605,18 @@ function render(){
 const toneSymbol =
   document.getElementById("toneSymbol");
 
-if(night === 1){
-
+if(beforeOrAtRoot || night === 1){
   toneSymbol.setAttribute("opacity","0");
-
 } else {
-
   toneSymbol.setAttribute("opacity","1");
 }
 
-ringSegments.setAttribute(
-  "transform",
-  `rotate(${seal * 18})`
-);
+const ringSeal = ringKin % 20;
 
-hoverLayer.setAttribute(
-  "transform",
-  `rotate(${seal * 18})`
-);
+ringSegments.setAttribute("transform", `rotate(${ringSeal * 18})`);
+hoverLayer.setAttribute("transform", `rotate(${ringSeal * 18})`);
+ringAnimals.setAttribute("transform", `rotate(${ringSeal * 18})`);
 
-ringAnimals.setAttribute(
-  "transform",
-  `rotate(${seal * 18})`
-);
 
 let sacredAlignment =
   night === 1 &&
@@ -778,13 +762,10 @@ document.getElementById("HeartChakra")
 
 // ===== I-CHING ZICHTBAAR =====
 
-if(night === 1){
-
+if(beforeOrAtRoot || night === 1){
   document.getElementById("iChing")
     .setAttribute("opacity","0");
-
 } else {
-
   document.getElementById("iChing")
     .setAttribute("opacity","1");
 }
@@ -801,9 +782,9 @@ const dirPoints = [
 ];
 
 // alleen 4 standen
-let shift = Math.floor(kin / 13) % 4;
+let shift = Math.floor(mechanismKin / 13) % 4;
 
-let yinAngle = (kin % 52) * (360 / 52);
+let yinAngle = (mechanismKin % 52) * (360 / 52);
 
 document.getElementById("yinYang")
   .setAttribute(
@@ -818,7 +799,7 @@ document.getElementById("yinYang")
 
 // 260 dagen = 360 graden
 let backgroundAngle =
-  ((kin + 1 + 260) % 260) * (360 / 260);
+  ((mechanismKin + 1 + 260) % 260) * (360 / 260);
 
 document.getElementById("Background")
   .setAttribute(
@@ -830,17 +811,20 @@ document.getElementById("Background")
   );
 
 // beginvolgorde:
-// p links
+// q links
 // d rechts
 // b onder
-// q boven
+// p boven
 
 const letters = [
-  "letterQ",
+  "letterP",
   "letterD",
   "letterB",
-  "letterP"
+  "letterQ"
 ];
+
+
+
 
 letters.forEach((id, i) => {
 
@@ -870,21 +854,116 @@ letters.forEach((id, i) => {
       castleColors[castle]
     );
 
-  // info
-document.getElementById("info").innerHTML =
-  `
-  <tspan x="-90" dy="0">
-    ${lang.moon}: G${night} (${lang.nightNames[night-1]})
-  </tspan>
 
-  <tspan x="-90" dy="36">
-    ${lang.sun}: ${animals[seal]}
-  </tspan>
+document.getElementById("info").innerHTML = `
+<tspan x="-90" dy="0">
+${lang.moon}: G${night} (${lang.nightNames[night-1]})
+</tspan>
 
-  <tspan x="-90" dy="36">
-    ${lang.star}: ${lang.tone} ${tone} (${lang.toneNames[tone-1]})
-  </tspan>
-  `;
+<tspan x="-90" dy="36">
+${lang.sun}: ${animals[seal]}
+</tspan>
+
+<tspan x="-90" dy="36">
+${lang.star}: ${lang.tone} ${tone} (${lang.toneNames[tone-1]})
+</tspan>
+`;
+
+const LONG_COUNT_OFFSET = 1860921;
+
+const longCountText =
+  document.getElementById("longCountText");
+
+let lcDays =
+  dayOffset + LONG_COUNT_OFFSET;
+
+const tunAngle =
+  (lcDays % 1872000) * (360 / 1872000);
+
+const lcText =
+  getLongCountFromDays(lcDays);
+
+let longCountDisplay =
+  getExtendedLongCountFromDays(lcDays);
+
+const ROOT_LC_START =
+  dayOffset < Number(
+    daysFromCivil(-17264374702, 11, 14) -
+    daysFromCivil(1982, 8, 22)
+  );
+
+if(ROOT_LC_START){
+  longCountDisplay =
+    "0.0.0.0.0.0.0.0.0.0";
+}
+
+longCountText.textContent =
+  lang.longCount + ": " +
+  longCountDisplay;
+
+// Long Count getallen los halen
+const lcParts = lcText.split(".").map(Number);
+
+const lcBaktun = lcParts[0];
+const lcKatun  = lcParts[1];
+const lcTun    = lcParts[2];
+const lcUinal  = lcParts[3];
+const lcKin    = lcParts[4];
+
+// TunChakra ophalen
+const tunChakra =
+  document.getElementById("TunChakra");
+
+// normaal = Tun start: x.x.x.0.0
+const normalTun =
+  lcUinal === 0 &&
+  lcKin === 0;
+
+// special = Katun start: x.x.0.0.0
+const specialTun =
+  lcTun === 0 &&
+  lcUinal === 0 &&
+  lcKin === 0;
+
+// super = Baktun start: x.0.0.0.0
+const superTun =
+  lcKatun === 0 &&
+  lcTun === 0 &&
+  lcUinal === 0 &&
+  lcKin === 0;
+
+if(superTun){
+
+  tunChakra.setAttribute("opacity","1");
+  tunChakra.setAttribute(
+    "transform",
+    `rotate(${tunAngle}) scale(1.4)`
+  );
+
+} else if(specialTun){
+
+  tunChakra.setAttribute("opacity","0.7");
+  tunChakra.setAttribute(
+    "transform",
+    `rotate(${tunAngle}) scale(1.2)`
+  );
+
+} else if(normalTun){
+
+  tunChakra.setAttribute("opacity","0.35");
+  tunChakra.setAttribute(
+    "transform",
+    `rotate(${tunAngle}) scale(1)`
+  );
+
+} else {
+
+  tunChakra.setAttribute("opacity","0");
+  tunChakra.setAttribute(
+    "transform",
+    `rotate(${tunAngle}) scale(1)`
+  );
+}
 
 // ===== TABS =====
 
@@ -1139,8 +1218,14 @@ function updateActivePage(){
 
   if(activePage === "intro"){
 
-    panel.style.background =
-      "rgba(0,0,0,0.35)";
+  panel.style.backgroundImage =
+    'url("backgrounds/maya.png")';
+
+  panel.style.backgroundSize =
+    "cover";
+
+  panel.style.backgroundPosition =
+    "center";
 
     title.innerHTML = lang.introTitle;
 
@@ -1398,6 +1483,7 @@ nightTabHover.onmouseleave = () => {
 };
 
 
+
 // ===== STEP =====
 function step(){
 
@@ -1445,6 +1531,7 @@ function step(){
 
   render();
 }
+
 
 
 // ===== MOVE =====
@@ -1513,12 +1600,169 @@ function animateRotate(from,to,duration,callback){
   requestAnimationFrame(frame);
 }
 
+function getLongCountFromDays(days) {
+  days = ((days % 1872000) + 1872000) % 1872000;
+
+  const baktun = Math.floor(days / 144000);
+  days %= 144000;
+
+  const katun = Math.floor(days / 7200);
+  days %= 7200;
+
+  const tun = Math.floor(days / 360);
+  days %= 360;
+
+  const uinal = Math.floor(days / 20);
+  const kin = days % 20;
+
+  return `${baktun}.${katun}.${tun}.${uinal}.${kin}`;
+}
+
+function getExtendedLongCountFromDays(totalDays){
+
+  totalDays = Math.floor(totalDays);
+
+  // Hablatun.Alautun.Kinchiltun.Kalabtun.Piktun.Baktun.Katun.Tun.Uinal.Kin
+  const values = [
+    13, // Hablatun
+    13, // Alautun
+    13, // Kinchiltun
+    13, // Kalabtun
+    13, // Piktun
+    0,  // Baktun
+    0,  // Katun
+    0,  // Tun
+    0,  // Uinal
+    0   // Kin
+  ];
+
+  values[9] += totalDays;
+
+  const bases = [
+    20, // Kin → Uinal
+    18, // Uinal → Tun
+    20, // Tun → Katun
+    20, // Katun → Baktun
+    20, // Baktun → Piktun
+    20, // Piktun → Kalabtun
+    20, // Kalabtun → Kinchiltun
+    20, // Kinchiltun → Alautun
+    20  // Alautun → Hablatun
+  ];
+
+  for(let i = values.length - 1; i > 0; i--){
+
+    const base = bases[values.length - 1 - i];
+
+    const carry = Math.floor(values[i] / base);
+    const remainder = ((values[i] % base) + base) % base;
+
+    values[i] = remainder;
+    values[i - 1] += carry;
+  }
+
+  return values.join(".");
+}
+
+function getGrandLongCountFromBigDays(totalDays){
+
+  let values = [
+    13n, // Hablatun
+    13n, // Alautun
+    13n, // Kinchiltun
+    13n, // Kalabtun
+    13n, // Piktun
+    0n,  // Baktun
+    0n,  // Katun
+    0n,  // Tun
+    0n,  // Uinal
+    0n   // Kin
+  ];
+
+  values[9] += BigInt(totalDays);
+
+  const bases = [
+    20n, // Kin
+    18n, // Uinal
+    20n, // Tun
+    20n, // Katun
+    20n, // Baktun
+    20n, // Piktun
+    20n, // Kalabtun
+    20n, // Kinchiltun
+    20n  // Alautun
+  ];
+
+  for(let i = values.length - 1; i > 0; i--){
+
+    const base = bases[values.length - 1 - i];
+
+    let carry = values[i] / base;
+    let remainder = values[i] % base;
+
+    if(remainder < 0n){
+      remainder += base;
+      carry -= 1n;
+    }
+
+    values[i] = remainder;
+    values[i - 1] += carry;
+  }
+
+  return values.join(".");
+}
+
+function floorDiv(a, b){
+  let q = a / b;
+  let r = a % b;
+
+  if(r < 0n){
+    q -= 1n;
+  }
+
+  return q;
+}
+
+function daysFromCivil(year, month, day){
+
+  let y = BigInt(year);
+  let m = BigInt(month);
+  let d = BigInt(day);
+
+  y -= m <= 2n ? 1n : 0n;
+
+  const era = floorDiv(y, 400n);
+  const yoe = y - era * 400n;
+
+  const mp = m + (m > 2n ? -3n : 9n);
+
+  const doy =
+    floorDiv(153n * mp + 2n, 5n) + d - 1n;
+
+  const doe =
+    yoe * 365n +
+    floorDiv(yoe, 4n) -
+    floorDiv(yoe, 100n) +
+    doy;
+
+  return era * 146097n + doe - 719468n;
+}
+
 // ===== START VANDAAG =====
 let today = new Date();
 
-dayOffset = Math.floor(
-  (today - baseDate) / (1000*60*60*24)
-);
+const todayDays =
+  daysFromCivil(
+    today.getFullYear(),
+    today.getMonth() + 1,
+    today.getDate()
+  );
+
+const baseDays =
+  daysFromCivil(1982, 8, 22);
+
+dayOffset =
+  Number(todayDays - baseDays);
 
 kin = ((dayOffset % 260) + 260) % 260;
 
