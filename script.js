@@ -595,6 +595,14 @@ window.updateLanguage = function(){
 // ===== RENDER =====
 function render(){
 
+  const ROOT_OFFSET = Number(
+    daysFromCivil(-17264374702, 11, 14) -
+    daysFromCivil(1982, 8, 22)
+  );
+
+  const rootStage =
+    dayOffset - ROOT_OFFSET + 5;
+
   let [x,y] = pts[pos];
 
   document.getElementById("dot")
@@ -822,20 +830,52 @@ document.getElementById("yinYang")
     `
   );
 
+
 // ===== BACKGROUND ROTATIE =====
 
-// 260 dagen = 360 graden
-let backgroundAngle =
-  ((mechanismKin + 1 + 260) % 260) * (360 / 260);
+// Normaal volgt de achtergrond de echte Tzolkin.
+let backgroundKin = kin;
 
-document.getElementById("Background")
-  .setAttribute(
-    "transform",
-    `
-    rotate(${backgroundAngle})
-    scale(0.27)
-    `
-  );
+// Tijdens de vijf oorsprongsdagen volgt hij de 105-sprongen.
+const rootBackgroundKins = [
+  259, // 10/11 = 13 Ahau
+  104, // 11/11 = 1 Chicchan
+  209, // 12/11 = 2 Oc
+  54,  // 13/11 = 3 Men
+  159  // 14/11 = 4 Ahau
+];
+
+if(rootStage >= 1 && rootStage <= 5){
+  backgroundKin =
+    rootBackgroundKins[rootStage - 1];
+}
+
+const backgroundAngle =
+  ((backgroundKin + 1 + 260) % 260) *
+  (360 / 260);
+
+const background =
+  document.getElementById("Background");
+
+background.setAttribute(
+  "transform",
+  `
+  rotate(${backgroundAngle})
+  scale(0.27)
+  `
+);
+
+// Voor 10/11 volledig onzichtbaar.
+// Tijdens de vijf ontvouwingsdagen volledig zichtbaar.
+// Vanaf 15/11 blijft de normale Heart-logica gelden.
+if(rootStage <= 0){
+
+  background.setAttribute("opacity", "0");
+
+} else if(rootStage <= 5){
+
+  background.setAttribute("opacity", "1");
+}
 
 // beginvolgorde:
 // q links
@@ -874,11 +914,6 @@ letters.forEach((id, i) => {
 let castle = Math.floor(kin / 52);
 let castleFill = castleColors[castle];
 
-const ROOT_OFFSET = Number(
-  daysFromCivil(-17264374702, 11, 14) -
-  daysFromCivil(1982, 8, 22)
-);
-
 const rootCastleIndex =
   dayOffset - ROOT_OFFSET + 5;
 
@@ -901,8 +936,6 @@ if(rootCastleIndex >= 0 && rootCastleIndex <= 4){
 document.getElementById("castleCore")
   .setAttribute("fill", castleFill);
 
-const rootStage =
-  dayOffset - ROOT_OFFSET + 5;
 
 const rootItems = [
   ["redPoint", "smell"],     // 10/11
@@ -1580,121 +1613,6 @@ nightTabHover.onmouseleave = () => {
 };
 
 
-
-// ===== STEP =====
-function step(){
-
-  if(animating) return;
-
-  animating = true;
-
-  let prevPos = pos;
-  let prevTone = tone;
-
-  dayOffset++;
-
-  kin = ((dayOffset % 260) + 260) % 260;
-
-  updateFromKin();
-
-  if(prevTone === 13){
-
-    let startRot = rot - 72;
-    let endRot = rot;
-
-    animateRotate(startRot,endRot,400,()=>{
-
-      updateDateFromKin();
-
-      animating = false;
-
-      render();
-    });
-
-  } else {
-
-    let from = pts[prevPos];
-    let to = pts[pos];
-
-    animateMove(from,to,300,()=>{
-
-      updateDateFromKin();
-
-      animating = false;
-
-      render();
-    });
-  }
-
-  render();
-}
-
-
-// ===== MOVE =====
-function animateMove(from,to,duration,callback){
-
-  let start = null;
-
-  function frame(t){
-
-    if(!start) start = t;
-
-    let p = Math.min((t-start)/duration,1);
-
-    let x = from[0] + (to[0]-from[0])*p;
-    let y = from[1] + (to[1]-from[1])*p;
-
-    document.getElementById("dot")
-      .setAttribute(
-        "transform",
-        `translate(${x},${y})`
-      );
-
-    if(p<1){
-
-      requestAnimationFrame(frame);
-
-    } else {
-
-      callback();
-    }
-  }
-
-  requestAnimationFrame(frame);
-}
-
-
-// ===== ROTATE =====
-function animateRotate(from,to,duration,callback){
-
-  let start = null;
-
-  function frame(t){
-
-    if(!start) start = t;
-
-    let p = Math.min((t-start)/duration,1);
-
-    let r = from + (to-from)*p;
-
-    document.getElementById("rotGroup")
-      .setAttribute(
-        "transform",
-        `rotate(${r})`
-      );
-
-    if(p<1){
-
-      requestAnimationFrame(frame);
-
-    } else {
-
-      callback();
-    }
-  }
-
-  requestAnimationFrame(frame);
-}
 
 function getLongCountFromDays(days) {
   days = ((days % 1872000) + 1872000) % 1872000;

@@ -18,6 +18,13 @@ function step(){
 
   updateFromKin();
 
+const rootStage =
+  dayOffset - ROOT_OFFSET + 5;
+
+const rootUnfolding =
+  rootStage >= 1 &&
+  rootStage <= 5;
+
   // vóór 10/11: absoluut geen animatie
   if(dayOffset < ROOT_OFFSET - 4){
 
@@ -28,22 +35,58 @@ function step(){
 
   animating = true;
 
-  if(prevTone === 13){
+if(rootStage <= 1){
 
-    animateRotate(rot, rot, 0, () => {
-      updateDateFromKin();
-      animating = false;
-      render();
-    });
+  // Tot en met 10/11: niets animeren.
+  updateDateFromKin();
+  animating = false;
+  render();
+  return;
 
-  } else {
+} else if(rootUnfolding){
 
-    animateMove(pts[prevPos], pts[pos], 300, () => {
-      updateDateFromKin();
-      animating = false;
-      render();
-    });
+  const enteringFirstDot =
+    rootStage === 2; // 10/11 → 11/11
+
+  if(enteringFirstDot){
+    dotVisible = false;
+    render();
   }
+
+  animateMove(pts[prevPos], pts[pos], 300, () => {
+
+    if(enteringFirstDot){
+      dotVisible = true;
+    }
+
+    updateDateFromKin();
+    animating = false;
+    render();
+  });
+
+} else if(prevTone === 13){
+
+  let startRot = rot - 72;
+  let endRot = rot;
+
+  animateRotate(startRot, endRot, 400, () => {
+
+    updateDateFromKin();
+    animating = false;
+    render();
+
+  });
+
+
+
+} else {
+
+  animateMove(pts[prevPos], pts[pos], 300, () => {
+    updateDateFromKin();
+    animating = false;
+    render();
+  });
+}
 
   render();
 }
