@@ -1,11 +1,14 @@
-
 // ===== STEP =====
 function step(){
 
   if(animating) return;
 
-  animating = true;
+  const ROOT_OFFSET = Number(
+    daysFromCivil(-17264374702, 11, 14) -
+    daysFromCivil(1982, 8, 22)
+  );
 
+  // bewaar oude toestand
   let prevPos = pos;
   let prevTone = tone;
 
@@ -15,38 +18,35 @@ function step(){
 
   updateFromKin();
 
+  // vóór 10/11: absoluut geen animatie
+  if(dayOffset < ROOT_OFFSET - 4){
+
+    updateDateFromKin();
+    render();
+    return;
+  }
+
+  animating = true;
+
   if(prevTone === 13){
 
-    let startRot = rot - 72;
-    let endRot = rot;
-
-    animateRotate(startRot,endRot,400,()=>{
-
+    animateRotate(rot, rot, 0, () => {
       updateDateFromKin();
-
       animating = false;
-
       render();
     });
 
   } else {
 
-    let from = pts[prevPos];
-    let to = pts[pos];
-
-    animateMove(from,to,300,()=>{
-
+    animateMove(pts[prevPos], pts[pos], 300, () => {
       updateDateFromKin();
-
       animating = false;
-
       render();
     });
   }
 
   render();
 }
-
 
 
 // ===== MOVE =====

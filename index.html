@@ -223,27 +223,30 @@
        width="440"
        height="440"/>
 
+<g id="kingWenRing"></g>
+<g id="hexagramRing"></g>
+
 <!-- ===== ROTATIE GROEP ===== -->
 
 <g id="rotGroup">
 
-  <polygon points="0,250 -57,76 58,76"
+  <polygon id="greenPoint" points="0,250 -57,76 58,76"
            fill="green"
            opacity="0.65"/>
 
-  <polygon points="-238,77 -91,-30 -57,76"
+  <polygon id="redPoint" points="-238,77 -91,-30 -57,76"
            fill="red"
            opacity="0.65"/>
 
-  <polygon points="-147,-202 -91,-30 -1,-95"
+  <polygon id="whitePoint" points="-147,-202 -91,-30 0,-95"
            fill="white"
            opacity="0.65"/>
 
-  <polygon points="147,-202 91,-29 -1,-95"
+  <polygon id="bluePoint" points="147,-202 91,-29 0,-95"
            fill="blue"
            opacity="0.65"/>
 
-  <polygon points="238,77 55,78 91,-29"
+  <polygon id="yellowPoint" points="238,77 58,76 91,-29"
            fill="yellow"
            opacity="0.65"/>
 
@@ -260,34 +263,34 @@
 
   <!-- ===== ZINTUIGEN ===== -->
 
-  <image href="other/touch.svg"
+  <image id="touch" href="other/touch.svg"
          x="-30"
          y="100"
          width="60"
          height="60"/>
 
-  <image href="other/smell.svg"
+  <image id="smell" href="other/smell.svg"
          x="-135"
          y="30"
          width="60"
          height="60"
          transform="rotate(71 -100 40)"/>
 
-  <image href="other/sight.svg"
+  <image id="sight" href="other/sight.svg"
          x="-233"
          y="115"
          width="60"
          height="60"
          transform="rotate(144 -100 40)"/>
 
-  <image href="other/hear.svg"
+  <image id="hear" href="other/hear.svg"
          x="-189"
          y="230"
          width="60"
          height="60"
          transform="rotate(-145 -100 40)"/>
 
-  <image href="other/taste.svg"
+  <image id="taste" href="other/taste.svg"
          x="-60"
          y="225"
          width="60"
@@ -295,12 +298,13 @@
          transform="rotate(-72 -100 40)"/>
 
   <!-- ===== PENTAGRAM ===== -->
-
+<g id="pentagramLines">
   <path d="M 0 250 L -147 -202 L 238 77 L -238 77 L 147 -202 Z"
         fill="none"
         stroke="black"
+        opacity="0"
         stroke-width="2"/>
-
+</g>
   <!-- ===== STIP ===== -->
 
   <circle id="dot"
@@ -383,8 +387,6 @@
 
 <!-- ===== RING ===== -->
 
-<g id="kingWenRing"></g>
-<g id="hexagramRing"></g>
 <g id="ringSegments"></g>
 <g id="hoverLayer"></g>
 <g id="ringAnimals"></g>

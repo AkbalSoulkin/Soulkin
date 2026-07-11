@@ -1,6 +1,56 @@
 // ===== RENDER =====
 function render(){
 
+  const ROOT_OFFSET = Number(
+    daysFromCivil(-17264374702, 11, 14) -
+    daysFromCivil(1982, 8, 22)
+  );
+
+
+
+  const rootStage =
+    dayOffset - ROOT_OFFSET + 5;
+
+  const rootItems = [
+    ["redPoint", "smell"],     // 10/11
+    ["bluePoint", "hear"],     // 11/11
+    ["greenPoint", "touch"],   // 12/11
+    ["whitePoint", "sight"],   // 13/11
+    ["yellowPoint", "taste"]   // 14/11
+  ];
+
+  rootItems.forEach((pair, i) => {
+
+    const point =
+      document.getElementById(pair[0]);
+
+    const sense =
+      document.getElementById(pair[1]);
+
+    if(!point || !sense) return;
+
+
+    if(rootStage <= 0){
+
+      point.setAttribute("opacity", "0");
+      sense.setAttribute("opacity", "0");
+
+    } else if(rootStage >= 1 && rootStage <= 5){
+
+      const visible =
+        i < rootStage;
+
+      point.setAttribute("opacity", visible ? "0.65" : "0");
+      sense.setAttribute("opacity", visible ? "1" : "0");
+
+    } else {
+
+      point.setAttribute("opacity", "0.65");
+      sense.setAttribute("opacity", "1");
+    }
+
+  });
+
   let [x,y] = pts[pos];
 
   document.getElementById("dot")
@@ -21,14 +71,18 @@ function render(){
       `tones/tone${tone}.svg`
     );
 
-const toneSymbol =
-  document.getElementById("toneSymbol");
+  const toneSymbol =
+    document.getElementById("toneSymbol");
 
-if(beforeOrAtRoot || night === 1){
-  toneSymbol.setAttribute("opacity","0");
-} else {
-  toneSymbol.setAttribute("opacity","1");
+  if(beforeOrAtRoot || night === 1){
+    toneSymbol.setAttribute("opacity","0");
+  } else {
+    toneSymbol.setAttribute("opacity","1");
+  }
+
 }
+
+
 
 function updateActivePage(){
 

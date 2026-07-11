@@ -50,7 +50,7 @@ let ringKin = 0;
 
 let beforeOrAtRoot = false;
 
-
+let dotVisible = true;
 
 const languages = {
 
@@ -146,6 +146,9 @@ function updateFromKin(){
     daysFromCivil(1982, 8, 22)
   );
 
+const ROOT_ROT =
+  cycle[159].rot; // 4 Ahau / 5 Imix wavespell-rotatie
+
   beforeOrAtRoot =
     dayOffset <= ROOT_OFFSET;
 
@@ -157,7 +160,12 @@ function updateFromKin(){
     night = 5;
 
     mechanismKin = 259;
-    ringKin = 159; 
+    ringKin = 159;
+    pos = 0;
+    rot = ROOT_ROT;
+    dotVisible = false;
+
+    return;
   }
 
   const specialIndex =
@@ -166,11 +174,11 @@ function updateFromKin(){
   if(specialIndex >= 0 && specialIndex <= 4){
 
     const special = [
-      {tone:13, seal:19, night:5, mechanismKin:259, ringKin:159}, // 10 nov
-      {tone:1,  seal:4,  night:6, mechanismKin:104, ringKin:159}, // 11 nov = 1 Chicchan
-      {tone:2,  seal:9,  night:7, mechanismKin:209, ringKin:159}, // 12 nov = 2 Oc
-      {tone:3,  seal:14, night:8, mechanismKin:54,  ringKin:159},  // 13 nov = 3 Men
-      {tone:4,  seal:19, night:9, mechanismKin:159, ringKin:159}  // 14 nov = 4 Ahau
+      {tone:13, seal:19, night:5, mechanismKin:259, ringKin:159, dot:false}, // 10 nov
+      {tone:1,  seal:4,  night:6, mechanismKin:156, ringKin:159, dot:true},
+      {tone:2,  seal:9,  night:7, mechanismKin:157, ringKin:159, dot:true},
+      {tone:3,  seal:14, night:8, mechanismKin:158, ringKin:159, dot:true},
+      {tone:4,  seal:19, night:9, mechanismKin:159, ringKin:159, dot:true}
     ][specialIndex];
 
     tone = special.tone;
@@ -178,8 +186,13 @@ function updateFromKin(){
     night = special.night;
     mechanismKin = special.mechanismKin;
     ringKin = special.ringKin;
-  }
+    pos = cycle[mechanismKin].pos;
+    rot = ROOT_ROT;
+    dotVisible = special.dot;
 
+    return;
+  }
+  dotVisible = true;
   pos = cycle[mechanismKin].pos;
   rot = cycle[mechanismKin].rot;
 }
@@ -590,6 +603,17 @@ function render(){
       `translate(${x},${y})`
     );
 
+const dot =
+  document.getElementById("dot");
+
+const dotColor =
+  tone % 2 === 1
+    ? "white"
+    : "black";
+
+dot.setAttribute("fill", dotColor);
+dot.setAttribute("fill-opacity", "1");
+
   document.getElementById("rotGroup")
     .setAttribute(
       "transform",
@@ -604,6 +628,9 @@ function render(){
 
 const toneSymbol =
   document.getElementById("toneSymbol");
+
+document.getElementById("dot")
+  .setAttribute("opacity", dotVisible ? "1" : "0");
 
 if(beforeOrAtRoot || night === 1){
   toneSymbol.setAttribute("opacity","0");
@@ -700,8 +727,8 @@ let heartScale = 1;
 const superHeart =
   tone === 13 &&
   night === 5 &&
-  seal === 19;
-
+  seal === 19 &&
+  !beforeOrAtRoot;
 
 const specialHeart =
   tone === 13 &&
@@ -762,7 +789,7 @@ document.getElementById("HeartChakra")
 
 // ===== I-CHING ZICHTBAAR =====
 
-if(beforeOrAtRoot || night === 1){
+if(beforeOrAtRoot || night === 1 || superHeart || specialHeart){
   document.getElementById("iChing")
     .setAttribute("opacity","0");
 } else {
@@ -824,8 +851,6 @@ const letters = [
 ];
 
 
-
-
 letters.forEach((id, i) => {
 
   let pt = dirPoints[(i + shift) % 4];
@@ -846,14 +871,82 @@ letters.forEach((id, i) => {
     .setAttribute("stroke-width","4");
 
   // kasteel kleur
-  let castle = Math.floor(kin / 52);
+let castle = Math.floor(kin / 52);
+let castleFill = castleColors[castle];
 
-  document.getElementById("castleCore")
-    .setAttribute(
-      "fill",
-      castleColors[castle]
-    );
+const ROOT_OFFSET = Number(
+  daysFromCivil(-17264374702, 11, 14) -
+  daysFromCivil(1982, 8, 22)
+);
 
+const rootCastleIndex =
+  dayOffset - ROOT_OFFSET + 5;
+
+if(rootCastleIndex < 0){
+  castleFill = "transparent";
+}
+
+if(rootCastleIndex >= 0 && rootCastleIndex <= 4){
+  const rootCastleColors = [
+    "transparent", // 9/11 en eerder
+    "red",         // 10/11
+    "blue",        // 11/11
+    "green",       // 12/11
+    "white"        // 13/11
+  ];
+
+  castleFill = rootCastleColors[rootCastleIndex];
+}
+
+document.getElementById("castleCore")
+  .setAttribute("fill", castleFill);
+
+const rootStage =
+  dayOffset - ROOT_OFFSET + 5;
+
+const rootItems = [
+  ["redPoint", "smell"],     // 10/11
+  ["bluePoint", "hear"],     // 11/11
+  ["greenPoint", "touch"],   // 12/11
+  ["whitePoint", "sight"],   // 13/11
+  ["yellowPoint", "taste"]   // 14/11
+];
+
+rootItems.forEach((pair, i) => {
+
+  const point =
+    document.getElementById(pair[0]);
+
+  const sense =
+    document.getElementById(pair[1]);
+
+  if(!point || !sense){
+    return;
+  }
+
+  let visible = false;
+
+  // 10/11 t/m 14/11:
+  // iedere nieuwe dag blijft alles van daarvoor zichtbaar
+  if(rootStage >= 1 && rootStage <= 5){
+    visible = i < rootStage;
+  }
+
+  // vanaf 15/11 alles normaal zichtbaar
+  if(rootStage > 5){
+    visible = true;
+  }
+
+  point.setAttribute(
+    "opacity",
+    visible ? "0.65" : "0"
+  );
+
+  sense.setAttribute(
+    "opacity",
+    visible ? "1" : "0"
+  );
+});
 
 document.getElementById("info").innerHTML = `
 <tspan x="-90" dy="0">
@@ -932,7 +1025,11 @@ const superTun =
   lcUinal === 0 &&
   lcKin === 0;
 
-if(superTun){
+if(beforeOrAtRoot){
+
+  tunChakra.setAttribute("opacity","0");
+
+} else if(superTun){
 
   tunChakra.setAttribute("opacity","1");
   tunChakra.setAttribute(
@@ -1531,7 +1628,6 @@ function step(){
 
   render();
 }
-
 
 
 // ===== MOVE =====
