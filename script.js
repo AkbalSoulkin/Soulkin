@@ -787,6 +787,21 @@ const dirPoints = [
   [-235, 10]    // links
 ];
 
+const showDirections =
+  rootStage > 0;
+
+["letterB","letterD","letterP","letterQ"]
+  .forEach(id => {
+
+    document
+      .getElementById(id)
+      .setAttribute(
+        "opacity",
+        showDirections ? "1" : "0"
+      );
+
+});
+
 // alleen 4 standen
 let shift = Math.floor(mechanismKin / 13) % 4;
 
