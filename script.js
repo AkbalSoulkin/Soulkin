@@ -25,32 +25,31 @@ for(let k=0;k<260;k++){
 
 // ===== STATE =====
 let language = "en";
-
 let lang = lang_en;
-
-let hexState = 1;
 let kin = 0;
 let dayOffset = 0;
-
 let tone = 1;
 let seal = 0;
 let night = 1;
-
 let pos = 0;
 let rot = 0;
-
 let guideSeal = 0;
-
 let animating = false;
-
 let activePage = "intro";
-
 let mechanismKin = 0;
 let ringKin = 0;
-
 let beforeOrAtRoot = false;
-
 let dotVisible = true;
+
+const rootImages = [
+  "animals/13Ahau.svg",
+  "animals/13Chicchan.svg",
+  "animals/13Oc.svg",
+  "animals/13Men.svg"
+];
+
+const img =
+  rootImages[kin % 4];
 
 const languages = {
 
@@ -76,7 +75,6 @@ updateLanguage();
 };
 
 
-
 const pageSets = {
   en: {
     muladhara: muladharaPages_en,
@@ -86,8 +84,6 @@ const pageSets = {
     vishuddha: vishuddhaPages_en,
     ajna: ajnaPages_en,
     sahasrara: sahasraraPages_en,
-    hexagramStates: hexagramStatePages_en,
-    kingWen: kingWenPages_en
   },
 
   nl: {
@@ -98,8 +94,6 @@ const pageSets = {
     vishuddha: vishuddhaPages_nl,
     ajna: ajnaPages_nl,
     sahasrara: sahasraraPages_nl,
-    hexagramStates: hexagramStatePages_nl,
-    kingWen: kingWenPages_nl
   },
 
   jp: {
@@ -110,8 +104,6 @@ const pageSets = {
     vishuddha: vishuddhaPages_jp,
     ajna: ajnaPages_jp,
     sahasrara: sahasraraPages_jp,
-    hexagramStates: hexagramStatePages_jp,
-    kingWen: kingWenPages_jp
   },
 
   ru: {
@@ -122,11 +114,8 @@ const pageSets = {
     vishuddha: vishuddhaPages_ru,
     ajna: ajnaPages_ru,
     sahasrara: sahasraraPages_ru,
-    hexagramStates: hexagramStatePages_ru,
-    kingWen: kingWenPages_ru
   }
 };
-
 
 let pages = pageSets.en;
 
@@ -320,11 +309,8 @@ const ringSegments =
 const ringAnimals =
   document.getElementById("ringAnimals");
 
-const hexagramRing =
-  document.getElementById("hexagramRing");
-
-const kingWenRing =
-  document.getElementById("kingWenRing");
+const rootRing1 =
+  document.getElementById("rootRing1");
 
 const segments = [];
 const hoverPath = document.createElementNS(
@@ -452,24 +438,38 @@ for(let i=0;i<20;i++){
   ringAnimals.appendChild(img);
 }
 
-// ===== HEXAGRAM RING =====
 
-const hexagrams = [];
+// ===== SOULKIN ONDERSTE FRACTALRING =====
 
-for(let i=0;i<64;i++){
+const rootFractalFiles = [
+  "animals/13Ahau.svg",       // 00
+  "animals/13Chicchan.svg",   // 01
+  "animals/13Oc.svg",         // 11
+  "animals/13Men.svg"         // 10
+];
 
-  let angle =
+const rootRing1Items = [];
+
+for(let i = 0; i < 64; i++){
+
+  const angle =
     -i * (360 / 64) + 90;
 
-  let radius = 245;
+  const radius = 250;
 
-  let x =
+  const x =
     Math.cos(angle * Math.PI / 180) * radius;
 
-  let y =
+  const y =
     Math.sin(angle * Math.PI / 180) * radius;
 
-  let img =
+
+const fractalOrder = [2, 1, 0, 3];
+
+const fractalIndex =
+  fractalOrder[i % 4];
+
+  const img =
     document.createElementNS(
       "http://www.w3.org/2000/svg",
       "image"
@@ -477,85 +477,27 @@ for(let i=0;i<64;i++){
 
   img.setAttribute(
     "href",
-    `hexagrams/h${i + 1}.svg`
+    rootFractalFiles[fractalIndex]
   );
 
-  img.setAttribute("width",22);
-  img.setAttribute("height",22);
+  img.setAttribute("width", "24");
+  img.setAttribute("height", "24");
 
-  img.setAttribute("x",-11);
-  img.setAttribute("y",-11);
+  img.setAttribute("x", "-12");
+  img.setAttribute("y", "-12");
 
   img.setAttribute(
     "transform",
     `
     translate(${x},${y})
-    rotate(${angle - 90})
+    rotate(${angle + 90})
     `
   );
 
-  hexagramRing.appendChild(img);
+  img.setAttribute("opacity", "1");
 
-  hexagrams.push(img);
-}
-
-function isHexagramGate(k){
-
-  let t =
-    (k % 13) + 1;
-
-  let s =
-    k % 20;
-
-  return (
-    t === 13 &&
-    [4,9,14,19].includes(s)
-  );
-}
-
-const kingWenHexagrams = [];
-
-for(let i=0;i<64;i++){
-
-  let angle =
-    -i * (360 / 64) + 90;
-
-  let radius = 225;
-
-  let x =
-    Math.cos(angle * Math.PI / 180) * radius;
-
-  let y =
-    Math.sin(angle * Math.PI / 180) * radius;
-
-  let img =
-    document.createElementNS(
-      "http://www.w3.org/2000/svg",
-      "image"
-    );
-
-  img.setAttribute(
-    "href",
-    `hexagrams/h${kingWenOrder[i]}.svg`
-  );
-
-  img.setAttribute("width",16);
-  img.setAttribute("height",16);
-
-  img.setAttribute("x",-8);
-  img.setAttribute("y",-8);
-
-  img.setAttribute(
-    "transform",
-    `
-    translate(${x},${y})
-    rotate(${angle - 90})
-    `
-  );
-
-  kingWenRing.appendChild(img);
-
-  kingWenHexagrams.push(img);
+  rootRing1.appendChild(img);
+  rootRing1Items.push(img);
 }
 
 window.updateLanguage = function(){
@@ -602,6 +544,68 @@ function render(){
 
   const rootStage =
     dayOffset - ROOT_OFFSET + 5;
+
+const rootYin =
+  document.getElementById("rootYin");
+
+const rootYang =
+  document.getElementById("rootYang");
+
+const showRootPair =
+  rootStage === 1; // 10/11
+
+rootYin.setAttribute(
+  "opacity",
+  showRootPair ? "1" : "0"
+);
+
+rootYang.setAttribute(
+  "opacity",
+  showRootPair ? "1" : "0"
+);
+
+// ===== ONDERSTE FRACTALRING ZICHTBAARHEID =====
+
+// De echte ring blijft verborgen tot 15/11.
+const showCompleteRootRing =
+  rootStage > 5;
+
+rootRing1Items.forEach(item => {
+  item.setAttribute(
+    "opacity",
+    showCompleteRootRing ? "1" : "0"
+  );
+});
+
+// ===== VIER VASTE ROOT FRACTALS =====
+
+const rootFractalPreview = [
+  document.getElementById("rootChicchan"), // 11/11
+  document.getElementById("rootOc"),       // 12/11
+  document.getElementById("rootMen"),      // 13/11
+  document.getElementById("rootAhau")      // 14/11
+];
+
+const showRootFractalPreview =
+  rootStage >= 2 &&
+  rootStage <= 5;
+
+rootFractalPreview.forEach((item, index) => {
+
+  if(!showRootFractalPreview){
+
+    item.setAttribute("opacity", "0");
+    return;
+  }
+
+  const activeIndex =
+    rootStage - 2;
+
+  item.setAttribute(
+    "opacity",
+    index === activeIndex ? "1" : "0.3"
+  );
+});
 
   let [x,y] = pts[pos];
 
@@ -652,53 +656,20 @@ ringSegments.setAttribute("transform", `rotate(${ringSeal * 18})`);
 hoverLayer.setAttribute("transform", `rotate(${ringSeal * 18})`);
 ringAnimals.setAttribute("transform", `rotate(${ringSeal * 18})`);
 
+const ROOT_RING_STEP =
+  360 / 64;
+
+const rootRing1Angle =
+  (mechanismKin - 1) * ROOT_RING_STEP;
+
+rootRing1.setAttribute(
+  "transform",
+  `rotate(${rootRing1Angle})`
+);
 
 let sacredAlignment =
   night === 1 &&
   sacredSeals.includes(seal);
-
-
-// ===== HEXAGRAM CYCLUS =====
-
-if(isHexagramGate(kin)){
-
-  hexState = 0;
-
-  hexagramRing.setAttribute("opacity","0");
-  kingWenRing.setAttribute("opacity","0");
-
-} else {
-
-  hexagramRing.setAttribute("opacity","1");
-  kingWenRing.setAttribute("opacity","1");
-
-  let hexStep = 0;
-
-  let tempKin = kin;
-
-  while(!isHexagramGate(tempKin)){
-
-    hexStep++;
-
-    tempKin =
-      (tempKin - 1 + 260) % 260;
-  }
-
-  hexState = hexStep;
-
-  let hexRotation =
-    (hexStep - 1) * (360 / 64);
-
-  hexagramRing.setAttribute(
-    "transform",
-    `rotate(${hexRotation})`
-  );
-
-  kingWenRing.setAttribute(
-    "transform",
-    `rotate(${hexRotation})`
-  );
-}
 
 // ===== I-CHING ROTATIE =====
 
@@ -821,14 +792,31 @@ let shift = Math.floor(mechanismKin / 13) % 4;
 
 let yinAngle = (mechanismKin % 52) * (360 / 52);
 
-document.getElementById("yinYang")
-  .setAttribute(
-    "transform",
-    `
-    rotate(${yinAngle - 352})
-    scale(1.2)
-    `
-  );
+const yinYang =
+  document.getElementById("yinYang");
+
+// Eenmalig de normale opacity bewaren
+if(!yinYang.dataset.normalOpacity){
+  yinYang.dataset.normalOpacity =
+    yinYang.getAttribute("opacity") ?? "1";
+}
+
+yinYang.setAttribute(
+  "transform",
+  `
+  rotate(${yinAngle - 352})
+  scale(1.2)
+  `
+);
+
+// 9/11 en alles ervoor: volledig zichtbaar.
+// Vanaf 10/11: oorspronkelijke opacity herstellen.
+yinYang.setAttribute(
+  "opacity",
+  rootStage <= 0
+    ? "1"
+    : yinYang.dataset.normalOpacity
+);
 
 
 // ===== BACKGROUND ROTATIE =====
@@ -1375,17 +1363,9 @@ function updateActivePage(){
 
     title.classList.remove("chakraTitle");
 
-    let kingWenText = "";
-
-    if(hexState >= 1 && hexState <= 64){
-
-      kingWenText =
-        `<hr>` + pages.kingWen[hexState];
-    }
-
     content.innerHTML =
-      pages.muladhara[tone] +
-      kingWenText;
+      pages.muladhara[tone];
+
   }
 
   if(activePage === "sahasrara"){
@@ -1401,27 +1381,19 @@ function updateActivePage(){
       pages.sahasrara[night];
   }
 
-  if(activePage === "anahata"){
+if(activePage === "anahata"){
 
-    panel.style.background =
-      "rgba(0,128,0,0.25)";
+  panel.style.background =
+    "rgba(0,128,0,0.25)";
 
-    title.innerHTML = lang.anahata;
+  title.innerHTML =
+    lang.anahata;
 
-    title.classList.remove("chakraTitle");
+  title.classList.remove("chakraTitle");
 
-    let rootStateText = "";
-
-    if(hexState >= 1 && hexState <= 64){
-
-      rootStateText =
-        `<hr>` + pages.hexagramStates[hexState];
-    }
-
-    content.innerHTML =
-      pages.anahata[seal + 1] +
-      rootStateText;
-    }
+  content.innerHTML =
+    pages.anahata[seal + 1];
+}
 
   if(activePage === "vishuddha"){
 

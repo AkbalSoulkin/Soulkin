@@ -1,6 +1,4 @@
 // ===== RENDER =====
-
-
 function updateActivePage(){
 
   const panel =
@@ -41,17 +39,8 @@ function updateActivePage(){
 
     title.classList.remove("chakraTitle");
 
-    let kingWenText = "";
-
-    if(hexState >= 1 && hexState <= 64){
-
-      kingWenText =
-        `<hr>` + pages.kingWen[hexState];
-    }
-
     content.innerHTML =
-      pages.muladhara[tone] +
-      kingWenText;
+      pages.muladhara[tone]
   }
 
   if(activePage === "sahasrara"){
@@ -67,26 +56,18 @@ function updateActivePage(){
       pages.sahasrara[night];
   }
 
-  if(activePage === "anahata"){
+if(activePage === "anahata"){
 
-    panel.style.background =
-      "rgba(0,128,0,0.25)";
+  panel.style.background =
+    "rgba(0,128,0,0.25)";
 
-    title.innerHTML = lang.anahata;
+  title.innerHTML =
+    lang.anahata;
 
-    title.classList.remove("chakraTitle");
-
-    let rootStateText = "";
-
-    if(hexState >= 1 && hexState <= 64){
-
-      rootStateText =
-        `<hr>` + pages.hexagramStates[hexState];
-    }
+  title.classList.remove("chakraTitle");
 
     content.innerHTML =
-      pages.anahata[seal + 1] +
-      rootStateText;
+      pages.anahata[seal + 1]
     }
 
   if(activePage === "vishuddha"){
