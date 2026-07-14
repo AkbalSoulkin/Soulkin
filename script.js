@@ -312,6 +312,12 @@ const ringAnimals =
 const rootRing1 =
   document.getElementById("rootRing1");
 
+const rootRing2 =
+  document.getElementById("rootRing2");
+
+const rootRing3 =
+  document.getElementById("rootRing3");
+
 const segments = [];
 const hoverPath = document.createElementNS(
   "http://www.w3.org/2000/svg",
@@ -450,12 +456,12 @@ const rootFractalFiles = [
 
 const rootRing1Items = [];
 
-for(let i = 0; i < 64; i++){
+for(let i = 0; i < 16; i++){
 
   const angle =
-    -i * (360 / 64) + 90;
+    -i * (360 / 16) + 90;
 
-  const radius = 250;
+  const radius = 225;
 
   const x =
     Math.cos(angle * Math.PI / 180) * radius;
@@ -490,7 +496,7 @@ const fractalIndex =
     "transform",
     `
     translate(${x},${y})
-    rotate(${angle + 90})
+    rotate(${angle + 270})
     `
   );
 
@@ -498,6 +504,131 @@ const fractalIndex =
 
   rootRing1.appendChild(img);
   rootRing1Items.push(img);
+}
+
+
+// ===== SOULKIN MIDDELSTE FRACTALRING =====
+
+const rootRing2Items = [];
+
+const rootRing2Files = [
+  "animals/13Ahau.svg",       // 00
+  "animals/13Chicchan.svg",   // 01
+  "animals/13Oc.svg",         // 11
+  "animals/13Men.svg"         // 10
+];
+
+for(let i = 0; i < 32; i++){
+
+  const angle =
+    -i * (360 / 32) + 90;
+  const radius = 238;
+
+  const x =
+    Math.cos(angle * Math.PI / 180) * radius;
+
+  const y =
+    Math.sin(angle * Math.PI / 180) * radius;
+
+  // Vier groepen van acht.
+  const fractalIndex =
+    Math.floor(i / 8);
+
+  const img =
+    document.createElementNS(
+      "http://www.w3.org/2000/svg",
+      "image"
+    );
+
+  img.setAttribute(
+    "href",
+    rootRing2Files[fractalIndex]
+  );
+
+  img.setAttribute("width", "24");
+  img.setAttribute("height", "24");
+
+  img.setAttribute("x", "-12");
+  img.setAttribute("y", "-12");
+
+  img.setAttribute(
+    "transform",
+    `
+    translate(${x},${y})
+    rotate(${angle + 90})
+    `
+  );
+
+  img.setAttribute("opacity", "1");
+
+  rootRing2.appendChild(img);
+  rootRing2Items.push(img);
+}
+
+
+// ===== SOULKIN BUITENSTE FRACTALRING =====
+
+const rootRing3Items = [];
+
+// De vier blokken van elk zestien posities.
+const rootRing3Files = [
+  "animals/13Ahau.svg",
+  "animals/13Men.svg",  
+  "animals/13Oc.svg",
+  "animals/13Chicchan.svg"
+];
+
+for(let i = 0; i < 64; i++){
+
+  const angle =
+    -i * (360 / 64) + 90;
+
+  // Tijdelijke waarde:
+  // maak deze groter dan de radius van rootRing1.
+  const radius = 251;
+
+  const x =
+    Math.cos(angle * Math.PI / 180) * radius;
+
+  const y =
+    Math.sin(angle * Math.PI / 180) * radius;
+
+  // 0–15   = Men
+  // 16–31  = Ahau
+  // 32–47  = Chicchan
+  // 48–63  = Oc
+  const fractalIndex =
+    Math.floor(i / 16);
+
+  const img =
+    document.createElementNS(
+      "http://www.w3.org/2000/svg",
+      "image"
+    );
+
+  img.setAttribute(
+    "href",
+    rootRing3Files[fractalIndex]
+  );
+
+  img.setAttribute("width", "24");
+  img.setAttribute("height", "24");
+
+  img.setAttribute("x", "-12");
+  img.setAttribute("y", "-12");
+
+  img.setAttribute(
+    "transform",
+    `
+    translate(${x},${y})
+    rotate(${angle + 270})
+    `
+  );
+
+  img.setAttribute("opacity", "0");
+
+  rootRing3.appendChild(img);
+  rootRing3Items.push(img);
 }
 
 window.updateLanguage = function(){
@@ -657,7 +788,7 @@ hoverLayer.setAttribute("transform", `rotate(${ringSeal * 18})`);
 ringAnimals.setAttribute("transform", `rotate(${ringSeal * 18})`);
 
 const ROOT_RING_STEP =
-  360 / 64;
+  360 / 16;
 
 const rootRing1Angle =
   (mechanismKin - 1) * ROOT_RING_STEP;
@@ -666,6 +797,135 @@ rootRing1.setAttribute(
   "transform",
   `rotate(${rootRing1Angle})`
 );
+
+// ===== MIDDELSTE SOULKIN-RING =====
+
+const ROOT_RING2_STEP =
+  360 / 32;
+
+const ROOT_RING2_START = Number(
+  daysFromCivil(-17264374702, 12, 19) -
+  daysFromCivil(1982, 8, 22)
+);
+
+const ROOT_RING2_OFFSET = 10;
+
+const rootRing2Position =
+(
+  (
+    (dayOffset - ROOT_RING2_START)
+    + ROOT_RING2_OFFSET
+  ) % 32
+  + 32
+) % 32;
+
+const rootRing2Angle =
+  rootRing2Position *
+  ROOT_RING2_STEP;
+
+rootRing2.setAttribute(
+  "transform",
+  `rotate(${rootRing2Angle})`
+);
+
+// ===== MIDDELSTE RING ONTVOUWING =====
+
+// 15/11 is de eerste dag waarop één fractal verschijnt.
+const ROOT_RING2_REVEAL_START = Number(
+  daysFromCivil(-17264374702, 11, 15) -
+  daysFromCivil(1982, 8, 22)
+);
+
+const rootRing2RevealDay =
+  dayOffset - ROOT_RING2_REVEAL_START;
+
+// 15/11 = 1 zichtbaar.
+// Daarna iedere dag één extra, tot maximaal 32.
+const rootRing2VisibleCount =
+  Math.max(
+    0,
+    Math.min(32, rootRing2RevealDay + 1)
+  );
+
+// Eerst alle 32 verbergen.
+rootRing2Items.forEach(item => {
+  item.setAttribute("opacity", "0");
+});
+
+// De eerste zichtbare positie volgt dezelfde uitlijning
+// als de reeds synchroon gezette ring.
+const rootRing2FirstPosition =
+  ((ROOT_RING2_OFFSET % 32) + 32) % 32;
+
+// Vanaf 15/11 iedere dag één volgende positie zichtbaar maken.
+for(let step = 0; step < rootRing2VisibleCount; step++){
+
+  const index =
+    (rootRing2FirstPosition + step) % 32;
+
+  rootRing2Items[index]
+    .setAttribute("opacity", "1");
+}
+
+// ===== BUITENSTE SOULKIN-RING =====
+
+const ROOT_RING3_STEP =
+  360 / 64;
+
+const ROOT_RING3_START = Number(
+  daysFromCivil(-17264374702, 12, 19) -
+  daysFromCivil(1982, 8, 22)
+);
+
+const ROOT_RING3_OFFSET = 15;
+
+const rootRing3Position =
+  (
+    (dayOffset - ROOT_RING3_START + ROOT_RING3_OFFSET) % 64
+    + 64
+  ) % 64;
+const rootRing3Angle =
+  rootRing3Position * ROOT_RING3_STEP;
+
+rootRing3.setAttribute(
+  "transform",
+  `rotate(${rootRing3Angle})`
+);
+
+// ===== BUITENSTE RING ONTVOUWING =====
+
+// 13 Men zelf = dag 0.
+// 1 Cib = dag 1 en toont het eerste onderdeel.
+const rootRing3RevealDay =
+  dayOffset - ROOT_RING3_START;
+
+// 0 vóór en op 13 Men.
+// Daarna iedere dag één extra, tot maximaal 64.
+const rootRing3VisibleCount =
+  Math.max(
+    0,
+    Math.min(64, rootRing3RevealDay)
+  );
+
+// Eerst alles verbergen.
+rootRing3Items.forEach(item => {
+  item.setAttribute("opacity", "0");
+});
+
+// Positie die op 1 Cib actief is.
+// Gebruikt dezelfde offset als de synchronisatie van de ring.
+const rootRing3FirstPosition =
+  ((1 + ROOT_RING3_OFFSET) % 64 + 64) % 64;
+
+// Toon alle posities die sinds 1 Cib voorbijgekomen zijn.
+for(let step = 0; step < rootRing3VisibleCount; step++){
+
+  const index =
+    (rootRing3FirstPosition + step) % 64;
+
+  rootRing3Items[index]
+    .setAttribute("opacity", "1");
+}
 
 let sacredAlignment =
   night === 1 &&
