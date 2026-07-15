@@ -456,10 +456,10 @@ const rootFractalFiles = [
 
 const rootRing1Items = [];
 
-for(let i = 0; i < 16; i++){
+for(let i = 0; i < 4; i++){
 
   const angle =
-    -i * (360 / 16) + 90;
+    -i * (360 / 4) + 90;
 
   const radius = 225;
 
@@ -518,10 +518,10 @@ const rootRing2Files = [
   "animals/13Men.svg"         // 10
 ];
 
-for(let i = 0; i < 32; i++){
+for(let i = 0; i < 16; i++){
 
   const angle =
-    -i * (360 / 32) + 90;
+    -i * (360 / 16) + 90;
   const radius = 238;
 
   const x =
@@ -532,7 +532,7 @@ for(let i = 0; i < 32; i++){
 
   // Vier groepen van acht.
   const fractalIndex =
-    Math.floor(i / 8);
+    Math.floor(i / 4);
 
   const img =
     document.createElementNS(
@@ -695,17 +695,31 @@ rootYang.setAttribute(
   showRootPair ? "1" : "0"
 );
 
-// ===== ONDERSTE FRACTALRING ZICHTBAARHEID =====
+// ===== BINNENSTE 4-RING ONTVOUWING =====
 
-// De echte ring blijft verborgen tot 15/11.
-const showCompleteRootRing =
-  rootStage > 5;
+// 10/11 en eerder: niets.
+// 11/11: 1 positie.
+// 12/11: 2 posities.
+// 13/11: 3 posities.
+// 14/11 en verder: alle 4 posities.
+const rootRing1VisibleCount =
+  Math.max(
+    0,
+    Math.min(4, rootStage - 1)
+  );
 
-rootRing1Items.forEach(item => {
+const ROOT_RING1_REVEAL_OFFSET = 1;
+
+rootRing1Items.forEach((item, index) => {
+
+  const revealIndex =
+    (index + ROOT_RING1_REVEAL_OFFSET) % 4;
+
   item.setAttribute(
     "opacity",
-    showCompleteRootRing ? "1" : "0"
+    revealIndex < rootRing1VisibleCount ? "1" : "0"
   );
+
 });
 
 // ===== VIER VASTE ROOT FRACTALS =====
@@ -788,7 +802,7 @@ hoverLayer.setAttribute("transform", `rotate(${ringSeal * 18})`);
 ringAnimals.setAttribute("transform", `rotate(${ringSeal * 18})`);
 
 const ROOT_RING_STEP =
-  360 / 16;
+  360 / 4;
 
 const rootRing1Angle =
   (mechanismKin - 1) * ROOT_RING_STEP;
@@ -801,23 +815,23 @@ rootRing1.setAttribute(
 // ===== MIDDELSTE SOULKIN-RING =====
 
 const ROOT_RING2_STEP =
-  360 / 32;
+  360 / 16;
 
 const ROOT_RING2_START = Number(
   daysFromCivil(-17264374702, 12, 19) -
   daysFromCivil(1982, 8, 22)
 );
 
-const ROOT_RING2_OFFSET = 10;
+const ROOT_RING2_OFFSET = 6;
 
 const rootRing2Position =
 (
   (
     (dayOffset - ROOT_RING2_START)
     + ROOT_RING2_OFFSET
-  ) % 32
-  + 32
-) % 32;
+  ) % 16
+  + 16
+) % 16;
 
 const rootRing2Angle =
   rootRing2Position *
@@ -844,7 +858,7 @@ const rootRing2RevealDay =
 const rootRing2VisibleCount =
   Math.max(
     0,
-    Math.min(32, rootRing2RevealDay + 1)
+    Math.min(16, rootRing2RevealDay + 1)
   );
 
 // Eerst alle 32 verbergen.
@@ -855,13 +869,13 @@ rootRing2Items.forEach(item => {
 // De eerste zichtbare positie volgt dezelfde uitlijning
 // als de reeds synchroon gezette ring.
 const rootRing2FirstPosition =
-  ((ROOT_RING2_OFFSET % 32) + 32) % 32;
+  ((ROOT_RING2_OFFSET - 2) % 16 + 16) % 16;
 
 // Vanaf 15/11 iedere dag één volgende positie zichtbaar maken.
 for(let step = 0; step < rootRing2VisibleCount; step++){
 
   const index =
-    (rootRing2FirstPosition + step) % 32;
+    (rootRing2FirstPosition + step) % 16;
 
   rootRing2Items[index]
     .setAttribute("opacity", "1");
@@ -1041,26 +1055,25 @@ if(beforeOrAtRoot || night === 1 || superHeart || specialHeart){
 
 // 4 vaste punten
 const dirPoints = [
-  [0, -219],     // boven
-  [235, 10],    // rechts
+  [0, -186],     // boven
+  [205, 10],    // rechts
   [0, 198],      // onder
-  [-235, 10]    // links
+  [-205, 10]    // links
 ];
 
-const showDirections =
-  rootStage > 0;
+const compactDirectionPoints = {
+  letterQ: [-11, -12],
+  letterP: [ 11, -12],
+  letterD: [-11,  32],
+  letterB: [ 11,  32]
+};
 
 ["letterB","letterD","letterP","letterQ"]
   .forEach(id => {
-
     document
       .getElementById(id)
-      .setAttribute(
-        "opacity",
-        showDirections ? "1" : "0"
-      );
-
-});
+      .setAttribute("opacity", "1");
+  });
 
 // alleen 4 standen
 let shift = Math.floor(mechanismKin / 13) % 4;
@@ -1140,30 +1153,45 @@ if(rootStage <= 0){
   background.setAttribute("opacity", "1");
 }
 
-// beginvolgorde:
-// q links
-// d rechts
-// b onder
-// p boven
 
 const letters = [
-  "letterP",
   "letterD",
+  "letterQ",
   "letterB",
-  "letterQ"
+  "letterP"
 ];
 
 
-letters.forEach((id, i) => {
+if(rootStage <= 0){
 
-  let pt = dirPoints[(i + shift) % 4];
+  // 9/11 en alles daarvoor:
+  // compacte gele-wavespellstand q p / d b
+  Object.entries(compactDirectionPoints)
+    .forEach(([id, point]) => {
 
-  document.getElementById(id)
-    .setAttribute("x", pt[0]);
+      document.getElementById(id)
+        .setAttribute("x", point[0]);
 
-  document.getElementById(id)
-    .setAttribute("y", pt[1]);
-});
+      document.getElementById(id)
+        .setAttribute("y", point[1]);
+    });
+
+} else {
+
+  // Vanaf 10/11:
+  // normale ontvouwde positie volgens de actuele wavespell
+  letters.forEach((id, i) => {
+
+    const point =
+      dirPoints[(i + shift) % 4];
+
+    document.getElementById(id)
+      .setAttribute("x", point[0]);
+
+    document.getElementById(id)
+      .setAttribute("y", point[1]);
+  });
+}
 
   // actieve kin
   segments.forEach(seg=>{
