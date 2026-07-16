@@ -887,7 +887,7 @@ const ROOT_RING3_STEP =
   360 / 64;
 
 const ROOT_RING3_START = Number(
-  daysFromCivil(-17264374702, 12, 19) -
+  daysFromCivil(-17264374702, 11, 30) -
   daysFromCivil(1982, 8, 22)
 );
 
