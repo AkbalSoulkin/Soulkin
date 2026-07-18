@@ -36,9 +36,8 @@ nightNames: [
   ajna: "Ajna",
   sahasrara: "Sahasrara",
 
-moon: "Moon",
-sun: "Sun",
-star: "Star",
+moon: "Night",
+sun: "Day",
 tone: "Tone",
 
 go: "Go",

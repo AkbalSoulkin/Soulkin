@@ -1,8 +1,7 @@
 const lang_jp = {
 
-moon: "月",
-sun: "太陽",
-star: "星",
+moon: "夜",
+sun: "昼",
 tone: "トーン",
 
 toneNames: [

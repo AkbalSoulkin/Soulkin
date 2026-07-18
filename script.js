@@ -338,6 +338,8 @@ document
   .getElementById("hoverLayer")
   .appendChild(hoverPath);
 
+
+
 for(let i=0;i<20;i++){
 
   let start = (-i * 18 + 90 + 9) * Math.PI/180;
@@ -443,6 +445,7 @@ for(let i=0;i<20;i++){
 
   ringAnimals.appendChild(img);
 }
+
 
 
 // ===== SOULKIN ONDERSTE FRACTALRING =====
@@ -986,7 +989,7 @@ const superHeart =
 const specialHeart =
   tone === 13 &&
   night === 1 &&
-  [4,9,14,19].includes(seal);
+  [19].includes(seal);
 
 if(superHeart){
 
@@ -1282,7 +1285,7 @@ ${lang.sun}: ${animals[seal]}
 </tspan>
 
 <tspan x="-90" dy="36">
-${lang.star}: ${lang.tone} ${tone} (${lang.toneNames[tone-1]})
+${lang.tone}: ${tone} (${lang.toneNames[tone-1]})
 </tspan>
 `;
 
