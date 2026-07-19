@@ -1007,6 +1007,8 @@ const visibleColorCount =
     Math.min(4, rootStage - 1)
   );
 
+
+
 segments.forEach((segment, index) => {
 
   const colorIndex = index % 4;
@@ -1014,11 +1016,31 @@ segments.forEach((segment, index) => {
   const colorIsVisible =
     colorIndex < visibleColorCount;
 
+  let segmentFill;
+
+  // Alle normaal witte vakken blijven wit.
+  if(colorIndex === 1){
+
+    segmentFill = "white";
+
+  // Alle normaal rode vakken zijn t/m 10/11 wit.
+  // Op 11/11 worden ze rood.
+  } else if(colorIndex === 0 && rootStage <= 1){
+
+    segmentFill = "white";
+
+  // De bestaande ontvouwingslogica blijft gelden.
+  } else {
+
+    segmentFill =
+      colorIsVisible
+        ? colors[colorIndex]
+        : "black";
+  }
+
   segment.setAttribute(
     "fill",
-    colorIsVisible
-      ? colors[colorIndex]
-      : "black"
+    segmentFill
   );
 });
 
