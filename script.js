@@ -41,6 +41,29 @@ let ringKin = 0;
 let beforeOrAtRoot = false;
 let dotVisible = true;
 
+const revealOrder = [
+  4,   // 11/11 Chicchan
+  9,   // 12/11 Oc
+  14,  // 13/11 Men
+  19,  // 14/11 Ahau
+  0,   // 15/11 Imix
+  1,   // 16/11 Ik
+  2,   // 17/11 Akbal
+  3,   // 18/11 Kan
+  5,   // 20/11 Cimi
+  6,   // 21/11 Manik
+  7,   // 22/11 Lamat
+  8,   // 23/11 Muluc
+  10,  // 25/11 Chuen
+  11,  // 26/11 Eb
+  12,  // 27/11 Ben
+  13,  // 28/11 Ix
+  15,  // 30/11 Cib
+  16,  // 1/12 Caban
+  17,  // 2/12 Etznab
+  18   // 3/12 Cauac
+];
+
 const rootImages = [
   "animals/13Ahau.svg",
   "animals/13Chicchan.svg",
@@ -236,7 +259,6 @@ function civilFromDays(z){
 }
 
 
-
 // ===== DATUM UPDATE =====
 function updateDateFromKin(){
 
@@ -338,7 +360,7 @@ document
   .getElementById("hoverLayer")
   .appendChild(hoverPath);
 
-
+const ringAnimalItems = [];
 
 for(let i=0;i<20;i++){
 
@@ -444,6 +466,7 @@ for(let i=0;i<20;i++){
   );
 
   ringAnimals.appendChild(img);
+  ringAnimalItems.push(img);
 }
 
 
@@ -509,33 +532,63 @@ const fractalIndex =
   rootRing1Items.push(img);
 }
 
+// ===== SOULKIN TWEEDE FRACTALRIJ: STATISCHE TEST =====
+//
+// 16 fractals totaal:
+// 4 × Chicchan
+// 4 × Oc
+// 4 × Men
+// 4 × Ahau
+//
+// Voorlopig:
+// - allemaal zichtbaar
+// - geen reveal
+// - geen groepsrotatie
 
-// ===== SOULKIN MIDDELSTE FRACTALRING =====
-
-const rootRing2Items = [];
+rootRing2.innerHTML = "";
 
 const rootRing2Files = [
-  "animals/13Ahau.svg",       // 00
-  "animals/13Chicchan.svg",   // 01
-  "animals/13Oc.svg",         // 11
-  "animals/13Men.svg"         // 10
+  // Vier Chicchan
+  "animals/13Men.svg",
+  "animals/13Men.svg",
+  "animals/13Men.svg",
+  "animals/13Men.svg",
+
+  // Vier Oc
+  "animals/13Oc.svg",
+  "animals/13Oc.svg",
+  "animals/13Oc.svg",
+  "animals/13Oc.svg",
+
+  "animals/13Chicchan.svg",
+  "animals/13Chicchan.svg",
+  "animals/13Chicchan.svg",
+  "animals/13Chicchan.svg",
+
+  // Vier Ahau
+  "animals/13Ahau.svg",
+  "animals/13Ahau.svg",
+  "animals/13Ahau.svg",
+  "animals/13Ahau.svg"
 ];
+
+const rootRing2Items = [];
 
 for(let i = 0; i < 16; i++){
 
   const angle =
     -i * (360 / 16) + 90;
+
+  // Binnen de eerste fractalrij
   const radius = 238;
 
   const x =
-    Math.cos(angle * Math.PI / 180) * radius;
+    Math.cos(angle * Math.PI / 180) *
+    radius;
 
   const y =
-    Math.sin(angle * Math.PI / 180) * radius;
-
-  // Vier groepen van acht.
-  const fractalIndex =
-    Math.floor(i / 4);
+    Math.sin(angle * Math.PI / 180) *
+    radius;
 
   const img =
     document.createElementNS(
@@ -545,7 +598,7 @@ for(let i = 0; i < 16; i++){
 
   img.setAttribute(
     "href",
-    rootRing2Files[fractalIndex]
+    rootRing2Files[i]
   );
 
   img.setAttribute("width", "24");
@@ -554,11 +607,13 @@ for(let i = 0; i < 16; i++){
   img.setAttribute("x", "-12");
   img.setAttribute("y", "-12");
 
+  // Alleen het individuele plaatje wordt gericht.
+  // rootRing2 zelf wordt niet geroteerd.
   img.setAttribute(
     "transform",
     `
     translate(${x},${y})
-    rotate(${angle + 90})
+    rotate(${angle + 270})
     `
   );
 
@@ -568,40 +623,47 @@ for(let i = 0; i < 16; i++){
   rootRing2Items.push(img);
 }
 
+// ===== SOULKIN DERDE FRACTALRIJ: STATISCHE TEST =====
+//
+// 64 fractals totaal:
+// 16 × Chicchan
+// 16 × Oc
+// 16 × Men
+// 16 × Ahau
+//
+// Voorlopig:
+// - alles zichtbaar
+// - geen reveal
+// - geen groepsrotatie
 
-// ===== SOULKIN BUITENSTE FRACTALRING =====
+rootRing3.innerHTML = "";
+
+const rootRing3Files = [
+  ...Array(16).fill("animals/13Men.svg"),
+  ...Array(16).fill("animals/13Oc.svg"),
+  ...Array(16).fill("animals/13Chicchan.svg"),
+  ...Array(16).fill("animals/13Ahau.svg")
+];
 
 const rootRing3Items = [];
-
-// De vier blokken van elk zestien posities.
-const rootRing3Files = [
-  "animals/13Ahau.svg",
-  "animals/13Men.svg",  
-  "animals/13Oc.svg",
-  "animals/13Chicchan.svg"
-];
 
 for(let i = 0; i < 64; i++){
 
   const angle =
     -i * (360 / 64) + 90;
 
-  // Tijdelijke waarde:
-  // maak deze groter dan de radius van rootRing1.
+  // Binnen Ring 2 plaatsen.
+  // Alleen deze waarde aanpassen als de rij te dicht
+  // op Ring 2 of te dicht op het midden staat.
   const radius = 251;
 
   const x =
-    Math.cos(angle * Math.PI / 180) * radius;
+    Math.cos(angle * Math.PI / 180) *
+    radius;
 
   const y =
-    Math.sin(angle * Math.PI / 180) * radius;
-
-  // 0–15   = Men
-  // 16–31  = Ahau
-  // 32–47  = Chicchan
-  // 48–63  = Oc
-  const fractalIndex =
-    Math.floor(i / 16);
+    Math.sin(angle * Math.PI / 180) *
+    radius;
 
   const img =
     document.createElementNS(
@@ -611,7 +673,7 @@ for(let i = 0; i < 64; i++){
 
   img.setAttribute(
     "href",
-    rootRing3Files[fractalIndex]
+    rootRing3Files[i]
   );
 
   img.setAttribute("width", "24");
@@ -628,7 +690,7 @@ for(let i = 0; i < 64; i++){
     `
   );
 
-  img.setAttribute("opacity", "0");
+  img.setAttribute("opacity", "1");
 
   rootRing3.appendChild(img);
   rootRing3Items.push(img);
@@ -725,6 +787,138 @@ rootRing1Items.forEach((item, index) => {
 
 });
 
+// ===== TWEEDE FRACTALRIJ REVEAL =====
+//
+// Voor 5/12: niets zichtbaar
+// Vanaf 5/12: elke dag één fractal erbij
+// 20/12: alle 16 zichtbaar
+
+const ROOT_RING2_START_DAY = Number(
+  daysFromCivil(-17264374702, 12, 5) -
+  daysFromCivil(1982, 8, 22)
+);
+
+const rootRing2VisibleCount =
+  Math.max(
+    0,
+    Math.min(
+      16,
+      dayOffset - ROOT_RING2_START_DAY + 1
+    )
+  );
+
+const ROOT_RING2_REVEAL_OFFSET = 0;
+
+rootRing2Items.forEach((item, index) => {
+
+  const revealIndex =
+    (index + ROOT_RING2_REVEAL_OFFSET) % 16;
+
+  item.setAttribute(
+    "opacity",
+    revealIndex < rootRing2VisibleCount
+      ? "1"
+      : "0"
+  );
+
+});
+
+
+// Eerst alle buitenste fractals verbergen
+ringAnimalItems.forEach(item => {
+  item.setAttribute("opacity", "0");
+});
+
+// Elke entry is de datum waarop die fractal voor het eerst verschijnt
+const fractalRevealDates = [
+  { month: 11, day: 11, seal: 4  }, // Chicchan
+  { month: 11, day: 12, seal: 9  }, // Oc
+  { month: 11, day: 13, seal: 14 }, // Men
+  { month: 11, day: 14, seal: 19 }, // Ahau
+  { month: 11, day: 15, seal: 0  }, // Imix
+  { month: 11, day: 16, seal: 1  }, // Ik
+  { month: 11, day: 17, seal: 2  }, // Akbal
+  { month: 11, day: 18, seal: 3  }, // Kan
+
+  // 19/11 pauzedag
+
+  { month: 11, day: 20, seal: 5  }, // Cimi
+  { month: 11, day: 21, seal: 6  }, // Manik
+  { month: 11, day: 22, seal: 7  }, // Lamat
+  { month: 11, day: 23, seal: 8  }, // Muluc
+
+  // 24/11 pauzedag
+
+  { month: 11, day: 25, seal: 10 }, // Chuen
+  { month: 11, day: 26, seal: 11 }, // Eb
+  { month: 11, day: 27, seal: 12 }, // Ben
+  { month: 11, day: 28, seal: 13 }, // Ix
+
+  // 29/11 pauzedag
+
+  { month: 11, day: 30, seal: 15 }, // Cib
+  { month: 12, day: 1,  seal: 16 }, // Caban
+  { month: 12, day: 2,  seal: 17 }, // Etznab
+  { month: 12, day: 3,  seal: 18 }  // Cauac
+];
+
+// Huidige absolute dag
+const currentAbsoluteDay =
+  daysFromCivil(1982, 8, 22) + BigInt(dayOffset);
+
+// Toon alles waarvan de reveal-datum bereikt is
+fractalRevealDates.forEach(entry => {
+
+  const revealAbsoluteDay =
+    daysFromCivil(
+      -17264374702,
+      entry.month,
+      entry.day
+    );
+
+  if(currentAbsoluteDay >= revealAbsoluteDay){
+
+    ringAnimalItems[entry.seal]
+      .setAttribute("opacity", "1");
+  }
+});
+
+// ===== DERDE FRACTALRIJ REVEAL =====
+//
+// Voor 21/12: niets zichtbaar
+// Vanaf 21/12: iedere dag één fractal erbij
+// Eindigt op 22/2 met alle 64 zichtbaar
+
+const ROOT_RING3_START_DAY = Number(
+  daysFromCivil(-17264374702, 12, 21) -
+  daysFromCivil(1982, 8, 22)
+);
+
+const rootRing3VisibleCount =
+  Math.max(
+    0,
+    Math.min(
+      64,
+      dayOffset - ROOT_RING3_START_DAY + 1
+    )
+  );
+
+const ROOT_RING3_REVEAL_OFFSET = 0; // eventueel later afstellen
+
+rootRing3Items.forEach((item, index) => {
+
+  const revealIndex =
+    (index + ROOT_RING3_REVEAL_OFFSET) % 64;
+
+  item.setAttribute(
+    "opacity",
+    revealIndex < rootRing3VisibleCount
+      ? "1"
+      : "0"
+  );
+
+});
+
 // ===== VIER VASTE ROOT FRACTALS =====
 
 const rootFractalPreview = [
@@ -798,6 +992,36 @@ if(beforeOrAtRoot || night === 1){
   toneSymbol.setAttribute("opacity","1");
 }
 
+// ===== KLEURENRING ONTVOUWING =====
+//
+// 10/11 en eerder: alle segmenten zwart
+// 11/11: rood verschijnt
+// 12/11: wit verschijnt
+// 13/11: blauw verschijnt
+// 14/11: geel verschijnt
+// 15/11 en verder: compleet en in beweging
+
+const visibleColorCount =
+  Math.max(
+    0,
+    Math.min(4, rootStage - 1)
+  );
+
+segments.forEach((segment, index) => {
+
+  const colorIndex = index % 4;
+
+  const colorIsVisible =
+    colorIndex < visibleColorCount;
+
+  segment.setAttribute(
+    "fill",
+    colorIsVisible
+      ? colors[colorIndex]
+      : "black"
+  );
+});
+
 const ringSeal = ringKin % 20;
 
 ringSegments.setAttribute("transform", `rotate(${ringSeal * 18})`);
@@ -815,134 +1039,26 @@ rootRing1.setAttribute(
   `rotate(${rootRing1Angle})`
 );
 
-// ===== MIDDELSTE SOULKIN-RING =====
-
 const ROOT_RING2_STEP =
   360 / 16;
 
-const ROOT_RING2_START = Number(
-  daysFromCivil(-17264374702, 12, 19) -
-  daysFromCivil(1982, 8, 22)
-);
-
-const ROOT_RING2_OFFSET = 6;
-
-const rootRing2Position =
-(
-  (
-    (dayOffset - ROOT_RING2_START)
-    + ROOT_RING2_OFFSET
-  ) % 16
-  + 16
-) % 16;
-
 const rootRing2Angle =
-  rootRing2Position *
-  ROOT_RING2_STEP;
+  (mechanismKin - 4) * ROOT_RING2_STEP;
 
 rootRing2.setAttribute(
   "transform",
   `rotate(${rootRing2Angle})`
 );
 
-// ===== MIDDELSTE RING ONTVOUWING =====
+const ROOT_RING3_STEP = 360 / 64;
 
-// 15/11 is de eerste dag waarop één fractal verschijnt.
-const ROOT_RING2_REVEAL_START = Number(
-  daysFromCivil(-17264374702, 11, 15) -
-  daysFromCivil(1982, 8, 22)
-);
-
-const rootRing2RevealDay =
-  dayOffset - ROOT_RING2_REVEAL_START;
-
-// 15/11 = 1 zichtbaar.
-// Daarna iedere dag één extra, tot maximaal 32.
-const rootRing2VisibleCount =
-  Math.max(
-    0,
-    Math.min(16, rootRing2RevealDay + 1)
-  );
-
-// Eerst alle 32 verbergen.
-rootRing2Items.forEach(item => {
-  item.setAttribute("opacity", "0");
-});
-
-// De eerste zichtbare positie volgt dezelfde uitlijning
-// als de reeds synchroon gezette ring.
-const rootRing2FirstPosition =
-  ((ROOT_RING2_OFFSET - 2) % 16 + 16) % 16;
-
-// Vanaf 15/11 iedere dag één volgende positie zichtbaar maken.
-for(let step = 0; step < rootRing2VisibleCount; step++){
-
-  const index =
-    (rootRing2FirstPosition + step) % 16;
-
-  rootRing2Items[index]
-    .setAttribute("opacity", "1");
-}
-
-// ===== BUITENSTE SOULKIN-RING =====
-
-const ROOT_RING3_STEP =
-  360 / 64;
-
-const ROOT_RING3_START = Number(
-  daysFromCivil(-17264374702, 11, 30) -
-  daysFromCivil(1982, 8, 22)
-);
-
-const ROOT_RING3_OFFSET = 15;
-
-const rootRing3Position =
-  (
-    (dayOffset - ROOT_RING3_START + ROOT_RING3_OFFSET) % 64
-    + 64
-  ) % 64;
 const rootRing3Angle =
-  rootRing3Position * ROOT_RING3_STEP;
+  (mechanismKin - 4) * ROOT_RING3_STEP;
 
 rootRing3.setAttribute(
   "transform",
   `rotate(${rootRing3Angle})`
 );
-
-// ===== BUITENSTE RING ONTVOUWING =====
-
-// 13 Men zelf = dag 0.
-// 1 Cib = dag 1 en toont het eerste onderdeel.
-const rootRing3RevealDay =
-  dayOffset - ROOT_RING3_START;
-
-// 0 vóór en op 13 Men.
-// Daarna iedere dag één extra, tot maximaal 64.
-const rootRing3VisibleCount =
-  Math.max(
-    0,
-    Math.min(64, rootRing3RevealDay)
-  );
-
-// Eerst alles verbergen.
-rootRing3Items.forEach(item => {
-  item.setAttribute("opacity", "0");
-});
-
-// Positie die op 1 Cib actief is.
-// Gebruikt dezelfde offset als de synchronisatie van de ring.
-const rootRing3FirstPosition =
-  ((1 + ROOT_RING3_OFFSET) % 64 + 64) % 64;
-
-// Toon alle posities die sinds 1 Cib voorbijgekomen zijn.
-for(let step = 0; step < rootRing3VisibleCount; step++){
-
-  const index =
-    (rootRing3FirstPosition + step) % 64;
-
-  rootRing3Items[index]
-    .setAttribute("opacity", "1");
-}
 
 let sacredAlignment =
   night === 1 &&
