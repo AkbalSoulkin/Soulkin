@@ -1052,8 +1052,23 @@ rootRing2.setAttribute(
 
 const ROOT_RING3_STEP = 360 / 64;
 
+// Ring 3 is op 22/2 volledig revealed.
+// Vanaf 23/2 moet hij 4 fractalposities vooruit
+// om synchroon door te lopen naar Chicchan.
+const ROOT_RING3_COMPLETE_DAY =
+  ROOT_RING3_START_DAY + 63;
+
+const rootRing3SyncCorrection =
+  dayOffset > ROOT_RING3_COMPLETE_DAY
+    ? 4
+    : 0;
+
 const rootRing3Angle =
-  (mechanismKin - 4) * ROOT_RING3_STEP;
+  (
+    mechanismKin
+    - 4
+    + rootRing3SyncCorrection
+  ) * ROOT_RING3_STEP;
 
 rootRing3.setAttribute(
   "transform",
