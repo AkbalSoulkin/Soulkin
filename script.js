@@ -2222,3 +2222,15 @@ render();
 window.goToDate = goToDate;
 
 window.step = step;
+
+window.addEventListener("load", () => {
+
+    Camera.update();
+
+});
+
+window.addEventListener("resize", () => {
+
+    Camera.update();
+
+});

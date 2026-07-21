@@ -23,12 +23,24 @@
   src:url("fonts/copyright.otf");
 }
 
+html,
+body{
+  margin:0;
+  padding:0;
+
+  width:100%;
+  height:100%;
+
+  overflow:hidden;
+}
 
 body{
+  position:relative;
 
   text-align:center;
   font-family:"text";
 
+  background:black;
 }
 
 .titleBlock{
@@ -295,106 +307,56 @@ body{
   );
 }
 
-#infoPanelContent::-webkit-scrollbar-thumb:hover{
-  background:rgba(255,255,255,0.55);
+#infoPanel::-webkit-scrollbar-thumb:hover{
+  filter:brightness(1.2);
 }
 
 #appBackground{
   position:absolute;
 
-  left:0;
-  top:0;
+  inset:0;
 
-  width:2000px;
-  height:1000px;
+  width:100%;
+  height:100%;
 
   object-fit:cover;
   object-position:center;
 
-  z-index:-1;
+  z-index:0;
 
   pointer-events:none;
+  user-select:none;
 }
+
+#viewport{
+  position:fixed;
+
+  left:0;
+  top:0;
+
+  width:100vw;
+  height:100vh;
+
+  overflow:hidden;
+
+  background:black;
+}
+
 
 #app{
-  position:relative;
+  position:absolute;
 
-  width:2000px;
-  height:1000px;
+  left:0;
+  top:0;
 
-  margin:0 auto;
+  width:1920px;
+  height:1080px;
+
   overflow:hidden;
-  transform-origin:top center;
+
+  transform-origin:top left;
 }
 
-body{
-  margin:0;
-  overflow:hidden;
-}
-
-/* Desktop + landscape */
-@media (orientation: landscape){
-
-  #app{
-    transform:scale(min(calc(100vw / 2000), calc(100vh / 1000)));
-  }
-}
-
-:root{
-  --mobileScale: 0.42;
-}
-
-@media (orientation: portrait){
-
-  #app{
-    position:fixed;
-
-    left:50%;
-    top:50%;
-
-    margin:0;
-
-    transform-origin:center center;
-
-    transform:
-      translate(-50%, -50%)
-      rotate(90deg)
-      scale(var(--mobileScale));
-  }
-}
-
-@media (orientation: portrait){
-
-  #stepButton{
-
-    position:fixed;
-
-    right:380px;
-    bottom:830px;
-
-    width:120px;
-    height:120px;
-
-    border-radius:50%;
-
-    font-size:32px;
-
-    z-index:99999;
-  }
-
-}
-
-html,
-body{
-  margin:0;
-  width:100%;
-  height:100%;
-  overflow:hidden;
-}
-
-body{
-  position:fixed;
-}
 
 svg{
   position:absolute;
@@ -403,15 +365,6 @@ svg{
   z-index:1;
 }
 
-html{
-  overflow:hidden;
-}
-
-body{
-  overflow:hidden;
-
-  margin:0;
-}
 
 .infoTab.activeTab{
   box-shadow:
@@ -443,22 +396,6 @@ body{
   width:105px;
 }
 
-html, body{
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  min-height: 100%;
-  overflow-x: hidden;
-}
-
 #gameSvg{
   display: block;
-}
-
-@media (max-width: 800px){
-  #gameSvg{
-    width: 1200px;
-    max-width: none;
-    transform: translateX(-240px);
-  }
 }
