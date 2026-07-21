@@ -18,26 +18,65 @@ const Camera = {
         const viewportHeight =
             document.documentElement.clientHeight;
 
-        const scale = Math.min(
-            viewportWidth / this.baseWidth,
-            viewportHeight / this.baseHeight
-        );
+        const isPortrait =
+            viewportHeight > viewportWidth;
 
-        const scaledWidth =
-            this.baseWidth * scale;
+        if(isPortrait){
 
-        const scaledHeight =
-            this.baseHeight * scale;
+            /*
+             * Na rotatie wordt de virtuele hoogte de zichtbare breedte
+             * en de virtuele breedte de zichtbare hoogte.
+             */
+            const scale = Math.min(
+                viewportWidth / this.baseHeight,
+                viewportHeight / this.baseWidth
+            );
 
-        const offsetX =
-            (viewportWidth - scaledWidth) / 2;
+            const rotatedWidth =
+                this.baseHeight * scale;
 
-        const offsetY =
-            (viewportHeight - scaledHeight) / 2;
+            const rotatedHeight =
+                this.baseWidth * scale;
 
-        app.style.transform =
-            `translate(${offsetX}px, ${offsetY}px) scale(${scale})`;
+            const offsetX =
+                (viewportWidth - rotatedWidth) / 2;
 
+            const offsetY =
+                (viewportHeight - rotatedHeight) / 2;
+
+            app.style.transformOrigin = "top left";
+
+            app.style.transform = `
+                translate(${offsetX + rotatedWidth}px, ${offsetY}px)
+                rotate(90deg)
+                scale(${scale})
+            `;
+
+        } else {
+
+            const scale = Math.min(
+                viewportWidth / this.baseWidth,
+                viewportHeight / this.baseHeight
+            );
+
+            const scaledWidth =
+                this.baseWidth * scale;
+
+            const scaledHeight =
+                this.baseHeight * scale;
+
+            const offsetX =
+                (viewportWidth - scaledWidth) / 2;
+
+            const offsetY =
+                (viewportHeight - scaledHeight) / 2;
+
+            app.style.transformOrigin = "top left";
+
+            app.style.transform = `
+                translate(${offsetX}px, ${offsetY}px)
+                scale(${scale})
+            `;
+        }
     }
-
 };
