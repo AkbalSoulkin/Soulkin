@@ -2221,8 +2221,6 @@ render();
 
 window.goToDate = goToDate;
 
-window.step = step;
-
 window.addEventListener("load", () => {
 
     Camera.update();
