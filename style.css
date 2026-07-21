@@ -399,3 +399,58 @@ svg{
 #gameSvg{
   display: block;
 }
+
+html,
+body,
+#viewport{
+  touch-action:pan-x pan-y pinch-zoom;
+}
+
+#mobileStepButton{
+  display:none;
+}
+
+@media (max-width:800px), (pointer:coarse){
+
+  #mobileStepButton{
+    display:flex;
+
+    position:fixed;
+
+    right:18px;
+    bottom:
+      calc(18px + env(safe-area-inset-bottom));
+
+    width:96px;
+    height:96px;
+
+    padding:0;
+
+    align-items:center;
+    justify-content:center;
+
+    border:4px solid black;
+    border-radius:50%;
+
+    background:#fdd835;
+    color:black;
+
+    font-family:"subtitle";
+    font-size:22px;
+    font-weight:bold;
+
+    box-shadow:
+      0 4px 14px rgba(0,0,0,0.55),
+      0 0 12px rgba(255,255,255,0.65);
+
+    z-index:100000;
+
+    cursor:pointer;
+
+    touch-action:manipulation;
+  }
+
+  #mobileStepButton:active{
+    transform:scale(0.94);
+  }
+}

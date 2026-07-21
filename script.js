@@ -2212,23 +2212,43 @@ dayOffset =
 kin = ((dayOffset % 260) + 260) % 260;
 
 updateFromKin();
-
 updateDateFromKin();
-
 updateLanguage();
-
 render();
 
 window.goToDate = goToDate;
 
-window.addEventListener("load", () => {
+window.addEventListener("DOMContentLoaded", () => {
 
-    Camera.update();
+    const mobileStepButton =
+        document.getElementById("mobileStepButton");
+
+    const normalStepButton =
+        document.getElementById("stepButton");
+
+    if(mobileStepButton){
+
+        mobileStepButton.addEventListener("click", () => {
+
+            if(normalStepButton){
+                normalStepButton.click();
+            }
+
+        });
+    }
 
 });
 
-window.addEventListener("resize", () => {
-
+window.addEventListener("load", () => {
     Camera.update();
+});
 
+window.addEventListener("resize", () => {
+    Camera.update();
+});
+
+window.addEventListener("orientationchange", () => {
+    setTimeout(() => {
+        Camera.update();
+    }, 150);
 });
