@@ -3,84 +3,84 @@ const ajnaPages_ru = {
 imix: {
 
   1: `
-Imix reflects Imix.
+Имиш отражает Имиш.
 
-Possibility recognizes itself.
+Возможность узнаёт себя.
 
-Every beginning contains another beginning.
+В каждом начале скрыто другое начало.
 
-The search is not for certainty.
+Поиск направлен не на определённость.
 
-It is for the next opening.
+Он направлен к следующему открытию.
 
-When possibility reflects itself, curiosity becomes the path.
+Когда возможность отражает саму себя, любопытство становится путём.
 
-The search begins again.
+Поиск начинается вновь.
 `,
 
 
   2: `
-Chicchan guides Imix.
+Чикчан направляет Имиш.
 
-Possibility seeks vitality.
+Возможность стремится к жизненной силе.
 
-Ideas become meaningful when they are lived.
+Идеи обретают смысл, когда воплощаются в жизни.
 
-A path cannot be discovered through thought alone.
+Путь невозможно открыть одной лишь мыслью.
 
-Movement reveals what imagination cannot.
+Движение раскрывает то, чего не способно показать воображение.
 
-The search awakens through participation.
+Поиск пробуждается через участие.
 
-Life gives possibility its heartbeat.
+Жизнь наделяет возможность биением сердца.
 `,
 
   3: `
-Muluc guides Imix.
+Мулук направляет Имиш.
 
-Possibility seeks meaning.
+Возможность стремится к смыслу.
 
-Many doors may open.
+Перед вами может открыться множество дверей.
 
-Not every door belongs to your journey.
+Но не каждая из них принадлежит вашему пути.
 
-The guide asks what truly matters.
+Проводник спрашивает, что действительно имеет значение.
 
-Meaning transforms curiosity into direction.
+Смысл превращает любопытство в направление.
 
-Purpose gives possibility its depth.
+Цель придаёт возможности глубину.
 `,
 
   4: `
-Ben guides Imix.
+Бен направляет Имиш.
 
-Possibility seeks vision.
+Возможность стремится к видению.
 
-A beginning becomes stronger when it can see beyond itself.
+Начало становится сильнее, когда способно увидеть то, что лежит за его пределами.
 
-The future does not need to be fully known.
+Будущее необязательно знать во всех подробностях.
 
-It only needs to be visible enough to move toward.
+Достаточно увидеть его настолько ясно, чтобы двигаться ему навстречу.
 
-Vision transforms potential into intention.
+Видение превращает потенциал в намерение.
 
-Direction gives possibility its horizon.
+Направление дарит возможности горизонт.
 `,
 
-    5: `
-Caban guides Imix.
+  5: `
+Кабан направляет Имиш.
 
-Possibility seeks discovery.
+Возможность стремится к открытию.
 
-Every answer reveals another question.
+Каждый ответ раскрывает новый вопрос.
 
-Every horizon reveals another landscape.
+За каждым горизонтом открывается новый пейзаж.
 
-The search continues because reality remains larger than expectation.
+Поиск продолжается, потому что реальность всегда превосходит ожидания.
 
-Discovery transforms potential into experience.
+Открытие превращает потенциал в опыт.
 
-Wonder gives possibility its adventure.
+Удивление дарит возможности приключение.
 `
 
   },
@@ -88,83 +88,83 @@ Wonder gives possibility its adventure.
 ik: {
 
   1: `
-Ik reflects Ik.
+Ик отражает Ик.
 
-Connection recognizes itself.
+Связь узнаёт себя.
 
-Every relationship begins with awareness.
+Каждые отношения начинаются с осознанности.
 
-Before understanding another, you must first become present.
+Прежде чем понять другого, необходимо по-настоящему присутствовать самому.
 
-The search is not for agreement.
+Поиск направлен не на согласие.
 
-It is for genuine contact.
+Он направлен на подлинный контакт.
 
-Connection begins wherever separation ends.
+Связь начинается там, где заканчивается разделённость.
 `,
 
   2: `
-Cimi guides Ik.
+Сими направляет Ик.
 
-Connection seeks transformation.
+Связь стремится к преобразованию.
 
-No relationship remains unchanged.
+Ни одни отношения не остаются неизменными.
 
-Every encounter leaves a mark.
+Каждая встреча оставляет след.
 
-Growth asks both people to evolve beyond who they were before.
+Рост призывает обоих выйти за пределы тех, кем они были прежде.
 
-The search continues because connection changes those who enter it.
+Поиск продолжается, потому что связь меняет каждого, кто в неё вступает.
 
-Transformation gives connection its depth.
+Преобразование придаёт связи глубину.
 `,
 
   3: `
-Oc guides Ik.
+Ок направляет Ик.
 
-Connection seeks belonging.
+Связь стремится к принадлежности.
 
-Understanding grows through trust.
+Понимание растёт благодаря доверию.
 
-A bridge becomes meaningful when it can be crossed from both directions.
+Мост обретает смысл, когда по нему можно пройти в обоих направлениях.
 
-The search is not only for contact.
+Поиск направлен не только на контакт.
 
-It is also for companionship.
+Он также направлен на близость и совместный путь.
 
-Belonging gives connection its warmth.
+Принадлежность дарит связи тепло.
 `,
 
   4: `
-Ix guides Ik.
+Иш направляет Ик.
 
-Connection seeks awareness.
+Связь стремится к осознанности.
 
-Not everything spoken is understood.
+Не всё сказанное бывает понято.
 
-Not everything understood is spoken.
+Не всё понятое бывает высказано.
 
-Attention reveals what words often conceal.
+Внимание раскрывает то, что слова часто скрывают.
 
-The search deepens when observation deepens.
+Чем глубже наблюдение, тем глубже становится поиск.
 
-Awareness gives connection its clarity.
+Осознанность придаёт связи ясность.
 `,
 
   5: `
-Etznab guides Ik.
+Эцнаб направляет Ик.
 
-Connection seeks truth.
+Связь стремится к истине.
 
-Relationships become stronger when illusion falls away.
+Отношения становятся крепче, когда исчезают иллюзии.
 
-Honesty may feel uncomfortable.
+Честность может вызывать дискомфорт.
 
-Yet what is real can withstand examination.
+Но то, что подлинно, способно выдержать внимательное рассмотрение.
 
-The search asks for authenticity before certainty.
+Поиск требует подлинности прежде, чем определённости.
 
-Truth gives connection its foundation.
+Истина даёт связи основание.
 `
 
   },
@@ -172,77 +172,77 @@ Truth gives connection its foundation.
 akbal: {
 
   1: `
-Akbal reflects Akbal.
+Акбаль отражает Акбаль.
 
-Mystery recognizes itself.
+Тайна узнаёт себя.
 
-Not every unknown asks to be solved.
+Не всё неизвестное требует разгадки.
 
-Some doors remain valuable because they remain unopened.
+Некоторые двери остаются ценными именно потому, что остаются неоткрытыми.
 
-The search is not for certainty.
+Поиск направлен не на определённость.
 
-It is for the depth behind the question.
+Он направлен к глубине, скрытой за вопросом.
 
-Mystery becomes its own path.
+Тайна становится собственным путём.
 `,
 
   2: `
-Manik guides Akbal.
+Маник направляет Акбаль.
 
-Mystery seeks service.
+Тайна стремится к служению.
 
-What is hidden becomes meaningful when it helps someone see more clearly.
+Скрытое обретает смысл, когда помогает другому увидеть яснее.
 
-Insight is not meant to remain isolated.
+Озарение не предназначено для того, чтобы оставаться в одиночестве.
 
-The guide asks how inner discoveries can become useful.
+Проводник спрашивает, как внутренние открытия могут стать полезными.
 
-Service gives mystery a hand.
+Служение протягивает тайне руку.
 `,
 
   3: `
-Chuen guides Akbal.
+Чуэн направляет Акбаль.
 
-Mystery seeks creativity.
+Тайна стремится к творчеству.
 
-The unknown does not always need a serious face.
+Неизвестное не всегда нуждается в серьёзном лице.
 
-Imagination can enter places logic cannot.
+Воображение способно проникнуть туда, куда логика не может.
 
-Play opens hidden doors.
+Игра открывает скрытые двери.
 
-Creativity gives mystery its language.
+Творчество дарит тайне её язык.
 `,
 
   4: `
-Men guides Akbal.
+Мен направляет Акбаль.
 
-Mystery seeks perspective.
+Тайна стремится к перспективе.
 
-Darkness changes when seen from above.
+Тьма меняется, когда смотришь на неё сверху.
 
-What feels confusing up close may reveal a pattern from a wider view.
+То, что вблизи кажется запутанным, с более широкой точки зрения может раскрыться как узор.
 
-The guide does not remove the mystery.
+Проводник не устраняет тайну.
 
-It teaches you how to look.
+Он учит, как смотреть.
 
-Perspective gives mystery its horizon.
+Перспектива дарит тайне её горизонт.
 `,
 
   5: `
-Cauac guides Akbal.
+Кауак направляет Акбаль.
 
-Mystery seeks renewal.
+Тайна стремится к обновлению.
 
-The unknown can become too familiar.
+Неизвестное может стать слишком привычным.
 
-A storm breaks the old interpretation open.
+Буря разрушает прежнее толкование.
 
-What once seemed hidden may be ready to transform.
+То, что однажды было скрыто, может оказаться готовым к преображению.
 
-Renewal gives mystery its movement.
+Обновление придаёт тайне движение.
 `
 
   },
@@ -250,75 +250,75 @@ Renewal gives mystery its movement.
 kan: {
 
   1: `
-Kan reflects Kan.
+Кан отражает Кан.
 
-Potential recognizes itself.
+Потенциал узнаёт себя.
 
-Every possibility exists before it takes form.
+Каждая возможность существует ещё до того, как принимает форму.
 
-Nothing has been chosen.
+Ничего ещё не выбрано.
 
-Nothing has been rejected.
+Ничего ещё не отвергнуто.
 
-The search begins in openness.
+Поиск начинается с открытости.
 
-Potential becomes aware of its own abundance.
+Потенциал осознаёт собственное изобилие.
 `,
 
   2: `
-Lamat guides Kan.
+Ламат направляет Кан.
 
-Potential seeks beauty.
+Потенциал стремится к красоте.
 
-Growth is encouraged by what inspires it.
+Рост вдохновляется тем, что пробуждает сердце.
 
-Not every possibility deserves equal attention.
+Не каждая возможность заслуживает одинакового внимания.
 
-Some paths shine because they resonate more deeply.
+Некоторые пути сияют сильнее, потому что откликаются глубже.
 
-Beauty gives potential its attraction.
+Красота дарит потенциалу притяжение.
 `,
 
   3: `
-Eb guides Kan.
+Эб направляет Кан.
 
-Potential seeks experience.
+Потенциал стремится к опыту.
 
-A possibility remains theoretical until it is lived.
+Возможность остаётся лишь предположением, пока не станет прожитой.
 
-Understanding grows through participation.
+Понимание рождается через участие.
 
-The guide invites you to step onto the road.
+Проводник приглашает сделать первый шаг на дорогу.
 
-Experience gives potential its reality.
+Опыт придаёт потенциалу реальность.
 `,
 
   4: `
-Cib guides Kan.
+Сиб направляет Кан.
 
-Potential seeks wisdom.
+Потенциал стремится к мудрости.
 
-Many opportunities appear valuable.
+Многие возможности кажутся ценными.
 
-Time reveals which ones truly matter.
+Лишь время показывает, какие действительно имеют значение.
 
-The guide encourages patience and reflection.
+Проводник призывает к терпению и размышлению.
 
-Wisdom gives potential its discernment.
+Мудрость дарит потенциалу способность различать.
 `,
 
   5: `
-Ahau guides Kan.
+Ахау направляет Кан.
 
-Potential seeks wholeness.
+Потенциал стремится к целостности.
 
-Every seed contains more than a single outcome.
+Каждое семя содержит больше, чем один возможный исход.
 
-Growth moves toward integration.
+Рост движется к объединению.
 
-The guide reminds you that possibilities become meaningful when they serve a larger whole.
+Проводник напоминает, что возможности обретают смысл, когда служат большему целому.
 
-Wholeness gives potential its purpose.
+Целостность придаёт потенциалу предназначение.
 `
 
   },
@@ -326,77 +326,77 @@ Wholeness gives potential its purpose.
 chicchan: {
 
   1: `
-Chicchan reflects Chicchan.
+Чикчан отражает Чикчан.
 
-Vitality recognizes itself.
+Жизненная сила узнаёт себя.
 
-Life wishes to express itself fully.
+Жизнь стремится выразить себя полностью.
 
-Energy seeks movement.
+Энергия ищет движение.
 
-Movement seeks experience.
+Движение ищет опыт.
 
-The search is not for permission.
+Поиск направлен не на разрешение.
 
-It is for participation.
+Он направлен на участие.
 
-Vitality becomes aware of its own aliveness.
+Жизненная сила осознаёт собственную живость.
 `,
 
   2: `
-Muluc guides Chicchan.
+Мулук направляет Чикчан.
 
-Vitality seeks meaning.
+Жизненная сила стремится к смыслу.
 
-Energy alone is not enough.
+Одной энергии недостаточно.
 
-Movement becomes more powerful when it serves something that matters.
+Движение становится сильнее, когда служит тому, что действительно важно.
 
-The guide asks what your passion is truly feeding.
+Проводник спрашивает, что на самом деле питает вашу страсть.
 
-Meaning gives vitality its depth.
+Смысл придаёт жизненной силе глубину.
 `,
 
   3: `
-Ben guides Chicchan.
+Бен направляет Чикчан.
 
-Vitality seeks vision.
+Жизненная сила стремится к видению.
 
-Life naturally moves.
+Жизнь по своей природе находится в движении.
 
-The question is where it is moving.
+Вопрос лишь в том, куда она движется.
 
-A clear horizon transforms impulse into direction.
+Ясный горизонт превращает порыв в направление.
 
-Vision gives vitality its aim.
+Видение придаёт жизненной силе цель.
 `,
 
   4: `
-Caban guides Chicchan.
+Кабан направляет Чикчан.
 
-Vitality seeks discovery.
+Жизненная сила стремится к открытию.
 
-The living world is larger than any expectation.
+Живой мир гораздо больше любых ожиданий.
 
-Curiosity invites experience beyond familiar boundaries.
+Любопытство приглашает выйти за пределы привычного опыта.
 
-The guide encourages exploration.
+Проводник побуждает исследовать.
 
-Discovery gives vitality its adventure.
+Открытие дарит жизненной силе её приключение.
 `,
 
   5: `
-Imix guides Chicchan.
+Имиш направляет Чикчан.
 
-Vitality seeks possibility.
+Жизненная сила стремится к возможности.
 
-Life does not wish to repeat itself forever.
+Жизнь не желает повторять себя бесконечно.
 
-Every ending contains another beginning.
+Каждое завершение содержит новое начало.
 
-The guide reveals paths not yet considered.
+Проводник открывает пути, которые ещё не были замечены.
 
-Possibility gives vitality its future.
+Возможность дарит жизненной силе будущее.
 `
 
   },
@@ -404,79 +404,79 @@ Possibility gives vitality its future.
 cimi: {
 
   1: `
-Cimi reflects Cimi.
+Сими отражает Сими.
 
-Transformation recognizes itself.
+Преображение узнаёт себя.
 
-Change is a constant companion.
+Перемены — постоянный спутник жизни.
 
-Nothing remains exactly as it was.
+Ничто не остаётся таким, каким было прежде.
 
-Every ending creates space for a beginning.
+Каждое завершение создаёт пространство для нового начала.
 
-The search is not for permanence.
+Поиск направлен не на неизменность.
 
-It is for renewal.
+Он направлен на обновление.
 
-Transformation becomes aware of its own rhythm.
+Преображение осознаёт собственный ритм.
 `,
 
   2: `
-Oc guides Cimi.
+Ок направляет Сими.
 
-Transformation seeks belonging.
+Преображение стремится к принадлежности.
 
-Change becomes easier when it is shared.
+Перемены становятся легче, когда их разделяют с другими.
 
-Support allows growth to continue through uncertainty.
+Поддержка позволяет продолжать рост даже среди неопределённости.
 
-The guide reminds you that no journey must be walked alone.
+Проводник напоминает, что ни один путь не нужно проходить в одиночку.
 
-Belonging gives transformation its courage.
+Принадлежность дарит преображению смелость.
 `,
 
   3: `
-Ix guides Cimi.
+Иш направляет Сими.
 
-Transformation seeks awareness.
+Преображение стремится к осознанности.
 
-Many changes begin long before they become visible.
+Многие перемены начинаются задолго до того, как становятся заметными.
 
-The guide encourages careful observation.
+Проводник призывает к внимательному наблюдению.
 
-What appears sudden often has deep roots.
+То, что кажется внезапным, часто имеет глубокие корни.
 
-Awareness gives transformation its clarity.
+Осознанность придаёт преображению ясность.
 `,
 
   4: `
-Etznab guides Cimi.
+Эцнаб направляет Сими.
 
-Transformation seeks truth.
+Преображение стремится к истине.
 
-Not every change leads forward.
+Не каждая перемена ведёт вперёд.
 
-Some paths only repeat old patterns in new forms.
+Некоторые пути лишь повторяют старые узоры в новой форме.
 
-The guide removes illusion from the process.
+Проводник рассеивает иллюзии.
 
-Truth gives transformation its direction.
+Истина придаёт преображению направление.
 `,
 
   5: `
-Ik guides Cimi.
+Ик направляет Сими.
 
-Transformation seeks connection.
+Преображение стремится к связи.
 
-Growth changes how you relate to the world.
+Рост меняет то, как вы относитесь к миру.
 
-Old relationships evolve.
+Одни отношения меняются.
 
-New relationships emerge.
+Другие только появляются.
 
-The guide reminds you that change is never purely personal.
+Проводник напоминает, что перемены никогда не бывают исключительно личными.
 
-Connection gives transformation its humanity.
+Связь придаёт преображению человечность.
 `
 
   },
@@ -484,1073 +484,1073 @@ Connection gives transformation its humanity.
 manik: {
 
   1: `
-Manik reflects Manik.
+Маник отражает Маник.
 
-Service recognizes itself.
+Служение узнаёт себя.
 
-Helping others begins with understanding what is needed.
+Помогать другим начинается с понимания того, что действительно необходимо.
 
-Not every problem asks to be solved.
+Не каждая проблема требует решения.
 
-Not every burden asks to be carried.
+Не каждое бремя нужно нести.
 
-The search is not for usefulness alone.
+Поиск направлен не только на полезность.
 
-It is for meaningful contribution.
+Он направлен на осмысленный вклад.
 
-Service becomes aware of its own purpose.
+Служение осознаёт собственное предназначение.
 `,
 
   2: `
-Chuen guides Manik.
+Чуэн направляет Маник.
 
-Service seeks creativity.
+Служение стремится к творчеству.
 
-There is more than one way to help.
+Существует больше одного способа помочь.
 
-The guide encourages flexibility and imagination.
+Проводник поощряет гибкость и воображение.
 
-New solutions appear when old assumptions are released.
+Новые решения появляются, когда старые представления остаются позади.
 
-Creativity gives service its adaptability.
+Творчество дарит служению способность приспосабливаться.
 `,
 
   3: `
-Men guides Manik.
+Мен направляет Маник.
 
-Service seeks perspective.
+Служение стремится к перспективе.
 
-Good intentions are strengthened by understanding the larger picture.
+Добрые намерения становятся сильнее, когда видишь более широкую картину.
 
-The guide invites you to step back before stepping forward.
+Проводник предлагает сделать шаг назад, прежде чем сделать шаг вперёд.
 
-A wider view reveals where effort is most effective.
+Более широкий взгляд показывает, где усилия принесут наибольшую пользу.
 
-Perspective gives service its wisdom.
+Перспектива дарит служению мудрость.
 `,
 
   4: `
-Cauac guides Manik.
+Кауак направляет Маник.
 
-Service seeks renewal.
+Служение стремится к обновлению.
 
-Even the most dedicated path can become routine.
+Даже самый преданный путь со временем может стать привычкой.
 
-The guide arrives like a storm.
+Проводник приходит подобно буре.
 
-Old methods give way to new possibilities.
+Старые способы уступают место новым возможностям.
 
-Renewal gives service its vitality.
+Обновление дарит служению жизненную силу.
 `,
 
   5: `
-Akbal guides Manik.
+Акбаль направляет Маник.
 
-Service seeks mystery.
+Служение стремится к тайне.
 
-Not every answer is immediately visible.
+Не каждый ответ становится видимым сразу.
 
-Some forms of help begin with listening rather than acting.
+Иногда помощь начинается не с действия, а со способности слушать.
 
-The guide teaches patience with the unknown.
+Проводник учит терпению перед неизвестным.
 
-Mystery gives service its humility.
+Тайна дарит служению смирение.
 `
 
-  },
+},
 
 lamat: {
 
   1: `
-Lamat reflects Lamat.
+Ламат отражает Ламат.
 
-Beauty recognizes itself.
+Красота узнаёт себя.
 
-Harmony appears when things align naturally.
+Гармония возникает тогда, когда всё естественно становится на своё место.
 
-The search is not for perfection.
+Поиск направлен не на совершенство.
 
-It is for resonance.
+Он направлен на созвучие.
 
-What is beautiful often feels effortless because it reflects a deeper order.
+Истинная красота часто кажется лёгкой, потому что отражает более глубокий порядок.
 
-Beauty becomes aware of its own radiance.
+Красота осознаёт собственное сияние.
 `,
 
   2: `
-Eb guides Lamat.
+Эб направляет Ламат.
 
-Beauty seeks experience.
+Красота стремится к опыту.
 
-Inspiration becomes meaningful when it is lived.
+Вдохновение становится значимым, когда оно прожито.
 
-The guide encourages you to walk the road rather than admire it from afar.
+Проводник приглашает идти по дороге, а не любоваться ею издалека.
 
-Beauty grows richer through participation.
+Красота становится богаче благодаря участию.
 
-Experience gives beauty its substance.
+Опыт придаёт красоте содержание.
 `,
 
   3: `
-Cib guides Lamat.
+Сиб направляет Ламат.
 
-Beauty seeks wisdom.
+Красота стремится к мудрости.
 
-What appears attractive is not always valuable.
+Не всё привлекательное действительно ценно.
 
-Time reveals the difference.
+Лишь время показывает разницу.
 
-The guide encourages discernment.
+Проводник призывает к различению.
 
-Wisdom gives beauty its depth.
+Мудрость придаёт красоте глубину.
 `,
 
   4: `
-Ahau guides Lamat.
+Ахау направляет Ламат.
 
-Beauty seeks wholeness.
+Красота стремится к целостности.
 
-Harmony expands when all parts are allowed their place.
+Гармония расширяется, когда каждой части позволено занять своё место.
 
-The guide reminds you that true beauty does not exclude.
+Проводник напоминает, что истинная красота никого не исключает.
 
-It integrates.
+Она объединяет.
 
-Wholeness gives beauty its completeness.
+Целостность дарит красоте завершённость.
 `,
 
   5: `
-Kan guides Lamat.
+Кан направляет Ламат.
 
-Beauty seeks potential.
+Красота стремится к потенциалу.
 
-Every masterpiece begins as a possibility.
+Каждый шедевр начинается как возможность.
 
-Every expression begins as a seed.
+Каждое проявление начинается как семя.
 
-The guide points toward what has not yet emerged.
+Проводник указывает на то, что ещё не проявилось.
 
-Potential gives beauty its future.
+Потенциал дарит красоте будущее.
 `
 
-  },
+},
 
 muluc: {
 
   1: `
-Muluc reflects Muluc.
+Мулук отражает Мулук.
 
-Meaning recognizes itself.
+Смысл узнаёт себя.
 
-Some moments ask to be understood rather than explained.
+Некоторые моменты просят не объяснения, а понимания.
 
-Not everything valuable can be measured.
+Не всё ценное можно измерить.
 
-The search is not for answers alone.
+Поиск направлен не только на ответы.
 
-It is for significance.
+Он направлен на значимость.
 
-Meaning becomes aware of its own depth.
+Смысл осознаёт собственную глубину.
 `,
 
   2: `
-Ben guides Muluc.
+Бен направляет Мулук.
 
-Meaning seeks vision.
+Смысл стремится к видению.
 
-Purpose grows stronger when it can see beyond the present moment.
+Предназначение становится сильнее, когда способно видеть дальше настоящего момента.
 
-The guide encourages you to look toward the horizon.
+Проводник приглашает обратить взгляд к горизонту.
 
-A larger vision reveals a larger meaning.
+Более широкое видение раскрывает более глубокий смысл.
 
-Vision gives meaning its direction.
+Видение придаёт смыслу направление.
 `,
 
   3: `
-Caban guides Muluc.
+Кабан направляет Мулук.
 
-Meaning seeks discovery.
+Смысл стремится к открытию.
 
-Understanding deepens through exploration.
+Понимание становится глубже через исследование.
 
-The guide invites you beyond familiar conclusions.
+Проводник приглашает выйти за пределы привычных выводов.
 
-New experiences reveal new layers of significance.
+Новый опыт открывает новые грани значимости.
 
-Discovery gives meaning its expansion.
+Открытие расширяет смысл.
 `,
 
   4: `
-Imix guides Muluc.
+Имиш направляет Мулук.
 
-Meaning seeks possibility.
+Смысл стремится к возможности.
 
-A purpose can become too narrow.
+Предназначение может стать слишком узким.
 
-The guide reminds you that more paths exist than you currently see.
+Проводник напоминает, что существует больше путей, чем вы сейчас видите.
 
-New possibilities renew old meanings.
+Новые возможности обновляют прежний смысл.
 
-Possibility gives meaning its freedom.
+Возможность дарит смыслу свободу.
 `,
 
   5: `
-Chicchan guides Muluc.
+Чикчан направляет Мулук.
 
-Meaning seeks vitality.
+Смысл стремится к жизненной силе.
 
-Purpose becomes strongest when it is lived.
+Предназначение становится наиболее сильным, когда оно проживается.
 
-The guide asks not only what matters.
+Проводник спрашивает не только о том, что имеет значение.
 
-It asks what brings life to what matters.
+Он спрашивает и о том, что наполняет это жизнью.
 
-Vitality gives meaning its heartbeat.
+Жизненная сила дарит смыслу его сердцебиение.
 `
 
-  },
+},
 
 oc: {
 
   1: `
-Oc reflects Oc.
+Ок отражает Ок.
 
-Belonging recognizes itself.
+Принадлежность узнаёт себя.
 
-Trust grows through consistency.
+Доверие растёт благодаря постоянству.
 
-Relationships deepen through presence.
+Отношения становятся глубже благодаря присутствию.
 
-The search is not for approval.
+Поиск направлен не на одобрение.
 
-It is for connection that can endure.
+Он направлен на связь, способную выдержать время.
 
-Belonging becomes aware of its own warmth.
+Принадлежность осознаёт собственное тепло.
 `,
 
   2: `
-Ix guides Oc.
+Иш направляет Ок.
 
-Belonging seeks awareness.
+Принадлежность стремится к осознанности.
 
-Connection becomes stronger when people truly see one another.
+Связь становится крепче, когда люди по-настоящему видят друг друга.
 
-The guide encourages attention beyond appearances.
+Проводник призывает смотреть глубже внешних проявлений.
 
-Understanding grows through observation.
+Понимание рождается через наблюдение.
 
-Awareness gives belonging its depth.
+Осознанность придаёт принадлежности глубину.
 `,
 
   3: `
-Etznab guides Oc.
+Эцнаб направляет Ок.
 
-Belonging seeks truth.
+Принадлежность стремится к истине.
 
-Trust cannot flourish where illusion remains.
+Доверие не может расцвести там, где остаются иллюзии.
 
-The guide asks for honesty before comfort.
+Проводник просит честности прежде, чем комфорта.
 
-What is genuine can withstand examination.
+То, что подлинно, выдерживает любое испытание.
 
-Truth gives belonging its foundation.
+Истина даёт принадлежности её основание.
 `,
 
   4: `
-Ik guides Oc.
+Ик направляет Ок.
 
-Belonging seeks connection.
+Принадлежность стремится к связи.
 
-A bond remains alive through exchange.
+Связь остаётся живой благодаря взаимному обмену.
 
-The guide reminds you that relationships are built together.
+Проводник напоминает, что отношения создаются вместе.
 
-Understanding grows when both sides participate.
+Понимание растёт, когда участвуют обе стороны.
 
-Connection gives belonging its expression.
+Связь даёт принадлежности возможность проявиться.
 `,
 
   5: `
-Cimi guides Oc.
+Сими направляет Ок.
 
-Belonging seeks transformation.
+Принадлежность стремится к преобразованию.
 
-Every relationship changes over time.
+Любые отношения меняются со временем.
 
-Growth asks people to evolve without abandoning one another.
+Рост приглашает людей развиваться, не теряя друг друга.
 
-The guide teaches flexibility within commitment.
+Проводник учит гибкости внутри преданности.
 
-Transformation gives belonging its resilience.
+Преобразование дарит принадлежности устойчивость.
 `
 
-  },
+},
 
 chuen: {
 
   1: `
-Chuen reflects Chuen.
+Чуэн отражает Чуэн.
 
-Creativity recognizes itself.
+Творчество узнаёт себя.
 
-Imagination reveals possibilities hidden from routine perception.
+Воображение открывает возможности, скрытые от привычного восприятия.
 
-The search is not for repetition.
+Поиск направлен не на повторение.
 
-It is for expression.
+Он направлен на самовыражение.
 
-Every creation begins as a new way of seeing.
+Каждое творение начинается с нового способа видеть.
 
-Creativity becomes aware of its own freedom.
+Творчество осознаёт собственную свободу.
 `,
 
   2: `
-Men guides Chuen.
+Мен направляет Чуэн.
 
-Creativity seeks perspective.
+Творчество стремится к перспективе.
 
-Ideas grow stronger when they can be viewed from different angles.
+Идеи становятся сильнее, когда на них смотрят с разных сторон.
 
-The guide encourages distance before action.
+Проводник призывает сначала отступить, а затем действовать.
 
-A wider horizon reveals new connections.
+Более широкий горизонт раскрывает новые связи.
 
-Perspective gives creativity its range.
+Перспектива расширяет возможности творчества.
 `,
 
   3: `
-Cauac guides Chuen.
+Кауак направляет Чуэн.
 
-Creativity seeks renewal.
+Творчество стремится к обновлению.
 
-What once felt inspiring can become familiar.
+То, что когда-то вдохновляло, со временем может стать привычным.
 
-The guide arrives like a storm.
+Проводник приходит подобно буре.
 
-Old patterns loosen.
+Старые шаблоны ослабевают.
 
-New possibilities emerge.
+Возникают новые возможности.
 
-Renewal gives creativity its vitality.
+Обновление дарит творчеству жизненную силу.
 `,
 
   4: `
-Akbal guides Chuen.
+Акбаль направляет Чуэн.
 
-Creativity seeks mystery.
+Творчество стремится к тайне.
 
-Not every idea arrives fully formed.
+Не каждая идея приходит полностью сформированной.
 
-Some inspirations emerge from places beyond explanation.
+Некоторые вдохновения рождаются там, где заканчиваются объяснения.
 
-The guide teaches patience with the unknown.
+Проводник учит терпению перед неизвестным.
 
-Mystery gives creativity its depth.
+Тайна придаёт творчеству глубину.
 `,
 
   5: `
-Manik guides Chuen.
+Маник направляет Чуэн.
 
-Creativity seeks service.
+Творчество стремится к служению.
 
-Expression becomes meaningful when it benefits more than the creator.
+Самовыражение становится по-настоящему значимым, когда приносит пользу не только своему создателю.
 
-The guide asks how imagination can become useful.
+Проводник спрашивает, как воображение может стать полезным.
 
-A gift grows stronger when it is shared.
+Дар становится сильнее, когда им делятся.
 
-Service gives creativity its purpose.
+Служение придаёт творчеству предназначение.
 `
 
-  },
+},
 
 eb: {
 
   1: `
-Eb reflects Eb.
+Эб отражает Эб.
 
-Experience recognizes itself.
+Опыт узнаёт себя.
 
-Understanding grows through participation.
+Понимание рождается через участие.
 
-Some lessons cannot be learned from observation alone.
+Некоторые уроки невозможно усвоить одним лишь наблюдением.
 
-The search is not for theory.
+Поиск направлен не на теорию.
 
-It is for direct encounter.
+Он направлен на непосредственное переживание.
 
-Experience becomes aware of its own value.
+Опыт осознаёт собственную ценность.
 `,
 
   2: `
-Cib guides Eb.
+Сиб направляет Эб.
 
-Experience seeks wisdom.
+Опыт стремится к мудрости.
 
-Many events pass through a lifetime.
+Через жизнь проходит множество событий.
 
-Not all of them become lessons.
+Но не каждое из них становится уроком.
 
-The guide encourages reflection upon what has been lived.
+Проводник призывает размышлять над прожитым.
 
-Wisdom gives experience its meaning.
+Мудрость придаёт опыту смысл.
 `,
 
   3: `
-Ahau guides Eb.
+Ахау направляет Эб.
 
-Experience seeks wholeness.
+Опыт стремится к целостности.
 
-Individual moments often appear disconnected.
+Отдельные моменты часто кажутся несвязанными.
 
-The guide reveals the larger pattern.
+Проводник раскрывает более широкий узор.
 
-What once seemed separate begins to belong together.
+То, что когда-то казалось разрозненным, начинает складываться в единое целое.
 
-Wholeness gives experience its coherence.
+Целостность придаёт опыту внутреннюю связность.
 `,
 
   4: `
-Kan guides Eb.
+Кан направляет Эб.
 
-Experience seeks potential.
+Опыт стремится к потенциалу.
 
-Every journey changes what becomes possible.
+Каждое путешествие меняет то, что становится возможным.
 
-The guide reminds you that growth does not end with understanding.
+Проводник напоминает, что рост не заканчивается пониманием.
 
-New opportunities emerge from every lesson.
+Из каждого урока рождаются новые возможности.
 
-Potential gives experience its future.
+Потенциал дарит опыту будущее.
 `,
 
   5: `
-Lamat guides Eb.
+Ламат направляет Эб.
 
-Experience seeks beauty.
+Опыт стремится к красоте.
 
-Some moments remain memorable not because they were useful.
+Некоторые мгновения остаются с нами не потому, что были полезными.
 
-They remain because they were meaningful.
+Они остаются, потому что были наполнены смыслом.
 
-The guide reveals harmony hidden within the journey.
+Проводник раскрывает гармонию, скрытую внутри пути.
 
-Beauty gives experience its appreciation.
+Красота дарит опыту благодарность.
 `
 
-  },
+},
 
 ben: {
 
   1: `
-Ben reflects Ben.
+Бен отражает Бен.
 
-Vision recognizes itself.
+Видение узнаёт себя.
 
-The future begins as an image before it becomes a reality.
+Будущее сначала рождается как образ, а уже затем становится реальностью.
 
-Every direction starts with the ability to see beyond the present moment.
+Каждое направление начинается со способности видеть дальше настоящего момента.
 
-The search is not for prediction.
+Поиск направлен не на предсказание.
 
-It is for orientation.
+Он направлен на ориентир.
 
-Vision becomes aware of its own horizon.
+Видение осознаёт собственный горизонт.
 `,
 
   2: `
-Caban guides Ben.
+Кабан направляет Бен.
 
-Vision seeks discovery.
+Видение стремится к открытию.
 
-A horizon gains meaning when it can be explored.
+Горизонт обретает смысл, когда его можно исследовать.
 
-The guide invites you beyond familiar territory.
+Проводник приглашает выйти за пределы знакомого.
 
-Every new discovery reshapes what seemed possible.
+Каждое новое открытие меняет представление о возможном.
 
-Discovery gives vision its expansion.
+Открытие расширяет видение.
 `,
 
   3: `
-Imix guides Ben.
+Имиш направляет Бен.
 
-Vision seeks possibility.
+Видение стремится к возможности.
 
-The future is never limited to a single outcome.
+Будущее никогда не ограничивается единственным исходом.
 
-The guide reminds you that every path contains alternatives.
+Проводник напоминает, что каждый путь содержит новые варианты.
 
-New beginnings remain hidden within every destination.
+В каждом месте назначения скрыто новое начало.
 
-Possibility gives vision its freedom.
+Возможность дарит видению свободу.
 `,
 
   4: `
-Chicchan guides Ben.
+Чикчан направляет Бен.
 
-Vision seeks vitality.
+Видение стремится к жизненной силе.
 
-A dream remains distant until it enters life.
+Мечта остаётся далёкой, пока не войдёт в жизнь.
 
-The guide encourages movement instead of hesitation.
+Проводник призывает двигаться вместо того, чтобы колебаться.
 
-Energy transforms ideas into action.
+Энергия превращает идеи в действие.
 
-Vitality gives vision its momentum.
+Жизненная сила придаёт видению импульс.
 `,
 
   5: `
-Muluc guides Ben.
+Мулук направляет Бен.
 
-Vision seeks meaning.
+Видение стремится к смыслу.
 
-A destination becomes valuable when it serves something greater than itself.
+Цель становится ценной, когда служит чему-то большему, чем она сама.
 
-The guide asks why the journey matters.
+Проводник спрашивает, почему этот путь действительно важен.
 
-Purpose reveals which horizons are worth pursuing.
+Предназначение показывает, какие горизонты стоит преследовать.
 
-Meaning gives vision its significance.
+Смысл придаёт видению значимость.
 `
 
-  },
+},
 
 ix: {
 
   1: `
-Ix reflects Ix.
+Иш отражает Иш.
 
-Awareness recognizes itself.
+Осознанность узнаёт себя.
 
-Some truths become visible only through careful attention.
+Некоторые истины становятся видимыми только благодаря внимательному наблюдению.
 
-The search is not for control.
+Поиск направлен не на контроль.
 
-It is for understanding.
+Он направлен на понимание.
 
-Presence reveals what distraction conceals.
+Присутствие раскрывает то, что скрывает рассеянность.
 
-Awareness becomes aware of its own depth.
+Осознанность осознаёт собственную глубину.
 `,
 
   2: `
-Etznab guides Ix.
+Эцнаб направляет Иш.
 
-Awareness seeks truth.
+Осознанность стремится к истине.
 
-Observation becomes meaningful when it is honest.
+Наблюдение становится значимым только тогда, когда оно честно.
 
-The guide removes assumptions and appearances.
+Проводник освобождает взгляд от предположений и внешних впечатлений.
 
-What remains is what can genuinely be known.
+Остаётся лишь то, что действительно можно познать.
 
-Truth gives awareness its precision.
+Истина придаёт осознанности точность.
 `,
 
   3: `
-Ik guides Ix.
+Ик направляет Иш.
 
-Awareness seeks connection.
+Осознанность стремится к связи.
 
-Understanding deepens when it is shared.
+Понимание становится глубже, когда им делятся.
 
-The guide reminds you that perception grows through relationship.
+Проводник напоминает, что восприятие развивается через отношения.
 
-Different viewpoints reveal different aspects of reality.
+Разные точки зрения раскрывают разные стороны реальности.
 
-Connection gives awareness its humanity.
+Связь придаёт осознанности человечность.
 `,
 
   4: `
-Cimi guides Ix.
+Сими направляет Иш.
 
-Awareness seeks transformation.
+Осознанность стремится к преображению.
 
-What is seen clearly can no longer remain unchanged.
+То, что увидено ясно, уже невозможно оставить неизменным.
 
-The guide reveals opportunities for growth hidden within understanding.
+Проводник открывает возможности для роста, скрытые внутри понимания.
 
-Insight becomes the beginning of renewal.
+Озарение становится началом обновления.
 
-Transformation gives awareness its evolution.
+Преображение придаёт осознанности развитие.
 `,
 
   5: `
-Oc guides Ix.
+Ок направляет Иш.
 
-Awareness seeks belonging.
+Осознанность стремится к принадлежности.
 
-The deepest understanding often reveals what already connects us.
+Самое глубокое понимание часто показывает то, что уже объединяет нас.
 
-The guide reminds you that separation is rarely as complete as it appears.
+Проводник напоминает, что разделённость редко бывает такой полной, какой кажется.
 
-Recognition creates trust.
+Признание рождает доверие.
 
-Belonging gives awareness its heart.
+Принадлежность дарит осознанности сердце.
 `
 
-  },
+},
 
 men: {
 
   1: `
-Men reflects Men.
+Мен отражает Мен.
 
-Perspective recognizes itself.
+Перспектива узнаёт себя.
 
-Distance reveals patterns hidden within immediate experience.
+Расстояние позволяет увидеть закономерности, скрытые в непосредственном опыте.
 
-The search is not for escape.
+Поиск направлен не на бегство.
 
-It is for understanding.
+Он направлен на понимание.
 
-A wider view transforms confusion into context.
+Более широкий взгляд превращает замешательство в ясный контекст.
 
-Perspective becomes aware of its own horizon.
+Перспектива осознаёт собственный горизонт.
 `,
 
   2: `
-Cauac guides Men.
+Кауак направляет Мен.
 
-Perspective seeks renewal.
+Перспектива стремится к обновлению.
 
-A viewpoint can become familiar.
+Точка зрения может стать слишком привычной.
 
-The guide arrives to disrupt certainty.
+Проводник приходит, чтобы нарушить уверенность.
 
-New angles emerge where old assumptions once stood.
+Там, где прежде были лишь старые представления, появляются новые углы зрения.
 
-Renewal gives perspective its freshness.
+Обновление дарит перспективе свежесть.
 `,
 
   3: `
-Akbal guides Men.
+Акбаль направляет Мен.
 
-Perspective seeks mystery.
+Перспектива стремится к тайне.
 
-Not everything can be understood from a distance.
+Не всё можно понять, оставаясь на расстоянии.
 
-Some truths invite deeper exploration.
+Некоторые истины приглашают к более глубокому исследованию.
 
-The guide reminds you that understanding begins where certainty ends.
+Проводник напоминает, что понимание начинается там, где заканчивается уверенность.
 
-Mystery gives perspective its depth.
+Тайна придаёт перспективе глубину.
 `,
 
   4: `
-Manik guides Men.
+Маник направляет Мен.
 
-Perspective seeks service.
+Перспектива стремится к служению.
 
-Insight becomes valuable when it benefits more than the observer.
+Понимание становится ценным, когда приносит пользу не только наблюдателю.
 
-The guide asks how understanding can become contribution.
+Проводник спрашивает, как понимание может превратиться в вклад.
 
-A wider view carries responsibility.
+Более широкий взгляд несёт с собой ответственность.
 
-Service gives perspective its purpose.
+Служение придаёт перспективе предназначение.
 `,
 
   5: `
-Chuen guides Men.
+Чуэн направляет Мен.
 
-Perspective seeks creativity.
+Перспектива стремится к творчеству.
 
-Every viewpoint reveals possibilities unseen from another angle.
+Каждая точка зрения открывает возможности, невидимые с другой стороны.
 
-The guide encourages imagination beyond established conclusions.
+Проводник вдохновляет выйти за пределы привычных выводов.
 
-New perspectives create new realities.
+Новые перспективы создают новую реальность.
 
-Creativity gives perspective its freedom.
+Творчество дарит перспективе свободу.
 `
 
-  },
+},
 
 cib: {
 
   1: `
-Cib reflects Cib.
+Сиб отражает Сиб.
 
-Wisdom recognizes itself.
+Мудрость узнаёт себя.
 
-Understanding grows through reflection upon experience.
+Понимание рождается через осмысление прожитого опыта.
 
-Knowledge may be gathered.
+Знания можно собрать.
 
-Wisdom must be earned.
+Мудрость необходимо заслужить.
 
-The search is not for information.
+Поиск направлен не на информацию.
 
-It is for insight.
+Он направлен на прозрение.
 
-Wisdom becomes aware of its own depth.
+Мудрость осознаёт собственную глубину.
 `,
 
   2: `
-Ahau guides Cib.
+Ахау направляет Сиб.
 
-Wisdom seeks wholeness.
+Мудрость стремится к целостности.
 
-Individual lessons reveal only part of the picture.
+Отдельные уроки раскрывают лишь часть картины.
 
-The guide encourages integration.
+Проводник призывает к объединению.
 
-Understanding deepens when separate insights begin to connect.
+Понимание становится глубже, когда отдельные озарения начинают соединяться.
 
-Wholeness gives wisdom its completeness.
+Целостность придаёт мудрости завершённость.
 `,
 
   3: `
-Kan guides Cib.
+Кан направляет Сиб.
 
-Wisdom seeks potential.
+Мудрость стремится к потенциалу.
 
-Every lesson contains possibilities not yet explored.
+Каждый урок содержит возможности, которые ещё не раскрылись.
 
-The guide reminds you that understanding is never the end of growth.
+Проводник напоминает, что понимание никогда не становится конечной точкой роста.
 
-New opportunities emerge from what has been learned.
+Из усвоенного рождаются новые возможности.
 
-Potential gives wisdom its future.
+Потенциал дарит мудрости будущее.
 `,
 
   4: `
-Lamat guides Cib.
+Ламат направляет Сиб.
 
-Wisdom seeks beauty.
+Мудрость стремится к красоте.
 
-Truth becomes easier to recognize when expressed with harmony.
+Истину легче распознать, когда она выражена в гармонии.
 
-The guide reveals elegance hidden within complexity.
+Проводник раскрывает изящество, скрытое внутри сложности.
 
-Understanding often arrives through appreciation.
+Понимание часто приходит через способность ценить.
 
-Beauty gives wisdom its grace.
+Красота придаёт мудрости изящество.
 `,
 
   5: `
-Eb guides Cib.
+Эб направляет Сиб.
 
-Wisdom seeks experience.
+Мудрость стремится к опыту.
 
-Insight remains incomplete until it is tested in life.
+Понимание остаётся неполным, пока не будет проверено жизнью.
 
-The guide encourages participation rather than observation alone.
+Проводник призывает участвовать, а не только наблюдать.
 
-Every lesson deepens when it is lived.
+Каждый урок становится глубже, когда он прожит.
 
-Experience gives wisdom its reality.
+Опыт придаёт мудрости реальность.
 `
 
-  },
+},
 
 caban: {
 
   1: `
-Caban reflects Caban.
+Кабан отражает Кабан.
 
-Discovery recognizes itself.
+Открытие узнаёт себя.
 
-Every answer reveals another question.
+Каждый ответ рождает новый вопрос.
 
-Every horizon reveals another horizon.
+За каждым горизонтом открывается новый горизонт.
 
-The search is not for completion.
+Поиск направлен не на завершение.
 
-It is for exploration.
+Он направлен на исследование.
 
-Discovery becomes aware of its own wonder.
+Открытие осознаёт собственное чувство удивления.
 `,
 
   2: `
-Imix guides Caban.
+Имиш направляет Кабан.
 
-Discovery seeks possibility.
+Открытие стремится к возможности.
 
-The unknown invites new beginnings.
+Неизвестное приглашает к новым началам.
 
-The guide reminds you that every discovery opens doors not previously imagined.
+Проводник напоминает, что каждое открытие распахивает двери, которых прежде не существовало.
 
-What is found changes what can be found next.
+Найденное меняет то, что ещё может быть найдено.
 
-Possibility gives discovery its future.
+Возможность дарит открытию будущее.
 `,
 
   3: `
-Chicchan guides Caban.
+Чикчан направляет Кабан.
 
-Discovery seeks vitality.
+Открытие стремится к жизненной силе.
 
-Exploration becomes meaningful when it is experienced directly.
+Исследование становится значимым, когда переживается непосредственно.
 
-The guide encourages participation rather than observation alone.
+Проводник призывает участвовать, а не только наблюдать.
 
-Life reveals what theory cannot.
+Жизнь раскрывает то, чего теория показать не может.
 
-Vitality gives discovery its excitement.
+Жизненная сила дарит открытию его восторг.
 `,
 
   4: `
-Muluc guides Caban.
+Мулук направляет Кабан.
 
-Discovery seeks meaning.
+Открытие стремится к смыслу.
 
-Not every finding carries equal significance.
+Не каждое открытие одинаково важно.
 
-The guide asks what truly matters within what has been uncovered.
+Проводник спрашивает, что действительно имеет значение среди найденного.
 
-Understanding grows when knowledge becomes purpose.
+Понимание становится глубже, когда знание превращается в предназначение.
 
-Meaning gives discovery its depth.
+Смысл придаёт открытию глубину.
 `,
 
   5: `
-Ben guides Caban.
+Бен направляет Кабан.
 
-Discovery seeks vision.
+Открытие стремится к видению.
 
-A new landscape changes the horizon.
+Новый ландшафт меняет горизонт.
 
-The guide reveals directions that could not be seen before.
+Проводник открывает направления, которые раньше были невидимы.
 
-Every discovery reshapes the future.
+Каждое открытие меняет будущее.
 
-Vision gives discovery its destination.
+Видение дарит открытию его направление.
 `
 
-  },
+},
 
 etznab: {
 
   1: `
-Etznab reflects Etznab.
+Эцнаб отражает Эцнаб.
 
-Truth recognizes itself.
+Истина узнаёт себя.
 
-Clarity reveals what was already present.
+Ясность раскрывает то, что всегда было рядом.
 
-Illusion fades when examined honestly.
+Иллюзия исчезает перед честным взглядом.
 
-The search is not for comfort.
+Поиск направлен не на утешение.
 
-It is for what remains when appearances fall away.
+Он направлен на то, что остаётся, когда исчезают видимости.
 
-Truth becomes aware of its own light.
+Истина осознаёт собственный свет.
 `,
 
   2: `
-Ik guides Etznab.
+Ик направляет Эцнаб.
 
-Truth seeks connection.
+Истина стремится к связи.
 
-Understanding grows stronger when it can be shared.
+Понимание становится сильнее, когда им можно поделиться.
 
-The guide reminds you that clarity does not need isolation.
+Проводник напоминает, что ясность не требует одиночества.
 
-What is real becomes more meaningful when it builds bridges.
+Подлинное становится ещё значимее, когда соединяет людей.
 
-Connection gives truth its voice.
+Связь дарит истине голос.
 `,
 
   3: `
-Cimi guides Etznab.
+Сими направляет Эцнаб.
 
-Truth seeks transformation.
+Истина стремится к преображению.
 
-A genuine insight changes the one who receives it.
+Подлинное озарение меняет того, кто его принимает.
 
-The guide reveals that understanding carries consequences.
+Проводник показывает, что понимание всегда имеет последствия.
 
-What is seen clearly can no longer remain unchanged.
+То, что увидено ясно, уже невозможно оставить прежним.
 
-Transformation gives truth its power.
+Преображение дарит истине силу.
 `,
 
   4: `
-Oc guides Etznab.
+Ок направляет Эцнаб.
 
-Truth seeks belonging.
+Истина стремится к принадлежности.
 
-Honesty creates trust.
+Честность рождает доверие.
 
-The guide reminds you that authenticity strengthens relationships.
+Проводник напоминает, что искренность укрепляет отношения.
 
-What is real can withstand closeness.
+Подлинное выдерживает близость.
 
-Belonging gives truth its warmth.
+Принадлежность дарит истине тепло.
 `,
 
   5: `
-Ix guides Etznab.
+Иш направляет Эцнаб.
 
-Truth seeks awareness.
+Истина стремится к осознанности.
 
-Clarity begins with attention.
+Ясность начинается с внимания.
 
-The guide encourages observation before conclusion.
+Проводник призывает сначала наблюдать, а уже потом делать выводы.
 
-What is overlooked often contains what is most important.
+То, что остаётся незамеченным, часто оказывается самым важным.
 
-Awareness gives truth its depth.
+Осознанность придаёт истине глубину.
 `
 
-  },
+},
 
 cauac: {
 
   1: `
-Cauac reflects Cauac.
+Кауак отражает Кауак.
 
-Renewal recognizes itself.
+Обновление узнаёт себя.
 
-Change clears space for what wishes to emerge.
+Перемены освобождают место для того, что стремится проявиться.
 
-The old does not disappear without reason.
+Старое не исчезает без причины.
 
-The new does not arrive without invitation.
+Новое не приходит без приглашения.
 
-The search is not for stability.
+Поиск направлен не на стабильность.
 
-It is for growth.
+Он направлен на рост.
 
-Renewal becomes aware of its own power.
+Обновление осознаёт собственную силу.
 `,
 
   2: `
-Akbal guides Cauac.
+Акбаль направляет Кауак.
 
-Renewal seeks mystery.
+Обновление стремится к тайне.
 
-Not every transformation begins with understanding.
+Не каждое преображение начинается с понимания.
 
-The guide teaches patience with uncertainty.
+Проводник учит терпению перед неизвестностью.
 
-What appears chaotic may contain hidden meaning.
+То, что кажется хаосом, может скрывать глубокий смысл.
 
-Mystery gives renewal its depth.
+Тайна придаёт обновлению глубину.
 `,
 
   3: `
-Manik guides Cauac.
+Маник направляет Кауак.
 
-Renewal seeks service.
+Обновление стремится к служению.
 
-Change becomes meaningful when it benefits more than yourself.
+Перемены обретают смысл, когда приносят пользу не только вам.
 
-The guide asks how transformation can become contribution.
+Проводник спрашивает, как преображение может стать вкладом.
 
-Growth reaches its fullest expression when it is shared.
+Рост достигает своей полноты, когда им делятся.
 
-Service gives renewal its purpose.
+Служение придаёт обновлению предназначение.
 `,
 
   4: `
-Chuen guides Cauac.
+Чуэн направляет Кауак.
 
-Renewal seeks creativity.
+Обновление стремится к творчеству.
 
-The future cannot be built from old patterns alone.
+Будущее невозможно построить, опираясь лишь на старые шаблоны.
 
-The guide encourages experimentation and imagination.
+Проводник вдохновляет на эксперимент и воображение.
 
-New possibilities emerge when familiar boundaries dissolve.
+Когда привычные границы растворяются, рождаются новые возможности.
 
-Creativity gives renewal its freedom.
+Творчество дарит обновлению свободу.
 `,
 
   5: `
-Men guides Cauac.
+Мен направляет Кауак.
 
-Renewal seeks perspective.
+Обновление стремится к перспективе.
 
-A storm appears differently when viewed from a greater height.
+Буря выглядит иначе, если смотреть на неё с большей высоты.
 
-The guide reveals patterns hidden within disruption.
+Проводник раскрывает закономерности, скрытые внутри потрясений.
 
-What once seemed destructive may become transformative.
+То, что казалось разрушением, может оказаться преображением.
 
-Perspective gives renewal its wisdom.
+Перспектива дарит обновлению мудрость.
 `
 
-  },
+},
 
 ahau: {
 
   1: `
-Ahau reflects Ahau.
+Ахау отражает Ахау.
 
-Wholeness recognizes itself.
+Целостность узнаёт себя.
 
-Completion is not an ending.
+Завершение — это не конец.
 
-It is the moment when all parts become visible together.
+Это мгновение, когда все части становятся видимыми как единое целое.
 
-The search is not for perfection.
+Поиск направлен не на совершенство.
 
-It is for integration.
+Он направлен на единение.
 
-Wholeness becomes aware of its own light.
+Целостность осознаёт собственный свет.
 `,
 
   2: `
-Kan guides Ahau.
+Кан направляет Ахау.
 
-Wholeness seeks potential.
+Целостность стремится к потенциалу.
 
-Every completion contains a beginning.
+Каждое завершение содержит новое начало.
 
-The guide reminds you that no cycle truly ends.
+Проводник напоминает, что ни один цикл не заканчивается окончательно.
 
-New possibilities emerge from every achievement.
+Из каждого достижения рождаются новые возможности.
 
-Potential gives wholeness its renewal.
+Потенциал дарит целостности обновление.
 `,
 
   3: `
-Lamat guides Ahau.
+Ламат направляет Ахау.
 
-Wholeness seeks beauty.
+Целостность стремится к красоте.
 
-Harmony appears when every part is allowed its place.
+Гармония возникает тогда, когда каждой части позволено занять своё место.
 
-The guide reveals elegance within complexity.
+Проводник раскрывает красоту, скрытую внутри сложности.
 
-What is complete often feels beautiful because nothing essential is missing.
+То, что является целостным, часто кажется прекрасным, потому что в нём нет ничего лишнего или недостающего.
 
-Beauty gives wholeness its radiance.
+Красота дарит целостности сияние.
 `,
 
   4: `
-Eb guides Ahau.
+Эб направляет Ахау.
 
-Wholeness seeks experience.
+Целостность стремится к опыту.
 
-Understanding grows through participation in life.
+Понимание становится глубже через участие в жизни.
 
-The guide reminds you that wisdom cannot remain separate from reality.
+Проводник напоминает, что мудрость не может существовать отдельно от реальности.
 
-What is integrated must also be lived.
+То, что объединено внутри, должно быть прожито вовне.
 
-Experience gives wholeness its humanity.
+Опыт придаёт целостности человечность.
 `,
 
   5: `
-Cib guides Ahau.
+Сиб направляет Ахау.
 
-Wholeness seeks wisdom.
+Целостность стремится к мудрости.
 
-The larger picture becomes clearer through reflection.
+Общая картина становится яснее благодаря размышлению.
 
-The guide reveals meaning hidden within the journey.
+Проводник раскрывает смысл, скрытый внутри пути.
 
-Every lesson contributes to the whole.
+Каждый урок становится частью целого.
 
-Wisdom gives wholeness its understanding.
+Мудрость дарит целостности понимание.
 `
 
-  }
+}
 
 };
