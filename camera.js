@@ -7,6 +7,9 @@ const Camera = {
 
         const app = document.getElementById("app");
 
+	const background =
+    	    document.getElementById("appBackground");
+
         if(!app){
             console.error("Camera: #app kon niet worden gevonden.");
             return;
@@ -22,6 +25,8 @@ const Camera = {
             viewportHeight > viewportWidth;
 
         if(isPortrait){
+
+	    appBackground.src = "backgrounds/sun_mobile.png";
 
             /*
              * Na rotatie wordt de virtuele hoogte de zichtbare breedte
@@ -50,9 +55,11 @@ const Camera = {
                 translate(${offsetX + rotatedWidth}px, ${offsetY}px)
                 rotate(90deg)
                 scale(${scale})
-            `;
+		`;
 
         } else {
+
+	    appBackground.src = "backgrounds/sun.png";
 
             const scale = Math.min(
                 viewportWidth / this.baseWidth,
@@ -76,6 +83,7 @@ const Camera = {
             app.style.transform = `
                 translate(${offsetX}px, ${offsetY}px)
                 scale(${scale})
+
             `;
         }
     }
