@@ -1,245 +1,201 @@
 const svadhisthanaPages_tr = {
 
 1: `
-Chuen appears as the challenge of Imix.
+İfade, Kaynağın meydan okuması olarak ortaya çıkar.
 
-Beginnings require flexibility.
+<br><br>
 
-New ideas become stronger when they are allowed to evolve.
-
-What starts as inspiration must eventually learn to adapt.
-
-Growth often begins when certainty becomes play.
+Her köken ifadeye dönüşmez.
+Bir yerde başlayan ya da bir şeyden doğan şey, kendini ifade edeceği bir biçim kazanmadan da varlığını sürdürebilir.
+Bunu, içinde bir şey zaten mevcut olduğu hâlde henüz sözcüklere, bir eyleme ya da başka bir ifade biçimine dönüşmediğinde fark edebilirsin.
 `,
 
 2: `
-Eb appears as the challenge of Ik.
+Yaşam Yolu, Bilginin meydan okuması olarak ortaya çıkar.
 
-Communication becomes meaningful when it is grounded in experience.
+<br><br>
 
-Words alone are rarely enough.
-
-The path asks you to walk what you understand.
-
-Wisdom grows through participation.
+Her bilgi bir yaşam yolunu belirlemez.
+Bilgi bir şeyi betimleyebilir, açıklayabilir ya da anlaşılır hâle getirebilir; ancak bu, bir gelişimin zaman içinde nasıl ilerleyeceğini belirlediği anlamına gelmez.
+Kendin ve içinde bulunduğun koşullar hakkında çok şey bilebilirsin, ancak yaşam yolun gerçekten katettiğin süreç içinde görünür hâle gelir.
 `,
 
 3: `
-Ben appears as the challenge of Akbal.
+Yapı, Hayal Gücünün meydan okuması olarak ortaya çıkar.
 
-Dreams seek direction.
+<br><br>
 
-The unknown becomes easier to navigate when guided by vision.
-
-Not every mystery needs solving.
-
-But every journey benefits from purpose.
+Hayal gücünde ortaya çıkan her şey yapılandırılamaz.
+Hayal gücü imgeler, olasılıklar ve bağlantılar oluşturabilir; ancak bunlar kendiliğinden sabit ya da düzenli bir bütün hâline gelmek zorunda değildir.
+Bunu, içinde çok canlı ya da anlamlı olan bir şeyin, onu tamamen düzenlemeye çalıştığında biçiminin bir kısmını kaybedebildiğinde fark edebilirsin.
 `,
 
 4: `
-Ix appears as the challenge of Kan.
+Farkındalık, Potansiyelin meydan okuması olarak ortaya çıkar.
 
-Growth is not only external.
+<br><br>
 
-Inner awareness creates balance.
-
-Potential flourishes when reflection accompanies development.
-
-The strongest roots often grow unseen.
+Her potansiyel bilinçli olarak deneyimlenmez.
+Olasılıklar, o anda algılanmadan ya da bir olasılık olarak fark edilmeden de mevcut olabilir.
+Bunu, daha sonra geçmişte farkında olduğundan daha fazla olasılığın zaten mevcut olduğunu keşfettiğinde fark edebilirsin.
 `,
 
 5: `
-Men appears as the challenge of Chicchan.
+Bakış Açısı, Enerjinin meydan okuması olarak ortaya çıkar.
 
-Passion gains strength through perspective.
+<br><br>
 
-Energy without direction can become scattered.
-
-Step back occasionally.
-
-A wider view reveals a wiser path.
+Aynı enerji farklı bakış açılarından görülebilir.
+Kuvvet, hareket ya da değişim olarak mevcut olan şey, hangi bakış açısından algılandığına bağlı olarak farklı biçimlerde yorumlanabilir.
+Bunu, aynı kuvvet, hareket ya da yoğunluk başka bir bakış açısından farklı bir anlam kazanırken enerjinin kendisi zorunlu olarak değişmediğinde fark edebilirsin.
 `,
 
 6: `
-Cib appears as the challenge of Cimi.
+İz, Sınırların meydan okuması olarak ortaya çıkar.
 
-Transformation becomes meaningful through understanding.
+<br><br>
 
-Change alone is not enough.
-
-Lessons emerge when experience becomes wisdom.
-
-Growth deepens through reflection.
+Sınırlar her izi engellemez.
+Bir sınır, bir şeyin nerede sona erdiğini ya da daha ileri gitmediğini belirleyebilir; buna rağmen sonuçlar, izlenimler ya da değişimler o sınırın ötesinde kalabilir.
+Bunu, bir şey açıkça sona ermiş olsa bile ondan bir şeylerin daha sonra gelenlerde hâlâ bulunabildiğinde fark edebilirsin.
 `,
 
 7: `
-Caban appears as the challenge of Manik.
+Tezahür, Etkileşimin meydan okuması olarak ortaya çıkar.
 
-Service benefits from curiosity.
+<br><br>
 
-Helping others does not require having all the answers.
-
-Questions often create more growth than solutions.
-
-Remain open to discovery.
+Etkileşim her zaman tezahüre yol açmaz.
+Karşılıklı etki, ayrı bir olgu ya da somut bir sonuç ortaya çıkmadan da gerçekleşebilir.
+Bunu, bir karşılaşma ya da alışveriş bir şeyi harekete geçirdiği hâlde, sonrasında bunun sonucu olarak açıkça mevcut olan ayrı bir şey ortaya çıkmadığında fark edebilirsin.
 `,
-
 8: `
-Etznab appears as the challenge of Lamat.
+Hakikat, Değerin meydan okuması olarak ortaya çıkar.
 
-Beauty becomes stronger when paired with truth.
+<br><br>
 
-Not everything pleasing is beneficial.
-
-Clarity refines appreciation.
-
-Honesty protects what is genuinely valuable.
+Değerli olan her şeyin doğru olması gerekmez.
+Bir şey, onunla ilgili kabul edilenler gerçeklikle örtüşmese bile anlam, önem ya da değer taşıyabilir.
+Bunu, bir hikâye, inanç ya da anı senin için çok şey ifade ederken içindeki her şeyin gerçeklikle örtüşmediği durumlarda fark edebilirsin.
 `,
 
 9: `
-Cauac appears as the challenge of Muluc.
+Bütünlük, Akışın meydan okuması olarak ortaya çıkar.
 
-Meaning sometimes arrives through disruption.
+<br><br>
 
-Periods of uncertainty can reveal hidden strengths.
-
-Trust that renewal often follows turbulence.
-
-Transformation clears space for growth.
+Akış bütünlüğü garanti etmez.
+Bir şey aktarılabilir, taşınabilir ya da ilerleyebilir; ancak bunun sonucunda ayrı parçaların birbirine bağlı bir bütün oluşturması gerekmez.
+Bunu, sürekli hareket ya da alışveriş olduğu hâlde bunların içinde henüz belirgin bir bütünlük oluşmadığında fark edebilirsin.
 `,
 
 10: `
-Ahau appears as the challenge of Oc.
+Öz, İlişkinin meydan okuması olarak ortaya çıkar.
 
-Loyalty is strengthened through perspective.
+<br><br>
 
-Devotion should not become limitation.
-
-Love grows when it includes both commitment and wisdom.
-
-Wholeness expands every relationship.
+Her ilişki öze dokunmaz.
+Bir şey başka bir şeyle bağlantılı olabilir; ancak bu bağlantı, onu özünde kendisi yapan şeyi belirlemek zorunda değildir.
+Bunu, bir ilişki değiştiğinde ya da ortadan kalktığında, bir şeyin özünde ne olduğunun bunun sonucunda zorunlu olarak değişmediğini gördüğünde fark edebilirsin.
 `,
 
 11: `
-Imix appears as the challenge of Chuen.
+Kaynak, İfadenin meydan okuması olarak ortaya çıkar.
 
-Creativity benefits from fresh beginnings.
+<br><br>
 
-Not every idea needs refinement.
-
-Sometimes the answer is simply to start.
-
-Potential appears before perfection.
+Her köken bir ifadeden çıkarılamaz.
+İfade edilen şey açıkça fark edilebilir olsa da nereden doğduğunu bütünüyle ortaya koymayabilir.
+Bunu, birinin sözlerini, davranışlarını ya da eserini gördüğünde, o ifadenin başlangıçta nereden doğduğunu kesin olarak belirleyemediğinde fark edebilirsin.
 `,
 
 12: `
-Ik appears as the challenge of Eb.
+Bilgi, Yaşam Yolunun meydan okuması olarak ortaya çıkar.
 
-Experience becomes valuable when shared.
+<br><br>
 
-Learning is strengthened through communication.
-
-Understanding grows when knowledge is exchanged.
-
-Connection transforms insight.
+Bir yaşam yolu bilgiden bütünüyle çıkarılamaz.
+Bilgi, kat edilmiş bir yolun bazı bölümlerini betimleyebilir; ancak onun bütün seyrini zorunlu olarak kapsamaz.
+Bunu, geçmişin hakkındaki gerçekler yolun hakkında çok şey anlattığı hâlde, o yolun gerçekte nasıl geliştiğine dair her şeyi aktarmadığında fark edebilirsin.
 `,
 
 13: `
-Akbal appears as the challenge of Ben.
+Hayal Gücü, Yapının meydan okuması olarak ortaya çıkar.
 
-Vision requires mystery.
+<br><br>
 
-Not everything important can be planned.
-
-Allow room for the unknown.
-
-Some discoveries arrive only when control relaxes.
+Yapılandırılmış olan her şey hayal gücüyle bütünüyle kavranamaz.
+Bir yapı, parçalar arasındaki ilişkilerden oluşabilir; ancak onun zihindeki tasviri eksik, basitleştirilmiş ya da farklı biçimde şekillenmiş olabilir.
+Bunu, bir şeyin belirli bir yapıya göre kurulmuş olduğunu anladığın hâlde onun bütün düzenini zihninde açıkça canlandıramadığında fark edebilirsin.
 `,
 
 14: `
-Kan appears as the challenge of Ix.
+Potansiyel, Farkındalığın meydan okuması olarak ortaya çıkar.
 
-Awareness seeks expression.
+<br><br>
 
-Insight becomes meaningful when it influences growth.
-
-Reflection is valuable.
-
-Application completes the process.
-
-Potential emerges through action.
+Bilinçli olarak deneyimlenen her şey potansiyelin tamamını ortaya çıkarmaz.
+Belirli bir anda algıladığın ya da bir durum hakkında fark ettiğin şey, o durumda mümkün olanların yalnızca bir bölümünü kapsayabilir.
+Bunu, bir durumu açıkça kavradığını düşündüğün hâlde daha sonra o sırada henüz farkındalığına girmemiş olasılıkların mevcut olduğunu keşfettiğinde fark edebilirsin.
 `,
-
 15: `
-Chicchan appears as the challenge of Men.
+Enerji, Bakış Açısının meydan okuması olarak ortaya çıkar.
 
-Perspective must eventually return to life itself.
+<br><br>
 
-Do not remain above experience.
-
-Engage with it.
-
-Vitality provides the fuel for understanding.
+Bakış açısındaki bir değişim, mevcut enerjiyi zorunlu olarak değiştirmez.
+Farklı bir bakış biçimi, kuvvetin, hareketin ya da değişimin nasıl deneyimlendiğini değiştirebilir; ancak mevcut enerjinin kendisi bununla birlikte zorunlu olarak değişmez.
+Bunu, bir duruma farklı bakmaya başladığın hâlde aynı gerilim, hareket ya da yoğunluk hâlâ mevcut olduğunda fark edebilirsin.
 `,
 
 16: `
-Cimi appears as the challenge of Cib.
+Sınırlar, İzin meydan okuması olarak ortaya çıkar.
 
-Wisdom continues to evolve.
+<br><br>
 
-Old conclusions may need renewal.
-
-Allow understanding to transform.
-
-Growth never truly ends.
+Her iz, ortaya çıktığı yerle sınırlandırılamaz.
+Sonuçlar, izlenimler ya da değişimler başlangıçtaki sınırın ötesinde de bulunabilir.
+Bunu, bir şey tek bir yerde ya da belirli bir anda gerçekleştiği hâlde izlerinin daha sonra başka yerlerde de bulunabildiğinde fark edebilirsin.
 `,
 
 17: `
-Manik appears as the challenge of Caban.
+Etkileşim, Tezahürün meydan okuması olarak ortaya çıkar.
 
-Discovery benefits from responsibility.
+<br><br>
 
-Exploration becomes meaningful when it serves something larger.
-
-Knowledge gains value through application.
-
-Service grounds insight.
+Her tezahür, çevresindeki etkileşimleri görünür kılmaz.
+Somut bir olgu olarak mevcut olan şey fark edilebilirken, onunla bağlantılı tüm karşılıklı etkiler görünür olmayabilir.
+Bunu, ortaya çıkan şeyi gördüğün hâlde hangi karşılaşmaların, alışverişlerin ya da etkilerin bunda rol oynadığını ondan bütünüyle çıkaramadığında fark edebilirsin.
 `,
 
 18: `
-Lamat appears as the challenge of Etznab.
+Değer, Hakikatin meydan okuması olarak ortaya çıkar.
 
-Truth does not need to become harsh.
+<br><br>
 
-Beauty remains important.
-
-Clarity is strongest when accompanied by grace.
-
-Balance strengthens honesty.
+Her hakikat kendi başına değer taşımaz.
+Bir şeyin gerçeklikle örtüşmesi, ona hangi anlamın ya da önemin verileceğini tek başına belirlemez.
+Bunu, bir şey tartışmasız doğru olduğu hâlde belirli bir durumda çok az anlam ya da önem taşıdığında fark edebilirsin.
 `,
 
 19: `
-Muluc appears as the challenge of Cauac.
+Akış, Bütünlüğün meydan okuması olarak ortaya çıkar.
 
-Renewal seeks purpose.
+<br><br>
 
-Transformation becomes sustainable when connected to meaning.
-
-Look beyond the storm.
-
-The deeper lesson often appears afterward.
+Bütünlük her zaman akış gerektirmez.
+Parçalar, aralarında sürekli olarak bir şey aktarılmadan, taşınmadan ya da alışveriş yapılmadan da birbirine bağlı bir bütün oluşturabilir.
+Bunu, farklı parçalar açıkça birbiriyle bağlantılı olduğu hâlde o anda aralarında neredeyse hiç hareket ya da alışveriş olmadığında fark edebilirsin.
 `,
 
 20: `
-Oc appears as the challenge of Ahau.
+İlişki, Özün meydan okuması olarak ortaya çıkar.
 
-Wholeness includes relationship.
+<br><br>
 
-Wisdom grows through loyalty, trust and shared experience.
-
-No journey is completed alone.
-
-Connection remains one of life's greatest teachers.
+Bir şeyin özü, ilişkilerinden bütünüyle çıkarılamaz.
+Bir şeyin diğer şeylerle nasıl bağlantılı olduğu, onun bağlamı ve ilişkileri hakkında çok şey gösterebilir; ancak onu özünde kendisi yapan şeyi bütünüyle belirlemez.
+Bunu, bir şeyin çevresindeki tüm ilişkileri bildiğin hâlde onun özünde ne olduğunu hâlâ bütünüyle bilmediğinde fark edebilirsin.
 `
 
 };

@@ -1,285 +1,301 @@
 const vishuddhaPages_tr = {
 
 1: `
-Ahau reveals the hidden desire of Imix.
+Kaynak gizliden Özü arzular.
 
-Every beginning seeks wholeness.
+<br><br>
 
-New possibilities are exciting, but beneath them lies a deeper wish.
+Kaynak insanları yalnızca yeni bir şeyin ortaya çıkmasını sağlamak istemez, aynı zamanda ortaya çıkardıkları şeyin gerçek bir anlam kazanmasını ve kendi özüyle var olmasını da arzular.
 
-You do not simply seek new experiences.
+Fikirlerin, olasılıkların veya gelişmelerin başlangıcını oluşturma eğilimlerinin altında, ilk başlangıcın ötesine uzanan özsel ve anlamlı bir şey ortaya çıkarma arzusu yatar.
 
-You seek understanding.
+Bu, özgün ve anlamlı bir şey ortaya çıkarma yönünde güçlü bir ihtiyaç olarak kendini gösterebilir; ancak başlattıkları şey zamanla başlangıçta hayal ettiklerinden farklı bir biçim veya anlam kazandığında hayal kırıklığına da yol açabilir.
 
-The desire behind every beginning is completeness.
+<br><br>
+
 `,
 
 2: `
-Cauac reveals the hidden desire of Ik.
+Bilgi gizliden Bütünlüğü arzular.
 
-Communication ultimately seeks renewal.
+<br><br>
 
-Words become meaningful when they create change.
+Bilgi insanları yalnızca bilmek ve anlamak istemez, aynı zamanda ayrı bilgilerin birbirleriyle nasıl bağlantılı olduğunu da görmek ister.
 
-You do not speak merely to exchange information.
+Örüntüleri fark etme, bilgi toplama ve içgörülerini paylaşma ihtiyaçlarının altında, ayrı bilgileri anlaşılır bir bütün hâline getirme arzusu yatar.
 
-You seek transformation.
+Bu, bağlantıları keşfetme ve anlam bulma yönünde güçlü bir ihtiyaç olarak kendini gösterebilir; ancak bütün parçaların birbirleriyle nasıl bağlantılı olduğu henüz açık değilken bir konuyu bırakmakta zorlanmalarına da yol açabilir.
 
-The desire behind communication is growth.
+<br><br>
+
 `,
 
 3: `
-Etznab reveals the hidden desire of Akbal.
+Hayal Gücü gizliden Hakikati arzular.
 
-Mystery seeks truth.
+<br><br>
 
-The unknown is attractive because something wishes to be revealed.
+Hayal Gücü insanları yalnızca yeni imgeler, fikirler ve anlamlar oluşturmak istemez, aynı zamanda iç dünyalarının gerçeklikle bağ kurmasını da arzular.
 
-You do not seek darkness for its own sake.
+Zengin iç dünyalarının altında, hayal ettikleri, hissettikleri veya yarattıkları şeylerin bir şekilde gerçeklikle örtüştüğünü hissetme ihtiyacı yatar.
 
-You seek clarity hidden within it.
+Bu, fikirlerini gerçeklikle sınama yönünde güçlü bir ihtiyaç olarak kendini gösterebilir; ancak içlerindeki tasvir ile gerçeklik birbiriyle örtüşmediğinde kuşkuya da yol açabilir.
 
-The desire behind mystery is understanding.
+<br><br>
+
 `,
 
 4: `
-Caban reveals the hidden desire of Kan.
+Potansiyel gizliden Tezahürü arzular.
 
-Growth seeks discovery.
+<br><br>
 
-Potential longs to become experience.
+Potansiyel insanları yalnızca olasılıkları görmek istemez, aynı zamanda bu olasılıkların sonunda gerçeklikte görünür hâle gelmesini de arzular.
 
-You do not grow merely to become larger.
+Nelerin ortaya çıkabileceğine yönelik duyarlılıklarının altında, olasılıkların görünür bir biçim kazanmasını deneyimleme ihtiyacı yatar.
 
-You grow to explore what is possible.
+Bu, büyüme ve gelişmenin gerçeğe dönüşmesini görme yönünde güçlü bir ihtiyaç olarak kendini gösterebilir; ancak olasılıklar hiçbir zaman ifade bulmadan yalnızca olasılık olarak kaldığında hayal kırıklığına da yol açabilir.
 
-The desire behind growth is exploration.
+<br><br>
+
 `,
 
 5: `
-Cib reveals the hidden desire of Chicchan.
+Enerji gizliden İzi arzular.
 
-Vitality seeks wisdom.
+<br><br>
 
-Experience alone is never enough.
+Enerji insanları yalnızca hareket ve değişim yaratmak istemez, aynı zamanda harcadıkları enerjinin geride bir şey bırakmasını da arzular.
 
-Every passion carries a lesson.
+Doğal hareketliliklerinin ve hareket ihtiyaçlarının altında, harekete geçirdikleri şeyin kalıcı bir iz bıraktığını hissetme arzusu yatar.
 
-The desire behind intensity is understanding.
+Bu, fark edilir bir etki bırakma yönünde güçlü bir ihtiyaç olarak kendini gösterebilir; ancak çok fazla enerji harcandığı hâlde sonrasında hissedilir bir şey kalmadığında hayal kırıklığına da yol açabilir.
 
-Life wishes to teach through feeling.
+<br><br>
+
 `,
 
 6: `
-Men reveals the hidden desire of Cimi.
+Sınırlar gizliden Bakış Açısını arzular.
 
-Transformation seeks perspective.
+<br><br>
 
-Change becomes easier when viewed from a greater height.
+Sınırlar insanları yalnızca bir şeyin nerede sona erdiğini fark etmek istemez, aynı zamanda bu sınırın ötesinde nelerin bulunabileceğini de görmek ister.
 
-You do not change simply to leave something behind.
+Belirgin sınırlara duydukları ihtiyacın altında, durumlara daha geniş bir bakış açısından bakma arzusu yatar.
 
-You change to see further.
+Bu, o anda sınırlı görünen şeylerin ötesine bakma yönünde güçlü bir ihtiyaç olarak kendini gösterebilir; ancak farklı bir bakış açısı alışılmış sınırları sorguladığında belirsizlik de yaratabilir.
 
-The desire behind transformation is vision.
+<br><br>
+
 `,
 
 7: `
-Ix reveals the hidden desire of Manik.
+Etkileşim gizliden Bilinci arzular.
 
-Service seeks awareness.
+<br><br>
 
-Helping others eventually becomes a path of self-discovery.
+Etkileşim insanları yalnızca karşılıklı alışverişi deneyimlemek istemez, aynı zamanda bu etkileşimin içinde neler olduğunun farkında olmayı da arzular.
 
-You do not serve merely to give.
+Temas, alışveriş ve karşılıklı etki ihtiyaçlarının altında, karşılaşmaların kendilerinde ve başkalarında neler meydana getirdiğini deneyimleme arzusu yatar.
 
-You serve to understand.
+Bu, anlamlı etkileşimlere yönelik güçlü bir ihtiyaç olarak kendini gösterebilir; ancak çok fazla etkileşim yaşandığı hâlde bunun gerçekte neye yol açtığı belirsiz kaldığında huzursuzluk da yaratabilir.
 
-The desire behind service is consciousness.
+<br><br>
+
 `,
-
 8: `
-Ben reveals the hidden desire of Lamat.
+Değer gizliden Yapıyı arzular.
 
-Beauty seeks purpose.
+<br><br>
 
-Harmony wishes to become something lasting.
+Değer insanları yalnızca neyin anlamlı olduğunu fark etmek istemez, aynı zamanda değer verdikleri şeylerin açık ve kalıcı bir yere sahip olmasını da arzular.
 
-You do not appreciate beauty only to admire it.
+Anlam, nitelik ve önem duygularının altında, değerli olanın korunabileceği ve desteklenebileceği bir biçime duyulan ihtiyaç yatar.
 
-You wish to build with it.
+Bu, anlamlı şeylere yaşamlarında sağlam bir yer verme yönünde güçlü bir ihtiyaç olarak kendini gösterebilir; ancak mevcut yapılar onlar için gerçekten değerli olanı artık desteklemediğinde zorlanmalarına da yol açabilir.
 
-The desire behind beauty is creation.
+<br><br>
+
 `,
 
 9: `
-Eb reveals the hidden desire of Muluc.
+Akış gizliden Yaşam Yolunu arzular.
 
-Meaning seeks experience.
+<br><br>
 
-Purpose becomes real only when lived.
+Akış insanları yalnızca gelişen şeylerle birlikte hareket etmek istemez, aynı zamanda bütün bu hareketin bir yere varmasını da arzular.
 
-You do not seek meaning merely to possess it.
+Duyguların, fikirlerin ve gelişmelerin doğal biçimde akmasına izin verme eğilimlerinin altında, geçip gidenlerin daha büyük bir yolculuğun parçası olduğunu hissetme ihtiyacı yatar.
 
-You seek to walk it.
+Bu, yürüdükleri yolda anlam hissetme yönünde güçlü bir ihtiyaç olarak kendini gösterebilir; ancak yaşam değişmeye devam ederken bu hareketin onları nereye götürdüğü belirsiz kaldığında huzursuzluğa da yol açabilir.
 
-The desire behind meaning is participation.
+<br><br>
+
 `,
 
 10: `
-Chuen reveals the hidden desire of Oc.
+İlişki gizliden İfadeyi arzular.
 
-Loyalty seeks joy.
+<br><br>
 
-Connection flourishes through creativity and play.
+İlişki insanları yalnızca bağlılık hissetmek istemez, aynı zamanda bu bağlılığın ifade edilmesini de arzular.
 
-You do not remain devoted only out of duty.
+Güven, yakınlık ve bağlılık ihtiyaçlarının altında, insanlar arasında var olan şeyin görünür, hissedilir veya paylaşılabilir hâle gelmesini deneyimleme arzusu yatar.
 
-You remain because life becomes richer together.
+Bu, aralarındaki bağı ifade etme ve karşılığını görme yönünde güçlü bir ihtiyaç olarak kendini gösterebilir; ancak bir ilişki var olduğu hâlde bunun diğer kişi için ne anlama geldiği açıkça ifade edilmediğinde belirsizlik de yaratabilir.
 
-The desire behind loyalty is shared happiness.
+<br><br>
+
 `,
 
 11: `
-Oc reveals the hidden desire of Chuen.
+İfade gizliden İlişkiyi arzular.
 
-Creativity seeks connection.
+<br><br>
 
-Ideas become alive when shared.
+İfade insanları yalnızca içlerinde yaşayanı dışa vurmak istemez, aynı zamanda ifadelerinin gerçek bir bağ kurmasını da arzular.
 
-You do not create merely to express yourself.
+Fikirlerini, duygularını ve deneyimlerini dışa vurma ihtiyaçlarının altında, ifade ettikleri şey aracılığıyla birine veya bir şeye ulaşma arzusu yatar.
 
-You create to build relationships.
+Bu, kendilerini paylaşma ve bunun içinde bağlılık hissetme yönünde güçlü bir ihtiyaç olarak kendini gösterebilir; ancak ifade ettikleri şey karşılık bulmadığında veya yanıtsız kaldığında hayal kırıklığına da yol açabilir.
 
-The desire behind creativity is belonging.
+<br><br>
+
 `,
 
 12: `
-Muluc reveals the hidden desire of Eb.
+Yaşam Yolu gizliden Akışı arzular.
 
-Experience seeks meaning.
+<br><br>
 
-Every journey eventually asks why it matters.
+Yaşam Yolu insanları yalnızca kendi yollarında ilerlemek ve yol boyunca gelişmek istemez, aynı zamanda bu yolun hareket ve değişime açık kalmasını da arzular.
 
-You do not travel simply to move.
+Deneyimlerini devam eden bir yolculukta birleştirme ihtiyaçlarının altında, yaşamın yol boyunca getirdikleriyle birlikte hareket edebilme arzusu yatar.
 
-You move to discover purpose.
+Bu, yollarının özgürce gelişmesine izin verme yönünde güçlü bir ihtiyaç olarak kendini gösterebilir; ancak koşullar ilerlemelerini engellediğinde veya yaşam beklediklerinden farklı bir yönde akmaya başladığında huzursuzluğa da yol açabilir.
 
-The desire behind experience is significance.
+<br><br>
+
 `,
 
 13: `
-Lamat reveals the hidden desire of Ben.
+Yapı gizliden Değeri arzular.
 
-Vision seeks beauty.
+<br><br>
 
-A future worth building must also be worth loving.
+Yapı insanları yalnızca düzen ve bütünlük oluşturmak istemez, aynı zamanda inşa ettikleri şeyin gerçekten anlam taşımasını da arzular.
 
-You do not create only for function.
+Düzen, istikrar ve sağlam bir temel ihtiyaçlarının altında, kendileri veya başkaları için değer taşıyan bir şeyi destekleme arzusu yatar.
 
-You create for harmony.
+Bu, gerçekten anlamlı olan şeylere zaman ve dikkat ayırma yönünde güçlü bir ihtiyaç olarak kendini gösterebilir; ancak bir yapı iyi işlediği hâlde artık neye hizmet ettiği açık olmadığında kuşkuya da yol açabilir.
 
-The desire behind vision is beauty.
+<br><br>
+
 `,
 
 14: `
-Manik reveals the hidden desire of Ix.
+Bilinç gizliden Etkileşimi arzular.
 
-Awareness seeks service.
+<br><br>
 
-Insight naturally wishes to become useful.
+Bilinç insanları yalnızca kendi içlerinde ve çevrelerinde bulunanları algılamak istemez, aynı zamanda bunlarla etkileşim içinde olmayı da arzular.
 
-You do not understand merely for yourself.
+Farkındalık ve deneyim ihtiyaçlarının altında, insanlarla, fikirlerle ve koşullarla temas yoluyla etkilenme ve kendilerinin de etki yaratma arzusu yatar.
 
-You understand to contribute.
+Bu, bilinçlerini kendilerinin dışındaki bir şeyle temasa geçiren deneyimlere yönelik güçlü bir ihtiyaç olarak kendini gösterebilir; ancak çok şey algıladıkları hâlde deneyimledikleri şeye gerçekten katılmadıklarında bir ayrılık hissine de yol açabilir.
 
-The desire behind awareness is generosity.
+<br><br>
+
 `,
-
 15: `
-Cimi reveals the hidden desire of Men.
+Bakış Açısı gizliden Sınırları arzular.
 
-Perspective seeks life.
+<br><br>
 
-A distant view eventually returns to direct experience.
+Bakış Açısı insanları yalnızca farklı açılardan bakmak istemez, aynı zamanda bakışlarının hangi sınırlar içinde anlam kazandığını bilmeyi de arzular.
 
-You do not rise above life to escape it.
+Daha uzağa bakma ve daha büyük bütünü görme ihtiyaçlarının altında, o bütünün hangi bölümünün o anda önemli olduğunu belirginleştiren sınırlara duyulan arzu yatar.
 
-You rise above it to re-enter it more fully.
+Bu, bakışlarını belirli bir çerçeve içinde yöneltme yönünde güçlü bir ihtiyaç olarak kendini gösterebilir; ancak olası bakış açıları o kadar çoğaldığında ki hiçbir yerde belirgin bir sınır oluşmadığında huzursuzluğa da yol açabilir.
 
-The desire behind perspective is transformation.
+<br><br>
+
 `,
 
 16: `
-Chicchan reveals the hidden desire of Cib.
+İz gizliden Enerjiyi arzular.
 
-Wisdom seeks vitality.
+<br><br>
 
-Understanding becomes meaningful when it is lived.
+İz insanları yalnızca deneyimlerin geride bıraktıklarını korumak istemez, aynı zamanda geçmişten gelenlerin yeniden bir şeyleri harekete geçirmesini de arzular.
 
-Knowledge alone cannot replace experience.
+Anılara, deneyimlere ve kalıcı izlere gösterdikleri ilginin altında, bunların yalnızca korunması değil, bundan sonra ortaya çıkacak olanı da etkilemesi yönünde bir arzu yatar.
 
-Insight wishes to become movement.
+Bu, geçmiş deneyimlerin üzerine yeni şeyler inşa etme yönünde güçlü bir ihtiyaç olarak kendini gösterebilir; ancak öğrendikleri veya geride bıraktıkları şey artık yeni bir hareket yaratmadığında hayal kırıklığına da yol açabilir.
 
-The desire behind wisdom is aliveness.
+<br><br>
+
 `,
 
 17: `
-Kan reveals the hidden desire of Caban.
+Tezahür gizliden Potansiyeli arzular.
 
-Discovery seeks growth.
+<br><br>
 
-Exploration reveals possibilities that wish to be developed.
+Tezahür insanları yalnızca neyin gerçeklik hâline geldiğini görmek istemez, aynı zamanda onun içinde hâlâ hangi olasılıkların saklı olduğunu deneyimlemeyi de arzular.
 
-You do not seek answers merely to know.
+Görünür ve somut olarak var olana yönelen dikkatlerinin altında, bundan başka nelerin ortaya çıkabileceğine yönelik bir arzu yatar.
 
-You seek them to become.
+Bu, zaten var olan şeylerde yeni olasılıklar görmeye devam etme yönünde güçlü bir ihtiyaç olarak kendini gösterebilir; ancak gerçeklik umduklarından daha az olasılık barındırıyor gibi göründüğünde memnuniyetsizliğe de yol açabilir.
 
-The desire behind discovery is development.
+<br><br>
+
 `,
 
 18: `
-Akbal reveals the hidden desire of Etznab.
+Hakikat gizliden Hayal Gücünü arzular.
 
-Truth seeks mystery.
+<br><br>
 
-Every revelation opens another door.
+Hakikat insanları yalnızca gerçeklikle örtüşen şeyi görmek istemez, aynı zamanda bu gerçeklikten hareketle nelerin mümkün hâle gelebileceğini hayal etmeyi de arzular.
 
-You do not seek truth to end the search.
+Özgünlük ve gerçeklikle örtüşme ihtiyaçlarının altında, şu anda gerçek olanın ötesini hayal etme arzusu yatar.
 
-You seek truth to deepen it.
+Bu, gerçeklikten yola çıkarak yeni imgeler ve olasılıklar oluşturma yönünde güçlü bir ihtiyaç olarak kendini gösterebilir; ancak hayal gücü, gerçeklik tarafından henüz doğrulanmamış bir şeye yer açmalarını istediğinde zorlanmalarına da yol açabilir.
 
-The desire behind clarity is wonder.
+<br><br>
+
 `,
 
 19: `
-Ik reveals the hidden desire of Cauac.
+Bütünlük gizliden Bilgiyi arzular.
 
-Renewal seeks connection.
+<br><br>
 
-After every storm comes a need to communicate, reconnect and rebuild.
+Bütünlük insanları yalnızca farklı parçaların birbirleriyle bağlantılı olduğunu hissetmek istemez, aynı zamanda bu bağlantının nasıl oluştuğunun görünür olmasını da arzular.
 
-You do not transform merely to change.
+Bütünlük ve karşılıklı bağlılık ihtiyaçlarının altında, bütünün içindeki ilişkileri fark edilir hâle getiren bilgiye yönelik bir arzu yatar.
 
-You transform to relate differently.
+Bu, daha büyük bir bütünün içinde neler olduğunu bilme yönünde güçlü bir ihtiyaç olarak kendini gösterebilir; ancak bütünlüğü hissettikleri hâlde bunun neye dayandığını görebilecek kadar bilgiye sahip olmadıklarında belirsizliğe de yol açabilir.
 
-The desire behind renewal is relationship.
+<br><br>
+
 `,
 
 20: `
-Imix reveals the hidden desire of Ahau.
+Öz gizliden Kaynağı arzular.
 
-Wholeness seeks new beginnings.
+<br><br>
 
-Completion is never final.
+Öz insanları yalnızca gerçekten özsel olanı fark etmek istemez, aynı zamanda bu özün nereden geldiğini deneyimlemeyi de arzular.
 
-Every ending contains another seed.
+Özgünlük, anlam ve kendine özgü bir öz arayışlarının altında, bir şeyin gelişerek kendisi olmasını mümkün kılan kaynağa yönelik bir arzu yatar.
 
-You do not seek fulfillment to stop.
+Bu, başlangıçta bir şeye anlam veren şeye geri dönme yönünde güçlü bir ihtiyaç olarak kendini gösterebilir; ancak özsel olanın gelişim boyunca değişebileceğini ve yalnızca kökeniyle tamamen açıklanamayacağını kabul etmekte zorlanmalarına da yol açabilir.
 
-You seek fulfillment to begin again.
+<br><br>
 
-The desire behind wholeness is creation.
 `
 
 };

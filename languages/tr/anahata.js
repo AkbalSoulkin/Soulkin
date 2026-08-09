@@ -1,256 +1,342 @@
 const anahataPages_tr = {
 
 1: `
-Imix is drawn toward beginnings.
+Imix (0001) · Kaynak
 
-You may find yourself repeatedly attracted to new ideas, new stories and unexplored possibilities.
+<br><br>
 
-There is joy in opening doors.
+Imix, kaynak olarak ifade edilen bilinç yönelimidir. Kaynak bir başlangıç noktasıdır. Kaynak, bir şeyin ortaya çıkmasını mümkün kılar. Kendisinden ortaya çıkan her şeyle ilişkilidir.
 
-Not every seed needs to become a tree.
+<br><br>
 
-Sometimes your role is simply to recognize potential before others can see it.
+Kaynak insanları çoğu zaman doğal olarak yeni bir gelişimin başlangıcını oluştururlar.
 
-Love grows where curiosity remains alive.
+Fikirler, olasılıklar veya girişimler ortaya çıkarır ve başkalarına bunların üzerine inşa edebilecekleri alanı sağlarlar.
+
+Güçleri yeni bir başlangıç yaratmalarında yatar; zorlukları ise harekete geçirdikleri şeyi tamamlamaktan çok başlatmaya odaklanmaları olabilir.
+
 `,
 
 2: `
-Ik is drawn toward connection.
+Ik (0011) · Bilgi
 
-You may naturally seek exchange, communication and understanding.
+<br><br>
 
-Words, ideas and perspectives often carry more value than possessions.
+Ik, bilgi olarak ifade edilen bilinç yönelimidir. Bilgi bir örüntüdür. Örüntü, ayırt etmeyi mümkün kılar. Tanıma ve düzenlemeyle ilişkilidir.
 
-Listen as carefully as you speak.
+<br><br>
 
-The strongest connections are built through mutual recognition.
+Bilgi insanları çoğu zaman doğal olarak örüntüleri, bağlantıları ve anlamı fark ederler.
 
-Love grows through dialogue.
+Bilgiyi toplar, düzenler ve paylaşırlar; böylece yeni içgörülerin ortaya çıkmasını mümkün kılarlar.
+
+Güçleri bilgi içindeki bütünlüğü görünür hâle getirmelerinde yatar; zorlukları ise çok fazla olasılık arasında kaybolmaları veya bir karar vermeden önce daha fazla bilgi aramaya devam etmeleri olabilir.
+
 `,
 
 3: `
-Akbal is drawn toward mystery.
+Akbal (0010) · Hayal Gücü
 
-The unknown rarely feels empty.
+<br><br>
 
-It feels alive.
+Akbal, hayal gücü olarak ifade edilen bilinç yönelimidir. Hayal gücü bir tasarımdır. Bir tasarım, içsel biçimlenmeyi mümkün kılar. Anlamla ilişkilidir.
 
-You may find yourself exploring questions that cannot be answered immediately.
+<br><br>
 
-Trust the value of reflection.
+Hayal Gücü insanları çoğu zaman doğal olarak zengin bir iç dünya oluştururlar.
 
-Love grows when hidden truths are allowed to emerge in their own time.
+Henüz görünür olmayan olasılıkları, imgeleri ve anlamları görür ve daha önce yalnızca bir fikir olarak var olan şeye biçim verirler.
+
+Güçleri içsel olasılıkları görünür hâle getirmelerinde yatar; zorlukları ise kendi iç dünyalarında kaybolmaları veya fikirlerini gerçeğe dönüştürmeden önce çok uzun süre aramaya devam etmeleri olabilir.
+
 `,
 
 4: `
-Kan is drawn toward growth.
+Kan (0000) · Potansiyel
 
-Potential matters.
+<br><br>
 
-You may enjoy helping ideas, people or projects develop beyond their current form.
+Kan, potansiyel olarak ifade edilen bilinç yönelimidir. Potansiyel olasılıklardan oluşur. Olasılıklar gelişimi mümkün kılar. Ortaya çıkabilecek her şeyle ilişkilidir.
 
-Patience becomes a creative force.
+<br><br>
 
-Love grows when possibilities are nurtured rather than forced.
+Potansiyel insanları çoğu zaman doğal olarak neyin yeni bir şeye dönüşerek gelişebileceğini fark ederler.
+
+Olasılıkları henüz görünür hâle gelmeden görür ve kendilerinde, başkalarında veya çevrelerinde gelişimi teşvik ederler.
+
+Güçleri gizli olasılıkları fark edip geliştirmelerinde yatar; zorlukları ise doğru anı beklemeye devam etmeleri veya sahip oldukları olasılıkları gerçekleştirmeden bırakmaları olabilir.
+
 `,
 
 5: `
-Chicchan is drawn toward vitality.
+Chicchan (01) · Enerji
 
-Life is meant to be experienced.
+<br><br>
 
-Movement, passion and instinct often guide your attention.
+Chicchan, enerji olarak ifade edilen bilinç yönelimidir. Enerji değişimi mümkün kılar. Değişim hareket yaratır. Her türlü etkinlikle ilişkilidir.
 
-Do not ignore what energizes you.
+<br><br>
 
-Love grows when enthusiasm is honored rather than suppressed.
+Enerji insanları çoğu zaman doğal olarak bir şeyin ne zaman harekete geçmesi gerektiğini hissederler.
+
+Canlılık, hareket gücü ve değişim getirir ve harekete geçerek gelişimi teşvik ederler.
+
+Güçleri enerjiyi harekete dönüştürmelerinde yatar; zorlukları ise enerjilerini fazla dürtüsel kullanmaları veya aynı anda çok fazla yöne dağıtmaları olabilir.
+
 `,
 
 6: `
-Cimi is drawn toward transformation.
+Cimi (0111) · Sınırlar
 
-You may find yourself helping others navigate change.
+<br><br>
 
-Endings do not frighten you as much as stagnation.
+Cimi, sınırlar olarak ifade edilen bilinç yönelimidir. Sınırlar ayrımlardır. Ayrımlar, sınırlandırmayı mümkün kılar. Bir biçimin sınırlarını belirleyen her şeyle ilişkilidir.
 
-Every transition contains a hidden beginning.
+<br><br>
 
-Love grows when change is embraced rather than resisted.
+Sınırlar insanları çoğu zaman doğal olarak bir şeyin sınırına ne zaman ulaştığını fark ederler.
+
+Artık uygun olmayanı bırakarak ve yeni olasılıklara yer açarak değişim için alan yaratırlar.
+
+Güçleri sınırları hem korumalarında hem de genişletmelerinde yatar; zorlukları ise kesinliğe gereğinden uzun süre tutunmaları veya alışılmış olanı bırakmakta zorlanmaları olabilir.
+
 `,
 
 7: `
-Manik is drawn toward service.
+Manik (0110) · Etkileşim
 
-There is satisfaction in being useful.
+<br><br>
 
-You may naturally support, guide or assist others.
+Manik, etkileşim olarak ifade edilen bilinç yönelimidir. Etkileşim karşılıklı bir etkilemedir. Karşılıklı etkileme, etkilenmeyi mümkün kılar. Birbiriyle karşılaşan her şeyle ilişkilidir.
 
-Helping does not require self-sacrifice.
+<br><br>
 
-Love grows when generosity remains balanced with self-respect.
+Etkileşim insanları çoğu zaman doğal olarak insanları, fikirleri veya deneyimleri birbirleriyle bağlantıya getirirler.
+
+Alışveriş yoluyla öğrenir ve yaptıkları, paylaştıkları ve uyguladıkları şeyler aracılığıyla çevrelerini etkilerler.
+
+Güçleri anlamlı etkileşim yaratmalarında yatar; zorlukları ise başkalarına fazla uyum sağlamaları veya sürekli başkaları için var olarak kendi gelişimlerini ertelemeleri olabilir.
+
 `,
 
 8: `
-Lamat is drawn toward beauty.
+Lamat (0100) · Değer
 
-Beauty is not limited to appearance.
+<br><br>
 
-It can be found in ideas, relationships, craftsmanship and harmony.
+Lamat, değer olarak ifade edilen bilinç yönelimidir. Değer, kendisine anlam yüklenen şeydir. Değer, neyin önemli olduğunu görünür hâle getirir. Anlam kazanan her şeyle ilişkilidir.
 
-You may feel compelled to improve what already exists.
+<br><br>
 
-Love grows where appreciation is practiced.
+Değer insanları çoğu zaman doğal olarak neyin gerçekten anlam taşıdığını fark ederler.
+
+Kendileri ve başkaları için değerli olan şeylere dikkat vererek güzelliği, niteliği ve uyumu ifade ederler.
+
+Güçleri anlamı görünür hâle getirmelerinde yatar; zorlukları ise yargılar, aşırılıklar veya takdir edilme ihtiyacı tarafından yönlendirilmeleri ve bunun sonucunda gerçek değeri gözden kaçırmaları olabilir.
+
 `,
 
 9: `
-Muluc is drawn toward meaning.
+Muluc (0101) · Akış
 
-Experiences become valuable when they connect to something deeper.
+<br><br>
 
-You may seek authenticity more than recognition.
+Muluc, akış olarak ifade edilen bilinç yönelimidir. Akış bir aktarımdır. Aktarım ilerlemeyi mümkün kılar. Aktarılan her şeyle ilişkilidir.
 
-Give attention to what feels sincere.
+<br><br>
 
-Love grows when emotion and purpose meet.
+Akış insanları çoğu zaman doğal olarak neyin harekete geçmek istediğini hissederler.
+
+Fikirleri, duyguları ve gelişmeleri harekete geçirir ve değişen koşullara kolayca uyum sağlarlar.
+
+Güçleri ilerlemek isteyen şeyin akmaya devam etmesini sağlamalarında yatar; zorlukları ise kendi duygularına kapılmaları veya her şey sürekli değişirken yönlerini korumakta zorlanmaları olabilir.
+
 `,
 
 10: `
-Oc is drawn toward loyalty.
+Oc (11) · İlişki
 
-Relationships matter.
+<br><br>
 
-You may value trust, commitment and shared journeys.
+Oc, ilişki olarak ifade edilen bilinç yönelimidir. İlişki bir bağdır. Bir bağ, bağlılığı mümkün kılar. Bir şeyi başka bir şeye bağlayan her şeyle ilişkilidir.
 
-Not every connection is meant to last forever.
+<br><br>
 
-But every genuine connection leaves a mark.
+İlişki insanları çoğu zaman doğal olarak insanlarla, fikirlerle veya topluluklarla kalıcı bağlar kurarlar.
 
-Love grows through devotion.
+Katılım, iş birliği ve kendileri için gerçekten anlam taşıyan şeylere sadakat yoluyla güven oluştururlar.
+
+Güçleri insanları karşılıklı güven aracılığıyla birbirine bağlamalarında yatar; zorlukları ise ilişkilere, beklentilere veya ideallere fazla bağlanarak gelişim için daha az alan bırakmaları olabilir.
+
 `,
 
 11: `
-Chuen is drawn toward creativity.
+Chuen (1110) · İfade
 
-Life becomes richer when imagination is allowed to play.
+<br><br>
 
-You may enjoy exploring ideas that others overlook.
+Chuen, ifade olarak ifade edilen bilinç yönelimidir. İfade bir dışavurumdur. Dışavurum, içte bulunanı görünür hâle getirir. Her türlü iletişim biçimiyle ilişkilidir.
 
-Do not underestimate the value of curiosity.
+<br><br>
 
-Many discoveries begin as experiments.
+İfade insanları çoğu zaman doğal olarak iç dünyalarını dışarıya yansıtırlar.
 
-Love grows where creativity remains free.
+Fikirlere, duygulara ve deneyimlere biçim verir ve yaratıcılıkları, mizahları veya iletişim biçimleriyle başkalarına ilham verirler.
+
+Güçleri içlerinde yaşayanı görünür hâle getirmelerinde yatar; zorlukları ise dışarıya nasıl göründüklerine fazla kapılmaları veya olasılıklarla oynamaya devam ederken onları gerçekten ifade edememeleri olabilir.
+
 `,
 
 12: `
-Eb is drawn toward growth through experience.
+Eb (1100) · Yaşam Yolu
 
-The journey itself often matters more than the destination.
+<br><br>
 
-You may learn best through direct participation rather than theory.
+Eb, yaşam yolu olarak ifade edilen bilinç yönelimidir. Yaşam yolu bir süreçtir. Bir süreç, gelişimi görünür hâle getirir. Her türlü ilerlemeyle ilişkilidir.
 
-Every step teaches something.
+<br><br>
 
-Love grows when life is approached as a path rather than a problem.
+Yaşam Yolu insanları çoğu zaman kendi deneyimleri aracılığıyla adım adım gelişirler.
+
+Yol boyunca öğrendiklerini bir yön hâline getirir ve böylece yalnızca kendilerinin değil, başkalarının da ilerlemesine yardımcı olabilirler.
+
+Güçleri kendi gelişimlerini bilinçli olarak şekillendirmelerinde yatar; zorlukları ise kendi ihtiyaçlarını başkalarının ihtiyaçlarına tabi kılmaları veya geçmiş deneyimlere tutunmaya devam etmeleri olabilir.
+
 `,
 
 13: `
-Ben is drawn toward vision.
+Ben (1101) · Yapı
 
-You may feel called to build something that extends beyond yourself.
+<br><br>
 
-A strong future begins with strong roots.
+Ben, yapı olarak ifade edilen bilinç yönelimidir. Yapı bir düzenlemedir. Düzenleme, parçaların bir araya gelmesini mümkün kılar. Organize edilmiş her şeyle ilişkilidir.
 
-Leadership is not control.
+<br><br>
 
-It is the ability to inspire direction.
+Yapı insanları çoğu zaman doğal olarak karmaşık durumlara düzen ve yön getirirler.
 
-Love grows when purpose is shared.
+Açık bir vizyondan hareketle başkalarının üzerine inşa etmeye devam edebileceği sağlam bir temel oluşturur ve fikirleri kalıcı biçimlere dönüştürmeyi bilirler.
+
+Güçleri istikrar ve yön yaratmalarında yatar; zorlukları ise tam da yenilenmenin gerekli olduğu bir anda mevcut inançlara veya yapılara bağlı kalmaları olabilir.
+
 `,
 
 14: `
-Ix is drawn toward inner awareness.
+Ix (1111) · Bilinç
 
-There is wisdom in observation.
+<br><br>
 
-You may notice patterns, meanings and connections that others miss.
+Ix, bilinç olarak ifade edilen bilinç yönelimidir. Bilinç farkındalıktır. Farkındalık, deneyimi mümkün kılar. Algılanan her şeyle ilişkilidir.
 
-Silence can be as informative as conversation.
+<br><br>
 
-Love grows when intuition is trusted without abandoning reason.
+Bilinç insanları çoğu zaman doğal olarak yüzeyin altında bulunanı algılarlar.
+
+İçgörüyü, sezgiyi ve deneyimi bir araya getirerek kendileri, başkaları ve çevreleri hakkında daha derin bir anlayış geliştirirler.
+
+Güçleri gerçekte ne olup bittiğinin bilincine varmalarında yatar; zorlukları ise kendi inançlarının içinde kaybolmaları veya diğer bakış açılarına kendilerini fazla kapatmaları olabilir.
+
 `,
-
 15: `
-Men is drawn toward perspective.
+Men (10) · Bakış Açısı
 
-You naturally seek the wider view.
+<br><br>
 
-Stepping back often reveals what urgency hides.
+Men, bakış açısı olarak ifade edilen bilinç yönelimidir. Bakış açısı bir yönelimdir. Yönelim, yönü görünür hâle getirir. Her türlü bakış biçimiyle ilişkilidir.
 
-Do not become trapped by immediate circumstances.
+<br><br>
 
-Love grows when understanding expands beyond personal concerns.
+Bakış Açısı insanları çoğu zaman doğal olarak daha büyük bütünü görürler.
+
+Başkalarının henüz göremediği olasılıkları ve gelişmeleri fark eder ve geleceğe yön verebilecek bir vizyon ortaya koyarlar.
+
+Güçleri farklı bakış açılarından bakarak anlayışı genişletmelerinde yatar; zorlukları ise ideallerin içinde kaybolmaları veya vizyonlarının biçim kazanması gereken gerçeklikten uzaklaşmaları olabilir.
+
 `,
 
 16: `
-Cib is drawn toward wisdom.
+Cib (1000) · İz
 
-Knowledge becomes meaningful when transformed into understanding.
+<br><br>
 
-You may find yourself reflecting on lessons that others overlook.
+Cib, iz olarak ifade edilen bilinç yönelimidir. İz bir kayıttır. Kayıt, geri dönmeyi mümkün kılar. Bir izlenim bırakan her şeyle ilişkilidir.
 
-Experience gains value when it is integrated.
+<br><br>
 
-Love grows when learning becomes insight.
+İz insanları çoğu zaman doğal olarak hangi deneyimlerin kalıcı anlam taşıdığını fark ederler.
+
+Geçmişte yaşananlardan öğrenir ve bu içgörüleri kendilerine ve başkalarına yön vermek için kullanırlar.
+
+Güçleri deneyimlerin geride bıraktığı dersleri görünür hâle getirmelerinde yatar; zorlukları ise eski inançlara veya olaylara tutunarak yeni olasılıklar için daha az alan bırakmaları olabilir.
+
 `,
 
 17: `
-Caban is drawn toward discovery.
+Caban (1001) · Tezahür
 
-Questions are often more valuable than answers.
+<br><br>
 
-You may feel compelled to explore, investigate and understand.
+Caban, tezahür olarak ifade edilen bilinç yönelimidir. Tezahür bir olgudur. Bir olgu, algıyı mümkün kılar. Görünür hâle gelen her şeyle ilişkilidir.
 
-Growth rarely happens inside certainty.
+<br><br>
 
-Love grows where exploration remains alive.
+Tezahür insanları çoğu zaman doğal olarak fikirleri, içgörüleri veya olasılıkları gerçeklik içinde görünür hâle getirirler.
+
+Düşünceyi eylemle birleştirir ve daha ileri gelişime katkıda bulunan değişimlere biçim verirler.
+
+Güçleri daha önce yalnızca bir olasılık olarak var olanı görünür hâle getirmelerinde yatar; zorlukları ise kendi inançlarına tutunmaları veya düşünceleri aracılığıyla gerçekliği fazla güçlü biçimde şekillendirmeye çalışmaları olabilir.
+
 `,
 
 18: `
-Etznab is drawn toward truth.
+Etznab (1011) · Hakikat
 
-Clarity matters.
+<br><br>
 
-You may feel uncomfortable with illusion, avoidance or self-deception.
+Etznab, hakikat olarak ifade edilen bilinç yönelimidir. Hakikat bir uygunluktur. Uygunluk, tanımayı mümkün kılar. Gerçeklikle örtüşen her şeyle ilişkilidir.
 
-Honesty is not always pleasant, but it is often liberating.
+<br><br>
 
-Love grows when reality is faced directly.
+Hakikat insanları çoğu zaman doğal olarak neyin gerçekten gerçeklikle örtüştüğünü fark ederler.
+
+Görünüşün ötesini görür, karmaşık durumlara açıklık getirir ve neyin hakikat olduğunu, neyin yalnızca öyle göründüğünü ayırt etmeye yardımcı olurlar.
+
+Güçleri bütünlüğü gözden kaçırmadan hakikati görünür hâle getirmelerinde yatar; zorlukları ise fazla sert yargılamaları, kendi inançlarına tutunmaları veya hakikatin diğer bakış açılarına açıklık da gerektirdiğini unutmaları olabilir.
+
 `,
 
 19: `
-Cauac is drawn toward renewal.
+Cauac (1010) · Bütünlük
 
-Periods of disruption often contain hidden opportunities.
+<br><br>
 
-You may possess an unusual ability to recover after setbacks.
+Cauac, bütünlük olarak ifade edilen bilinç yönelimidir. Bütünlük, parçaların birbirleriyle tutarlı bir bütün oluşturmasıdır. Bu tutarlılık, bir bütünün oluşmasını mümkün kılar. Birbiriyle bağlantılı olan her şeyle ilişkilidir.
 
-Storms clear what no longer serves.
+<br><br>
 
-Love grows when transformation is welcomed rather than feared.
+Bütünlük insanları çoğu zaman doğal olarak ayrı parçaların birbirleriyle nasıl bağlantılı olduğunu fark ederler.
+
+Değişimi mevcut olanı bozmak için değil, her şeyin birlikte daha iyi işlediği yeni bir dengenin ortaya çıkabilmesi için getirirler.
+
+Güçleri gelişim ve yenilenme yoluyla bütünlüğü yeniden oluşturmalarında yatar; zorlukları ise aynı anda çok fazla şeyi değiştirmek istemeleri veya yeni bir denge oluşmaya fırsat bulamadan huzursuzluk yaratmaları olabilir.
+
 `,
 
 20: `
-Ahau is drawn toward wholeness.
+Ahau (00) · Öz
 
-You may seek understanding that brings separate parts together.
+<br><br>
 
-Generosity, awareness and perspective naturally reinforce one another.
+Ahau, öz olarak ifade edilen bilinç yönelimidir. Öz, bir şeyi kendisi yapan şeydir. Bir çekirdek, kimliği mümkün kılar. Özsel olan her şeyle ilişkilidir.
 
-Completion is not perfection.
+<br><br>
 
-It is the ability to embrace life as it is.
+Öz insanları çoğu zaman doğal olarak neyin gerçekten özsel olduğunu fark ederler.
 
-Love grows when wisdom and compassion meet.
+Kalıcı anlam taşıyan şeylere yönelir ve en derin inançları ve bağlılıkları doğrultusunda yaşayarak başkalarına ilham verirler.
+
+Güçleri insanların, fikirlerin ve durumların özünü görünür hâle getirmelerinde yatar; zorlukları ise idealize edilmiş bir imgeye tutunmaları veya gerçekliği kusursuzluk arzusuyla değerlendirmeleri olabilir.
+
 `
+
 };

@@ -1,245 +1,201 @@
 const svadhisthanaPages_en = {
 
 1: `
-Chuen appears as the challenge of Imix.
+Expression appears as the challenge of Source.
 
-Beginnings require flexibility.
+<br><br>
 
-New ideas become stronger when they are allowed to evolve.
-
-What starts as inspiration must eventually learn to adapt.
-
-Growth often begins when certainty becomes play.
+Not every origin comes to expression.
+What begins somewhere or arises from something can remain present without taking a form in which it is expressed.
+You may recognize this when something is already present within you but has not yet found words, an action, or another form of expression.
 `,
 
 2: `
-Eb appears as the challenge of Ik.
+Life Path appears as the challenge of Information.
 
-Communication becomes meaningful when it is grounded in experience.
+<br><br>
 
-Words alone are rarely enough.
-
-The path asks you to walk what you understand.
-
-Wisdom grows through participation.
+Not all information determines a life path.
+Information can describe, explain, or make something recognizable without thereby determining how a development will unfold over time.
+You can know a great deal about yourself and your circumstances, while your life path only becomes visible through the course you actually travel.
 `,
 
 3: `
-Ben appears as the challenge of Akbal.
+Structure appears as the challenge of Imagination.
 
-Dreams seek direction.
+<br><br>
 
-The unknown becomes easier to navigate when guided by vision.
-
-Not every mystery needs solving.
-
-But every journey benefits from purpose.
+Not everything that arises in the imagination can be structured.
+Imagination can form images, possibilities, and connections without these naturally lending themselves to a fixed or ordered arrangement.
+You may recognize this when something feels vivid or meaningful within you, but can lose some of its form when you try to organize it completely.
 `,
 
 4: `
-Ix appears as the challenge of Kan.
+Awareness appears as the challenge of Potential.
 
-Growth is not only external.
+<br><br>
 
-Inner awareness creates balance.
-
-Potential flourishes when reflection accompanies development.
-
-The strongest roots often grow unseen.
+Not every potential is consciously experienced.
+Possibilities can be present without being perceived or recognized as possibilities at that moment.
+You may recognize this when you discover only later that more was already possible than you were previously aware of.
 `,
 
 5: `
-Men appears as the challenge of Chicchan.
+Perspective appears as the challenge of Energy.
 
-Passion gains strength through perspective.
+<br><br>
 
-Energy without direction can become scattered.
-
-Step back occasionally.
-
-A wider view reveals a wiser path.
+The same energy can be viewed from different perspectives.
+What is present as force, movement, or change can be interpreted differently depending on the viewpoint from which it is perceived.
+You may recognize this when the same force, movement, or intensity takes on a different meaning from another perspective, while the energy itself has not necessarily changed.
 `,
 
 6: `
-Cib appears as the challenge of Cimi.
+Trace appears as the challenge of Boundaries.
 
-Transformation becomes meaningful through understanding.
+<br><br>
 
-Change alone is not enough.
-
-Lessons emerge when experience becomes wisdom.
-
-Growth deepens through reflection.
+Boundaries do not prevent every trace.
+A boundary can determine where something ends or goes no further, while consequences, impressions, or changes can still remain beyond that boundary.
+You may recognize this when something has clearly ended, yet something of it can still be found in what follows.
 `,
 
 7: `
-Caban appears as the challenge of Manik.
+Manifestation appears as the challenge of Interaction.
 
-Service benefits from curiosity.
+<br><br>
 
-Helping others does not require having all the answers.
-
-Questions often create more growth than solutions.
-
-Remain open to discovery.
+Interaction does not always lead to manifestation.
+Mutual influence can take place without producing a distinct phenomenon or concrete outcome.
+You may recognize this when an encounter or exchange has set something in motion, but nothing then emerges that is clearly present as a result of it.
 `,
-
 8: `
-Etznab appears as the challenge of Lamat.
+Truth appears as the challenge of Value.
 
-Beauty becomes stronger when paired with truth.
+<br><br>
 
-Not everything pleasing is beneficial.
-
-Clarity refines appreciation.
-
-Honesty protects what is genuinely valuable.
+Not everything of value has to be true.
+Something can have meaning, importance, or value without what is assumed about it corresponding to reality.
+You may recognize this when a story, belief, or memory means a great deal to you, even when not everything within it corresponds to reality.
 `,
 
 9: `
-Cauac appears as the challenge of Muluc.
+Coherence appears as the challenge of Flow.
 
-Meaning sometimes arrives through disruption.
+<br><br>
 
-Periods of uncertainty can reveal hidden strengths.
-
-Trust that renewal often follows turbulence.
-
-Transformation clears space for growth.
+Flow does not guarantee coherence.
+Something can be passed on, moved, or continue without the separate parts thereby forming an interconnected whole.
+You may recognize this when there is continuous movement or exchange, but no clear coherence emerges within it.
 `,
 
 10: `
-Ahau appears as the challenge of Oc.
+Essence appears as the challenge of Relationship.
 
-Loyalty is strengthened through perspective.
+<br><br>
 
-Devotion should not become limitation.
-
-Love grows when it includes both commitment and wisdom.
-
-Wholeness expands every relationship.
+Not every relationship touches the essence.
+Something can be connected to something else without that connection determining what essentially makes it what it is.
+You may recognize this when a relationship changes or disappears, while what something essentially is does not necessarily change as a result.
 `,
 
 11: `
-Imix appears as the challenge of Chuen.
+Source appears as the challenge of Expression.
 
-Creativity benefits from fresh beginnings.
+<br><br>
 
-Not every idea needs refinement.
-
-Sometimes the answer is simply to start.
-
-Potential appears before perfection.
+Not every origin can be inferred from an expression.
+What comes to expression can be recognizably present without fully revealing what it arose from.
+You may recognize this when you see someone's words, behavior, or work, but cannot determine with certainty what that expression originally arose from.
 `,
 
 12: `
-Ik appears as the challenge of Eb.
+Information appears as the challenge of Life Path.
 
-Experience becomes valuable when shared.
+<br><br>
 
-Learning is strengthened through communication.
-
-Understanding grows when knowledge is exchanged.
-
-Connection transforms insight.
+A life path cannot be fully inferred from information.
+Information can describe parts of a path that has been traveled without necessarily encompassing its entire course.
+You may recognize this when facts about your past tell you much about your path, but do not convey everything about how that path actually unfolded.
 `,
 
 13: `
-Akbal appears as the challenge of Ben.
+Imagination appears as the challenge of Structure.
 
-Vision requires mystery.
+<br><br>
 
-Not everything important can be planned.
-
-Allow room for the unknown.
-
-Some discoveries arrive only when control relaxes.
+Not everything that is structured can be fully encompassed by imagination.
+A structure can consist of relationships between parts, while the inner representation of it may be incomplete, simplified, or formed differently.
+You may recognize this when you understand that something is built according to a particular structure, but cannot clearly picture its complete arrangement.
 `,
 
 14: `
-Kan appears as the challenge of Ix.
+Potential appears as the challenge of Awareness.
 
-Awareness seeks expression.
+<br><br>
 
-Insight becomes meaningful when it influences growth.
-
-Reflection is valuable.
-
-Application completes the process.
-
-Potential emerges through action.
+Not everything that is consciously experienced reveals the full potential.
+What you perceive or understand about a situation at a given moment may encompass only part of what is possible within it.
+You may recognize this when you think you clearly understand a situation, but later discover that possibilities were present which had not yet entered your awareness.
 `,
-
 15: `
-Chicchan appears as the challenge of Men.
+Energy appears as the challenge of Perspective.
 
-Perspective must eventually return to life itself.
+<br><br>
 
-Do not remain above experience.
-
-Engage with it.
-
-Vitality provides the fuel for understanding.
+A change in perspective does not necessarily change the energy that is present.
+A different way of looking can change how force, movement, or change is experienced without necessarily changing the energy itself.
+You may recognize this when you begin to view a situation differently, while the same tension, movement, or intensity is still present.
 `,
 
 16: `
-Cimi appears as the challenge of Cib.
+Boundaries appear as the challenge of Trace.
 
-Wisdom continues to evolve.
+<br><br>
 
-Old conclusions may need renewal.
-
-Allow understanding to transform.
-
-Growth never truly ends.
+Not every trace can be confined to where it originated.
+Consequences, impressions, or changes can be found beyond the original boundary.
+You may recognize this when something happened in one place or at one moment, but traces of it can later be found elsewhere as well.
 `,
 
 17: `
-Manik appears as the challenge of Caban.
+Interaction appears as the challenge of Manifestation.
 
-Discovery benefits from responsibility.
+<br><br>
 
-Exploration becomes meaningful when it serves something larger.
-
-Knowledge gains value through application.
-
-Service grounds insight.
+Not every manifestation makes the interactions around it recognizable.
+What is present as a concrete phenomenon can be recognizable without revealing all the mutual influence associated with it.
+You may recognize this when you see what has emerged, but cannot fully infer from it which encounters, exchanges, or influences played a role.
 `,
 
 18: `
-Lamat appears as the challenge of Etznab.
+Value appears as the challenge of Truth.
 
-Truth does not need to become harsh.
+<br><br>
 
-Beauty remains important.
-
-Clarity is strongest when accompanied by grace.
-
-Balance strengthens honesty.
+Not every truth has value in itself.
+The fact that something corresponds to reality does not yet determine what meaning or importance is attributed to it.
+You may recognize this when something is undeniably true, but has little meaning or importance within a particular situation.
 `,
 
 19: `
-Muluc appears as the challenge of Cauac.
+Flow appears as the challenge of Coherence.
 
-Renewal seeks purpose.
+<br><br>
 
-Transformation becomes sustainable when connected to meaning.
-
-Look beyond the storm.
-
-The deeper lesson often appears afterward.
+Coherence does not always require flow.
+Parts can form an interconnected whole without something continuously being passed, moved, or exchanged between them.
+You may recognize this when different parts clearly cohere, while at that moment there is little movement or exchange between them.
 `,
 
 20: `
-Oc appears as the challenge of Ahau.
+Relationship appears as the challenge of Essence.
 
-Wholeness includes relationship.
+<br><br>
 
-Wisdom grows through loyalty, trust and shared experience.
-
-No journey is completed alone.
-
-Connection remains one of life's greatest teachers.
+The essence of something cannot be fully inferred from its relationships.
+How something is connected to other things can reveal much about its context and relationships without fully determining what essentially makes it what it is.
+You may recognize this when you know all the relationships surrounding something, but still do not fully know what that thing essentially is.
 `
 
 };

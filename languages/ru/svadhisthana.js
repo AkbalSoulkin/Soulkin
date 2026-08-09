@@ -1,245 +1,201 @@
 const svadhisthanaPages_ru = {
 
 1: `
-Chuen appears as the challenge of Imix.
+Выражение выступает как вызов Источника.
 
-Beginnings require flexibility.
+<br><br>
 
-New ideas become stronger when they are allowed to evolve.
-
-What starts as inspiration must eventually learn to adapt.
-
-Growth often begins when certainty becomes play.
+Не каждый источник находит выражение.
+То, что где-то начинается или из чего-то возникает, может оставаться присутствующим, не принимая формы, в которой оно выражается.
+Ты можешь узнать это по ситуации, когда что-то уже присутствует внутри тебя, но ещё не обрело слов, действия или иной формы выражения.
 `,
 
 2: `
-Eb appears as the challenge of Ik.
+Жизненный путь выступает как вызов Информации.
 
-Communication becomes meaningful when it is grounded in experience.
+<br><br>
 
-Words alone are rarely enough.
-
-The path asks you to walk what you understand.
-
-Wisdom grows through participation.
+Не всякая информация определяет жизненный путь.
+Информация может описывать, объяснять или делать что-либо распознаваемым, не определяя тем самым, как развитие будет разворачиваться с течением времени.
+Ты можешь многое знать о себе и своих обстоятельствах, в то время как твой жизненный путь становится видимым лишь в ходе того пути, который ты действительно проходишь.
 `,
 
 3: `
-Ben appears as the challenge of Akbal.
+Структура выступает как вызов Воображения.
 
-Dreams seek direction.
+<br><br>
 
-The unknown becomes easier to navigate when guided by vision.
-
-Not every mystery needs solving.
-
-But every journey benefits from purpose.
+Не всё, что возникает в воображении, поддаётся структурированию.
+Воображение может создавать образы, возможности и связи, которые не обязательно сами собой складываются в устойчивую или упорядоченную структуру.
+Ты можешь узнать это по ситуации, когда что-то внутри тебя ощущается очень живым или значимым, но может частично терять свою форму, когда ты пытаешься полностью его упорядочить.
 `,
 
 4: `
-Ix appears as the challenge of Kan.
+Сознание выступает как вызов Потенциала.
 
-Growth is not only external.
+<br><br>
 
-Inner awareness creates balance.
-
-Potential flourishes when reflection accompanies development.
-
-The strongest roots often grow unseen.
+Не всякий потенциал переживается осознанно.
+Возможности могут присутствовать, не воспринимаясь и не распознаваясь в данный момент как возможности.
+Ты можешь узнать это по ситуации, когда лишь позднее обнаруживаешь, что возможностей уже тогда было больше, чем ты осознавал.
 `,
 
 5: `
-Men appears as the challenge of Chicchan.
+Перспектива выступает как вызов Энергии.
 
-Passion gains strength through perspective.
+<br><br>
 
-Energy without direction can become scattered.
-
-Step back occasionally.
-
-A wider view reveals a wiser path.
+Одна и та же энергия может рассматриваться с разных перспектив.
+То, что присутствует как сила, движение или изменение, может интерпретироваться по-разному в зависимости от точки зрения, с которой оно воспринимается.
+Ты можешь узнать это по ситуации, когда одна и та же сила, движение или интенсивность приобретает иной смысл с другой перспективы, хотя сама энергия при этом не обязательно изменилась.
 `,
 
 6: `
-Cib appears as the challenge of Cimi.
+След выступает как вызовГраниц.
 
-Transformation becomes meaningful through understanding.
+<br><br>
 
-Change alone is not enough.
-
-Lessons emerge when experience becomes wisdom.
-
-Growth deepens through reflection.
+Границы не предотвращают каждый след.
+Граница может определять, где что-либо заканчивается или перестаёт продолжаться, в то время как последствия, впечатления или изменения всё же могут сохраняться за её пределами.
+Ты можешь узнать это по ситуации, когда что-то явно завершилось, но нечто от него всё ещё можно обнаружить в том, что следует дальше.
 `,
 
 7: `
-Caban appears as the challenge of Manik.
+Проявление выступает как вызов Взаимодействия.
 
-Service benefits from curiosity.
+<br><br>
 
-Helping others does not require having all the answers.
-
-Questions often create more growth than solutions.
-
-Remain open to discovery.
+Взаимодействие не всегда приводит к проявлению.
+Взаимное влияние может происходить без возникновения отдельного явления или конкретного результата.
+Ты можешь узнать это по ситуации, когда встреча или обмен действительно привели что-то в движение, но после этого не возникло ничего, что явно присутствовало бы как их результат.
 `,
-
 8: `
-Etznab appears as the challenge of Lamat.
+Истина выступает как вызов Ценности.
 
-Beauty becomes stronger when paired with truth.
+<br><br>
 
-Not everything pleasing is beneficial.
-
-Clarity refines appreciation.
-
-Honesty protects what is genuinely valuable.
+Не всё ценное обязательно должно быть истинным.
+Что-либо может иметь значение, важность или ценность, даже если связанные с ним представления не соответствуют действительности.
+Ты можешь узнать это по ситуации, когда история, убеждение или воспоминание много для тебя значит, даже если не всё в нём соответствует действительности.
 `,
 
 9: `
-Cauac appears as the challenge of Muluc.
+Связность выступает как вызов Потока.
 
-Meaning sometimes arrives through disruption.
+<br><br>
 
-Periods of uncertainty can reveal hidden strengths.
-
-Trust that renewal often follows turbulence.
-
-Transformation clears space for growth.
+Поток не гарантирует связности.
+Что-либо может передаваться, перемещаться или продолжаться, при этом отдельные части не обязательно образуют взаимосвязанное целое.
+Ты можешь узнать это по ситуации, когда постоянно происходит движение или обмен, но ясной связности при этом не возникает.
 `,
 
 10: `
-Ahau appears as the challenge of Oc.
+Сущность выступает как вызов Отношения.
 
-Loyalty is strengthened through perspective.
+<br><br>
 
-Devotion should not become limitation.
-
-Love grows when it includes both commitment and wisdom.
-
-Wholeness expands every relationship.
+Не каждое отношение затрагивает сущность.
+Что-либо может быть связано с чем-то другим, при этом эта связь не обязательно определяет то, что по существу делает его тем, чем оно является.
+Ты можешь узнать это по ситуации, когда отношение изменяется или исчезает, а то, чем нечто является по существу, вследствие этого не обязательно меняется.
 `,
 
 11: `
-Imix appears as the challenge of Chuen.
+Источник выступает как вызов Выражения.
 
-Creativity benefits from fresh beginnings.
+<br><br>
 
-Not every idea needs refinement.
-
-Sometimes the answer is simply to start.
-
-Potential appears before perfection.
+Не каждый источник можно определить по выражению.
+То, что находит выражение, может быть ясно распознаваемым, не раскрывая полностью, из чего оно возникло.
+Ты можешь узнать это по ситуации, когда видишь чьи-то слова, поведение или работу, но не можешь с уверенностью определить, из чего первоначально возникло это выражение.
 `,
 
 12: `
-Ik appears as the challenge of Eb.
+Информация выступает как вызов Жизненного пути.
 
-Experience becomes valuable when shared.
+<br><br>
 
-Learning is strengthened through communication.
-
-Understanding grows when knowledge is exchanged.
-
-Connection transforms insight.
+Жизненный путь нельзя полностью вывести из информации.
+Информация может описывать части пройденного пути, не обязательно охватывая всё его течение.
+Ты можешь узнать это по ситуации, когда факты о твоём прошлом многое говорят о твоём пути, но не передают всего того, как этот путь действительно разворачивался.
 `,
 
 13: `
-Akbal appears as the challenge of Ben.
+Воображение выступает как вызов Структуры.
 
-Vision requires mystery.
+<br><br>
 
-Not everything important can be planned.
-
-Allow room for the unknown.
-
-Some discoveries arrive only when control relaxes.
+Не всё структурированное можно полностью охватить воображением.
+Структура может состоять из отношений между частями, тогда как внутреннее представление о ней может быть неполным, упрощённым или сформированным иначе.
+Ты можешь узнать это по ситуации, когда понимаешь, что нечто построено согласно определённой структуре, но не можешь ясно представить себе всю её организацию.
 `,
 
 14: `
-Kan appears as the challenge of Ix.
+Потенциал выступает как вызов Сознания.
 
-Awareness seeks expression.
+<br><br>
 
-Insight becomes meaningful when it influences growth.
-
-Reflection is valuable.
-
-Application completes the process.
-
-Potential emerges through action.
+Не всё, что переживается осознанно, раскрывает полный потенциал.
+То, что ты воспринимаешь или осознаёшь в ситуации в определённый момент, может охватывать лишь часть того, что в ней возможно.
+Ты можешь узнать это по ситуации, когда думаешь, что ясно понимаешь ситуацию, но позднее обнаруживаешь возможности, которые тогда ещё не находились в поле твоего сознания.
 `,
-
 15: `
-Chicchan appears as the challenge of Men.
+Энергия выступает как вызов Перспективы.
 
-Perspective must eventually return to life itself.
+<br><br>
 
-Do not remain above experience.
-
-Engage with it.
-
-Vitality provides the fuel for understanding.
+Изменение перспективы не обязательно изменяет присутствующую энергию.
+Другой способ смотреть на что-либо может изменить то, как воспринимаются сила, движение или изменение, при этом сама присутствующая энергия не обязательно меняется.
+Ты можешь узнать это по ситуации, когда начинаешь смотреть на неё иначе, а прежнее напряжение, движение или интенсивность всё ещё присутствуют.
 `,
 
 16: `
-Cimi appears as the challenge of Cib.
+Границы выступают как вызов Следа.
 
-Wisdom continues to evolve.
+<br><br>
 
-Old conclusions may need renewal.
-
-Allow understanding to transform.
-
-Growth never truly ends.
+Не каждый след можно ограничить местом его возникновения.
+Последствия, впечатления или изменения могут обнаруживаться за пределами первоначальной границы.
+Ты можешь узнать это по ситуации, когда что-то произошло в одном месте или в один момент, но позднее его следы обнаруживаются и где-то ещё.
 `,
 
 17: `
-Manik appears as the challenge of Caban.
+Взаимодействие выступает как вызов Проявления.
 
-Discovery benefits from responsibility.
+<br><br>
 
-Exploration becomes meaningful when it serves something larger.
-
-Knowledge gains value through application.
-
-Service grounds insight.
+Не каждое проявление позволяет распознать окружающие его взаимодействия.
+То, что присутствует как конкретное явление, может быть распознаваемым, не раскрывая всей взаимной обусловленности, которая была с ним связана.
+Ты можешь узнать это по ситуации, когда видишь то, что возникло, но не можешь полностью определить по нему, какие встречи, обмены или влияния сыграли в этом роль.
 `,
 
 18: `
-Lamat appears as the challenge of Etznab.
+Ценность выступает как вызов Истины.
 
-Truth does not need to become harsh.
+<br><br>
 
-Beauty remains important.
-
-Clarity is strongest when accompanied by grace.
-
-Balance strengthens honesty.
+Не каждая истина обладает ценностью сама по себе.
+То, что нечто соответствует действительности, ещё не определяет, какое значение или важность ему придаётся.
+Ты можешь узнать это по ситуации, когда что-то несомненно истинно, но в определённой ситуации имеет мало значения или важности.
 `,
 
 19: `
-Muluc appears as the challenge of Cauac.
+Поток выступает как вызов Связности.
 
-Renewal seeks purpose.
+<br><br>
 
-Transformation becomes sustainable when connected to meaning.
-
-Look beyond the storm.
-
-The deeper lesson often appears afterward.
+Связность не всегда требует потока.
+Части могут образовывать взаимосвязанное целое без того, чтобы между ними постоянно что-либо передавалось, перемещалось или обменивалось.
+Ты можешь узнать это по ситуации, когда различные части явно связаны между собой, хотя в данный момент между ними почти не происходит движения или обмена.
 `,
 
 20: `
-Oc appears as the challenge of Ahau.
+Отношение выступает как вызов Сущности.
 
-Wholeness includes relationship.
+<br><br>
 
-Wisdom grows through loyalty, trust and shared experience.
-
-No journey is completed alone.
-
-Connection remains one of life's greatest teachers.
+Сущность чего-либо нельзя полностью вывести из его отношений.
+То, как нечто связано с другими вещами, может многое показать о его контексте и отношениях, не определяя полностью, что по существу делает его тем, чем оно является.
+Ты можешь узнать это по ситуации, когда знаешь все отношения, окружающие нечто, но всё ещё не знаешь полностью, чем оно является по своей сути.
 `
 
 };

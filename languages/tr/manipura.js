@@ -1,245 +1,281 @@
 const manipuraPages_tr = {
 
 1: `
-Etznab walks beside Imix.
+Hakikat, Kaynak'ın yanında yürür.
 
-New beginnings benefit from clarity.
+<br><br>
 
-Inspiration becomes stronger when illusion is removed.
+Hakikat, bir kaynaktan ortaya çıkana açıklık getirir.
 
-Truth helps potential become reality.
+Ortaya çıkan şey, gerçeklikle nasıl ilişki kurduğu belirginleştiğinde anlam kazanır.
 
-Follow what remains meaningful when uncertainty falls away.
+Kaynak yeni bir şey ortaya çıkarabilirken, hakikat onun gerçeklikle olan ilişkisini korur.
+
+Ortaya çıkanın kendisini gerçeklik içinde göstermesine izin ver.
 `,
 
 2: `
-Caban walks beside Ik.
+Tezahür, Bilgi'nin yanında yürür.
 
-Communication becomes deeper through exploration.
+<br><br>
 
-Questions reveal pathways that certainty cannot.
+Tezahür, bilgide bir örüntü olarak bulunan şeye biçim verir.
 
-Curiosity keeps understanding alive.
+Fark edilen ve düzenlenen şey, gerçeklikte de bir olgu olarak ortaya çıktığında anlam kazanabilir.
 
-Follow the desire to discover.
+Bilgi bağlantıları erişilebilir hâle getirirken, tezahür bu bağlantıların gerçekte nasıl ortaya çıktığının deneyimlenmesini sağlar.
+
+Anladığın şeyin gerçeklikle de karşılaşmasına izin ver.
 `,
 
 3: `
-Cib walks beside Akbal.
+İz, Hayal Gücü'nün yanında yürür.
 
-Mystery benefits from wisdom.
+<br><br>
 
-Experience provides guidance where certainty cannot.
+İz, hayal gücünde ortaya çıkanı daha önceden geride kalmış olanla bağlar.
 
-The unknown becomes less intimidating when approached with understanding.
+Bir imge veya olasılık olarak ortaya çıkan şey, önceki izlenimler ve deneyimler geri dönülebilecek bir yol sunduğunda daha da gelişebilir.
 
-Follow what deepens insight.
+Hayal Gücü yeni içsel biçimler oluşturabilirken, iz daha önce deneyimlenen ve geride kalanla bağlantıyı sürdürür.
+
+Geride kalanın yeni hayal gücünü beslemesine izin ver.
 `,
 
 4: `
-Men walks beside Kan.
+Bakış Açısı, Potansiyel'in yanında yürür.
 
-Growth benefits from perspective.
+<br><br>
 
-Not every possibility deserves equal attention.
+Bakış Açısı, potansiyelde bulunan olasılıklara yön verir.
 
-A broader view helps reveal what truly matters.
+Gelişebilecek olan, farklı bakış açılarından görülebildiğinde ve olası bir yön belirginleştiğinde daha fazla anlam kazanabilir.
 
-Follow what expands awareness.
+Potansiyel neyin mümkün olduğunu ortaya koyarken, bakış açısı bu olasılıklara hangi yönden yaklaşılabileceğini gösterir.
+
+Mümkün olana birden fazla yönden bak.
 `,
 
 5: `
-Ix walks beside Chicchan.
+Bilinç, Enerji'nin yanında yürür.
 
-Vitality becomes balanced through awareness.
+<br><br>
 
-Instinct is powerful, but consciousness gives it direction.
+Bilinç, enerjinin nerede harekete geçtiğinin algılanmasını sağlar.
 
-The body speaks, but the spirit listens.
+Güç veya değişim ortaya çıkaran şey, hareketi algılandığında bilinçli olarak deneyimlenebilir.
 
-Follow what awakens both.
+Enerji hareket ortaya çıkarırken, bilinç bu hareketin deneyimini mevcut hâle getirir.
+
+Hareketin bilincine nerede dokunduğunu hisset.
 `,
 
 6: `
-Ben walks beside Cimi.
+Yapı, Sınırlar'ın yanında yürür.
 
-Transformation becomes purposeful through vision.
+<br><br>
 
-Endings make sense when they serve a greater future.
+Yapı, sınırlarla birbirinden ayrılan şeylere düzen kazandırır.
 
-A clear direction eases difficult transitions.
+Bir şeyin nerede başlayıp nerede bittiği açık olduğunda, ayrı parçalar düzenlenmiş bir biçim içinde birbirleriyle ilişki kurabilir.
 
-Follow what inspires growth.
+Sınırlar parçalar arasındaki ayrımı belirlerken, yapı bu parçaların bir bütün içinde nasıl düzenlendiğini gösterir.
+
+Sınırlar içinde ortaya çıkan yapıyı fark et.
 `,
 
 7: `
-Eb walks beside Manik.
+Yaşam Yolu, Etkileşim'in yanında yürür.
 
-Service becomes sustainable through experience.
+<br><br>
 
-Every step teaches something valuable.
+Yaşam Yolu, etkileşimleri devam eden bir gelişimle bağlar.
 
-Helping others begins with understanding the road itself.
+Karşılaşmalar ve karşılıklı etkiler, deneyimlerin zaman içinde birbirine bağlandığı bir yolun parçası hâline gelebilir.
 
-Follow the lessons of the journey.
+Etkileşim karşılıklı etki ortaya çıkarırken, Yaşam Yolu bu anları devam eden bir gelişimin içine dahil eder.
+
+Karşılaşmaların yolunun bir parçası olmasına izin ver.
 `,
-
 8: `
-Chuen walks beside Lamat.
+İfade, Değer'in yanında yürür.
 
-Beauty thrives through creativity.
+<br><br>
 
-Perfection is less important than expression.
+İfade, değer olarak anlam kazanmış olana biçim verir.
 
-Joy often appears where imagination is free.
+Değerli olan şey; sözler, imgeler, davranışlar veya başka ifade biçimleri aracılığıyla dışsal bir biçim kazanabilir.
 
-Follow what invites playfulness.
+Değer neye anlam verildiğini belirlerken, ifade bu anlama dışa vurulabileceği bir biçim verir.
+
+Senin için gerçekten değerli olanı ifade et.
 `,
 
 9: `
-Oc walks beside Muluc.
+İlişki, Akış'ın yanında yürür.
 
-Meaning becomes stronger through connection.
+<br><br>
 
-Purpose is rarely discovered in isolation.
+İlişki, akış yoluyla aktarılan şeyleri birbirine bağlar.
 
-Shared experiences deepen understanding.
+Birinden diğerine akan şey, aralarında bir şeyin devam ettiği bir bağlantı oluşturabilir.
 
-Follow what strengthens trust.
+Akış bir şeyi ileri taşırken, ilişki bu aktarımın gerçekleştiği bağlantıyı oluşturur.
+
+Bağlantıyı canlı tutan şeyin akmasına izin ver.
 `,
 
 10: `
-Muluc walks beside Oc.
+Akış, İlişki'nin yanında yürür.
 
-Connection becomes meaningful through sincerity.
+<br><br>
 
-Relationships flourish when they are genuine.
+Akış, ilişkiler içinde bir şeyin bir taraftan diğerine geçmesini mümkün kılar.
 
-Authenticity creates lasting bonds.
+Bağlantılar; duyguların, fikirlerin ve deneyimlerin aktarıldığı ve ilerlemeye devam ettiği bir alan sunabilir.
 
-Follow what feels true.
+İlişki birbirleriyle bağlantılı olanları bir araya getirirken, akış bu bağlantı içinde bir şeyin aktarılmasını mümkün kılar.
+
+Bağlantının içinde, akmaya devam etmek isteyen şeye alan bırak.
 `,
 
 11: `
-Lamat walks beside Chuen.
+Değer, İfade'nin yanında yürür.
 
-Creativity flourishes when beauty is appreciated.
+<br><br>
 
-Not every creation must be useful.
+Değer, ifade yoluyla dışa aktarılan şeye anlam verir.
 
-Some things exist simply to inspire.
+Sözler, imgeler, davranışlar ve diğer ifade biçimleri, bir insanın neye anlam verdiğini gösterebilir.
 
-Follow what brings wonder.
+İfade içte olanı dışarıdan algılanabilir hâle getirirken, değer bu ifadenin içinde anlam kazanan şeyde bulunur.
+
+İfaden, senin için anlam taşıyan şeyi taşısın.
 `,
 
 12: `
-Manik walks beside Eb.
+Etkileşim, Yaşam Yolu'nun yanında yürür.
 
-Experience gains value through service.
+<br><br>
 
-Knowledge becomes wisdom when shared.
+Etkileşim, karşılaşmaları ve karşılıklı etkileri yaşam yolunun akışına dahil eder.
 
-The path reveals itself through contribution.
+Yol boyunca başkalarıyla, koşullarla veya çevreyle paylaşılan ve karşılıklı olarak aktarılan şeyler, zaman içinde gelişen sürecin bir parçası hâline gelebilir.
 
-Follow what benefits others.
+Yaşam Yolu gelişimin izlediği yolu oluştururken, etkileşim yol boyunca gerçekleşen karşılıklı etkileri kapsar.
+
+Yol boyunca karşına çıkanlara açık ol.
 `,
 
 13: `
-Cimi walks beside Ben.
+Sınırlar, Yapı'nın yanında yürür.
 
-Vision grows stronger through transformation.
+<br><br>
 
-Plans evolve as life unfolds.
+Sınırlar, bir yapıyı oluşturan parçaları birbirinden ayırır.
 
-Change is not an interruption of the journey.
+Parçalar birbirinden ayırt edilebildiğinde, düzenlenmiş bir bütün içinde nasıl sınırlandıkları daha açık hâle gelir.
 
-It is part of it.
+Yapı parçaları bir bütün içinde düzenlerken, sınırlar bir parçanın nerede bittiğini ve diğerinin nerede başladığını gösterir.
 
-Follow what renews purpose.
+Yapının biçim kazandığı sınırları fark et.
 `,
 
 14: `
-Chicchan walks beside Ix.
+Enerji, Bilinç'in yanında yürür.
 
-Awareness becomes alive through experience.
+<br><br>
 
-Insight alone is not enough.
+Enerji, bilinçli olarak deneyimlenen şeyin yanında hareket eder.
 
-Wisdom must eventually be lived.
+Algılanan şeye; hareket hâlindeki veya değişim yaratan duygular, düşünceler ve eylemler eşlik edebilir.
 
-Follow what energizes understanding.
+Bilinç deneyimi mümkün kılarken, enerji bu deneyimin içinde ve çevresinde gerçekleşen harekette bulunur.
+
+Bilinçli olarak deneyimlediğin şeyde hangi hareketin bulunduğunu hisset.
 `,
-
 15: `
-Kan walks beside Men.
+Potansiyel, Bakış Açısı'nın yanında yürür.
 
-Perspective becomes meaningful through growth.
+<br><br>
 
-A wider view reveals new possibilities.
+Potansiyel, bir bakış açısından görünür hâle gelen olasılıklarda bulunur.
 
-Potential often appears beyond familiar boundaries.
+Farklı bir bakış biçimi, önceki bir bakış açısından görünmeyen olasılıkları ortaya çıkarabilir.
 
-Follow what encourages development.
+Bakış Açısı bir şeye nereden bakıldığını belirlerken, potansiyel o bakış açısından daha fazla gelişebilecek olanın içinde bulunur.
+
+Kendi bakış açından nelerin mümkün hâle geldiğine de bak.
 `,
 
 16: `
-Akbal walks beside Cib.
+Hayal Gücü, İz'in yanında yürür.
 
-Wisdom remains alive through mystery.
+<br><br>
 
-There is always more to learn.
+Hayal Gücü, iz olarak geride kalmış olana yeni içsel biçimler verebilir.
 
-Certainty can close doors that curiosity keeps open.
+Bir izlenim bırakmış olan şey, ilk iz kaybolmadan içsel olarak yeniden hayal edilebilir.
 
-Follow the questions that endure.
+İz, geride kalana geri dönmeyi mümkün kılarken, hayal gücü ona yeni bir içsel biçim verebilir.
+
+İçinde iz bırakmış olanı yeniden hayal et.
 `,
 
 17: `
-Ik walks beside Caban.
+Bilgi, Tezahür'ün yanında yürür.
 
-Discovery becomes meaningful through communication.
+<br><br>
 
-Insights gain strength when shared.
+Bilgi, bir olgu olarak ortaya çıkan şeydeki örüntüleri fark edilebilir hâle getirir.
 
-Understanding grows through exchange.
+Gerçeklikte ortaya çıkan şey, örüntülerin ve bağlantıların fark edilmesini sağlayan bilgiler içerebilir.
 
-Follow the conversations that expand awareness.
+Tezahür bir olguyu algılanabilir gerçekliğe taşırken, bilgi onun içinde fark edilip düzenlenebilen örüntüyü kapsar.
+
+Gerçekte olanın içindeki örüntüleri oku.
 `,
 
 18: `
-Imix walks beside Etznab.
+Kaynak, Hakikat'in yanında yürür.
 
-Truth reveals new beginnings.
+<br><br>
 
-Clarity is not an ending.
+Kaynak, gerçeklikle örtüşen şeyi onun ortaya çıktığı yerle bağlar.
 
-It is often the start of something new.
+Gerçeklikle örtüşen şeyin de geliştiği bir köken vardır.
 
-Follow what opens fresh possibilities.
+Hakikat gerçeklikle örtüşmeyle ilgiliyken, Kaynak bir şeyin ortaya çıktığı başlangıca işaret eder.
+
+Neyin hakikat olduğunun yanında, nerede başladığını da ara.
 `,
 
 19: `
-Ahau walks beside Cauac.
+Öz, Bütünlük'ün yanında yürür.
 
-Renewal benefits from wholeness.
+<br><br>
 
-After every storm comes an opportunity to integrate what was learned.
+Öz, birbirine bağlı parçalardan oluşan bir bütünün içinde özsel olan olarak bulunur.
 
-Healing creates new strength.
+Farklı parçalar birlikte bir bütün oluşturduğunda, o bütünü kendisi yapan şey onun içinde fark edilebilir hâle gelebilir.
 
-Follow what brings completion.
+Bütünlük, parçaların bir bütün oluşturmasını sağlayan bağlantıyla ilgiliyken, Öz o bütünü özünde kendisi yapan şeyde bulunur.
+
+Bütünün içinde gerçekten özsel olanı ara.
 `,
 
 20: `
-Cauac walks beside Ahau.
+Bütünlük, Öz'ün yanında yürür.
 
-Wholeness remains alive through renewal.
+<br><br>
 
-Growth never truly stops.
+Bütünlük, özsel olan ile onun biçim kazandığı bütün arasındaki bağlantıda bulunur.
 
-Even wisdom must continue evolving.
+Bir şeyi kendisi yapan şey, farklı parçaların birbirleriyle ve bütünle nasıl ilişki kurduğunda fark edilebilir.
 
-Follow what keeps transformation alive.
+Öz, bir şeyi özünde kendisi yapan şeyle ilgiliyken, Bütünlük birlikte o bütünü oluşturan parçaların karşılıklı bağlantısında bulunur.
+
+Özsel olanın bütün boyunca nasıl birbiriyle bağlantılı olduğunu gör.
 `
 
 };

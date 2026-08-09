@@ -1,113 +1,113 @@
 const sahasraraPages_ru = {
 
 1: `
-How do I stay on the path?
+Как мне оставаться на своём пути?
 
-The path is not always found through movement.
+Путь не всегда находится через движение.
 
-Sometimes the next step is remembering why you started.
+Иногда следующий шаг — это вспомнить, почему ты начал.
 
-Heart periods ask you to return to your center before choosing a direction.
+Периоды Сердца приглашают вернуться к своему центру, прежде чем выбирать направление.
 
-If everything feels uncertain, look for what still feels meaningful.
+Если всё кажется неопределённым, ищи то, что по-прежнему наполнено смыслом.
 
-Meaning often survives long after excitement has disappeared.
+Смысл часто остаётся даже тогда, когда воодушевление уже исчезло.
 `,
 
 2: `
-Thunder brings movement and disruption.
+Гром приносит движение и перемены.
 
-Something that has become stagnant is trying to wake up.
+То, что долго оставалось неподвижным, пытается пробудиться.
 
-Do not focus only on what changed.
+Не сосредотачивайся только на том, что изменилось.
 
-Ask yourself what the change is trying to reveal.
+Спроси себя, что именно эти перемены пытаются открыть.
 
-The path often becomes visible after the ground begins to shake.
+Путь часто становится видимым только после того, как земля начинает дрожать.
 `,
 
 3: `
-Fire illuminates both strengths and weaknesses.
+Огонь освещает как сильные стороны, так и слабости.
 
-What is hidden becomes easier to see.
+Скрытое становится легче увидеть.
 
-Avoid becoming fascinated by appearances alone.
+Не позволяй внешнему виду увлечь себя.
 
-Light is useful when it reveals truth.
+Свет ценен тогда, когда открывает истину.
 
-The path becomes clearer when you are willing to see things as they are.
+Путь становится яснее, когда ты готов видеть вещи такими, какие они есть.
 `,
 
 4: `
-Wind carries messages from unexpected directions.
+Ветер приносит послания с неожиданных сторон.
 
-Listen before acting.
+Сначала слушай, а затем действуй.
 
-Small influences can change the course of a journey.
+Даже небольшие влияния способны изменить направление пути.
 
-Pay attention to recurring thoughts, conversations and opportunities.
+Обращай внимание на повторяющиеся мысли, разговоры и возможности.
 
-The path is often adjusted through gentle corrections rather than dramatic events.
+Путь чаще меняется благодаря мягким поправкам, чем драматическим событиям.
 `,
 
 5: `
-Heaven invites a wider perspective.
+Небо приглашает взглянуть шире.
 
-Try to rise above immediate concerns.
+Постарайся подняться над сиюминутными заботами.
 
-Not every problem requires an immediate solution.
+Не каждая проблема требует немедленного решения.
 
-Sometimes clarity comes from seeing how a challenge fits into a larger pattern.
+Иногда ясность приходит тогда, когда ты видишь, как испытание вписывается в более широкую картину.
 
-The path becomes easier when you stop mistaking every obstacle for the destination.
+Путь становится легче, когда перестаёшь принимать каждое препятствие за конечную цель.
 `,
 
 6: `
-Lake reminds you that joy is part of the journey.
+Озеро напоминает, что радость — часть пути.
 
-A path sustained only by discipline eventually becomes brittle.
+Дорога, поддерживаемая лишь дисциплиной, со временем становится хрупкой.
 
-Look for what nourishes your spirit.
+Ищи то, что питает твой дух.
 
-Meaning grows more easily when accompanied by gratitude and connection.
+Смысл растёт легче рядом с благодарностью и ощущением связи.
 
-The path is not only about where you are going, but also about how you travel.
+Путь определяется не только тем, куда ты идёшь, но и тем, как ты идёшь.
 `,
 
 7: `
-Water tests adaptability.
+Вода испытывает способность приспосабливаться.
 
-When resistance becomes exhausting, flexibility may be the wiser choice.
+Когда сопротивление становится слишком утомительным, гибкость может оказаться более мудрым выбором.
 
-Water does not defeat obstacles through force.
+Вода преодолевает препятствия не силой.
 
-It flows around them.
+Она обтекает их.
 
-The path continues when you learn the difference between persistence and stubbornness.
+Путь продолжается тогда, когда ты понимаешь разницу между настойчивостью и упрямством.
 `,
 
 8: `
-Mountain tests patience more than strength.
+Гора испытывает терпение больше, чем силу.
 
-Progress may appear slow, but stillness has its own purpose.
+Продвижение может казаться медленным, но неподвижность тоже имеет своё предназначение.
 
-What feels like a delay can reveal weaknesses that would otherwise remain hidden.
+То, что выглядит как задержка, может открыть слабости, которые иначе остались бы незамеченными.
 
-Instead of asking how far you still have to go, ask what this moment is trying to teach you.
+Вместо вопроса «Как далеко мне ещё идти?» спроси себя: «Чему этот момент пытается меня научить?»
 
-Sometimes standing still is part of moving forward.
+Иногда остановка — это часть движения вперёд.
 `,
 
 9: `
-Earth encourages balance and integration.
+Земля призывает к равновесию и целостности.
 
-Different parts of your life are seeking harmony.
+Разные стороны твоей жизни стремятся к гармонии.
 
-Rather than chasing the next destination, focus on creating stability where you stand.
+Вместо того чтобы постоянно искать следующую цель, сосредоточься на создании устойчивости там, где ты находишься сейчас.
 
-Growth becomes sustainable when your actions align with your values.
+Рост становится устойчивым, когда твои поступки соответствуют твоим ценностям.
 
-The path remains steady when your foundations are strong.
+Путь остаётся прочным, когда прочен его фундамент.
 `
 
 };

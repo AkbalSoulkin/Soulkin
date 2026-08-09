@@ -1,165 +1,275 @@
 const muladharaPages_tr = {
 
 1: `
-With what intention do I enter the world?
+Ton: 1 (Koç) · Gerçekleştirmek
 
-Every journey begins with a first impulse.
+<br><br>
 
-Tone 1 is not concerned with results.
+Gerçekleştirmek, gerçekleşme olarak ifade edilen bilinç yönelimidir.
 
-It asks what is trying to come into existence.
+Gerçekleşme, gerçekliği mümkün kılar.
 
-Before asking where a path leads, ask why it calls to you.
+Somut biçimin başlangıcıyla ilişkilidir.
 
-Intention gives direction to movement.
+<br><br>
+
+Gerçekleştirmek insanları çoğu zaman doğal olarak inisiyatif alırlar.
+
+Başkaları henüz görmeden olasılıkları fark eder ve yeni gelişmeleri harekete geçirirler.
+
+Onların asıl zorluğu başlamaktan çok, başladıkları şeyi tamamlamaktır.
+
 `,
 
 2: `
-Every beginning creates a choice.
+Ton: 2 (Boğa) · Kabul Etmek
 
-Two paths become visible.
+<br><br>
 
-Tone 2 asks you to recognize differences rather than avoid them.
+Kabul Etmek, kabulleniş olarak ifade edilen bilinç yönelimidir.
 
-Clarity often emerges when opposites are allowed to coexist.
+Kabulleniş, var olanın olduğu gibi mevcut olmasına alan açar.
 
-A decision becomes possible once both sides are understood.
+Zaten var olanı olduğu hâliyle kabul etmekle ilişkilidir.
+
+<br><br>
+
+Kabul Etmek insanları çoğu zaman harekete geçmeden önce gözlem yaparlar.
+
+Bir seçim yapmadan önce içinde bulundukları durumu bütünüyle kabul etme eğilimindedirler.
+
+Güçleri, gerçekliği olduğu gibi kabul ederek istikrar yaratmalarında yatar; zorlukları ise harekete geçmeden önce seçenekleri gereğinden uzun süre değerlendirmek olabilir.
+
 `,
 
 3: `
-Ideas become real through movement.
+Ton: 3 (İkizler) · Ayırt Etmek
 
-Tone 3 encourages action, experimentation and expression.
+<br><br>
 
-Progress rarely begins with perfection.
+Ayırt Etmek, farklılık olarak ifade edilen bilinç yönelimidir.
 
-A path reveals itself through participation.
+Farklılık, tanımayı mümkün kılar.
 
-Movement creates understanding.
+Kimliğin ortaya çıkışıyla ilişkilidir.
+
+<br><br>
+
+Ayırt Etmek insanları farklılıkları, bağlantıları ve olasılıkları çoğu zaman hızla fark ederler.
+
+Fikirleri, insanları ve içgörüleri birbirleriyle ilişkilendirerek başkalarının kolayca fark etmediği şeyleri görünür hâle getirirler.
+
+Güçleri, neyin dikkat gerektirdiğini açıkça ayırt etmelerinde yatar; zorlukları ise çok fazla olasılık içinde kaybolmak veya aynı anda gereğinden fazlasını kavramaya çalışmak olabilir.
+
 `,
 
 4: `
-Every vision eventually seeks structure.
+Ton: 4 (Yengeç) · Konumlandırmak
 
-Tone 4 asks how an intention can take form in reality.
+<br><br>
 
-Foundations matter.
+Konumlandırmak, konumlandırma olarak ifade edilen bilinç yönelimidir.
 
-A strong structure allows growth to continue long after enthusiasm fades.
+Konumlandırma, ilişkilerin görünür hâle gelmesini mümkün kılar.
 
-Form protects purpose.
+Bağlamla ilişkilidir.
+
+<br><br>
+
+Konumlandırmak insanları henüz belirsiz olan şeylere çoğu zaman doğal olarak yapı kazandırırlar.
+
+Parçaların birbirleriyle nasıl ilişkili olduğunu görür ve fikirlere, planlara veya durumlara açık bir yer verirler.
+
+Güçleri, açıklık ve bütünlük yaratmalarında yatar; zorlukları ise değişim gerektiğinde daha önce oluşturulmuş bir yapıya bağlı kalmak olabilir.
+
 `,
-
 5: `
-Power is the ability to sustain movement.
+Ton: 5 (Aslan) · Seçmek
 
-Tone 5 gathers resources, focus and determination.
+<br><br>
 
-This is a period of strengthening.
+Seçmek, seçim olarak ifade edilen bilinç yönelimidir.
 
-Do not ask only what is possible.
+Seçim, odaklanmayı mümkün kılar.
 
-Ask what can be supported over time.
+Odak ve öncelikle ilişkilidir.
 
-Strength grows through commitment.
+<br><br>
+
+Seçmek insanları dikkatlerini çoğu zaman doğal olarak gerçekten önemli olan şeye yöneltirler.
+
+Hangi olasılıkların, insanların veya kaynakların bir gelişmeyi ileri taşıyabileceğini fark eder ve enerjilerini bunlara yoğunlaştırmayı bilirler.
+
+Güçleri, odak ve yön oluşturmalarında yatar; zorlukları ise fazla kontrol etmeye çalışmak veya alternatifleri bırakmakta zorlanmak olabilir.
+
 `,
 
 6: `
-Life rarely moves in a straight line.
+Ton: 6 (Başak) · İyileştirmek
 
-Tone 6 explores balance between opposing forces.
+<br><br>
 
-Harmony is not the absence of tension.
+İyileştirmek, gelişme olarak ifade edilen bilinç yönelimidir.
 
-It is the ability to work with tension without being controlled by it.
+Gelişme, kaliteyi mümkün kılar.
 
-Balance creates momentum.
+Hassasiyet ve uyumla ilişkilidir.
+
+<br><br>
+
+İyileştirmek insanları bir şeyin nasıl daha iyi, daha açık veya daha özenli hâle getirilebileceğini çoğu zaman doğal olarak görürler.
+
+Başkalarının kolayca gözden kaçırdığı küçük farklılıkları fark eder ve çevrelerine adım adım daha fazla kalite kazandırırlar.
+
+Güçleri, zaten var olanı geliştirmelerinde yatar; zorlukları ise bir şey zaten yeterince iyiyken mükemmelliği aramaya devam etmek olabilir.
+
 `,
 
 7: `
-Every path contains a center.
+Ton: 7 (Terazi) · Uyumlamak
 
-Tone 7 invites reflection.
+<br><br>
 
-Instead of pushing forward, step back and observe.
+Uyumlamak, uyum olarak ifade edilen bilinç yönelimidir.
 
-Perspective often reveals what effort cannot.
+Uyum, bütünlüğü mümkün kılar.
 
-Wisdom grows when action and awareness meet.
+Rezonansla ilişkilidir.
+
+<br><br>
+
+Uyumlamak insanları insanların, fikirlerin veya koşulların birbirleriyle nasıl uyum sağlayabileceğini çoğu zaman sezgisel olarak hissederler.
+
+Farklılıkların ortaya çıktığı yerde bağlantı kurar ve her şeyin birlikte daha iyi işleyebileceği bir denge ararlar.
+
+Güçleri, uyum ve ilham yaratmalarında yatar; zorlukları ise başkalarına fazla uyum sağlayarak kendi yönleriyle bağlarını kaybetmek olabilir.
+
 `,
 
 8: `
-Integrity means alignment between thought, word and action.
+Ton: 8 (Akrep) · Dönüştürmek
 
-Tone 8 asks whether your choices reflect your deeper values.
+<br><br>
 
-Authenticity is not perfection.
+Dönüştürmek, değişim olarak ifade edilen bilinç yönelimidir.
 
-It is consistency.
+Değişim, yenilenmeyi mümkün kılar.
 
-The strongest paths are built upon honesty.
+Geçiş ve gelişimle ilişkilidir.
+
+<br><br>
+
+Dönüştürmek insanları değişimin nasıl büyümeye yol açabileceğini çoğu zaman doğal olarak görürler.
+
+Yeni içgörüleri, fikirleri veya deneyimleri, bütünlüğü gözden kaçırmadan yenilenmiş bir bütün içinde bir araya getirirler.
+
+Güçleri, değişimi gelişime dönüştürmelerinde yatar; zorlukları ise kendi görüşlerine fazla bağlı kalmak veya değişimin nasıl gerçekleşeceğini fazla yönlendirmeye çalışmak olabilir.
+
 `,
 
 9: `
-Some goals require patience.
+Ton: 9 (Yılancı) · Bütünleştirmek
 
-Tone 9 teaches perseverance.
+<br><br>
 
-Not everything unfolds according to personal timelines.
+Bütünleştirmek, bütünleşme olarak ifade edilen bilinç yönelimidir.
 
-Growth often continues beneath the surface.
+Bütünleşme, birlikte işleyişi mümkün kılar.
 
-Endurance transforms potential into reality.
+Bağlantı ve bütünlükle ilişkilidir.
+
+<br><br>
+
+Bütünleştirmek insanları ayrı parçaların nasıl daha büyük bir bütün oluşturabileceğini çoğu zaman doğal olarak görürler.
+
+Gelişmeleri anlamlı bir sonuca ulaştırma eğilimindedirler ve bunu yaparken daha büyük amacı gözden kaçırmazlar.
+
+Güçleri, ayrı deneyimleri anlamlı bir bütün içinde birleştirmelerinde yatar; zorlukları ise fazla sorumluluk üstlenmek veya anlamını yitirmiş bir amaca bağlı kalmak olabilir.
+
 `,
 
 10: `
-Completion is not an ending.
+Ton: 10 (Yay) · Kavramak
 
-Tone 10 asks what can now be made visible.
+<br><br>
 
-What was once an idea has taken form.
+Kavramak, içgörü olarak ifade edilen bilinç yönelimidir.
 
-Celebrate progress without becoming attached to it.
+İçgörü, anlayışı mümkün kılar.
 
-Achievement prepares the ground for renewal.
+Öz ve anlamla ilişkilidir.
+
+<br><br>
+
+Kavramak insanları harekete geçmeden önce bir konunun özünü çoğu zaman doğal olarak ararlar.
+
+Bir şeyin gerçekte nasıl işlediği açıklığa kavuşana kadar içgörü, deneyim ve bilgiyi bir araya getirirler.
+
+Güçleri, anlayışı somut sonuçlara dönüştürmelerinde yatar; zorlukları ise bir sonraki adımı atmadan önce tam bir kesinlik aramaya devam etmek olabilir.
+
 `,
 
 11: `
-Growth sometimes requires release.
+Ton: 11 (Oğlak) · Kalıcılaştırmak
 
-Tone 11 encourages simplification.
+<br><br>
 
-Old assumptions, habits or expectations may no longer serve you.
+Kalıcılaştırmak, kalıcılık olarak ifade edilen bilinç yönelimidir.
 
-Space must be created before something new can emerge.
+Kalıcılık, sürekliliği mümkün kılar.
 
-Freedom often begins with letting go.
+İstikrar ve güvenilirlikle ilişkilidir.
+
+<br><br>
+
+Kalıcılaştırmak insanları neyin kalıcı değere sahip olduğunu çoğu zaman doğal olarak fark ederler.
+
+Fikirlere, deneyimlere veya içgörülere kalıcı bir yer vererek bunların korunmasını ve gelişmeye devam etmesini sağlarlar.
+
+Güçleri, gerçekten anlamlı olanı kalıcı hâle getirmelerinde yatar; zorlukları ise işlevini çoktan tamamlamış bir şeye gereğinden uzun süre bağlı kalmak olabilir.
+
 `,
 
 12: `
-Understanding deepens through connection.
+Ton: 12 (Kova) · Açmak
 
-Tone 12 explores cooperation, communication and shared insight.
+<br><br>
 
-No journey is entirely solitary.
+Açmak, erişilebilirlik olarak ifade edilen bilinç yönelimidir.
 
-Different perspectives reveal hidden dimensions of reality.
+Erişilebilirlik, aktarımı mümkün kılar.
 
-Meaning expands when it is exchanged.
+Paylaşım ve ulaşılabilirlikle ilişkilidir.
+
+<br><br>
+
+Açmak insanları bilgi, deneyim ve içgörüleri çoğu zaman doğal olarak başkaları için erişilebilir hâle getirirler.
+
+Farklı bakış açılarını bir araya getirir ve karmaşık konuları açık ve anlaşılır bir biçimde aktarabilirler.
+
+Güçleri, değerli olanı paylaşmalarında yatar; zorlukları ise bilgiyi gerçekten uygulamadan sürekli toplamaya kapılmak olabilir.
+
 `,
 
 13: `
-Every ending contains a beginning.
+Ton: 13 (Balık) · Serbest Bırakmak
 
-Tone 13 represents transcendence and renewal.
+<br><br>
 
-The path continues beyond the destination.
+Serbest Bırakmak, bırakma olarak ifade edilen bilinç yönelimidir.
 
-Look back to understand what has been learned.
+Bırakmak, bağımsız devamlılığı mümkün kılar.
 
-Look forward to discover what is now possible.
+Özgürlük ve devamlılıkla ilişkilidir.
 
-Completion opens the door to transformation.
+<br><br>
+
+Serbest Bırakmak insanları bir şeyin ne zaman tamamlandığını ve bırakılabileceğini çoğu zaman doğal olarak bilirler.
+
+İşlevini tamamlamış olana bağlı kalmadan yeni bir gelişme için alan açarlar.
+
+Güçleri, kendileri geri çekildiklerinde bile gelişimin devam edeceğine güvenmelerinde yatar; zorlukları ise değişime gereğinden uzun süre direnmek veya henüz tamamlanmamış bir şeyin önüne geçmeye çalışmak olabilir.
+
 `
 
 };

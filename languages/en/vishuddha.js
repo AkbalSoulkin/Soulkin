@@ -1,285 +1,301 @@
 const vishuddhaPages_en = {
 
 1: `
-Ahau reveals the hidden desire of Imix.
+Source secretly longs for Essence.
 
-Every beginning seeks wholeness.
+<br><br>
 
-New possibilities are exciting, but beneath them lies a deeper wish.
+People with Source often want not only to bring something new into being, but also hope that what they bring forth will gain real meaning and become itself.
 
-You do not simply seek new experiences.
+Beneath their drive to initiate ideas, possibilities or developments lies a desire to create something essential that reaches beyond its initial beginning.
 
-You seek understanding.
+This can express itself as a strong need to bring forth something authentic and meaningful, but also as disappointment when what they begin ultimately takes on a different form or meaning than they originally envisioned.
 
-The desire behind every beginning is completeness.
+<br><br>
+
 `,
 
 2: `
-Cauac reveals the hidden desire of Ik.
+Information secretly longs for Coherence.
 
-Communication ultimately seeks renewal.
+<br><br>
 
-Words become meaningful when they create change.
+People with Information often want not only to know and understand, but also seek to see how separate pieces of information are connected.
 
-You do not speak merely to exchange information.
+Beneath their need to recognize patterns, gather knowledge and share insights lies a desire to turn separate information into an understandable whole.
 
-You seek transformation.
+This can express itself as a strong need to discover connections and find meaning, but also as difficulty letting something go while it is still unclear how all the parts fit together.
 
-The desire behind communication is growth.
+<br><br>
+
 `,
 
 3: `
-Etznab reveals the hidden desire of Akbal.
+Imagination secretly longs for Truth.
 
-Mystery seeks truth.
+<br><br>
 
-The unknown is attractive because something wishes to be revealed.
+People with Imagination often want not only to form new images, ideas and meanings, but also long for their inner world to connect with reality.
 
-You do not seek darkness for its own sake.
+Beneath their rich inner experience lies a need to feel that what they imagine, sense or create corresponds in some way with what is real.
 
-You seek clarity hidden within it.
+This can express itself as a strong need to test their ideas against reality, but also as doubt when their inner representation and reality do not correspond.
 
-The desire behind mystery is understanding.
+<br><br>
+
 `,
 
 4: `
-Caban reveals the hidden desire of Kan.
+Potential secretly longs for Manifestation.
 
-Growth seeks discovery.
+<br><br>
 
-Potential longs to become experience.
+People with Potential often want not only to see possibilities, but also long to eventually see them reflected in reality.
 
-You do not grow merely to become larger.
+Beneath their sense of what could emerge lies a need to experience possibilities taking on a visible form.
 
-You grow to explore what is possible.
+This can express itself as a strong need to see growth and development become real, but also as disappointment when possibilities remain present without ever finding expression.
 
-The desire behind growth is exploration.
+<br><br>
+
 `,
 
 5: `
-Cib reveals the hidden desire of Chicchan.
+Energy secretly longs for Trace.
 
-Vitality seeks wisdom.
+<br><br>
 
-Experience alone is never enough.
+People with Energy often want not only to create movement and change, but also long for their efforts to leave something behind.
 
-Every passion carries a lesson.
+Beneath their natural drive and need for movement lies a desire to experience that what they set in motion leaves a lasting impression.
 
-The desire behind intensity is understanding.
+This can express itself as a strong need to have a noticeable impact, but also as frustration when much energy is invested without anything remaining noticeably different afterward.
 
-Life wishes to teach through feeling.
+<br><br>
+
 `,
 
 6: `
-Men reveals the hidden desire of Cimi.
+Boundaries secretly long for Perspective.
 
-Transformation seeks perspective.
+<br><br>
 
-Change becomes easier when viewed from a greater height.
+People with Boundaries often want not only to recognize where something ends, but also long to understand what may exist beyond that boundary.
 
-You do not change simply to leave something behind.
+Beneath their need for clear boundaries lies a desire to view situations from a broader perspective.
 
-You change to see further.
+This can express itself as a strong need to look beyond what currently seems limited, but also as uncertainty when another perspective calls familiar boundaries into question.
 
-The desire behind transformation is vision.
+<br><br>
+
 `,
 
 7: `
-Ix reveals the hidden desire of Manik.
+Interaction secretly longs for Consciousness.
 
-Service seeks awareness.
+<br><br>
 
-Helping others eventually becomes a path of self-discovery.
+People with Interaction often want not only to experience exchange, but also long to become aware of what happens within that interaction.
 
-You do not serve merely to give.
+Beneath their need for contact, exchange and mutual influence lies a desire to experience what encounters bring about in themselves and others.
 
-You serve to understand.
+This can express itself as a strong need for meaningful interaction, but also as unease when much exchange takes place without it becoming clear what it actually brings about.
 
-The desire behind service is consciousness.
+<br><br>
+
 `,
-
 8: `
-Ben reveals the hidden desire of Lamat.
+Value secretly longs for Structure.
 
-Beauty seeks purpose.
+<br><br>
 
-Harmony wishes to become something lasting.
+People with Value often want not only to recognize what is meaningful, but also long for what they value to have a clear and lasting place.
 
-You do not appreciate beauty only to admire it.
+Beneath their sense of meaning, quality and importance lies a need for a form in which value can be preserved and supported.
 
-You wish to build with it.
+This can express itself as a strong need to give meaningful things a solid place in their lives, but also as difficulty when existing structures no longer support what is truly valuable to them.
 
-The desire behind beauty is creation.
+<br><br>
+
 `,
 
 9: `
-Eb reveals the hidden desire of Muluc.
+Flow secretly longs for Life Path.
 
-Meaning seeks experience.
+<br><br>
 
-Purpose becomes real only when lived.
+People with Flow often want not only to move with what is developing, but also long for all that movement to lead somewhere.
 
-You do not seek meaning merely to possess it.
+Beneath their natural ability to let feelings, ideas and developments flow lies a need to experience that what passes is part of a larger journey.
 
-You seek to walk it.
+This can express itself as a strong need to experience meaning in the path they travel, but also as uncertainty when life keeps changing without it becoming clear where that movement is taking them.
 
-The desire behind meaning is participation.
+<br><br>
+
 `,
 
 10: `
-Chuen reveals the hidden desire of Oc.
+Relationship secretly longs for Expression.
 
-Loyalty seeks joy.
+<br><br>
 
-Connection flourishes through creativity and play.
+People with Relationship often want not only to experience connection, but also long for that connection to be expressed.
 
-You do not remain devoted only out of duty.
+Beneath their need for trust, involvement and closeness lies a desire to experience that what exists between people also becomes visible, tangible or shareable.
 
-You remain because life becomes richer together.
+This can express itself as a strong need to express connection and see it reflected in return, but also as uncertainty when a relationship exists without it being clear what it means to the other person.
 
-The desire behind loyalty is shared happiness.
+<br><br>
+
 `,
 
 11: `
-Oc reveals the hidden desire of Chuen.
+Expression secretly longs for Relationship.
 
-Creativity seeks connection.
+<br><br>
 
-Ideas become alive when shared.
+People with Expression often want not only to make visible what lives within them, but also long for their expression to create genuine connection.
 
-You do not create merely to express yourself.
+Beneath their need to bring ideas, feelings and experiences outward lies a desire to reach someone or something through what they express.
 
-You create to build relationships.
+This can express itself as a strong need to share themselves and experience connection through doing so, but also as disappointment when what they express finds no connection or remains unanswered.
 
-The desire behind creativity is belonging.
+<br><br>
+
 `,
 
 12: `
-Muluc reveals the hidden desire of Eb.
+Life Path secretly longs for Flow.
 
-Experience seeks meaning.
+<br><br>
 
-Every journey eventually asks why it matters.
+People with Life Path often want not only to follow a path and develop along the way, but also long for that path to remain open to movement and change.
 
-You do not travel simply to move.
+Beneath their need to connect experiences into an ongoing journey lies a desire to move with whatever life brings along the way.
 
-You move to discover purpose.
+This can express itself as a strong need to allow their path to develop freely, but also as unease when circumstances block their progress or life begins to flow differently from what they expected.
 
-The desire behind experience is significance.
+<br><br>
+
 `,
 
 13: `
-Lamat reveals the hidden desire of Ben.
+Structure secretly longs for Value.
 
-Vision seeks beauty.
+<br><br>
 
-A future worth building must also be worth loving.
+People with Structure often want not only to create order and coherence, but also long for what they build to be truly meaningful.
 
-You do not create only for function.
+Beneath their need for organization, stability and a solid foundation lies a desire to support something that has value for themselves or others.
 
-You create for harmony.
+This can express itself as a strong need to devote time and attention to what is truly meaningful, but also as doubt when a structure functions well while it is no longer clear what purpose it actually serves.
 
-The desire behind vision is beauty.
+<br><br>
+
 `,
 
 14: `
-Manik reveals the hidden desire of Ix.
+Consciousness secretly longs for Interaction.
 
-Awareness seeks service.
+<br><br>
 
-Insight naturally wishes to become useful.
+People with Consciousness often want not only to perceive what is present within themselves and their surroundings, but also long to interact with it.
 
-You do not understand merely for yourself.
+Beneath their need for awareness and experience lies a desire to be influenced by contact with people, ideas and circumstances, while also having an influence themselves.
 
-You understand to contribute.
+This can express itself as a strong need for experiences that bring their consciousness into contact with something beyond themselves, but also as a sense of separation when they perceive a great deal without truly participating in what they experience.
 
-The desire behind awareness is generosity.
+<br><br>
+
 `,
-
 15: `
-Cimi reveals the hidden desire of Men.
+Perspective secretly longs for Boundaries.
 
-Perspective seeks life.
+<br><br>
 
-A distant view eventually returns to direct experience.
+People with Perspective often want not only to look from different points of view, but also long to know within what boundaries their view gains meaning.
 
-You do not rise above life to escape it.
+Beneath their need to look further and see the larger whole lies a desire for boundaries that make clear which part of that whole is relevant at that moment.
 
-You rise above it to re-enter it more fully.
+This can express itself as a strong need to direct their view within a clear frame, but also as unease when there are so many possible perspectives that no clear boundary emerges.
 
-The desire behind perspective is transformation.
+<br><br>
+
 `,
 
 16: `
-Chicchan reveals the hidden desire of Cib.
+Trace secretly longs for Energy.
 
-Wisdom seeks vitality.
+<br><br>
 
-Understanding becomes meaningful when it is lived.
+People with Trace often want not only to preserve what experiences have left behind, but also long for what comes from the past to create movement again.
 
-Knowledge alone cannot replace experience.
+Beneath their attention to memories, experiences and lasting impressions lies a desire for these not only to be preserved, but also to influence what emerges next.
 
-Insight wishes to become movement.
+This can express itself as a strong need to build on previous experiences, but also as frustration when what they have learned or left behind no longer sets anything new in motion.
 
-The desire behind wisdom is aliveness.
+<br><br>
+
 `,
 
 17: `
-Kan reveals the hidden desire of Caban.
+Manifestation secretly longs for Potential.
 
-Discovery seeks growth.
+<br><br>
 
-Exploration reveals possibilities that wish to be developed.
+People with Manifestation often want not only to see what has become reality, but also long to experience what possibilities still lie hidden within it.
 
-You do not seek answers merely to know.
+Beneath their attention to what is visibly and concretely present lies a desire for what could still emerge from it.
 
-You seek them to become.
+This can express itself as a strong need to keep seeing new possibilities in what already exists, but also as dissatisfaction when reality seems to contain fewer possibilities than they had hoped.
 
-The desire behind discovery is development.
+<br><br>
+
 `,
 
 18: `
-Akbal reveals the hidden desire of Etznab.
+Truth secretly longs for Imagination.
 
-Truth seeks mystery.
+<br><br>
 
-Every revelation opens another door.
+People with Truth often want not only to see what corresponds with reality, but also long to imagine what could become possible from within that reality.
 
-You do not seek truth to end the search.
+Beneath their need for authenticity and correspondence lies a desire to look beyond what is presently real.
 
-You seek truth to deepen it.
+This can express itself as a strong need to form new images and possibilities from reality, but also as difficulty when imagination asks them to make room for something that has not yet been confirmed by reality.
 
-The desire behind clarity is wonder.
+<br><br>
+
 `,
 
 19: `
-Ik reveals the hidden desire of Cauac.
+Coherence secretly longs for Information.
 
-Renewal seeks connection.
+<br><br>
 
-After every storm comes a need to communicate, reconnect and rebuild.
+People with Coherence often want not only to experience that different parts are connected, but also long for it to become visible how that connection is structured.
 
-You do not transform merely to change.
+Beneath their need for coherence and interconnectedness lies a desire for information that makes the relationships within the whole recognizable.
 
-You transform to relate differently.
+This can express itself as a strong need to know what is happening within a larger whole, but also as uncertainty when they experience coherence without enough information to see what it is based on.
 
-The desire behind renewal is relationship.
+<br><br>
+
 `,
 
 20: `
-Imix reveals the hidden desire of Ahau.
+Essence secretly longs for Source.
 
-Wholeness seeks new beginnings.
+<br><br>
 
-Completion is never final.
+People with Essence often want not only to recognize what is truly essential, but also long to experience where that essence comes from.
 
-Every ending contains another seed.
+Beneath their need for authenticity, meaning and a recognizable core lies a desire for the source from which something has been able to develop into itself.
 
-You do not seek fulfillment to stop.
+This can express itself as a strong need to return to what originally gave something meaning, but also as difficulty accepting that what is essential can change along the way and does not have to be fully explained by its origin.
 
-You seek fulfillment to begin again.
+<br><br>
 
-The desire behind wholeness is creation.
 `
 
 };

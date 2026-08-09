@@ -1,113 +1,113 @@
 const sahasraraPages_tr = {
 
 1: `
-How do I stay on the path?
+Yolumda nasıl kalabilirim?
 
-The path is not always found through movement.
+Yol her zaman hareket ederek bulunmaz.
 
-Sometimes the next step is remembering why you started.
+Bazen bir sonraki adım, neden başladığını hatırlamaktır.
 
-Heart periods ask you to return to your center before choosing a direction.
+Kalp dönemleri, yönünü seçmeden önce seni yeniden merkezine dönmeye davet eder.
 
-If everything feels uncertain, look for what still feels meaningful.
+Her şey belirsiz görünüyorsa, hâlâ anlamlı hissettiren şeyi ara.
 
-Meaning often survives long after excitement has disappeared.
+Anlam, heyecan çoktan kaybolmuş olsa bile çoğu zaman varlığını sürdürür.
 `,
 
 2: `
-Thunder brings movement and disruption.
+Gök gürültüsü hareket ve değişim getirir.
 
-Something that has become stagnant is trying to wake up.
+Uzun süredir durağan kalan bir şey uyanmaya çalışıyor.
 
-Do not focus only on what changed.
+Yalnızca neyin değiştiğine odaklanma.
 
-Ask yourself what the change is trying to reveal.
+Kendine bu değişimin neyi ortaya çıkarmaya çalıştığını sor.
 
-The path often becomes visible after the ground begins to shake.
+Yol, çoğu zaman ancak zemin sarsılmaya başladıktan sonra görünür hâle gelir.
 `,
 
 3: `
-Fire illuminates both strengths and weaknesses.
+Ateş hem güçlü hem de zayıf yönleri aydınlatır.
 
-What is hidden becomes easier to see.
+Gizli olanı görmek kolaylaşır.
 
-Avoid becoming fascinated by appearances alone.
+Yalnızca görünüşlere kapılmamaya dikkat et.
 
-Light is useful when it reveals truth.
+Işık, hakikati ortaya çıkardığında değerlidir.
 
-The path becomes clearer when you are willing to see things as they are.
+Şeyleri oldukları gibi görmeye istekli olduğunda yol daha netleşir.
 `,
 
 4: `
-Wind carries messages from unexpected directions.
+Rüzgâr beklenmedik yönlerden mesajlar taşır.
 
-Listen before acting.
+Harekete geçmeden önce dinle.
 
-Small influences can change the course of a journey.
+Küçük etkiler bile bir yolculuğun yönünü değiştirebilir.
 
-Pay attention to recurring thoughts, conversations and opportunities.
+Tekrarlayan düşüncelere, konuşmalara ve fırsatlara dikkat et.
 
-The path is often adjusted through gentle corrections rather than dramatic events.
+Yol çoğu zaman büyük olaylarla değil, nazik düzeltmelerle şekillenir.
 `,
 
 5: `
-Heaven invites a wider perspective.
+Gök daha geniş bir bakış açısına davet eder.
 
-Try to rise above immediate concerns.
+Bulunduğun anın ötesine bakmayı dene.
 
-Not every problem requires an immediate solution.
+Her sorun hemen çözülmek zorunda değildir.
 
-Sometimes clarity comes from seeing how a challenge fits into a larger pattern.
+Bazen açıklık, bir zorluğun daha büyük bir bütünün parçası olduğunu gördüğünde ortaya çıkar.
 
-The path becomes easier when you stop mistaking every obstacle for the destination.
+Her engeli varış noktası sanmayı bıraktığında yol daha kolay hâle gelir.
 `,
 
 6: `
-Lake reminds you that joy is part of the journey.
+Göl, neşenin de yolculuğun bir parçası olduğunu hatırlatır.
 
-A path sustained only by discipline eventually becomes brittle.
+Yalnızca disiplinle sürdürülen bir yol zamanla kırılganlaşır.
 
-Look for what nourishes your spirit.
+Ruhunu besleyen şeyi ara.
 
-Meaning grows more easily when accompanied by gratitude and connection.
+Anlam, minnettarlık ve bağ hissiyle birlikte daha kolay büyür.
 
-The path is not only about where you are going, but also about how you travel.
+Yol yalnızca nereye gittiğinle değil, nasıl ilerlediğinle de ilgilidir.
 `,
 
 7: `
-Water tests adaptability.
+Su uyum sağlama yeteneğini sınar.
 
-When resistance becomes exhausting, flexibility may be the wiser choice.
+Direnmek yorucu hâle geldiğinde, esneklik daha bilgece bir seçim olabilir.
 
-Water does not defeat obstacles through force.
+Su engelleri güç kullanarak aşmaz.
 
-It flows around them.
+Onların etrafından akar.
 
-The path continues when you learn the difference between persistence and stubbornness.
+Azim ile inat arasındaki farkı öğrendiğinde yol devam eder.
 `,
 
 8: `
-Mountain tests patience more than strength.
+Dağ, gücünden çok sabrını sınar.
 
-Progress may appear slow, but stillness has its own purpose.
+İlerleme yavaş görünebilir, ancak durgunluğun da bir amacı vardır.
 
-What feels like a delay can reveal weaknesses that would otherwise remain hidden.
+Gecikme gibi görünen şey, aksi hâlde fark edilmeyecek zayıflıkları ortaya çıkarabilir.
 
-Instead of asking how far you still have to go, ask what this moment is trying to teach you.
+Kendine ne kadar yolun kaldığını sormak yerine, bu anın sana ne öğretmeye çalıştığını sor.
 
-Sometimes standing still is part of moving forward.
+Bazen durmak da ilerlemenin bir parçasıdır.
 `,
 
 9: `
-Earth encourages balance and integration.
+Toprak dengeyi ve bütünleşmeyi teşvik eder.
 
-Different parts of your life are seeking harmony.
+Hayatının farklı yönleri uyum arıyor.
 
-Rather than chasing the next destination, focus on creating stability where you stand.
+Bir sonraki hedefin peşinden koşmak yerine, bulunduğun yerde sağlamlık oluşturmaya odaklan.
 
-Growth becomes sustainable when your actions align with your values.
+Eylemlerin değerlerinle uyumlu olduğunda gelişim sürdürülebilir hâle gelir.
 
-The path remains steady when your foundations are strong.
+Temellerin güçlü olduğunda yol da sağlam kalır.
 `
 
 };

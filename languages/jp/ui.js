@@ -32,13 +32,13 @@ nightNames: [
   "地"
 ],
 
-  muladhara: "Muladhara",
-  svadhisthana: "Svadhisthana",
-  manipura: "Manipura",
-  anahata: "Anahata",
-  vishuddha: "Vishuddha",
-  ajna: "Ajna",
-  sahasrara: "Sahasrara",
+  muladhara: "ムーラーダーラ",
+  svadhisthana: "スワーディシュターナ",
+  manipura: "マニプーラ",
+  anahata: "アナーハタ",
+  vishuddha: "ヴィシュッダ",
+  ajna: "アージュニャー",
+  sahasrara: "サハスラーラ",
 
 
 

@@ -3,1554 +3,1548 @@ const ajnaPages_tr = {
 imix: {
 
   1: `
-Imix reflects Imix.
+Imix, Imix'i yansıtır.
 
-Possibility recognizes itself.
+Olasılık kendini tanır.
 
-Every beginning contains another beginning.
+Her başlangıç, içinde başka bir başlangıç taşır.
 
-The search is not for certainty.
+Arayış kesinliğe yönelik değildir.
 
-It is for the next opening.
+Bir sonraki açılışa yöneliktir.
 
-When possibility reflects itself, curiosity becomes the path.
+Olasılık kendini yansıttığında, merak yol hâline gelir.
 
-The search begins again.
+Arayış yeniden başlar.
 `,
 
-
   2: `
-Chicchan guides Imix.
+Chicchan, Imix'e rehberlik eder.
 
-Possibility seeks vitality.
+Olasılık yaşam gücünü arar.
 
-Ideas become meaningful when they are lived.
+Fikirler ancak yaşandıklarında anlam kazanır.
 
-A path cannot be discovered through thought alone.
+Bir yol yalnızca düşünerek keşfedilemez.
 
-Movement reveals what imagination cannot.
+Hareket, hayal gücünün gösteremeyeceğini ortaya çıkarır.
 
-The search awakens through participation.
+Arayış katılım yoluyla uyanır.
 
-Life gives possibility its heartbeat.
+Yaşam, olasılığa kalp atışını verir.
 `,
 
   3: `
-Muluc guides Imix.
+Muluc, Imix'e rehberlik eder.
 
-Possibility seeks meaning.
+Olasılık anlam arar.
 
-Many doors may open.
+Birçok kapı açılabilir.
 
-Not every door belongs to your journey.
+Fakat her kapı senin yoluna ait değildir.
 
-The guide asks what truly matters.
+Rehber, gerçekten neyin önemli olduğunu sorar.
 
-Meaning transforms curiosity into direction.
+Anlam, merakı yöne dönüştürür.
 
-Purpose gives possibility its depth.
+Amaç, olasılığa derinlik kazandırır.
 `,
 
   4: `
-Ben guides Imix.
+Ben, Imix'e rehberlik eder.
 
-Possibility seeks vision.
+Olasılık vizyon arar.
 
-A beginning becomes stronger when it can see beyond itself.
+Bir başlangıç, kendisinin ötesini görebildiğinde güçlenir.
 
-The future does not need to be fully known.
+Geleceğin bütünüyle bilinmesi gerekmez.
 
-It only needs to be visible enough to move toward.
+Ona doğru ilerleyebilmek için yeterince görünür olması yeterlidir.
 
-Vision transforms potential into intention.
+Vizyon, potansiyeli niyete dönüştürür.
 
-Direction gives possibility its horizon.
+Yön, olasılığa ufkunu kazandırır.
 `,
 
-    5: `
-Caban guides Imix.
+  5: `
+Caban, Imix'e rehberlik eder.
 
-Possibility seeks discovery.
+Olasılık keşif arar.
 
-Every answer reveals another question.
+Her cevap yeni bir soruyu ortaya çıkarır.
 
-Every horizon reveals another landscape.
+Her ufkun ardında yeni bir manzara vardır.
 
-The search continues because reality remains larger than expectation.
+Arayış sürer, çünkü gerçeklik her zaman beklentilerden daha geniştir.
 
-Discovery transforms potential into experience.
+Keşif, potansiyeli deneyime dönüştürür.
 
-Wonder gives possibility its adventure.
+Hayret, olasılığa macerasını kazandırır.
 `
 
-  },
+},
 
 ik: {
 
   1: `
-Ik reflects Ik.
+Ik, Ik'i yansıtır.
 
-Connection recognizes itself.
+Bağ kendini tanır.
 
-Every relationship begins with awareness.
+Her ilişki farkındalıkla başlar.
 
-Before understanding another, you must first become present.
+Bir başkasını anlayabilmek için önce gerçekten orada olmalısın.
 
-The search is not for agreement.
+Arayış uzlaşmaya yönelik değildir.
 
-It is for genuine contact.
+Gerçek temasa yöneliktir.
 
-Connection begins wherever separation ends.
+Bağ, ayrılığın sona erdiği yerde başlar.
 `,
 
   2: `
-Cimi guides Ik.
+Cimi, Ik'e rehberlik eder.
 
-Connection seeks transformation.
+Bağ dönüşüm arar.
 
-No relationship remains unchanged.
+Hiçbir ilişki aynı kalmaz.
 
-Every encounter leaves a mark.
+Her karşılaşma bir iz bırakır.
 
-Growth asks both people to evolve beyond who they were before.
+Gelişim, her iki insanı da oldukları kişinin ötesine geçmeye davet eder.
 
-The search continues because connection changes those who enter it.
+Arayış sürer, çünkü bağ ona giren herkesi değiştirir.
 
-Transformation gives connection its depth.
+Dönüşüm, bağa derinlik kazandırır.
 `,
 
   3: `
-Oc guides Ik.
+Oc, Ik'e rehberlik eder.
 
-Connection seeks belonging.
+Bağ aidiyet arar.
 
-Understanding grows through trust.
+Anlayış güven sayesinde büyür.
 
-A bridge becomes meaningful when it can be crossed from both directions.
+Bir köprü, iki yönde de geçilebildiğinde anlam kazanır.
 
-The search is not only for contact.
+Arayış yalnızca temas için değildir.
 
-It is also for companionship.
+Aynı zamanda yoldaşlık içindir.
 
-Belonging gives connection its warmth.
+Aidiyet, bağa sıcaklığını verir.
 `,
 
   4: `
-Ix guides Ik.
+Ix, Ik'e rehberlik eder.
 
-Connection seeks awareness.
+Bağ farkındalık arar.
 
-Not everything spoken is understood.
+Söylenen her şey anlaşılmaz.
 
-Not everything understood is spoken.
+Anlaşılan her şey de söylenmez.
 
-Attention reveals what words often conceal.
+Dikkat, kelimelerin çoğu zaman gizlediğini açığa çıkarır.
 
-The search deepens when observation deepens.
+Gözlem derinleştikçe arayış da derinleşir.
 
-Awareness gives connection its clarity.
+Farkındalık, bağa açıklık kazandırır.
 `,
 
   5: `
-Etznab guides Ik.
+Etznab, Ik'e rehberlik eder.
 
-Connection seeks truth.
+Bağ hakikati arar.
 
-Relationships become stronger when illusion falls away.
+İlişkiler, yanılsamalar ortadan kalktığında güçlenir.
 
-Honesty may feel uncomfortable.
+Dürüstlük bazen rahatsız edici olabilir.
 
-Yet what is real can withstand examination.
+Fakat gerçek olan, sorgulanmaya dayanabilir.
 
-The search asks for authenticity before certainty.
+Arayış, kesinlikten önce içtenlik ister.
 
-Truth gives connection its foundation.
+Hakikat, bağın temelini oluşturur.
 `
 
-  },
+},
 
 akbal: {
 
   1: `
-Akbal reflects Akbal.
+Akbal, Akbal'i yansıtır.
 
-Mystery recognizes itself.
+Gizem kendini tanır.
 
-Not every unknown asks to be solved.
+Her cevap yeni bir bilinmeyene açılır.
 
-Some doors remain valuable because they remain unopened.
+Bilinmeyen korkulacak bir şey değildir.
 
-The search is not for certainty.
+Keşfedilmeyi bekleyen bir davettir.
 
-It is for the depth behind the question.
+Arayış kesinliğe yönelik değildir.
 
-Mystery becomes its own path.
+Hayret duygusuna yöneliktir.
+
+Gizem kendi derinliğinin farkına varır.
 `,
 
   2: `
-Manik guides Akbal.
+Manik, Akbal'e rehberlik eder.
 
-Mystery seeks service.
+Gizem hizmet arar.
 
-What is hidden becomes meaningful when it helps someone see more clearly.
+Anlayış, paylaşıldığında daha derin hâle gelir.
 
-Insight is not meant to remain isolated.
+Rehber, öğrendiklerinin başkalarına nasıl fayda sağlayabileceğini sorar.
 
-The guide asks how inner discoveries can become useful.
+Bilgelik yalnızca kendin için değildir.
 
-Service gives mystery a hand.
+Hizmet, gizeme amaç kazandırır.
 `,
 
   3: `
-Chuen guides Akbal.
+Chuen, Akbal'e rehberlik eder.
 
-Mystery seeks creativity.
+Gizem yaratıcılık arar.
 
-The unknown does not always need a serious face.
+Bilinmeyen, hayal gücünü davet eder.
 
-Imagination can enter places logic cannot.
+Rehber, cevaplardan çok olasılıkları görmeni ister.
 
-Play opens hidden doors.
+Her keşif yeni bir yaratımın başlangıcı olabilir.
 
-Creativity gives mystery its language.
+Yaratıcılık, gizeme özgürlük kazandırır.
 `,
 
   4: `
-Men guides Akbal.
+Men, Akbal'e rehberlik eder.
 
-Mystery seeks perspective.
+Gizem bakış açısı arar.
 
-Darkness changes when seen from above.
+Her bilinmeyen yakından çözülemez.
 
-What feels confusing up close may reveal a pattern from a wider view.
+Bazen gerçeği görebilmek için geri çekilmek gerekir.
 
-The guide does not remove the mystery.
+Daha geniş bir bakış, görünmeyen desenleri ortaya çıkarır.
 
-It teaches you how to look.
-
-Perspective gives mystery its horizon.
+Bakış açısı, gizeme açıklık kazandırır.
 `,
 
   5: `
-Cauac guides Akbal.
+Cauac, Akbal'e rehberlik eder.
 
-Mystery seeks renewal.
+Gizem yenilenme arar.
 
-The unknown can become too familiar.
+Bilinmeyene adım atmak eskiyi geride bırakmayı gerektirir.
 
-A storm breaks the old interpretation open.
+Rehber, değişimin büyümenin doğal bir parçası olduğunu hatırlatır.
 
-What once seemed hidden may be ready to transform.
+Her son, yeni bir başlangıca yer açar.
 
-Renewal gives mystery its movement.
+Yenilenme, gizeme cesaret kazandırır.
 `
 
-  },
+},
 
 kan: {
 
   1: `
-Kan reflects Kan.
+Kan, Kan'ı yansıtır.
 
-Potential recognizes itself.
+Potansiyel kendini tanır.
 
-Every possibility exists before it takes form.
+Her tohum içinde tamamlanmış bir yaşam taşır.
 
-Nothing has been chosen.
+Henüz görünmeyen, var olmadığı anlamına gelmez.
 
-Nothing has been rejected.
+Arayış başarıya yönelik değildir.
 
-The search begins in openness.
+Gelişime yöneliktir.
 
-Potential becomes aware of its own abundance.
+Potansiyel kendi geleceğini tanır.
 `,
 
   2: `
-Lamat guides Kan.
+Lamat, Kan'a rehberlik eder.
 
-Potential seeks beauty.
+Potansiyel güzellik arar.
 
-Growth is encouraged by what inspires it.
+Büyüme uyum içinde gerçekleştiğinde doğal görünür.
 
-Not every possibility deserves equal attention.
+Rehber, gelişimin aceleyle zorlanamayacağını gösterir.
 
-Some paths shine because they resonate more deeply.
+Sabır, görünmeyeni olgunlaştırır.
 
-Beauty gives potential its attraction.
+Güzellik, potansiyele zarafet kazandırır.
 `,
 
   3: `
-Eb guides Kan.
+Eb, Kan'a rehberlik eder.
 
-Potential seeks experience.
+Potansiyel deneyim arar.
 
-A possibility remains theoretical until it is lived.
+Bir yetenek ancak yaşandığında gerçeğe dönüşür.
 
-Understanding grows through participation.
+Rehber, öğrenmenin yalnızca düşünmekle gerçekleşmediğini hatırlatır.
 
-The guide invites you to step onto the road.
+Her adım büyümeyi görünür kılar.
 
-Experience gives potential its reality.
+Deneyim, potansiyele gerçeklik kazandırır.
 `,
 
   4: `
-Cib guides Kan.
+Cib, Kan'a rehberlik eder.
 
-Potential seeks wisdom.
+Potansiyel bilgelik arar.
 
-Many opportunities appear valuable.
+Her deneyim bir ders taşır.
 
-Time reveals which ones truly matter.
+Rehber, yalnızca ilerlemeyi değil, aynı zamanda anlamayı da davet eder.
 
-The guide encourages patience and reflection.
+Düşünmek, büyümeye yön verir.
 
-Wisdom gives potential its discernment.
+Bilgelik, potansiyele olgunluk kazandırır.
 `,
 
   5: `
-Ahau guides Kan.
+Ahau, Kan'a rehberlik eder.
 
-Potential seeks wholeness.
+Potansiyel bütünlük arar.
 
-Every seed contains more than a single outcome.
+Her parça ait olduğu yere ulaştığında gelişim tamamlanır.
 
-Growth moves toward integration.
+Rehber, hiçbir büyümenin tek başına gerçekleşmediğini gösterir.
 
-The guide reminds you that possibilities become meaningful when they serve a larger whole.
+Her şey daha büyük bir bütünün parçasıdır.
 
-Wholeness gives potential its purpose.
+Bütünlük, potansiyele tamamlanmışlık kazandırır.
 `
 
-  },
+},
 
 chicchan: {
 
   1: `
-Chicchan reflects Chicchan.
+Chicchan, Chicchan'ı yansıtır.
 
-Vitality recognizes itself.
+Yaşam gücü kendini tanır.
 
-Life wishes to express itself fully.
+Her nefes yaşamın varlığını doğrular.
 
-Energy seeks movement.
+Enerji hareket etmek ister.
 
-Movement seeks experience.
+Arayış kontrole yönelik değildir.
 
-The search is not for permission.
+Deneyime yöneliktir.
 
-It is for participation.
-
-Vitality becomes aware of its own aliveness.
+Yaşam gücü kendi canlılığını hisseder.
 `,
 
   2: `
-Muluc guides Chicchan.
+Muluc, Chicchan'a rehberlik eder.
 
-Vitality seeks meaning.
+Yaşam gücü anlam arar.
 
-Energy alone is not enough.
+Enerji yön bulduğunda daha güçlü akar.
 
-Movement becomes more powerful when it serves something that matters.
+Rehber, ne için hareket ettiğini hatırlatır.
 
-The guide asks what your passion is truly feeding.
+Amaç, çabayı değere dönüştürür.
 
-Meaning gives vitality its depth.
+Anlam, yaşam gücüne yön kazandırır.
 `,
 
   3: `
-Ben guides Chicchan.
+Ben, Chicchan'a rehberlik eder.
 
-Vitality seeks vision.
+Yaşam gücü vizyon arar.
 
-Life naturally moves.
+Enerji bir hedefe sahip olduğunda odaklanır.
 
-The question is where it is moving.
+Rehber, bugünün ötesini görmeye davet eder.
 
-A clear horizon transforms impulse into direction.
+Her hareket geleceği şekillendirir.
 
-Vision gives vitality its aim.
+Vizyon, yaşam gücüne ufuk kazandırır.
 `,
 
   4: `
-Caban guides Chicchan.
+Caban, Chicchan'a rehberlik eder.
 
-Vitality seeks discovery.
+Yaşam gücü keşif arar.
 
-The living world is larger than any expectation.
+Hareket yeni yollar açar.
 
-Curiosity invites experience beyond familiar boundaries.
+Rehber, bilinmeyeni korkuyla değil merakla karşılamaya davet eder.
 
-The guide encourages exploration.
+Her adım yeni olasılıkları ortaya çıkarır.
 
-Discovery gives vitality its adventure.
+Keşif, yaşam gücüne özgürlük kazandırır.
 `,
 
   5: `
-Imix guides Chicchan.
+Imix, Chicchan'a rehberlik eder.
 
-Vitality seeks possibility.
+Yaşam gücü olasılık arar.
 
-Life does not wish to repeat itself forever.
+Her başlangıç yeni bir enerji taşır.
 
-Every ending contains another beginning.
+Rehber, yaşamın sürekli yenilendiğini hatırlatır.
 
-The guide reveals paths not yet considered.
+Potansiyel her an yeniden doğabilir.
 
-Possibility gives vitality its future.
+Olasılık, yaşam gücüne umut kazandırır.
 `
 
-  },
+},
 
 cimi: {
 
   1: `
-Cimi reflects Cimi.
+Cimi, Cimi'yi yansıtır.
 
-Transformation recognizes itself.
+Dönüşüm kendini tanır.
 
-Change is a constant companion.
+Her son yeni bir başlangıca alan açar.
 
-Nothing remains exactly as it was.
+Hiçbir şey gerçekten kaybolmaz.
 
-Every ending creates space for a beginning.
+Her şey şekil değiştirir.
 
-The search is not for permanence.
+Arayış sona yönelik değildir.
 
-It is for renewal.
+Yenilenmeye yöneliktir.
 
-Transformation becomes aware of its own rhythm.
+Dönüşüm kendi döngüsünü tanır.
 `,
 
   2: `
-Oc guides Cimi.
+Oc, Cimi'ye rehberlik eder.
 
-Transformation seeks belonging.
+Dönüşüm aidiyet arar.
 
-Change becomes easier when it is shared.
+Değişim tek başına yaşanmak zorunda değildir.
 
-Support allows growth to continue through uncertainty.
+Rehber, güvenin büyümeyi desteklediğini hatırlatır.
 
-The guide reminds you that no journey must be walked alone.
+Birlikte yürümek dönüşümü hafifletir.
 
-Belonging gives transformation its courage.
+Aidiyet, dönüşüme sıcaklık kazandırır.
 `,
 
   3: `
-Ix guides Cimi.
+Ix, Cimi'ye rehberlik eder.
 
-Transformation seeks awareness.
+Dönüşüm farkındalık arar.
 
-Many changes begin long before they become visible.
+Gerçek değişim önce görülür.
 
-The guide encourages careful observation.
+Rehber, yargılamadan gözlemlemeyi öğretir.
 
-What appears sudden often has deep roots.
+Anlayış, değişimin ilk adımıdır.
 
-Awareness gives transformation its clarity.
+Farkındalık, dönüşüme açıklık kazandırır.
 `,
 
   4: `
-Etznab guides Cimi.
+Etznab, Cimi'ye rehberlik eder.
 
-Transformation seeks truth.
+Dönüşüm hakikat arar.
 
-Not every change leads forward.
+Yanılsamalar çözüldüğünde büyüme başlar.
 
-Some paths only repeat old patterns in new forms.
+Rehber, dürüstlüğün özgürleştirici olduğunu gösterir.
 
-The guide removes illusion from the process.
+Gerçek, değişimin temelidir.
 
-Truth gives transformation its direction.
+Hakikat, dönüşüme sağlamlık kazandırır.
 `,
 
   5: `
-Ik guides Cimi.
+Ik, Cimi'ye rehberlik eder.
 
-Transformation seeks connection.
+Dönüşüm bağ arar.
 
-Growth changes how you relate to the world.
+Hiç kimse tek başına gelişmez.
 
-Old relationships evolve.
+Rehber, her karşılaşmanın bizi değiştirdiğini hatırlatır.
 
-New relationships emerge.
+İlişkiler büyümenin aynasıdır.
 
-The guide reminds you that change is never purely personal.
-
-Connection gives transformation its humanity.
+Bağ, dönüşüme insanlığını kazandırır.
 `
 
-  },
+},
 
 manik: {
 
   1: `
-Manik reflects Manik.
+Manik, Manik'i yansıtır.
 
-Service recognizes itself.
+Hizmet kendini tanır.
 
-Helping others begins with understanding what is needed.
+Gerçek katkı, başkalarını değiştirmeye çalışmadan başlar.
 
-Not every problem asks to be solved.
+İnsan önce var olur.
 
-Not every burden asks to be carried.
+Sonra hizmet eder.
 
-The search is not for usefulness alone.
+Arayış takdire yönelik değildir.
 
-It is for meaningful contribution.
+Anlamlı katkıya yöneliktir.
 
-Service becomes aware of its own purpose.
+Hizmet kendi amacını tanır.
 `,
 
   2: `
-Chuen guides Manik.
+Chuen, Manik'e rehberlik eder.
 
-Service seeks creativity.
+Hizmet yaratıcılık arar.
 
-There is more than one way to help.
+Her insan farklı bir şekilde katkıda bulunur.
 
-The guide encourages flexibility and imagination.
+Rehber, kendi benzersiz ifadenin değerini hatırlatır.
 
-New solutions appear when old assumptions are released.
+Yaratıcılık, hizmeti canlı tutar.
 
-Creativity gives service its adaptability.
+Özgünlük, katkıya yeni yollar açar.
 `,
 
   3: `
-Men guides Manik.
+Men, Manik'e rehberlik eder.
 
-Service seeks perspective.
+Hizmet bakış açısı arar.
 
-Good intentions are strengthened by understanding the larger picture.
+İyi niyet tek başına yeterli değildir.
 
-The guide invites you to step back before stepping forward.
+Rehber, önce bütünü görmeye davet eder.
 
-A wider view reveals where effort is most effective.
+Anlayış, katkının daha isabetli olmasını sağlar.
 
-Perspective gives service its wisdom.
+Bakış açısı, hizmete bilgelik kazandırır.
 `,
 
   4: `
-Cauac guides Manik.
+Cauac, Manik'e rehberlik eder.
 
-Service seeks renewal.
+Hizmet yenilenme arar.
 
-Even the most dedicated path can become routine.
+Başkalarına verebilmek için önce kendini yenilemek gerekir.
 
-The guide arrives like a storm.
+Rehber, tükenmişliğin fedakârlık olmadığını hatırlatır.
 
-Old methods give way to new possibilities.
+Dinlenmek de hizmetin bir parçasıdır.
 
-Renewal gives service its vitality.
+Yenilenme, hizmete süreklilik kazandırır.
 `,
 
   5: `
-Akbal guides Manik.
+Akbal, Manik'e rehberlik eder.
 
-Service seeks mystery.
+Hizmet gizem arar.
 
-Not every answer is immediately visible.
+Her yardımın sonucu hemen görünmez.
 
-Some forms of help begin with listening rather than acting.
+Rehber, güvenmeyi öğretir.
 
-The guide teaches patience with the unknown.
+Bazı tohumlar sessizlik içinde filizlenir.
 
-Mystery gives service its humility.
+Gizem, hizmete tevazu kazandırır.
 `
 
-  },
+},
 
 lamat: {
 
   1: `
-Lamat reflects Lamat.
+Lamat, Lamat'ı yansıtır.
 
-Beauty recognizes itself.
+Güzellik kendini tanır.
 
-Harmony appears when things align naturally.
+Uyum doğal olarak dikkat çeker.
 
-The search is not for perfection.
+Güzellik yalnızca görülen şey değildir.
 
-It is for resonance.
+Hissedilen şeydir.
 
-What is beautiful often feels effortless because it reflects a deeper order.
+Arayış kusursuzluğa yönelik değildir.
 
-Beauty becomes aware of its own radiance.
+Uyuma yöneliktir.
+
+Güzellik kendi ışığını tanır.
 `,
 
   2: `
-Eb guides Lamat.
+Eb, Lamat'a rehberlik eder.
 
-Beauty seeks experience.
+Güzellik deneyim arar.
 
-Inspiration becomes meaningful when it is lived.
+Gerçek güzellik yaşanmak ister.
 
-The guide encourages you to walk the road rather than admire it from afar.
+Rehber, yalnızca izlemek yerine katılmaya davet eder.
 
-Beauty grows richer through participation.
+Deneyim, takdiri derinleştirir.
 
-Experience gives beauty its substance.
+Yaşam, güzelliğe gerçeklik kazandırır.
 `,
 
   3: `
-Cib guides Lamat.
+Cib, Lamat'a rehberlik eder.
 
-Beauty seeks wisdom.
+Güzellik bilgelik arar.
 
-What appears attractive is not always valuable.
+Zaman, neyin kalıcı olduğunu ortaya çıkarır.
 
-Time reveals the difference.
+Rehber, görünüşün ötesini görmeye davet eder.
 
-The guide encourages discernment.
+Anlayış, hayranlığı olgunlaştırır.
 
-Wisdom gives beauty its depth.
+Bilgelik, güzelliğe derinlik kazandırır.
 `,
 
   4: `
-Ahau guides Lamat.
+Ahau, Lamat'a rehberlik eder.
 
-Beauty seeks wholeness.
+Güzellik bütünlük arar.
 
-Harmony expands when all parts are allowed their place.
+Her parça ait olduğu yerde olduğunda uyum doğar.
 
-The guide reminds you that true beauty does not exclude.
+Rehber, hiçbir unsurun gereksiz olmadığını gösterir.
 
-It integrates.
+Bütün, parçaların toplamından daha fazlasıdır.
 
-Wholeness gives beauty its completeness.
+Bütünlük, güzelliğe denge kazandırır.
 `,
 
   5: `
-Kan guides Lamat.
+Kan, Lamat'a rehberlik eder.
 
-Beauty seeks potential.
+Güzellik potansiyel arar.
 
-Every masterpiece begins as a possibility.
+Her şey henüz görünmeyen bir ihtişam taşır.
 
-Every expression begins as a seed.
+Rehber, büyümekte olanı görmeye davet eder.
 
-The guide points toward what has not yet emerged.
+En güzel şeyler çoğu zaman zamana ihtiyaç duyar.
 
-Potential gives beauty its future.
+Potansiyel, güzelliğe gelecek kazandırır.
 `
 
-  },
+},
 
 muluc: {
 
   1: `
-Muluc reflects Muluc.
+Muluc, Muluc'u yansıtır.
 
-Meaning recognizes itself.
+Anlam kendini tanır.
 
-Some moments ask to be understood rather than explained.
+Her deneyim bir şey öğretir.
 
-Not everything valuable can be measured.
+Her yolculuk bir amaç taşır.
 
-The search is not for answers alone.
+Arayış cevaplara yönelik değildir.
 
-It is for significance.
+Önemli olana yöneliktir.
 
-Meaning becomes aware of its own depth.
+Anlam kendi derinliğini tanır.
 `,
 
   2: `
-Ben guides Muluc.
+Ben, Muluc'a rehberlik eder.
 
-Meaning seeks vision.
+Anlam vizyon arar.
 
-Purpose grows stronger when it can see beyond the present moment.
+Amaç geleceğe yön verir.
 
-The guide encourages you to look toward the horizon.
+Rehber, bugünün ötesini görmeye davet eder.
 
-A larger vision reveals a larger meaning.
+Anlam, yönü olan bir yaşam oluşturur.
 
-Vision gives meaning its direction.
+Vizyon, anlama ufuk kazandırır.
 `,
 
   3: `
-Caban guides Muluc.
+Caban, Muluc'a rehberlik eder.
 
-Meaning seeks discovery.
+Anlam keşif arar.
 
-Understanding deepens through exploration.
+Yeni deneyimler yeni içgörüler doğurur.
 
-The guide invites you beyond familiar conclusions.
+Rehber, bilinmeyene açık kalmayı öğretir.
 
-New experiences reveal new layers of significance.
+Her keşif amacı daha da netleştirir.
 
-Discovery gives meaning its expansion.
+Keşif, anlama genişlik kazandırır.
 `,
 
   4: `
-Imix guides Muluc.
+Imix, Muluc'a rehberlik eder.
 
-Meaning seeks possibility.
+Anlam olasılık arar.
 
-A purpose can become too narrow.
+Her amaç yeni başlangıçlara kapı açar.
 
-The guide reminds you that more paths exist than you currently see.
+Rehber, tek bir yolun hiçbir zaman tek olasılık olmadığını hatırlatır.
 
-New possibilities renew old meanings.
+Potansiyel sürekli yenilenir.
 
-Possibility gives meaning its freedom.
+Olasılık, anlama umut kazandırır.
 `,
 
   5: `
-Chicchan guides Muluc.
+Chicchan, Muluc'a rehberlik eder.
 
-Meaning seeks vitality.
+Anlam yaşam gücü arar.
 
-Purpose becomes strongest when it is lived.
+Bir amaç ancak yaşandığında gerçek olur.
 
-The guide asks not only what matters.
+Rehber, düşüncenin harekete dönüşmesini ister.
 
-It asks what brings life to what matters.
+Yaşam, anlamı görünür kılar.
 
-Vitality gives meaning its heartbeat.
+Yaşam gücü, anlama canlılık kazandırır.
 `
 
-  },
+},
 
 oc: {
 
   1: `
-Oc reflects Oc.
+Oc, Oc'u yansıtır.
 
-Belonging recognizes itself.
+Aidiyet kendini tanır.
 
-Trust grows through consistency.
+Gerçek bağ güven üzerine kurulur.
 
-Relationships deepen through presence.
+İnsan ait olduğu yerde kendisi olabilir.
 
-The search is not for approval.
+Arayış onaya yönelik değildir.
 
-It is for connection that can endure.
+Karşılıklı güvene yöneliktir.
 
-Belonging becomes aware of its own warmth.
+Aidiyet kendi sıcaklığını tanır.
 `,
 
   2: `
-Ix guides Oc.
+Ix, Oc'a rehberlik eder.
 
-Belonging seeks awareness.
+Aidiyet farkındalık arar.
 
-Connection becomes stronger when people truly see one another.
+Gerçek yakınlık dikkatle başlar.
 
-The guide encourages attention beyond appearances.
+Rehber, gerçekten görmeyi ve dinlemeyi öğretir.
 
-Understanding grows through observation.
+Anlaşılmak, görülmekle başlar.
 
-Awareness gives belonging its depth.
+Farkındalık, aidiyete derinlik kazandırır.
 `,
 
   3: `
-Etznab guides Oc.
+Etznab, Oc'a rehberlik eder.
 
-Belonging seeks truth.
+Aidiyet hakikat arar.
 
-Trust cannot flourish where illusion remains.
+Güven dürüstlük üzerine büyür.
 
-The guide asks for honesty before comfort.
+Rehber, maskelerin geride bırakılmasını ister.
 
-What is genuine can withstand examination.
+Gerçek ilişkiler açıklık ister.
 
-Truth gives belonging its foundation.
+Hakikat, aidiyete sağlamlık kazandırır.
 `,
 
   4: `
-Ik guides Oc.
+Ik, Oc'a rehberlik eder.
 
-Belonging seeks connection.
+Aidiyet bağ arar.
 
-A bond remains alive through exchange.
+Yakınlık karşılıklıdır.
 
-The guide reminds you that relationships are built together.
+Rehber, her ilişkinin iki insan tarafından kurulduğunu hatırlatır.
 
-Understanding grows when both sides participate.
+Bağ kurmak sürekli bir seçimdir.
 
-Connection gives belonging its expression.
+Bağ, aidiyete yaşam kazandırır.
 `,
 
   5: `
-Cimi guides Oc.
+Cimi, Oc'a rehberlik eder.
 
-Belonging seeks transformation.
+Aidiyet dönüşüm arar.
 
-Every relationship changes over time.
+İlişkiler bizi değiştirir.
 
-Growth asks people to evolve without abandoning one another.
+Rehber, birlikte büyümeye davet eder.
 
-The guide teaches flexibility within commitment.
+Gerçek yakınlık gelişime alan açar.
 
-Transformation gives belonging its resilience.
+Dönüşüm, aidiyete olgunluk kazandırır.
 `
 
-  },
+},
 
 chuen: {
 
   1: `
-Chuen reflects Chuen.
+Chuen, Chuen'i yansıtır.
 
-Creativity recognizes itself.
+Yaratıcılık kendini tanır.
 
-Imagination reveals possibilities hidden from routine perception.
+Hayal gücü yeni olasılıklara hayat verir.
 
-The search is not for repetition.
+Her yaratım görünmeyen bir kıvılcımla başlar.
 
-It is for expression.
+Arayış mükemmelliğe yönelik değildir.
 
-Every creation begins as a new way of seeing.
+İfadeye yöneliktir.
 
-Creativity becomes aware of its own freedom.
+Yaratıcılık kendi özgürlüğünü tanır.
 `,
 
   2: `
-Men guides Chuen.
+Men, Chuen'e rehberlik eder.
 
-Creativity seeks perspective.
+Yaratıcılık bakış açısı arar.
 
-Ideas grow stronger when they can be viewed from different angles.
+Yeni fikirler farklı bir bakış gerektirir.
 
-The guide encourages distance before action.
+Rehber, alışılmışın ötesini görmeye davet eder.
 
-A wider horizon reveals new connections.
+Yeni bir perspektif yeni olasılıklar doğurur.
 
-Perspective gives creativity its range.
+Bakış açısı, yaratıcılığa ufuk kazandırır.
 `,
 
   3: `
-Cauac guides Chuen.
+Cauac, Chuen'e rehberlik eder.
 
-Creativity seeks renewal.
+Yaratıcılık yenilenme arar.
 
-What once felt inspiring can become familiar.
+Eski kalıplar bırakıldığında yeni fikirler doğabilir.
 
-The guide arrives like a storm.
+Rehber, değişimden korkmamayı öğretir.
 
-Old patterns loosen.
+Her dönüşüm yeni bir ilham taşır.
 
-New possibilities emerge.
-
-Renewal gives creativity its vitality.
+Yenilenme, yaratıcılığa canlılık kazandırır.
 `,
 
   4: `
-Akbal guides Chuen.
+Akbal, Chuen'e rehberlik eder.
 
-Creativity seeks mystery.
+Yaratıcılık gizem arar.
 
-Not every idea arrives fully formed.
+En güçlü fikirler çoğu zaman sessizlikten doğar.
 
-Some inspirations emerge from places beyond explanation.
+Rehber, bilinmeyene güvenmeyi öğretir.
 
-The guide teaches patience with the unknown.
+Hayal gücü görünmeyeni keşfeder.
 
-Mystery gives creativity its depth.
+Gizem, yaratıcılığa derinlik kazandırır.
 `,
 
   5: `
-Manik guides Chuen.
+Manik, Chuen'e rehberlik eder.
 
-Creativity seeks service.
+Yaratıcılık hizmet arar.
 
-Expression becomes meaningful when it benefits more than the creator.
+Gerçek yaratım başkalarının yaşamına da dokunabilir.
 
-The guide asks how imagination can become useful.
+Rehber, yeteneklerini paylaşmaya davet eder.
 
-A gift grows stronger when it is shared.
+İlham yayıldıkça büyür.
 
-Service gives creativity its purpose.
+Hizmet, yaratıcılığa anlam kazandırır.
 `
 
-  },
+},
 
 eb: {
 
   1: `
-Eb reflects Eb.
+Eb, Eb'i yansıtır.
 
-Experience recognizes itself.
+Deneyim kendini tanır.
 
-Understanding grows through participation.
+Her adım yeni bir öğretmendir.
 
-Some lessons cannot be learned from observation alone.
+Yaşam en derin dersleri hareket içinde verir.
 
-The search is not for theory.
+Arayış bilgiye yönelik değildir.
 
-It is for direct encounter.
+Yaşanmış anlayışa yöneliktir.
 
-Experience becomes aware of its own value.
+Deneyim kendi değerini tanır.
 `,
 
   2: `
-Cib guides Eb.
+Cib, Eb'e rehberlik eder.
 
-Experience seeks wisdom.
+Deneyim bilgelik arar.
 
-Many events pass through a lifetime.
+Yaşananlar üzerine düşünmek anlayışı derinleştirir.
 
-Not all of them become lessons.
+Rehber, her olayın taşıdığı dersi görmeye davet eder.
 
-The guide encourages reflection upon what has been lived.
+Bilgelik, deneyime yön verir.
 
-Wisdom gives experience its meaning.
+Anlayış, yaşanmış olana değer kazandırır.
 `,
 
   3: `
-Ahau guides Eb.
+Ahau, Eb'e rehberlik eder.
 
-Experience seeks wholeness.
+Deneyim bütünlük arar.
 
-Individual moments often appear disconnected.
+Her olay daha büyük bir hikâyenin parçasıdır.
 
-The guide reveals the larger pattern.
+Rehber, parçalar arasındaki bağı göstermeye davet eder.
 
-What once seemed separate begins to belong together.
+Hiçbir deneyim tek başına durmaz.
 
-Wholeness gives experience its coherence.
+Bütünlük, deneyime anlam kazandırır.
 `,
 
   4: `
-Kan guides Eb.
+Kan, Eb'e rehberlik eder.
 
-Experience seeks potential.
+Deneyim potansiyel arar.
 
-Every journey changes what becomes possible.
+Her yaşanmış an gelecekteki büyümenin temelidir.
 
-The guide reminds you that growth does not end with understanding.
+Rehber, henüz ortaya çıkmamış olanı görmeye davet eder.
 
-New opportunities emerge from every lesson.
+Her deneyim yeni bir başlangıç taşır.
 
-Potential gives experience its future.
+Potansiyel, deneyime gelecek kazandırır.
 `,
 
   5: `
-Lamat guides Eb.
+Lamat, Eb'e rehberlik eder.
 
-Experience seeks beauty.
+Deneyim güzellik arar.
 
-Some moments remain memorable not because they were useful.
+Yaşamın en güzel anları çoğu zaman yaşanırken fark edilir.
 
-They remain because they were meaningful.
+Rehber, takdir etmeyi öğretir.
 
-The guide reveals harmony hidden within the journey.
+Şükran, sıradan olanı olağanüstü hâle getirir.
 
-Beauty gives experience its appreciation.
+Güzellik, deneyime neşe kazandırır.
 `
 
-  },
+},
 
 ben: {
 
   1: `
-Ben reflects Ben.
+Ben, Ben'i yansıtır.
 
-Vision recognizes itself.
+Vizyon kendini tanır.
 
-The future begins as an image before it becomes a reality.
+Gelecek önce bir görüntü olarak doğar, sonra gerçeğe dönüşür.
 
-Every direction starts with the ability to see beyond the present moment.
+Her yön, ileriyi görebilme yeteneğiyle başlar.
 
-The search is not for prediction.
+Arayış öngörüye yönelik değildir.
 
-It is for orientation.
+Yöne yöneliktir.
 
-Vision becomes aware of its own horizon.
+Vizyon kendi ufkunun farkına varır.
 `,
 
   2: `
-Caban guides Ben.
+Caban, Ben'e rehberlik eder.
 
-Vision seeks discovery.
+Vizyon keşif arar.
 
-A horizon gains meaning when it can be explored.
+Ufuk, keşfedilebildiğinde anlam kazanır.
 
-The guide invites you beyond familiar territory.
+Rehber, bilinenin ötesine geçmeye davet eder.
 
-Every new discovery reshapes what seemed possible.
+Her yeni keşif, mümkün olana dair anlayışı değiştirir.
 
-Discovery gives vision its expansion.
+Keşif, vizyonu genişletir.
 `,
 
   3: `
-Imix guides Ben.
+Imix, Ben'e rehberlik eder.
 
-Vision seeks possibility.
+Vizyon olasılık arar.
 
-The future is never limited to a single outcome.
+Gelecek hiçbir zaman tek bir sonuçtan ibaret değildir.
 
-The guide reminds you that every path contains alternatives.
+Rehber, her yolun yeni seçenekler taşıdığını hatırlatır.
 
-New beginnings remain hidden within every destination.
+Her varış noktası yeni bir başlangıç saklar.
 
-Possibility gives vision its freedom.
+Olasılık, vizyona özgürlük kazandırır.
 `,
 
   4: `
-Chicchan guides Ben.
+Chicchan, Ben'e rehberlik eder.
 
-Vision seeks vitality.
+Vizyon yaşam gücü arar.
 
-A dream remains distant until it enters life.
+Bir hayal, yaşama dokunmadıkça uzakta kalır.
 
-The guide encourages movement instead of hesitation.
+Rehber, tereddüt etmek yerine harekete geçmeye davet eder.
 
-Energy transforms ideas into action.
+Enerji, fikirleri eyleme dönüştürür.
 
-Vitality gives vision its momentum.
+Yaşam gücü, vizyona ivme kazandırır.
 `,
 
   5: `
-Muluc guides Ben.
+Muluc, Ben'e rehberlik eder.
 
-Vision seeks meaning.
+Vizyon anlam arar.
 
-A destination becomes valuable when it serves something greater than itself.
+Bir hedef, kendisinden daha büyük bir şeye hizmet ettiğinde değer kazanır.
 
-The guide asks why the journey matters.
+Rehber, bu yolun neden gerçekten önemli olduğunu sorar.
 
-Purpose reveals which horizons are worth pursuing.
+Amaç, hangi ufukların peşinden gidileceğini gösterir.
 
-Meaning gives vision its significance.
+Anlam, vizyona önem kazandırır.
 `
 
-  },
+},
 
 ix: {
 
   1: `
-Ix reflects Ix.
+Ix, Ix'i yansıtır.
 
-Awareness recognizes itself.
+Farkındalık kendini tanır.
 
-Some truths become visible only through careful attention.
+Bazı gerçekler ancak dikkatli bir gözlemle görünür olur.
 
-The search is not for control.
+Arayış kontrole yönelik değildir.
 
-It is for understanding.
+Anlamaya yöneliktir.
 
-Presence reveals what distraction conceals.
+Anda olmak, dikkatsizliğin gizlediğini açığa çıkarır.
 
-Awareness becomes aware of its own depth.
+Farkındalık kendi derinliğinin farkına varır.
 `,
 
   2: `
-Etznab guides Ix.
+Etznab, Ix'e rehberlik eder.
 
-Awareness seeks truth.
+Farkındalık hakikati arar.
 
-Observation becomes meaningful when it is honest.
+Gözlem ancak dürüst olduğunda anlam kazanır.
 
-The guide removes assumptions and appearances.
+Rehber, bakışı varsayımlardan ve görünüşlerden özgürleştirir.
 
-What remains is what can genuinely be known.
+Geriye yalnızca gerçekten bilinebilecek olan kalır.
 
-Truth gives awareness its precision.
+Hakikat, farkındalığa kesinlik kazandırır.
 `,
 
   3: `
-Ik guides Ix.
+Ik, Ix'e rehberlik eder.
 
-Awareness seeks connection.
+Farkındalık bağ arar.
 
-Understanding deepens when it is shared.
+Anlayış paylaşıldığında derinleşir.
 
-The guide reminds you that perception grows through relationship.
+Rehber, algının ilişkiler aracılığıyla geliştiğini hatırlatır.
 
-Different viewpoints reveal different aspects of reality.
+Farklı bakış açıları gerçeğin farklı yönlerini ortaya çıkarır.
 
-Connection gives awareness its humanity.
+Bağ, farkındalığa insanlık kazandırır.
 `,
 
   4: `
-Cimi guides Ix.
+Cimi, Ix'e rehberlik eder.
 
-Awareness seeks transformation.
+Farkındalık dönüşüm arar.
 
-What is seen clearly can no longer remain unchanged.
+Açıkça görülen bir şey artık eskisi gibi bırakılamaz.
 
-The guide reveals opportunities for growth hidden within understanding.
+Rehber, anlayışın içinde saklı büyüme fırsatlarını ortaya çıkarır.
 
-Insight becomes the beginning of renewal.
+İçgörü yenilenmenin başlangıcı olur.
 
-Transformation gives awareness its evolution.
+Dönüşüm, farkındalığa gelişim kazandırır.
 `,
 
   5: `
-Oc guides Ix.
+Oc, Ix'e rehberlik eder.
 
-Awareness seeks belonging.
+Farkındalık aidiyet arar.
 
-The deepest understanding often reveals what already connects us.
+En derin anlayış çoğu zaman bizi zaten birleştiren şeyi gösterir.
 
-The guide reminds you that separation is rarely as complete as it appears.
+Rehber, ayrılığın göründüğü kadar mutlak olmadığını hatırlatır.
 
-Recognition creates trust.
+Kabul, güveni doğurur.
 
-Belonging gives awareness its heart.
+Aidiyet, farkındalığa kalp kazandırır.
 `
 
-  },
+},
 
 men: {
 
   1: `
-Men reflects Men.
+Men, Men'i yansıtır.
 
-Perspective recognizes itself.
+Bakış açısı kendini tanır.
 
-Distance reveals patterns hidden within immediate experience.
+Mesafe, doğrudan deneyimde gizli kalan desenleri görünür kılar.
 
-The search is not for escape.
+Arayış kaçışa yönelik değildir.
 
-It is for understanding.
+Anlamaya yöneliktir.
 
-A wider view transforms confusion into context.
+Daha geniş bir bakış, karmaşayı anlamlı bir bağlama dönüştürür.
 
-Perspective becomes aware of its own horizon.
+Bakış açısı kendi ufkunun farkına varır.
 `,
 
   2: `
-Cauac guides Men.
+Cauac, Men'e rehberlik eder.
 
-Perspective seeks renewal.
+Bakış açısı yenilenme arar.
 
-A viewpoint can become familiar.
+Bir bakış açısı zamanla fazla tanıdık hâle gelebilir.
 
-The guide arrives to disrupt certainty.
+Rehber, kesinliği sarsmak için gelir.
 
-New angles emerge where old assumptions once stood.
+Eskiden yalnızca eski fikirlerin bulunduğu yerde yeni bakış açıları ortaya çıkar.
 
-Renewal gives perspective its freshness.
+Yenilenme, bakış açısına tazelik kazandırır.
 `,
 
   3: `
-Akbal guides Men.
+Akbal, Men'e rehberlik eder.
 
-Perspective seeks mystery.
+Bakış açısı gizem arar.
 
-Not everything can be understood from a distance.
+Her şey uzaktan anlaşılmaz.
 
-Some truths invite deeper exploration.
+Bazı gerçekler daha derin bir keşfi davet eder.
 
-The guide reminds you that understanding begins where certainty ends.
+Rehber, anlayışın kesinliğin bittiği yerde başladığını hatırlatır.
 
-Mystery gives perspective its depth.
+Gizem, bakış açısına derinlik kazandırır.
 `,
 
   4: `
-Manik guides Men.
+Manik, Men'e rehberlik eder.
 
-Perspective seeks service.
+Bakış açısı hizmet arar.
 
-Insight becomes valuable when it benefits more than the observer.
+Anlayış, yalnızca gözlemciye değil başkalarına da fayda sağladığında değer kazanır.
 
-The guide asks how understanding can become contribution.
+Rehber, kavrayışın nasıl katkıya dönüşebileceğini sorar.
 
-A wider view carries responsibility.
+Daha geniş bir bakış, beraberinde sorumluluk getirir.
 
-Service gives perspective its purpose.
+Hizmet, bakış açısına amaç kazandırır.
 `,
 
   5: `
-Chuen guides Men.
+Chuen, Men'e rehberlik eder.
 
-Perspective seeks creativity.
+Bakış açısı yaratıcılık arar.
 
-Every viewpoint reveals possibilities unseen from another angle.
+Her bakış açısı, başka bir yerden görünmeyen olasılıkları ortaya çıkarır.
 
-The guide encourages imagination beyond established conclusions.
+Rehber, alışılmış sonuçların ötesine geçmeye ilham verir.
 
-New perspectives create new realities.
+Yeni bakış açıları yeni gerçeklikler oluşturur.
 
-Creativity gives perspective its freedom.
+Yaratıcılık, bakış açısına özgürlük kazandırır.
 `
 
-  },
+},
 
 cib: {
 
   1: `
-Cib reflects Cib.
+Cib, Cib'i yansıtır.
 
-Wisdom recognizes itself.
+Bilgelik kendini tanır.
 
-Understanding grows through reflection upon experience.
+Anlayış, yaşanmış deneyim üzerine düşünerek doğar.
 
-Knowledge may be gathered.
+Bilgi toplanabilir.
 
-Wisdom must be earned.
+Bilgelik ise kazanılır.
 
-The search is not for information.
+Arayış bilgiye yönelik değildir.
 
-It is for insight.
+İçgörüye yöneliktir.
 
-Wisdom becomes aware of its own depth.
+Bilgelik kendi derinliğinin farkına varır.
 `,
 
   2: `
-Ahau guides Cib.
+Ahau, Cib'e rehberlik eder.
 
-Wisdom seeks wholeness.
+Bilgelik bütünlük arar.
 
-Individual lessons reveal only part of the picture.
+Tek tek dersler yalnızca resmin bir bölümünü gösterir.
 
-The guide encourages integration.
+Rehber, parçaları bir araya getirmeye davet eder.
 
-Understanding deepens when separate insights begin to connect.
+Ayrı içgörüler birleştiğinde anlayış derinleşir.
 
-Wholeness gives wisdom its completeness.
+Bütünlük, bilgeliğe tamamlanmışlık kazandırır.
 `,
 
   3: `
-Kan guides Cib.
+Kan, Cib'e rehberlik eder.
 
-Wisdom seeks potential.
+Bilgelik potansiyel arar.
 
-Every lesson contains possibilities not yet explored.
+Her ders henüz ortaya çıkmamış olasılıklar taşır.
 
-The guide reminds you that understanding is never the end of growth.
+Rehber, anlayışın hiçbir zaman gelişimin son noktası olmadığını hatırlatır.
 
-New opportunities emerge from what has been learned.
+Öğrenilenlerden yeni fırsatlar doğar.
 
-Potential gives wisdom its future.
+Potansiyel, bilgeliğe gelecek kazandırır.
 `,
 
   4: `
-Lamat guides Cib.
+Lamat, Cib'e rehberlik eder.
 
-Wisdom seeks beauty.
+Bilgelik güzellik arar.
 
-Truth becomes easier to recognize when expressed with harmony.
+Hakikat, uyum içinde ifade edildiğinde daha kolay fark edilir.
 
-The guide reveals elegance hidden within complexity.
+Rehber, karmaşıklığın içinde gizlenen zarafeti ortaya çıkarır.
 
-Understanding often arrives through appreciation.
+Anlayış çoğu zaman takdir edebilme yeteneğiyle büyür.
 
-Beauty gives wisdom its grace.
+Güzellik, bilgeliğe zarafet kazandırır.
 `,
 
   5: `
-Eb guides Cib.
+Eb, Cib'e rehberlik eder.
 
-Wisdom seeks experience.
+Bilgelik deneyim arar.
 
-Insight remains incomplete until it is tested in life.
+Anlayış, yaşam içinde sınanmadıkça eksik kalır.
 
-The guide encourages participation rather than observation alone.
+Rehber, yalnızca gözlemlemeye değil katılmaya da davet eder.
 
-Every lesson deepens when it is lived.
+Her ders yaşandığında daha derin hâle gelir.
 
-Experience gives wisdom its reality.
+Deneyim, bilgeliğe gerçeklik kazandırır.
 `
 
-  },
+},
 
 caban: {
 
   1: `
-Caban reflects Caban.
+Caban, Caban'ı yansıtır.
 
-Discovery recognizes itself.
+Keşif kendini tanır.
 
-Every answer reveals another question.
+Her cevap yeni bir soruyu doğurur.
 
-Every horizon reveals another horizon.
+Her ufkun ardında başka bir ufuk uzanır.
 
-The search is not for completion.
+Arayış tamamlanmaya yönelik değildir.
 
-It is for exploration.
+Keşfetmeye yöneliktir.
 
-Discovery becomes aware of its own wonder.
+Keşif kendi hayret duygusunun farkına varır.
 `,
 
   2: `
-Imix guides Caban.
+Imix, Caban'a rehberlik eder.
 
-Discovery seeks possibility.
+Keşif olasılık arar.
 
-The unknown invites new beginnings.
+Bilinmeyen yeni başlangıçlara davet eder.
 
-The guide reminds you that every discovery opens doors not previously imagined.
+Rehber, her keşfin daha önce var olmayan kapılar açtığını hatırlatır.
 
-What is found changes what can be found next.
+Bulunan her şey, henüz bulunabilecek olanı değiştirir.
 
-Possibility gives discovery its future.
+Olasılık, keşfe gelecek kazandırır.
 `,
 
   3: `
-Chicchan guides Caban.
+Chicchan, Caban'a rehberlik eder.
 
-Discovery seeks vitality.
+Keşif yaşam gücü arar.
 
-Exploration becomes meaningful when it is experienced directly.
+Araştırma ancak doğrudan deneyimlendiğinde anlam kazanır.
 
-The guide encourages participation rather than observation alone.
+Rehber, yalnızca gözlemlemeye değil katılmaya da davet eder.
 
-Life reveals what theory cannot.
+Yaşam, teorinin gösteremeyeceği şeyleri ortaya çıkarır.
 
-Vitality gives discovery its excitement.
+Yaşam gücü, keşfe hayret kazandırır.
 `,
 
   4: `
-Muluc guides Caban.
+Muluc, Caban'a rehberlik eder.
 
-Discovery seeks meaning.
+Keşif anlam arar.
 
-Not every finding carries equal significance.
+Her keşif aynı değeri taşımaz.
 
-The guide asks what truly matters within what has been uncovered.
+Rehber, bulunanların içinde gerçekten neyin önemli olduğunu sorar.
 
-Understanding grows when knowledge becomes purpose.
+Bilgi, amaca dönüştüğünde anlayış derinleşir.
 
-Meaning gives discovery its depth.
+Anlam, keşfe derinlik kazandırır.
 `,
 
   5: `
-Ben guides Caban.
+Ben, Caban'a rehberlik eder.
 
-Discovery seeks vision.
+Keşif vizyon arar.
 
-A new landscape changes the horizon.
+Yeni bir manzara ufku değiştirir.
 
-The guide reveals directions that could not be seen before.
+Rehber, daha önce görünmeyen yönleri açığa çıkarır.
 
-Every discovery reshapes the future.
+Her keşif geleceği değiştirir.
 
-Vision gives discovery its destination.
+Vizyon, keşfe yön kazandırır.
 `
 
-  },
+},
 
 etznab: {
 
   1: `
-Etznab reflects Etznab.
+Etznab, Etznab'ı yansıtır.
 
-Truth recognizes itself.
+Hakikat kendini tanır.
 
-Clarity reveals what was already present.
+Açıklık, her zaman orada olanı görünür kılar.
 
-Illusion fades when examined honestly.
+Yanılsama, dürüst bir bakış karşısında çözülür.
 
-The search is not for comfort.
+Arayış teselliye yönelik değildir.
 
-It is for what remains when appearances fall away.
+Görünüşler kaybolduğunda geriye kalana yöneliktir.
 
-Truth becomes aware of its own light.
+Hakikat kendi ışığının farkına varır.
 `,
 
   2: `
-Ik guides Etznab.
+Ik, Etznab'a rehberlik eder.
 
-Truth seeks connection.
+Hakikat bağ arar.
 
-Understanding grows stronger when it can be shared.
+Anlayış paylaşıldığında güçlenir.
 
-The guide reminds you that clarity does not need isolation.
+Rehber, açıklığın yalnızlık gerektirmediğini hatırlatır.
 
-What is real becomes more meaningful when it builds bridges.
+Gerçek olan, insanları birleştirdiğinde daha da anlam kazanır.
 
-Connection gives truth its voice.
+Bağ, hakikate ses kazandırır.
 `,
 
   3: `
-Cimi guides Etznab.
+Cimi, Etznab'a rehberlik eder.
 
-Truth seeks transformation.
+Hakikat dönüşüm arar.
 
-A genuine insight changes the one who receives it.
+Gerçek bir içgörü, onu kabul eden kişiyi değiştirir.
 
-The guide reveals that understanding carries consequences.
+Rehber, anlayışın her zaman sonuçlar doğurduğunu gösterir.
 
-What is seen clearly can no longer remain unchanged.
+Açıkça görülen şey artık eskisi gibi bırakılamaz.
 
-Transformation gives truth its power.
+Dönüşüm, hakikate güç kazandırır.
 `,
 
   4: `
-Oc guides Etznab.
+Oc, Etznab'a rehberlik eder.
 
-Truth seeks belonging.
+Hakikat aidiyet arar.
 
-Honesty creates trust.
+Dürüstlük güven doğurur.
 
-The guide reminds you that authenticity strengthens relationships.
+Rehber, samimiyetin ilişkileri güçlendirdiğini hatırlatır.
 
-What is real can withstand closeness.
+Gerçek olan yakınlığa dayanabilir.
 
-Belonging gives truth its warmth.
+Aidiyet, hakikate sıcaklık kazandırır.
 `,
 
   5: `
-Ix guides Etznab.
+Ix, Etznab'a rehberlik eder.
 
-Truth seeks awareness.
+Hakikat farkındalık arar.
 
-Clarity begins with attention.
+Açıklık dikkatle başlar.
 
-The guide encourages observation before conclusion.
+Rehber, önce gözlemlemeyi, sonra hüküm vermeyi öğütler.
 
-What is overlooked often contains what is most important.
+Fark edilmeyen şey çoğu zaman en önemli olandır.
 
-Awareness gives truth its depth.
+Farkındalık, hakikate derinlik kazandırır.
 `
 
-  },
-
+},
 cauac: {
 
   1: `
-Cauac reflects Cauac.
+Cauac, Cauac'ı yansıtır.
 
-Renewal recognizes itself.
+Yenilenme kendini tanır.
 
-Change clears space for what wishes to emerge.
+Değişim, ortaya çıkmak isteyen şeye yer açar.
 
-The old does not disappear without reason.
+Eski olan sebepsiz yere kaybolmaz.
 
-The new does not arrive without invitation.
+Yeni olan davet edilmeden gelmez.
 
-The search is not for stability.
+Arayış istikrara yönelik değildir.
 
-It is for growth.
+Büyümeye yöneliktir.
 
-Renewal becomes aware of its own power.
+Yenilenme kendi gücünün farkına varır.
 `,
 
   2: `
-Akbal guides Cauac.
+Akbal, Cauac'a rehberlik eder.
 
-Renewal seeks mystery.
+Yenilenme gizem arar.
 
-Not every transformation begins with understanding.
+Her dönüşüm anlayışla başlamaz.
 
-The guide teaches patience with uncertainty.
+Rehber, bilinmeyen karşısında sabırlı olmayı öğretir.
 
-What appears chaotic may contain hidden meaning.
+Kaos gibi görünen şey derin bir anlam taşıyor olabilir.
 
-Mystery gives renewal its depth.
+Gizem, yenilenmeye derinlik kazandırır.
 `,
 
   3: `
-Manik guides Cauac.
+Manik, Cauac'a rehberlik eder.
 
-Renewal seeks service.
+Yenilenme hizmet arar.
 
-Change becomes meaningful when it benefits more than yourself.
+Değişim, yalnızca sana değil başkalarına da fayda sağladığında anlam kazanır.
 
-The guide asks how transformation can become contribution.
+Rehber, dönüşümünün nasıl bir katkıya dönüşebileceğini sorar.
 
-Growth reaches its fullest expression when it is shared.
+Büyüme, paylaşıldığında olgunlaşır.
 
-Service gives renewal its purpose.
+Hizmet, yenilenmeye amaç kazandırır.
 `,
 
   4: `
-Chuen guides Cauac.
+Chuen, Cauac'a rehberlik eder.
 
-Renewal seeks creativity.
+Yenilenme yaratıcılık arar.
 
-The future cannot be built from old patterns alone.
+Gelecek, yalnızca eski kalıplar üzerine kurulamaz.
 
-The guide encourages experimentation and imagination.
+Rehber, denemeye ve hayal etmeye ilham verir.
 
-New possibilities emerge when familiar boundaries dissolve.
+Eski sınırlar çözüldüğünde yeni olasılıklar doğar.
 
-Creativity gives renewal its freedom.
+Yaratıcılık, yenilenmeye özgürlük kazandırır.
 `,
 
   5: `
-Men guides Cauac.
+Men, Cauac'a rehberlik eder.
 
-Renewal seeks perspective.
+Yenilenme bakış açısı arar.
 
-A storm appears differently when viewed from a greater height.
+Fırtına, yukarıdan bakıldığında farklı görünür.
 
-The guide reveals patterns hidden within disruption.
+Rehber, sarsıntıların içinde gizlenen desenleri ortaya çıkarır.
 
-What once seemed destructive may become transformative.
+Yıkım gibi görünen şey, dönüşüm olabilir.
 
-Perspective gives renewal its wisdom.
+Bakış açısı, yenilenmeye bilgelik kazandırır.
 `
 
-  },
+},
 
 ahau: {
 
   1: `
-Ahau reflects Ahau.
+Ahau, Ahau'yu yansıtır.
 
-Wholeness recognizes itself.
+Bütünlük kendini tanır.
 
-Completion is not an ending.
+Tamamlanma bir son değildir.
 
-It is the moment when all parts become visible together.
+Tüm parçaların tek bir bütün olarak görünür hâle geldiği andır.
 
-The search is not for perfection.
+Arayış kusursuzluğa yönelik değildir.
 
-It is for integration.
+Birliğe yöneliktir.
 
-Wholeness becomes aware of its own light.
+Bütünlük kendi ışığının farkına varır.
 `,
 
   2: `
-Kan guides Ahau.
+Kan, Ahau'ya rehberlik eder.
 
-Wholeness seeks potential.
+Bütünlük potansiyel arar.
 
-Every completion contains a beginning.
+Her tamamlanış yeni bir başlangıç taşır.
 
-The guide reminds you that no cycle truly ends.
+Rehber, hiçbir döngünün gerçekten sona ermediğini hatırlatır.
 
-New possibilities emerge from every achievement.
+Her başarı yeni olasılıklar doğurur.
 
-Potential gives wholeness its renewal.
+Potansiyel, bütünlüğe yenilenme kazandırır.
 `,
 
   3: `
-Lamat guides Ahau.
+Lamat, Ahau'ya rehberlik eder.
 
-Wholeness seeks beauty.
+Bütünlük güzellik arar.
 
-Harmony appears when every part is allowed its place.
+Uyum, her parçanın kendi yerini bulmasıyla ortaya çıkar.
 
-The guide reveals elegance within complexity.
+Rehber, karmaşıklığın içinde saklı güzelliği gösterir.
 
-What is complete often feels beautiful because nothing essential is missing.
+Gerçek bütünlük, hiçbir şeyin eksik ya da fazla olmadığı hissini taşır.
 
-Beauty gives wholeness its radiance.
+Güzellik, bütünlüğe ışıltı kazandırır.
 `,
 
   4: `
-Eb guides Ahau.
+Eb, Ahau'ya rehberlik eder.
 
-Wholeness seeks experience.
+Bütünlük deneyim arar.
 
-Understanding grows through participation in life.
+Anlayış, yaşama katılarak derinleşir.
 
-The guide reminds you that wisdom cannot remain separate from reality.
+Rehber, bilgeliğin gerçeklikten ayrı var olamayacağını hatırlatır.
 
-What is integrated must also be lived.
+İçte birleşen şey, yaşamda da ifade edilmek ister.
 
-Experience gives wholeness its humanity.
+Deneyim, bütünlüğe insanlık kazandırır.
 `,
 
   5: `
-Cib guides Ahau.
+Cib, Ahau'ya rehberlik eder.
 
-Wholeness seeks wisdom.
+Bütünlük bilgelik arar.
 
-The larger picture becomes clearer through reflection.
+Büyük resim, derin düşünmeyle netleşir.
 
-The guide reveals meaning hidden within the journey.
+Rehber, yolun içinde gizlenen anlamı ortaya çıkarır.
 
-Every lesson contributes to the whole.
+Her ders bütüne ait olur.
 
-Wisdom gives wholeness its understanding.
+Bilgelik, bütünlüğe anlayış kazandırır.
 `
 
-  }
+}
 
 };

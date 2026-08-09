@@ -1,278 +1,342 @@
 const anahataPages_nl = {
 
 1: `
-Imix voelt zich aangetrokken tot nieuwe beginnen.
+Imix (0001) · Bron
 
-Je kunt merken dat je steeds weer wordt aangetrokken tot nieuwe ideeën, verhalen en onontdekte mogelijkheden.
+<br><br>
 
-Er schuilt vreugde in het openen van deuren.
+Imix is de bewustzijnsoriëntatie die zich uitdrukt als bron. Bron is een oorsprong. De bron maakt voortkomst mogelijk. Zij hangt samen met alles wat uit haar voortkomt.
 
-Niet ieder zaad hoeft een boom te worden.
+<br><br>
 
-Soms is jouw rol simpelweg het herkennen van potentieel voordat anderen het zien.
+Mensen met Bron vormen vaak vanzelf het begin van een nieuwe ontwikkeling.
 
-Liefde groeit waar nieuwsgierigheid levend blijft.
+Zij brengen ideeën, mogelijkheden of initiatieven voort en geven anderen de ruimte om verder te bouwen.
+
+Hun kracht ligt in het scheppen van een nieuw begin, terwijl hun uitdaging kan zijn dat zij zich sterker richten op het starten dan op het voltooien van wat zij in beweging hebben gezet.
+
 `,
 
 2: `
-Ik voelt zich aangetrokken tot verbinding.
+Ik (0011) · Informatie
 
-Je zoekt van nature uitwisseling, communicatie en begrip.
+<br><br>
 
-Woorden, ideeën en perspectieven hebben vaak meer waarde dan bezit.
+Ik is de bewustzijnsoriëntatie die zich uitdrukt als informatie. Informatie is een patroon. Een patroon maakt onderscheid mogelijk. Het hangt samen met herkenning en ordening.
 
-Luister net zo aandachtig als je spreekt.
+<br><br>
 
-De sterkste verbindingen ontstaan door wederzijdse herkenning.
+Mensen met Informatie herkennen vaak vanzelf patronen, verbanden en betekenis.
 
-Liefde groeit door dialoog.
+Zij verzamelen, ordenen en delen kennis, waardoor nieuwe inzichten kunnen ontstaan.
+
+Hun kracht ligt in het zichtbaar maken van samenhang binnen informatie, terwijl hun uitdaging kan zijn dat zij zich verliezen in te veel mogelijkheden of blijven zoeken naar meer informatie voordat zij een beslissing nemen.
+
 `,
 
 3: `
-Akbal voelt zich aangetrokken tot mysterie.
+Akbal (0010) · Verbeelding
 
-Het onbekende voelt zelden leeg.
+<br><br>
 
-Het voelt levend.
+Akbal is de bewustzijnsoriëntatie die zich uitdrukt als verbeelding. Verbeelding is een representatie. Een representatie maakt innerlijke vorming mogelijk. Zij hangt samen met betekenis.
 
-Je kunt jezelf betrappen op het onderzoeken van vragen die niet direct beantwoord kunnen worden.
+<br><br>
 
-Vertrouw op de waarde van reflectie.
+Mensen met Verbeelding vormen vaak vanzelf een rijke innerlijke wereld.
 
-Liefde groeit wanneer verborgen waarheden op hun eigen moment mogen verschijnen.
+Zij zien mogelijkheden, beelden en betekenissen die nog niet zichtbaar zijn en geven vorm aan wat eerst alleen als idee bestond.
+
+Hun kracht ligt in het zichtbaar maken van innerlijke mogelijkheden, terwijl hun uitdaging kan zijn dat zij zich verliezen in hun eigen belevingswereld of te lang blijven zoeken voordat zij hun ideeën werkelijkheid laten worden.
+
 `,
 
 4: `
-Kan voelt zich aangetrokken tot groei.
+Kan (0000) · Potentieel
 
-Potentieel is belangrijk.
+<br><br>
 
-Je vindt het misschien prettig om ideeën, mensen of projecten verder te helpen ontwikkelen.
+Kan is de bewustzijnsoriëntatie die zich uitdrukt als potentieel. Potentieel bestaat uit mogelijkheden. Mogelijkheden maken ontwikkeling mogelijk. Zij hangen samen met alles wat kan ontstaan.
 
-Geduld wordt een creatieve kracht.
+<br><br>
 
-Liefde groeit wanneer mogelijkheden worden gevoed in plaats van geforceerd.
+Mensen met Potentieel herkennen vaak vanzelf wat kan uitgroeien tot iets nieuws.
+
+Zij zien mogelijkheden voordat deze zichtbaar worden en stimuleren groei bij zichzelf, anderen of hun omgeving.
+
+Hun kracht ligt in het herkennen en ontwikkelen van verborgen mogelijkheden, terwijl hun uitdaging kan zijn dat zij blijven wachten op het juiste moment of hun mogelijkheden onbenut laten.
+
 `,
 
 5: `
-Chicchan voelt zich aangetrokken tot vitaliteit.
+Chicchan (01) · Energie
 
-Het leven wil beleefd worden.
+<br><br>
 
-Beweging, passie en instinct trekken vaak je aandacht.
+Chicchan is de bewustzijnsoriëntatie die zich uitdrukt als energie. Energie maakt verandering mogelijk. Verandering brengt beweging voort. Zij hangt samen met iedere vorm van activiteit.
 
-Negeer niet wat je energie geeft.
+<br><br>
 
-Liefde groeit wanneer enthousiasme wordt geëerd in plaats van onderdrukt.
+Mensen met Energie voelen vaak vanzelf aan wanneer iets in beweging moet komen.
+
+Zij brengen levenskracht, daadkracht en verandering met zich mee en stimuleren ontwikkeling door in actie te komen.
+
+Hun kracht ligt in het omzetten van energie in beweging, terwijl hun uitdaging kan zijn dat zij hun energie te impulsief inzetten of deze over te veel richtingen tegelijk verdelen.
+
 `,
 
 6: `
-Cimi voelt zich aangetrokken tot transformatie.
+Cimi (0111) · Grenzen
 
-Verandering schrikt je minder af dan stilstand.
+<br><br>
 
-Je begrijpt dat ieder einde ruimte maakt voor iets nieuws.
+Cimi is de bewustzijnsoriëntatie die zich uitdrukt als grenzen. Grenzen zijn afbakeningen. Afbakeningen maken begrenzing mogelijk. Zij hangen samen met alles wat een vorm begrenst.
 
-Overgangen bevatten vaak verborgen kansen.
+<br><br>
 
-Vertrouw op het proces van vernieuwing.
+Mensen met Grenzen herkennen vaak vanzelf wanneer iets zijn grens heeft bereikt.
 
-Liefde groeit wanneer verandering wordt omarmd in plaats van gevreesd.
+Zij helpen ruimte te maken voor verandering door los te laten wat niet langer past en nieuwe mogelijkheden toe te laten.
+
+Hun kracht ligt in het bewaken én verleggen van grenzen, terwijl hun uitdaging kan zijn dat zij te lang vasthouden aan zekerheid of juist te moeilijk afscheid nemen van het vertrouwde.
+
 `,
 
 7: `
-Manik voelt zich aangetrokken tot dienstbaarheid.
+Manik (0110) · Interactie
 
-Er schuilt voldoening in behulpzaam zijn.
+<br><br>
 
-Je ondersteunt, begeleidt of moedigt anderen vaak van nature aan.
+Manik is de bewustzijnsoriëntatie die zich uitdrukt als interactie. Interactie is een wisselwerking. Wisselwerking maakt beïnvloeding mogelijk. Zij hangt samen met alles wat elkaar ontmoet.
 
-Vergeet niet dat zorg ook naar jezelf mag stromen.
+<br><br>
 
-Ware dienstbaarheid vereist evenwicht.
+Mensen met Interactie brengen vaak vanzelf mensen, ideeën of ervaringen met elkaar in verbinding.
 
-Liefde groeit wanneer vrijgevigheid en zelfrespect samenkomen.
+Zij leren door uitwisseling en beïnvloeden hun omgeving door wat zij doen, delen en toepassen.
+
+Hun kracht ligt in het scheppen van betekenisvolle wisselwerking, terwijl hun uitdaging kan zijn dat zij zich te veel aanpassen aan anderen of hun eigen ontwikkeling uitstellen door voortdurend voor anderen klaar te staan.
+
 `,
 
 8: `
-Lamat voelt zich aangetrokken tot schoonheid.
+Lamat (0100) · Waarde
 
-Schoonheid verschijnt in vele vormen.
+<br><br>
 
-Niet alleen in uiterlijk, maar ook in harmonie, vakmanschap en relaties.
+Lamat is de bewustzijnsoriëntatie die zich uitdrukt als waarde. Waarde is datgene waaraan betekenis wordt toegekend. Zij maakt relevantie zichtbaar. Zij hangt samen met alles wat betekenis krijgt.
 
-Je kunt de drang voelen om iets mooier te maken dan je het aantrof.
+<br><br>
 
-Waardering verandert gewone momenten in bijzondere.
+Mensen met Waarde herkennen vaak vanzelf wat werkelijk betekenis heeft.
 
-Liefde groeit waar dankbaarheid wordt beoefend.
+Zij brengen schoonheid, kwaliteit en harmonie tot uitdrukking door aandacht te geven aan wat voor henzelf en anderen van waarde is.
+
+Hun kracht ligt in het zichtbaar maken van betekenis, terwijl hun uitdaging kan zijn dat zij zich laten leiden door oordelen, uitersten of de behoefte aan erkenning, waardoor de werkelijke waarde uit beeld raakt.
+
 `,
 
 9: `
-Muluc voelt zich aangetrokken tot betekenis.
+Muluc (0101) · Stroming
 
-Ervaringen krijgen waarde wanneer zij verbonden zijn met iets diepers.
+<br><br>
 
-Je zoekt misschien eerder oprechtheid dan erkenning.
+Muluc is de bewustzijnsoriëntatie die zich uitdrukt als stroming. Stroming is een overdracht. Overdracht maakt voortgang mogelijk. Zij hangt samen met alles wat wordt doorgegeven.
 
-Let op wat werkelijk resoneert.
+<br><br>
 
-Niet alles wat luid is, is belangrijk.
+Mensen met Stroming voelen vaak vanzelf aan wat in beweging wil komen.
 
-Liefde groeit wanneer gevoel en doel elkaar ontmoeten.
+Zij brengen ideeën, gevoelens en ontwikkelingen in beweging en passen zich gemakkelijk aan veranderende omstandigheden aan.
+
+Hun kracht ligt in het laten doorstromen van wat verder wil, terwijl hun uitdaging kan zijn dat zij zich laten meeslepen door hun eigen gevoelens of moeite hebben richting te houden wanneer alles voortdurend verandert.
+
 `,
 
 10: `
-Oc voelt zich aangetrokken tot loyaliteit.
+Oc (11) · Relatie
 
-Relaties zijn belangrijk.
+<br><br>
 
-Vertrouwen, toewijding en gedeelde ervaringen hebben betekenis.
+Oc is de bewustzijnsoriëntatie die zich uitdrukt als relatie. Relatie is een verband. Een verband maakt verbondenheid mogelijk. Het hangt samen met alles wat elkaar verbindt.
 
-Niet iedere verbinding duurt een leven lang.
+<br><br>
 
-Maar iedere oprechte verbinding laat een spoor achter.
+Mensen met Relatie bouwen vaak vanzelf duurzame verbindingen op met mensen, ideeën of gemeenschappen.
 
-Liefde groeit door toewijding.
+Zij scheppen vertrouwen door betrokkenheid, samenwerking en trouw aan wat voor hen werkelijk betekenis heeft.
+
+Hun kracht ligt in het verbinden van mensen vanuit wederzijds vertrouwen, terwijl hun uitdaging kan zijn dat zij zich te sterk vastklampen aan relaties, verwachtingen of idealen waardoor ruimte voor groei verloren gaat.
+
 `,
 
 11: `
-Chuen voelt zich aangetrokken tot creativiteit.
+Chuen (1110) · Expressie
 
-Het leven wordt rijker wanneer verbeelding ruimte krijgt.
+<br><br>
 
-Je kunt plezier beleven aan ideeën die anderen over het hoofd zien.
+Chuen is de bewustzijnsoriëntatie die zich uitdrukt als expressie. Expressie is een uiting. Een uiting maakt zichtbaar wat innerlijk aanwezig is. Zij hangt samen met iedere vorm van communicatie.
 
-Onderschat de kracht van nieuwsgierigheid niet.
+<br><br>
 
-Veel ontdekkingen beginnen als experimenten.
+Mensen met Expressie brengen hun innerlijke wereld vaak vanzelf naar buiten.
 
-Liefde groeit waar creativiteit vrij mag bewegen.
+Zij geven vorm aan ideeën, gevoelens en ervaringen en inspireren anderen door hun creativiteit, humor of manier van communiceren.
+
+Hun kracht ligt in het zichtbaar maken van wat van binnen leeft, terwijl hun uitdaging kan zijn dat zij zich verliezen in uiterlijk vertoon of blijven spelen met mogelijkheden zonder deze werkelijk tot uitdrukking te brengen.
+
 `,
 
 12: `
-Eb voelt zich aangetrokken tot groei door ervaring.
+Eb (1100) · Levenspad
 
-De reis zelf is vaak belangrijker dan de bestemming.
+<br><br>
 
-Je leert waarschijnlijk het meest door deelname.
+Eb is de bewustzijnsoriëntatie die zich uitdrukt als levenspad. Een levenspad is een traject. Een traject maakt ontwikkeling zichtbaar. Het hangt samen met iedere vorm van voortgang.
 
-Iedere stap bevat een les.
+<br><br>
 
-Vooruitgang ontstaat door beweging.
+Mensen met Levenspad ontwikkelen zich vaak stap voor stap vanuit hun eigen ervaringen.
 
-Liefde groeit wanneer het leven wordt benaderd als een pad in plaats van een probleem.
+Zij verbinden wat zij onderweg leren tot een richting die niet alleen henzelf, maar ook anderen verder kan helpen.
+
+Hun kracht ligt in het bewust vormgeven van hun eigen ontwikkeling, terwijl hun uitdaging kan zijn dat zij hun eigen behoeften ondergeschikt maken aan die van anderen of blijven vasthouden aan ervaringen uit het verleden.
+
 `,
 
 13: `
-Ben voelt zich aangetrokken tot visie.
+Ben (1101) · Structuur
 
-Je voelt misschien de behoefte om iets op te bouwen dat groter is dan jezelf.
+<br><br>
 
-Een sterke toekomst begint met sterke wortels.
+Ben is de bewustzijnsoriëntatie die zich uitdrukt als structuur. Structuur is ordening. Ordening maakt samenstelling mogelijk. Zij hangt samen met alles wat georganiseerd is.
 
-Leiderschap gaat niet over controle.
+<br><br>
 
-Het gaat over het inspireren van richting.
+Mensen met Structuur brengen vaak vanzelf orde en richting aan in complexe situaties.
 
-Liefde groeit wanneer een doel wordt gedeeld.
+Zij bouwen vanuit een duidelijke visie aan een stevig fundament waarop anderen kunnen voortbouwen en weten ideeën om te zetten in duurzame vormen.
+
+Hun kracht ligt in het scheppen van stabiliteit en richting, terwijl hun uitdaging kan zijn dat zij vasthouden aan bestaande overtuigingen of structuren wanneer vernieuwing juist nodig is.
+
 `,
 
 14: `
-Ix voelt zich aangetrokken tot innerlijk bewustzijn.
+Ix (1111) · Bewustzijn
 
-Er schuilt wijsheid in observatie.
+<br><br>
 
-Je merkt misschien patronen en verbanden op die anderen ontgaan.
+Ix is de bewustzijnsoriëntatie die zich uitdrukt als bewustzijn. Bewustzijn is gewaarzijn. Gewaarzijn maakt ervaring mogelijk. Het hangt samen met alles wat wordt waargenomen.
 
-Stilte kan net zo veel vertellen als woorden.
+<br><br>
 
-Vertrouw op intuïtie zonder verstand los te laten.
+Mensen met Bewustzijn nemen vaak vanzelf waar wat onder de oppervlakte aanwezig is.
 
-Liefde groeit wanneer innerlijk weten en helder denken samenwerken.
+Zij verbinden inzicht, intuïtie en ervaring tot een dieper begrip van zichzelf, anderen en hun omgeving.
+
+Hun kracht ligt in het bewust worden van wat werkelijk speelt, terwijl hun uitdaging kan zijn dat zij zich verliezen in hun eigen overtuigingen of zich te veel afsluiten voor andere perspectieven.
+
 `,
 
 15: `
-Men voelt zich aangetrokken tot perspectief.
+Men (10) · Perspectief
 
-Je zoekt van nature het grotere geheel.
+<br><br>
 
-Afstand nemen onthult vaak wat haast verbergt.
+Men is de bewustzijnsoriëntatie die zich uitdrukt als perspectief. Perspectief is een oriëntatie. Oriëntatie maakt richting zichtbaar. Zij hangt samen met iedere manier van kijken.
 
-Laat je niet opsluiten door de omstandigheden van het moment.
+<br><br>
 
-Ruimer kijken brengt helderheid.
+Mensen met Perspectief zien vaak vanzelf het grotere geheel.
 
-Liefde groeit wanneer begrip verder reikt dan persoonlijke belangen.
+Zij herkennen mogelijkheden en ontwikkelingen die voor anderen nog buiten beeld blijven en brengen visie die richting kan geven aan de toekomst.
+
+Hun kracht ligt in het verruimen van inzicht door vanuit verschillende gezichtspunten te kijken, terwijl hun uitdaging kan zijn dat zij zich verliezen in idealen of afstand nemen van de werkelijkheid waarin hun visie vorm moet krijgen.
+
 `,
 
 16: `
-Cib voelt zich aangetrokken tot wijsheid.
+Cib (1000) · Spoor
 
-Kennis krijgt pas waarde wanneer zij begrip wordt.
+<br><br>
 
-Je denkt misschien vaak na over lessen die anderen over het hoofd zien.
+Cib is de bewustzijnsoriëntatie die zich uitdrukt als spoor. Een spoor is een registratie. Registratie maakt terugkeer mogelijk. Zij hangt samen met alles wat een indruk achterlaat.
 
-Ervaring wordt rijker wanneer zij wordt geïntegreerd.
+<br><br>
 
-Inzicht ontstaat door reflectie.
+Mensen met Spoor herkennen vaak vanzelf welke ervaringen blijvende betekenis hebben.
 
-Liefde groeit wanneer leren verandert in wijsheid.
+Zij leren van wat is geweest en gebruiken die inzichten om richting te geven aan zichzelf en anderen.
+
+Hun kracht ligt in het zichtbaar maken van de lessen die ervaringen nalaten, terwijl hun uitdaging kan zijn dat zij vasthouden aan oude overtuigingen of gebeurtenissen waardoor nieuwe mogelijkheden minder ruimte krijgen.
+
 `,
 
 17: `
-Caban voelt zich aangetrokken tot ontdekking.
+Caban (1001) · Manifestatie
 
-Vragen zijn vaak waardevoller dan antwoorden.
+<br><br>
 
-Je voelt misschien de behoefte om te onderzoeken, te verkennen en te begrijpen.
+Caban is de bewustzijnsoriëntatie die zich uitdrukt als manifestatie. Manifestatie is een verschijnsel. Een verschijnsel maakt waarneming mogelijk. Het hangt samen met alles wat zichtbaar wordt.
 
-Zekerheid is zelden de bron van groei.
+<br><br>
 
-Nieuwsgierigheid opent nieuwe werelden.
+Mensen met Manifestatie brengen ideeën, inzichten of mogelijkheden vaak vanzelf tot uitdrukking in de werkelijkheid.
 
-Liefde groeit waar ontdekking levend blijft.
+Zij verbinden denken en doen en geven vorm aan veranderingen die bijdragen aan verdere ontwikkeling.
+
+Hun kracht ligt in het zichtbaar maken van wat eerder alleen als mogelijkheid bestond, terwijl hun uitdaging kan zijn dat zij vasthouden aan hun eigen overtuigingen of de werkelijkheid te veel willen sturen vanuit hun denken.
+
 `,
 
 18: `
-Etznab voelt zich aangetrokken tot waarheid.
+Etznab (1011) · Waarheid
 
-Helderheid is belangrijk.
+<br><br>
 
-Je kunt moeite hebben met illusies, ontwijking of zelfbedrog.
+Etznab is de bewustzijnsoriëntatie die zich uitdrukt als waarheid. Waarheid is overeenstemming. Overeenstemming maakt herkenning mogelijk. Zij hangt samen met alles wat met de werkelijkheid overeenkomt.
 
-Eerlijkheid is niet altijd gemakkelijk.
+<br><br>
 
-Maar zij bevrijdt vaker dan zij beperkt.
+Mensen met Waarheid herkennen vaak vanzelf wat werkelijk overeenkomt met de werkelijkheid.
 
-Liefde groeit wanneer de werkelijkheid rechtstreeks wordt ontmoet.
+Zij doorzien schijn, brengen helderheid in complexe situaties en helpen onderscheid te maken tussen wat waar is en wat slechts zo lijkt.
+
+Hun kracht ligt in het zichtbaar maken van waarheid zonder de samenhang uit het oog te verliezen, terwijl hun uitdaging kan zijn dat zij te streng oordelen, vasthouden aan hun eigen overtuigingen of vergeten dat waarheid ook vraagt om openheid voor andere perspectieven.
+
 `,
 
 19: `
-Cauac voelt zich aangetrokken tot vernieuwing.
+Cauac (1010) · Samenhang
 
-Verstoringen bevatten vaak verborgen kansen.
+<br><br>
 
-Je bezit misschien een bijzonder vermogen om terug te veren na tegenslagen.
+Cauac is de bewustzijnsoriëntatie die zich uitdrukt als samenhang. Samenhang is coherentie. Coherentie maakt een geheel mogelijk. Zij hangt samen met alles wat onderling verbonden is.
 
-Stormen verwijderen wat niet langer nodig is.
+<br><br>
 
-Wat overblijft krijgt ruimte om opnieuw te groeien.
+Mensen met Samenhang herkennen vaak vanzelf hoe afzonderlijke delen met elkaar verbonden zijn.
 
-Liefde groeit wanneer verandering welkom wordt geheten.
+Zij brengen verandering niet om te verstoren, maar om een nieuw evenwicht te laten ontstaan waarin alles beter met elkaar samenwerkt.
+
+Hun kracht ligt in het herstellen van samenhang door ontwikkeling en vernieuwing, terwijl hun uitdaging kan zijn dat zij te veel verandering tegelijk willen of onrust veroorzaken voordat een nieuw evenwicht zich heeft kunnen vormen.
+
 `,
 
 20: `
-Ahau voelt zich aangetrokken tot heelheid.
+Ahau (00) · Essentie
 
-Je zoekt misschien naar inzichten die losse delen samenbrengen.
+<br><br>
 
-Bewustzijn, wijsheid en compassie versterken elkaar van nature.
+Ahau is de bewustzijnsoriëntatie die zich uitdrukt als essentie. Essentie is datgene waardoor iets zichzelf is. Een kern maakt identiteit mogelijk. Zij hangt samen met alles wat wezenlijk is.
 
-Volledigheid is niet hetzelfde als perfectie.
+<br><br>
 
-Zij is het vermogen om het leven te omarmen zoals het is.
+Mensen met Essentie herkennen vaak vanzelf wat werkelijk wezenlijk is.
 
-Liefde groeit wanneer wijsheid en mededogen elkaar ontmoeten.
+Zij richten zich op datgene wat blijvende betekenis heeft en inspireren anderen door vanuit hun diepste overtuiging en betrokkenheid te leven.
+
+Hun kracht ligt in het zichtbaar maken van de kern van mensen, ideeën en situaties, terwijl hun uitdaging kan zijn dat zij vasthouden aan een ideaalbeeld of de werkelijkheid beoordelen vanuit een verlangen naar volmaaktheid.
+
 `
 };

@@ -1,273 +1,263 @@
 const svadhisthanaPages_nl = {
 
 1: `
-Chuen verschijnt als de uitdaging van Imix.
+Expressie verschijnt als de uitdaging van Bron.
 
-Nieuwe beginnen vragen om flexibiliteit.
+<br><br>
 
-Nieuwe ideeën worden sterker wanneer zij mogen evolueren.
+Niet iedere oorsprong komt tot expressie.
 
-Wat begint als inspiratie moet uiteindelijk leren aanpassen.
+Wat ergens begint of uit voortkomt, kan aanwezig blijven zonder een vorm te krijgen waarin het tot uiting komt.
 
-Groei begint vaak wanneer zekerheid verandert in spel.
+Je kunt dit herkennen wanneer iets al in je aanwezig is, maar nog geen woorden, handeling of andere uiting heeft gekregen.
+
 `,
 
 2: `
-Eb verschijnt als de uitdaging van Ik.
+Levenspad verschijnt als de uitdaging van Informatie.
 
-Communicatie krijgt betekenis wanneer zij wordt gegrond in ervaring.
+<br><br>
 
-Woorden alleen zijn zelden voldoende.
+Niet alle informatie bepaalt een levenspad.
 
-Het pad vraagt je te leven wat je begrijpt.
+Informatie kan iets beschrijven, verklaren of herkenbaar maken zonder daarmee te bepalen hoe een ontwikkeling zich over tijd zal ontvouwen.
 
-Wijsheid groeit door deelname.
+Je kunt veel over jezelf en je omstandigheden weten, terwijl je levenspad pas zichtbaar wordt in het verloop dat je daadwerkelijk doorloopt.
+
 `,
 
 3: `
-Ben verschijnt als de uitdaging van Akbal.
+Structuur verschijnt als de uitdaging van Verbeelding.
 
-Dromen zoeken richting.
+<br><br>
 
-Het onbekende wordt gemakkelijker te navigeren wanneer visie de weg wijst.
+Niet alles wat in de verbeelding ontstaat laat zich structureren.
 
-Niet ieder mysterie hoeft opgelost te worden.
+Verbeelding kan beelden, mogelijkheden en verbanden vormen zonder dat deze zich vanzelf tot een vaste of geordende samenstelling laten brengen.
 
-Maar iedere reis heeft baat bij een doel.
+Je kunt dit herkennen wanneer iets innerlijk heel levendig of betekenisvol is, maar aan vorm kan verliezen zodra je probeert het volledig te ordenen.
+
 `,
 
 4: `
-Ix verschijnt als de uitdaging van Kan.
+Bewustzijn verschijnt als de uitdaging van Potentieel.
 
-Groei is niet alleen uiterlijk zichtbaar.
+<br><br>
 
-Innerlijk bewustzijn creëert evenwicht.
+Niet ieder potentieel wordt bewust ervaren.
 
-Potentieel bloeit wanneer reflectie samengaat met ontwikkeling.
+Mogelijkheden kunnen aanwezig zijn zonder dat ze op dat moment worden waargenomen of als mogelijkheid worden herkend.
 
-De sterkste wortels groeien vaak ongezien.
+Je kunt dit herkennen wanneer je pas later ontdekt dat er al meer mogelijk was dan waarvan je je eerder bewust was.
+
 `,
 
 5: `
-Men verschijnt als de uitdaging van Chicchan.
+Perspectief verschijnt als de uitdaging van Energie.
 
-Passie wordt sterker door perspectief.
+<br><br>
 
-Energie zonder richting kan versnipperen.
+Dezelfde energie kan vanuit verschillende perspectieven worden gezien.
 
-Neem af en toe afstand.
+Wat als kracht, beweging of verandering aanwezig is, kan verschillend worden geïnterpreteerd afhankelijk van het gezichtspunt van waaruit het wordt waargenomen.
 
-Een ruimer overzicht onthult een wijzer pad.
+Je kunt dit herkennen wanneer dezelfde kracht, beweging of intensiteit vanuit een ander perspectief een andere betekenis krijgt, terwijl de energie zelf niet noodzakelijk is veranderd.
 `,
 
 6: `
-Cib verschijnt als de uitdaging van Cimi.
+Spoor verschijnt als de uitdaging van Grenzen.
 
-Transformatie krijgt betekenis door begrip.
+<br><br>
 
-Verandering alleen is niet voldoende.
+Grenzen voorkomen niet ieder spoor.
 
-Lessen verschijnen wanneer ervaring wijsheid wordt.
+Een afbakening kan bepalen waar iets eindigt of niet verdergaat, terwijl gevolgen, indrukken of veranderingen daarvan toch buiten die grens kunnen achterblijven.
 
-Groei verdiept zich door reflectie.
+Je kunt dit herkennen wanneer iets duidelijk is afgesloten, maar er toch nog iets van terug te vinden is in wat daarna volgt.
 
-Neem tijd om te begrijpen wat verandering je probeert te leren.
 `,
 
 7: `
-Caban verschijnt als de uitdaging van Manik.
+Manifestatie verschijnt als de uitdaging van Interactie.
 
-Dienstbaarheid heeft baat bij nieuwsgierigheid.
+<br><br>
 
-Anderen helpen betekent niet dat je alle antwoorden moet hebben.
+Interactie leidt niet altijd tot manifestatie.
 
-Vragen creëren vaak meer groei dan oplossingen.
+Wederzijdse beïnvloeding kan plaatsvinden zonder dat daaruit een afzonderlijk verschijnsel of concrete uitkomst ontstaat.
 
-Blijf open voor ontdekking.
+Je kunt dit herkennen wanneer een ontmoeting of uitwisseling wel iets in beweging heeft gebracht, maar er daarna niets ontstaat dat als resultaat daarvan duidelijk aanwezig is.
 
-Nieuwe inzichten verschijnen wanneer je bereid bent te leren.
 `,
 
 8: `
-Etznab verschijnt als de uitdaging van Lamat.
+Waarheid verschijnt als de uitdaging van Waarde.
 
-Schoonheid wordt sterker wanneer zij samengaat met waarheid.
+<br><br>
 
-Niet alles wat aantrekkelijk is, is waardevol.
+Niet alles van waarde hoeft waar te zijn.
 
-Helderheid verfijnt waardering.
+Iets kan betekenis, belang of waarde hebben zonder dat wat ermee wordt aangenomen ook met de werkelijkheid overeenkomt.
 
-Eerlijkheid beschermt wat werkelijk betekenis heeft.
+Je kunt dit herkennen wanneer een verhaal, overtuiging of herinnering veel voor je betekent, ook wanneer niet alles daarin met de werkelijkheid overeenkomt.
 
-Schoonheid en waarheid versterken elkaar.
 `,
 
 9: `
-Cauac verschijnt als de uitdaging van Muluc.
+Samenhang verschijnt als de uitdaging van Stroming.
 
-Betekenis verschijnt soms door verstoring.
+<br><br>
 
-Periodes van onzekerheid kunnen verborgen kracht onthullen.
+Stroming garandeert geen samenhang.
 
-Vertrouw erop dat vernieuwing vaak volgt op turbulentie.
+Iets kan worden doorgegeven, verplaatst of voortgaan zonder dat de afzonderlijke delen daardoor een onderling verbonden geheel vormen.
 
-Transformatie maakt ruimte voor groei.
+Je kunt dit herkennen wanneer er voortdurend beweging of uitwisseling is, maar daarin nog geen duidelijke samenhang ontstaat.
 
-Soms verschijnt het antwoord pas nadat alles is veranderd.
 `,
 
 10: `
-Ahau verschijnt als de uitdaging van Oc.
+Essentie verschijnt als de uitdaging van Relatie.
 
-Loyaliteit wordt sterker door perspectief.
+<br><br>
 
-Toewijding hoeft geen beperking te worden.
+Niet iedere relatie raakt de essentie.
 
-Liefde groeit wanneer betrokkenheid wordt gecombineerd met wijsheid.
+Iets kan met iets anders verbonden zijn zonder dat die verbinding bepaalt wat het wezenlijk tot zichzelf maakt.
 
-Heelheid verruimt iedere relatie.
+Je kunt dit herkennen wanneer een relatie verandert of verdwijnt, terwijl wat iets in wezen is daardoor niet noodzakelijk verandert.
 
-Ware verbondenheid laat ruimte voor groei.
 `,
 
 11: `
-Imix verschijnt als de uitdaging van Chuen.
+Bron verschijnt als de uitdaging van Expressie.
 
-Creativiteit heeft baat bij nieuwe beginnen.
+<br><br>
 
-Niet ieder idee hoeft verfijnd te worden.
+Niet iedere oorsprong is uit een expressie af te leiden.
 
-Soms is het antwoord simpelweg beginnen.
+Wat tot uiting komt kan herkenbaar aanwezig zijn zonder volledig te onthullen waaruit het is voortgekomen.
 
-Potentieel verschijnt vóór perfectie.
+Je kunt dit herkennen wanneer je iemands woorden, gedrag of werk ziet, maar daaruit niet met zekerheid kunt bepalen waaruit die expressie oorspronkelijk is voortgekomen.
 
-Durf ruimte te maken voor het onverwachte.
 `,
 
 12: `
-Ik verschijnt als de uitdaging van Eb.
+Informatie verschijnt als de uitdaging van Levenspad.
 
-Ervaring krijgt waarde wanneer zij wordt gedeeld.
+<br><br>
 
-Leren wordt sterker door communicatie.
+Een levenspad laat zich niet volledig uit informatie afleiden.
 
-Begrip groeit wanneer kennis wordt uitgewisseld.
+Informatie kan delen van een gevolgd traject beschrijven zonder daarmee noodzakelijk het volledige verloop ervan te omvatten.
 
-Verbinding transformeert inzicht.
+Je kunt dit herkennen wanneer feiten over je verleden veel over je weg vertellen, maar niet alles weergeven van hoe die weg zich daadwerkelijk heeft ontvouwd.
 
-Wat je hebt geleerd kan een brug voor anderen worden.
 `,
 
 13: `
-Akbal verschijnt als de uitdaging van Ben.
+Verbeelding verschijnt als de uitdaging van Structuur.
 
-Visie heeft mysterie nodig.
+<br><br>
 
-Niet alles wat belangrijk is kan worden gepland.
+Niet alles wat gestructureerd is laat zich volledig door verbeelding omvatten.
 
-Laat ruimte voor het onbekende.
+Een structuur kan uit verhoudingen tussen delen bestaan, terwijl de innerlijke voorstelling daarvan onvolledig, vereenvoudigd of anders gevormd kan zijn.
 
-Sommige ontdekkingen verschijnen pas wanneer controle ontspant.
+Je kunt dit herkennen wanneer je begrijpt dat iets volgens een bepaalde structuur is opgebouwd, maar je die volledige samenstelling niet helder voor je kunt zien.
 
-Vertrouw op wat zich geleidelijk ontvouwt.
 `,
 
 14: `
-Kan verschijnt als de uitdaging van Ix.
+Potentieel verschijnt als de uitdaging van Bewustzijn.
 
-Bewustzijn zoekt uitdrukking.
+<br><br>
 
-Inzicht krijgt betekenis wanneer het groei beïnvloedt.
+Niet alles wat bewust wordt ervaren onthult het volledige potentieel.
 
-Reflectie is waardevol.
+Wat je op een bepaald moment waarneemt of van een situatie beseft, kan slechts een deel omvatten van wat daarin mogelijk is.
 
-Toepassing voltooit het proces.
+Je kunt dit herkennen wanneer je een situatie helder denkt te overzien, maar later ontdekt dat er mogelijkheden aanwezig waren die toen nog niet binnen je bewustzijn vielen.
 
-Potentieel verschijnt door actie.
 `,
 
 15: `
-Chicchan verschijnt als de uitdaging van Men.
+Energie verschijnt als de uitdaging van Perspectief.
 
-Perspectief moet uiteindelijk terugkeren naar het leven zelf.
+<br><br>
 
-Blijf niet boven de ervaring hangen.
+Een verandering van perspectief verandert de aanwezige energie niet noodzakelijk.
 
-Neem eraan deel.
+Een andere manier van kijken kan veranderen hoe kracht, beweging of verandering wordt ervaren, zonder dat de aanwezige energie daarmee noodzakelijk zelf verandert.
 
-Vitaliteit levert de brandstof voor begrip.
+Je kunt dit herkennen wanneer je anders naar een situatie gaat kijken, terwijl dezelfde spanning, beweging of intensiteit nog steeds aanwezig is.
 
-Wijsheid groeit wanneer inzicht wordt beleefd.
 `,
 
 16: `
-Cimi verschijnt als de uitdaging van Cib.
+Grenzen verschijnen als de uitdaging van Spoor.
 
-Wijsheid blijft zich ontwikkelen.
+<br><br>
 
-Oude conclusies kunnen vernieuwing nodig hebben.
+Niet ieder spoor laat zich begrenzen tot waar het is ontstaan.
 
-Sta toe dat begrip transformeert.
+Gevolgen, indrukken of veranderingen kunnen buiten de oorspronkelijke afbakening terug te vinden zijn.
 
-Groei bereikt nooit een definitief eindpunt.
+Je kunt dit herkennen wanneer iets op één plaats of moment gebeurde, maar sporen ervan later ook ergens anders terug te vinden zijn.
 
-Blijf open voor nieuwe inzichten.
 `,
 
 17: `
-Manik verschijnt als de uitdaging van Caban.
+Interactie verschijnt als de uitdaging van Manifestatie.
 
-Ontdekking heeft baat bij verantwoordelijkheid.
+<br><br>
 
-Verkenning krijgt betekenis wanneer zij iets groters dient.
+Niet iedere manifestatie maakt de interacties eromheen herkenbaar.
 
-Kennis wordt waardevol door toepassing.
+Wat als concreet verschijnsel aanwezig is, kan herkenbaar zijn zonder alle wederzijdse beïnvloeding zichtbaar te maken die ermee samenhing.
 
-Dienstbaarheid geeft inzicht een fundament.
+Je kunt dit herkennen wanneer je ziet wat er is ontstaan, maar daaruit niet volledig kunt afleiden welke ontmoetingen, uitwisselingen of invloeden daarbij een rol hebben gespeeld.
 
-Gebruik wat je leert ten goede van het geheel.
 `,
 
 18: `
-Lamat verschijnt als de uitdaging van Etznab.
+Waarde verschijnt als de uitdaging van Waarheid.
 
-Waarheid hoeft niet hard te worden.
+<br><br>
 
-Schoonheid blijft belangrijk.
+Niet iedere waarheid heeft op zichzelf waarde.
 
-Helderheid is het krachtigst wanneer zij gepaard gaat met gratie.
+Dat iets met de werkelijkheid overeenkomt, bepaalt nog niet welke betekenis of welk belang eraan wordt toegekend.
 
-Evenwicht versterkt eerlijkheid.
+Je kunt dit herkennen wanneer iets onmiskenbaar waar is, maar binnen een bepaalde situatie nauwelijks betekenis of belang heeft.
 
-Waarheid en mededogen kunnen samen bestaan.
 `,
 
 19: `
-Muluc verschijnt als de uitdaging van Cauac.
+Stroming verschijnt als de uitdaging van Samenhang.
 
-Vernieuwing zoekt betekenis.
+<br><br>
 
-Transformatie wordt duurzaam wanneer zij verbonden is met een doel.
+Samenhang vereist niet altijd stroming.
 
-Kijk voorbij de storm.
+Delen kunnen onderling een geheel vormen zonder dat er voortdurend iets tussen die delen wordt doorgegeven, verplaatst of uitgewisseld.
 
-De diepere les verschijnt vaak daarna.
+Je kunt dit herkennen wanneer verschillende delen duidelijk met elkaar samenhangen, terwijl er op dat moment nauwelijks beweging of uitwisseling tussen die delen plaatsvindt.
 
-Verandering krijgt richting door betekenis.
 `,
 
+
 20: `
-Oc verschijnt als de uitdaging van Ahau.
+Relatie verschijnt als de uitdaging van Essentie.
 
-Heelheid omvat relatie.
+<br><br>
 
-Wijsheid groeit door loyaliteit, vertrouwen en gedeelde ervaring.
+De essentie van iets is niet volledig uit zijn relaties af te leiden.
 
-Geen enkele reis wordt volledig alleen afgelegd.
+Hoe iets met andere dingen verbonden is kan veel over zijn context en verhoudingen laten zien, zonder daarmee volledig te bepalen wat het wezenlijk tot zichzelf maakt.
 
-Verbinding blijft een van de grootste leermeesters van het leven.
+Je kunt dit herkennen wanneer je alle relaties rondom iets kent, maar daarmee nog niet volledig weet wat datgene in wezen is.
 
-Samen leren is ook groeien.
 `
 
 };

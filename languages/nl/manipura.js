@@ -1,263 +1,303 @@
 const manipuraPages_nl = {
 
 1: `
-Etznab loopt naast Imix.
+Waarheid loopt naast Bron.
 
-Nieuwe beginnen hebben baat bij helderheid.
+<br><br>
 
-Inspiratie wordt krachtiger wanneer illusies verdwijnen.
+Waarheid geeft helderheid aan wat uit een bron voortkomt.
 
-Waarheid helpt potentieel werkelijkheid te worden.
+Wat ontstaat krijgt betekenis wanneer duidelijk wordt hoe het zich tot de werkelijkheid verhoudt.
 
-Volg wat betekenisvol blijft wanneer onzekerheid wegvalt.
+Een oorsprong kan zo iets nieuws voortbrengen, terwijl waarheid daarnaast de verhouding met de werkelijkheid bewaart.
+
+Laat wat ontstaat zich aan de werkelijkheid tonen.
+
 `,
 
 2: `
-Caban loopt naast Ik.
+Manifestatie loopt naast Informatie.
 
-Communicatie verdiept zich door ontdekking.
+<br><br>
 
-Vragen onthullen paden die zekerheid niet kan tonen.
+Manifestatie geeft vorm aan wat in informatie als patroon aanwezig is.
 
-Nieuwsgierigheid houdt begrip levend.
+Wat wordt herkend en geordend kan betekenis krijgen wanneer het ook als verschijnsel in de werkelijkheid verschijnt.
 
-Volg het verlangen om te ontdekken.
+Informatie kan zo verbanden toegankelijk maken, terwijl manifestatie laat ervaren hoe die zich daadwerkelijk voordoen.
+
+Laat wat je begrijpt ook werkelijkheid ontmoeten.
+
 `,
 
 3: `
-Cib loopt naast Akbal.
+Spoor loopt naast Verbeelding.
 
-Mysterie heeft baat bij wijsheid.
+<br><br>
 
-Ervaring biedt richting waar zekerheid tekortschiet.
+Spoor verbindt wat in de verbeelding ontstaat met wat eerder is achtergebleven.
 
-Het onbekende wordt minder intimiderend wanneer het met begrip wordt benaderd.
+Wat als beeld of mogelijkheid ontstaat kan verder worden ontwikkeld wanneer eerdere indrukken en ervaringen een weg terug bieden.
 
-Volg wat inzicht verdiept.
+Verbeelding kan zo nieuwe innerlijke vormen openen, terwijl spoor verbinding houdt met wat eerder werd ervaren en achterbleef.
+
+Laat wat achterblijft nieuwe verbeelding voeden.
+
 `,
 
 4: `
-Men loopt naast Kan.
+Perspectief loopt naast Potentieel.
 
-Groei heeft baat bij perspectief.
+<br><br>
 
-Niet iedere mogelijkheid verdient dezelfde aandacht.
+Perspectief plaatst de mogelijkheden van potentieel in een richting van waaruit ze kunnen worden bekeken.
 
-Een ruimer overzicht onthult wat werkelijk belangrijk is.
+Wat zich kan ontwikkelen krijgt meer betekenis wanneer het vanuit verschillende gezichtspunten kan worden bekeken en een mogelijke richting zichtbaar wordt.
 
-Volg wat bewustzijn verruimt.
+Potentieel opent wat mogelijk is, terwijl perspectief laat zien vanuit welke richting die mogelijkheden benaderd kunnen worden.
+
+Bekijk wat mogelijk is vanuit meer dan één richting.
+
 `,
 
 5: `
-Ix loopt naast Chicchan.
+Bewustzijn loopt naast Energie.
 
-Vitaliteit komt in balans door bewustzijn.
+<br><br>
 
-Instinct is krachtig, maar bewustzijn geeft richting.
+Bewustzijn maakt merkbaar waar energie in beweging komt.
 
-Het lichaam spreekt, maar de geest luistert.
+Wat kracht of verandering voortbrengt kan bewust worden ervaren wanneer de beweging ervan wordt waargenomen.
 
-Volg wat beide wakker maakt.
+Energie brengt beweging voort, terwijl bewustzijn de ervaring daarvan aanwezig maakt.
+
+Voel waar beweging je bewustzijn raakt.
+
 `,
 
 6: `
-Ben loopt naast Cimi.
+Structuur loopt naast Grenzen.
 
-Transformatie krijgt richting door visie.
+<br><br>
 
-Verandering voelt minder willekeurig wanneer zij ergens naartoe beweegt.
+Structuur geeft samenstelling aan wat door grenzen van elkaar wordt onderscheiden.
 
-Een helder toekomstbeeld helpt moeilijke keuzes dragen.
+Wanneer duidelijk is waar iets begint en eindigt, kunnen afzonderlijke delen zich tot een georganiseerde vorm verhouden.
 
-Volg wat groei inspireert.
+Grenzen bepalen de afbakening van delen, terwijl structuur laat zien hoe die delen binnen een geheel zijn georganiseerd.
+
+Herken de structuur die binnen grenzen ontstaat.
+
 `,
 
 7: `
-Eb loopt naast Manik.
+Levenspad loopt naast Interactie.
 
-Dienstbaarheid wordt duurzaam door ervaring.
+<br><br>
 
-Iedere stap bevat een les.
+Levenspad verbindt interacties met een voortgaande ontwikkeling.
 
-Anderen helpen begint met het begrijpen van de weg zelf.
+Ontmoetingen en wederzijdse beïnvloeding kunnen deel worden van een traject waarin ervaringen zich over tijd met elkaar verbinden.
 
-Volg de lessen van de reis.
+Interactie brengt wederzijdse invloed voort, terwijl levenspad die momenten opneemt in een voortgaande ontwikkeling.
+
+Laat ontmoetingen deel worden van je weg.
+
 `,
 
 8: `
-Chuen loopt naast Lamat.
+Expressie loopt naast Waarde.
 
-Schoonheid bloeit door creativiteit.
+<br><br>
 
-Perfectie is minder belangrijk dan expressie.
+Expressie geeft vorm aan wat als waarde betekenis heeft gekregen.
 
-Vreugde verschijnt vaak waar verbeelding vrij is.
+Wat waardevol is kan door woorden, beelden, gedrag of andere uitingen een uiterlijke vorm krijgen.
 
-Volg wat speelsheid uitnodigt.
+Waarde bepaalt waaraan betekenis wordt toegekend, terwijl expressie die betekenis een vorm geeft waarin zij kan worden geuit.
+
+Geef uiting aan wat voor jou werkelijk waarde heeft.
+
 `,
 
 9: `
-Oc loopt naast Muluc.
+Relatie loopt naast Stroming.
 
-Betekenis wordt sterker door verbinding.
+<br><br>
 
-Doel wordt zelden gevonden in afzondering.
+Relatie verbindt wat door stroming wordt doorgegeven.
 
-Gedeelde ervaringen verdiepen begrip.
+Wat van het ene naar het andere stroomt kan een verbinding vormen waarin iets tussen beide blijft voortgaan.
 
-Volg wat vertrouwen versterkt.
+Stroming draagt iets verder, terwijl relatie de verbinding vormt waarbinnen die overdracht plaatsvindt.
+
+Laat stromen wat verbinding levend houdt.
+
 `,
 
 10: `
-Muluc loopt naast Oc.
+Stroming loopt naast Relatie.
 
-Verbinding krijgt betekenis door oprechtheid.
+<br><br>
 
-Relaties bloeien wanneer zij echt zijn.
+Stroming laat binnen relaties iets van de ene naar de andere kant overgaan.
 
-Authenticiteit schept duurzame banden.
+Verbindingen kunnen ruimte bieden waarin gevoelens, ideeën en ervaringen worden doorgegeven en verdergaan.
 
-Volg wat waarachtig voelt.
+Relatie verbindt wat bij elkaar betrokken is, terwijl stroming mogelijk maakt dat binnen die verbinding iets wordt overgedragen.
+
+Laat binnen verbinding ruimte voor wat verder wil stromen.
+
 `,
 
 11: `
-Lamat loopt naast Chuen.
+Waarde loopt naast Expressie.
 
-Creativiteit bloeit wanneer schoonheid wordt gewaardeerd.
+<br><br>
 
-Niet iedere creatie hoeft nuttig te zijn.
+Waarde geeft betekenis aan wat door expressie naar buiten wordt gebracht.
 
-Sommige dingen bestaan eenvoudigweg om te inspireren.
+Woorden, beelden, gedrag en andere uitingen kunnen laten zien waaraan iemand betekenis toekent.
 
-Verwondering opent deuren die logica gesloten laat.
+Expressie maakt het innerlijke uiterlijk waarneembaar, terwijl waarde aanwezig is in wat binnen die uiting betekenis krijgt.
 
-Volg wat schoonheid zichtbaar maakt.
+Laat je expressie dragen wat voor jou betekenis heeft.
+
 `,
 
 12: `
-Manik loopt naast Eb.
+Interactie loopt naast Levenspad.
 
-Ervaring krijgt waarde door dienstbaarheid.
+<br><br>
 
-Kennis wordt wijsheid wanneer zij wordt gedeeld.
+Interactie brengt ontmoetingen en wederzijdse invloed in het verloop van een levenspad.
 
-De weg onthult zichzelf door bijdrage.
+Wat onderweg met anderen, omstandigheden of de omgeving wordt uitgewisseld, kan deel worden van de ontwikkeling die zich over tijd ontvouwt.
 
-Wat je leert krijgt betekenis wanneer het anderen helpt.
+Levenspad vormt het traject van ontwikkeling, terwijl interactie de wederzijdse beïnvloeding omvat die zich onderweg voordoet.
 
-Volg wat ten goede komt aan het geheel.
+Sta open voor wat je onderweg ontmoet.
+
 `,
 
 13: `
-Cimi loopt naast Ben.
+Grenzen loopt naast Structuur.
 
-Visie wordt sterker door transformatie.
+<br><br>
 
-Plannen veranderen terwijl het leven zich ontvouwt.
+Grenzen geven afbakening aan de delen waaruit een structuur is opgebouwd.
 
-Verandering onderbreekt de reis niet.
+Wanneer onderdelen van elkaar te onderscheiden zijn, kan duidelijk worden hoe zij binnen een georganiseerde samenstelling van elkaar zijn afgebakend.
 
-Zij is onderdeel van de reis.
+Structuur ordent delen binnen een geheel, terwijl grenzen aangeven waar het ene deel eindigt en het andere begint.
 
-Volg wat doel vernieuwt.
+Herken de grenzen waarbinnen structuur vorm krijgt.
+
 `,
 
 14: `
-Chicchan loopt naast Ix.
+Energie loopt naast Bewustzijn.
 
-Bewustzijn komt tot leven door ervaring.
+<br><br>
 
-Inzicht alleen is niet voldoende.
+Energie loopt als beweging naast wat bewust wordt ervaren.
 
-Wijsheid wil uiteindelijk worden geleefd.
+Wat wordt waargenomen kan samengaan met gevoelens, gedachten en handelingen die in beweging zijn of verandering teweegbrengen.
 
-Kennis krijgt kracht door deelname.
+Bewustzijn maakt ervaring mogelijk, terwijl energie aanwezig is in de beweging die binnen en rondom die ervaring plaatsvindt.
 
-Volg wat begrip energie geeft.
+Voel welke beweging aanwezig is in wat je bewust ervaart.
+
 `,
 
 15: `
-Kan loopt naast Men.
+Potentieel loopt naast Perspectief.
 
-Perspectief krijgt betekenis door groei.
+<br><br>
 
-Een bredere blik onthult nieuwe mogelijkheden.
+Potentieel is aanwezig in de mogelijkheden die vanuit een perspectief zichtbaar worden.
 
-Potentieel verschijnt vaak voorbij vertrouwde grenzen.
+Een andere manier van kijken kan mogelijkheden naar voren brengen die vanuit een eerder gezichtspunt nog buiten beeld bleven.
 
-Ontwikkeling begint waar zekerheid eindigt.
+Perspectief bepaalt van waaruit iets wordt bekeken, terwijl potentieel aanwezig is in wat zich vanuit die blik verder zou kunnen ontwikkelen.
 
-Volg wat groei stimuleert.
+Kijk ook naar wat vanuit jouw perspectief mogelijk wordt.
+
 `,
 
 16: `
-Akbal loopt naast Cib.
+Verbeelding loopt naast Spoor.
 
-Wijsheid blijft levend door mysterie.
+<br><br>
 
-Er valt altijd meer te leren.
+Verbeelding kan nieuwe innerlijke vormen geven aan wat als spoor is achtergebleven.
 
-Zekerheid kan deuren sluiten die nieuwsgierigheid openhoudt.
+Wat een indruk heeft achtergelaten, kan innerlijk opnieuw worden voorgesteld zonder dat het oorspronkelijke spoor verdwijnt.
 
-Niet iedere vraag verlangt een definitief antwoord.
+Spoor maakt terugkeer mogelijk naar wat achterbleef, terwijl verbeelding daar innerlijk opnieuw vorm aan kan geven.
 
-Volg de vragen die blijven terugkeren.
+Geef nieuwe verbeelding aan wat in je een spoor heeft achtergelaten.
+
 `,
 
 17: `
-Ik loopt naast Caban.
+Informatie loopt naast Manifestatie.
 
-Ontdekking krijgt betekenis door communicatie.
+<br><br>
 
-Inzichten worden sterker wanneer zij worden gedeeld.
+Informatie maakt patronen herkenbaar in wat zich als verschijnsel voordoet.
 
-Begrip groeit door uitwisseling.
+Wat in de werkelijkheid verschijnt kan informatie bevatten waardoor patronen en verbanden herkenbaar worden.
 
-Een idee bereikt zijn bestemming wanneer het anderen raakt.
+Manifestatie brengt een verschijnsel in de waarneembare werkelijkheid, terwijl informatie het patroon omvat dat daarin kan worden herkend en geordend.
 
-Volg de gesprekken die bewustzijn verruimen.
+Lees de patronen in wat zich werkelijk voordoet.
+
 `,
 
 18: `
-Imix loopt naast Etznab.
+Bron loopt naast Waarheid.
 
-Waarheid onthult nieuwe beginnen.
+<br><br>
 
-Helderheid is geen einde.
+Bron verbindt wat met de werkelijkheid overeenkomt met waaruit het is voortgekomen.
 
-Zij markeert vaak het begin van een nieuwe fase.
+Wat met de werkelijkheid overeenkomt heeft daarnaast een oorsprong van waaruit het zich heeft ontwikkeld.
 
-Wanneer illusies verdwijnen ontstaat ruimte voor mogelijkheden.
+Waarheid betreft de overeenstemming met de werkelijkheid, terwijl Bron verwijst naar het begin waaruit iets voortkomt.
 
-Volg wat nieuwe deuren opent.
+Zoek naast wat waar is ook waar het begon.
+
 `,
 
 19: `
-Ahau loopt naast Cauac.
+Essentie loopt naast Samenhang.
 
-Vernieuwing heeft baat bij heelheid.
+<br><br>
 
-Na iedere storm ontstaat de kans om te integreren wat geleerd is.
+Essentie is aanwezig als het wezenlijke binnen een geheel van onderling verbonden delen.
 
-Genezing brengt nieuwe kracht voort.
+Wanneer verschillende delen samen een geheel vormen, kan daarin herkenbaar worden wat dat geheel maakt tot wat het is.
 
-Wat gebroken leek kan deel worden van een groter geheel.
+Samenhang betreft de verbinding waardoor delen een geheel vormen, terwijl Essentie ligt in wat dat geheel wezenlijk tot zichzelf maakt.
 
-Volg wat voltooiing brengt.
+Zoek in het geheel wat werkelijk wezenlijk is.
+
 `,
 
 20: `
-Cauac loopt naast Ahau.
+Samenhang loopt naast Essentie.
 
-Heelheid blijft levend door vernieuwing.
+<br><br>
 
-Groei stopt nooit volledig.
+Samenhang is aanwezig in de verbinding tussen het wezenlijke en het geheel waarin het vorm krijgt.
 
-Zelfs wijsheid blijft zich ontwikkelen.
+Wat iets maakt tot wat het is, kan herkenbaar zijn in de manier waarop de verschillende delen zich tot elkaar en tot het geheel verhouden.
 
-Iedere voltooiing opent een nieuwe cyclus.
+Essentie betreft wat iets wezenlijk tot zichzelf maakt, terwijl Samenhang ligt in de onderlinge verbinding van de delen die samen dat geheel vormen.
 
-Volg wat transformatie levend houdt.
+Zie hoe het wezenlijke door het geheel heen samenhangt.
+
 `
 
 };

@@ -1,245 +1,282 @@
 const manipuraPages_en = {
 
 1: `
-Etznab walks beside Imix.
+Truth walks alongside Source.
 
-New beginnings benefit from clarity.
+<br><br>
 
-Inspiration becomes stronger when illusion is removed.
+Truth brings clarity to what emerges from a source.
 
-Truth helps potential become reality.
+What arises gains meaning when it becomes clear how it relates to reality.
 
-Follow what remains meaningful when uncertainty falls away.
+A source can bring forth something new, while truth preserves its relationship with reality.
+
+Let what arises reveal itself to reality.
 `,
 
 2: `
-Caban walks beside Ik.
+Manifestation walks alongside Information.
 
-Communication becomes deeper through exploration.
+<br><br>
 
-Questions reveal pathways that certainty cannot.
+Manifestation gives form to what is present as a pattern in information.
 
-Curiosity keeps understanding alive.
+What is recognized and organized can gain meaning when it also appears as a phenomenon in reality.
 
-Follow the desire to discover.
+Information can make connections accessible, while manifestation allows those connections to be experienced as they actually occur.
+
+Let what you understand also encounter reality.
 `,
 
 3: `
-Cib walks beside Akbal.
+Trace walks alongside Imagination.
 
-Mystery benefits from wisdom.
+<br><br>
 
-Experience provides guidance where certainty cannot.
+Trace connects what arises in imagination with what has remained from before.
 
-The unknown becomes less intimidating when approached with understanding.
+What emerges as an image or possibility can develop further when earlier impressions and experiences offer a way back.
 
-Follow what deepens insight.
+Imagination can open new inner forms, while trace maintains a connection with what was previously experienced and left behind.
+
+Let what remains nourish new imagination.
 `,
 
 4: `
-Men walks beside Kan.
+Perspective walks alongside Potential.
 
-Growth benefits from perspective.
+<br><br>
 
-Not every possibility deserves equal attention.
+Perspective gives direction to the possibilities present within potential.
 
-A broader view helps reveal what truly matters.
+What can develop gains greater meaning when it can be viewed from different points of view and a possible direction becomes visible.
 
-Follow what expands awareness.
+Potential opens what is possible, while perspective shows the direction from which those possibilities can be approached.
+
+Look at what is possible from more than one direction.
 `,
 
 5: `
-Ix walks beside Chicchan.
+Consciousness walks alongside Energy.
 
-Vitality becomes balanced through awareness.
+<br><br>
 
-Instinct is powerful, but consciousness gives it direction.
+Consciousness makes it perceptible where energy comes into motion.
 
-The body speaks, but the spirit listens.
+What produces force or change can be consciously experienced when its movement is perceived.
 
-Follow what awakens both.
+Energy brings forth movement, while consciousness makes the experience of that movement present.
+
+Feel where movement touches your consciousness.
 `,
 
 6: `
-Ben walks beside Cimi.
+Structure walks alongside Boundaries.
 
-Transformation becomes purposeful through vision.
+<br><br>
 
-Endings make sense when they serve a greater future.
+Structure gives organization to what is distinguished from one another by boundaries.
 
-A clear direction eases difficult transitions.
+When it is clear where something begins and ends, separate parts can relate to one another within an organized form.
 
-Follow what inspires growth.
+Boundaries define the separation between parts, while structure shows how those parts are organized within a whole.
+
+Recognize the structure that arises within boundaries.
 `,
 
 7: `
-Eb walks beside Manik.
+Life Path walks alongside Interaction.
 
-Service becomes sustainable through experience.
+<br><br>
 
-Every step teaches something valuable.
+Life Path connects interactions with an ongoing development.
 
-Helping others begins with understanding the road itself.
+Encounters and mutual influence can become part of a trajectory in which experiences connect with one another over time.
 
-Follow the lessons of the journey.
+Interaction brings forth mutual influence, while Life Path incorporates those moments into an ongoing development.
+
+Let encounters become part of your path.
 `,
 
 8: `
-Chuen walks beside Lamat.
+Expression walks alongside Value.
 
-Beauty thrives through creativity.
+<br><br>
 
-Perfection is less important than expression.
+Expression gives form to what has gained meaning as value.
 
-Joy often appears where imagination is free.
+What is valuable can take an outward form through words, images, behavior, or other forms of expression.
 
-Follow what invites playfulness.
+Value determines what is given meaning, while expression gives that meaning a form in which it can be expressed.
+
+Give expression to what truly has value for you.
 `,
 
 9: `
-Oc walks beside Muluc.
+Relationship walks alongside Flow.
 
-Meaning becomes stronger through connection.
+<br><br>
 
-Purpose is rarely discovered in isolation.
+Relationship connects what is passed along through flow.
 
-Shared experiences deepen understanding.
+What flows from one to another can form a connection in which something continues between them.
 
-Follow what strengthens trust.
+Flow carries something onward, while relationship forms the connection within which that transfer takes place.
+
+Let flow what keeps connection alive.
 `,
 
 10: `
-Muluc walks beside Oc.
+Flow walks alongside Relationship.
 
-Connection becomes meaningful through sincerity.
+<br><br>
 
-Relationships flourish when they are genuine.
+Flow allows something to pass from one side to another within relationships.
 
-Authenticity creates lasting bonds.
+Connections can provide space in which feelings, ideas, and experiences are passed along and continue onward.
 
-Follow what feels true.
+Relationship connects what is involved with one another, while flow makes it possible for something to be transferred within that connection.
+
+Allow space within connection for what wants to continue flowing.
 `,
 
 11: `
-Lamat walks beside Chuen.
+Value walks alongside Expression.
 
-Creativity flourishes when beauty is appreciated.
+<br><br>
 
-Not every creation must be useful.
+Value gives meaning to what is brought outward through expression.
 
-Some things exist simply to inspire.
+Words, images, behavior, and other forms of expression can reveal what someone gives meaning to.
 
-Follow what brings wonder.
+Expression makes what is inner outwardly perceptible, while value is present in what gains meaning within that expression.
+
+Let your expression carry what has meaning for you.
 `,
 
 12: `
-Manik walks beside Eb.
+Interaction walks alongside Life Path.
 
-Experience gains value through service.
+<br><br>
 
-Knowledge becomes wisdom when shared.
+Interaction brings encounters and mutual influence into the course of a life path.
 
-The path reveals itself through contribution.
+What is exchanged along the way with others, circumstances, or the environment can become part of the development that unfolds over time.
 
-Follow what benefits others.
+Life Path forms the trajectory of development, while interaction encompasses the mutual influence that occurs along the way.
+
+Be open to what you encounter along the way.
 `,
 
 13: `
-Cimi walks beside Ben.
+Boundaries walk alongside Structure.
 
-Vision grows stronger through transformation.
+<br><br>
 
-Plans evolve as life unfolds.
+Boundaries give definition to the parts from which a structure is composed.
 
-Change is not an interruption of the journey.
+When parts can be distinguished from one another, it can become clear how they are bounded within an organized composition.
 
-It is part of it.
+Structure organizes parts within a whole, while boundaries indicate where one part ends and another begins.
 
-Follow what renews purpose.
+Recognize the boundaries within which structure takes form.
 `,
 
 14: `
-Chicchan walks beside Ix.
+Energy walks alongside Consciousness.
 
-Awareness becomes alive through experience.
+<br><br>
 
-Insight alone is not enough.
+Energy moves alongside what is consciously experienced.
 
-Wisdom must eventually be lived.
+What is perceived can accompany feelings, thoughts, and actions that are in motion or bring about change.
 
-Follow what energizes understanding.
+Consciousness makes experience possible, while energy is present in the movement taking place within and around that experience.
+
+Feel what movement is present in what you consciously experience.
 `,
-
 15: `
-Kan walks beside Men.
+Potential walks alongside Perspective.
 
-Perspective becomes meaningful through growth.
+<br><br>
 
-A wider view reveals new possibilities.
+Potential is present in the possibilities that become visible from a perspective.
 
-Potential often appears beyond familiar boundaries.
+A different way of looking can bring forward possibilities that remained outside view from an earlier point of view.
 
-Follow what encourages development.
+Perspective determines the position from which something is viewed, while potential is present in what could develop further from that view.
+
+Also look at what becomes possible from your perspective.
 `,
 
 16: `
-Akbal walks beside Cib.
+Imagination walks alongside Trace.
 
-Wisdom remains alive through mystery.
+<br><br>
 
-There is always more to learn.
+Imagination can give new inner forms to what has remained as a trace.
 
-Certainty can close doors that curiosity keeps open.
+What has left an impression can be imagined again inwardly without the original trace disappearing.
 
-Follow the questions that endure.
+Trace makes it possible to return to what remained, while imagination can give it new inner form.
+
+Give new imagination to what has left a trace within you.
 `,
 
 17: `
-Ik walks beside Caban.
+Information walks alongside Manifestation.
 
-Discovery becomes meaningful through communication.
+<br><br>
 
-Insights gain strength when shared.
+Information makes patterns recognizable in what appears as a phenomenon.
 
-Understanding grows through exchange.
+What appears in reality can contain information through which patterns and connections become recognizable.
 
-Follow the conversations that expand awareness.
+Manifestation brings a phenomenon into perceptible reality, while information encompasses the pattern that can be recognized and organized within it.
+
+Read the patterns in what actually occurs.
 `,
 
 18: `
-Imix walks beside Etznab.
+Source walks alongside Truth.
 
-Truth reveals new beginnings.
+<br><br>
 
-Clarity is not an ending.
+Source connects what corresponds with reality to that from which it originated.
 
-It is often the start of something new.
+What corresponds with reality also has an origin from which it developed.
 
-Follow what opens fresh possibilities.
+Truth concerns correspondence with reality, while Source refers to the beginning from which something emerges.
+
+Alongside what is true, also seek where it began.
 `,
 
 19: `
-Ahau walks beside Cauac.
+Essence walks alongside Coherence.
 
-Renewal benefits from wholeness.
+<br><br>
 
-After every storm comes an opportunity to integrate what was learned.
+Essence is present as what is essential within a whole of interconnected parts.
 
-Healing creates new strength.
+When different parts together form a whole, what makes that whole what it is can become recognizable within it.
 
-Follow what brings completion.
+Coherence concerns the connection through which parts form a whole, while Essence lies in what makes that whole essentially itself.
+
+Seek within the whole what is truly essential.
 `,
 
 20: `
-Cauac walks beside Ahau.
+Coherence walks alongside Essence.
 
-Wholeness remains alive through renewal.
+<br><br>
 
-Growth never truly stops.
+Coherence is present in the connection between what is essential and the whole in which it takes form.
 
-Even wisdom must continue evolving.
+What makes something what it is can be recognizable in the way its different parts relate to one another and to the whole.
 
-Follow what keeps transformation alive.
+Essence concerns what makes something essentially itself, while Coherence lies in the interconnection of the parts that together form that whole.
+
+See how what is essential coheres throughout the whole.
 `
 
 };

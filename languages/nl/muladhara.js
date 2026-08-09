@@ -1,165 +1,273 @@
 const muladharaPages_nl = {
 
 1: `
-Met welke intentie betreed ik de wereld?
+Toon: 1 (Ram) · Actualiseren
 
-Elke reis begint met een eerste impuls.
+<br><br>
 
-Toon 1 gaat niet over resultaten.
+Actualiseren is de bewustzijnsoriëntatie die zich uitdrukt als verwezenlijking.
 
-Hij vraagt wat er tot bestaan wil komen.
+Verwezenlijking maakt werkelijkheid mogelijk.
 
-Vraag niet eerst waar een pad naartoe leidt, maar waarom het je roept.
+Zij hangt samen met het begin van concrete vorm.
 
-Intentie geeft richting aan beweging.
+<br><br>
+
+Mensen met Actualiseren nemen vaak vanzelf het initiatief.
+ 
+Zij herkennen mogelijkheden voordat anderen ze zien en brengen iets nieuws op gang. 
+
+Hun uitdaging ligt minder in het beginnen dan in het voltooien.
+
 `,
 
 2: `
-Elk begin creëert een keuze.
+Toon: 2 (Stier) · Erkennen
 
-Twee paden worden zichtbaar.
+<br><br>
 
-Toon 2 vraagt je om verschillen te herkennen in plaats van ze te vermijden.
+Erkennen is de bewustzijnsoriëntatie die zich uitdrukt als aanvaarding.
 
-Helderheid ontstaat vaak wanneer tegenpolen naast elkaar mogen bestaan.
+Aanvaarding maakt aanwezigheid mogelijk.
 
-Een beslissing wordt mogelijk zodra beide kanten begrepen worden.
+Zij hangt samen met het toelaten van wat bestaat.
+
+<br><br>
+
+Mensen met Erkennen nemen vaak eerst waar voordat zij handelen. 
+
+Zij hebben de neiging een situatie volledig toe te laten voordat zij een keuze maken. 
+
+Hun kracht ligt in het scheppen van stabiliteit door de werkelijkheid te erkennen zoals zij is, terwijl hun uitdaging kan zijn dat zij te lang blijven afwegen voordat zij in beweging komen.
+
 `,
 
 3: `
-Ideeën worden werkelijkheid door beweging.
+Toon: 3 (Tweelingen) · Onderscheiden
 
-Toon 3 moedigt actie, experiment en expressie aan.
+<br><br>
 
-Vooruitgang begint zelden met perfectie.
+Onderscheiden is de bewustzijnsoriëntatie die zich uitdrukt als verschil.
 
-Een pad onthult zichzelf door deelname.
+Verschil maakt herkenning mogelijk.
 
-Beweging schept begrip.
+Zij hangt samen met het ontstaan van identiteit.
+
+<br><br>
+
+Mensen met Onderscheiden herkennen vaak snel verschillen, verbanden en mogelijkheden. 
+
+Zij brengen ideeën, mensen of inzichten met elkaar in contact en maken zichtbaar wat voor anderen nog verborgen blijft. 
+
+Hun kracht ligt in het helder onderscheiden van wat aandacht vraagt, terwijl hun uitdaging kan zijn dat zij zich verliezen in te veel mogelijkheden of te veel tegelijk willen overzien.
+
 `,
 
 4: `
-Elke visie zoekt uiteindelijk vorm.
+Toon: 4 (Kreeft) · Plaatsen
 
-Toon 4 vraagt hoe een intentie werkelijkheid kan worden.
+<br><br>
 
-Fundamenten zijn belangrijk.
+Plaatsen is de bewustzijnsoriëntatie die zich uitdrukt als positionering.
 
-Een sterke structuur laat groei doorgaan nadat enthousiasme vervaagt.
+Positionering maakt verhouding mogelijk.
 
-Vorm beschermt doelgerichtheid.
+Zij hangt samen met context.
+
+<br><br>
+
+Mensen met Plaatsen brengen vaak vanzelf structuur aan in wat nog onduidelijk is. 
+
+Zij zien hoe onderdelen zich tot elkaar verhouden en geven ideeën, plannen of situaties een heldere plaats. 
+
+Hun kracht ligt in het scheppen van overzicht en samenhang, terwijl hun uitdaging kan zijn dat zij vasthouden aan een eenmaal gekozen structuur wanneer verandering nodig is.
+
 `,
 
 5: `
-Kracht is het vermogen om beweging te dragen.
+Toon: 5 (Leeuw) · Selecteren
 
-Toon 5 verzamelt middelen, focus en vastberadenheid.
+<br><br>
 
-Dit is een periode van versterking.
+Selecteren is de bewustzijnsoriëntatie die zich uitdrukt als keuze.
 
-Vraag niet alleen wat mogelijk is.
+Selectie maakt gerichtheid mogelijk.
 
-Vraag wat door de tijd heen gedragen kan worden.
+Zij hangt samen met focus en prioriteit.
 
-Kracht groeit door toewijding.
+<br><br>
+
+Mensen met Selecteren richten hun aandacht vaak vanzelf op wat werkelijk belangrijk is. 
+
+Zij herkennen welke mogelijkheden, mensen of middelen een ontwikkeling verder kunnen brengen en weten daar hun energie op te concentreren. 
+
+Hun kracht ligt in het aanbrengen van focus en richting, terwijl hun uitdaging kan zijn dat zij te veel willen controleren of moeite hebben om alternatieven los te laten.
 `,
 
 6: `
-Het leven beweegt zelden in een rechte lijn.
+Toon: 6 (Maagd) · Verfijnen
 
-Toon 6 onderzoekt balans tussen tegengestelde krachten.
+<br><br>
 
-Harmonie is niet de afwezigheid van spanning.
+Verfijnen is de bewustzijnsoriëntatie die zich uitdrukt als verbetering.
 
-Het is het vermogen om met spanning te werken zonder erdoor beheerst te worden.
+Verfijning maakt kwaliteit mogelijk.
 
-Balans creëert momentum.
+Zij hangt samen met nauwkeurigheid en afstemming.
+
+<br><br>
+
+Mensen met Verfijnen zien vaak vanzelf hoe iets beter, helderder of zorgvuldiger kan. 
+
+Zij herkennen kleine verschillen die anderen gemakkelijk over het hoofd zien en brengen stap voor stap meer kwaliteit in hun omgeving. 
+
+Hun kracht ligt in het verbeteren van wat al bestaat, terwijl hun uitdaging kan zijn dat zij blijven zoeken naar perfectie wanneer iets al goed genoeg is.
+
 `,
 
 7: `
-Elk pad bevat een centrum.
+Toon: 7 (Weegschaal) · Afstemmen
 
-Toon 7 nodigt uit tot reflectie.
+<br><br>
 
-In plaats van vooruit te duwen, stap terug en observeer.
+Afstemmen is de bewustzijnsoriëntatie die zich uitdrukt als afstemming.
 
-Perspectief onthult vaak wat inspanning niet kan tonen.
+Afstemming maakt samenhang mogelijk.
 
-Wijsheid groeit wanneer actie en bewustzijn elkaar ontmoeten.
+Zij hangt samen met resonantie.
+
+<br><br>
+
+Mensen met Afstemmen voelen vaak intuïtief aan hoe mensen, ideeën of omstandigheden op elkaar kunnen aansluiten.
+
+Zij brengen verbinding waar verschillen ontstaan en zoeken naar een evenwicht waarin alles beter samenwerkt. 
+
+Hun kracht ligt in het creëren van harmonie en inspiratie, terwijl hun uitdaging kan zijn dat zij zich te veel aanpassen aan anderen en daardoor het contact met hun eigen richting verliezen.
+
 `,
 
 8: `
-Integriteit betekent afstemming tussen gedachte, woord en daad.
+Toon: 8 (Schorpioen) · Transformeren
 
-Toon 8 vraagt of je keuzes je diepere waarden weerspiegelen.
+<br><br>
 
-Authenticiteit is geen perfectie.
+Transformeren is de bewustzijnsoriëntatie die zich uitdrukt als verandering.
 
-Het is consistentie.
+Verandering maakt vernieuwing mogelijk.
 
-De sterkste paden worden gebouwd op eerlijkheid.
+Zij hangt samen met overgang en ontwikkeling.
+
+<br><br>
+
+Mensen met Transformeren zien vaak vanzelf hoe verandering tot groei kan leiden. 
+
+Zij brengen nieuwe inzichten, ideeën of ervaringen samen tot een vernieuwd geheel zonder de samenhang uit het oog te verliezen. 
+
+Hun kracht ligt in het omzetten van verandering in ontwikkeling, terwijl hun uitdaging kan zijn dat zij vasthouden aan hun eigen visie of te veel willen sturen hoe verandering verloopt.
+
 `,
 
 9: `
-Sommige doelen vragen om geduld.
+Toon: 9 (Slangendrager) · Integreren
 
-Toon 9 onderwijst volharding.
+<br><br>
 
-Niet alles ontvouwt zich volgens persoonlijke tijdlijnen.
+Integreren is de bewustzijnsoriëntatie die zich uitdrukt als integratie.
 
-Groei gaat vaak onder de oppervlakte verder.
+Integratie maakt samen functioneren mogelijk.
 
-Volharding verandert potentieel in werkelijkheid.
+Zij hangt samen met verbinding en heelheid.
+
+<br><br>
+
+Mensen met Integreren zien vaak vanzelf hoe afzonderlijke onderdelen samen een groter geheel vormen. 
+
+Zij hebben de neiging ontwikkelingen tot een goed einde te brengen en verliezen daarbij het uiteindelijke doel niet uit het oog. 
+
+Hun kracht ligt in het verbinden van losse ervaringen tot een betekenisvol geheel, terwijl hun uitdaging kan zijn dat zij te veel verantwoordelijkheid op zich nemen of blijven vasthouden aan een doel dat zijn betekenis verloren heeft.
+
 `,
 
 10: `
-Voltooiing is geen einde.
+Toon: 10 (Boogschutter) · Doorgronden
 
-Toon 10 vraagt wat nu zichtbaar mag worden.
+<br><br>
 
-Wat ooit een idee was, heeft vorm gekregen.
+Doorgronden is de bewustzijnsoriëntatie die zich uitdrukt als inzicht.
 
-Vier vooruitgang zonder eraan vast te klampen.
+Inzicht maakt begrip mogelijk.
 
-Bereiking bereidt de grond voor op vernieuwing.
+Zij hangt samen met essentie en betekenis.
+
+<br><br>
+
+Mensen met Doorgronden zoeken vaak vanzelf naar de kern van een vraagstuk voordat zij handelen. 
+
+Zij brengen inzicht, ervaring en kennis samen totdat duidelijk wordt hoe iets werkelijk in elkaar zit. 
+
+Hun kracht ligt in het omzetten van begrip in concrete resultaten, terwijl hun uitdaging kan zijn dat zij blijven zoeken naar volledige zekerheid voordat zij de volgende stap zetten.
+
 `,
 
 11: `
-Groei vraagt soms om loslaten.
+Toon: 11 (Steenbok) · Verankeren
 
-Toon 11 moedigt vereenvoudiging aan.
+<br><br>
 
-Oude aannames, gewoonten of verwachtingen dienen je misschien niet langer.
+Verankeren is de bewustzijnsoriëntatie die zich uitdrukt als bestendiging.
 
-Ruimte moet ontstaan voordat iets nieuws kan verschijnen.
+Bestendiging maakt continuïteit mogelijk.
 
-Vrijheid begint vaak met loslaten.
+Zij hangt samen met stabiliteit en betrouwbaarheid.
+
+<br><br>
+
+Mensen met Verankeren herkennen vaak vanzelf wat blijvende waarde heeft. 
+
+Zij geven ideeën, ervaringen of inzichten een duurzame plaats, zodat deze behouden blijven en kunnen blijven groeien. 
+
+Hun kracht ligt in het bestendigen van wat werkelijk betekenisvol is, terwijl hun uitdaging kan zijn dat zij te lang vasthouden aan wat zijn functie al heeft vervuld.
+
 `,
 
 12: `
-Begrip verdiept zich door verbinding.
+Toon: 12 (Waterman) · Ontsluiten
 
-Toon 12 onderzoekt samenwerking, communicatie en gedeeld inzicht.
+<br><br>
 
-Geen enkele reis is volledig eenzaam.
+Ontsluiten is de bewustzijnsoriëntatie die zich uitdrukt als toegankelijkheid.
 
-Verschillende perspectieven onthullen verborgen dimensies van de werkelijkheid.
+Toegankelijkheid maakt overdracht mogelijk.
 
-Betekenis groeit wanneer zij wordt uitgewisseld.
+Zij hangt samen met delen en beschikbaarheid.
+
+<br><br>
+
+Mensen met Ontsluiten maken kennis, ervaringen en inzichten vaak vanzelf toegankelijk voor anderen. 
+
+Zij brengen verschillende gezichtspunten samen en weten complexe onderwerpen helder en begrijpelijk over te brengen. 
+
+Hun kracht ligt in het delen van wat waardevol is, terwijl hun uitdaging kan zijn dat zij zich verliezen in het verzamelen van kennis zonder deze werkelijk toe te passen.
+
 `,
 
 13: `
-Elk einde bevat een begin.
+Toon: 13 (Vissen) · Vrijmaken
 
-Toon 13 vertegenwoordigt transcendentie en vernieuwing.
+<br><br>
 
-Het pad gaat verder voorbij de bestemming.
+Vrijmaken is de bewustzijnsoriëntatie die zich uitdrukt als loslaten.
 
-Kijk terug om te begrijpen wat geleerd is.
+Loslaten maakt zelfstandige voortzetting mogelijk.
 
-Kijk vooruit om te ontdekken wat nu mogelijk wordt.
+Zij hangt samen met vrijheid en voortzetting.
 
-Voltooiing opent de deur naar transformatie.
+<br><br>
+
+Mensen met Vrijmaken weten vaak vanzelf wanneer iets voltooid is en losgelaten mag worden. 
+
+Zij maken ruimte voor een nieuwe ontwikkeling zonder vast te blijven houden aan wat zijn functie heeft vervuld. 
+Hun kracht ligt in het vertrouwen dat groei doorgaat, ook wanneer zij zelf een stap terugzetten, terwijl hun uitdaging kan zijn dat zij veranderingen te lang proberen tegen te houden of juist te snel vooruit willen lopen op wat nog niet is afgerond.
 `
 
 };

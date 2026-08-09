@@ -1,286 +1,303 @@
 const vishuddhaPages_nl = {
 
 1: `
-Ahau onthult het verborgen verlangen van Imix.
+Bron verlangt verborgen naar Essentie.
 
-Elk begin zoekt heelheid.
+<br><br>
 
-Nieuwe mogelijkheden zijn opwindend, maar daaronder ligt een diepere wens.
+Mensen met Bron willen vaak niet alleen iets nieuws laten ontstaan, maar hopen ook dat wat zij voortbrengen werkelijk betekenis krijgt en zichzelf kan worden.
 
-Je zoekt niet alleen nieuwe ervaringen.
+Onder hun drang om ideeën, mogelijkheden of ontwikkelingen op gang te brengen ligt een verlangen om iets wezenlijks achter te laten dat verder reikt dan het eerste begin.
 
-Je zoekt begrip.
+Dit kan zich uiten in een sterke behoefte om iets authentieks en betekenisvols voort te brengen, maar ook in teleurstelling wanneer wat zij beginnen uiteindelijk een andere vorm of betekenis krijgt dan zij oorspronkelijk voor ogen hadden.
 
-Het verlangen achter ieder begin is volledigheid.
+<br><br>
+
 `,
 
 2: `
-Cauac onthult het verborgen verlangen van Ik.
+Informatie verlangt verborgen naar Samenhang.
 
-Communicatie zoekt uiteindelijk vernieuwing.
+<br><br>
 
-Woorden krijgen betekenis wanneer zij verandering creëren.
+Mensen met Informatie willen vaak niet alleen weten en begrijpen, maar zoeken ook naar hoe afzonderlijke gegevens met elkaar verbonden zijn.
 
-Je spreekt niet alleen om informatie uit te wisselen.
+Onder hun behoefte om patronen te herkennen, kennis te verzamelen en inzichten te delen ligt een verlangen om van losse informatie een begrijpelijk geheel te maken.
 
-Je zoekt transformatie.
+Dit kan zich uiten in een sterke behoefte om verbanden te ontdekken en betekenis te vinden, maar ook in moeite om iets los te laten zolang nog niet duidelijk is hoe alle onderdelen met elkaar samenhangen.
 
-Het verlangen achter communicatie is groei.
+<br><br>
+
 `,
 
 3: `
-Etznab onthult het verborgen verlangen van Akbal.
+Verbeelding verlangt verborgen naar Waarheid.
 
-Mysterie zoekt waarheid.
+<br><br>
 
-Het onbekende is aantrekkelijk omdat iets onthuld wil worden.
+Mensen met Verbeelding willen vaak niet alleen nieuwe beelden, ideeën en betekenissen vormen, maar verlangen er ook naar dat hun innerlijke wereld aansluiting vindt bij de werkelijkheid.
 
-Je zoekt niet het duister omwille van het duister.
+Onder hun rijke innerlijke belevingswereld ligt een behoefte om te ervaren dat wat zij zich voorstellen, aanvoelen of creëren ergens werkelijk mee overeenkomt.
 
-Je zoekt de helderheid die erin verborgen ligt.
+Dit kan zich uiten in een sterke behoefte om hun ideeën aan de werkelijkheid te toetsen, maar ook in twijfel wanneer hun innerlijke voorstelling en de werkelijkheid niet met elkaar overeenkomen.
 
-Het verlangen achter mysterie is begrip.
+<br><br>
+
 `,
 
 4: `
-Caban onthult het verborgen verlangen van Kan.
+Potentieel verlangt verborgen naar Manifestatie.
 
-Groei zoekt ontdekking.
+<br><br>
 
-Potentieel verlangt ernaar ervaring te worden.
+Mensen met Potentieel willen vaak niet alleen mogelijkheden zien, maar verlangen er ook naar deze uiteindelijk terug te zien in de werkelijkheid.
 
-Je groeit niet alleen om groter te worden.
+Onder hun gevoel voor wat zou kunnen ontstaan ligt een behoefte om te ervaren dat mogelijkheden daadwerkelijk een zichtbare vorm kunnen krijgen.
 
-Je groeit om te ontdekken wat mogelijk is.
+Dit kan zich uiten in een sterke behoefte om groei en ontwikkeling werkelijkheid te zien worden, maar ook in teleurstelling wanneer mogelijkheden aanwezig blijven zonder ooit tot uiting te komen.
 
-Het verlangen achter groei is verkenning.
+<br><br>
+
 `,
 
 5: `
-Cib onthult het verborgen verlangen van Chicchan.
+Energie verlangt verborgen naar Spoor.
 
-Vitaliteit zoekt wijsheid.
+<br><br>
 
-Ervaring alleen is nooit voldoende.
+Mensen met Energie willen vaak niet alleen beweging en verandering teweegbrengen, maar verlangen er ook naar dat hun inzet iets achterlaat.
 
-Elke passie draagt een les in zich.
+Onder hun natuurlijke daadkracht en behoefte aan beweging ligt een verlangen om te ervaren dat wat zij in beweging brengen een blijvende indruk heeft.
 
-Het verlangen achter intensiteit is begrip.
+Dit kan zich uiten in een sterke behoefte om een merkbare invloed te hebben, maar ook in frustratie wanneer veel energie wordt ingezet zonder dat daarvan later iets merkbaar overblijft.
 
-Het leven wil onderwijzen door gevoel.
+<br><br>
+
 `,
 
 6: `
-Men onthult het verborgen verlangen van Cimi.
+Grenzen verlangt verborgen naar Perspectief.
 
-Transformatie zoekt perspectief.
+<br><br>
 
-Verandering wordt gemakkelijker wanneer zij vanuit een groter geheel wordt bekeken.
+Mensen met Grenzen willen vaak niet alleen herkennen waar iets eindigt, maar verlangen er ook naar te begrijpen wat er aan de andere kant van die begrenzing mogelijk is.
 
-Je verandert niet alleen om iets achter te laten.
+Onder hun behoefte aan duidelijke afbakening ligt een verlangen om situaties vanuit een ruimer gezichtspunt te kunnen bekijken.
 
-Je verandert om verder te kunnen zien.
+Dit kan zich uiten in een sterke behoefte om verder te kijken dan wat op dat moment begrensd lijkt, maar ook in onzekerheid wanneer een ander perspectief vertrouwde grenzen ter discussie stelt.
 
-Het verlangen achter transformatie is visie.
+<br><br>
+
 `,
 
 7: `
-Ix onthult het verborgen verlangen van Manik.
+Interactie verlangt verborgen naar Bewustzijn.
 
-Dienstbaarheid zoekt bewustzijn.
+<br><br>
 
-Anderen helpen wordt uiteindelijk een pad van zelfontdekking.
+Mensen met Interactie willen vaak niet alleen uitwisseling ervaren, maar verlangen er ook naar bewust te worden van wat er binnen die wisselwerking gebeurt.
 
-Je dient niet alleen om te geven.
+Onder hun behoefte aan contact, uitwisseling en wederzijdse beïnvloeding ligt een verlangen om te ervaren wat ontmoetingen in henzelf en anderen teweegbrengen.
 
-Je dient om te begrijpen.
+Dit kan zich uiten in een sterke behoefte aan betekenisvolle interactie, maar ook in onrust wanneer er veel uitwisseling plaatsvindt zonder dat duidelijk wordt wat deze werkelijk teweegbrengt.
 
-Het verlangen achter dienstbaarheid is bewustzijn.
+<br><br>
+
 `,
 
 8: `
-Ben onthult het verborgen verlangen van Lamat.
+Waarde verlangt verborgen naar Structuur.
 
-Schoonheid zoekt doel.
+<br><br>
 
-Harmonie verlangt ernaar iets blijvends te worden.
+Mensen met Waarde willen vaak niet alleen herkennen wat betekenisvol is, maar verlangen er ook naar dat wat zij waarderen een duidelijke en duurzame plaats krijgt.
 
-Je waardeert schoonheid niet alleen om haar te bewonderen.
+Onder hun gevoel voor betekenis, kwaliteit en belang ligt een behoefte aan een vorm waarin waarde behouden en gedragen kan worden.
 
-Je wilt ermee bouwen.
+Dit kan zich uiten in een sterke behoefte om betekenisvolle dingen een stevige plaats in hun leven te geven, maar ook in moeite wanneer bestaande structuren niet langer ondersteunen wat voor hen werkelijk van waarde is.
 
-Het verlangen achter schoonheid is schepping.
+<br><br>
+
 `,
 
 9: `
-Eb onthult het verborgen verlangen van Muluc.
+Stroming verlangt verborgen naar Levenspad.
 
-Betekenis zoekt ervaring.
+<br><br>
 
-Doel wordt pas werkelijk wanneer het wordt geleefd.
+Mensen met Stroming willen vaak niet alleen meegaan met wat zich ontwikkelt, maar verlangen er ook naar dat al die beweging ergens toe leidt.
 
-Je zoekt betekenis niet alleen om haar te bezitten.
+Onder hun natuurlijke vermogen om gevoelens, ideeën en ontwikkelingen te laten doorstromen ligt een behoefte om te ervaren dat wat voorbijgaat onderdeel is van een groter traject.
 
-Je zoekt haar om te bewandelen.
+Dit kan zich uiten in een sterke behoefte om betekenis te ervaren in de weg die zij afleggen, maar ook in onzekerheid wanneer het leven blijft veranderen zonder dat zichtbaar wordt waar die beweging hen brengt.
 
-Het verlangen achter betekenis is deelname.
+<br><br>
+
 `,
 
 10: `
-Chuen onthult het verborgen verlangen van Oc.
+Relatie verlangt verborgen naar Expressie.
 
-Loyaliteit zoekt vreugde.
+<br><br>
 
-Verbinding bloeit door creativiteit en spel.
+Mensen met Relatie willen vaak niet alleen verbondenheid ervaren, maar verlangen er ook naar dat die verbondenheid tot uitdrukking komt.
 
-Je blijft niet toegewijd uit plicht alleen.
+Onder hun behoefte aan vertrouwen, betrokkenheid en nabijheid ligt een verlangen om te ervaren dat wat tussen mensen bestaat ook zichtbaar, voelbaar of deelbaar wordt.
 
-Je blijft omdat het leven samen rijker wordt.
+Dit kan zich uiten in een sterke behoefte om verbondenheid te uiten en terug te zien, maar ook in onzekerheid wanneer een relatie aanwezig is zonder dat duidelijk tot uitdrukking komt wat zij voor de ander betekent.
 
-Het verlangen achter loyaliteit is gedeeld geluk.
+<br><br>
+
 `,
 
 11: `
-Oc onthult het verborgen verlangen van Chuen.
+Expressie verlangt verborgen naar Relatie.
 
-Creativiteit zoekt verbinding.
+<br><br>
 
-Ideeën komen tot leven wanneer zij worden gedeeld.
+Mensen met Expressie willen vaak niet alleen zichtbaar maken wat in hen leeft, maar verlangen er ook naar dat hun uiting werkelijk verbinding tot stand brengt.
 
-Je creëert niet alleen om jezelf uit te drukken.
+Onder hun behoefte om ideeën, gevoelens en ervaringen naar buiten te brengen ligt een verlangen om daarmee iemand of iets te bereiken.
 
-Je creëert om relaties op te bouwen.
+Dit kan zich uiten in een sterke behoefte om zichzelf te delen en daarin verbondenheid te ervaren, maar ook in teleurstelling wanneer wat zij uitdrukken geen aansluiting vindt of onbeantwoord blijft.
 
-Het verlangen achter creativiteit is verbondenheid.
+<br><br>
+
 `,
 
 12: `
-Muluc onthult het verborgen verlangen van Eb.
+Levenspad verlangt verborgen naar Stroming.
 
-Ervaring zoekt betekenis.
+<br><br>
 
-Elke reis stelt uiteindelijk de vraag waarom zij belangrijk is.
+Mensen met Levenspad willen vaak niet alleen een weg volgen en zich onderweg ontwikkelen, maar verlangen er ook naar dat die weg ruimte blijft bieden voor beweging en verandering.
 
-Je beweegt niet alleen om vooruit te komen.
+Onder hun behoefte om ervaringen tot een doorgaand traject te verbinden ligt een verlangen om mee te kunnen bewegen met wat het leven onderweg met zich meebrengt.
 
-Je beweegt om doel te ontdekken.
+Dit kan zich uiten in een sterke behoefte om hun weg vrij te laten ontwikkelen, maar ook in onrust wanneer omstandigheden de voortgang blokkeren of het leven anders begint te stromen dan zij hadden verwacht.
 
-Het verlangen achter ervaring is betekenis.
+<br><br>
+
 `,
 
 13: `
-Lamat onthult het verborgen verlangen van Ben.
+Structuur verlangt verborgen naar Waarde.
 
-Visie zoekt schoonheid.
+<br><br>
 
-Een toekomst die de moeite waard is om te bouwen,
-moet ook de moeite waard zijn om lief te hebben.
+Mensen met Structuur willen vaak niet alleen orde en samenhang aanbrengen, maar verlangen er ook naar dat wat zij opbouwen werkelijk van betekenis is.
 
-Je creëert niet alleen voor functionaliteit.
+Onder hun behoefte aan organisatie, stabiliteit en een stevig fundament ligt een verlangen om iets te dragen dat voor henzelf of anderen waarde heeft.
 
-Je creëert voor harmonie.
+Dit kan zich uiten in een sterke behoefte om tijd en aandacht te besteden aan wat werkelijk betekenisvol is, maar ook in twijfel wanneer een structuur goed functioneert zonder dat nog duidelijk is waarvoor zij eigenlijk dient.
 
-Het verlangen achter visie is schoonheid.
+<br><br>
+
 `,
 
 14: `
-Manik onthult het verborgen verlangen van Ix.
+Bewustzijn verlangt verborgen naar Interactie.
 
-Bewustzijn zoekt dienstbaarheid.
+<br><br>
 
-Inzicht wil van nature nuttig worden.
+Mensen met Bewustzijn willen vaak niet alleen waarnemen wat in henzelf en hun omgeving aanwezig is, maar verlangen er ook naar daarmee in wisselwerking te staan.
 
-Je begrijpt niet alleen voor jezelf.
+Onder hun behoefte aan gewaarzijn en ervaring ligt een verlangen om door contact met mensen, ideeën en omstandigheden zelf beïnvloed te worden en invloed uit te oefenen.
 
-Je begrijpt om bij te dragen.
+Dit kan zich uiten in een sterke behoefte aan ervaringen die hun bewustzijn in aanraking brengen met iets buiten henzelf, maar ook in een gevoel van afzondering wanneer zij veel waarnemen zonder werkelijk deel te nemen aan wat zij ervaren.
 
-Het verlangen achter bewustzijn is vrijgevigheid.
+<br><br>
+
 `,
 
 15: `
-Cimi onthult het verborgen verlangen van Men.
+Perspectief verlangt verborgen naar Grenzen.
 
-Perspectief zoekt leven.
+<br><br>
 
-Een verre blik keert uiteindelijk terug naar directe ervaring.
+Mensen met Perspectief willen vaak niet alleen vanuit verschillende gezichtspunten kijken, maar verlangen er ook naar te weten waarbinnen hun blik betekenis krijgt.
 
-Je stijgt niet boven het leven uit om eraan te ontsnappen.
+Onder hun behoefte om verder te kijken en het grotere geheel te zien ligt een verlangen naar grenzen die duidelijk maken welk deel van dat geheel op dat moment relevant is.
 
-Je stijgt erboven uit om er vollediger naar terug te keren.
+Dit kan zich uiten in een sterke behoefte om hun blik ergens op te kunnen richten, maar ook in onrust wanneer er zoveel mogelijke perspectieven zijn dat nergens meer een duidelijke begrenzing ontstaat.
 
-Het verlangen achter perspectief is transformatie.
+<br><br>
+
 `,
 
 16: `
-Chicchan onthult het verborgen verlangen van Cib.
+Spoor verlangt verborgen naar Energie.
 
-Wijsheid zoekt vitaliteit.
+<br><br>
 
-Begrip krijgt betekenis wanneer het wordt geleefd.
+Mensen met Spoor willen vaak niet alleen bewaren wat ervaringen hebben achtergelaten, maar verlangen er ook naar dat wat uit het verleden voortkomt opnieuw beweging kan veroorzaken.
 
-Kennis alleen kan ervaring niet vervangen.
+Onder hun aandacht voor herinneringen, ervaringen en blijvende indrukken ligt een verlangen dat deze niet alleen bewaard blijven, maar ook invloed hebben op wat verder ontstaat.
 
-Inzicht verlangt ernaar beweging te worden.
+Dit kan zich uiten in een sterke behoefte om voort te bouwen op eerdere ervaringen, maar ook in frustratie wanneer wat zij hebben geleerd of achtergelaten geen nieuwe beweging meer teweegbrengt.
 
-Het verlangen achter wijsheid is levendigheid.
+<br><br>
+
 `,
 
 17: `
-Kan onthult het verborgen verlangen van Caban.
+Manifestatie verlangt verborgen naar Potentieel.
 
-Ontdekking zoekt groei.
+<br><br>
 
-Verkenning onthult mogelijkheden die ontwikkeld willen worden.
+Mensen met Manifestatie willen vaak niet alleen zien wat werkelijkheid is geworden, maar verlangen er ook naar te ervaren welke mogelijkheden daarin nog verborgen liggen.
 
-Je zoekt antwoorden niet alleen om te weten.
+Onder hun aandacht voor wat zichtbaar en concreet aanwezig is ligt een verlangen naar wat daaruit nog verder zou kunnen ontstaan.
 
-Je zoekt ze om te worden.
+Dit kan zich uiten in een sterke behoefte om nieuwe mogelijkheden te blijven zien in wat al bestaat, maar ook in ontevredenheid wanneer de werkelijkheid minder mogelijkheden lijkt te bevatten dan zij hadden gehoopt.
 
-Het verlangen achter ontdekking is ontwikkeling.
+<br><br>
+
 `,
 
 18: `
-Akbal onthult het verborgen verlangen van Etznab.
+Waarheid verlangt verborgen naar Verbeelding.
 
-Waarheid zoekt mysterie.
+<br><br>
 
-Elke openbaring opent een nieuwe deur.
+Mensen met Waarheid willen vaak niet alleen zien wat met de werkelijkheid overeenkomt, maar verlangen er ook naar zich voor te stellen wat vanuit die werkelijkheid mogelijk kan worden.
 
-Je zoekt waarheid niet om de zoektocht te beëindigen.
+Onder hun behoefte aan echtheid en overeenstemming ligt een verlangen om verder te kunnen kijken dan wat op dit moment werkelijk aanwezig is.
 
-Je zoekt waarheid om haar te verdiepen.
+Dit kan zich uiten in een sterke behoefte om vanuit de werkelijkheid nieuwe beelden en mogelijkheden te vormen, maar ook in moeite wanneer verbeelding hen vraagt ruimte te geven aan iets waarvoor nog geen bevestiging in de werkelijkheid bestaat.
 
-Het verlangen achter helderheid is verwondering.
+<br><br>
+
 `,
 
 19: `
-Ik onthult het verborgen verlangen van Cauac.
+Samenhang verlangt verborgen naar Informatie.
 
-Vernieuwing zoekt verbinding.
+<br><br>
 
-Na iedere storm ontstaat de behoefte om opnieuw contact te maken, te communiceren en te herbouwen.
+Mensen met Samenhang willen vaak niet alleen ervaren dat verschillende onderdelen met elkaar verbonden zijn, maar verlangen er ook naar dat zichtbaar wordt hoe die verbinding in elkaar zit.
 
-Je transformeert niet alleen om te veranderen.
+Onder hun behoefte aan coherentie en onderlinge verbondenheid ligt een verlangen naar informatie die de relaties binnen het geheel herkenbaar maakt.
 
-Je transformeert om anders te kunnen verbinden.
+Dit kan zich uiten in een sterke behoefte om te weten wat binnen een groter geheel gebeurt, maar ook in onzekerheid wanneer zij samenhang ervaren zonder voldoende informatie om te zien waarop deze berust.
 
-Het verlangen achter vernieuwing is relatie.
+<br><br>
+
 `,
 
 20: `
-Imix onthult het verborgen verlangen van Ahau.
+Essentie verlangt verborgen naar Bron.
 
-Heelheid zoekt nieuwe beginnen.
+<br><br>
 
-Voltooiing is nooit definitief.
+Mensen met Essentie willen vaak niet alleen herkennen wat werkelijk wezenlijk is, maar verlangen er ook naar te ervaren waar dat wezenlijke uit voortkomt.
 
-Elk einde bevat een nieuw zaad.
+Onder hun behoefte aan echtheid, betekenis en een herkenbare kern ligt een verlangen naar de oorsprong waaruit iets zichzelf heeft kunnen ontwikkelen.
 
-Je zoekt vervulling niet om te stoppen.
+Dit kan zich uiten in een sterke behoefte om terug te keren naar wat oorspronkelijk betekenis gaf, maar ook in moeite om te aanvaarden dat wat wezenlijk is onderweg kan veranderen en niet volledig uit zijn oorsprong hoeft te verklaren.
 
-Je zoekt vervulling om opnieuw te beginnen.
+<br><br>
 
-Het verlangen achter heelheid is schepping.
 `
 
 };
