@@ -79,9 +79,11 @@ const languages = {
   en: lang_en,
   nl: lang_nl,
   jp: lang_jp,
-  ru: lang_ru
+  ru: lang_ru,
+  tr: lang_tr
 
 };
+
 
 const languageSelect =
   document.getElementById(
@@ -98,45 +100,68 @@ updateLanguage();
 };
 
 
+
+
 const pageSets = {
   en: {
     muladhara: muladharaPages_en,
+    muladharaKin: muladharaKinPages_en,
     svadhisthana: svadhisthanaPages_en,
     manipura: manipuraPages_en,
     anahata: anahataPages_en,
     vishuddha: vishuddhaPages_en,
     ajna: ajnaPages_en,
     sahasrara: sahasraraPages_en,
+    sahasrara64: sahasrara64Pages_en
   },
 
   nl: {
     muladhara: muladharaPages_nl,
+    muladharaKin: muladharaKinPages_nl,
+    special: specialPages,
     svadhisthana: svadhisthanaPages_nl,
     manipura: manipuraPages_nl,
     anahata: anahataPages_nl,
     vishuddha: vishuddhaPages_nl,
     ajna: ajnaPages_nl,
     sahasrara: sahasraraPages_nl,
+    sahasrara64: sahasrara64Pages_nl
   },
 
   jp: {
     muladhara: muladharaPages_jp,
+    muladharaKin: muladharaKinPages_jp,
     svadhisthana: svadhisthanaPages_jp,
     manipura: manipuraPages_jp,
     anahata: anahataPages_jp,
     vishuddha: vishuddhaPages_jp,
     ajna: ajnaPages_jp,
     sahasrara: sahasraraPages_jp,
+    sahasrara64: sahasrara64Pages_jp
   },
 
   ru: {
     muladhara: muladharaPages_ru,
+    muladharaKin: muladharaKinPages_ru,
     svadhisthana: svadhisthanaPages_ru,
     manipura: manipuraPages_ru,
     anahata: anahataPages_ru,
     vishuddha: vishuddhaPages_ru,
     ajna: ajnaPages_ru,
     sahasrara: sahasraraPages_ru,
+    sahasrara64: sahasrara64Pages_ru
+  },
+
+  tr: {
+    muladhara: muladharaPages_tr,
+    muladharaKin: muladharaKinPages_tr,
+    svadhisthana: svadhisthanaPages_tr,
+    manipura: manipuraPages_tr,
+    anahata: anahataPages_tr,
+    vishuddha: vishuddhaPages_tr,
+    ajna: ajnaPages_tr,
+    sahasrara: sahasraraPages_tr,
+    sahasrara64: sahasrara64Pages_tr
   }
 };
 
@@ -280,6 +305,22 @@ function updateDateFromKin(){
   document.getElementById("yearInput").value =
     d.year;
 }
+
+function getHeartType(currentSeal){
+
+  // Manik en Caban
+  if([6, 16].includes(currentSeal)){
+    return "super";
+  }
+
+  // Kan, Oc, Ix en Ahau
+  if([3, 9, 13, 19].includes(currentSeal)){
+    return "special";
+  }
+
+  return "normal";
+}
+
 
 
 
@@ -468,8 +509,6 @@ for(let i=0;i<20;i++){
   ringAnimals.appendChild(img);
   ringAnimalItems.push(img);
 }
-
-
 
 // ===== SOULKIN ONDERSTE FRACTALRING =====
 
@@ -696,6 +735,48 @@ for(let i = 0; i < 64; i++){
   rootRing3Items.push(img);
 }
 
+
+
+
+function getHeartPoint(sealIndex, radius = 255){
+
+  const angle =
+    (-sealIndex * 18 + 90) *
+    Math.PI / 180;
+
+  const x =
+    Math.cos(angle) * radius;
+
+  const y =
+    Math.sin(angle) * radius;
+
+  return `${x},${y}`;
+}
+
+const heartTriangleA =
+  document.getElementById("heartTriangleA");
+
+const heartTriangleB =
+  document.getElementById("heartTriangleB");
+
+heartTriangleA.setAttribute(
+  "points",
+  [
+    getHeartPoint(3),   // Kan
+    getHeartPoint(9),   // Oc
+    getHeartPoint(16)   // Caban
+  ].join(" ")
+);
+
+heartTriangleB.setAttribute(
+  "points",
+  [
+    getHeartPoint(6),   // Manik
+    getHeartPoint(13),  // Ix
+    getHeartPoint(19)   // Ahau
+  ].join(" ")
+);
+
 window.updateLanguage = function(){
 
   document.querySelector(".aboutTitle").innerHTML =
@@ -705,6 +786,9 @@ window.updateLanguage = function(){
     lang.aboutText;
 
   document.getElementById("stepButton").innerHTML =
+    lang.step;
+
+  document.getElementById("mobileStepButton").innerHTML =
     lang.step;
 
   document.getElementById("goDateButton").innerHTML =
@@ -986,11 +1070,60 @@ const toneSymbol =
 document.getElementById("dot")
   .setAttribute("opacity", dotVisible ? "1" : "0");
 
-if(beforeOrAtRoot || night === 1){
+const isHeartDay =
+  night === 1 &&
+  !beforeOrAtRoot;
+
+const heartType =
+  isHeartDay
+    ? getHeartType(seal)
+    : null;
+
+const heartHoverOnly =
+  isHeartDay;
+
+if(beforeOrAtRoot){
+
   toneSymbol.setAttribute("opacity","0");
+
+} else if(heartHoverOnly){
+
+  // Alleen Heart-dagen tonen de toon via hover
+  toneSymbol.setAttribute("opacity","0");
+
 } else {
+
+  // Alle normale dagen: standaard zichtbaar
   toneSymbol.setAttribute("opacity","1");
 }
+
+// ===== HEXAGRAM =====
+
+const hexagram =
+  document.getElementById("hexagram");
+
+const HEXAGRAM_START_DAY = Number(
+  daysFromCivil(-17264374702, 12, 21) -
+  daysFromCivil(1982, 8, 22)
+);
+
+if(dayOffset < HEXAGRAM_START_DAY){
+
+  hexagram.setAttribute("opacity", "0");
+
+} else {
+
+  hexagram.setAttribute("opacity", "1");
+
+  const hex =
+    ((dayOffset - HEXAGRAM_START_DAY) % 64 + 64) % 64 + 1;
+
+  hexagram.setAttribute(
+    "href",
+    `hexagrams/h${hex}.svg`
+  );
+}
+
 
 // ===== KLEURENRING ONTVOUWING =====
 //
@@ -1050,6 +1183,7 @@ ringSegments.setAttribute("transform", `rotate(${ringSeal * 18})`);
 hoverLayer.setAttribute("transform", `rotate(${ringSeal * 18})`);
 ringAnimals.setAttribute("transform", `rotate(${ringSeal * 18})`);
 
+
 const ROOT_RING_STEP =
   360 / 4;
 
@@ -1061,36 +1195,44 @@ rootRing1.setAttribute(
   `rotate(${rootRing1Angle})`
 );
 
+
+// ===== DOORLOPENDE FRACTALPOSITIE =====
+//
+// Op 14/11 staat het mechanisme bewust op kin 159.
+// Vanaf daar blijft deze teller iedere dag oplopen,
+// zonder na kin 259 terug te springen naar 0.
+
+const continuousMechanismKin =
+  159 + (dayOffset - ROOT_OFFSET);
+
+
+// ===== TWEEDE FRACTALRING =====
+
 const ROOT_RING2_STEP =
   360 / 16;
 
+const rootRing2Phase =
+  ((continuousMechanismKin - 4) % 16 + 16) % 16;
+
 const rootRing2Angle =
-  (mechanismKin - 4) * ROOT_RING2_STEP;
+  rootRing2Phase * ROOT_RING2_STEP;
 
 rootRing2.setAttribute(
   "transform",
   `rotate(${rootRing2Angle})`
 );
 
-const ROOT_RING3_STEP = 360 / 64;
 
-// Ring 3 is op 22/2 volledig revealed.
-// Vanaf 23/2 moet hij 4 fractalposities vooruit
-// om synchroon door te lopen naar Chicchan.
-const ROOT_RING3_COMPLETE_DAY =
-  ROOT_RING3_START_DAY + 63;
+// ===== DERDE FRACTALRING =====
 
-const rootRing3SyncCorrection =
-  dayOffset > ROOT_RING3_COMPLETE_DAY
-    ? 4
-    : 0;
+const ROOT_RING3_STEP =
+  360 / 64;
+
+const rootRing3Phase =
+  ((continuousMechanismKin - 4) % 64 + 64) % 64;
 
 const rootRing3Angle =
-  (
-    mechanismKin
-    - 4
-    + rootRing3SyncCorrection
-  ) * ROOT_RING3_STEP;
+  rootRing3Phase * ROOT_RING3_STEP;
 
 rootRing3.setAttribute(
   "transform",
@@ -1124,11 +1266,68 @@ document.getElementById("iChing")
     `
   );
 
-// eigen 360-daagse cyclus
-let heartAngle =
-  (dayOffset % 360) * (360 / 360);
 
+// ===== HEART KRUIS =====
+
+let heartOpacity = 0;
 let heartScale = 1;
+
+if(isHeartDay){
+
+    switch(heartType){
+
+        case "super":
+            heartOpacity = 1;
+            heartScale = 1;
+            break;
+
+        case "special":
+            heartOpacity = 0.8;
+            heartScale = 0.8;
+            break;
+
+        default: // normal
+            heartOpacity = 0.6;
+            heartScale = 0.6;
+            break;
+    }
+
+}
+
+
+let backgroundOpacity = 0.1;
+
+if(isHeartDay){
+
+  switch(heartType){
+
+    case "super":
+      backgroundOpacity = 1;
+      break;
+
+    case "special":
+      backgroundOpacity = 0.8;
+      break;
+
+    default:
+      backgroundOpacity = 0.6;
+      break;
+  }
+}
+
+let heartAngle =
+  ringSeal * 18;
+
+const heartTransform = `
+rotate(${heartAngle})
+scale(${heartScale})
+`;
+
+heartTriangleA.setAttribute("transform", heartTransform);
+heartTriangleB.setAttribute("transform", heartTransform);
+
+heartTriangleA.setAttribute("opacity", heartOpacity);
+heartTriangleB.setAttribute("opacity", heartOpacity);
 
 
 // ===== SPECIALE HART =====
@@ -1144,68 +1343,23 @@ const specialHeart =
   night === 1 &&
   [19].includes(seal);
 
-if(superHeart){
-
-  document.getElementById("HeartChakra")
-    .setAttribute("opacity","1");
-
-  document.getElementById("Background")
-    .setAttribute("opacity","1");
-
-  heartScale = 1.64;
-
-} else if(specialHeart){
-
-  document.getElementById("HeartChakra")
-    .setAttribute("opacity","0.8");
-
-  document.getElementById("Background")
-    .setAttribute("opacity","0.8");
-
-  heartScale = 1.2;
-
-} else {
-
-  document.getElementById("Background")
-    .setAttribute("opacity","0.6");
-
-  if(night === 1){
-
-    document.getElementById("HeartChakra")
-      .setAttribute("opacity","0.6");
-
-  } else {
-
-    document.getElementById("Background")
-      .setAttribute("opacity","0.1");
-
-    document.getElementById("HeartChakra")
-      .setAttribute("opacity","0");
-  }
-}
-
-
-// ===== HART CHAKRA ROTATIE =====
-
-document.getElementById("HeartChakra")
-  .setAttribute(
-    "transform",
-    `
-    rotate(${heartAngle - 59})
-    scale(${heartScale})
-    `
-  );
 
 // ===== I-CHING ZICHTBAAR =====
 
-if(beforeOrAtRoot || night === 1 || superHeart || specialHeart){
-  document.getElementById("iChing")
-    .setAttribute("opacity","0");
-} else {
-  document.getElementById("iChing")
-    .setAttribute("opacity","1");
-}
+if(beforeOrAtRoot){
 
+  iChing.setAttribute("opacity","0");
+
+} else if(heartHoverOnly){
+
+  // Alleen Heart-dagen tonen de I Ching via hover
+  iChing.setAttribute("opacity","0");
+
+} else {
+
+  // Alle normale dagen: standaard zichtbaar
+  iChing.setAttribute("opacity","1");
+}
 
 // ===== BDPQ POSITIES =====
 
@@ -1299,7 +1453,7 @@ background.setAttribute(
 
 // Voor 10/11 volledig onzichtbaar.
 // Tijdens de vijf ontvouwingsdagen volledig zichtbaar.
-// Vanaf 15/11 blijft de normale Heart-logica gelden.
+// Vanaf 15/11 geldt de normale Heart-logica.
 if(rootStage <= 0){
 
   background.setAttribute("opacity", "0");
@@ -1307,8 +1461,14 @@ if(rootStage <= 0){
 } else if(rootStage <= 5){
 
   background.setAttribute("opacity", "1");
-}
 
+} else {
+
+  background.setAttribute(
+    "opacity",
+    backgroundOpacity
+  );
+}
 
 const letters = [
   "letterD",
@@ -1726,6 +1886,92 @@ const oracleKin = {
   yellow: yellowKin
 };
 
+// ===== CHAKRA TABS: OORSPRONGSFASE =====
+//
+// rootStage:
+// 1 = 10/11
+// 2 = 11/11
+// 3 = 12/11
+// 4 = 13/11
+// 5 = 14/11
+// 6 = 15/11, normale werking begint
+
+if(rootStage <= 0){
+
+  // ===== NULSTAND =====
+
+  toneTab.style.background = "white";       // Muladhara
+  antipodeTab.style.background = "black";   // Svadhisthana
+  analogTab.style.background = "white";     // Manipura
+  birthTab.style.background = "#777";       // Anahata
+  occultTab.style.background = "black";     // Vishuddha
+  guideTab.style.background = "white";      // Ajna
+  nightTab.style.background = "black";      // Sahasrara
+
+} else if(rootStage <= 5){
+
+  /*
+   * Tijdens 10/11 t/m 14/11 eerst iedere knop
+   * opnieuw in zijn vaste nulstand zetten.
+   *
+   * Daardoor kan geen eerder verschenen chakra
+   * alweer met de normale oraclelogica meedraaien.
+   */
+
+  toneTab.style.background = "white";
+  antipodeTab.style.background = "black";
+  analogTab.style.background = "white";
+  birthTab.style.background = "#777";
+  occultTab.style.background = "black";
+  guideTab.style.background = "white";
+  nightTab.style.background = "black";
+
+
+  // 10/11: Manipura verschijnt — rood / neus
+  if(rootStage >= 1){
+    analogTab.style.background =
+      "rgba(255,0,0,0.7)";
+  }
+
+  // 11/11: Svadhisthana verschijnt — blauw / oor
+  // Muladhara begint eveneens.
+  if(rootStage >= 2){
+    antipodeTab.style.background =
+      "rgba(0,0,255,0.7)";
+
+    toneTab.style.background =
+      toneColors[tone - 1];
+  }
+
+  // 12/11: Anahata verschijnt — groen / hand
+  if(rootStage >= 3){
+    birthTab.style.background =
+      "rgba(0,128,0,0.7)";
+  }
+
+  // 13/11: Ajna verschijnt — wit / oog
+  if(rootStage >= 4){
+    guideTab.style.background =
+      "rgba(255,255,255,0.7)";
+  }
+
+  // 14/11: Vishuddha verschijnt — geel / smaak
+  if(rootStage >= 5){
+    occultTab.style.background =
+      "rgba(255,255,0,0.7)";
+  }
+
+  /*
+   * Sahasrara blijft tijdens de volledige
+   * oorsprongsfase zwart.
+   *
+   * Op 15/11 (rootStage 6) komt deze code niet
+   * meer tussenbeide en gebruikt hij automatisch
+   * de normale nightColor.
+   */
+
+}
+
 updateActivePage();
 
 // ===== HOVER LINKS =====
@@ -1782,145 +2028,6 @@ hoverMap.forEach(h => {
 
 }
 
-function updateActivePage(){
-
-  const panel =
-    document.getElementById("infoPanel");
-
-  const title =
-    document.getElementById("infoPanelTitle");
-
-  const content =
-    document.getElementById("infoPanelContent");
-
-  if(activePage === "intro"){
-
-  panel.style.backgroundImage =
-    'url("backgrounds/maya.png")';
-
-  panel.style.backgroundSize =
-    "cover";
-
-  panel.style.backgroundPosition =
-    "center";
-
-    title.innerHTML = lang.introTitle;
-
-  title.classList.add("chakraTitle");
-
-  content.innerHTML =
-    lang.introText;
-
-  }
-
-  if(activePage === "muladhara"){
-
-    panel.style.background =
-      "rgba(120,0,0,0.35)";
-
-    title.innerHTML = lang.muladhara;
-
-    title.classList.remove("chakraTitle");
-
-    content.innerHTML =
-      pages.muladhara[tone];
-
-  }
-
-  if(activePage === "sahasrara"){
-
-    panel.style.background =
-      "rgba(255,255,255,0.18)";
-
-    title.innerHTML = lang.sahasrara;
-
-    title.classList.remove("chakraTitle");
-
-    content.innerHTML =
-      pages.sahasrara[night];
-  }
-
-if(activePage === "anahata"){
-
-  panel.style.background =
-    "rgba(0,128,0,0.25)";
-
-  title.innerHTML =
-    lang.anahata;
-
-  title.classList.remove("chakraTitle");
-
-  content.innerHTML =
-    pages.anahata[seal + 1];
-}
-
-  if(activePage === "vishuddha"){
-
-    panel.style.background =
-      "rgba(80,180,255,0.25)";
-
-    title.innerHTML = lang.vishuddha;
-
-    title.classList.remove("chakraTitle");
-
-    content.innerHTML =
-      pages.vishuddha[seal + 1];
-  }
-
-  if(activePage === "svadhisthana"){
-
-    panel.style.background =
-      "rgba(255,120,0,0.25)";
-
-    title.innerHTML = lang.svadhisthana;
-
-    title.classList.remove("chakraTitle");
-
-    content.innerHTML =
-      pages.svadhisthana[seal + 1];
-  }
-
-  if(activePage === "manipura"){
-
-    panel.style.background =
-      "rgba(255,220,0,0.25)";
-
-    title.innerHTML = lang.manipura;
-
-    title.classList.remove("chakraTitle");
-
-    content.innerHTML =
-      pages.manipura[seal + 1];
-  }
-
-  if(activePage === "ajna"){
-
-    panel.style.background =
-      "rgba(90,70,180,0.28)";
-
-    title.innerHTML = lang.ajna;
-
-    title.classList.remove("chakraTitle");
-
-    const sealKey =
-      sealKeys[seal];
-
-    const guideOrder = [
-      seal,
-      (seal + 4) % 20,
-      (seal + 8) % 20,
-      (seal + 12) % 20,
-      (seal + 16) % 20
-    ];
-
-    const guideStep =
-      guideOrder.indexOf(guideSeal) + 1;
-
-    content.innerHTML =
-      pages.ajna[sealKey][guideStep];
-  }
-}
-
 function setActivePage(pageName, tabId){
 
   if(activePage === pageName){
@@ -1957,26 +2064,44 @@ toneTab.onclick = () => {
   setActivePage("muladhara", "toneTab");
 };
 
+const hoverHeart =
+    night === 1 || superHeart || specialHeart;
+
+
 toneTab.onmouseenter = () => {
 
-  if(night === 1){
+  const isHeartDay =
+    night === 1 &&
+    !beforeOrAtRoot;
 
-    document.getElementById("toneSymbol")
+  if(isHeartDay){
+
+    document
+      .getElementById("toneSymbol")
       .setAttribute("opacity","1");
   }
 };
 
 toneTab.onmouseleave = () => {
 
-  if(night === 1){
+  const toneSymbol =
+    document.getElementById("toneSymbol");
 
-    document.getElementById("toneSymbol")
-      .setAttribute("opacity","0");
+  const isHeartDay =
+    night === 1 &&
+    !beforeOrAtRoot;
+
+  if(beforeOrAtRoot){
+
+    toneSymbol.setAttribute("opacity","0");
+
+  } else if(isHeartDay){
+
+    toneSymbol.setAttribute("opacity","0");
 
   } else {
 
-    document.getElementById("toneSymbol")
-      .setAttribute("opacity","1");
+    toneSymbol.setAttribute("opacity","1");
   }
 };
 
@@ -2029,7 +2154,11 @@ const iChing =
 
 nightTabHover.onmouseenter = () => {
 
-  if(night === 1){
+  const isHeartDay =
+    night === 1 &&
+    !beforeOrAtRoot;
+
+  if(isHeartDay){
 
     iChing.setAttribute("opacity","1");
   }
@@ -2037,12 +2166,23 @@ nightTabHover.onmouseenter = () => {
 
 nightTabHover.onmouseleave = () => {
 
-  if(night === 1){
+  const isHeartDay =
+    night === 1 &&
+    !beforeOrAtRoot;
+
+  if(beforeOrAtRoot){
 
     iChing.setAttribute("opacity","0");
+
+  } else if(isHeartDay){
+
+    iChing.setAttribute("opacity","0");
+
+  } else {
+
+    iChing.setAttribute("opacity","1");
   }
 };
-
 
 
 function getLongCountFromDays(days) {

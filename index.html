@@ -24,14 +24,14 @@
 
  <div id="viewport">
 
-<img id="appBackground" src="backgrounds/sun.png" alt="">
+ <img id="appBackground" src="backgrounds/sun.png" alt="">
 
   <div id="app">
 
 <div class="titleBlock">
 
   <div class="mainTitle">
-    Soulkin 1.3
+    Soulkin 1.4
   </div>
 
   <div class="subTitle">
@@ -82,6 +82,10 @@
 
   <option value="ru">
     Русский
+  </option>
+
+  <option value="tr">
+    Türkçe
   </option>
 
 </select>
@@ -213,6 +217,26 @@
        height="440"
        opacity="0.3"/>
 
+<g id="heartStar">
+
+  <polygon
+    id="heartTriangleA"
+    fill="none"
+    stroke="#000"
+    stroke-width="5"
+    stroke-linejoin="round"
+  />
+
+  <polygon
+    id="heartTriangleB"
+    fill="none"
+    stroke="#000"
+    stroke-width="5"
+    stroke-linejoin="round"
+  />
+
+</g>
+
 <image id="HeartChakra"
        href="other/heartchakra.svg"
        x="-220"
@@ -257,7 +281,7 @@
 <image id="rootChicchan"
        href="animals/13Chicchan.svg"
        x="-190"
-       y="-100"
+       y="70"
        width="70"
        height="70"
        opacity="0"/>
@@ -265,7 +289,7 @@
 <image id="rootOc"
        href="animals/13Oc.svg"
        x="-190"
-       y="70"
+       y="-100"
        width="70"
        height="70"
        opacity="0"/>
@@ -273,7 +297,7 @@
 <image id="rootMen"
        href="animals/13Men.svg"
        x="115"
-       y="-100"
+       y="70"
        width="70"
        height="70"
        opacity="0"/>
@@ -281,7 +305,7 @@
 <image id="rootAhau"
        href="animals/13Ahau.svg"
        x="115"
-       y="70"
+       y="-100"
        width="70"
        height="70"
        opacity="0"/>
@@ -460,6 +484,15 @@
 <g id="hoverLayer"></g>
 <g id="ringAnimals"></g>
 
+
+
+<image id="hexagram"
+       href="hexagrams/h1.svg"
+       x="-240"
+       y="325"
+       width="120"
+       height="120"/>
+
 <!-- ===== INFO ===== -->
 
 
@@ -479,6 +512,7 @@
 
   </svg>
 
+
  </div>
 
 </div>
@@ -487,41 +521,61 @@
 <script src="languages/nl/ui.js"></script>
 <script src="languages/jp/ui.js"></script>
 <script src="languages/ru/ui.js"></script>
+<script src="languages/tr/ui.js"></script>
 <script src="languages/en/muladhara.js"></script>
+<script src="languages/en/muladhara_260_en.js"></script>
 <script src="languages/nl/muladhara.js"></script>
+<script src="languages/nl/muladhara_260_nl.js"></script>
+<script src="languages/specialPages.js"></script>
 <script src="languages/jp/muladhara.js"></script>
+<script src="languages/jp/muladhara_260_jp.js"></script>
 <script src="languages/ru/muladhara.js"></script>
+<script src="languages/ru/muladhara_260_ru.js"></script>
+<script src="languages/tr/muladhara.js"></script>
+<script src="languages/tr/muladhara_260_tr.js"></script>
 <script src="languages/en/svadhisthana.js"></script>
 <script src="languages/nl/svadhisthana.js"></script>
 <script src="languages/jp/svadhisthana.js"></script>
 <script src="languages/ru/svadhisthana.js"></script>
+<script src="languages/tr/svadhisthana.js"></script>
 <script src="languages/en/manipura.js"></script>
 <script src="languages/nl/manipura.js"></script>
 <script src="languages/jp/manipura.js"></script>
 <script src="languages/ru/manipura.js"></script>
+<script src="languages/tr/manipura.js"></script>
+<script src="languages/manipura.js"></script>
 <script src="languages/en/anahata.js"></script>
 <script src="languages/nl/anahata.js"></script>
 <script src="languages/jp/anahata.js"></script>
 <script src="languages/ru/anahata.js"></script>
+<script src="languages/tr/anahata.js"></script>
 <script src="languages/en/vishuddha.js"></script>
 <script src="languages/nl/vishuddha.js"></script>
 <script src="languages/jp/vishuddha.js"></script>
 <script src="languages/ru/vishuddha.js"></script>
+<script src="languages/tr/vishuddha.js"></script>
 <script src="languages/en/ajna.js"></script>
 <script src="languages/nl/ajna.js"></script>
 <script src="languages/jp/ajna.js"></script>
 <script src="languages/ru/ajna.js"></script>
+<script src="languages/tr/ajna.js"></script>
 <script src="languages/en/sahasrara.js"></script>
+<script src="languages/en/sahasrara_64_en.js"></script>
 <script src="languages/nl/sahasrara.js"></script>
+<script src="languages/nl/sahasrara_64_nl.js"></script>
 <script src="languages/jp/sahasrara.js"></script>
+<script src="languages/jp/sahasrara_64_jp.js"></script>
 <script src="languages/ru/sahasrara.js"></script>
+<script src="languages/ru/sahasrara_64_ru.js"></script>
+<script src="languages/tr/sahasrara.js"></script>
+<script src="languages/tr/sahasrara_64_tr.js"></script>
 <script src="constants.js"></script>
 <script src="calendar.js"></script>
 <script src="camera.js"></script>
-<script src="script.js"></script>
 <script src="mechanism.js"></script>
-<script src="render.js"></script>
 <script src="state.js"></script>
+<script src="render.js"></script>
+<script src="script.js"></script>
 
 </body>
 
