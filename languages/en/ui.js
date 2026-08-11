@@ -43,33 +43,37 @@ tone: "Tone",
 go: "Go",
 
 introTitle: "&nbsp;&nbsp;S&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;o&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;l&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;k&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;n",
-
 introText: `
 Welcome to Soulkin.
 
 <br><br>
 
-Soulkin is an experimental symbolic calendar based on the 260-day Tzolkin cycle.
+Soulkin reveals the pattern within the 260-day Tzolkin cycle connected to your date of birth.
 
 <br><br>
 
-The system combines symbolic time, sacred geometry, directional movement, root states, archetypal relationships and cyclic transformation into a single interactive mechanism.
+Enter your date of birth to discover your Soulkin.
 
 <br><br>
 
-The rotating structure visualizes how different symbolic layers interact through time, revealing patterns, relationships and recurring cycles.
+You will then uncover different layers, each offering another perspective on the same moment: from your personal core pattern to relationships, challenges, interactions, and recurring cycles.
 
 <br><br>
 
-Use the tabs above to explore the different layers. The information displayed changes dynamically according to the selected perspective, current day, kin relationships, chakra layer and symbolic state.
+Behind this daily cycle, Soulkin contains a much larger structure in which the same patterns are followed across increasingly greater timescales — all the way to the unfolding of the universe itself.
 
 <br><br>
 
-The pentagram used within Soulkin functions as a movement structure inside the mechanism and is not intended as a satanic symbol.
+Soulkin is an experimental symbolic system. Its texts are intended as something to explore, recognize, and reflect upon — not as predictions or absolute statements about who you are.
 
 <br><br>
 
-If you were born before sunrise, it may be worth checking the previous date as well, since many ancient calendar systems considered sunrise rather than midnight to be the beginning of a new day.
+Use the tabs to explore the different layers of your Soulkin. The information shown changes with your date of birth, the selected day, and the perspective you are viewing.
+
+<br><br>
+
+If you were born before sunrise, it may be interesting to also explore the previous date. In various historical calendar systems, the day did not necessarily begin at midnight.
+
 `,
 
   step: "Step",

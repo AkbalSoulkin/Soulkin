@@ -49,30 +49,31 @@ Welkom bij Soulkin.
 
 <br><br>
 
-Soulkin is een experimentele symbolische kalender gebaseerd op de 260-daagse Tzolkin-cyclus.
+Soulkin laat zien welk patroon binnen de 260-daagse Tzolkin-cyclus verbonden is met jouw geboortedatum.
 
 <br><br>
 
-Het systeem combineert symbolische tijd, heilige geometrie, directionele beweging, root states, archetypische relaties en cyclische transformatie tot één interactief mechanisme.
+Vul hiernaast je geboortedatum in om jouw Soulkin te ontdekken.
 
 <br><br>
 
-De roterende structuur visualiseert hoe verschillende symbolische lagen door de tijd heen met elkaar interageren, en onthult patronen, relaties en terugkerende cycli.
+Je krijgt vervolgens verschillende lagen te zien die ieder vanuit een ander perspectief naar hetzelfde moment kijken: van je persoonlijke basispatroon tot relaties, uitdagingen, interacties en terugkerende cycli.
 
 <br><br>
 
-Gebruik de tabbladen hierboven om de verschillende lagen te verkennen.
-
-De weergegeven informatie verandert dynamisch afhankelijk van het geselecteerde perspectief, de huidige dag, kin-relaties, chakralaag en symbolische toestand.
+Achter deze dagelijkse cyclus ligt binnen Soulkin een veel grotere structuur, waarin dezelfde patronen worden gevolgd over steeds grotere tijdschalen — tot aan de ontvouwing van het universum zelf.
 
 <br><br>
 
-Het pentagram binnen Soulkin wordt gebruikt als bewegingsstructuur binnen het mechanisme en is niet bedoeld als satanisch symbool.
+Soulkin is een experimenteel symbolisch systeem. De teksten zijn bedoeld om te onderzoeken, herkennen en over na te denken — niet als voorspellingen of absolute uitspraken over wie je bent.
 
 <br><br>
 
-Ben je vóór zonsopgang geboren, dan kan het de moeite waard zijn om ook de vorige datum te controleren, aangezien veel oude kalendersystemen zonsopgang in plaats van middernacht beschouwden als het begin van een nieuwe dag.
+Gebruik daarna de tabbladen om de verschillende lagen van jouw Soulkin te verkennen. De weergegeven informatie verandert met je geboortedatum, de gekozen dag en het perspectief dat je bekijkt.
 
+<br><br>
+
+Ben je vóór zonsopgang geboren, dan kan het interessant zijn om ook de vorige datum te bekijken. In verschillende historische kalendersystemen begon de dag niet noodzakelijk om middernacht.
 `,
 
   step: "Stap",

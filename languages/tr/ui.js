@@ -49,33 +49,36 @@ supportText: "Soulkin'in geliştirilmesini destekleyin:",
 longCount: "Uzun Sayım",
 
 introTitle: "&nbsp;&nbsp;S&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;o&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;l&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;k&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;n",
-
 introText: `
-Soulkin'e hoş geldiniz.
+Soulkin'e hoş geldin.
 
 <br><br>
 
-Soulkin, 260 günlük Tzolkin döngüsüne dayanan deneysel ve sembolik bir takvim sistemidir.
+Soulkin, 260 günlük Tzolkin döngüsü içinde doğum tarihinle bağlantılı olan örüntüyü gösterir.
 
 <br><br>
 
-Bu sistem; sembolik zamanı, kutsal geometriyi, yönsel hareketi, kök durumları, arketipsel ilişkileri ve döngüsel dönüşümü tek bir etkileşimli mekanizmada bir araya getirir.
+Soulkin'ini keşfetmek için doğum tarihini gir.
 
 <br><br>
 
-Dönen yapı, bu sembolik katmanların zaman içinde nasıl etkileşim kurduğunu görselleştirerek tekrar eden döngüleri, ilişkileri ve örüntüleri ortaya çıkarır.
+Ardından aynı ana farklı açılardan bakan çeşitli katmanları keşfedebilirsin: kişisel temel örüntünden ilişkilere, meydan okumalara, etkileşimlere ve tekrarlanan döngülere kadar.
 
 <br><br>
 
-Farklı katmanları keşfetmek için üstteki sekmeleri kullanın. Gösterilen bilgiler; seçilen bakış açısına, güne, Kin ilişkilerine, çakra katmanına ve sembolik duruma göre dinamik olarak değişir.
+Bu günlük döngünün ardında, Soulkin içinde çok daha büyük bir yapı bulunur. Aynı örüntüler burada giderek daha büyük zaman ölçekleri boyunca izlenir — evrenin kendisinin açılımına kadar.
 
 <br><br>
 
-Soulkin'de kullanılan pentagram, mekanizmanın hareket yapısının bir parçasıdır ve şeytani bir sembol olarak kullanılmamaktadır.
+Soulkin deneysel ve sembolik bir sistemdir. Metinler, kim olduğuna dair kehanetler ya da mutlak yargılar olarak değil; keşfetmek, kendinden bir şeyler bulmak ve üzerinde düşünmek için tasarlanmıştır.
 
 <br><br>
 
-Eğer gün doğmadan önce doğduysanız, eski takvim sistemlerinin çoğu günü gece yarısında değil gün doğumunda başlattığı için bir önceki tarihi de kontrol etmeniz faydalı olabilir.
+Soulkin'inin farklı katmanlarını keşfetmek için sekmeleri kullan. Gösterilen bilgiler doğum tarihine, seçilen güne ve baktığın perspektife göre değişir.
+
+<br><br>
+
+Güneş doğmadan önce doğduysan, bir önceki tarihi de incelemek ilginç olabilir. Tarih boyunca kullanılan çeşitli takvim sistemlerinde günün başlangıcı her zaman gece yarısı değildi.
 `
 
 };
