@@ -3,84 +3,63 @@ const ajnaPages_en = {
 imix: {
 
   1: `
-Imix reflects Imix.
+Source + Source
 
-Possibility recognizes itself.
+<br><br>
 
-Every beginning contains another beginning.
+A source can itself originate from another source.
 
-The search is not for certainty.
+What appears somewhere as an origin therefore does not have to be the first origin.
 
-It is for the next opening.
-
-When possibility reflects itself, curiosity becomes the path.
-
-The search begins again.
+You can recognize this when you trace something back to where it began and discover that this beginning also originated from somewhere else.
 `,
 
-
   2: `
-Chicchan guides Imix.
+Source + Energy
 
-Possibility seeks vitality.
+<br><br>
 
-Ideas become meaningful when they are lived.
+A source can make energy available to what emerges from it.
 
-A path cannot be discovered through thought alone.
+The energy does not have to originate from the source itself, but can be transferred or converted through it.
 
-Movement reveals what imagination cannot.
-
-The search awakens through participation.
-
-Life gives possibility its heartbeat.
+You can recognize this when what emerges from a source receives energy that can be used or converted elsewhere.
 `,
 
   3: `
-Muluc guides Imix.
+Source + Flow
 
-Possibility seeks meaning.
+<br><br>
 
-Many doors may open.
+What emerges from a source does not have to remain at that source.
 
-Not every door belongs to your journey.
+Flow can cause what originates somewhere to move, spread, or be passed on further.
 
-The guide asks what truly matters.
-
-Meaning transforms curiosity into direction.
-
-Purpose gives possibility its depth.
+You can recognize this when something has an identifiable origin but subsequently becomes present beyond it as well.
 `,
 
   4: `
-Ben guides Imix.
+Source + Structure
 
-Possibility seeks vision.
+<br><br>
 
-A beginning becomes stronger when it can see beyond itself.
+A source does not automatically determine the structure of what emerges from it.
 
-The future does not need to be fully known.
+Structure arises from the relationships and arrangement of parts, while the source indicates where something originates.
 
-It only needs to be visible enough to move toward.
-
-Vision transforms potential into intention.
-
-Direction gives possibility its horizon.
+You can recognize this when things emerging from the same source can nevertheless be structured differently.
 `,
 
-    5: `
-Caban guides Imix.
+  5: `
+Source + Manifestation
 
-Possibility seeks discovery.
+<br><br>
 
-Every answer reveals another question.
+What manifests does not necessarily make its source visible.
 
-Every horizon reveals another landscape.
+A manifestation shows what is concretely present, while the source concerns what it originated from.
 
-The search continues because reality remains larger than expectation.
-
-Discovery transforms potential into experience.
-
-Wonder gives possibility its adventure.
+You can recognize this when you see what has emerged but cannot determine with certainty from that alone where it originated.
 `
 
   },
@@ -88,1467 +67,1215 @@ Wonder gives possibility its adventure.
 ik: {
 
   1: `
-Ik reflects Ik.
+Information + Information
 
-Connection recognizes itself.
+<br><br>
 
-Every relationship begins with awareness.
+Information can itself contain information about other information.
 
-Before understanding another, you must first become present.
+Information can therefore describe both something itself and what has previously been recorded, communicated, or inferred about it.
 
-The search is not for agreement.
-
-It is for genuine contact.
-
-Connection begins wherever separation ends.
+You can recognize this when new information is not directly about something, but about information that already existed about it.
 `,
 
   2: `
-Cimi guides Ik.
+Information + Boundaries
 
-Connection seeks transformation.
+<br><br>
 
-No relationship remains unchanged.
+Information can be limited by the scope within which it is collected, recorded, or communicated.
 
-Every encounter leaves a mark.
+What falls outside a boundary can exist without being observed, recorded, or communicated within that scope.
 
-Growth asks both people to evolve beyond who they were before.
-
-The search continues because connection changes those who enter it.
-
-Transformation gives connection its depth.
+You can recognize this when the information available to you can change as you shift the boundaries of your research, conversation, or observation.
 `,
 
   3: `
-Oc guides Ik.
+Information + Relationship
 
-Connection seeks belonging.
+<br><br>
 
-Understanding grows through trust.
+Information about separate things does not automatically describe the relationship between those things.
 
-A bridge becomes meaningful when it can be crossed from both directions.
+To describe a relationship, information is also needed about how one thing relates to another.
 
-The search is not only for contact.
-
-It is also for companionship.
-
-Belonging gives connection its warmth.
+You can recognize this when you know a great deal about two people, events, or components, but still do not know what relationship exists between them.
 `,
 
   4: `
-Ix guides Ik.
+Information + Consciousness
 
-Connection seeks awareness.
+<br><br>
 
-Not everything spoken is understood.
+Information can be present without being consciously perceived.
 
-Not everything understood is spoken.
+The fact that information is available therefore does not mean that it is part of what is consciously experienced at that moment.
 
-Attention reveals what words often conceal.
-
-The search deepens when observation deepens.
-
-Awareness gives connection its clarity.
+You can recognize this when information was already available, but you only become aware of it later.
 `,
 
   5: `
-Etznab guides Ik.
+Information + Truth
 
-Connection seeks truth.
+<br><br>
 
-Relationships become stronger when illusion falls away.
+Information does not have to correspond with reality.
 
-Honesty may feel uncomfortable.
+The fact that something is recorded or communicated as information does not make its content true.
 
-Yet what is real can withstand examination.
-
-The search asks for authenticity before certainty.
-
-Truth gives connection its foundation.
+You can recognize this when information seems convincing, but later turns out not to correspond with reality.
 `
 
   },
 
 akbal: {
 
-  1: `
-Akbal reflects Akbal.
+1: `
+Imagination + Imagination
 
-Mystery recognizes itself.
+<br><br>
 
-Not every unknown asks to be solved.
+What arises in the imagination can itself become the starting point for further imagination.
 
-Some doors remain valuable because they remain unopened.
+An inner representation can be expanded, changed, or reimagined without anything outside the imagination having to change first.
 
-The search is not for certainty.
-
-It is for the depth behind the question.
-
-Mystery becomes its own path.
+You can recognize this when one image or possibility in your mind gives rise to other images or possibilities.
 `,
 
-  2: `
-Manik guides Akbal.
+2: `
+Imagination + Interaction
 
-Mystery seeks service.
+<br><br>
 
-What is hidden becomes meaningful when it helps someone see more clearly.
+During interaction, mutual influence can also change what is imagined.
 
-Insight is not meant to remain isolated.
+What happens during an interaction can give rise to images or possibilities that had not been imagined before.
 
-The guide asks how inner discoveries can become useful.
-
-Service gives mystery a hand.
+You can recognize this when an encounter or conversation leads you to imagine something different from what you had in mind before.
 `,
 
-  3: `
-Chuen guides Akbal.
+3: `
+Imagination + Expression
 
-Mystery seeks creativity.
+<br><br>
 
-The unknown does not always need a serious face.
+Not everything that arises in the imagination can be fully expressed.
 
-Imagination can enter places logic cannot.
+When an inner representation is expressed, the expression does not have to contain every aspect of that representation.
 
-Play opens hidden doors.
-
-Creativity gives mystery its language.
+You can recognize this when an image in your imagination is richer or more detailed than you can express through words, images, or actions.
 `,
 
-  4: `
-Men guides Akbal.
+4: `
+Imagination + Perspective
 
-Mystery seeks perspective.
+<br><br>
 
-Darkness changes when seen from above.
+What you imagine can change when you consider the same thing from a different perspective.
 
-What feels confusing up close may reveal a pattern from a wider view.
+A different point of view can bring forward aspects or possibilities that were not included in the earlier representation.
 
-The guide does not remove the mystery.
-
-It teaches you how to look.
-
-Perspective gives mystery its horizon.
+You can recognize this when you try to imagine a situation from a different position and notice that a different image becomes possible.
 `,
 
-  5: `
-Cauac guides Akbal.
+5: `
+Imagination + Coherence
 
-Mystery seeks renewal.
+<br><br>
 
-The unknown can become too familiar.
+In the imagination, separate elements can be connected into a coherent whole.
 
-A storm breaks the old interpretation open.
+That coherence can exist within the representation without the same connection having to exist outside that representation.
 
-What once seemed hidden may be ready to transform.
-
-Renewal gives mystery its movement.
+You can recognize this when you mentally connect elements into a whole that does not yet exist in reality.
 `
 
   },
 
 kan: {
 
-  1: `
-Kan reflects Kan.
+1: `
+Potential + Potential
 
-Potential recognizes itself.
+<br><br>
 
-Every possibility exists before it takes form.
+One possibility can itself provide access to new possibilities.
 
-Nothing has been chosen.
+What becomes possible can create conditions that make other possibilities accessible which were not accessible before.
 
-Nothing has been rejected.
-
-The search begins in openness.
-
-Potential becomes aware of its own abundance.
+You can recognize this when one possibility becomes available and thereby brings possibilities within reach that were previously inaccessible.
 `,
 
-  2: `
-Lamat guides Kan.
+2: `
+Potential + Value
 
-Potential seeks beauty.
+<br><br>
 
-Growth is encouraged by what inspires it.
+Not every possibility has the same value.
 
-Not every possibility deserves equal attention.
+The value assigned to a possibility can differ depending on the context in which it is considered.
 
-Some paths shine because they resonate more deeply.
-
-Beauty gives potential its attraction.
+You can recognize this when several possibilities are open, but some have more meaning or importance than others.
 `,
 
-  3: `
-Eb guides Kan.
+3: `
+Potential + Life Path
 
-Potential seeks experience.
+<br><br>
 
-A possibility remains theoretical until it is lived.
+Not every possibility becomes part of a life path.
 
-Understanding grows through participation.
+Within a life path, an actual course becomes visible, while possibilities can also exist that never become part of that course.
 
-The guide invites you to step onto the road.
-
-Experience gives potential its reality.
+You can recognize this when you look back at possibilities you had and see that not every possibility became part of the course of your life.
 `,
 
-  4: `
-Cib guides Kan.
+4: `
+Potential + Trace
 
-Potential seeks wisdom.
+<br><br>
 
-Many opportunities appear valuable.
+A possibility can be present without leaving a trace.
 
-Time reveals which ones truly matter.
+A trace can reveal what took place or was recorded, but does not have to contain all the possibilities that were present at the time.
 
-The guide encourages patience and reflection.
-
-Wisdom gives potential its discernment.
+You can recognize this when you can see afterward what happened, but cannot recover all the possibilities that existed beforehand.
 `,
 
-  5: `
-Ahau guides Kan.
+5: `
+Potential + Essence
 
-Potential seeks wholeness.
+<br><br>
 
-Every seed contains more than a single outcome.
+What is possible within something does not have to coincide with what it essentially is at that moment.
 
-Growth moves toward integration.
+Potential includes possibilities that do not yet have to be realized, while essence concerns what makes something essentially itself.
 
-The guide reminds you that possibilities become meaningful when they serve a larger whole.
-
-Wholeness gives potential its purpose.
+You can recognize this when you see possibilities within something that do not yet determine what it essentially is.
 `
 
   },
 
 chicchan: {
 
-  1: `
-Chicchan reflects Chicchan.
+1: `
+Energy + Energy
 
-Vitality recognizes itself.
+<br><br>
 
-Life wishes to express itself fully.
+Energy can be converted from one form into another.
 
-Energy seeks movement.
+During energy conversion, the form in which energy occurs changes, while the total energy within an isolated system remains conserved.
 
-Movement seeks experience.
-
-The search is not for permission.
-
-It is for participation.
-
-Vitality becomes aware of its own aliveness.
+You can recognize this when kinetic energy is converted into thermal energy through friction.
 `,
 
-  2: `
-Muluc guides Chicchan.
+2: `
+Energy + Flow
 
-Vitality seeks meaning.
+<br><br>
 
-Energy alone is not enough.
+Energy can be transferred from one place to another through flow.
 
-Movement becomes more powerful when it serves something that matters.
+When something flows, it can carry energy with it and release that energy elsewhere within or outside a system.
 
-The guide asks what your passion is truly feeding.
-
-Meaning gives vitality its depth.
+You can recognize this when flowing water transports thermal energy from one place to another.
 `,
 
-  3: `
-Ben guides Chicchan.
+3: `
+Energy + Structure
 
-Vitality seeks vision.
+<br><br>
 
-Life naturally moves.
+The same amount of energy can contribute to different processes within different structures.
 
-The question is where it is moving.
+The arrangement and connections of components can partly determine where and how energy is transferred or converted within a system.
 
-A clear horizon transforms impulse into direction.
-
-Vision gives vitality its aim.
+You can recognize this when the same energy source is used or converted in different ways within differently structured systems.
 `,
 
-  4: `
-Caban guides Chicchan.
+4: `
+Energy + Manifestation
 
-Vitality seeks discovery.
+<br><br>
 
-The living world is larger than any expectation.
+The presence of energy does not automatically determine which observable phenomenon accompanies it.
 
-Curiosity invites experience beyond familiar boundaries.
+The same amount of energy can be transferred or converted in different processes and can thereby be accompanied by different observable phenomena.
 
-The guide encourages exploration.
-
-Discovery gives vitality its adventure.
+You can recognize this when energy in one situation is accompanied by observable motion and in another by an observable change in temperature.
 `,
 
-  5: `
-Imix guides Chicchan.
+5: `
+Energy + Source
 
-Vitality seeks possibility.
+<br><br>
 
-Life does not wish to repeat itself forever.
+The presence of energy does not automatically reveal the source from which it originated.
 
-Every ending contains another beginning.
+Energy can originate from different sources, so its presence alone does not necessarily make its origin identifiable.
 
-The guide reveals paths not yet considered.
-
-Possibility gives vitality its future.
+You can recognize this when you can measure energy or observe its effects, but need to investigate separately where that energy came from.
 `
 
   },
 
 cimi: {
 
-  1: `
-Cimi reflects Cimi.
+1: `
+Boundaries + Boundaries
 
-Transformation recognizes itself.
+<br><br>
 
-Change is a constant companion.
+A boundary can itself lie within other boundaries.
 
-Nothing remains exactly as it was.
+Different boundaries can thus form levels of demarcation without coinciding with one another.
 
-Every ending creates space for a beginning.
-
-The search is not for permanence.
-
-It is for renewal.
-
-Transformation becomes aware of its own rhythm.
+You can recognize this when a bounded area itself lies within a larger bounded area.
 `,
 
-  2: `
-Oc guides Cimi.
+2: `
+Boundaries + Relationship
 
-Transformation seeks belonging.
+<br><br>
 
-Change becomes easier when it is shared.
+A relationship can exist across a boundary.
 
-Support allows growth to continue through uncertainty.
+A boundary distinguishes one thing from another, but does not necessarily exclude a relationship between them.
 
-The guide reminds you that no journey must be walked alone.
-
-Belonging gives transformation its courage.
+You can recognize this when two people, groups, or components are clearly distinguishable from one another and yet remain in relationship with each other.
 `,
 
-  3: `
-Ix guides Cimi.
+3: `
+Boundaries + Consciousness
 
-Transformation seeks awareness.
+<br><br>
 
-Many changes begin long before they become visible.
+Not every boundary is consciously perceived.
 
-The guide encourages careful observation.
+A boundary can exist without being consciously recognized as a boundary at that moment.
 
-What appears sudden often has deep roots.
-
-Awareness gives transformation its clarity.
+You can recognize this when you only later notice that a boundary already existed which you had not noticed before.
 `,
 
-  4: `
-Etznab guides Cimi.
+4: `
+Boundaries + Truth
 
-Transformation seeks truth.
+<br><br>
 
-Not every change leads forward.
+A boundary does not automatically change what is true.
 
-Some paths only repeat old patterns in new forms.
+A boundary can determine what is considered separately without thereby determining what about it corresponds with reality.
 
-The guide removes illusion from the process.
-
-Truth gives transformation its direction.
+You can recognize this when you investigate something within a particular boundary, but that boundary itself does not yet determine which conclusion is true.
 `,
 
-  5: `
-Ik guides Cimi.
+5: `
+Boundaries + Information
 
-Transformation seeks connection.
+<br><br>
 
-Growth changes how you relate to the world.
+A boundary can determine which information is included within a defined scope and which falls outside it.
 
-Old relationships evolve.
+Information within a defined scope therefore does not have to contain information about everything that lies outside it.
 
-New relationships emerge.
-
-The guide reminds you that change is never purely personal.
-
-Connection gives transformation its humanity.
+You can recognize this when you shift the boundary of what you are investigating and information that previously fell outside your consideration thereby comes within it.
 `
 
   },
 
 manik: {
 
-  1: `
-Manik reflects Manik.
+1: `
+Interaction + Interaction
 
-Service recognizes itself.
+<br><br>
 
-Helping others begins with understanding what is needed.
+An interaction can itself give rise to further interactions.
 
-Not every problem asks to be solved.
+What changes through mutual influence can subsequently exert influence again on what it interacts with.
 
-Not every burden asks to be carried.
-
-The search is not for usefulness alone.
-
-It is for meaningful contribution.
-
-Service becomes aware of its own purpose.
+You can recognize this when an exchange triggers a response that then leads to a new exchange.
 `,
 
-  2: `
-Chuen guides Manik.
+2: `
+Interaction + Expression
 
-Service seeks creativity.
+<br><br>
 
-There is more than one way to help.
+Expression during an interaction can influence what subsequently happens between those involved.
 
-The guide encourages flexibility and imagination.
+What is expressed can trigger a response, after which that response can itself become part of the interaction.
 
-New solutions appear when old assumptions are released.
-
-Creativity gives service its adaptability.
+You can recognize this when words, gestures, or actions trigger a response in another person and thereby partly influence the further course of the exchange.
 `,
 
-  3: `
-Men guides Manik.
+3: `
+Interaction + Perspective
 
-Service seeks perspective.
+<br><br>
 
-Good intentions are strengthened by understanding the larger picture.
+The same interaction can be experienced or described differently from different perspectives.
 
-The guide invites you to step back before stepping forward.
+A different point of view can reveal different aspects of an interaction without changing which interaction actually took place.
 
-A wider view reveals where effort is most effective.
-
-Perspective gives service its wisdom.
+You can recognize this when two people participate in the same conversation but, from their own positions, describe what happened between them differently.
 `,
 
-  4: `
-Cauac guides Manik.
+4: `
+Interaction + Coherence
 
-Service seeks renewal.
+<br><br>
 
-Even the most dedicated path can become routine.
+Interaction does not automatically lead to coherence.
 
-The guide arrives like a storm.
+Components can mutually influence one another without thereby forming an interconnected whole together.
 
-Old methods give way to new possibilities.
-
-Renewal gives service its vitality.
+You can recognize this when people, groups, or components respond to one another but do not thereby function as a coherent whole.
 `,
 
-  5: `
-Akbal guides Manik.
+5: `
+Interaction + Imagination
 
-Service seeks mystery.
+<br><br>
 
-Not every answer is immediately visible.
+An imagined interaction does not have to correspond with the interaction that actually takes place.
 
-Some forms of help begin with listening rather than acting.
+In the imagination, responses and mutual influence can be imagined without knowing how those involved will actually respond to one another.
 
-The guide teaches patience with the unknown.
-
-Mystery gives service its humility.
+You can recognize this when you mentally rehearse a conversation or encounter beforehand, but the actual interaction unfolds differently.
 `
 
   },
 
 lamat: {
 
-  1: `
-Lamat reflects Lamat.
+1: `
+Value + Value
 
-Beauty recognizes itself.
+<br><br>
 
-Harmony appears when things align naturally.
+Something of value can itself contribute to the value of something else.
 
-The search is not for perfection.
+The value attributed to something can partly depend on the value of that with which it is connected.
 
-It is for resonance.
-
-What is beautiful often feels effortless because it reflects a deeper order.
-
-Beauty becomes aware of its own radiance.
+You can recognize this when something becomes more important to you because it is connected to something you already value.
 `,
 
-  2: `
-Eb guides Lamat.
+2: `
+Value + Life Path
 
-Beauty seeks experience.
+<br><br>
 
-Inspiration becomes meaningful when it is lived.
+The value of something that is part of a life path can change over the course of that path.
 
-The guide encourages you to walk the road rather than admire it from afar.
+What happens along the way can later acquire a different meaning or importance because of the context it comes to occupy within the further course of that path.
 
-Beauty grows richer through participation.
-
-Experience gives beauty its substance.
+You can recognize this when an event from your past later becomes more or less meaningful to you than it was at the time.
 `,
 
-  3: `
-Cib guides Lamat.
+3: `
+Value + Trace
 
-Beauty seeks wisdom.
+<br><br>
 
-What appears attractive is not always valuable.
+A trace does not have to have the same value as that from which it was left behind.
 
-Time reveals the difference.
+What remains can have a meaning or importance of its own alongside the value of that of which it forms a trace.
 
-The guide encourages discernment.
-
-Wisdom gives beauty its depth.
+You can recognize this when an object, sign, or memory has value to you because it refers to something that is no longer present.
 `,
 
-  4: `
-Ahau guides Lamat.
+4: `
+Value + Essence
 
-Beauty seeks wholeness.
+<br><br>
 
-Harmony expands when all parts are allowed their place.
+The value attributed to something does not have to coincide with what essentially makes it what it is.
 
-The guide reminds you that true beauty does not exclude.
+Something can have great or little meaning or importance without that valuation determining what it essentially is.
 
-It integrates.
-
-Wholeness gives beauty its completeness.
+You can recognize this when what something means to you changes, while the thing itself has not necessarily changed in essence.
 `,
 
-  5: `
-Kan guides Lamat.
+5: `
+Value + Potential
 
-Beauty seeks potential.
+<br><br>
 
-Every masterpiece begins as a possibility.
+The value attributed to something can partly depend on what is possible with it.
 
-Every expression begins as a seed.
+Possibilities that have not yet been realized can also have meaning or importance and contribute to the value attributed to it.
 
-The guide points toward what has not yet emerged.
-
-Potential gives beauty its future.
+You can recognize this when you see value in something because of what is possible with it, even though that possibility has not yet become reality.
 `
 
   },
 
 muluc: {
 
-  1: `
-Muluc reflects Muluc.
+1: `
+Flow + Flow
 
-Meaning recognizes itself.
+<br><br>
 
-Some moments ask to be understood rather than explained.
+A flow can itself be part of a larger flow.
 
-Not everything valuable can be measured.
+A local flow can have its own course while at the same time being carried along by the movement of a larger whole.
 
-The search is not for answers alone.
-
-It is for significance.
-
-Meaning becomes aware of its own depth.
+You can recognize this when a local flow has its own direction or course while simultaneously being part of a larger flow.
 `,
 
-  2: `
-Ben guides Muluc.
+2: `
+Flow + Structure
 
-Meaning seeks vision.
+<br><br>
 
-Purpose grows stronger when it can see beyond the present moment.
+The structure of a system can partly determine how a flow moves through it.
 
-The guide encourages you to look toward the horizon.
+The arrangement and connections of components can influence the routes along which something is passed on or moved.
 
-A larger vision reveals a larger meaning.
-
-Vision gives meaning its direction.
+You can recognize this when the same fluid follows a different flow pattern through channels that are structured differently.
 `,
 
-  3: `
-Caban guides Muluc.
+3: `
+Flow + Manifestation
 
-Meaning seeks discovery.
+<br><br>
 
-Understanding deepens through exploration.
+Not every flow is directly visible in what manifests.
 
-The guide invites you beyond familiar conclusions.
+What becomes concretely observable can show the effects of a flow without making its full course visible.
 
-New experiences reveal new layers of significance.
-
-Discovery gives meaning its expansion.
+You can recognize this when an observable change turns out to be the result of something being moved or passed on, while its full course was not visible.
 `,
 
-  4: `
-Imix guides Muluc.
+4: `
+Flow + Source
 
-Meaning seeks possibility.
+<br><br>
 
-A purpose can become too narrow.
+It is not always possible to determine from a flow where it originated.
 
-The guide reminds you that more paths exist than you currently see.
+What is moved or passed on can continue to flow without its source being recognizable from that further course.
 
-New possibilities renew old meanings.
-
-Possibility gives meaning its freedom.
+You can recognize this when you see something flowing or being passed on but cannot directly determine from that where it came from.
 `,
 
-  5: `
-Chicchan guides Muluc.
+5: `
+Flow + Energy
 
-Meaning seeks vitality.
+<br><br>
 
-Purpose becomes strongest when it is lived.
+A flow can transfer energy without the flow and the energy being the same thing.
 
-The guide asks not only what matters.
+What flows can carry energy with it, but the course of the flow alone does not determine how much energy is transferred.
 
-It asks what brings life to what matters.
-
-Vitality gives meaning its heartbeat.
+You can recognize this when you see how water flows but need additional information to determine how much energy is being transported.
 `
 
   },
 
 oc: {
 
-  1: `
-Oc reflects Oc.
+1: `
+Relationship + Relationship
 
-Belonging recognizes itself.
+<br><br>
 
-Trust grows through consistency.
+A relationship can itself be part of a larger network of relationships.
 
-Relationships deepen through presence.
+An individual relationship can exist alongside other relationships that those involved have with each other or with others.
 
-The search is not for approval.
-
-It is for connection that can endure.
-
-Belonging becomes aware of its own warmth.
+You can recognize this when your relationship with someone exists within a larger network of relationships in which both of you are also involved with others.
 `,
 
-  2: `
-Ix guides Oc.
+2: `
+Relationship + Consciousness
 
-Belonging seeks awareness.
+<br><br>
 
-Connection becomes stronger when people truly see one another.
+A relationship can exist without being consciously recognized.
 
-The guide encourages attention beyond appearances.
+Aspects of an existing relationship can be present without being consciously perceived at that moment.
 
-Understanding grows through observation.
-
-Awareness gives belonging its depth.
+You can recognize this when you only later become aware of a relationship that already existed before you recognized it as such.
 `,
 
-  3: `
-Etznab guides Oc.
+3: `
+Relationship + Truth
 
-Belonging seeks truth.
+<br><br>
 
-Trust cannot flourish where illusion remains.
+The fact that two things are related does not automatically determine what is true about that relationship.
 
-The guide asks for honesty before comfort.
+A relationship can genuinely exist without every description or interpretation of it corresponding with reality.
 
-What is genuine can withstand examination.
-
-Truth gives belonging its foundation.
+You can recognize this when a relationship clearly exists, but a particular explanation of it later turns out not to correspond with reality.
 `,
 
-  4: `
-Ik guides Oc.
+4: `
+Relationship + Information
 
-Belonging seeks connection.
+<br><br>
 
-A bond remains alive through exchange.
+Information about a relationship does not have to describe every aspect of that relationship.
 
-The guide reminds you that relationships are built together.
+Information about a relationship between things can describe certain aspects of it without necessarily encompassing all of its aspects.
 
-Understanding grows when both sides participate.
-
-Connection gives belonging its expression.
+You can recognize this when you have a great deal of information about a relationship but still do not know every aspect of that relationship.
 `,
 
-  5: `
-Cimi guides Oc.
+5: `
+Relationship + Boundaries
 
-Belonging seeks transformation.
+<br><br>
 
-Every relationship changes over time.
+A relationship does not have to end where a boundary exists.
 
-Growth asks people to evolve without abandoning one another.
+What is bounded separately within a relationship can remain distinct without the relationship between them thereby disappearing.
 
-The guide teaches flexibility within commitment.
-
-Transformation gives belonging its resilience.
+You can recognize this when two people, groups, or components are separately bounded, but their relationship does not disappear as a result.
 `
 
   },
 
 chuen: {
 
-  1: `
-Chuen reflects Chuen.
+1: `
+Expression + Expression
 
-Creativity recognizes itself.
+<br><br>
 
-Imagination reveals possibilities hidden from routine perception.
+An expression can itself give rise to further expression.
 
-The search is not for repetition.
+An existing expression can provide material or an occasion for something that is subsequently expressed in turn.
 
-It is for expression.
-
-Every creation begins as a new way of seeing.
-
-Creativity becomes aware of its own freedom.
+You can recognize this when a word, gesture, image, or action prompts someone to express something themselves.
 `,
 
-  2: `
-Men guides Chuen.
+2: `
+Expression + Perspective
 
-Creativity seeks perspective.
+<br><br>
 
-Ideas grow stronger when they can be viewed from different angles.
+The same expression can be interpreted differently from different perspectives.
 
-The guide encourages distance before action.
+A different point of view can bring out different aspects of what has been expressed without changing the original expression itself.
 
-A wider horizon reveals new connections.
-
-Perspective gives creativity its range.
+You can recognize this when two people perceive the same words, action, or image but, from their own perspectives, recognize something different in it.
 `,
 
-  3: `
-Cauac guides Chuen.
+3: `
+Expression + Coherence
 
-Creativity seeks renewal.
+<br><br>
 
-What once felt inspiring can become familiar.
+Multiple expressions do not automatically form a coherent whole.
 
-The guide arrives like a storm.
+Separate expressions can exist alongside one another without being interconnected in such a way that together they form a single whole.
 
-Old patterns loosen.
-
-New possibilities emerge.
-
-Renewal gives creativity its vitality.
+You can recognize this when words, images, or actions each express something but together do not yet form a clear whole.
 `,
 
-  4: `
-Akbal guides Chuen.
+4: `
+Expression + Imagination
 
-Creativity seeks mystery.
+<br><br>
 
-Not every idea arrives fully formed.
+It is not always possible to infer the complete underlying conception from an expression.
 
-Some inspirations emerge from places beyond explanation.
+An expression can convey certain aspects of a conception without conveying that conception in every detail.
 
-The guide teaches patience with the unknown.
-
-Mystery gives creativity its depth.
+You can recognize this when you picture something in your mind but notice that your words, image, or action do not convey everything you had imagined.
 `,
 
-  5: `
-Manik guides Chuen.
+5: `
+Expression + Interaction
 
-Creativity seeks service.
+<br><br>
 
-Expression becomes meaningful when it benefits more than the creator.
+A response within an interaction can influence what is subsequently expressed.
 
-The guide asks how imagination can become useful.
+Another person's response can provide a reason to expand, modify, or otherwise continue an expression.
 
-A gift grows stronger when it is shared.
-
-Service gives creativity its purpose.
+You can recognize this when you say or do something and adapt your next expression to the response that follows.
 `
 
   },
 
 eb: {
 
-  1: `
-Eb reflects Eb.
+1: `
+Life Path + Life Path
 
-Experience recognizes itself.
+<br><br>
 
-Understanding grows through participation.
+Two life paths can share part of their course without having completely the same course.
 
-Some lessons cannot be learned from observation alone.
+People can share events, places, or circumstances during part of their lives while their individual life paths remain different.
 
-The search is not for theory.
-
-It is for direct encounter.
-
-Experience becomes aware of its own value.
+You can recognize this when someone is part of your life for a period of time, while your lives before and after that period each follow their own course.
 `,
 
-  2: `
-Cib guides Eb.
+2: `
+Life Path + Trace
 
-Experience seeks wisdom.
+<br><br>
 
-Many events pass through a lifetime.
+The traces of a life path do not have to represent its complete course.
 
-Not all of them become lessons.
+What is preserved, recorded, or remains visible can make certain parts of a life path recognizable without containing its entire course.
 
-The guide encourages reflection upon what has been lived.
-
-Wisdom gives experience its meaning.
+You can recognize this when photographs, memories, or documents show something about your past but not everything you have experienced.
 `,
 
-  3: `
-Ahau guides Eb.
+3: `
+Life Path + Essence
 
-Experience seeks wholeness.
+<br><br>
 
-Individual moments often appear disconnected.
+What someone experiences during a life path is not the same as what that person essentially is.
 
-The guide reveals the larger pattern.
+Events and circumstances can become part of a life's course without individually determining what essentially makes someone who they are.
 
-What once seemed separate begins to belong together.
-
-Wholeness gives experience its coherence.
+You can recognize this when an event is an important part of your life story but does not by itself determine who you are.
 `,
 
-  4: `
-Kan guides Eb.
+4: `
+Life Path + Potential
 
-Experience seeks potential.
+<br><br>
 
-Every journey changes what becomes possible.
+Not all possibilities present within a life path have to become reality.
 
-The guide reminds you that growth does not end with understanding.
+During an actual course, multiple possibilities can exist without all of those possibilities becoming part of what actually happens.
 
-New opportunities emerge from every lesson.
-
-Potential gives experience its future.
+You can recognize this when you consider different possibilities, but your life path ultimately does not include every one of them.
 `,
 
-  5: `
-Lamat guides Eb.
+5: `
+Life Path + Value
 
-Experience seeks beauty.
+<br><br>
 
-Some moments remain memorable not because they were useful.
+Not everything that forms part of a life path has to have the same value.
 
-They remain because they were meaningful.
+Events, choices, and periods within a life's course can be valued differently without thereby ceasing to be part of that course.
 
-The guide reveals harmony hidden within the journey.
-
-Beauty gives experience its appreciation.
+You can recognize this when some parts of your life story have great meaning for you, while other parts are less important to you.
 `
 
   },
 
 ben: {
 
-  1: `
-Ben reflects Ben.
+1: `
+Structure + Structure
 
-Vision recognizes itself.
+<br><br>
 
-The future begins as an image before it becomes a reality.
+A structure can itself be part of a larger structure.
 
-Every direction starts with the ability to see beyond the present moment.
+Components that together form a particular arrangement can, as a whole, in turn form a component within another arrangement.
 
-The search is not for prediction.
-
-It is for orientation.
-
-Vision becomes aware of its own horizon.
+You can recognize this when separate components together form a unit that itself forms part of a larger constructed whole.
 `,
 
-  2: `
-Caban guides Ben.
+2: `
+Structure + Manifestation
 
-Vision seeks discovery.
+<br><br>
 
-A horizon gains meaning when it can be explored.
+A structure does not have to be fully visible in what manifests.
 
-The guide invites you beyond familiar territory.
+What is concretely observable can make certain aspects of a structure visible without fully representing that structure.
 
-Every new discovery reshapes what seemed possible.
-
-Discovery gives vision its expansion.
+You can recognize this when you can identify something of the structure from what is visible but cannot infer every component or connection from it.
 `,
 
-  3: `
-Imix guides Ben.
+3: `
+Structure + Source
 
-Vision seeks possibility.
+<br><br>
 
-The future is never limited to a single outcome.
+It is not always possible to determine from the structure of something where it originated.
 
-The guide reminds you that every path contains alternatives.
+A particular structure can occur with different origins, so structure and source cannot necessarily be inferred from one another.
 
-New beginnings remain hidden within every destination.
-
-Possibility gives vision its freedom.
+You can recognize this when you can examine the structure of something but need additional information to determine where it came from.
 `,
 
-  4: `
-Chicchan guides Ben.
+4: `
+Structure + Energy
 
-Vision seeks vitality.
+<br><br>
 
-A dream remains distant until it enters life.
+A structure can remain intact while the amount of energy transferred or converted within it changes.
 
-The guide encourages movement instead of hesitation.
+The arrangement of components and the amount of energy transferred or converted within the system are different properties of that system.
 
-Energy transforms ideas into action.
-
-Vitality gives vision its momentum.
+You can recognize this when a system retains the same structure while at different times receiving, transferring, or converting different amounts of energy.
 `,
 
-  5: `
-Muluc guides Ben.
+5: `
+Structure + Flow
 
-Vision seeks meaning.
+<br><br>
 
-A destination becomes valuable when it serves something greater than itself.
+Different flows can occur within the same structure.
 
-The guide asks why the journey matters.
+What is moved or passed on within a structure can change without the arrangement and connections of its components necessarily changing as a result.
 
-Purpose reveals which horizons are worth pursuing.
-
-Meaning gives vision its significance.
+You can recognize this when the same network carries different flows at different times while its connections remain the same.
 `
 
   },
 
 ix: {
 
-  1: `
-Ix reflects Ix.
+ 1: `
+Consciousness + Consciousness
 
-Awareness recognizes itself.
+<br><br>
 
-Some truths become visible only through careful attention.
+What is consciously experienced can itself become an object of consciousness again.
 
-The search is not for control.
+You can be conscious of an experience, thought, or perception and additionally notice that you are conscious of it.
 
-It is for understanding.
-
-Presence reveals what distraction conceals.
-
-Awareness becomes aware of its own depth.
+You can recognize this when you notice something and then notice that you are conscious of having noticed it.
 `,
 
-  2: `
-Etznab guides Ix.
+2: `
+Consciousness + Truth
 
-Awareness seeks truth.
+<br><br>
 
-Observation becomes meaningful when it is honest.
+Consciously experiencing something does not make what is experienced true.
 
-The guide removes assumptions and appearances.
+A conscious perception, memory, or interpretation can correspond with reality without this being guaranteed by its conscious presence alone.
 
-What remains is what can genuinely be known.
-
-Truth gives awareness its precision.
+You can recognize this when you consciously perceive or assume something but later discover that it was different from what you thought.
 `,
 
-  3: `
-Ik guides Ix.
+3: `
+Consciousness + Information
 
-Awareness seeks connection.
+<br><br>
 
-Understanding deepens when it is shared.
+What is consciously noticed does not have to include all available information.
 
-The guide reminds you that perception grows through relationship.
+Information can be present or accessible without being part of what someone consciously notices at that moment.
 
-Different viewpoints reveal different aspects of reality.
-
-Connection gives awareness its humanity.
+You can recognize this when information was already present before you, but you only consciously notice it later.
 `,
 
-  4: `
-Cimi guides Ix.
+4: `
+Consciousness + Boundaries
 
-Awareness seeks transformation.
+<br><br>
 
-What is seen clearly can no longer remain unchanged.
+Becoming conscious of something does not mean that its boundaries are also fully recognized.
 
-The guide reveals opportunities for growth hidden within understanding.
+You can consciously perceive something without recognizing precisely where it ends or where something else begins.
 
-Insight becomes the beginning of renewal.
-
-Transformation gives awareness its evolution.
+You can recognize this when you notice that something is present but cannot yet clearly indicate where its boundary lies.
 `,
 
-  5: `
-Oc guides Ix.
+5: `
+Consciousness + Relationship
 
-Awareness seeks belonging.
+<br><br>
 
-The deepest understanding often reveals what already connects us.
+Being conscious of separate things does not mean that their relationship is also consciously recognized.
 
-The guide reminds you that separation is rarely as complete as it appears.
+You can consciously perceive multiple things without noticing how they relate to one another.
 
-Recognition creates trust.
-
-Belonging gives awareness its heart.
+You can recognize this when you were already conscious of two events or circumstances but only later notice how they relate to one another.
 `
 
   },
 
 men: {
 
-  1: `
-Men reflects Men.
+1: `
+Perspective + Perspective
 
-Perspective recognizes itself.
+<br><br>
 
-Distance reveals patterns hidden within immediate experience.
+The same thing can be considered from multiple perspectives.
 
-The search is not for escape.
+A change in point of view can make different aspects visible without the thing being considered itself having to change.
 
-It is for understanding.
-
-A wider view transforms confusion into context.
-
-Perspective becomes aware of its own horizon.
+You can recognize this when you look at the same situation from a different position and thereby notice something that was not visible from your previous point of view.
 `,
 
-  2: `
-Cauac guides Men.
+2: `
+Perspective + Coherence
 
-Perspective seeks renewal.
+<br><br>
 
-A viewpoint can become familiar.
+From a single perspective, not all coherence between components has to be visible.
 
-The guide arrives to disrupt certainty.
+A point of view can make certain connections between components visible without thereby revealing every existing connection.
 
-New angles emerge where old assumptions once stood.
-
-Renewal gives perspective its freshness.
+You can recognize this when, from a different point of view, you notice a connection between components that you had not seen from the previous point of view.
 `,
 
-  3: `
-Akbal guides Men.
+3: `
+Perspective + Imagination
 
-Perspective seeks mystery.
+<br><br>
 
-Not everything can be understood from a distance.
+From different perspectives, different possibilities can become imaginable.
 
-Some truths invite deeper exploration.
+A different point of view can give rise to imagining possibilities that were not previously present in the conception.
 
-The guide reminds you that understanding begins where certainty ends.
-
-Mystery gives perspective its depth.
+You can recognize this when you look at a situation from a different position and can thereby imagine a different possible course.
 `,
 
-  4: `
-Manik guides Men.
+4: `
+Perspective + Interaction
 
-Perspective seeks service.
+<br><br>
 
-Insight becomes valuable when it benefits more than the observer.
+A perspective can change through what happens during an interaction.
 
-The guide asks how understanding can become contribution.
+The response or input of another person can give rise to considering the same thing from a different point of view.
 
-A wider view carries responsibility.
-
-Service gives perspective its purpose.
+You can recognize this when, after a conversation or encounter, you look at something from a different point of view than you did before.
 `,
 
-  5: `
-Chuen guides Men.
+5: `
+Perspective + Expression
 
-Perspective seeks creativity.
+<br><br>
 
-Every viewpoint reveals possibilities unseen from another angle.
+From different perspectives, the same thing can be expressed in different ways.
 
-The guide encourages imagination beyond established conclusions.
+The point of view from which something is considered can influence which aspects of it come forward in an expression.
 
-New perspectives create new realities.
-
-Creativity gives perspective its freedom.
+You can recognize this when two people describe the same event but emphasize different aspects of it from their different points of view.
 `
 
   },
 
 cib: {
 
-  1: `
-Cib reflects Cib.
+1: `
+Trace + Trace
 
-Wisdom recognizes itself.
+<br><br>
 
-Understanding grows through reflection upon experience.
+An existing trace can itself become part of what later remains as a trace.
 
-Knowledge may be gathered.
+What has remained of something can later be copied, described, or incorporated into something that is itself preserved.
 
-Wisdom must be earned.
-
-The search is not for information.
-
-It is for insight.
-
-Wisdom becomes aware of its own depth.
+You can recognize this when an old text, image, or find is copied or described and that copy or description is later preserved in turn.
 `,
 
-  2: `
-Ahau guides Cib.
+2: `
+Trace + Essence
 
-Wisdom seeks wholeness.
+<br><br>
 
-Individual lessons reveal only part of the picture.
+A trace does not have to contain everything that was essential to that from which it remained.
 
-The guide encourages integration.
+What is preserved can make certain characteristics recognizable without thereby fully representing what essentially made the original what it was.
 
-Understanding deepens when separate insights begin to connect.
-
-Wholeness gives wisdom its completeness.
+You can recognize this when a photograph, text, or memory preserves something of someone or something but does not necessarily fully represent what that person or thing essentially was.
 `,
 
-  3: `
-Kan guides Cib.
+3: `
+Trace + Potential
 
-Wisdom seeks potential.
+<br><br>
 
-Every lesson contains possibilities not yet explored.
+It is not necessarily possible to infer from a trace all the possibilities that were present before it arose.
 
-The guide reminds you that understanding is never the end of growth.
+What remains of what actually happened does not have to contain traces of possibilities that were not realized.
 
-New opportunities emerge from what has been learned.
-
-Potential gives wisdom its future.
+You can recognize this when a choice that was made has been recorded, while the record itself does not automatically reveal what other choices were possible at that moment.
 `,
 
-  4: `
-Lamat guides Cib.
+4: `
+Trace + Value
 
-Wisdom seeks beauty.
+<br><br>
 
-Truth becomes easier to recognize when expressed with harmony.
+The fact that something has been preserved as a trace does not automatically determine what value it has.
 
-The guide reveals elegance hidden within complexity.
+The same trace can be valued differently in different contexts without the trace itself changing as a result.
 
-Understanding often arrives through appreciation.
-
-Beauty gives wisdom its grace.
+You can recognize this when a single preserved sentence, photograph, or object has more value to you than a much larger amount of other preserved material.
 `,
 
-  5: `
-Eb guides Cib.
+5: `
+Trace + Life Path
 
-Wisdom seeks experience.
+<br><br>
 
-Insight remains incomplete until it is tested in life.
+A trace from an earlier moment can later become part of a life path again.
 
-The guide encourages participation rather than observation alone.
+What has been preserved can be encountered or used again at a later moment and thereby become part of a new event within that life's course.
 
-Every lesson deepens when it is lived.
-
-Experience gives wisdom its reality.
+You can recognize this when you find an old letter or photograph again years later and that rediscovery itself becomes part of the further course of your life.
 `
 
   },
 
 caban: {
 
-  1: `
-Caban reflects Caban.
+1: `
+Manifestation + Manifestation
 
-Discovery recognizes itself.
+<br><br>
 
-Every answer reveals another question.
+The same thing can manifest in more than one way.
 
-Every horizon reveals another horizon.
+One concrete appearance does not exclude the possibility that the same thing can also become visible or noticeable in another concrete form.
 
-The search is not for completion.
-
-It is for exploration.
-
-Discovery becomes aware of its own wonder.
+You can recognize this when the same phenomenon manifests differently at different times or under different circumstances.
 `,
 
-  2: `
-Imix guides Caban.
+2: `
+Manifestation + Source
 
-Discovery seeks possibility.
+<br><br>
 
-The unknown invites new beginnings.
+It is not always possible to determine from a manifestation where it originated.
 
-The guide reminds you that every discovery opens doors not previously imagined.
+The same kind of concrete appearance can arise from different sources without the appearance itself directly revealing which source preceded it.
 
-What is found changes what can be found next.
-
-Possibility gives discovery its future.
+You can recognize this when you observe something concrete but cannot determine from that appearance alone what it originated from.
 `,
 
-  3: `
-Chicchan guides Caban.
+3: `
+Manifestation + Energy
 
-Discovery seeks vitality.
+<br><br>
 
-Exploration becomes meaningful when it is experienced directly.
+What manifests does not automatically fully reveal what energy is present or being transferred.
 
-The guide encourages participation rather than observation alone.
+The same kind of concrete appearance can occur under different energetic conditions without the difference being directly apparent from the appearance itself.
 
-Life reveals what theory cannot.
-
-Vitality gives discovery its excitement.
+You can recognize this when a phenomenon is observable but measurements are needed to determine how much energy is present or being transferred.
 `,
 
-  4: `
-Muluc guides Caban.
+4: `
+Manifestation + Flow
 
-Discovery seeks meaning.
+<br><br>
 
-Not every finding carries equal significance.
+A manifestation does not have to make the full course of a flow visible.
 
-The guide asks what truly matters within what has been uncovered.
+A momentary appearance can be part of an ongoing flow without that entire course being visible in the appearance.
 
-Understanding grows when knowledge becomes purpose.
-
-Meaning gives discovery its depth.
+You can recognize this when you see one moment of a flow but do not necessarily know from that alone how it proceeded before or how it continues afterward.
 `,
 
-  5: `
-Ben guides Caban.
+5: `
+Manifestation + Structure
 
-Discovery seeks vision.
+<br><br>
 
-A new landscape changes the horizon.
+What manifests concretely can be part of a larger structure.
 
-The guide reveals directions that could not be seen before.
+An observable appearance can form one component within an arrangement without itself encompassing the complete structure.
 
-Every discovery reshapes the future.
-
-Vision gives discovery its destination.
+You can recognize this when something that is concretely present forms one component of a larger structured whole.
 `
 
   },
 
 etznab: {
 
-  1: `
-Etznab reflects Etznab.
+1: `
+Truth + Truth
 
-Truth recognizes itself.
+<br><br>
 
-Clarity reveals what was already present.
+Multiple true statements can be true at the same time without saying the same thing.
 
-Illusion fades when examined honestly.
+The fact that one statement is true does not exclude another non-contradictory statement from also being true.
 
-The search is not for comfort.
-
-It is for what remains when appearances fall away.
-
-Truth becomes aware of its own light.
+You can recognize this when two different statements about the same thing are both correct, but each describes something different about it.
 `,
 
-  2: `
-Ik guides Etznab.
+2: `
+Truth + Information
 
-Truth seeks connection.
+<br><br>
 
-Understanding grows stronger when it can be shared.
+What is true does not have to be fully present in the available information.
 
-The guide reminds you that clarity does not need isolation.
+Available information can be correct without encompassing everything that is true about something.
 
-What is real becomes more meaningful when it builds bridges.
-
-Connection gives truth its voice.
+You can recognize this when new information becomes available about something that was already true before that information became available.
 `,
 
-  3: `
-Cimi guides Etznab.
+3: `
+Truth + Boundaries
 
-Truth seeks transformation.
+<br><br>
 
-A genuine insight changes the one who receives it.
+A true statement can be valid only within certain boundaries.
 
-The guide reveals that understanding carries consequences.
+What is true under certain conditions does not have to be true outside those conditions as well.
 
-What is seen clearly can no longer remain unchanged.
-
-Transformation gives truth its power.
+You can recognize this when a statement is correct within the conditions to which it applies, but cannot automatically be applied to other conditions.
 `,
 
-  4: `
-Oc guides Etznab.
+4: `
+Truth + Relationship
 
-Truth seeks belonging.
+<br><br>
 
-Honesty creates trust.
+The fact that something is true about separate things does not mean that their relationship to each other has thereby been established.
 
-The guide reminds you that authenticity strengthens relationships.
+True statements about separate elements can exist without it automatically following how those elements relate to one another.
 
-What is real can withstand closeness.
-
-Belonging gives truth its warmth.
+You can recognize this when you know several facts, but from those facts alone cannot yet determine whether or how they are connected.
 `,
 
-  5: `
-Ix guides Etznab.
+5: `
+Truth + Consciousness
 
-Truth seeks awareness.
+<br><br>
 
-Clarity begins with attention.
+Something can be true without anyone being conscious of it.
 
-The guide encourages observation before conclusion.
+What is actually the case does not have to be consciously known in order to be true.
 
-What is overlooked often contains what is most important.
-
-Awareness gives truth its depth.
+You can recognize this when you discover something that was already the case before you became conscious of it.
 `
 
   },
 
 cauac: {
 
-  1: `
-Cauac reflects Cauac.
+1: `
+Coherence + Coherence
 
-Renewal recognizes itself.
+<br><br>
 
-Change clears space for what wishes to emerge.
+Separate forms of coherence can themselves be part of a larger coherence.
 
-The old does not disappear without reason.
+Components that are connected within separate wholes can also have connections with components of other wholes.
 
-The new does not arrive without invitation.
-
-The search is not for stability.
-
-It is for growth.
-
-Renewal becomes aware of its own power.
+You can recognize this when coherence exists within different groups and connections between those groups are also present.
 `,
 
-  2: `
-Akbal guides Cauac.
+2: `
+Coherence + Imagination
 
-Renewal seeks mystery.
+<br><br>
 
-Not every transformation begins with understanding.
+An existing coherence does not have to include all the connections you can imagine.
 
-The guide teaches patience with uncertainty.
+Connections between components can be imagined without those connections thereby actually being present within the whole.
 
-What appears chaotic may contain hidden meaning.
-
-Mystery gives renewal its depth.
+You can recognize this when you can imagine a connection between things without thereby already knowing whether that connection actually exists.
 `,
 
-  3: `
-Manik guides Cauac.
+3: `
+Coherence + Interaction
 
-Renewal seeks service.
+<br><br>
 
-Change becomes meaningful when it benefits more than yourself.
+Coherence between components does not require those components to interact directly with each other.
 
-The guide asks how transformation can become contribution.
+Components can be connected within the same whole without a direct interaction taking place between those components themselves.
 
-Growth reaches its fullest expression when it is shared.
-
-Service gives renewal its purpose.
+You can recognize this when two components are connected within the same whole but do not directly interact with each other.
 `,
 
-  4: `
-Chuen guides Cauac.
+4: `
+Coherence + Expression
 
-Renewal seeks creativity.
+<br><br>
 
-The future cannot be built from old patterns alone.
+Not all coherence within a whole has to come forward in an expression.
 
-The guide encourages experimentation and imagination.
+An expression can represent certain connections between components without thereby expressing all the existing coherence.
 
-New possibilities emerge when familiar boundaries dissolve.
-
-Creativity gives renewal its freedom.
+You can recognize this when you describe a coherent whole and mention some of the connections within it while others do not appear in the description.
 `,
 
-  5: `
-Men guides Cauac.
+5: `
+Coherence + Perspective
 
-Renewal seeks perspective.
+<br><br>
 
-A storm appears differently when viewed from a greater height.
+The same coherence can be considered differently from different perspectives.
 
-The guide reveals patterns hidden within disruption.
+Which connections within a coherence are considered can vary depending on the chosen point of view, while the connections themselves can remain the same.
 
-What once seemed destructive may become transformative.
-
-Perspective gives renewal its wisdom.
+You can recognize this when two people view the same coherent whole from different positions and do not necessarily notice the same connections within it.
 `
 
   },
 
 ahau: {
 
-  1: `
-Ahau reflects Ahau.
+1: `
+Essence + Essence
 
-Wholeness recognizes itself.
+<br><br>
 
-Completion is not an ending.
+No single characteristic has to fully determine what essentially makes something what it is.
 
-It is the moment when all parts become visible together.
+Multiple characteristics can be essential together without any one of them individually representing the complete essence.
 
-The search is not for perfection.
-
-It is for integration.
-
-Wholeness becomes aware of its own light.
+You can recognize this when several characteristics are essential to something, while none of them individually represents what the whole essentially is.
 `,
 
-  2: `
-Kan guides Ahau.
+2: `
+Essence + Potential
 
-Wholeness seeks potential.
+<br><br>
 
-Every completion contains a beginning.
+What something essentially is does not necessarily coincide with everything it could become or do.
 
-The guide reminds you that no cycle truly ends.
+Something can have multiple possibilities without each possibility individually determining what it essentially is.
 
-New possibilities emerge from every achievement.
-
-Potential gives wholeness its renewal.
+You can recognize this when something has multiple possibilities, while what it essentially is does not coincide with all of those possibilities.
 `,
 
-  3: `
-Lamat guides Ahau.
+3: `
+Essence + Value
 
-Wholeness seeks beauty.
+<br><br>
 
-Harmony appears when every part is allowed its place.
+What something essentially is does not automatically determine the value assigned to it.
 
-The guide reveals elegance within complexity.
+An essential characteristic can have different value in different contexts without thereby ceasing to be essential.
 
-What is complete often feels beautiful because nothing essential is missing.
-
-Beauty gives wholeness its radiance.
+You can recognize this when the same essential characteristic is valued differently in different situations.
 `,
 
-  4: `
-Eb guides Ahau.
+4: `
+Essence + Life Path
 
-Wholeness seeks experience.
+<br><br>
 
-Understanding grows through participation in life.
+What essentially makes something what it is does not have to change with every change in its life path.
 
-The guide reminds you that wisdom cannot remain separate from reality.
+A course of life can include different events and changes while certain essential characteristics remain.
 
-What is integrated must also be lived.
-
-Experience gives wholeness its humanity.
+You can recognize this when someone's circumstances and course of life change considerably while certain essential characteristics of that person remain recognizable.
 `,
 
-  5: `
-Cib guides Ahau.
+5: `
+Essence + Trace
 
-Wholeness seeks wisdom.
+<br><br>
 
-The larger picture becomes clearer through reflection.
+Not everything that is essential has to leave a lasting trace.
 
-The guide reveals meaning hidden within the journey.
+The fact that an essential characteristic can no longer be recognized in a trace later does not mean that it was not essential before.
 
-Every lesson contributes to the whole.
-
-Wisdom gives wholeness its understanding.
+You can recognize this when something that was essentially present earlier can no longer be found in a recognizable trace later.
 `
 
   }

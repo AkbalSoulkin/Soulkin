@@ -3,1546 +3,1278 @@ const ajnaPages_tr = {
 imix: {
 
   1: `
-Imix, Imix'i yansıtır.
+Kaynak + Kaynak
 
-Olasılık kendini tanır.
+<br><br>
 
-Her başlangıç, içinde başka bir başlangıç taşır.
+Bir kaynak, kendisi de başka bir kaynaktan ortaya çıkabilir.
 
-Arayış kesinliğe yönelik değildir.
+Bu nedenle bir yerde başlangıç olarak görünen şeyin ilk başlangıç olması gerekmez.
 
-Bir sonraki açılışa yöneliktir.
-
-Olasılık kendini yansıttığında, merak yol hâline gelir.
-
-Arayış yeniden başlar.
+Bunu, bir şeyin başladığı yere geri dönüp o başlangıcın da başka bir yerden ortaya çıktığını keşfettiğinizde fark edebilirsiniz.
 `,
 
   2: `
-Chicchan, Imix'e rehberlik eder.
+Kaynak + Enerji
 
-Olasılık yaşam gücünü arar.
+<br><br>
 
-Fikirler ancak yaşandıklarında anlam kazanır.
+Bir kaynak, kendisinden ortaya çıkan şey için enerjiyi kullanılabilir hâle getirebilir.
 
-Bir yol yalnızca düşünerek keşfedilemez.
+Bu enerjinin kaynağın kendisinde ortaya çıkmış olması gerekmez; enerji kaynak aracılığıyla aktarılabilir veya dönüştürülebilir.
 
-Hareket, hayal gücünün gösteremeyeceğini ortaya çıkarır.
-
-Arayış katılım yoluyla uyanır.
-
-Yaşam, olasılığa kalp atışını verir.
+Bunu, bir kaynaktan ortaya çıkan şeyin başka bir yerde kullanılabilecek veya dönüştürülebilecek enerji aldığında fark edebilirsiniz.
 `,
 
   3: `
-Muluc, Imix'e rehberlik eder.
+Kaynak + Akış
 
-Olasılık anlam arar.
+<br><br>
 
-Birçok kapı açılabilir.
+Bir kaynaktan ortaya çıkan şeyin o kaynakta kalması gerekmez.
 
-Fakat her kapı senin yoluna ait değildir.
+Akış, bir yerde ortaya çıkan şeyin hareket etmesini, yayılmasını veya daha ileriye aktarılmasını sağlayabilir.
 
-Rehber, gerçekten neyin önemli olduğunu sorar.
-
-Anlam, merakı yöne dönüştürür.
-
-Amaç, olasılığa derinlik kazandırır.
+Bunu, bir şeyin belirlenebilir bir kökeni olduğu hâlde daha sonra onun ötesinde de mevcut hâle geldiğinde fark edebilirsiniz.
 `,
 
   4: `
-Ben, Imix'e rehberlik eder.
+Kaynak + Yapı
 
-Olasılık vizyon arar.
+<br><br>
 
-Bir başlangıç, kendisinin ötesini görebildiğinde güçlenir.
+Bir kaynak, kendisinden ortaya çıkan şeyin yapısını kendiliğinden belirlemez.
 
-Geleceğin bütünüyle bilinmesi gerekmez.
+Yapı, parçalar arasındaki ilişkilerden ve onların düzenlenişinden oluşurken kaynak, bir şeyin nereden ortaya çıktığını gösterir.
 
-Ona doğru ilerleyebilmek için yeterince görünür olması yeterlidir.
-
-Vizyon, potansiyeli niyete dönüştürür.
-
-Yön, olasılığa ufkunu kazandırır.
+Bunu, aynı kaynaktan ortaya çıkan şeylerin yine de farklı biçimlerde yapılandırılabildiğinde fark edebilirsiniz.
 `,
 
   5: `
-Caban, Imix'e rehberlik eder.
+Kaynak + Tezahür
 
-Olasılık keşif arar.
+<br><br>
 
-Her cevap yeni bir soruyu ortaya çıkarır.
+Tezahür eden şey, kaynağını zorunlu olarak görünür kılmaz.
 
-Her ufkun ardında yeni bir manzara vardır.
+Bir tezahür, somut olarak mevcut olanı gösterirken kaynak, onun neyden ortaya çıktığıyla ilgilidir.
 
-Arayış sürer, çünkü gerçeklik her zaman beklentilerden daha geniştir.
-
-Keşif, potansiyeli deneyime dönüştürür.
-
-Hayret, olasılığa macerasını kazandırır.
+Bunu, neyin ortaya çıktığını gördüğünüz hâlde yalnızca bundan yola çıkarak kökeninin nerede olduğunu kesin olarak belirleyemediğinizde fark edebilirsiniz.
 `
 
 },
 
 ik: {
 
-  1: `
-Ik, Ik'i yansıtır.
+1: `
+Bilgi + Bilgi
 
-Bağ kendini tanır.
+<br><br>
 
-Her ilişki farkındalıkla başlar.
+Bilgi, başka bilgiler hakkında da bilgi içerebilir.
 
-Bir başkasını anlayabilmek için önce gerçekten orada olmalısın.
+Bu nedenle bilgi, hem bir şeyi hem de o şey hakkında daha önce kaydedilmiş, aktarılmış veya çıkarılmış olan bilgileri tanımlayabilir.
 
-Arayış uzlaşmaya yönelik değildir.
-
-Gerçek temasa yöneliktir.
-
-Bağ, ayrılığın sona erdiği yerde başlar.
+Bunu, yeni bilginin doğrudan bir şey hakkında değil, o şey hakkında zaten var olan bilgi hakkında olduğu durumlarda fark edebilirsiniz.
 `,
 
-  2: `
-Cimi, Ik'e rehberlik eder.
+2: `
+Bilgi + Sınırlar
 
-Bağ dönüşüm arar.
+<br><br>
 
-Hiçbir ilişki aynı kalmaz.
+Bilgi, toplandığı, kaydedildiği veya aktarıldığı kapsamın sınırlarıyla kısıtlanabilir.
 
-Her karşılaşma bir iz bırakır.
+Bir sınırın dışında kalan bir şey, o kapsam içinde gözlemlenmeden, kaydedilmeden veya aktarılmadan var olabilir.
 
-Gelişim, her iki insanı da oldukları kişinin ötesine geçmeye davet eder.
-
-Arayış sürer, çünkü bağ ona giren herkesi değiştirir.
-
-Dönüşüm, bağa derinlik kazandırır.
+Bunu, araştırmanızın, konuşmanızın veya gözleminizin sınırlarını değiştirdiğinizde elinizdeki bilginin de değişebildiği durumlarda fark edebilirsiniz.
 `,
 
-  3: `
-Oc, Ik'e rehberlik eder.
+3: `
+Bilgi + İlişki
 
-Bağ aidiyet arar.
+<br><br>
 
-Anlayış güven sayesinde büyür.
+Ayrı şeyler hakkındaki bilgi, bu şeyler arasındaki ilişkiyi kendiliğinden tanımlamaz.
 
-Bir köprü, iki yönde de geçilebildiğinde anlam kazanır.
+Bir ilişkiyi tanımlamak için, birinin diğeriyle nasıl bir ilişki içinde olduğuna dair bilgi de gereklidir.
 
-Arayış yalnızca temas için değildir.
-
-Aynı zamanda yoldaşlık içindir.
-
-Aidiyet, bağa sıcaklığını verir.
+Bunu, iki insan, olay veya unsur hakkında çok şey bildiğiniz hâlde aralarında nasıl bir ilişki bulunduğunu henüz bilmediğiniz durumlarda fark edebilirsiniz.
 `,
 
-  4: `
-Ix, Ik'e rehberlik eder.
+4: `
+Bilgi + Bilinç
 
-Bağ farkındalık arar.
+<br><br>
 
-Söylenen her şey anlaşılmaz.
+Bilgi, bilinçli olarak algılanmadan mevcut olabilir.
 
-Anlaşılan her şey de söylenmez.
+Bu nedenle bilginin erişilebilir olması, o anda bilinçli olarak deneyimlenen şeyin bir parçası olduğu anlamına gelmez.
 
-Dikkat, kelimelerin çoğu zaman gizlediğini açığa çıkarır.
-
-Gözlem derinleştikçe arayış da derinleşir.
-
-Farkındalık, bağa açıklık kazandırır.
+Bunu, bilginin zaten mevcut olduğu ancak sizin onun ancak daha sonra farkına vardığınız durumlarda fark edebilirsiniz.
 `,
 
-  5: `
-Etznab, Ik'e rehberlik eder.
+5: `
+Bilgi + Hakikat
 
-Bağ hakikati arar.
+<br><br>
 
-İlişkiler, yanılsamalar ortadan kalktığında güçlenir.
+Bilginin gerçeklikle örtüşmesi gerekmez.
 
-Dürüstlük bazen rahatsız edici olabilir.
+Bir şeyin bilgi olarak kaydedilmesi veya aktarılması, içeriğini doğru hâle getirmez.
 
-Fakat gerçek olan, sorgulanmaya dayanabilir.
-
-Arayış, kesinlikten önce içtenlik ister.
-
-Hakikat, bağın temelini oluşturur.
+Bunu, bilginin ikna edici göründüğü ancak daha sonra gerçeklikle örtüşmediğinin anlaşıldığı durumlarda fark edebilirsiniz.
 `
 
 },
 
 akbal: {
 
-  1: `
-Akbal, Akbal'i yansıtır.
+1: `
+Hayal Gücü + Hayal Gücü
 
-Gizem kendini tanır.
+<br><br>
 
-Her cevap yeni bir bilinmeyene açılır.
+Hayal gücünde ortaya çıkan bir şey, kendisi de yeni hayaller için bir başlangıç noktası olabilir.
 
-Bilinmeyen korkulacak bir şey değildir.
+İçsel bir tasarım, hayal gücünün dışında herhangi bir şeyin önce değişmesi gerekmeden genişletilebilir, değiştirilebilir veya yeniden tasarlanabilir.
 
-Keşfedilmeyi bekleyen bir davettir.
-
-Arayış kesinliğe yönelik değildir.
-
-Hayret duygusuna yöneliktir.
-
-Gizem kendi derinliğinin farkına varır.
+Bunu, zihninizdeki bir görüntü veya olasılığın başka görüntülere ya da olasılıklara yol açtığı durumlarda fark edebilirsiniz.
 `,
 
-  2: `
-Manik, Akbal'e rehberlik eder.
+2: `
+Hayal Gücü + Etkileşim
 
-Gizem hizmet arar.
+<br><br>
 
-Anlayış, paylaşıldığında daha derin hâle gelir.
+Etkileşim sırasında karşılıklı etkileme, hayal edilen şeyi de değiştirebilir.
 
-Rehber, öğrendiklerinin başkalarına nasıl fayda sağlayabileceğini sorar.
+Bir etkileşim sırasında yaşananlar, daha önce hayal edilmemiş görüntülere veya olasılıklara yol açabilir.
 
-Bilgelik yalnızca kendin için değildir.
-
-Hizmet, gizeme amaç kazandırır.
+Bunu, bir karşılaşma veya konuşmanın daha önce zihninizde olandan farklı bir şey hayal etmenize yol açtığı durumlarda fark edebilirsiniz.
 `,
 
-  3: `
-Chuen, Akbal'e rehberlik eder.
+3: `
+Hayal Gücü + İfade
 
-Gizem yaratıcılık arar.
+<br><br>
 
-Bilinmeyen, hayal gücünü davet eder.
+Hayal gücünde ortaya çıkan her şey bütünüyle ifade edilemeyebilir.
 
-Rehber, cevaplardan çok olasılıkları görmeni ister.
+İçsel bir tasarım ifade edildiğinde, ortaya çıkan ifade bu tasarımın her yönünü içermek zorunda değildir.
 
-Her keşif yeni bir yaratımın başlangıcı olabilir.
-
-Yaratıcılık, gizeme özgürlük kazandırır.
+Bunu, hayal gücünüzdeki bir görüntünün onu sözcükler, görüntüler veya eylemlerle ifade edebildiğinizden daha zengin ya da ayrıntılı olduğu durumlarda fark edebilirsiniz.
 `,
 
-  4: `
-Men, Akbal'e rehberlik eder.
+4: `
+Hayal Gücü + Perspektif
 
-Gizem bakış açısı arar.
+<br><br>
 
-Her bilinmeyen yakından çözülemez.
+Hayal ettiğiniz şey, aynı şeye farklı bir perspektiften baktığınızda değişebilir.
 
-Bazen gerçeği görebilmek için geri çekilmek gerekir.
+Farklı bir bakış açısı, önceki tasarımda dikkate alınmamış yönleri veya olasılıkları ortaya çıkarabilir.
 
-Daha geniş bir bakış, görünmeyen desenleri ortaya çıkarır.
-
-Bakış açısı, gizeme açıklık kazandırır.
+Bunu, bir durumu farklı bir konumdan hayal etmeye çalıştığınızda ve farklı bir görüntünün mümkün hâle geldiğini fark ettiğiniz durumlarda görebilirsiniz.
 `,
 
-  5: `
-Cauac, Akbal'e rehberlik eder.
+5: `
+Hayal Gücü + Bütünlük
 
-Gizem yenilenme arar.
+<br><br>
 
-Bilinmeyene adım atmak eskiyi geride bırakmayı gerektirir.
+Hayal gücünde ayrı unsurlar, bütünlük oluşturan bir bütün hâlinde birbirine bağlanabilir.
 
-Rehber, değişimin büyümenin doğal bir parçası olduğunu hatırlatır.
+Bu bütünlük, aynı bağlantının tasarımın dışında da var olması gerekmeden tasarımın kendi içinde var olabilir.
 
-Her son, yeni bir başlangıca yer açar.
-
-Yenilenme, gizeme cesaret kazandırır.
+Bunu, zihninizde ayrı unsurları gerçeklikte henüz var olmayan bir bütün hâlinde birbirine bağladığınız durumlarda fark edebilirsiniz.
 `
 
 },
 
 kan: {
 
-  1: `
-Kan, Kan'ı yansıtır.
+1: `
+Potansiyel + Potansiyel
 
-Potansiyel kendini tanır.
+<br><br>
 
-Her tohum içinde tamamlanmış bir yaşam taşır.
+Bir olasılık, kendisi de yeni olasılıklara erişim sağlayabilir.
 
-Henüz görünmeyen, var olmadığı anlamına gelmez.
+Mümkün hâle gelen bir şey, daha önce erişilebilir olmayan başka olasılıkları erişilebilir kılan koşullar oluşturabilir.
 
-Arayış başarıya yönelik değildir.
-
-Gelişime yöneliktir.
-
-Potansiyel kendi geleceğini tanır.
+Bunu, bir olasılık erişilebilir hâle geldiğinde ve böylece daha önce erişilemeyen başka olasılıklar da ulaşılabilir olduğunda fark edebilirsiniz.
 `,
 
-  2: `
-Lamat, Kan'a rehberlik eder.
+2: `
+Potansiyel + Değer
 
-Potansiyel güzellik arar.
+<br><br>
 
-Büyüme uyum içinde gerçekleştiğinde doğal görünür.
+Her olasılık aynı değere sahip değildir.
 
-Rehber, gelişimin aceleyle zorlanamayacağını gösterir.
+Bir olasılığa atfedilen değer, onun değerlendirildiği bağlama göre değişebilir.
 
-Sabır, görünmeyeni olgunlaştırır.
-
-Güzellik, potansiyele zarafet kazandırır.
+Bunu, birden fazla olasılık mevcut olduğunda ancak bunlardan bazılarının diğerlerinden daha fazla anlam veya önem taşıdığı durumlarda fark edebilirsiniz.
 `,
 
-  3: `
-Eb, Kan'a rehberlik eder.
+3: `
+Potansiyel + Yaşam Yolu
 
-Potansiyel deneyim arar.
+<br><br>
 
-Bir yetenek ancak yaşandığında gerçeğe dönüşür.
+Her olasılık bir yaşam yolunun parçası hâline gelmez.
 
-Rehber, öğrenmenin yalnızca düşünmekle gerçekleşmediğini hatırlatır.
+Bir yaşam yolunda gerçekleşen seyir görünür hâle gelirken, bunun yanında o seyrin parçası olmayan olasılıklar da var olabilir.
 
-Her adım büyümeyi görünür kılar.
-
-Deneyim, potansiyele gerçeklik kazandırır.
+Bunu, geçmişte sahip olduğunuz olasılıklara baktığınızda ve her olasılığın yaşamınızın seyrinin bir parçası hâline gelmediğini gördüğünüzde fark edebilirsiniz.
 `,
 
-  4: `
-Cib, Kan'a rehberlik eder.
+4: `
+Potansiyel + İz
 
-Potansiyel bilgelik arar.
+<br><br>
 
-Her deneyim bir ders taşır.
+Bir olasılık, geride bir iz bırakmadan mevcut olabilir.
 
-Rehber, yalnızca ilerlemeyi değil, aynı zamanda anlamayı da davet eder.
+Bir iz, neyin gerçekleştiğini veya kaydedildiğini görünür kılabilir, ancak o sırada mevcut olan bütün olasılıkları içermek zorunda değildir.
 
-Düşünmek, büyümeye yön verir.
-
-Bilgelik, potansiyele olgunluk kazandırır.
+Bunu, sonradan ne olduğunu görebildiğiniz ancak öncesinde var olan bütün olasılıkların izini bulamadığınızda fark edebilirsiniz.
 `,
 
-  5: `
-Ahau, Kan'a rehberlik eder.
+5: `
+Potansiyel + Öz
 
-Potansiyel bütünlük arar.
+<br><br>
 
-Her parça ait olduğu yere ulaştığında gelişim tamamlanır.
+Bir şeyde mümkün olan, onun o anda özünde ne olduğuyla örtüşmek zorunda değildir.
 
-Rehber, hiçbir büyümenin tek başına gerçekleşmediğini gösterir.
+Potansiyel, henüz gerçekleşmiş olması gerekmeyen olasılıkları kapsarken öz, bir şeyi özünde kendisi yapan şeyle ilgilidir.
 
-Her şey daha büyük bir bütünün parçasıdır.
-
-Bütünlük, potansiyele tamamlanmışlık kazandırır.
+Bunu, bir şeyde henüz onun özünde ne olduğunu belirlemeyen olasılıklar gördüğünüzde fark edebilirsiniz.
 `
 
 },
 
 chicchan: {
 
-  1: `
-Chicchan, Chicchan'ı yansıtır.
+1: `
+Enerji + Enerji
 
-Yaşam gücü kendini tanır.
+<br><br>
 
-Her nefes yaşamın varlığını doğrular.
+Enerji bir biçimden başka bir biçime dönüştürülebilir.
 
-Enerji hareket etmek ister.
+Enerji dönüşümü sırasında enerjinin bulunduğu biçim değişirken, yalıtılmış bir sistemdeki toplam enerji korunur.
 
-Arayış kontrole yönelik değildir.
-
-Deneyime yöneliktir.
-
-Yaşam gücü kendi canlılığını hisseder.
+Bunu, kinetik enerjinin sürtünme yoluyla termal enerjiye dönüştüğü durumlarda fark edebilirsiniz.
 `,
 
-  2: `
-Muluc, Chicchan'a rehberlik eder.
+2: `
+Enerji + Akış
 
-Yaşam gücü anlam arar.
+<br><br>
 
-Enerji yön bulduğunda daha güçlü akar.
+Enerji, akış yoluyla bir yerden başka bir yere aktarılabilir.
 
-Rehber, ne için hareket ettiğini hatırlatır.
+Bir şey aktığında, enerjiyi beraberinde taşıyabilir ve bu enerjiyi sistemin içinde veya dışında başka bir yerde aktarabilir.
 
-Amaç, çabayı değere dönüştürür.
-
-Anlam, yaşam gücüne yön kazandırır.
+Bunu, akan suyun termal enerjiyi bir yerden başka bir yere taşıdığı durumlarda fark edebilirsiniz.
 `,
 
-  3: `
-Ben, Chicchan'a rehberlik eder.
+3: `
+Enerji + Yapı
 
-Yaşam gücü vizyon arar.
+<br><br>
 
-Enerji bir hedefe sahip olduğunda odaklanır.
+Aynı miktarda enerji, farklı yapılar içinde farklı süreçlere katkıda bulunabilir.
 
-Rehber, bugünün ötesini görmeye davet eder.
+Parçaların düzenlenişi ve aralarındaki bağlantılar, enerjinin bir sistem içinde nerede ve nasıl aktarıldığını veya dönüştürüldüğünü kısmen belirleyebilir.
 
-Her hareket geleceği şekillendirir.
-
-Vizyon, yaşam gücüne ufuk kazandırır.
+Bunu, aynı enerji kaynağının farklı biçimlerde yapılandırılmış sistemlerde farklı şekillerde kullanıldığı veya dönüştürüldüğü durumlarda fark edebilirsiniz.
 `,
 
-  4: `
-Caban, Chicchan'a rehberlik eder.
+4: `
+Enerji + Tezahür
 
-Yaşam gücü keşif arar.
+<br><br>
 
-Hareket yeni yollar açar.
+Enerjinin mevcut olması, ona hangi gözlemlenebilir olgunun eşlik edeceğini kendiliğinden belirlemez.
 
-Rehber, bilinmeyeni korkuyla değil merakla karşılamaya davet eder.
+Aynı miktarda enerji, farklı süreçlerde aktarılabilir veya dönüştürülebilir ve bu süreçlerde farklı gözlemlenebilir olgularla birlikte ortaya çıkabilir.
 
-Her adım yeni olasılıkları ortaya çıkarır.
-
-Keşif, yaşam gücüne özgürlük kazandırır.
+Bunu, enerjinin bir durumda gözlemlenebilir harekete, başka bir durumda ise gözlemlenebilir bir sıcaklık değişimine eşlik ettiği durumlarda fark edebilirsiniz.
 `,
 
-  5: `
-Imix, Chicchan'a rehberlik eder.
+5: `
+Enerji + Kaynak
 
-Yaşam gücü olasılık arar.
+<br><br>
 
-Her başlangıç yeni bir enerji taşır.
+Enerjinin mevcut olması, onun hangi kaynaktan geldiğini kendiliğinden ortaya çıkarmaz.
 
-Rehber, yaşamın sürekli yenilendiğini hatırlatır.
+Enerji farklı kaynaklardan gelebilir; bu nedenle yalnızca enerjinin mevcut olması, kökenini zorunlu olarak belirlenebilir kılmaz.
 
-Potansiyel her an yeniden doğabilir.
-
-Olasılık, yaşam gücüne umut kazandırır.
+Bunu, enerjiyi ölçebildiğiniz veya etkilerini gözlemleyebildiğiniz ancak bu enerjinin nereden geldiğini ayrıca araştırmanız gereken durumlarda fark edebilirsiniz.
 `
 
 },
 
 cimi: {
 
-  1: `
-Cimi, Cimi'yi yansıtır.
+1: `
+Sınırlar + Sınırlar
 
-Dönüşüm kendini tanır.
+<br><br>
 
-Her son yeni bir başlangıca alan açar.
+Bir sınırın kendisi başka sınırların içinde yer alabilir.
 
-Hiçbir şey gerçekten kaybolmaz.
+Farklı sınırlar, birbirleriyle örtüşmeden bu şekilde farklı sınırlama düzeyleri oluşturabilir.
 
-Her şey şekil değiştirir.
-
-Arayış sona yönelik değildir.
-
-Yenilenmeye yöneliktir.
-
-Dönüşüm kendi döngüsünü tanır.
+Bunu, sınırlandırılmış bir alanın kendisinin daha geniş sınırlandırılmış bir alanın içinde yer aldığı durumlarda fark edebilirsiniz.
 `,
 
-  2: `
-Oc, Cimi'ye rehberlik eder.
+2: `
+Sınırlar + İlişki
 
-Dönüşüm aidiyet arar.
+<br><br>
 
-Değişim tek başına yaşanmak zorunda değildir.
+Bir ilişki bir sınırın ötesinde var olabilir.
 
-Rehber, güvenin büyümeyi desteklediğini hatırlatır.
+Bir sınır, bir şeyi diğerinden ayırır ancak ikisi arasındaki ilişkinin varlığını zorunlu olarak ortadan kaldırmaz.
 
-Birlikte yürümek dönüşümü hafifletir.
-
-Aidiyet, dönüşüme sıcaklık kazandırır.
+Bunu, iki insan, grup veya unsur birbirinden açıkça ayırt edilebilir olduğu hâlde yine de birbirleriyle ilişki içinde olduklarında fark edebilirsiniz.
 `,
 
-  3: `
-Ix, Cimi'ye rehberlik eder.
+3: `
+Sınırlar + Bilinç
 
-Dönüşüm farkındalık arar.
+<br><br>
 
-Gerçek değişim önce görülür.
+Her sınır bilinçli olarak algılanmaz.
 
-Rehber, yargılamadan gözlemlemeyi öğretir.
+Bir sınır, o anda bilinçli olarak bir sınır şeklinde fark edilmeden var olabilir.
 
-Anlayış, değişimin ilk adımıdır.
-
-Farkındalık, dönüşüme açıklık kazandırır.
+Bunu, daha önce fark etmediğiniz bir sınırın zaten var olduğunu ancak daha sonra fark ettiğinizde görebilirsiniz.
 `,
 
-  4: `
-Etznab, Cimi'ye rehberlik eder.
+4: `
+Sınırlar + Hakikat
 
-Dönüşüm hakikat arar.
+<br><br>
 
-Yanılsamalar çözüldüğünde büyüme başlar.
+Bir sınırlandırma, neyin doğru olduğunu kendiliğinden değiştirmez.
 
-Rehber, dürüstlüğün özgürleştirici olduğunu gösterir.
+Bir sınır, neyin ayrı olarak ele alındığını belirleyebilir ancak bununla ilgili neyin gerçeklikle örtüştüğünü belirlemez.
 
-Gerçek, değişimin temelidir.
-
-Hakikat, dönüşüme sağlamlık kazandırır.
+Bunu, bir şeyi belirli bir sınır içinde araştırdığınız ancak bu sınırlandırmanın tek başına hangi sonucun doğru olduğunu belirlemediği durumlarda fark edebilirsiniz.
 `,
 
-  5: `
-Ik, Cimi'ye rehberlik eder.
+5: `
+Sınırlar + Bilgi
 
-Dönüşüm bağ arar.
+<br><br>
 
-Hiç kimse tek başına gelişmez.
+Bir sınır, hangi bilginin belirli bir kapsamın içine alındığını ve hangisinin dışında kaldığını belirleyebilir.
 
-Rehber, her karşılaşmanın bizi değiştirdiğini hatırlatır.
+Bu nedenle, belirli bir kapsam içindeki bilgi, onun dışında bulunan her şey hakkında bilgi içermek zorunda değildir.
 
-İlişkiler büyümenin aynasıdır.
-
-Bağ, dönüşüme insanlığını kazandırır.
+Bunu, araştırdığınız şeyin sınırını değiştirdiğinizde ve daha önce değerlendirmenizin dışında kalan bilginin böylece değerlendirmenizin içine girdiği durumlarda fark edebilirsiniz.
 `
 
 },
 
 manik: {
 
-  1: `
-Manik, Manik'i yansıtır.
+1: `
+Etkileşim + Etkileşim
 
-Hizmet kendini tanır.
+<br><br>
 
-Gerçek katkı, başkalarını değiştirmeye çalışmadan başlar.
+Bir etkileşim, kendisi de daha sonraki etkileşimlere yol açabilir.
 
-İnsan önce var olur.
+Karşılıklı etkileme sonucunda değişen bir şey, daha sonra etkileşim içinde olduğu şeyi yeniden etkileyebilir.
 
-Sonra hizmet eder.
-
-Arayış takdire yönelik değildir.
-
-Anlamlı katkıya yöneliktir.
-
-Hizmet kendi amacını tanır.
+Bunu, bir alışverişin bir tepki ortaya çıkardığı ve bu tepkinin daha sonra yeni bir alışverişe yol açtığı durumlarda fark edebilirsiniz.
 `,
 
-  2: `
-Chuen, Manik'e rehberlik eder.
+2: `
+Etkileşim + İfade
 
-Hizmet yaratıcılık arar.
+<br><br>
 
-Her insan farklı bir şekilde katkıda bulunur.
+Bir etkileşim sırasında ifade edilenler, daha sonra taraflar arasında ne olacağını etkileyebilir.
 
-Rehber, kendi benzersiz ifadenin değerini hatırlatır.
+İfade edilen bir şey bir tepki ortaya çıkarabilir ve bu tepki daha sonra etkileşimin kendisinin bir parçası hâline gelebilir.
 
-Yaratıcılık, hizmeti canlı tutar.
-
-Özgünlük, katkıya yeni yollar açar.
+Bunu, sözcüklerin, jestlerin veya eylemlerin başka birinde tepki uyandırdığı ve böylece etkileşimin sonraki seyrini kısmen etkilediği durumlarda fark edebilirsiniz.
 `,
 
-  3: `
-Men, Manik'e rehberlik eder.
+3: `
+Etkileşim + Perspektif
 
-Hizmet bakış açısı arar.
+<br><br>
 
-İyi niyet tek başına yeterli değildir.
+Aynı etkileşim, farklı perspektiflerden farklı şekilde deneyimlenebilir veya tanımlanabilir.
 
-Rehber, önce bütünü görmeye davet eder.
+Farklı bir bakış açısı, gerçekleşmiş olan etkileşimi değiştirmeden etkileşimin farklı yönlerini görünür kılabilir.
 
-Anlayış, katkının daha isabetli olmasını sağlar.
-
-Bakış açısı, hizmete bilgelik kazandırır.
+Bunu, iki kişi aynı konuşmaya katıldığı hâlde kendi konumlarından aralarında ne olduğunu farklı şekilde anlattıklarında fark edebilirsiniz.
 `,
 
-  4: `
-Cauac, Manik'e rehberlik eder.
+4: `
+Etkileşim + Bütünlük
 
-Hizmet yenilenme arar.
+<br><br>
 
-Başkalarına verebilmek için önce kendini yenilemek gerekir.
+Etkileşim kendiliğinden bütünlüğe yol açmaz.
 
-Rehber, tükenmişliğin fedakârlık olmadığını hatırlatır.
+Unsurlar birbirlerini karşılıklı olarak etkileyebilir, ancak bu nedenle birlikte birbirine bağlı bir bütün oluşturmak zorunda değildir.
 
-Dinlenmek de hizmetin bir parçasıdır.
-
-Yenilenme, hizmete süreklilik kazandırır.
+Bunu, insanlar, gruplar veya unsurlar birbirlerine tepki verdiği hâlde henüz bütünlük oluşturan bir yapı olarak işlemediklerinde fark edebilirsiniz.
 `,
 
-  5: `
-Akbal, Manik'e rehberlik eder.
+5: `
+Etkileşim + Hayal Gücü
 
-Hizmet gizem arar.
+<br><br>
 
-Her yardımın sonucu hemen görünmez.
+Hayal edilen bir etkileşim, gerçekte gerçekleşen etkileşimle örtüşmek zorunda değildir.
 
-Rehber, güvenmeyi öğretir.
+Hayal gücünde tepkiler ve karşılıklı etkileme, tarafların gerçekte birbirlerine nasıl tepki verecekleri bilinmeden tasarlanabilir.
 
-Bazı tohumlar sessizlik içinde filizlenir.
-
-Gizem, hizmete tevazu kazandırır.
+Bunu, bir konuşmayı veya karşılaşmayı önceden zihninizde canlandırdığınız ancak gerçek etkileşim farklı geliştiğinde fark edebilirsiniz.
 `
 
 },
 
 lamat: {
 
-  1: `
-Lamat, Lamat'ı yansıtır.
+1: `
+Değer + Değer
 
-Güzellik kendini tanır.
+<br><br>
 
-Uyum doğal olarak dikkat çeker.
+Değerli olan bir şey, başka bir şeyin değerine kendisi de katkıda bulunabilir.
 
-Güzellik yalnızca görülen şey değildir.
+Bir şeye atfedilen değer, onun bağlantılı olduğu şeyin değeriyle kısmen ilişkili olabilir.
 
-Hissedilen şeydir.
-
-Arayış kusursuzluğa yönelik değildir.
-
-Uyuma yöneliktir.
-
-Güzellik kendi ışığını tanır.
+Bunu, bir şeyin zaten değer verdiğiniz başka bir şeyle bağlantılı olması nedeniyle sizin için daha önemli hâle geldiğinde fark edebilirsiniz.
 `,
 
-  2: `
-Eb, Lamat'a rehberlik eder.
+2: `
+Değer + Yaşam Yolu
 
-Güzellik deneyim arar.
+<br><br>
 
-Gerçek güzellik yaşanmak ister.
+Bir yaşam yolunun parçası olan bir şeyin değeri, bu yol boyunca değişebilir.
 
-Rehber, yalnızca izlemek yerine katılmaya davet eder.
+Yol boyunca gerçekleşen bir şey, daha sonraki süreçte içinde yer aldığı bağlam nedeniyle sonradan farklı bir anlam veya önem kazanabilir.
 
-Deneyim, takdiri derinleştirir.
-
-Yaşam, güzelliğe gerçeklik kazandırır.
+Bunu, geçmişinizdeki bir olayın daha sonra sizin için gerçekleştiği andakinden daha fazla veya daha az anlam taşıdığında fark edebilirsiniz.
 `,
 
-  3: `
-Cib, Lamat'a rehberlik eder.
+3: `
+Değer + İz
 
-Güzellik bilgelik arar.
+<br><br>
 
-Zaman, neyin kalıcı olduğunu ortaya çıkarır.
+Bir iz, geride kaldığı şeyle aynı değere sahip olmak zorunda değildir.
 
-Rehber, görünüşün ötesini görmeye davet eder.
+Geride kalan şey, izini oluşturduğu şeyin değerinden ayrı olarak kendine özgü bir anlam veya öneme sahip olabilir.
 
-Anlayış, hayranlığı olgunlaştırır.
-
-Bilgelik, güzelliğe derinlik kazandırır.
+Bunu, bir nesne, işaret veya anı artık mevcut olmayan bir şeye gönderme yaptığı için sizin için değer taşıdığında fark edebilirsiniz.
 `,
 
-  4: `
-Ahau, Lamat'a rehberlik eder.
+4: `
+Değer + Öz
 
-Güzellik bütünlük arar.
+<br><br>
 
-Her parça ait olduğu yerde olduğunda uyum doğar.
+Bir şeye atfedilen değer, onu özünde kendisi yapan şeyle örtüşmek zorunda değildir.
 
-Rehber, hiçbir unsurun gereksiz olmadığını gösterir.
+Bir şey, ona verilen bu değer onun özünde ne olduğunu belirlemeden, çok veya az anlam ya da önem taşıyabilir.
 
-Bütün, parçaların toplamından daha fazlasıdır.
-
-Bütünlük, güzelliğe denge kazandırır.
+Bunu, bir şeyin sizin için taşıdığı anlam değişirken o şeyin kendisi özünde zorunlu olarak değişmediğinde fark edebilirsiniz.
 `,
 
-  5: `
-Kan, Lamat'a rehberlik eder.
+5: `
+Değer + Potansiyel
 
-Güzellik potansiyel arar.
+<br><br>
 
-Her şey henüz görünmeyen bir ihtişam taşır.
+Bir şeye atfedilen değer, onunla nelerin mümkün olduğuna kısmen bağlı olabilir.
 
-Rehber, büyümekte olanı görmeye davet eder.
+Henüz gerçekleşmemiş olasılıklar da anlam veya önem taşıyabilir ve ona atfedilen değerde rol oynayabilir.
 
-En güzel şeyler çoğu zaman zamana ihtiyaç duyar.
-
-Potansiyel, güzelliğe gelecek kazandırır.
+Bunu, bir şeyde onunla mümkün olanlar nedeniyle değer gördüğünüzde, bu olasılık henüz gerçeğe dönüşmemiş olsa bile fark edebilirsiniz.
 `
 
 },
 
 muluc: {
 
-  1: `
-Muluc, Muluc'u yansıtır.
+1: `
+Akış + Akış
 
-Anlam kendini tanır.
+<br><br>
 
-Her deneyim bir şey öğretir.
+Bir akışın kendisi daha büyük bir akışın parçası olabilir.
 
-Her yolculuk bir amaç taşır.
+Yerel bir akış, kendi seyrine sahip olurken aynı zamanda daha büyük bir bütünün hareketiyle birlikte taşınabilir.
 
-Arayış cevaplara yönelik değildir.
-
-Önemli olana yöneliktir.
-
-Anlam kendi derinliğini tanır.
+Bunu, yerel bir akışın kendi yönü veya seyri varken aynı zamanda daha büyük bir akışın parçası olduğu durumlarda fark edebilirsiniz.
 `,
 
-  2: `
-Ben, Muluc'a rehberlik eder.
+2: `
+Akış + Yapı
 
-Anlam vizyon arar.
+<br><br>
 
-Amaç geleceğe yön verir.
+Bir sistemin yapısı, bir akışın sistemin içinden nasıl geçtiğini kısmen belirleyebilir.
 
-Rehber, bugünün ötesini görmeye davet eder.
+Parçaların düzenlenişi ve aralarındaki bağlantılar, bir şeyin hangi yollar boyunca aktarıldığını veya taşındığını etkileyebilir.
 
-Anlam, yönü olan bir yaşam oluşturur.
-
-Vizyon, anlama ufuk kazandırır.
+Bunu, aynı sıvının farklı biçimde yapılandırılmış kanallardan geçerken farklı bir akış seyri gösterdiği durumlarda fark edebilirsiniz.
 `,
 
-  3: `
-Caban, Muluc'a rehberlik eder.
+3: `
+Akış + Tezahür
 
-Anlam keşif arar.
+<br><br>
 
-Yeni deneyimler yeni içgörüler doğurur.
+Her akış, tezahür eden şeyde doğrudan görünür değildir.
 
-Rehber, bilinmeyene açık kalmayı öğretir.
+Somut olarak gözlemlenebilir hâle gelen şey, bir akışın sonuçlarını gösterebilir ancak akışın tüm seyrini görünür kılmak zorunda değildir.
 
-Her keşif amacı daha da netleştirir.
-
-Keşif, anlama genişlik kazandırır.
+Bunu, gözlemlenebilir bir değişimin bir şeyin taşınmasının veya aktarılmasının sonucu olduğu anlaşıldığında, ancak bunun tüm seyri görünür olmadığında fark edebilirsiniz.
 `,
 
-  4: `
-Imix, Muluc'a rehberlik eder.
+4: `
+Akış + Kaynak
 
-Anlam olasılık arar.
+<br><br>
 
-Her amaç yeni başlangıçlara kapı açar.
+Bir akışın nereden kaynaklandığı her zaman akışın kendisinden çıkarılamaz.
 
-Rehber, tek bir yolun hiçbir zaman tek olasılık olmadığını hatırlatır.
+Taşınan veya aktarılan şey akmaya devam edebilir, ancak kaynağı bu sonraki seyirden anlaşılmayabilir.
 
-Potansiyel sürekli yenilenir.
-
-Olasılık, anlama umut kazandırır.
+Bunu, bir şeyin aktığını veya aktarıldığını gördüğünüz ancak yalnızca bundan yola çıkarak nereden geldiğini doğrudan belirleyemediğiniz durumlarda fark edebilirsiniz.
 `,
 
-  5: `
-Chicchan, Muluc'a rehberlik eder.
+5: `
+Akış + Enerji
 
-Anlam yaşam gücü arar.
+<br><br>
 
-Bir amaç ancak yaşandığında gerçek olur.
+Bir akış, akışın kendisi ile enerji aynı şey olmadan enerji aktarabilir.
 
-Rehber, düşüncenin harekete dönüşmesini ister.
+Akan şey enerjiyi beraberinde taşıyabilir, ancak yalnızca akışın seyrinden ne kadar enerji aktarıldığı sonucu çıkarılamaz.
 
-Yaşam, anlamı görünür kılar.
-
-Yaşam gücü, anlama canlılık kazandırır.
+Bunu, suyun nasıl aktığını gördüğünüz ancak ne kadar enerjinin taşındığını belirlemek için ek bilgiye ihtiyaç duyduğunuz durumlarda fark edebilirsiniz.
 `
 
 },
 
 oc: {
 
-  1: `
-Oc, Oc'u yansıtır.
+1: `
+İlişki + İlişki
 
-Aidiyet kendini tanır.
+<br><br>
 
-Gerçek bağ güven üzerine kurulur.
+Bir ilişki, kendisi de daha geniş bir ilişkiler ağının parçası olabilir.
 
-İnsan ait olduğu yerde kendisi olabilir.
+Tek bir ilişki, tarafların birbirleriyle veya başkalarıyla sahip oldukları diğer ilişkilerin yanında var olabilir.
 
-Arayış onaya yönelik değildir.
-
-Karşılıklı güvene yöneliktir.
-
-Aidiyet kendi sıcaklığını tanır.
+Bunu, biriyle olan ilişkiniz, ikinizin de başkalarıyla ilişkiler içinde bulunduğu daha geniş bir ilişkiler ağının içinde yer aldığında fark edebilirsiniz.
 `,
 
-  2: `
-Ix, Oc'a rehberlik eder.
+2: `
+İlişki + Bilinç
 
-Aidiyet farkındalık arar.
+<br><br>
 
-Gerçek yakınlık dikkatle başlar.
+Bir ilişki, bilinçli olarak fark edilmeden var olabilir.
 
-Rehber, gerçekten görmeyi ve dinlemeyi öğretir.
+Var olan bir ilişkinin bazı yönleri, o anda bilinçli olarak algılanmadan mevcut olabilir.
 
-Anlaşılmak, görülmekle başlar.
-
-Farkındalık, aidiyete derinlik kazandırır.
+Bunu, bir ilişkinin siz onu ilişki olarak fark etmeden önce zaten var olduğunu ancak daha sonra fark ettiğinizde görebilirsiniz.
 `,
 
-  3: `
-Etznab, Oc'a rehberlik eder.
+3: `
+İlişki + Hakikat
 
-Aidiyet hakikat arar.
+<br><br>
 
-Güven dürüstlük üzerine büyür.
+İki şeyin birbiriyle ilişki içinde olması, bu ilişki hakkında neyin doğru olduğunu kendiliğinden belirlemez.
 
-Rehber, maskelerin geride bırakılmasını ister.
+Bir ilişki gerçekten var olabilir, ancak ona ilişkin her açıklama veya yorum gerçeklikle örtüşmek zorunda değildir.
 
-Gerçek ilişkiler açıklık ister.
-
-Hakikat, aidiyete sağlamlık kazandırır.
+Bunu, bir ilişkinin açıkça var olduğu ancak ona ilişkin belirli bir açıklamanın daha sonra gerçeklikle örtüşmediği anlaşıldığında fark edebilirsiniz.
 `,
 
-  4: `
-Ik, Oc'a rehberlik eder.
+4: `
+İlişki + Bilgi
 
-Aidiyet bağ arar.
+<br><br>
 
-Yakınlık karşılıklıdır.
+Bir ilişki hakkındaki bilgi, o ilişkinin her yönünü açıklamak zorunda değildir.
 
-Rehber, her ilişkinin iki insan tarafından kurulduğunu hatırlatır.
+Karşılıklı bir ilişki hakkındaki bilgi, onun belirli yönlerini açıklayabilir ancak tüm yönlerini kapsamak zorunda değildir.
 
-Bağ kurmak sürekli bir seçimdir.
-
-Bağ, aidiyete yaşam kazandırır.
+Bunu, bir ilişki hakkında çok fazla bilgiye sahip olduğunuz hâlde o ilişkinin hâlâ her yönünü bilmediğinizde fark edebilirsiniz.
 `,
 
-  5: `
-Cimi, Oc'a rehberlik eder.
+5: `
+İlişki + Sınırlar
 
-Aidiyet dönüşüm arar.
+<br><br>
 
-İlişkiler bizi değiştirir.
+Bir ilişki, bir sınırın bulunduğu yerde sona ermek zorunda değildir.
 
-Rehber, birlikte büyümeye davet eder.
+Bir ilişki içinde birbirinden sınırlarla ayrılan şeyler, aralarındaki ilişki ortadan kalkmadan birbirinden ayrı kalabilir.
 
-Gerçek yakınlık gelişime alan açar.
-
-Dönüşüm, aidiyete olgunluk kazandırır.
+Bunu, iki insan, grup veya unsur ayrı ayrı sınırlara sahip olduğu hâlde aralarındaki ilişkinin bu nedenle ortadan kalkmadığı durumlarda fark edebilirsiniz.
 `
 
 },
 
 chuen: {
 
-  1: `
-Chuen, Chuen'i yansıtır.
+1: `
+İfade + İfade
 
-Yaratıcılık kendini tanır.
+<br><br>
 
-Hayal gücü yeni olasılıklara hayat verir.
+Bir ifade, kendisi de daha sonraki ifadelerin ortaya çıkmasına yol açabilir.
 
-Her yaratım görünmeyen bir kıvılcımla başlar.
+Mevcut bir ifade, daha sonra yeniden ifade edilen bir şey için malzeme veya çıkış noktası oluşturabilir.
 
-Arayış mükemmelliğe yönelik değildir.
-
-İfadeye yöneliktir.
-
-Yaratıcılık kendi özgürlüğünü tanır.
+Bunu, bir sözcük, jest, görüntü veya eylem bir başkasını kendisinin de bir şeyi ifade etmesine yönelttiğinde fark edebilirsiniz.
 `,
 
-  2: `
-Men, Chuen'e rehberlik eder.
+2: `
+İfade + Perspektif
 
-Yaratıcılık bakış açısı arar.
+<br><br>
 
-Yeni fikirler farklı bir bakış gerektirir.
+Aynı ifade, farklı perspektiflerden farklı şekilde yorumlanabilir.
 
-Rehber, alışılmışın ötesini görmeye davet eder.
+Farklı bir bakış açısı, özgün ifadenin kendisini değiştirmeden ifade edilen şeyin farklı yönlerini öne çıkarabilir.
 
-Yeni bir perspektif yeni olasılıklar doğurur.
-
-Bakış açısı, yaratıcılığa ufuk kazandırır.
+Bunu, iki kişi aynı sözcükleri, eylemi veya görüntüyü algıladığı hâlde kendi perspektiflerinden onda farklı bir şey gördüklerinde fark edebilirsiniz.
 `,
 
-  3: `
-Cauac, Chuen'e rehberlik eder.
+3: `
+İfade + Bütünlük
 
-Yaratıcılık yenilenme arar.
+<br><br>
 
-Eski kalıplar bırakıldığında yeni fikirler doğabilir.
+Birden fazla ifade kendiliğinden bütünlük oluşturan bir yapı meydana getirmez.
 
-Rehber, değişimden korkmamayı öğretir.
+Ayrı ifadeler, birlikte tek bir bütün oluşturacak şekilde birbirleriyle bağlantılı olmadan yan yana var olabilir.
 
-Her dönüşüm yeni bir ilham taşır.
-
-Yenilenme, yaratıcılığa canlılık kazandırır.
+Bunu, sözcükler, görüntüler veya eylemler ayrı ayrı bir şeyi ifade ettiği hâlde birlikte henüz belirgin bir bütün oluşturmadıklarında fark edebilirsiniz.
 `,
 
-  4: `
-Akbal, Chuen'e rehberlik eder.
+4: `
+İfade + Hayal Gücü
 
-Yaratıcılık gizem arar.
+<br><br>
 
-En güçlü fikirler çoğu zaman sessizlikten doğar.
+Bir ifadeden, onun arkasındaki tasavvurun tamamı her zaman çıkarılamaz.
 
-Rehber, bilinmeyene güvenmeyi öğretir.
+Bir ifade, bir tasavvurun belirli yönlerini aktarabilir ancak o tasavvuru her ayrıntısıyla aktarmak zorunda değildir.
 
-Hayal gücü görünmeyeni keşfeder.
-
-Gizem, yaratıcılığa derinlik kazandırır.
+Bunu, zihninizde bir şeyi canlandırdığınız ancak sözcüklerinizin, görüntünüzün veya eyleminizin hayal ettiğiniz her şeyi yansıtmadığını fark ettiğinizde görebilirsiniz.
 `,
 
-  5: `
-Manik, Chuen'e rehberlik eder.
+5: `
+İfade + Etkileşim
 
-Yaratıcılık hizmet arar.
+<br><br>
 
-Gerçek yaratım başkalarının yaşamına da dokunabilir.
+Bir etkileşim içindeki tepki, daha sonra neyin ifade edileceğini etkileyebilir.
 
-Rehber, yeteneklerini paylaşmaya davet eder.
+Bir başkasının tepkisi, bir ifadeyi tamamlamaya, değiştirmeye veya başka bir şekilde sürdürmeye yol açabilir.
 
-İlham yayıldıkça büyür.
-
-Hizmet, yaratıcılığa anlam kazandırır.
+Bunu, bir şey söylediğiniz veya yaptığınız ve ardından gelen tepkiye göre bir sonraki ifadenizi uyarladığınızda fark edebilirsiniz.
 `
 
 },
 
 eb: {
 
-  1: `
-Eb, Eb'i yansıtır.
+1: `
+Yaşam Yolu + Yaşam Yolu
 
-Deneyim kendini tanır.
+<br><br>
 
-Her adım yeni bir öğretmendir.
+İki yaşam yolu, tamamen aynı seyri izlemeksizin yollarının bir bölümünü birlikte geçirebilir.
 
-Yaşam en derin dersleri hareket içinde verir.
+İnsanlar, yaşamlarının bir bölümünde olayları, yerleri veya koşulları paylaşabilirken bireysel yaşam yolları farklı kalabilir.
 
-Arayış bilgiye yönelik değildir.
-
-Yaşanmış anlayışa yöneliktir.
-
-Deneyim kendi değerini tanır.
+Bunu, birinin belirli bir süre boyunca yaşamınızın bir parçası olduğu, ancak bu dönemden önce ve sonra her birinizin yaşamının kendi seyrini izlediği durumlarda fark edebilirsiniz.
 `,
 
-  2: `
-Cib, Eb'e rehberlik eder.
+2: `
+Yaşam Yolu + İz
 
-Deneyim bilgelik arar.
+<br><br>
 
-Yaşananlar üzerine düşünmek anlayışı derinleştirir.
+Bir yaşam yolunun izleri, onun tüm seyrini yansıtmak zorunda değildir.
 
-Rehber, her olayın taşıdığı dersi görmeye davet eder.
+Korunan, kaydedilen veya görünür kalan şeyler, yaşam yolunun belirli bölümlerini tanınabilir hâle getirebilir ancak onun tüm seyrini içermek zorunda değildir.
 
-Bilgelik, deneyime yön verir.
-
-Anlayış, yaşanmış olana değer kazandırır.
+Bunu, fotoğraflar, anılar veya belgeler geçmişiniz hakkında bir şeyler gösterdiğinde ancak yaşadığınız her şeyi göstermediğinde fark edebilirsiniz.
 `,
 
-  3: `
-Ahau, Eb'e rehberlik eder.
+3: `
+Yaşam Yolu + Öz
 
-Deneyim bütünlük arar.
+<br><br>
 
-Her olay daha büyük bir hikâyenin parçasıdır.
+Bir kişinin yaşam yolu boyunca yaşadıkları, o kişinin özünde ne olduğuyla aynı şey değildir.
 
-Rehber, parçalar arasındaki bağı göstermeye davet eder.
+Olaylar ve koşullar, bir yaşam seyrinin parçası hâline gelebilir ancak tek başlarına bir kişiyi özünde kendisi yapan şeyi belirlemezler.
 
-Hiçbir deneyim tek başına durmaz.
-
-Bütünlük, deneyime anlam kazandırır.
+Bunu, bir olay yaşam öykünüzün önemli bir parçası olduğu hâlde tek başına kim olduğunuzu belirlemediğinde fark edebilirsiniz.
 `,
 
-  4: `
-Kan, Eb'e rehberlik eder.
+4: `
+Yaşam Yolu + Potansiyel
 
-Deneyim potansiyel arar.
+<br><br>
 
-Her yaşanmış an gelecekteki büyümenin temelidir.
+Bir yaşam yolu içinde mevcut olan tüm olasılıkların gerçeğe dönüşmesi gerekmez.
 
-Rehber, henüz ortaya çıkmamış olanı görmeye davet eder.
+Gerçekleşen bir yaşam seyri boyunca birden fazla olasılık var olabilir ancak bu olasılıkların hepsi gerçekten yaşananların bir parçası hâline gelmek zorunda değildir.
 
-Her deneyim yeni bir başlangıç taşır.
-
-Potansiyel, deneyime gelecek kazandırır.
+Bunu, farklı olasılıkları değerlendirdiğiniz ancak yaşam yolunuzun sonunda bunların her birini içermediği durumlarda fark edebilirsiniz.
 `,
 
-  5: `
-Lamat, Eb'e rehberlik eder.
+5: `
+Yaşam Yolu + Değer
 
-Deneyim güzellik arar.
+<br><br>
 
-Yaşamın en güzel anları çoğu zaman yaşanırken fark edilir.
+Bir yaşam yolunun parçası olan her şey aynı değere sahip olmak zorunda değildir.
 
-Rehber, takdir etmeyi öğretir.
+Bir yaşam seyri içindeki olaylar, seçimler ve dönemler, o seyrin parçası olmaktan çıkmadan farklı şekilde değerlendirilebilir.
 
-Şükran, sıradan olanı olağanüstü hâle getirir.
-
-Güzellik, deneyime neşe kazandırır.
+Bunu, yaşam öykünüzün bazı bölümleri sizin için büyük anlam taşırken diğer bölümleri daha az önemli olduğunda fark edebilirsiniz.
 `
 
 },
 
 ben: {
 
-  1: `
-Ben, Ben'i yansıtır.
+1: `
+Yapı + Yapı
 
-Vizyon kendini tanır.
+<br><br>
 
-Gelecek önce bir görüntü olarak doğar, sonra gerçeğe dönüşür.
+Bir yapı, kendisi de daha büyük bir yapının parçası olabilir.
 
-Her yön, ileriyi görebilme yeteneğiyle başlar.
+Birlikte belirli bir düzen oluşturan parçalar, bir bütün olarak başka bir düzen içinde yeniden bir parça oluşturabilir.
 
-Arayış öngörüye yönelik değildir.
-
-Yöne yöneliktir.
-
-Vizyon kendi ufkunun farkına varır.
+Bunu, ayrı parçalar birlikte bir birim oluşturduğunda ve bu birim de daha büyük, yapılandırılmış bir bütünün parçası olduğunda fark edebilirsiniz.
 `,
 
-  2: `
-Caban, Ben'e rehberlik eder.
+2: `
+Yapı + Tezahür
 
-Vizyon keşif arar.
+<br><br>
 
-Ufuk, keşfedilebildiğinde anlam kazanır.
+Bir yapı, tezahür eden şeyde bütünüyle görünür olmak zorunda değildir.
 
-Rehber, bilinenin ötesine geçmeye davet eder.
+Somut olarak gözlemlenebilir olan şey, bir yapının belirli yönlerini görünür kılabilir ancak o yapıyı bütünüyle yansıtmak zorunda değildir.
 
-Her yeni keşif, mümkün olana dair anlayışı değiştirir.
-
-Keşif, vizyonu genişletir.
+Bunu, görünür olandan yapının bazı özelliklerini fark edebildiğiniz ancak bundan her parçayı veya her bağlantıyı çıkaramadığınızda fark edebilirsiniz.
 `,
 
-  3: `
-Imix, Ben'e rehberlik eder.
+3: `
+Yapı + Kaynak
 
-Vizyon olasılık arar.
+<br><br>
 
-Gelecek hiçbir zaman tek bir sonuçtan ibaret değildir.
+Bir şeyin yapısından, onun nerede veya neyde köken bulduğu her zaman çıkarılamaz.
 
-Rehber, her yolun yeni seçenekler taşıdığını hatırlatır.
+Belirli bir yapı farklı kökenlerde ortaya çıkabilir; bu nedenle yapı ve kaynak birbirinden zorunlu olarak çıkarılamaz.
 
-Her varış noktası yeni bir başlangıç saklar.
-
-Olasılık, vizyona özgürlük kazandırır.
+Bunu, bir şeyin yapısını inceleyebildiğiniz ancak nereden geldiğini belirlemek için ek bilgiye ihtiyaç duyduğunuzda fark edebilirsiniz.
 `,
 
-  4: `
-Chicchan, Ben'e rehberlik eder.
+4: `
+Yapı + Enerji
 
-Vizyon yaşam gücü arar.
+<br><br>
 
-Bir hayal, yaşama dokunmadıkça uzakta kalır.
+Bir yapı, içinde aktarılan veya dönüştürülen enerji miktarı değişirken varlığını sürdürebilir.
 
-Rehber, tereddüt etmek yerine harekete geçmeye davet eder.
+Parçaların düzenlenişi ile sistem içinde aktarılan veya dönüştürülen enerji miktarı, o sistemin farklı özellikleridir.
 
-Enerji, fikirleri eyleme dönüştürür.
-
-Yaşam gücü, vizyona ivme kazandırır.
+Bunu, bir sistem aynı yapıyı korurken farklı zamanlarda farklı miktarlarda enerji aldığında, aktardığında veya dönüştürdüğünde fark edebilirsiniz.
 `,
 
-  5: `
-Muluc, Ben'e rehberlik eder.
+5: `
+Yapı + Akış
 
-Vizyon anlam arar.
+<br><br>
 
-Bir hedef, kendisinden daha büyük bir şeye hizmet ettiğinde değer kazanır.
+Aynı yapı içinde farklı akışlar gerçekleşebilir.
 
-Rehber, bu yolun neden gerçekten önemli olduğunu sorar.
+Bir yapı içinde taşınan veya aktarılan şey, parçaların düzenlenişi ve bağlantıları bunun sonucunda zorunlu olarak değişmeden değişebilir.
 
-Amaç, hangi ufukların peşinden gidileceğini gösterir.
-
-Anlam, vizyona önem kazandırır.
+Bunu, aynı ağ farklı zamanlarda farklı akışlar taşırken bağlantıları aynı kaldığında fark edebilirsiniz.
 `
 
 },
 
 ix: {
 
-  1: `
-Ix, Ix'i yansıtır.
+1: `
+Bilinç + Bilinç
 
-Farkındalık kendini tanır.
+<br><br>
 
-Bazı gerçekler ancak dikkatli bir gözlemle görünür olur.
+Bilinçli olarak deneyimlenen bir şey, kendisi yeniden bilincin konusu hâline gelebilir.
 
-Arayış kontrole yönelik değildir.
+Bir deneyimin, düşüncenin veya algının bilincinde olabilir ve ayrıca onun bilincinde olduğunuzu fark edebilirsiniz.
 
-Anlamaya yöneliktir.
-
-Anda olmak, dikkatsizliğin gizlediğini açığa çıkarır.
-
-Farkındalık kendi derinliğinin farkına varır.
+Bunu, bir şeyi fark ettiğiniz ve ardından onu fark etmiş olduğunuzun bilincinde olduğunuzu fark ettiğinizde görebilirsiniz.
 `,
 
-  2: `
-Etznab, Ix'e rehberlik eder.
+2: `
+Bilinç + Hakikat
 
-Farkındalık hakikati arar.
+<br><br>
 
-Gözlem ancak dürüst olduğunda anlam kazanır.
+Bir şeyi bilinçli olarak deneyimlemek, deneyimlenen şeyi doğru yapmaz.
 
-Rehber, bakışı varsayımlardan ve görünüşlerden özgürleştirir.
+Bilinçli bir algı, anı veya yorum gerçeklikle örtüşebilir, ancak yalnızca bilinçte mevcut olması bunu garanti etmez.
 
-Geriye yalnızca gerçekten bilinebilecek olan kalır.
-
-Hakikat, farkındalığa kesinlik kazandırır.
+Bunu, bilinçli olarak bir şeyi algıladığınız veya varsaydığınız ancak daha sonra durumun düşündüğünüzden farklı olduğunu keşfettiğinizde fark edebilirsiniz.
 `,
 
-  3: `
-Ik, Ix'e rehberlik eder.
+3: `
+Bilinç + Bilgi
 
-Farkındalık bağ arar.
+<br><br>
 
-Anlayış paylaşıldığında derinleşir.
+Bilinçli olarak fark edilen şey, mevcut tüm bilgiyi kapsamak zorunda değildir.
 
-Rehber, algının ilişkiler aracılığıyla geliştiğini hatırlatır.
+Bilgi, o anda kişinin bilinçli olarak fark ettiği şeyin bir parçası olmadan mevcut veya erişilebilir olabilir.
 
-Farklı bakış açıları gerçeğin farklı yönlerini ortaya çıkarır.
-
-Bağ, farkındalığa insanlık kazandırır.
+Bunu, bilgi zaten önünüzde mevcut olduğu hâlde onu ancak daha sonra bilinçli olarak fark ettiğinizde görebilirsiniz.
 `,
 
-  4: `
-Cimi, Ix'e rehberlik eder.
+4: `
+Bilinç + Sınırlar
 
-Farkındalık dönüşüm arar.
+<br><br>
 
-Açıkça görülen bir şey artık eskisi gibi bırakılamaz.
+Bir şeyin bilincine varmak, onun sınırlarının da tamamen fark edildiği anlamına gelmez.
 
-Rehber, anlayışın içinde saklı büyüme fırsatlarını ortaya çıkarır.
+Bir şeyi bilinçli olarak algılayabilir ancak onun tam olarak nerede sona erdiğini veya başka bir şeyin nerede başladığını fark etmeyebilirsiniz.
 
-İçgörü yenilenmenin başlangıcı olur.
-
-Dönüşüm, farkındalığa gelişim kazandırır.
+Bunu, bir şeyin mevcut olduğunu fark ettiğiniz ancak sınırının nerede olduğunu henüz açıkça belirleyemediğinizde görebilirsiniz.
 `,
 
-  5: `
-Oc, Ix'e rehberlik eder.
+5: `
+Bilinç + İlişki
 
-Farkındalık aidiyet arar.
+<br><br>
 
-En derin anlayış çoğu zaman bizi zaten birleştiren şeyi gösterir.
+Ayrı şeylerin bilincinde olmak, aralarındaki ilişkinin de bilinçli olarak fark edildiği anlamına gelmez.
 
-Rehber, ayrılığın göründüğü kadar mutlak olmadığını hatırlatır.
+Birden fazla şeyi bilinçli olarak algılayabilir ancak bunların birbirleriyle nasıl ilişkili olduğunu fark etmeyebilirsiniz.
 
-Kabul, güveni doğurur.
-
-Aidiyet, farkındalığa kalp kazandırır.
+Bunu, iki olayın veya koşulun zaten bilincinde olduğunuz ancak bunların birbirleriyle nasıl ilişkili olduğunu ancak daha sonra fark ettiğinizde görebilirsiniz.
 `
 
 },
 
 men: {
 
-  1: `
-Men, Men'i yansıtır.
+1: `
+Perspektif + Perspektif
 
-Bakış açısı kendini tanır.
+<br><br>
 
-Mesafe, doğrudan deneyimde gizli kalan desenleri görünür kılar.
+Aynı şey birden fazla perspektiften ele alınabilir.
 
-Arayış kaçışa yönelik değildir.
+Bakış açısındaki bir değişiklik, ele alınan şeyin kendisinin değişmesi gerekmeden farklı yönleri görünür hâle getirebilir.
 
-Anlamaya yöneliktir.
-
-Daha geniş bir bakış, karmaşayı anlamlı bir bağlama dönüştürür.
-
-Bakış açısı kendi ufkunun farkına varır.
+Bunu, aynı duruma farklı bir konumdan baktığınızda ve böylece önceki bakış açınızdan görünmeyen bir şeyi fark ettiğinizde görebilirsiniz.
 `,
 
-  2: `
-Cauac, Men'e rehberlik eder.
+2: `
+Perspektif + Bütünlük
 
-Bakış açısı yenilenme arar.
+<br><br>
 
-Bir bakış açısı zamanla fazla tanıdık hâle gelebilir.
+Tek bir perspektiften, parçalar arasındaki bütünlüğün tamamı görünür olmak zorunda değildir.
 
-Rehber, kesinliği sarsmak için gelir.
+Bir bakış açısı, belirli karşılıklı bağlantıları görünür hâle getirebilir ancak bununla mevcut her bağlantıyı göstermek zorunda değildir.
 
-Eskiden yalnızca eski fikirlerin bulunduğu yerde yeni bakış açıları ortaya çıkar.
-
-Yenilenme, bakış açısına tazelik kazandırır.
+Bunu, farklı bir bakış açısından parçalar arasında daha önceki bakış açınızdan görmediğiniz bir bağlantıyı fark ettiğinizde görebilirsiniz.
 `,
 
-  3: `
-Akbal, Men'e rehberlik eder.
+3: `
+Perspektif + Hayal Gücü
 
-Bakış açısı gizem arar.
+<br><br>
 
-Her şey uzaktan anlaşılmaz.
+Farklı perspektiflerden farklı olasılıklar tasavvur edilebilir hâle gelebilir.
 
-Bazı gerçekler daha derin bir keşfi davet eder.
+Farklı bir bakış açısı, daha önce tasavvurda yer almayan olasılıkları hayal etmeye yol açabilir.
 
-Rehber, anlayışın kesinliğin bittiği yerde başladığını hatırlatır.
-
-Gizem, bakış açısına derinlik kazandırır.
+Bunu, bir duruma farklı bir konumdan baktığınızda ve böylece farklı bir olası gidişatı hayal edebildiğinizde görebilirsiniz.
 `,
 
-  4: `
-Manik, Men'e rehberlik eder.
+4: `
+Perspektif + Etkileşim
 
-Bakış açısı hizmet arar.
+<br><br>
 
-Anlayış, yalnızca gözlemciye değil başkalarına da fayda sağladığında değer kazanır.
+Bir perspektif, etkileşim sırasında gerçekleşenler sonucunda değişebilir.
 
-Rehber, kavrayışın nasıl katkıya dönüşebileceğini sorar.
+Bir başkasının tepkisi veya katkısı, aynı şeyi farklı bir bakış açısından ele almaya yol açabilir.
 
-Daha geniş bir bakış, beraberinde sorumluluk getirir.
-
-Hizmet, bakış açısına amaç kazandırır.
+Bunu, bir konuşma veya karşılaşmadan sonra bir şeye öncekinden farklı bir bakış açısından baktığınızda görebilirsiniz.
 `,
 
-  5: `
-Chuen, Men'e rehberlik eder.
+5: `
+Perspektif + İfade
 
-Bakış açısı yaratıcılık arar.
+<br><br>
 
-Her bakış açısı, başka bir yerden görünmeyen olasılıkları ortaya çıkarır.
+Aynı şey farklı perspektiflerden farklı şekillerde ifade edilebilir.
 
-Rehber, alışılmış sonuçların ötesine geçmeye ilham verir.
+Bir şeyin ele alındığı bakış açısı, onun hangi yönlerinin bir ifadede öne çıkacağını etkileyebilir.
 
-Yeni bakış açıları yeni gerçeklikler oluşturur.
-
-Yaratıcılık, bakış açısına özgürlük kazandırır.
+Bunu, iki kişi aynı olayı anlatırken farklı bakış açılarından olayın farklı yönlerini vurguladıklarında görebilirsiniz.
 `
 
 },
 
 cib: {
 
-  1: `
-Cib, Cib'i yansıtır.
+ 1: `
+İz + İz
 
-Bilgelik kendini tanır.
+<br><br>
 
-Anlayış, yaşanmış deneyim üzerine düşünerek doğar.
+Mevcut bir iz, daha sonra iz olarak geride kalan şeyin kendisi de bir parçası hâline gelebilir.
 
-Bilgi toplanabilir.
+Bir şeyden geriye kalan, daha sonra kopyalanabilir, tarif edilebilir veya kendisi de korunup kalan başka bir şeyin içine dahil edilebilir.
 
-Bilgelik ise kazanılır.
-
-Arayış bilgiye yönelik değildir.
-
-İçgörüye yöneliktir.
-
-Bilgelik kendi derinliğinin farkına varır.
+Bunu, eski bir metin, görüntü veya buluntu kopyalandığında ya da tarif edildiğinde ve bu kopya veya tarif daha sonra kendisi de korunup kaldığında fark edebilirsiniz.
 `,
 
-  2: `
-Ahau, Cib'e rehberlik eder.
+2: `
+İz + Öz
 
-Bilgelik bütünlük arar.
+<br><br>
 
-Tek tek dersler yalnızca resmin bir bölümünü gösterir.
+Bir iz, geride kaldığı şeyin özünde taşıdığı her şeyi içermek zorunda değildir.
 
-Rehber, parçaları bir araya getirmeye davet eder.
+Korunup kalan şey, belirli özellikleri tanınabilir kılabilir ancak bununla aslını özünde kendisi yapan şeyi bütünüyle yansıtmak zorunda değildir.
 
-Ayrı içgörüler birleştiğinde anlayış derinleşir.
-
-Bütünlük, bilgeliğe tamamlanmışlık kazandırır.
+Bunu, bir fotoğraf, metin veya anı bir kişiden ya da şeyden bir şeyleri koruduğunda ancak o kişinin veya şeyin özünde ne olduğunu mutlaka bütünüyle yansıtmadığında fark edebilirsiniz.
 `,
 
-  3: `
-Kan, Cib'e rehberlik eder.
+3: `
+İz + Potansiyel
 
-Bilgelik potansiyel arar.
+<br><br>
 
-Her ders henüz ortaya çıkmamış olasılıklar taşır.
+Bir izden, o iz ortaya çıkmadan önce mevcut olan tüm olasılıkları çıkarmak her zaman mümkün değildir.
 
-Rehber, anlayışın hiçbir zaman gelişimin son noktası olmadığını hatırlatır.
+Gerçekte gerçekleşenlerden geriye kalan şey, gerçekleşmemiş olasılıkların izlerini içermek zorunda değildir.
 
-Öğrenilenlerden yeni fırsatlar doğar.
-
-Potansiyel, bilgeliğe gelecek kazandırır.
+Bunu, yapılmış bir seçim kaydedilmiş olduğu hâlde bu kayıttan o anda başka hangi seçimlerin mümkün olduğunun kendiliğinden anlaşılmadığı durumlarda fark edebilirsiniz.
 `,
 
-  4: `
-Lamat, Cib'e rehberlik eder.
+4: `
+İz + Değer
 
-Bilgelik güzellik arar.
+<br><br>
 
-Hakikat, uyum içinde ifade edildiğinde daha kolay fark edilir.
+Bir şeyin iz olarak korunmuş olması, onun hangi değere sahip olduğunu kendiliğinden belirlemez.
 
-Rehber, karmaşıklığın içinde gizlenen zarafeti ortaya çıkarır.
+Aynı iz, kendisi değişmeden farklı bağlamlarda farklı biçimlerde değerlendirilebilir.
 
-Anlayış çoğu zaman takdir edebilme yeteneğiyle büyür.
-
-Güzellik, bilgeliğe zarafet kazandırır.
+Bunu, korunmuş tek bir cümle, fotoğraf veya nesne sizin için çok daha büyük miktardaki başka korunmuş materyalden daha değerli olduğunda fark edebilirsiniz.
 `,
 
-  5: `
-Eb, Cib'e rehberlik eder.
+5: `
+İz + Yaşam Yolu
 
-Bilgelik deneyim arar.
+<br><br>
 
-Anlayış, yaşam içinde sınanmadıkça eksik kalır.
+Daha önceki bir andan kalan bir iz, daha sonra yeniden bir yaşam yolunun parçası hâline gelebilir.
 
-Rehber, yalnızca gözlemlemeye değil katılmaya da davet eder.
+Korunup kalmış olan şey, daha sonraki bir zamanda yeniden bulunabilir veya kullanılabilir ve böylece yaşamın seyri içinde yeni bir olayın parçası olabilir.
 
-Her ders yaşandığında daha derin hâle gelir.
-
-Deneyim, bilgeliğe gerçeklik kazandırır.
+Bunu, yıllar sonra eski bir mektubu veya fotoğrafı yeniden bulduğunuzda ve bu yeniden buluşun kendisi de yaşamınızın sonraki seyrinin bir parçası hâline geldiğinde fark edebilirsiniz.
 `
 
 },
 
 caban: {
 
-  1: `
-Caban, Caban'ı yansıtır.
+1: `
+Tezahür + Tezahür
 
-Keşif kendini tanır.
+<br><br>
 
-Her cevap yeni bir soruyu doğurur.
+Aynı şey birden fazla şekilde tezahür edebilir.
 
-Her ufkun ardında başka bir ufuk uzanır.
+Somut bir görünüm, aynı şeyin başka bir somut biçimde de görünür veya fark edilebilir hâle gelmesini dışlamaz.
 
-Arayış tamamlanmaya yönelik değildir.
-
-Keşfetmeye yöneliktir.
-
-Keşif kendi hayret duygusunun farkına varır.
+Bunu, aynı olgunun farklı zamanlarda veya farklı koşullar altında farklı şekilde tezahür ettiğinde fark edebilirsiniz.
 `,
 
-  2: `
-Imix, Caban'a rehberlik eder.
+2: `
+Tezahür + Kaynak
 
-Keşif olasılık arar.
+<br><br>
 
-Bilinmeyen yeni başlangıçlara davet eder.
+Bir tezahürden onun nerede köken bulduğunu her zaman çıkarmak mümkün değildir.
 
-Rehber, her keşfin daha önce var olmayan kapılar açtığını hatırlatır.
+Aynı tür somut görünüm farklı kaynaklardan ortaya çıkabilir ve görünümün kendisinden, ona hangi kaynağın öncülük ettiği doğrudan anlaşılamayabilir.
 
-Bulunan her şey, henüz bulunabilecek olanı değiştirir.
-
-Olasılık, keşfe gelecek kazandırır.
+Bunu, somut bir şeyi gözlemlediğiniz ancak yalnızca bu görünümden onun neyden kaynaklandığını belirleyemediğinizde fark edebilirsiniz.
 `,
 
-  3: `
-Chicchan, Caban'a rehberlik eder.
+3: `
+Tezahür + Enerji
 
-Keşif yaşam gücü arar.
+<br><br>
 
-Araştırma ancak doğrudan deneyimlendiğinde anlam kazanır.
+Tezahür eden şey, hangi enerjinin mevcut olduğunu veya aktarıldığını kendiliğinden bütünüyle göstermez.
 
-Rehber, yalnızca gözlemlemeye değil katılmaya da davet eder.
+Aynı tür somut görünüm farklı enerji durumlarında ortaya çıkabilir ve aradaki fark doğrudan görünümün kendisinden anlaşılmayabilir.
 
-Yaşam, teorinin gösteremeyeceği şeyleri ortaya çıkarır.
-
-Yaşam gücü, keşfe hayret kazandırır.
+Bunu, bir olgu gözlemlenebilir olduğu hâlde ne kadar enerjinin mevcut olduğunu veya aktarıldığını belirlemek için ölçümlere ihtiyaç duyulduğunda fark edebilirsiniz.
 `,
 
-  4: `
-Muluc, Caban'a rehberlik eder.
+4: `
+Tezahür + Akış
 
-Keşif anlam arar.
+<br><br>
 
-Her keşif aynı değeri taşımaz.
+Bir tezahür, bir akışın tüm seyrini görünür kılmak zorunda değildir.
 
-Rehber, bulunanların içinde gerçekten neyin önemli olduğunu sorar.
+Anlık bir görünüm, devam eden bir akışın parçası olabilir ancak bu akışın tüm seyri o görünümde görünür olmak zorunda değildir.
 
-Bilgi, amaca dönüştüğünde anlayış derinleşir.
-
-Anlam, keşfe derinlik kazandırır.
+Bunu, bir akışın tek bir anını gördüğünüz ancak yalnızca bundan onun daha önce nasıl ilerlediğini veya sonrasında nasıl devam edeceğini zorunlu olarak bilemediğinizde fark edebilirsiniz.
 `,
 
-  5: `
-Ben, Caban'a rehberlik eder.
+5: `
+Tezahür + Yapı
 
-Keşif vizyon arar.
+<br><br>
 
-Yeni bir manzara ufku değiştirir.
+Somut olarak tezahür eden şey, daha büyük bir yapının parçası olabilir.
 
-Rehber, daha önce görünmeyen yönleri açığa çıkarır.
+Gözlemlenebilir bir görünüm, bir düzen içinde tek bir parça oluşturabilir ancak bu düzenin bütün yapısını kendi içinde kapsamak zorunda değildir.
 
-Her keşif geleceği değiştirir.
-
-Vizyon, keşfe yön kazandırır.
+Bunu, somut olarak mevcut olan bir şey daha büyük, yapılandırılmış bir bütünün tek bir parçasını oluşturduğunda fark edebilirsiniz.
 `
 
 },
 
 etznab: {
 
-  1: `
-Etznab, Etznab'ı yansıtır.
+1: `
+Hakikat + Hakikat
 
-Hakikat kendini tanır.
+<br><br>
 
-Açıklık, her zaman orada olanı görünür kılar.
+Birden fazla doğru ifade, aynı şeyi söylemeden aynı anda doğru olabilir.
 
-Yanılsama, dürüst bir bakış karşısında çözülür.
+Bir ifadenin doğru olması, onunla çelişmeyen başka bir ifadenin de doğru olmasını dışlamaz.
 
-Arayış teselliye yönelik değildir.
-
-Görünüşler kaybolduğunda geriye kalana yöneliktir.
-
-Hakikat kendi ışığının farkına varır.
+Bunu, aynı şey hakkında iki farklı ifade de doğru olduğu hâlde her biri onun farklı bir yönünü anlattığında fark edebilirsiniz.
 `,
 
-  2: `
-Ik, Etznab'a rehberlik eder.
+2: `
+Hakikat + Bilgi
 
-Hakikat bağ arar.
+<br><br>
 
-Anlayış paylaşıldığında güçlenir.
+Doğru olan şeyin mevcut bilgide bütünüyle yer alması gerekmez.
 
-Rehber, açıklığın yalnızlık gerektirmediğini hatırlatır.
+Mevcut bilgi doğru olabilir ancak bununla bir şey hakkında doğru olan her şeyi kapsamak zorunda değildir.
 
-Gerçek olan, insanları birleştirdiğinde daha da anlam kazanır.
-
-Bağ, hakikate ses kazandırır.
+Bunu, o bilgi mevcut hâle gelmeden önce zaten doğru olan bir şey hakkında yeni bilgi mevcut hâle geldiğinde fark edebilirsiniz.
 `,
 
-  3: `
-Cimi, Etznab'a rehberlik eder.
+3: `
+Hakikat + Sınırlar
 
-Hakikat dönüşüm arar.
+<br><br>
 
-Gerçek bir içgörü, onu kabul eden kişiyi değiştirir.
+Doğru bir ifade yalnızca belirli sınırlar içinde geçerli olabilir.
 
-Rehber, anlayışın her zaman sonuçlar doğurduğunu gösterir.
+Belirli koşullar altında doğru olan bir şeyin, bu koşulların dışında da doğru olması gerekmez.
 
-Açıkça görülen şey artık eskisi gibi bırakılamaz.
-
-Dönüşüm, hakikate güç kazandırır.
+Bunu, bir ifade ilgili olduğu koşullar içinde doğru olduğu ancak başka koşullara doğrudan uygulanamadığı zaman fark edebilirsiniz.
 `,
 
-  4: `
-Oc, Etznab'a rehberlik eder.
+4: `
+Hakikat + İlişki
 
-Hakikat aidiyet arar.
+<br><br>
 
-Dürüstlük güven doğurur.
+Ayrı şeyler hakkında bir şeyin doğru olması, bunların birbirleriyle olan ilişkisinin de bununla belirlenmiş olduğu anlamına gelmez.
 
-Rehber, samimiyetin ilişkileri güçlendirdiğini hatırlatır.
+Ayrı unsurlar hakkında doğru ifadeler bulunabilir ancak bunlardan, bu unsurların birbirleriyle nasıl ilişkili olduğu kendiliğinden çıkmaz.
 
-Gerçek olan yakınlığa dayanabilir.
-
-Aidiyet, hakikate sıcaklık kazandırır.
+Bunu, birden fazla gerçeği bildiğiniz ancak yalnızca bunlardan hareketle bunların birbirleriyle bağlantılı olup olmadığını veya nasıl bağlantılı olduklarını henüz belirleyemediğinizde fark edebilirsiniz.
 `,
 
-  5: `
-Ix, Etznab'a rehberlik eder.
+5: `
+Hakikat + Bilinç
 
-Hakikat farkındalık arar.
+<br><br>
 
-Açıklık dikkatle başlar.
+Bir şey, hiç kimse onun bilincinde olmasa da doğru olabilir.
 
-Rehber, önce gözlemlemeyi, sonra hüküm vermeyi öğütler.
+Gerçekte var olan bir durumun doğru olması için bilinçli olarak bilinmesi gerekmez.
 
-Fark edilmeyen şey çoğu zaman en önemli olandır.
-
-Farkındalık, hakikate derinlik kazandırır.
+Bunu, siz onun bilincine varmadan önce zaten var olan bir durumu keşfettiğinizde fark edebilirsiniz.
 `
 
 },
 cauac: {
 
-  1: `
-Cauac, Cauac'ı yansıtır.
+1: `
+Bütünlük + Bütünlük
 
-Yenilenme kendini tanır.
+<br><br>
 
-Değişim, ortaya çıkmak isteyen şeye yer açar.
+Ayrı bütünlük biçimleri, kendileri daha büyük bir bütünlüğün parçası olabilir.
 
-Eski olan sebepsiz yere kaybolmaz.
+Ayrı bütünler içinde birbirine bağlı olan parçalar, ayrıca başka bütünlerin parçalarıyla da bağlantılara sahip olabilir.
 
-Yeni olan davet edilmeden gelmez.
-
-Arayış istikrara yönelik değildir.
-
-Büyümeye yöneliktir.
-
-Yenilenme kendi gücünün farkına varır.
+Bunu, farklı grupların kendi içlerinde bütünlük bulunduğunda ve aynı zamanda bu gruplar arasında da bağlantılar mevcut olduğunda fark edebilirsiniz.
 `,
 
-  2: `
-Akbal, Cauac'a rehberlik eder.
+2: `
+Bütünlük + Hayal Gücü
 
-Yenilenme gizem arar.
+<br><br>
 
-Her dönüşüm anlayışla başlamaz.
+Mevcut bir bütünlük, hayal edebileceğiniz tüm bağlantıları kapsamak zorunda değildir.
 
-Rehber, bilinmeyen karşısında sabırlı olmayı öğretir.
+Parçalar arasında bağlantılar hayal edilebilir ancak bu bağlantılar yalnızca hayal edilmeleri nedeniyle bütünün içinde gerçekten mevcut hâle gelmez.
 
-Kaos gibi görünen şey derin bir anlam taşıyor olabilir.
-
-Gizem, yenilenmeye derinlik kazandırır.
+Bunu, şeyler arasında bir bağlantı hayal edebildiğiniz ancak bununla o bağlantının gerçekten var olup olmadığını henüz bilmediğinizde fark edebilirsiniz.
 `,
 
-  3: `
-Manik, Cauac'a rehberlik eder.
+3: `
+Bütünlük + Etkileşim
 
-Yenilenme hizmet arar.
+<br><br>
 
-Değişim, yalnızca sana değil başkalarına da fayda sağladığında anlam kazanır.
+Parçalar arasındaki bütünlük, bu parçaların birbirleriyle doğrudan etkileşimde bulunmasını gerektirmez.
 
-Rehber, dönüşümünün nasıl bir katkıya dönüşebileceğini sorar.
+Parçalar, kendi aralarında doğrudan bir etkileşim gerçekleşmeden aynı bütün içinde birbirleriyle bağlantılı olabilir.
 
-Büyüme, paylaşıldığında olgunlaşır.
-
-Hizmet, yenilenmeye amaç kazandırır.
+Bunu, iki parça aynı bütün içinde birbirine bağlı olduğu hâlde birbirleriyle doğrudan etkileşimde bulunmadığında fark edebilirsiniz.
 `,
 
-  4: `
-Chuen, Cauac'a rehberlik eder.
+4: `
+Bütünlük + İfade
 
-Yenilenme yaratıcılık arar.
+<br><br>
 
-Gelecek, yalnızca eski kalıplar üzerine kurulamaz.
+Bir bütün içindeki bütünlüğün tamamının bir ifadede ortaya çıkması gerekmez.
 
-Rehber, denemeye ve hayal etmeye ilham verir.
+Bir ifade, parçalar arasındaki belirli bağlantıları gösterebilir ancak bununla mevcut bütünlüğün tamamını ifade etmek zorunda değildir.
 
-Eski sınırlar çözüldüğünde yeni olasılıklar doğar.
-
-Yaratıcılık, yenilenmeye özgürlük kazandırır.
+Bunu, bütünlük içeren bir bütünü tarif ederken aralarındaki bazı bağlantıları belirttiğiniz ancak diğer bağlantıların tarifte yer almadığı durumlarda fark edebilirsiniz.
 `,
 
-  5: `
-Men, Cauac'a rehberlik eder.
+5: `
+Bütünlük + Perspektif
 
-Yenilenme bakış açısı arar.
+<br><br>
 
-Fırtına, yukarıdan bakıldığında farklı görünür.
+Aynı bütünlük, farklı perspektiflerden farklı şekillerde ele alınabilir.
 
-Rehber, sarsıntıların içinde gizlenen desenleri ortaya çıkarır.
+Bir bütünlük içindeki hangi bağlantıların ele alındığı, seçilen bakış açısına bağlı olarak değişebilirken bağlantıların kendileri aynı kalabilir.
 
-Yıkım gibi görünen şey, dönüşüm olabilir.
-
-Bakış açısı, yenilenmeye bilgelik kazandırır.
+Bunu, iki kişi aynı bütünlük içeren bütüne farklı konumlardan baktığında ve onun içindeki aynı bağlantıları mutlaka fark etmediklerinde görebilirsiniz.
 `
 
 },
 
 ahau: {
 
-  1: `
-Ahau, Ahau'yu yansıtır.
+1: `
+Öz + Öz
 
-Bütünlük kendini tanır.
+<br><br>
 
-Tamamlanma bir son değildir.
+Tek bir özellik, bir şeyi özünde kendisi yapan şeyi bütünüyle belirlemek zorunda değildir.
 
-Tüm parçaların tek bir bütün olarak görünür hâle geldiği andır.
+Birden fazla özellik birlikte özsel olabilir ve bunlardan hiçbiri tek başına bütün özü yansıtmak zorunda değildir.
 
-Arayış kusursuzluğa yönelik değildir.
-
-Birliğe yöneliktir.
-
-Bütünlük kendi ışığının farkına varır.
+Bunu, birden fazla özellik bir şeye özsel olarak ait olduğu hâlde bunların hiçbirinin tek başına bütünün özünde ne olduğunu yansıtmadığı durumlarda fark edebilirsiniz.
 `,
 
-  2: `
-Kan, Ahau'ya rehberlik eder.
+2: `
+Öz + Potansiyel
 
-Bütünlük potansiyel arar.
+<br><br>
 
-Her tamamlanış yeni bir başlangıç taşır.
+Bir şeyin özünde ne olduğu, olabileceği veya yapabileceği her şeyle zorunlu olarak örtüşmez.
 
-Rehber, hiçbir döngünün gerçekten sona ermediğini hatırlatır.
+Bir şey birden fazla olasılığa sahip olabilir ve her bir olasılık tek başına onun özünde ne olduğunu belirlemek zorunda değildir.
 
-Her başarı yeni olasılıklar doğurur.
-
-Potansiyel, bütünlüğe yenilenme kazandırır.
+Bunu, bir şey birden fazla olasılığa sahip olduğu hâlde özünde ne olduğunun bu olasılıkların tümüyle örtüşmediği durumlarda fark edebilirsiniz.
 `,
 
-  3: `
-Lamat, Ahau'ya rehberlik eder.
+3: `
+Öz + Değer
 
-Bütünlük güzellik arar.
+<br><br>
 
-Uyum, her parçanın kendi yerini bulmasıyla ortaya çıkar.
+Bir şeyin özünde ne olduğu, ona hangi değerin verileceğini kendiliğinden belirlemez.
 
-Rehber, karmaşıklığın içinde saklı güzelliği gösterir.
+Özsel bir özellik, özsel olmaktan çıkmadan farklı bağlamlarda farklı değerlere sahip olabilir.
 
-Gerçek bütünlük, hiçbir şeyin eksik ya da fazla olmadığı hissini taşır.
-
-Güzellik, bütünlüğe ışıltı kazandırır.
+Bunu, aynı özsel özellik farklı durumlarda farklı şekilde değerlendirildiğinde fark edebilirsiniz.
 `,
 
-  4: `
-Eb, Ahau'ya rehberlik eder.
+4: `
+Öz + Yaşam Yolu
 
-Bütünlük deneyim arar.
+<br><br>
 
-Anlayış, yaşama katılarak derinleşir.
+Bir şeyi özünde kendisi yapan şey, yaşam yolundaki her değişimle birlikte değişmek zorunda değildir.
 
-Rehber, bilgeliğin gerçeklikten ayrı var olamayacağını hatırlatır.
+Bir yaşam süreci farklı olayları ve değişimleri içerebilirken belirli özsel özellikler korunabilir.
 
-İçte birleşen şey, yaşamda da ifade edilmek ister.
-
-Deneyim, bütünlüğe insanlık kazandırır.
+Bunu, bir kişinin koşulları ve yaşamının seyri büyük ölçüde değişirken o kişinin belirli özsel özellikleri tanınabilir kalmaya devam ettiğinde fark edebilirsiniz.
 `,
 
-  5: `
-Cib, Ahau'ya rehberlik eder.
+5: `
+Öz + İz
 
-Bütünlük bilgelik arar.
+<br><br>
 
-Büyük resim, derin düşünmeyle netleşir.
+Özsel olan her şey kalıcı bir iz bırakmak zorunda değildir.
 
-Rehber, yolun içinde gizlenen anlamı ortaya çıkarır.
+Özsel bir özelliğin daha sonra bir izde artık tanınamaması, onun daha önce özsel olmadığı anlamına gelmez.
 
-Her ders bütüne ait olur.
-
-Bilgelik, bütünlüğe anlayış kazandırır.
+Bunu, daha önce özsel olarak mevcut olan bir şeyin daha sonra tanınabilir bir izde artık bulunamadığı durumlarda fark edebilirsiniz.
 `
 
 }

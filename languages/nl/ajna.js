@@ -3,1505 +3,1277 @@ const ajnaPages_nl = {
 imix: {
 
   1: `
-Imix weerspiegelt Imix.
+Bron + Bron.
 
-Mogelijkheid herkent zichzelf.
+<br><br>
 
-Elk begin bevat een nieuw begin.
+Een bron kan zelf weer uit een andere bron voortkomen.
 
-De zoektocht gaat niet over zekerheid.
+Wat ergens als oorsprong verschijnt, hoeft daarom niet de eerste oorsprong te zijn.
 
-Zij gaat over de volgende opening.
-
-Wanneer mogelijkheid zichzelf weerspiegelt, wordt nieuwsgierigheid het pad.
-
-De zoektocht begint opnieuw.
+Je kunt dit herkennen wanneer je teruggaat naar waar iets begon en ontdekt dat ook dat begin ergens uit is voortgekomen.
 `,
 
   2: `
-Chicchan begeleidt Imix.
+Bron + Energie
 
-Mogelijkheid zoekt vitaliteit.
+<br><br>
 
-Ideeën krijgen betekenis wanneer ze geleefd worden.
+Een bron kan energie beschikbaar maken voor wat eruit voortkomt.
 
-Een pad kan niet uitsluitend door denken worden ontdekt.
+De energie hoeft daarbij niet door de bron zelf te zijn ontstaan, maar kan erdoor worden doorgegeven of omgezet.
 
-Beweging onthult wat verbeelding niet kan.
-
-De zoektocht ontwaakt door deelname.
-
-Leven geeft mogelijkheid haar hartslag.
+Je kunt dit herkennen wanneer wat uit een bron voortkomt energie ontvangt die elders kan worden gebruikt of omgezet.
 `,
 
   3: `
-Muluc begeleidt Imix.
+Bron + Stroming
 
-Mogelijkheid zoekt betekenis.
+<br><br>
 
-Vele deuren kunnen zich openen.
+Wat uit een bron voortkomt, hoeft niet bij die bron te blijven.
 
-Niet iedere deur behoort tot jouw reis.
+Stroming kan ervoor zorgen dat wat ergens ontstaat zich verplaatst, verspreidt of verder wordt doorgegeven.
 
-De gids vraagt wat werkelijk belangrijk is.
-
-Betekenis verandert nieuwsgierigheid in richting.
-
-Doel geeft mogelijkheid haar diepte.
+Je kunt dit herkennen wanneer iets een aanwijsbare oorsprong heeft, maar vervolgens ook daarbuiten aanwezig raakt.
 `,
 
   4: `
-Ben begeleidt Imix.
+Bron + Structuur
 
-Mogelijkheid zoekt visie.
+<br><br>
 
-Een begin wordt sterker wanneer het voorbij zichzelf kan kijken.
+Een bron bepaalt niet vanzelf de structuur van wat eruit voortkomt.
 
-De toekomst hoeft niet volledig bekend te zijn.
+Structuur ontstaat uit de verhoudingen en ordening van delen, terwijl de bron aangeeft waar iets zijn oorsprong heeft.
 
-Zij hoeft slechts zichtbaar genoeg te zijn om ernaartoe te bewegen.
-
-Visie verandert potentieel in intentie.
-
-Richting geeft mogelijkheid haar horizon.
+Je kunt dit herkennen wanneer wat uit dezelfde bron voortkomt toch verschillend gestructureerd kan zijn.
 `,
 
   5: `
-Caban begeleidt Imix.
+Bron + Manifestatie
 
-Mogelijkheid zoekt ontdekking.
+<br><br>
 
-Elk antwoord onthult een nieuwe vraag.
+Wat zich manifesteert, maakt zijn bron niet noodzakelijk zichtbaar.
 
-Elke horizon onthult een nieuw landschap.
+Een manifestatie laat zien wat concreet aanwezig is, terwijl de bron betrekking heeft op waaruit het is voortgekomen.
 
-De zoektocht gaat verder omdat de werkelijkheid groter blijft dan verwachting.
-
-Ontdekking verandert potentieel in ervaring.
-
-Verwondering geeft mogelijkheid haar avontuur.
+Je kunt dit herkennen wanneer je ziet wat er is ontstaan, maar daaruit niet met zekerheid kunt bepalen waar het zijn oorsprong vond.
 `
   },
 
 ik: {
 
   1: `
-Ik weerspiegelt Ik.
+Informatie + Informatie
 
-Verbinding herkent zichzelf.
+<br><br>
 
-Elke relatie begint met bewustzijn.
+Informatie kan zelf weer informatie over andere informatie bevatten.
 
-Voordat je een ander kunt begrijpen, moet je eerst aanwezig worden.
+Informatie kan daarom zowel iets beschrijven als wat daarover eerder is vastgelegd, meegedeeld of afgeleid.
 
-De zoektocht gaat niet over overeenstemming.
-
-Zij gaat over oprecht contact.
-
-Verbinding begint waar afscheiding eindigt.
+Je kunt dit herkennen wanneer nieuwe informatie niet rechtstreeks over iets gaat, maar over informatie die daar al over bestond.
 `,
 
   2: `
-Cimi begeleidt Ik.
+Informatie + Grenzen
 
-Verbinding zoekt transformatie.
+<br><br>
 
-Geen enkele relatie blijft onveranderd.
+Informatie kan begrensd zijn door het bereik waarbinnen zij wordt verzameld, vastgelegd of doorgegeven.
 
-Elke ontmoeting laat een spoor achter.
+Wat buiten een afbakening valt, kan bestaan zonder binnen dat bereik te worden waargenomen, vastgelegd of doorgegeven.
 
-Groei vraagt beide mensen verder te ontwikkelen dan wie zij eerder waren.
-
-De zoektocht gaat verder omdat verbinding degenen verandert die haar betreden.
-
-Transformatie geeft verbinding haar diepte.
+Je kunt dit herkennen wanneer de informatie waarover je beschikt kan veranderen zodra je de grens van je onderzoek, gesprek of waarneming verlegt.
 `,
 
   3: `
-Oc begeleidt Ik.
+Informatie + Relatie
 
-Verbinding zoekt verbondenheid.
+<br><br>
 
-Begrip groeit door vertrouwen.
+Informatie over afzonderlijke dingen beschrijft niet vanzelf de relatie tussen die dingen.
 
-Een brug krijgt betekenis wanneer zij van beide kanten bewandeld kan worden.
+Om een relatie te beschrijven is ook informatie nodig over hoe het ene zich tot het andere verhoudt.
 
-De zoektocht gaat niet alleen over contact.
-
-Zij gaat ook over gezelschap.
-
-Verbondenheid geeft verbinding haar warmte.
+Je kunt dit herkennen wanneer je veel over twee mensen, gebeurtenissen of onderdelen weet, maar nog niet weet welk verband er tussen hen bestaat.
 `,
 
   4: `
-Ix begeleidt Ik.
+Informatie + Bewustzijn
 
-Verbinding zoekt bewustzijn.
+<br><br>
 
-Niet alles wat gesproken wordt, wordt begrepen.
+Informatie kan aanwezig zijn zonder dat zij bewust wordt waargenomen.
 
-Niet alles wat begrepen wordt, wordt uitgesproken.
+Dat informatie beschikbaar is, betekent daarom niet dat zij op dat moment deel uitmaakt van wat bewust wordt ervaren.
 
-Aandacht onthult wat woorden vaak verbergen.
-
-De zoektocht verdiept zich wanneer observatie verdiept.
-
-Bewustzijn geeft verbinding haar helderheid.
+Je kunt dit herkennen wanneer informatie al beschikbaar was, maar je je er pas later bewust van wordt.
 `,
 
   5: `
-Etznab begeleidt Ik.
+Informatie + Waarheid
 
-Verbinding zoekt waarheid.
+<br><br>
 
-Relaties worden sterker wanneer illusies verdwijnen.
+Informatie hoeft niet met de werkelijkheid overeen te komen.
 
-Eerlijkheid kan ongemakkelijk aanvoelen.
+Dat iets als informatie wordt vastgelegd of doorgegeven, maakt de inhoud ervan nog niet waar.
 
-Toch kan wat werkelijk is onderzoek doorstaan.
-
-De zoektocht vraagt om authenticiteit vóór zekerheid.
-
-Waarheid geeft verbinding haar fundament.
+Je kunt dit herkennen wanneer informatie overtuigend lijkt, maar later niet met de werkelijkheid blijkt overeen te komen.
 `
 
   },
 
 akbal: {
 
-  1: `
-Akbal weerspiegelt Akbal.
+1: `
+Verbeelding + Verbeelding
 
-Mysterie herkent zichzelf.
+<br><br>
 
-Niet ieder onbekend vraagt om opgelost te worden.
+Wat in de verbeelding ontstaat, kan zelf weer aanleiding worden voor nieuwe verbeelding.
 
-Sommige deuren blijven waardevol omdat zij gesloten blijven.
+Een innerlijke voorstelling kan worden uitgebreid, veranderd of opnieuw voorgesteld zonder dat daarvoor eerst iets buiten de verbeelding hoeft te veranderen.
 
-De zoektocht gaat niet over zekerheid.
-
-Zij gaat over de diepte achter de vraag.
-
-Mysterie wordt zijn eigen pad.
+Je kunt dit herkennen wanneer één beeld of mogelijkheid in gedachten aanleiding geeft tot andere beelden of mogelijkheden.
 `,
 
-  2: `
-Manik begeleidt Akbal.
+2: `
+Verbeelding + Interactie
 
-Mysterie zoekt dienstbaarheid.
+<br><br>
 
-Wat verborgen is krijgt betekenis wanneer het iemand helpt helderder te zien.
+Bij interactie kan wederzijdse beïnvloeding ook veranderen wat wordt voorgesteld.
 
-Inzicht is niet bedoeld om geïsoleerd te blijven.
+Wat tijdens een interactie gebeurt, kan aanleiding geven tot beelden of mogelijkheden die daarvoor nog niet werden voorgesteld.
 
-De gids vraagt hoe innerlijke ontdekkingen bruikbaar kunnen worden.
-
-Dienstbaarheid geeft mysterie een hand.
+Je kunt dit herkennen wanneer een ontmoeting of gesprek je iets anders laat voorstellen dan wat je daarvoor in gedachten had.
 `,
 
-  3: `
-Chuen begeleidt Akbal.
+3: `
+Verbeelding + Expressie
 
-Mysterie zoekt creativiteit.
+<br><br>
 
-Het onbekende hoeft niet altijd een ernstig gezicht te dragen.
+Niet alles wat in de verbeelding ontstaat laat zich volledig tot expressie brengen.
 
-Verbeelding bereikt plaatsen waar logica niet kan komen.
+Wanneer een innerlijke voorstelling tot expressie wordt gebracht, hoeft de uiting niet ieder aspect van die voorstelling te bevatten.
 
-Spel opent verborgen deuren.
-
-Creativiteit geeft mysterie haar taal.
+Je kunt dit herkennen wanneer een beeld in je verbeelding rijker of gedetailleerder is dan je het in woorden, beelden of handelingen kunt uitdrukken.
 `,
 
-  4: `
-Men begeleidt Akbal.
+4: `
+Verbeelding + Perspectief
 
-Mysterie zoekt perspectief.
+<br><br>
 
-Duisternis verandert wanneer zij van bovenaf bekeken wordt.
+Wat je je voorstelt kan veranderen wanneer je hetzelfde vanuit een ander perspectief bekijkt.
 
-Wat van dichtbij verwarrend lijkt, kan vanuit een ruimer perspectief een patroon onthullen.
+Een ander gezichtspunt kan aspecten of mogelijkheden naar voren brengen die binnen de eerdere voorstelling niet werden meegenomen.
 
-De gids neemt het mysterie niet weg.
-
-Hij leert je anders kijken.
-
-Perspectief geeft mysterie haar horizon.
+Je kunt dit herkennen wanneer je een situatie vanuit een andere positie probeert voor te stellen en merkt dat er een ander beeld mogelijk wordt.
 `,
 
-  5: `
-Cauac begeleidt Akbal.
+5: `
+Verbeelding + Samenhang
 
-Mysterie zoekt vernieuwing.
+<br><br>
 
-Het onbekende kan te vertrouwd worden.
+In de verbeelding kunnen afzonderlijke elementen tot een samenhangend geheel worden verbonden.
 
-Een storm breekt oude interpretaties open.
+Die samenhang kan binnen de voorstelling bestaan zonder dat dezelfde verbinding ook buiten die voorstelling aanwezig hoeft te zijn.
 
-Wat verborgen leek, kan klaar zijn om te transformeren.
-
-Vernieuwing geeft mysterie beweging.
+Je kunt dit herkennen wanneer verschillende ideeën in gedachten bij elkaar lijken te passen, terwijl nog moet blijken of dat verband ook werkelijk bestaat.
 `
-
 
   },
 
 kan: {
 
-  1: `
-Kan weerspiegelt Kan.
+1: `
+Potentieel + Potentieel
 
-Potentieel herkent zichzelf.
+<br><br>
 
-Elke mogelijkheid bestaat voordat zij vorm krijgt.
+Een mogelijkheid kan zelf weer toegang geven tot nieuwe mogelijkheden.
 
-Niets is gekozen.
+Wat mogelijk wordt, kan voorwaarden scheppen waardoor andere mogelijkheden bereikbaar worden die dat eerder niet waren.
 
-Niets is verworpen.
-
-De zoektocht begint in openheid.
-
-Potentieel wordt zich bewust van zijn eigen overvloed.
+Je kunt dit herkennen wanneer één mogelijkheid beschikbaar wordt en daarmee mogelijkheden binnen bereik komen die daarvoor nog niet toegankelijk waren.
 `,
 
-  2: `
-Lamat begeleidt Kan.
+2: `
+Potentieel + Waarde
 
-Potentieel zoekt schoonheid.
+<br><br>
 
-Groei wordt gevoed door wat inspireert.
+Niet iedere mogelijkheid heeft dezelfde waarde.
 
-Niet iedere mogelijkheid verdient dezelfde aandacht.
+Welke waarde aan een mogelijkheid wordt toegekend, kan verschillen afhankelijk van de context waarin zij wordt beschouwd.
 
-Sommige paden lichten op omdat zij dieper resoneren.
-
-Schoonheid geeft potentieel haar aantrekkingskracht.
+Je kunt dit herkennen wanneer meerdere mogelijkheden openstaan, maar sommige daarvan meer betekenis of belang hebben dan andere.
 `,
 
-  3: `
-Eb begeleidt Kan.
+3: `
+Potentieel + Levenspad
 
-Potentieel zoekt ervaring.
+<br><br>
 
-Een mogelijkheid blijft theoretisch totdat zij geleefd wordt.
+Niet iedere mogelijkheid wordt onderdeel van een levenspad.
 
-Begrip groeit door deelname.
+Binnen een levenspad wordt een daadwerkelijk verloop zichtbaar, terwijl daarnaast mogelijkheden kunnen bestaan die geen deel van dat verloop worden.
 
-De gids nodigt je uit de weg op te gaan.
-
-Ervaring geeft potentieel werkelijkheid.
+Je kunt dit herkennen wanneer je terugkijkt op mogelijkheden die je had, maar ziet dat niet iedere mogelijkheid onderdeel werd van het verloop van je leven.
 `,
 
-  4: `
-Cib begeleidt Kan.
+4: `
+Potentieel + Spoor
 
-Potentieel zoekt wijsheid.
+<br><br>
 
-Veel kansen lijken waardevol.
+Een mogelijkheid kan aanwezig zijn zonder een spoor achter te laten.
 
-De tijd onthult welke werkelijk betekenis hebben.
+Een spoor kan zichtbaar maken wat heeft plaatsgevonden of is vastgelegd, maar hoeft niet alle mogelijkheden te bevatten die daarbij aanwezig waren.
 
-De gids moedigt geduld en reflectie aan.
-
-Wijsheid geeft potentieel onderscheidingsvermogen.
+Je kunt dit herkennen wanneer je achteraf wel kunt zien wat er gebeurd is, maar niet alle mogelijkheden kunt terugvinden die er daarvoor waren.
 `,
 
-  5: `
-Ahau begeleidt Kan.
+5: `
+Potentieel + Essentie
 
-Potentieel zoekt heelheid.
+<br><br>
 
-Elk zaad bevat meer dan één mogelijke uitkomst.
-
-Groei beweegt richting integratie.
-
-De gids herinnert je eraan dat mogelijkheden betekenis krijgen wanneer zij een groter geheel dienen.
-
-Heelheid geeft potentieel zijn doel.
+Wat in iets mogelijk is, hoeft niet samen te vallen met wat het op dat moment wezenlijk is.
+Potentieel omvat mogelijkheden die nog niet gerealiseerd hoeven te zijn, terwijl essentie betrekking heeft op wat iets in wezen tot zichzelf maakt.
+Je kunt dit herkennen wanneer je mogelijkheden in iets ziet die nog niet bepalen wat het in wezen is.
 `
-
 
   },
 
 chicchan: {
 
-  1: `
-Chicchan weerspiegelt Chicchan.
+1: `
+Energie + Energie
 
-Vitaliteit herkent zichzelf.
+<br><br>
 
-Het leven wil zichzelf volledig uitdrukken.
+Energie kan van de ene vorm in een andere vorm worden omgezet.
 
-Energie zoekt beweging.
+Bij energieomzetting verandert de vorm waarin energie voorkomt, terwijl de totale energie binnen een geïsoleerd systeem behouden blijft.
 
-Beweging zoekt ervaring.
-
-De zoektocht vraagt niet om toestemming.
-
-Zij vraagt om deelname.
-
-Vitaliteit wordt zich bewust van haar eigen levendigheid.
+Je kunt dit herkennen wanneer bewegingsenergie door wrijving wordt omgezet in thermische energie.
 `,
 
-  2: `
-Muluc begeleidt Chicchan.
+2: `
+Energie + Stroming
 
-Vitaliteit zoekt betekenis.
+<br><br>
 
-Energie alleen is niet voldoende.
+Energie kan door stroming van de ene plaats naar de andere worden overgedragen.
 
-Beweging krijgt meer kracht wanneer zij iets dient dat werkelijk belangrijk is.
+Wanneer iets stroomt, kan het energie meenemen en die elders binnen of buiten een systeem afgeven.
 
-De gids vraagt wat jouw passie werkelijk voedt.
-
-Betekenis geeft vitaliteit haar diepte.
+Je kunt dit herkennen wanneer stromend water warmte-energie van de ene plaats naar de andere transporteert.
 `,
 
-  3: `
-Ben begeleidt Chicchan.
+3: `
+Energie + Structuur
 
-Vitaliteit zoekt visie.
+<br><br>
 
-Het leven beweegt van nature.
+Dezelfde hoeveelheid energie kan binnen verschillende structuren tot verschillende processen bijdragen.
 
-De vraag is waarheen.
+De ordening en verbinding van onderdelen kan mede bepalen waar en op welke manier energie binnen een systeem wordt overgedragen of omgezet.
 
-Een heldere horizon verandert impuls in richting.
-
-Visie geeft vitaliteit haar doel.
+Je kunt dit herkennen wanneer dezelfde energiebron in verschillend opgebouwde systemen op verschillende manieren wordt gebruikt of omgezet.
 `,
 
-  4: `
-Caban begeleidt Chicchan.
+4: `
+Energie + Manifestatie
 
-Vitaliteit zoekt ontdekking.
+<br><br>
 
-De levende wereld is groter dan iedere verwachting.
+De aanwezigheid van energie bepaalt niet vanzelf welk waarneembaar verschijnsel ermee gepaard gaat.
 
-Nieuwsgierigheid nodigt uit tot ervaringen buiten vertrouwde grenzen.
+Dezelfde hoeveelheid energie kan in verschillende processen worden overgedragen of omgezet en daarbij met verschillende waarneembare verschijnselen gepaard gaan.
 
-De gids moedigt verkenning aan.
-
-Ontdekking geeft vitaliteit haar avontuur.
+Je kunt dit herkennen wanneer energie in de ene situatie gepaard gaat met waarneembare beweging en in een andere met een waarneembare temperatuurverandering.
 `,
 
-  5: `
-Imix begeleidt Chicchan.
+5: `
+Energie + Bron
 
-Vitaliteit zoekt mogelijkheid.
+<br><br>
 
-Het leven wil zichzelf niet eindeloos herhalen.
+De aanwezigheid van energie onthult niet vanzelf uit welke bron zij afkomstig is.
 
-Elk einde bevat een nieuw begin.
+Energie kan uit verschillende bronnen afkomstig zijn, waardoor haar aanwezigheid alleen haar oorsprong niet noodzakelijk herkenbaar maakt.
 
-De gids onthult paden die nog niet zijn overwogen.
-
-Mogelijkheid geeft vitaliteit haar toekomst.
+Je kunt dit herkennen wanneer je energie kunt meten of de gevolgen ervan kunt waarnemen, maar afzonderlijk moet onderzoeken waar die energie vandaan komt.
 `
-
 
   },
 
 cimi: {
 
-  1: `
-Cimi weerspiegelt Cimi.
+1: `
+Grenzen + Grenzen
 
-Transformatie herkent zichzelf.
+<br><br>
 
-Verandering is een voortdurende metgezel.
+Een grens kan zelf binnen andere grenzen liggen.
 
-Niets blijft precies zoals het was.
+Verschillende grenzen kunnen zo niveaus van afbakening vormen zonder met elkaar samen te vallen.
 
-Elk einde creëert ruimte voor een nieuw begin.
-
-De zoektocht gaat niet over permanentie.
-
-Zij gaat over vernieuwing.
-
-Transformatie wordt zich bewust van haar eigen ritme.
+Je kunt dit herkennen wanneer een afgebakend gebied zelf weer binnen een ruimer afgebakend gebied ligt.
 `,
 
-  2: `
-Oc begeleidt Cimi.
+2: `
+Grenzen + Relatie
 
-Transformatie zoekt verbondenheid.
+<br><br>
 
-Verandering wordt draaglijker wanneer zij gedeeld wordt.
+Een relatie kan bestaan over een grens heen.
 
-Ondersteuning maakt groei mogelijk tijdens perioden van onzekerheid.
+Een afbakening onderscheidt het ene van het andere, maar sluit een onderlinge verhouding tussen beide niet noodzakelijk uit.
 
-De gids herinnert je eraan dat geen enkele reis alleen hoeft te worden afgelegd.
-
-Verbondenheid geeft transformatie haar moed.
+Je kunt dit herkennen wanneer twee mensen, groepen of onderdelen duidelijk van elkaar te onderscheiden zijn en toch met elkaar in relatie staan.
 `,
 
-  3: `
-Ix begeleidt Cimi.
+3: `
+Grenzen + Bewustzijn
 
-Transformatie zoekt bewustzijn.
+<br><br>
 
-Veel veranderingen beginnen lang voordat zij zichtbaar worden.
+Niet iedere grens wordt bewust waargenomen.
 
-De gids moedigt aandachtige observatie aan.
+Een afbakening kan bestaan zonder dat zij op dat moment bewust als grens wordt herkend.
 
-Wat plotseling lijkt, heeft vaak diepe wortels.
-
-Bewustzijn geeft transformatie haar helderheid.
+Je kunt dit herkennen wanneer je pas later merkt dat er al een grens bestond die je eerder niet had opgemerkt.
 `,
 
-  4: `
-Etznab begeleidt Cimi.
+4: `
+Grenzen + Waarheid
 
-Transformatie zoekt waarheid.
+<br><br>
 
-Niet iedere verandering leidt vooruit.
+Een afbakening verandert niet vanzelf wat waar is.
 
-Sommige paden herhalen oude patronen in een nieuwe vorm.
+Een grens kan bepalen wat afzonderlijk wordt beschouwd, zonder daarmee te bepalen wat daarover met de werkelijkheid overeenkomt.
 
-De gids verwijdert illusies uit het proces.
-
-Waarheid geeft transformatie haar richting.
+Je kunt dit herkennen wanneer je iets binnen een bepaalde grens onderzoekt, maar die afbakening op zichzelf nog niet bepaalt welke conclusie waar is.
 `,
 
-  5: `
-Ik begeleidt Cimi.
+5: `
+Grenzen + Informatie
 
-Transformatie zoekt verbinding.
+<br><br>
 
-Groei verandert de manier waarop je je tot de wereld verhoudt.
+Een grens kan bepalen welke informatie binnen een afbakening wordt meegenomen en welke daarbuiten valt.
 
-Oude relaties ontwikkelen zich.
+Informatie binnen een afbakening hoeft daarom geen informatie te bevatten over alles wat daarbuiten ligt.
 
-Nieuwe relaties ontstaan.
-
-De gids herinnert je eraan dat verandering nooit uitsluitend persoonlijk is.
-
-Verbinding geeft transformatie haar menselijkheid.
+Je kunt dit herkennen wanneer je de grens van wat je onderzoekt verlegt en daardoor informatie binnen je beschouwing komt die eerder erbuiten viel.
 `
-
 
   },
 
 manik: {
 
-  1: `
-Manik weerspiegelt Manik.
+1: `
+Interactie + Interactie
 
-Dienstbaarheid herkent zichzelf.
+<br><br>
 
-Anderen helpen begint met begrijpen wat werkelijk nodig is.
+Een interactie kan zelf aanleiding geven tot verdere interacties.
 
-Niet ieder probleem vraagt om een oplossing.
+Wat door wederzijdse beïnvloeding verandert, kan vervolgens opnieuw invloed uitoefenen op wat ermee in wisselwerking staat.
 
-Niet iedere last vraagt om gedragen te worden.
-
-De zoektocht gaat niet alleen over nuttigheid.
-
-Zij gaat over betekenisvolle bijdrage.
-
-Dienstbaarheid wordt zich bewust van haar eigen doel.
+Je kunt dit herkennen wanneer een uitwisseling een reactie oproept die vervolgens weer tot een nieuwe uitwisseling leidt.
 `,
 
-  2: `
-Chuen begeleidt Manik.
+2: `
+Interactie + Expressie
 
-Dienstbaarheid zoekt creativiteit.
+<br><br>
 
-Er bestaat meer dan één manier om te helpen.
+Expressie kan tijdens een interactie invloed hebben op wat er vervolgens tussen de betrokkenen gebeurt.
 
-De gids moedigt flexibiliteit en verbeeldingskracht aan.
+Wat wordt uitgedrukt kan een reactie oproepen, waarna die reactie zelf weer deel kan worden van de interactie.
 
-Nieuwe oplossingen verschijnen wanneer oude aannames worden losgelaten.
-
-Creativiteit geeft dienstbaarheid haar aanpassingsvermogen.
+Je kunt dit herkennen wanneer woorden, gebaren of handelingen een reactie bij een ander oproepen en daardoor het verdere verloop van de uitwisseling mede beïnvloeden.
 `,
 
-  3: `
-Men begeleidt Manik.
+3: `
+Interactie + Perspectief
 
-Dienstbaarheid zoekt perspectief.
+<br><br>
 
-Goede bedoelingen worden sterker wanneer zij het grotere geheel begrijpen.
+Dezelfde interactie kan vanuit verschillende perspectieven anders worden ervaren of beschreven.
 
-De gids nodigt je uit eerst afstand te nemen voordat je handelt.
+Een ander gezichtspunt kan andere aspecten van een interactie zichtbaar maken zonder dat daardoor verandert welke interactie heeft plaatsgevonden.
 
-Een ruimer perspectief onthult waar inspanning het meeste effect heeft.
-
-Perspectief geeft dienstbaarheid haar wijsheid.
+Je kunt dit herkennen wanneer twee mensen aan hetzelfde gesprek deelnemen, maar vanuit hun eigen positie verschillend beschrijven wat er tussen hen gebeurde.
 `,
 
-  4: `
-Cauac begeleidt Manik.
+4: `
+Interactie + Samenhang
 
-Dienstbaarheid zoekt vernieuwing.
+<br><br>
 
-Zelfs het meest toegewijde pad kan routine worden.
+Interactie leidt niet vanzelf tot samenhang.
 
-De gids arriveert als een storm.
+Onderdelen kunnen elkaar wederzijds beïnvloeden zonder dat zij daardoor samen een onderling verbonden geheel vormen.
 
-Oude methoden maken plaats voor nieuwe mogelijkheden.
-
-Vernieuwing geeft dienstbaarheid haar vitaliteit.
+Je kunt dit herkennen wanneer mensen, groepen of onderdelen op elkaar reageren, maar daardoor nog niet als samenhangend geheel functioneren.
 `,
 
-  5: `
-Akbal begeleidt Manik.
+5: `
+Interactie + Verbeelding
 
-Dienstbaarheid zoekt mysterie.
+<br><br>
 
-Niet ieder antwoord wordt direct zichtbaar.
+Een voorgestelde interactie hoeft niet overeen te komen met de interactie die daadwerkelijk plaatsvindt.
 
-Sommige vormen van hulp beginnen met luisteren in plaats van handelen.
+In de verbeelding kunnen reacties en wederzijdse beïnvloeding worden voorgesteld zonder dat bekend is hoe de betrokkenen werkelijk op elkaar zullen reageren.
 
-De gids leert geduld met het onbekende.
-
-Mysterie geeft dienstbaarheid haar nederigheid.
+Je kunt dit herkennen wanneer je vooraf een gesprek of ontmoeting in gedachten doorloopt, maar de werkelijke interactie anders verloopt.
 `
-
 
   },
 
 lamat: {
 
-  1: `
-Lamat weerspiegelt Lamat.
+1: `
+Waarde + Waarde
 
-Schoonheid herkent zichzelf.
+<br><br>
 
-Sommige waarheden worden niet begrepen door analyse alleen.
+Iets van waarde kan zelf bijdragen aan de waarde van iets anders.
 
-Zij worden gevoeld.
+De waarde die aan iets wordt toegekend kan mede samenhangen met de waarde van datgene waarmee het verbonden is.
 
-Schoonheid opent de deur naar waardering.
-
-De zoektocht begint wanneer verwondering aandacht krijgt.
-
-Schoonheid wordt zich bewust van haar eigen licht.
+Je kunt dit herkennen wanneer iets belangrijker voor je wordt doordat het verbonden is met iets waaraan je al waarde hecht.
 `,
 
-  2: `
-Eb begeleidt Lamat.
+2: `
+Waarde + Levenspad
 
-Schoonheid zoekt ervaring.
+<br><br>
 
-Inspiratie krijgt betekenis wanneer zij wordt geleefd.
+De waarde van wat onderdeel is van een levenspad kan in de loop ervan veranderen.
 
-De gids nodigt je uit om niet alleen te bewonderen, maar ook deel te nemen.
+Wat onderweg gebeurt kan later een andere betekenis of een ander belang krijgen door de context waarin het binnen het verdere verloop komt te staan.
 
-Ervaring verandert bewondering in begrip.
-
-Ervaring geeft schoonheid haar aanwezigheid.
+Je kunt dit herkennen wanneer een gebeurtenis uit je verleden later meer of minder betekenis voor je krijgt dan zij op het moment zelf had.
 `,
 
-  3: `
-Cib begeleidt Lamat.
+3: `
+Waarde + Spoor
 
-Schoonheid zoekt wijsheid.
+<br><br>
 
-Niet alles wat aantrekkelijk is, is waardevol.
+Een spoor hoeft niet dezelfde waarde te hebben als datgene waarvan het is achtergebleven.
 
-De gids helpt onderscheid te maken tussen glans en betekenis.
+Wat achterblijft kan een eigen betekenis of belang hebben naast de waarde van datgene waarvan het een spoor vormt.
 
-Wijsheid onthult wat duurzaam is.
-
-Wijsheid geeft schoonheid haar diepte.
+Je kunt dit herkennen wanneer een voorwerp, teken of herinnering waarde voor je heeft doordat het verwijst naar iets dat niet meer aanwezig is.
 `,
 
-  4: `
-Ahau begeleidt Lamat.
+4: `
+Waarde + Essentie
 
-Schoonheid zoekt heelheid.
+<br><br>
 
-Ware schoonheid verbindt delen tot een harmonieus geheel.
+De waarde die aan iets wordt toegekend hoeft niet samen te vallen met wat het wezenlijk tot zichzelf maakt.
 
-De gids herinnert je eraan dat niets volledig op zichzelf staat.
+Iets kan veel of weinig betekenis of belang hebben zonder dat die waardering bepaalt wat het in wezen is.
 
-Heelheid geeft schoonheid haar samenhang.
+Je kunt dit herkennen wanneer wat iets voor jou betekent verandert, terwijl datgene zelf in wezen niet noodzakelijk is veranderd.
 `,
 
-  5: `
-Kan begeleidt Lamat.
+5: `
+Waarde + Potentieel
 
-Schoonheid zoekt potentieel.
+<br><br>
 
-Achter elke bloem schuilt een zaad.
+De waarde die aan iets wordt toegekend kan mede afhangen van wat ermee mogelijk is.
 
-Achter elke vervulling een nieuwe mogelijkheid.
+Ook mogelijkheden die nog niet zijn gerealiseerd kunnen betekenis of belang hebben en meewegen in de waarde die eraan wordt toegekend.
 
-De gids onthult wat nog kan ontstaan.
-
-Potentieel geeft schoonheid haar toekomst.
+Je kunt dit herkennen wanneer je ergens waarde in ziet vanwege wat ermee mogelijk is, ook al is die mogelijkheid nog niet werkelijkheid geworden.
 `
-
 
   },
 
 muluc: {
 
-  1: `
-Muluc weerspiegelt Muluc.
+1: `
+Stroming + Stroming
 
-Betekenis herkent zichzelf.
+<br><br>
 
-Niet alles wat waardevol is kan worden gemeten.
+Een stroming kan zelf deel uitmaken van een grotere stroming.
 
-Sommige dingen worden pas zichtbaar wanneer zij gevoeld worden.
+Een lokale stroming kan haar eigen verloop hebben terwijl zij tegelijk wordt meegenomen in de beweging van een groter geheel.
 
-De zoektocht begint met de vraag wat werkelijk belangrijk is.
-
-Betekenis wordt zich bewust van haar eigen diepte.
+Je kunt dit herkennen wanneer een lokale stroom een eigen richting of verloop heeft, terwijl zij tegelijkertijd onderdeel is van een grotere stroom.
 `,
 
-  2: `
-Ben begeleidt Muluc.
+2: `
+Stroming + Structuur
 
-Betekenis zoekt visie.
+<br><br>
 
-Waarden krijgen richting wanneer zij verbonden worden met een grotere horizon.
+De structuur van een systeem kan mede bepalen hoe een stroming erdoorheen verloopt.
 
-De gids nodigt je uit verder te kijken dan onmiddellijke omstandigheden.
+De ordening en verbinding van onderdelen kan beïnvloeden langs welke routes iets wordt doorgegeven of verplaatst.
 
-Visie onthult waarom iets de moeite waard is.
-
-Visie geeft betekenis haar toekomst.
+Je kunt dit herkennen wanneer dezelfde vloeistof door verschillend opgebouwde kanalen een ander stromingsverloop krijgt.
 `,
 
-  3: `
-Caban begeleidt Muluc.
+3: `
+Stroming + Manifestatie
 
-Betekenis zoekt ontdekking.
+<br><br>
 
-Een overtuiging wordt sterker wanneer zij onderzocht wordt.
+Niet iedere stroming is rechtstreeks zichtbaar in wat zich manifesteert.
 
-De gids moedigt nieuwsgierigheid aan.
+Wat concreet waarneembaar wordt, kan gevolgen van een stroming laten zien zonder het volledige verloop ervan zichtbaar te maken.
 
-Nieuwe ervaringen kunnen verborgen lagen van waarde onthullen.
-
-Ontdekking geeft betekenis haar groei.
+Je kunt dit herkennen wanneer een waarneembare verandering het gevolg blijkt van iets dat is verplaatst of doorgegeven, terwijl het volledige verloop daarvan niet zichtbaar was.
 `,
 
-  4: `
-Imix begeleidt Muluc.
+4: `
+Stroming + Bron
 
-Betekenis zoekt mogelijkheid.
+<br><br>
 
-Wat vandaag belangrijk lijkt, kan morgen een nieuwe vorm aannemen.
+Uit een stroming is niet altijd af te leiden waar zij haar oorsprong heeft.
 
-De gids herinnert je eraan dat betekenis blijft evolueren.
+Wat wordt verplaatst of doorgegeven kan verder stromen zonder dat de bron ervan uit dat verdere verloop herkenbaar is.
 
-Nieuwe mogelijkheden houden waarden levend.
-
-Mogelijkheid geeft betekenis haar vernieuwing.
+Je kunt dit herkennen wanneer je iets ziet stromen of doorgegeven ziet worden, maar daaruit niet direct kunt bepalen waar het vandaan komt.
 `,
 
-  5: `
-Chicchan begeleidt Muluc.
+5: `
+Stroming + Energie
 
-Betekenis zoekt vitaliteit.
+<br><br>
 
-Een ideaal dat nooit geleefd wordt, verliest zijn kracht.
+Een stroming kan energie overdragen zonder dat de stroming en de energie hetzelfde zijn.
 
-De gids moedigt deelname aan.
+Wat stroomt kan energie meenemen, maar uit het verloop van de stroming alleen volgt niet hoeveel energie daarbij wordt overgedragen.
 
-Waarden worden werkelijk wanneer zij door ervaring stromen.
-
-Vitaliteit geeft betekenis haar hartslag.
+Je kunt dit herkennen wanneer je ziet hoe water stroomt, maar aanvullende informatie nodig hebt om te bepalen hoeveel energie daarbij wordt getransporteerd.
 `
-
 
   },
 
 oc: {
 
-  1: `
-Oc weerspiegelt Oc.
+1: `
+Relatie + Relatie
 
-Verbondenheid herkent zichzelf.
+<br><br>
 
-Geen enkel wezen groeit volledig alleen.
+Een relatie kan zelf deel uitmaken van een groter geheel van relaties.
 
-Relaties vormen paden tussen werelden.
+Een afzonderlijke relatie kan bestaan naast andere relaties van dezelfde betrokkenen met elkaar of met anderen.
 
-De zoektocht begint wanneer vertrouwen mogelijk wordt.
-
-Verbondenheid wordt zich bewust van haar eigen kracht.
+Je kunt dit herkennen wanneer je relatie met iemand bestaat binnen een groter geheel van relaties waarin jullie beiden ook met anderen betrokken zijn.
 `,
 
-  2: `
-Ix begeleidt Oc.
+2: `
+Relatie + Bewustzijn
 
-Verbondenheid zoekt bewustzijn.
+<br><br>
 
-Niet iedere verbinding is zichtbaar aan de oppervlakte.
+Een relatie kan bestaan zonder dat zij bewust wordt herkend.
 
-De gids nodigt uit tot aandachtig kijken.
+Van een bestaande relatie kunnen aspecten aanwezig zijn die op dat moment niet bewust worden waargenomen.
 
-Dieper begrip ontstaat wanneer aanwezigheid belangrijker wordt dan oordeel.
-
-Bewustzijn geeft verbondenheid haar helderheid.
+Je kunt dit herkennen wanneer je je pas later bewust wordt van een relatie die al bestond voordat je haar als zodanig herkende.
 `,
 
-  3: `
-Etznab begeleidt Oc.
+3: `
+Relatie + Waarheid
 
-Verbondenheid zoekt waarheid.
+<br><br>
 
-Vertrouwen groeit niet door perfectie.
+Dat twee dingen met elkaar in relatie staan, bepaalt niet vanzelf wat over die relatie waar is.
 
-Het groeit door eerlijkheid.
+Een relatie kan werkelijk bestaan zonder dat iedere beschrijving of interpretatie ervan met de werkelijkheid overeenkomt.
 
-De gids verwijdert wat niet authentiek is.
-
-Waarheid geeft verbondenheid haar fundament.
+Je kunt dit herkennen wanneer een relatie duidelijk bestaat, maar een bepaalde uitleg ervan later niet met de werkelijkheid blijkt overeen te komen.
 `,
 
-  4: `
-Ik begeleidt Oc.
+4: `
+Relatie + Informatie
 
-Verbondenheid zoekt verbinding.
+<br><br>
 
-Relaties verdiepen zich wanneer communicatie wederzijds wordt.
+Informatie over een relatie hoeft niet ieder aspect van die relatie te beschrijven.
 
-Luisteren is even belangrijk als spreken.
+Informatie over een onderlinge verhouding kan bepaalde aspecten ervan beschrijven zonder noodzakelijk alle aspecten te omvatten.
 
-De gids herinnert je eraan dat wederkerigheid een brug vormt.
-
-Verbinding geeft verbondenheid haar stroom.
+Je kunt dit herkennen wanneer je veel informatie over een relatie hebt, maar daarmee nog niet ieder aspect van die verhouding kent.
 `,
 
-  5: `
-Cimi begeleidt Oc.
+5: `
+Relatie + Grenzen
 
-Verbondenheid zoekt transformatie.
+<br><br>
 
-Geen relatie blijft onveranderd.
+Een relatie hoeft niet op te houden waar een grens bestaat.
 
-Samen groeien vraagt ruimte voor verandering.
+Wat binnen een relatie van elkaar wordt begrensd, kan onderscheiden blijven zonder dat de onderlinge verhouding daarmee verdwijnt.
 
-De gids helpt oude vormen los te laten zodat nieuwe kunnen ontstaan.
-
-Transformatie geeft verbondenheid haar toekomst.
+Je kunt dit herkennen wanneer twee mensen, groepen of onderdelen afzonderlijk begrensd zijn, maar hun relatie daardoor niet verdwijnt.
 `
-
 
   },
 
 chuen: {
 
-  1: `
-Chuen weerspiegelt Chuen.
+1: `
+Expressie + Expressie
 
-Creativiteit herkent zichzelf.
+<br><br>
 
-Niet alles hoeft vooraf begrepen te worden.
+Een expressie kan zelf aanleiding geven tot verdere expressie.
 
-Sommige ontdekkingen ontstaan tijdens het proces.
+Een bestaande uiting kan materiaal of aanleiding vormen voor iets dat daarna opnieuw tot uiting wordt gebracht.
 
-De zoektocht begint wanneer nieuwsgierigheid belangrijker wordt dan controle.
-
-Creativiteit wordt zich bewust van haar eigen vrijheid.
+Je kunt dit herkennen wanneer een woord, gebaar, beeld of handeling iemand ertoe brengt zelf iets tot uiting te brengen.
 `,
 
-  2: `
-Men begeleidt Chuen.
+2: `
+Expressie + Perspectief
 
-Creativiteit zoekt perspectief.
+<br><br>
 
-Verbeelding wordt krachtiger wanneer zij verder kan kijken dan het huidige moment.
+Dezelfde expressie kan vanuit verschillende perspectieven anders worden opgevat.
 
-De gids nodigt uit om patronen vanuit een grotere hoogte te bekijken.
+Een ander gezichtspunt kan andere aspecten van wat tot uiting is gebracht naar voren brengen zonder de oorspronkelijke expressie zelf te veranderen.
 
-Perspectief geeft creativiteit haar horizon.
+Je kunt dit herkennen wanneer twee mensen dezelfde woorden, handeling of afbeelding waarnemen, maar er vanuit hun eigen perspectief iets anders in herkennen.
 `,
 
-  3: `
-Cauac begeleidt Chuen.
+3: `
+Expressie + Samenhang
 
-Creativiteit zoekt vernieuwing.
+<br><br>
 
-Nieuwe ideeën ontstaan vaak wanneer oude vormen uiteenvallen.
+Meerdere uitingen vormen niet vanzelf een samenhangend geheel.
 
-De gids verschijnt als verandering.
+Afzonderlijke expressies kunnen naast elkaar bestaan zonder dat zij onderling zo verbonden zijn dat zij samen één geheel vormen.
 
-Wat eerst als verstoring voelt, kan een opening blijken.
-
-Vernieuwing geeft creativiteit haar beweging.
+Je kunt dit herkennen wanneer woorden, beelden of handelingen ieder iets tot uiting brengen, maar samen nog geen duidelijk geheel vormen.
 `,
 
-  4: `
-Akbal begeleidt Chuen.
+4: `
+Expressie + Verbeelding
 
-Creativiteit zoekt mysterie.
+<br><br>
 
-Niet alles hoeft verklaard te worden.
+Uit een expressie is niet altijd de volledige voorstelling erachter af te leiden.
 
-Sommige inzichten verschijnen juist wanneer ruimte wordt gelaten voor het onbekende.
+Een expressie kan bepaalde aspecten van een voorstelling weergeven zonder die voorstelling in ieder detail over te brengen.
 
-De gids moedigt verwondering aan.
-
-Mysterie geeft creativiteit haar diepte.
+Je kunt dit herkennen wanneer je iets in gedachten voor je ziet, maar merkt dat je woorden, beeld of handeling niet alles weergeven wat je je had voorgesteld.
 `,
 
-  5: `
-Manik begeleidt Chuen.
+5: `
+Expressie + Interactie
 
-Creativiteit zoekt dienstbaarheid.
+<br><br>
 
-Een idee wordt waardevoller wanneer het anderen helpt groeien.
+Een reactie binnen een interactie kan invloed hebben op wat daarna tot uiting wordt gebracht.
 
-De gids vraagt hoe inspiratie gedeeld kan worden.
+De reactie van een ander kan aanleiding geven om een uiting aan te vullen, aan te passen of op een andere manier voort te zetten.
 
-Dienstbaarheid geeft creativiteit haar betekenis.
-`
-
+Je kunt dit herkennen wanneer je iets zegt of doet en je volgende uiting aanpast aan de reactie die daarop volgt.
+`,
 
   },
 
 eb: {
 
-  1: `
-Eb weerspiegelt Eb.
+1: `
+Levenspad + Levenspad
 
-Ervaring herkent zichzelf.
+<br><br>
 
-Een pad wordt niet begrepen door ernaar te kijken.
+Twee levenspaden kunnen een deel van hun verloop gezamenlijk doormaken zonder volledig hetzelfde verloop te hebben.
 
-Het wordt begrepen door het te bewandelen.
+Mensen kunnen gedurende een deel van hun leven gebeurtenissen, plaatsen of omstandigheden met elkaar delen, terwijl hun afzonderlijke levenspaden verschillend blijven.
 
-De zoektocht begint wanneer theorie plaatsmaakt voor deelname.
-
-Ervaring wordt zich bewust van haar eigen waarde.
+Je kunt dit herkennen wanneer iemand gedurende een periode deel uitmaakt van je leven, terwijl jullie levens daarvoor en daarna ieder een eigen verloop hebben.
 `,
 
-  2: `
-Cib begeleidt Eb.
+2: `
+Levenspad + Spoor
 
-Ervaring zoekt wijsheid.
+<br><br>
 
-Niet iedere gebeurtenis leidt automatisch tot inzicht.
+De sporen van een levenspad hoeven niet het volledige verloop ervan weer te geven.
 
-Reflectie verandert gebeurtenissen in lessen.
+Wat bewaard, vastgelegd of zichtbaar blijft kan bepaalde delen van een levenspad herkenbaar maken zonder het gehele verloop ervan te bevatten.
 
-De gids nodigt uit om terug te kijken zonder vast te blijven zitten.
-
-Wijsheid geeft ervaring haar betekenis.
+Je kunt dit herkennen wanneer foto's, herinneringen of documenten iets over je verleden laten zien, maar niet alles wat je hebt meegemaakt.
 `,
 
-  3: `
-Ahau begeleidt Eb.
+3: `
+Levenspad + Essentie
 
-Ervaring zoekt heelheid.
+<br><br>
 
-Losse momenten vormen samen een groter verhaal.
+Wat iemand gedurende een levenspad meemaakt is niet hetzelfde als wat diegene wezenlijk is.
 
-De gids helpt patronen te herkennen tussen gebeurtenissen.
+Gebeurtenissen en omstandigheden kunnen deel worden van een levensverloop zonder afzonderlijk te bepalen wat iemand in wezen tot zichzelf maakt.
 
-Heelheid geeft ervaring haar samenhang.
+Je kunt dit herkennen wanneer een gebeurtenis een belangrijk deel van je levensverhaal is, maar niet op zichzelf bepaalt wie je bent.
 `,
 
-  4: `
-Kan begeleidt Eb.
+4: `
+Levenspad + Potentieel
 
-Ervaring zoekt potentieel.
+<br><br>
 
-Elke stap opent nieuwe mogelijkheden.
+Binnen een levenspad hoeven niet alle aanwezige mogelijkheden werkelijkheid te worden.
 
-De weg verandert voortdurend wat mogelijk lijkt.
+Tijdens een daadwerkelijk verloop kunnen meerdere mogelijkheden bestaan zonder dat al die mogelijkheden onderdeel worden van wat werkelijk gebeurt.
 
-De gids herinnert je eraan dat groei nooit voltooid is.
-
-Potentieel geeft ervaring haar horizon.
+Je kunt dit herkennen wanneer je verschillende mogelijkheden overweegt, maar je levensverloop uiteindelijk niet ieder daarvan omvat.
 `,
 
-  5: `
-Lamat begeleidt Eb.
+5: `
+Levenspad + Waarde
 
-Ervaring zoekt schoonheid.
+<br><br>
 
-Niet alles wat waardevol is, is nuttig.
+Niet alles wat deel uitmaakt van een levenspad hoeft dezelfde waarde te hebben.
 
-Sommige momenten zijn belangrijk omdat zij geraakt hebben.
+Gebeurtenissen, keuzes en perioden binnen een levensverloop kunnen verschillend worden gewaardeerd zonder dat zij daardoor ophouden deel van dat verloop te zijn.
 
-De gids nodigt uit om waardering te ontwikkelen voor het eenvoudige.
-
-Schoonheid geeft ervaring haar kleur.
+Je kunt dit herkennen wanneer sommige delen van je levensverhaal veel betekenis voor je hebben, terwijl andere delen voor jou minder belangrijk zijn.
 `
-
 
   },
 
 ben: {
 
-  1: `
-Ben weerspiegelt Ben.
+1: `
+Structuur + Structuur
 
-Visie herkent zichzelf.
+<br><br>
 
-Een richting ontstaat voordat de bestemming zichtbaar wordt.
+Een structuur kan zelf onderdeel zijn van een grotere structuur.
 
-Niet iedere stap hoeft vooraf bekend te zijn.
+Onderdelen die samen een bepaalde ordening vormen, kunnen als geheel opnieuw een onderdeel vormen binnen een andere ordening.
 
-De zoektocht begint wanneer vertrouwen groter wordt dan twijfel.
-
-Visie wordt zich bewust van haar eigen horizon.
+Je kunt dit herkennen wanneer afzonderlijke onderdelen samen een eenheid vormen die zelf weer deel uitmaakt van een groter opgebouwd geheel.
 `,
 
-  2: `
-Caban begeleidt Ben.
+2: `
+Structuur + Manifestatie
 
-Visie zoekt ontdekking.
+<br><br>
 
-Een horizon krijgt betekenis wanneer zij onderzocht wordt.
+Een structuur hoeft niet volledig zichtbaar te zijn in wat zich manifesteert.
 
-De gids moedigt nieuwsgierigheid aan.
+Wat concreet waarneembaar is kan bepaalde aspecten van een structuur zichtbaar maken zonder die structuur volledig weer te geven.
 
-Nieuwe ervaringen verfijnen oude verwachtingen.
-
-Ontdekking geeft visie haar groei.
+Je kunt dit herkennen wanneer je aan wat zichtbaar is iets van de opbouw kunt herkennen, maar daaruit niet ieder onderdeel of iedere verbinding kunt afleiden.
 `,
 
-  3: `
-Imix begeleidt Ben.
+3: `
+Structuur + Bron
 
-Visie zoekt mogelijkheid.
+<br><br>
 
-De toekomst staat nooit volledig vast.
+Uit de structuur van iets is niet altijd af te leiden waar het zijn oorsprong heeft.
 
-Nieuwe mogelijkheden verschijnen terwijl het pad zich ontvouwt.
+Een bepaalde opbouw kan bij verschillende oorsprongen voorkomen, zodat structuur en bron niet noodzakelijk uit elkaar zijn af te leiden.
 
-De gids herinnert je eraan open te blijven voor onverwachte kansen.
-
-Mogelijkheid geeft visie haar flexibiliteit.
+Je kunt dit herkennen wanneer je de opbouw van iets kunt onderzoeken, maar aanvullende informatie nodig hebt om vast te stellen waar het vandaan komt.
 `,
 
-  4: `
-Chicchan begeleidt Ben.
+4: `
+Structuur + Energie
 
-Visie zoekt vitaliteit.
+<br><br>
 
-Een droom zonder beweging blijft een idee.
+Een structuur kan blijven bestaan terwijl de hoeveelheid energie die erin wordt overgedragen of omgezet verandert.
 
-De gids moedigt actie aan.
+Een verandering in energieoverdracht of -omzetting hoeft niet noodzakelijk gepaard te gaan met een verandering van structuur.
 
-Levenskracht zet richting om in vooruitgang.
-
-Vitaliteit geeft visie haar momentum.
+Je kunt dit herkennen wanneer een systeem dezelfde opbouw behoudt terwijl het op verschillende momenten verschillende hoeveelheden energie ontvangt, overdraagt of omzet.
 `,
 
-  5: `
-Muluc begeleidt Ben.
+5: `
+Structuur + Stroming
 
-Visie zoekt betekenis.
+<br><br>
 
-Niet iedere bestemming is de moeite waard.
+Binnen dezelfde structuur kunnen verschillende stromingen plaatsvinden.
 
-De gids vraagt waarom een doel belangrijk is.
+Wat binnen een structuur wordt verplaatst of doorgegeven kan veranderen zonder dat de ordening en verbinding van de onderdelen daardoor noodzakelijk veranderen.
 
-Waarden geven richting aan ambitie.
-
-Betekenis geeft visie haar kompas.
+Je kunt dit herkennen wanneer hetzelfde netwerk op verschillende momenten verschillende stromen draagt terwijl de verbindingen hetzelfde blijven.
 `
-
 
   },
 
 ix: {
 
-  1: `
-Ix weerspiegelt Ix.
+1: `
+Bewustzijn + Bewustzijn
 
-Bewustzijn herkent zichzelf.
+<br><br>
 
-Niet alles wat werkelijk is, is onmiddellijk zichtbaar.
+Wat bewust wordt ervaren kan zelf opnieuw onderwerp van bewustzijn worden.
 
-Sommige waarheden verschijnen pas wanneer aandacht stil genoeg wordt.
+Je kunt je bewust zijn van een ervaring, gedachte of waarneming en daarnaast opmerken dat je je daarvan bewust bent.
 
-De zoektocht begint met waarnemen.
-
-Bewustzijn wordt zich bewust van zichzelf.
+Je kunt dit herkennen wanneer je iets opmerkt en vervolgens merkt dat je je ervan bewust bent dat je het hebt opgemerkt.
 `,
 
-  2: `
-Etznab begeleidt Ix.
+2: `
+Bewustzijn + Waarheid
 
-Bewustzijn zoekt waarheid.
+<br><br>
 
-Waarneming wordt scherper wanneer illusies verdwijnen.
+Iets bewust ervaren maakt wat wordt ervaren nog niet waar.
 
-De gids moedigt eerlijk kijken aan.
+Een bewuste waarneming, herinnering of interpretatie kan met de werkelijkheid overeenkomen zonder dat dit door haar bewuste aanwezigheid alleen gegarandeerd is.
 
-Niet alles wat comfortabel voelt is waar.
-
-Waarheid geeft bewustzijn haar scherpte.
+Je kunt dit herkennen wanneer je bewust iets waarneemt of aanneemt, maar later ontdekt dat het anders in elkaar zat dan je dacht.
 `,
 
-  3: `
-Ik begeleidt Ix.
+3: `
+Bewustzijn + Informatie
 
-Bewustzijn zoekt verbinding.
+<br><br>
 
-Begrip groeit wanneer luisteren belangrijker wordt dan reageren.
+Wat bewust wordt opgemerkt hoeft niet alle beschikbare informatie te omvatten.
 
-De gids herinnert je eraan dat aandacht relaties verdiept.
+Informatie kan aanwezig of toegankelijk zijn zonder dat zij op dat moment deel uitmaakt van wat iemand bewust opmerkt.
 
-Verbinding geeft bewustzijn haar menselijkheid.
+Je kunt dit herkennen wanneer informatie al voor je aanwezig was, maar je haar pas later bewust opmerkt.
 `,
 
-  4: `
-Cimi begeleidt Ix.
+4: `
+Bewustzijn + Grenzen
 
-Bewustzijn zoekt transformatie.
+<br><br>
 
-Zien verandert wat gezien wordt.
+Bewust worden van iets betekent niet dat ook de grenzen ervan volledig worden herkend.
 
-Nieuwe inzichten maken oude perspectieven kleiner.
+Je kunt iets bewust waarnemen zonder precies te herkennen waar het ophoudt of waar iets anders begint.
 
-De gids laat zien dat groei begint met herkenning.
-
-Transformatie geeft bewustzijn haar beweging.
+Je kunt dit herkennen wanneer je merkt dat iets aanwezig is, maar nog niet duidelijk kunt aangeven waar de grens ervan ligt.
 `,
 
-  5: `
-Oc begeleidt Ix.
+5: `
+Bewustzijn + Relatie
 
-Bewustzijn zoekt verbondenheid.
+<br><br>
 
-Aandacht onthult de draden die mensen met elkaar verbinden.
+Bewust zijn van afzonderlijke dingen betekent niet dat ook hun onderlinge relatie bewust wordt herkend.
 
-De gids nodigt uit om voorbij afzondering te kijken.
+Je kunt meerdere dingen bewust waarnemen zonder op te merken hoe zij zich tot elkaar verhouden.
 
-Verbondenheid geeft bewustzijn haar hart.
+Je kunt dit herkennen wanneer twee gebeurtenissen of omstandigheden je al bewust waren, maar je pas later opmerkt hoe zij zich tot elkaar verhouden.
 `
-
 
   },
 
 men: {
 
-  1: `
-Men weerspiegelt Men.
+1: `
+Perspectief + Perspectief
 
-Perspectief herkent zichzelf.
+<br><br>
 
-Niet alles hoeft van dichtbij bekeken te worden.
+Hetzelfde kan vanuit meerdere perspectieven worden beschouwd.
 
-Sommige patronen worden pas zichtbaar wanneer afstand ontstaat.
+Een verandering van gezichtspunt kan andere aspecten zichtbaar maken zonder dat het beschouwde zelf daardoor hoeft te veranderen.
 
-De zoektocht begint wanneer het geheel belangrijker wordt dan het detail.
-
-Perspectief wordt zich bewust van zijn eigen hoogte.
+Je kunt dit herkennen wanneer je dezelfde situatie vanuit een andere positie bekijkt en daardoor iets opmerkt wat vanuit je eerdere gezichtspunt niet zichtbaar was.
 `,
 
-  2: `
-Cauac begeleidt Men.
+2: `
+Perspectief + Samenhang
 
-Perspectief zoekt vernieuwing.
+<br><br>
 
-Een hoger standpunt onthult wanneer oude kaarten niet langer kloppen.
+Vanuit één perspectief hoeft niet alle samenhang tussen onderdelen zichtbaar te zijn.
 
-De gids verschijnt als verandering.
+Een gezichtspunt kan bepaalde onderlinge verbindingen zichtbaar maken zonder daarmee iedere bestaande verbinding te tonen.
 
-Wat eerst chaos lijkt, kan een nieuwe orde voorbereiden.
-
-Vernieuwing geeft perspectief haar vleugels.
+Je kunt dit herkennen wanneer je vanuit een ander gezichtspunt een verbinding tussen onderdelen opmerkt die je vanuit het eerdere gezichtspunt niet had gezien.
 `,
 
-  3: `
-Akbal begeleidt Men.
+3: `
+Perspectief + Verbeelding
 
-Perspectief zoekt mysterie.
+<br><br>
 
-Niet alles wat gezien wordt, hoeft verklaard te worden.
+Vanuit verschillende perspectieven kunnen verschillende mogelijkheden voorstelbaar worden.
 
-Sommige inzichten blijven groter dan woorden.
+Een ander gezichtspunt kan aanleiding geven om mogelijkheden voor te stellen die eerder niet in de voorstelling aanwezig waren.
 
-De gids nodigt uit om ruimte te laten voor het onbekende.
-
-Mysterie geeft perspectief haar diepte.
+Je kunt dit herkennen wanneer je een situatie vanuit een andere positie bekijkt en je daardoor een ander mogelijk verloop kunt voorstellen.
 `,
 
-  4: `
-Manik begeleidt Men.
+4: `
+Perspectief + Interactie
 
-Perspectief zoekt dienstbaarheid.
+<br><br>
 
-Inzicht wordt waardevoller wanneer het gedeeld wordt.
+Een perspectief kan veranderen door wat er tijdens een interactie gebeurt.
 
-De gids vraagt hoe overzicht anderen kan helpen.
+De reactie of inbreng van een ander kan aanleiding geven om hetzelfde vanuit een ander gezichtspunt te beschouwen.
 
-Wijsheid krijgt betekenis door toepassing.
-
-Dienstbaarheid geeft perspectief haar richting.
+Je kunt dit herkennen wanneer je na een gesprek of ontmoeting iets vanuit een ander gezichtspunt bekijkt dan daarvoor.
 `,
 
-  5: `
-Chuen begeleidt Men.
+5: `
+Perspectief + Expressie
 
-Perspectief zoekt creativiteit.
+<br><br>
 
-Nieuwe gezichtspunten openen nieuwe mogelijkheden.
+Vanuit verschillende perspectieven kan hetzelfde op verschillende manieren tot uiting worden gebracht.
 
-De gids moedigt speelsheid aan.
+Het gezichtspunt van waaruit iets wordt beschouwd kan invloed hebben op welke aspecten ervan in een uiting naar voren komen.
 
-Verbeelding helpt je verder te kijken dan bestaande grenzen.
-
-Creativiteit geeft perspectief haar vrijheid.
+Je kunt dit herkennen wanneer twee mensen dezelfde gebeurtenis beschrijven, maar vanuit hun verschillende gezichtspunten andere aspecten ervan benadrukken.
 `
-
 
   },
 
 cib: {
 
-  1: `
-Cib weerspiegelt Cib.
+1: `
+Spoor + Spoor
 
-Wijsheid herkent zichzelf.
+<br><br>
 
-Kennis verzamelt feiten.
+Een bestaand spoor kan zelf onderdeel worden van wat later als spoor achterblijft.
 
-Wijsheid begrijpt verbanden.
+Wat van iets is achtergebleven kan later worden gekopieerd, beschreven of opgenomen in iets dat zelf bewaard blijft.
 
-De zoektocht begint wanneer ervaring wordt omgezet in inzicht.
-
-Wijsheid wordt zich bewust van haar eigen diepte.
+Je kunt dit herkennen wanneer een oude tekst, afbeelding of vondst wordt gekopieerd of beschreven en die kopie of beschrijving later zelf bewaard blijft.
 `,
 
-  2: `
-Ahau begeleidt Cib.
+2: `
+Spoor + Essentie
 
-Wijsheid zoekt heelheid.
+<br><br>
 
-Een inzicht krijgt meer betekenis wanneer het verbonden wordt met het grotere geheel.
+Een spoor hoeft niet alles te bevatten wat wezenlijk was aan datgene waarvan het is achtergebleven.
 
-De gids helpt afzonderlijke lessen samen te brengen.
+Wat bewaard blijft kan bepaalde kenmerken herkenbaar maken zonder daarmee volledig weer te geven wat het oorspronkelijke wezenlijk tot zichzelf maakte.
 
-Heelheid geeft wijsheid haar samenhang.
+Je kunt dit herkennen wanneer een foto, tekst of herinnering iets van iemand of iets bewaart, maar daarmee niet noodzakelijk volledig weergeeft wat diegene of datgene wezenlijk was.
 `,
 
-  3: `
-Kan begeleidt Cib.
+3: `
+Spoor + Potentieel
 
-Wijsheid zoekt potentieel.
+<br><br>
 
-Ieder antwoord bevat nieuwe mogelijkheden.
+Uit een spoor zijn niet noodzakelijk alle mogelijkheden af te leiden die aanwezig waren voordat het ontstond.
 
-De gids herinnert je eraan dat leren nooit voltooid is.
+Wat achterblijft van wat werkelijk gebeurde hoeft geen sporen te bevatten van mogelijkheden die niet werden gerealiseerd.
 
-Zelfs oude inzichten kunnen nieuwe deuren openen.
-
-Potentieel geeft wijsheid haar levendigheid.
+Je kunt dit herkennen wanneer een gemaakte keuze is vastgelegd, terwijl uit die vastlegging niet vanzelf blijkt welke andere keuzes op dat moment mogelijk waren.
 `,
 
-  4: `
-Lamat begeleidt Cib.
+4: `
+Spoor + Waarde
 
-Wijsheid zoekt schoonheid.
+<br><br>
 
-Sommige waarheden overtuigen niet door logica alleen.
+Dat iets als spoor bewaard is gebleven bepaalt niet vanzelf welke waarde het heeft.
 
-Zij overtuigen door eenvoud en elegantie.
+Hetzelfde spoor kan in verschillende contexten verschillend worden gewaardeerd zonder dat het spoor zelf daardoor verandert.
 
-De gids onthult de schoonheid van helder begrip.
-
-Schoonheid geeft wijsheid haar gratie.
+Je kunt dit herkennen wanneer één bewaarde zin, foto of voorwerp voor jou meer waarde heeft dan een veel grotere hoeveelheid ander bewaard materiaal.
 `,
 
-  5: `
-Eb begeleidt Cib.
+5: `
+Spoor + Levenspad
 
-Wijsheid zoekt ervaring.
+<br><br>
 
-Inzicht dat niet geleefd wordt, blijft onvolledig.
+Een spoor uit een eerder moment kan later opnieuw onderdeel worden van een levenspad.
 
-De gids moedigt toepassing aan.
+Wat bewaard is gebleven kan op een later moment opnieuw worden aangetroffen of gebruikt en daarmee deel worden van een nieuwe gebeurtenis binnen dat levensverloop.
 
-Begrip verdiept zich wanneer het deel wordt van het dagelijks leven.
-
-Ervaring geeft wijsheid haar wortels.
+Je kunt dit herkennen wanneer je jaren later een oude brief of foto terugvindt en dat terugvinden zelf weer onderdeel wordt van je verdere levensverloop.
 `
-
 
   },
 
 caban: {
 
-  1: `
-Caban weerspiegelt Caban.
+1: `
+Manifestatie + Manifestatie
 
-Ontdekking herkent zichzelf.
+<br><br>
 
-Iedere horizon onthult een nieuwe horizon.
+Hetzelfde kan zich op meer dan één manier manifesteren.
 
-De wereld is groter dan wat al bekend is.
+Een concrete verschijning sluit niet uit dat hetzelfde ook in een andere concrete vorm zichtbaar of merkbaar wordt.
 
-De zoektocht begint wanneer nieuwsgierigheid sterker wordt dan zekerheid.
-
-Ontdekking wordt zich bewust van haar eigen avontuur.
+Je kunt dit herkennen wanneer hetzelfde verschijnsel zich op verschillende momenten of onder verschillende omstandigheden anders manifesteert.
 `,
 
-  2: `
-Imix begeleidt Caban.
+2: `
+Manifestatie + Bron
 
-Ontdekking zoekt mogelijkheid.
+<br><br>
 
-Nieuwe inzichten ontstaan wanneer onbekende deuren worden geopend.
+Uit een manifestatie is niet altijd af te leiden waar zij haar oorsprong heeft.
 
-De gids herinnert je eraan dat iedere vraag meerdere antwoorden kan bevatten.
+Eenzelfde concrete verschijning kan uit verschillende bronnen voortkomen zonder dat aan de verschijning zelf direct zichtbaar is welke bron eraan voorafging.
 
-Mogelijkheid geeft ontdekking haar openheid.
+Je kunt dit herkennen wanneer je iets concreets waarneemt, maar uit die verschijning alleen niet kunt vaststellen waaruit het is voortgekomen.
 `,
 
-  3: `
-Chicchan begeleidt Caban.
+3: `
+Manifestatie + Energie
 
-Ontdekking zoekt vitaliteit.
+<br><br>
 
-Een avontuur blijft een idee totdat het wordt beleefd.
+Wat zich manifesteert geeft niet vanzelf volledig weer welke energie daarbij aanwezig is of wordt overgedragen.
 
-De gids moedigt deelname aan.
+Eenzelfde concrete verschijning kan voorkomen bij verschillende energetische toestanden zonder dat het verschil rechtstreeks uit de verschijning blijkt.
 
-Leven onthult wat theorie niet kan tonen.
-
-Vitaliteit geeft ontdekking haar beweging.
+Je kunt dit herkennen wanneer een verschijnsel waarneembaar is, maar metingen nodig zijn om vast te stellen hoeveel energie aanwezig is of wordt overgedragen.
 `,
 
-  4: `
-Muluc begeleidt Caban.
+4: `
+Manifestatie + Stroming
 
-Ontdekking zoekt betekenis.
+<br><br>
 
-Niet alles wat nieuw is, is belangrijk.
+Een manifestatie hoeft niet het volledige verloop van een stroming zichtbaar te maken.
 
-De gids helpt onderscheid maken tussen afleiding en waarde.
+Een momentane verschijning kan onderdeel zijn van een stromend verloop zonder dat dat gehele verloop in die verschijning zichtbaar is.
 
-Betekenis geeft ontdekking haar richting.
+Je kunt dit herkennen wanneer je één moment van een stroming ziet, maar daarmee nog niet noodzakelijk weet hoe zij daarvoor verliep of daarna verdergaat.
 `,
 
-  5: `
-Ben begeleidt Caban.
+5: `
+Manifestatie + Structuur
 
-Ontdekking zoekt visie.
+<br><br>
 
-Een horizon krijgt betekenis wanneer zij verbonden wordt met een groter doel.
+Wat zich concreet manifesteert kan onderdeel zijn van een grotere structuur.
 
-De gids helpt je verder te kijken dan het volgende antwoord.
+Een waarneembare verschijning kan binnen een ordening één onderdeel vormen zonder zelf de volledige opbouw daarvan te omvatten.
 
-Visie geeft ontdekking haar bestemming.
+Je kunt dit herkennen wanneer iets dat concreet aanwezig is één onderdeel vormt van een groter opgebouwd geheel.
 `
-
 
   },
 
 etznab: {
 
-  1: `
-Etznab weerspiegelt Etznab.
+1: `
+Waarheid + Waarheid
 
-Waarheid herkent zichzelf.
+<br><br>
 
-Wat werkelijk is hoeft niet verdedigd te worden.
+Meerdere ware uitspraken kunnen tegelijkertijd waar zijn zonder hetzelfde te zeggen.
 
-Illusies vragen voortdurend om bescherming.
+Dat één uitspraak waar is sluit niet uit dat een andere, niet-tegenstrijdige uitspraak eveneens waar is.
 
-De zoektocht begint wanneer eerlijkheid belangrijker wordt dan comfort.
-
-Waarheid wordt zich bewust van haar eigen helderheid.
+Je kunt dit herkennen wanneer twee verschillende uitspraken over hetzelfde beide kloppen, maar elk iets anders ervan beschrijft.
 `,
 
-  2: `
-Ik begeleidt Etznab.
+2: `
+Waarheid + Informatie
 
-Waarheid zoekt verbinding.
+<br><br>
 
-Eerlijkheid zonder verbinding kan afstand creëren.
+Wat waar is hoeft niet volledig in de beschikbare informatie aanwezig te zijn.
 
-De gids herinnert je eraan dat waarheid het krachtigst is wanneer zij gedeeld kan worden.
+Beschikbare informatie kan correct zijn zonder daarmee alles te omvatten wat over iets waar is.
 
-Verbinding geeft waarheid haar brug.
+Je kunt dit herkennen wanneer nieuwe informatie beschikbaar komt over iets dat al waar was voordat die informatie beschikbaar werd.
 `,
 
-  3: `
-Cimi begeleidt Etznab.
+3: `
+Waarheid + Grenzen
 
-Waarheid zoekt transformatie.
+<br><br>
 
-Wat gezien wordt kan niet langer volledig verborgen blijven.
+Een ware uitspraak kan alleen binnen bepaalde grenzen geldig zijn.
 
-De gids onthult wat klaar is om te veranderen.
+Wat onder bepaalde omstandigheden waar is hoeft buiten die omstandigheden niet eveneens waar te zijn.
 
-Transformatie geeft waarheid haar beweging.
+Je kunt dit herkennen wanneer een uitspraak klopt binnen de omstandigheden waarop zij betrekking heeft, maar niet zonder meer op andere omstandigheden kan worden toegepast.
 `,
 
-  4: `
-Oc begeleidt Etznab.
+4: `
+Waarheid + Relatie
 
-Waarheid zoekt verbondenheid.
+<br><br>
 
-Vertrouwen groeit wanneer werkelijkheid belangrijker wordt dan schijn.
+Dat iets waar is over afzonderlijke dingen betekent niet dat daarmee ook hun onderlinge relatie is vastgesteld.
 
-De gids moedigt authenticiteit aan.
+Ware uitspraken over afzonderlijke elementen kunnen bestaan zonder dat daaruit vanzelf volgt hoe die elementen zich tot elkaar verhouden.
 
-Verbondenheid geeft waarheid haar menselijkheid.
+Je kunt dit herkennen wanneer je meerdere feiten kent, maar daaruit alleen nog niet kunt vaststellen of en hoe zij met elkaar verbonden zijn.
 `,
 
   5: `
-Ix begeleidt Etznab.
+Waarheid + Bewustzijn
 
-Waarheid zoekt bewustzijn.
+<br><br>
 
-Helder zien vraagt aandacht.
+Iets kan waar zijn zonder dat iemand zich daarvan bewust is.
 
-De gids helpt onderscheiden wat werkelijk aanwezig is van wat wordt geprojecteerd.
+Wat werkelijk het geval is hoeft niet bewust gekend te worden om waar te zijn.
 
-Bewustzijn geeft waarheid haar scherpte.
+Je kunt dit herkennen wanneer je iets ontdekt dat al het geval was voordat je je ervan bewust werd.
 `
-
 
   },
 
 cauac: {
 
-  1: `
-Cauac weerspiegelt Cauac.
+1: `
+Samenhang + Samenhang
 
-Vernieuwing herkent zichzelf.
+<br><br>
 
-Niet alles wat uiteenvalt is verloren.
+Afzonderlijke vormen van samenhang kunnen zelf deel uitmaken van een grotere samenhang.
 
-Sommige structuren moeten breken zodat iets nieuws kan ontstaan.
+Onderdelen die binnen afzonderlijke gehelen met elkaar verbonden zijn, kunnen daarnaast verbindingen hebben met onderdelen van andere gehelen.
 
-De zoektocht begint wanneer verandering niet langer wordt gevreesd.
-
-Vernieuwing wordt zich bewust van haar eigen kracht.
+Je kunt dit herkennen wanneer binnen verschillende groepen samenhang bestaat en er daarnaast ook verbindingen tussen die groepen aanwezig zijn.
 `,
 
-  2: `
-Akbal begeleidt Cauac.
+2: `
+Samenhang + Verbeelding
 
-Vernieuwing zoekt mysterie.
+<br><br>
 
-Niet iedere verandering kan vooraf begrepen worden.
+Een bestaande samenhang hoeft niet alle verbindingen te omvatten die je je kunt voorstellen.
 
-De gids nodigt uit vertrouwen te hebben in het onbekende.
+Tussen onderdelen kunnen verbindingen worden voorgesteld zonder dat die verbindingen daardoor werkelijk binnen het geheel aanwezig zijn.
 
-Wat vandaag verwarrend lijkt, kan morgen betekenis krijgen.
-
-Mysterie geeft vernieuwing haar diepte.
+Je kunt dit herkennen wanneer je een verband tussen dingen kunt bedenken zonder daarmee al te weten of dat verband daadwerkelijk bestaat.
 `,
 
-  3: `
-Manik begeleidt Cauac.
+3: `
+Samenhang + Interactie
 
-Vernieuwing zoekt dienstbaarheid.
+<br><br>
 
-Verandering wordt waardevoller wanneer zij groei ondersteunt.
+Samenhang tussen onderdelen vereist niet dat die onderdelen rechtstreeks met elkaar interageren.
 
-De gids vraagt hoe nieuwe energie gebruikt kan worden om anderen te helpen.
+Onderdelen kunnen binnen hetzelfde geheel met elkaar samenhangen zonder dat tussen die onderdelen zelf een directe wisselwerking plaatsvindt.
 
-Dienstbaarheid geeft vernieuwing haar richting.
+Je kunt dit herkennen wanneer twee onderdelen binnen hetzelfde geheel met elkaar verbonden zijn, maar niet rechtstreeks op elkaar reageren.
 `,
 
-  4: `
-Chuen begeleidt Cauac.
+4: `
+Samenhang + Expressie
 
-Vernieuwing zoekt creativiteit.
+<br><br>
 
-Wanneer oude vormen verdwijnen ontstaat ruimte voor nieuwe mogelijkheden.
+Niet alle samenhang binnen een geheel hoeft in een expressie naar voren te komen.
 
-De gids moedigt experimenteren aan.
+Een uiting kan bepaalde verbindingen tussen onderdelen weergeven zonder daarmee alle bestaande samenhang tot uitdrukking te brengen.
 
-Creativiteit geeft vernieuwing haar verbeeldingskracht.
+Je kunt dit herkennen wanneer je een samenhangend geheel beschrijft en daarbij sommige onderlinge verbindingen benoemt terwijl andere niet in de beschrijving voorkomen.
 `,
 
-  5: `
-Men begeleidt Cauac.
+5: `
+Samenhang + Perspectief
 
-Vernieuwing zoekt perspectief.
+<br><br>
 
-Een storm voelt anders vanuit het midden dan van bovenaf.
+Dezelfde samenhang kan vanuit verschillende perspectieven anders worden beschouwd.
 
-De gids helpt het grotere patroon te zien.
+Welke verbindingen binnen een samenhang worden beschouwd, kan verschillen afhankelijk van het gekozen gezichtspunt, terwijl de verbindingen zelf hetzelfde kunnen blijven.
 
-Perspectief geeft vernieuwing haar wijsheid.
+Je kunt dit herkennen wanneer twee mensen hetzelfde samenhangende geheel vanuit verschillende posities bekijken en daarbij niet noodzakelijk dezelfde onderlinge verbindingen opmerken.
 `
-
 
   },
 
 ahau: {
 
-  1: `
-Ahau weerspiegelt Ahau.
+1: `
+Essentie + Essentie
 
-Heelheid herkent zichzelf.
+<br><br>
 
-Wat gescheiden leek, maakt deel uit van hetzelfde geheel.
+Niet één enkel kenmerk hoeft volledig te bepalen wat iets wezenlijk tot zichzelf maakt.
 
-De zoektocht begint wanneer fragmenten worden samengebracht.
+Meerdere kenmerken kunnen gezamenlijk wezenlijk zijn zonder dat één daarvan afzonderlijk de volledige essentie weergeeft.
 
-Eenheid ontstaat niet door verschillen te verwijderen.
-
-Zij ontstaat door ze te begrijpen.
-
-Heelheid wordt zich bewust van haar eigen licht.
+Je kunt dit herkennen wanneer meerdere kenmerken wezenlijk bij iets horen, terwijl geen daarvan afzonderlijk weergeeft wat het geheel in essentie is.
 `,
 
-  2: `
-Kan begeleidt Ahau.
+2: `
+Essentie + Potentieel
 
-Heelheid zoekt potentieel.
+<br><br>
 
-Voltooiing is geen einde.
+Wat iets wezenlijk is valt niet noodzakelijk samen met alles wat het zou kunnen worden of doen.
 
-Elke vervulling opent nieuwe mogelijkheden.
+Iets kan meerdere mogelijkheden hebben zonder dat iedere mogelijkheid afzonderlijk bepaalt wat het wezenlijk is.
 
-De gids herinnert je eraan dat groei nooit stilstaat.
-
-Potentieel geeft heelheid haar toekomst.
+Je kunt dit herkennen wanneer iets meerdere mogelijkheden heeft, terwijl wat het wezenlijk is niet met al die mogelijkheden samenvalt.
 `,
 
-  3: `
-Lamat begeleidt Ahau.
+3: `
+Essentie + Waarde
 
-Heelheid zoekt schoonheid.
+<br><br>
 
-Wanneer delen in harmonie samenwerken ontstaat iets dat groter is dan de som der delen.
+Wat iets wezenlijk is bepaalt niet vanzelf welke waarde eraan wordt toegekend.
 
-De gids onthult de elegantie van verbonden patronen.
+Een wezenlijk kenmerk kan in verschillende contexten verschillende waarde hebben zonder daardoor op te houden wezenlijk te zijn.
 
-Schoonheid geeft heelheid haar uitstraling.
+Je kunt dit herkennen wanneer hetzelfde wezenlijke kenmerk in verschillende situaties verschillend wordt gewaardeerd.
 `,
 
-  4: `
-Eb begeleidt Ahau.
+4: `
+Essentie + Levenspad
 
-Heelheid zoekt ervaring.
+<br><br>
 
-Wijsheid wordt niet gevonden buiten het leven.
+Wat iets wezenlijk tot zichzelf maakt hoeft niet bij iedere verandering in zijn levenspad mee te veranderen.
 
-Zij groeit door deelname.
+Een levensverloop kan verschillende gebeurtenissen en veranderingen omvatten terwijl bepaalde wezenlijke kenmerken behouden blijven.
 
-De gids herinnert je eraan dat ieder pad deel uitmaakt van het grotere verhaal.
-
-Ervaring geeft heelheid haar werkelijkheid.
+Je kunt dit herkennen wanneer iemands omstandigheden en levensverloop sterk veranderen terwijl bepaalde wezenlijke kenmerken van die persoon herkenbaar blijven.
 `,
 
-  5: `
-Cib begeleidt Ahau.
+5: `
+Essentie + Spoor
 
-Heelheid zoekt wijsheid.
+<br><br>
 
-Inzicht ontstaat wanneer vele lessen samenkomen.
+Niet alles wat wezenlijk is hoeft een blijvend spoor achter te laten.
 
-De gids helpt patronen herkennen die eerder verborgen waren.
+Dat een wezenlijk kenmerk later niet meer in een spoor herkenbaar is, betekent niet dat het daarvoor niet wezenlijk was.
 
-Wijsheid geeft heelheid haar diepte.
-
-Het einde onthult het begin.
+Je kunt dit herkennen wanneer iets wat eerder wezenlijk aanwezig was later niet meer in een herkenbaar spoor terug te vinden is.
 `
-
 
   }
 
