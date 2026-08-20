@@ -100,8 +100,6 @@ updateLanguage();
 };
 
 
-
-
 const pageSets = {
   en: {
     muladhara: muladharaPages_en,
@@ -359,7 +357,386 @@ const diff =
   render();
 }
 
+// ===== LONG COUNT 260 FIELD =====
 
+const HABLATUN_OPERATOR_DAYS = 460800000000n;
+const HABLATUN_WORKFIELD_DAYS = 23040000000n;
+const ALAUTUN_OPERATOR_DAYS = 23040000000n;
+const ALAUTUN_WORKFIELD_DAYS = 1152000000n;
+const KINCHILTUN_OPERATOR_DAYS = 1152000000n;
+const KINCHILTUN_WORKFIELD_DAYS = 57600000n;
+const KALABTUN_OPERATOR_DAYS = 57600000n;
+const KALABTUN_WORKFIELD_DAYS = 2880000n;
+const PIKTUN_OPERATOR_DAYS = 2880000n;
+const PIKTUN_WORKFIELD_DAYS = 144000n;
+const BAKTUN_OPERATOR_DAYS = 144000n;
+const BAKTUN_WORKFIELD_DAYS = 7200n;
+const KATUN_OPERATOR_DAYS = 7200n;
+const KATUN_WORKFIELD_DAYS = 360n;
+const TUN_OPERATOR_DAYS = 360n;
+const TUN_WORKFIELD_DAYS = 18n;
+
+const longCountField =
+  document.getElementById("longCountField");
+
+
+function buildLongCountField(){
+
+  longCountField.innerHTML = "";
+
+  const workfieldColors = [
+    "#e53935",
+    "#ffffff",
+    "#1e88e5",
+    "#fdd835"
+  ];
+
+  for(let row = 0; row < 20; row++){
+
+    const workfield =
+      document.createElement("div");
+
+    workfield.className =
+      "longCountWorkfield";
+
+    workfield.style.background =
+      workfieldColors[row % 4];
+
+    const animal =
+      document.createElement("img");
+
+    animal.src =
+      "animals/" + animalFiles[row];
+
+    workfield.appendChild(animal);
+    longCountField.appendChild(workfield);
+
+
+    for(let col = 0; col < 13; col++){
+
+      const cell =
+        document.createElement("div");
+
+      cell.className =
+        "longCountCell";
+
+if(openLongCountLevel === "hablatun"){
+
+  cell.classList.add("clickableLongCountCell");
+
+  cell.addEventListener("click", () => {
+
+    const startDays =
+      daysFromCivil(
+        currentLongCountStart.year,
+        currentLongCountStart.month,
+        currentLongCountStart.day
+      );
+
+    const targetDays =
+      startDays
+      + BigInt(col) * HABLATUN_OPERATOR_DAYS
+      + BigInt(row) * HABLATUN_WORKFIELD_DAYS;
+
+    const targetDate =
+      civilFromDays(targetDays);
+
+    document.getElementById("dayInput").value =
+      targetDate.day;
+
+    document.getElementById("monthInput").value =
+      targetDate.month;
+
+    document.getElementById("yearInput").value =
+      targetDate.year;
+
+    goToDate();
+  });
+}
+
+if(openLongCountLevel === "alautun"){
+
+  cell.classList.add("clickableLongCountCell");
+
+  cell.addEventListener("click", () => {
+
+    const startDays =
+      daysFromCivil(
+        currentLongCountStart.year,
+        currentLongCountStart.month,
+        currentLongCountStart.day
+      );
+
+    const targetDays =
+      startDays
+      + BigInt(col) * ALAUTUN_OPERATOR_DAYS
+      + BigInt(row) * ALAUTUN_WORKFIELD_DAYS;
+
+    const targetDate =
+      civilFromDays(targetDays);
+
+    document.getElementById("dayInput").value =
+      targetDate.day;
+
+    document.getElementById("monthInput").value =
+      targetDate.month;
+
+    document.getElementById("yearInput").value =
+      targetDate.year;
+
+    goToDate();
+  });
+}
+
+if(openLongCountLevel === "kinchiltun"){
+
+  cell.classList.add("clickableLongCountCell");
+
+  cell.addEventListener("click", () => {
+
+    const startDays =
+      daysFromCivil(
+        currentLongCountStart.year,
+        currentLongCountStart.month,
+        currentLongCountStart.day
+      );
+
+    const targetDays =
+      startDays
+      + BigInt(col) * KINCHILTUN_OPERATOR_DAYS
+      + BigInt(row) * KINCHILTUN_WORKFIELD_DAYS;
+
+    const targetDate =
+      civilFromDays(targetDays);
+
+    document.getElementById("dayInput").value =
+      targetDate.day;
+
+    document.getElementById("monthInput").value =
+      targetDate.month;
+
+    document.getElementById("yearInput").value =
+      targetDate.year;
+
+    goToDate();
+  });
+}
+
+if(openLongCountLevel === "kalabtun"){
+
+  cell.classList.add("clickableLongCountCell");
+
+  cell.addEventListener("click", () => {
+
+    const startDays =
+      daysFromCivil(
+        currentLongCountStart.year,
+        currentLongCountStart.month,
+        currentLongCountStart.day
+      );
+
+    const targetDays =
+      startDays
+      + BigInt(col) * KALABTUN_OPERATOR_DAYS
+      + BigInt(row) * KALABTUN_WORKFIELD_DAYS;
+
+    const targetDate =
+      civilFromDays(targetDays);
+
+    document.getElementById("dayInput").value =
+      targetDate.day;
+
+    document.getElementById("monthInput").value =
+      targetDate.month;
+
+    document.getElementById("yearInput").value =
+      targetDate.year;
+
+    goToDate();
+  });
+}
+
+if(openLongCountLevel === "piktun"){
+
+  cell.classList.add("clickableLongCountCell");
+
+  cell.addEventListener("click", () => {
+
+    const startDays =
+      daysFromCivil(
+        currentLongCountStart.year,
+        currentLongCountStart.month,
+        currentLongCountStart.day
+      );
+
+    const targetDays =
+      startDays
+      + BigInt(col) * PIKTUN_OPERATOR_DAYS
+      + BigInt(row) * PIKTUN_WORKFIELD_DAYS;
+
+    const targetDate = civilFromDays(targetDays);
+
+    document.getElementById("dayInput").value = targetDate.day;
+    document.getElementById("monthInput").value = targetDate.month;
+    document.getElementById("yearInput").value = targetDate.year;
+
+    goToDate();
+  });
+}
+
+if(openLongCountLevel === "baktun"){
+
+  cell.classList.add("clickableLongCountCell");
+
+  cell.addEventListener("click", () => {
+
+    const startDays =
+      daysFromCivil(
+        currentLongCountStart.year,
+        currentLongCountStart.month,
+        currentLongCountStart.day
+      );
+
+    const targetDays =
+      startDays
+      + BigInt(col) * BAKTUN_OPERATOR_DAYS
+      + BigInt(row) * BAKTUN_WORKFIELD_DAYS;
+
+    const targetDate =
+      civilFromDays(targetDays);
+
+    document.getElementById("dayInput").value =
+      targetDate.day;
+
+    document.getElementById("monthInput").value =
+      targetDate.month;
+
+    document.getElementById("yearInput").value =
+      targetDate.year;
+
+    goToDate();
+  });
+}
+
+if(openLongCountLevel === "katun"){
+
+  cell.classList.add("clickableLongCountCell");
+
+  cell.addEventListener("click", () => {
+
+    const startDays =
+      daysFromCivil(
+        currentLongCountStart.year,
+        currentLongCountStart.month,
+        currentLongCountStart.day
+      );
+
+    const targetDays =
+      startDays
+      + BigInt(col) * KATUN_OPERATOR_DAYS
+      + BigInt(row) * KATUN_WORKFIELD_DAYS;
+
+    const targetDate =
+      civilFromDays(targetDays);
+
+    document.getElementById("dayInput").value =
+      targetDate.day;
+
+    document.getElementById("monthInput").value =
+      targetDate.month;
+
+    document.getElementById("yearInput").value =
+      targetDate.year;
+
+    goToDate();
+  });
+}
+
+if(openLongCountLevel === "tun"){
+
+  cell.classList.add("clickableLongCountCell");
+
+  cell.addEventListener("click", () => {
+
+    const startDays =
+      daysFromCivil(
+        currentLongCountStart.year,
+        currentLongCountStart.month,
+        currentLongCountStart.day
+      );
+
+    const targetDays =
+      startDays
+      + BigInt(col) * TUN_OPERATOR_DAYS
+      + BigInt(row) * TUN_WORKFIELD_DAYS;
+
+    const targetDate =
+      civilFromDays(targetDays);
+
+    document.getElementById("dayInput").value =
+      targetDate.day;
+
+    document.getElementById("monthInput").value =
+      targetDate.month;
+
+    document.getElementById("yearInput").value =
+      targetDate.year;
+
+    goToDate();
+  });
+}
+      const index =
+        col * 20 + row;
+
+      const cellTone =
+        (index % 13) + 1;
+
+      const toneImg =
+        document.createElement("img");
+
+      toneImg.src =
+        `tones/tone${cellTone}.svg`;
+
+      cell.appendChild(toneImg);
+      longCountField.appendChild(cell);
+    }
+  }
+}
+
+let currentLongCountStart = null;
+let openLongCountLevel = null;
+
+function goToLongCountLevel(day, month, year, level){
+
+  if(openLongCountLevel === level){
+
+    longCountField.style.display = "none";
+    openLongCountLevel = null;
+    currentLongCountStart = null;
+
+    return;
+  }
+
+  currentLongCountStart = {
+    day: day,
+    month: month,
+    year: year
+  };
+
+  document.getElementById("dayInput").value = day;
+  document.getElementById("monthInput").value = month;
+  document.getElementById("yearInput").value = year;
+
+  goToDate();
+
+  // EERST actieve laag vastleggen
+  openLongCountLevel = level;
+
+  // DAARNA veld bouwen
+  buildLongCountField();
+
+  longCountField.style.display = "grid";
+}
 
 // ===== RING =====
 
@@ -734,8 +1111,6 @@ for(let i = 0; i < 64; i++){
   rootRing3.appendChild(img);
   rootRing3Items.push(img);
 }
-
-
 
 
 function getHeartPoint(sealIndex, radius = 255){
@@ -1589,15 +1964,15 @@ rootItems.forEach((pair, i) => {
 });
 
 document.getElementById("info").innerHTML = `
-<tspan x="-90" dy="0">
+<tspan x="-140" dy="0">
 ${lang.moon}: G${night} (${lang.nightNames[night-1]})
 </tspan>
 
-<tspan x="-90" dy="36">
+<tspan x="-140" dy="36">
 ${lang.sun}: ${animals[seal]}
 </tspan>
 
-<tspan x="-90" dy="36">
+<tspan x="-140" dy="36">
 ${lang.tone}: ${tone} (${lang.toneNames[tone-1]})
 </tspan>
 `;

@@ -477,3 +477,88 @@ body,
     display:block;
     margin-top:20px;
 }
+
+#longCountLevels{
+  position: absolute;
+  right: 660px;
+  bottom: 230px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  font-family:"text";
+  font-size: 22px;
+  line-height: 1.2;
+  text-align: left;
+}
+
+#longCountLevels{
+  position: absolute;
+  z-index: 1000;
+  pointer-events: auto;
+}
+
+#longCountLevels > div{
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+#longCountField{
+  display: grid;
+
+  /* 1 headerkolom + 13 toonkolommen */
+  grid-template-columns: 48px repeat(13, 34px);
+
+  /* 20 werkveldrijen */
+  grid-template-rows: repeat(20, 34px);
+
+  gap: 1px;
+
+  position: absolute;
+  right: 120px;
+  top: 150px;
+
+  z-index: 900;
+
+  background: #222;
+  padding: 2px;
+
+  display: none;
+}
+
+.longCountWorkfield{
+  width: 48px;
+  height: 34px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.longCountWorkfield img{
+  width: 28px;
+  height: 28px;
+  transform: rotate(180deg);
+}
+
+.longCountCell{
+  width: 34px;
+  height: 34px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(0,0,0,0.5);
+}
+
+.longCountCell img{
+  width: 25px;
+  height: 25px;
+}
+
+.clickableLongCountCell{
+  cursor: pointer;
+}
