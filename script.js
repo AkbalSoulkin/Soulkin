@@ -320,8 +320,6 @@ function getHeartType(currentSeal){
 }
 
 
-
-
 // ===== DATE PICKER =====
 function goToDate(){
 
@@ -708,14 +706,16 @@ let openLongCountLevel = null;
 
 function goToLongCountLevel(day, month, year, level){
 
-  if(openLongCountLevel === level){
+if(openLongCountLevel === level){
 
-    longCountField.style.display = "none";
-    openLongCountLevel = null;
-    currentLongCountStart = null;
+  longCountField.style.display = "none";
+  openLongCountLevel = null;
+  currentLongCountStart = null;
 
-    return;
-  }
+  setActiveLongCountLevel(null);
+
+  return;
+}
 
   currentLongCountStart = {
     day: day,
@@ -729,13 +729,64 @@ function goToLongCountLevel(day, month, year, level){
 
   goToDate();
 
-  // EERST actieve laag vastleggen
   openLongCountLevel = level;
 
-  // DAARNA veld bouwen
+uinalActive = false;
+
+setActiveLongCountLevel(level);
+
   buildLongCountField();
 
   longCountField.style.display = "grid";
+}
+
+let uinalActive = false;
+
+function goToUinal(){
+
+  // Als Uinal al actief is → deselecteren
+  if(uinalActive){
+
+    setActiveLongCountLevel(null);
+    uinalActive = false;
+
+    return;
+  }
+
+  // Eventueel open 13×20 veld sluiten
+  longCountField.style.display = "none";
+  openLongCountLevel = null;
+  currentLongCountStart = null;
+
+  setActiveLongCountLevel("uinal");
+  uinalActive = true;
+
+  document.getElementById("dayInput").value = 20;
+  document.getElementById("monthInput").value = 1;
+  document.getElementById("yearInput").value = 2282;
+
+  goToDate();
+}
+
+function setActiveLongCountLevel(level){
+
+  document
+    .querySelectorAll(".longCountLevel")
+    .forEach(item => {
+      item.classList.remove("active");
+    });
+
+  if(level){
+
+    const activeItem =
+      document.querySelector(
+        `.longCountLevel[data-level="${level}"]`
+      );
+
+    if(activeItem){
+      activeItem.classList.add("active");
+    }
+  }
 }
 
 // ===== RING =====
@@ -955,11 +1006,6 @@ const fractalIndex =
 // 4 × Oc
 // 4 × Men
 // 4 × Ahau
-//
-// Voorlopig:
-// - allemaal zichtbaar
-// - geen reveal
-// - geen groepsrotatie
 
 rootRing2.innerHTML = "";
 
@@ -1068,9 +1114,6 @@ for(let i = 0; i < 64; i++){
   const angle =
     -i * (360 / 64) + 90;
 
-  // Binnen Ring 2 plaatsen.
-  // Alleen deze waarde aanpassen als de rij te dicht
-  // op Ring 2 of te dicht op het midden staat.
   const radius = 251;
 
   const x =
@@ -2005,9 +2048,23 @@ if(ROOT_LC_START){
     "0.0.0.0.0.0.0.0.0.0";
 }
 
-longCountText.textContent =
-  lang.longCount + ": " +
-  longCountDisplay;
+const kinOnlyStart =
+  daysFromCivil(2282, 1, 21);
+
+if(currentAbsoluteDay >= kinOnlyStart){
+
+const kinNumber =
+  (currentAbsoluteDay - kinOnlyStart + 1n) % 20n;
+
+  longCountText.textContent =
+    "Kin: " + kinNumber.toString();
+
+} else {
+
+  longCountText.textContent =
+    lang.longCount + ": " +
+    longCountDisplay;
+}
 
 // Long Count getallen los halen
 const lcParts = lcText.split(".").map(Number);
