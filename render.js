@@ -68,6 +68,40 @@ if(
   activePage !== "manipura"
 ){
 
+  panel.style.backgroundImage = "none";
+
+  // Alleen kleur tonen, nog geen tekst
+  if(activePage === "muladhara"){
+    panel.style.background =
+      "rgba(120,0,0,0.35)";
+  }
+
+  else if(activePage === "svadhisthana"){
+    panel.style.background =
+      "rgba(255,120,0,0.25)";
+  }
+
+  else if(activePage === "anahata"){
+    panel.style.background =
+      "rgba(0,128,0,0.25)";
+  }
+
+  else if(activePage === "vishuddha"){
+    panel.style.background =
+      "rgba(80,180,255,0.25)";
+  }
+
+  else if(activePage === "ajna"){
+    panel.style.background =
+      "rgba(90,70,180,0.28)";
+  }
+
+  else {
+    // Sahasrara
+    panel.style.background =
+      "transparent";
+  }
+
   title.innerHTML = "";
   content.innerHTML = "";
 
@@ -75,7 +109,6 @@ if(
 
   return;
 }
-
 
   // ===== MULADHARA =====
 
