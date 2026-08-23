@@ -630,3 +630,33 @@ body,
     0 0 8px #fdd835,
     0 0 16px #fdd835;
 }
+
+.historyCell{
+  cursor: pointer;
+  background: white !important;
+}
+
+.historyCell.activeHistoryCell{
+  transform: translateY(-3px) scale(1.05);
+  box-shadow:
+    0 0 8px white,
+    0 0 16px white;
+}
+
+.longCountTrigram{
+  width: 200px;
+  height: 100px;
+
+  position: absolute;
+  right: 260px;
+  top: 50px;
+
+  display: block;
+  margin: 0 auto 10px auto;
+
+  filter: drop-shadow(0 0 5px rgba(255,255,255,0.55));
+
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
+}

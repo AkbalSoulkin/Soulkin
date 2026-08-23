@@ -36,6 +36,7 @@ let rot = 0;
 let guideSeal = 0;
 let animating = false;
 let activePage = "intro";
+let activeHistoryCell = null;
 let mechanismKin = 0;
 let ringKin = 0;
 let beforeOrAtRoot = false;
@@ -422,6 +423,14 @@ if(openLongCountLevel === "hablatun"){
 
   cell.classList.add("clickableLongCountCell");
 
+const isBigBangCell =
+  row === 14 &&
+  col === 2;
+
+if(isBigBangCell){
+  cell.classList.add("historyCell");
+}
+
   cell.addEventListener("click", () => {
 
     const startDays =
@@ -449,12 +458,32 @@ if(openLongCountLevel === "hablatun"){
       targetDate.year;
 
     goToDate();
+
+if(isBigBangCell){
+
+  toggleHistoryCell(
+    "hablatun",
+    "onderscheiden_perspectief",
+    cell
+  );
+
+}
   });
 }
 
 if(openLongCountLevel === "alautun"){
 
   cell.classList.add("clickableLongCountCell");
+
+  // Cambrian Explosion:
+  // Vrijmaken + Potentieel
+  const isAlautunCambrianCell =
+    row === 3 &&
+    col === 5;
+
+  if(isAlautunCambrianCell){
+    cell.classList.add("historyCell");
+  }
 
   cell.addEventListener("click", () => {
 
@@ -483,12 +512,32 @@ if(openLongCountLevel === "alautun"){
       targetDate.year;
 
     goToDate();
+
+    if(isAlautunCambrianCell){
+
+      toggleHistoryCell(
+        "alautun",
+        "vrijmaken_potentieel",
+        cell
+      );
+
+    }
   });
 }
 
 if(openLongCountLevel === "kinchiltun"){
 
   cell.classList.add("clickableLongCountCell");
+
+  // Eocene–Oligocene transition:
+  // Attune + Coherence
+  const isKinchiltunEoceneOligoceneCell =
+    row === 18 &&
+    col === 2;
+
+  if(isKinchiltunEoceneOligoceneCell){
+    cell.classList.add("historyCell");
+  }
 
   cell.addEventListener("click", () => {
 
@@ -517,10 +566,28 @@ if(openLongCountLevel === "kinchiltun"){
       targetDate.year;
 
     goToDate();
+
+    if(isKinchiltunEoceneOligoceneCell){
+
+      toggleHistoryCell(
+        "kinchiltun",
+        "afstemmen_samenhang",
+        cell
+      );
+
+    }
   });
 }
 
 if(openLongCountLevel === "kalabtun"){
+
+const isKalabtunHomoSapiensCell =
+  row === 15 &&
+  col === 11;
+
+if(isKalabtunHomoSapiensCell){
+  cell.classList.add("historyCell");
+}
 
   cell.classList.add("clickableLongCountCell");
 
@@ -551,12 +618,30 @@ if(openLongCountLevel === "kalabtun"){
       targetDate.year;
 
     goToDate();
+
+if(isKalabtunHomoSapiensCell){
+
+  toggleHistoryCell(
+    "kalabtun",
+    "erkennen_spoor",
+    cell
+  );
+
+}
   });
 }
 
 if(openLongCountLevel === "piktun"){
 
   cell.classList.add("clickableLongCountCell");
+
+const isPiktunGobekliCell =
+  row === 2 &&
+  col === 12;
+
+if(isPiktunGobekliCell){
+  cell.classList.add("historyCell");
+}
 
   cell.addEventListener("click", () => {
 
@@ -579,12 +664,33 @@ if(openLongCountLevel === "piktun"){
     document.getElementById("yearInput").value = targetDate.year;
 
     goToDate();
+
+if(isPiktunGobekliCell){
+
+  toggleHistoryCell(
+    "piktun",
+    "integreren_verbeelding",
+    cell
+  );
+
+}
   });
 }
 
 if(openLongCountLevel === "baktun"){
 
   cell.classList.add("clickableLongCountCell");
+
+  // Eerste Baktun-vak:
+  // Actualize + Origin
+  // Writing / early cuneiform
+  const isBaktunWritingCell =
+    row === 0 &&
+    col === 0;
+
+  if(isBaktunWritingCell){
+    cell.classList.add("historyCell");
+  }
 
   cell.addEventListener("click", () => {
 
@@ -613,12 +719,33 @@ if(openLongCountLevel === "baktun"){
       targetDate.year;
 
     goToDate();
+
+    if(isBaktunWritingCell){
+
+      toggleHistoryCell(
+        "baktun",
+        "actualiseren_oorsprong",
+        cell
+      );
+
+    }
   });
 }
+
 
 if(openLongCountLevel === "katun"){
 
   cell.classList.add("clickableLongCountCell");
+
+  // 3 Akbal:
+  // Onderscheiden + Verbeelding
+  const isKatunAkbalCell =
+    row === 2 &&
+    col === 0;
+
+  if(isKatunAkbalCell){
+    cell.classList.add("historyCell");
+  }
 
   cell.addEventListener("click", () => {
 
@@ -647,6 +774,16 @@ if(openLongCountLevel === "katun"){
       targetDate.year;
 
     goToDate();
+
+    if(isKatunAkbalCell){
+
+      toggleHistoryCell(
+        "katun",
+        "onderscheiden_verbeelding",
+        cell
+      );
+
+    }
   });
 }
 
@@ -704,6 +841,24 @@ if(openLongCountLevel === "tun"){
 let currentLongCountStart = null;
 let openLongCountLevel = null;
 
+
+const longCountTrigram =
+  document.getElementById("longCountTrigram");
+
+const longCountTrigrams = {
+
+  alautun: "thunder",
+  kinchiltun: "fire",
+  kalabtun: "wind",
+  piktun: "heaven",
+  baktun: "lake",
+  katun: "water",
+  tun: "mountain",
+  uinal: "earth"
+
+};
+
+
 function goToLongCountLevel(day, month, year, level){
 
 if(openLongCountLevel === level){
@@ -713,6 +868,29 @@ if(openLongCountLevel === level){
   currentLongCountStart = null;
 
   setActiveLongCountLevel(null);
+
+  // Eventuele historische cel ook echt afsluiten
+  if(activeHistoryCell){
+
+    activeHistoryCell = null;
+    activePage = "intro";
+
+    document
+      .querySelectorAll(".activeHistoryCell")
+      .forEach(cell => {
+        cell.classList.remove("activeHistoryCell");
+      });
+
+    document
+      .querySelectorAll(".infoTab")
+      .forEach(tab => {
+        tab.classList.remove("activeTab");
+      });
+
+    updateActivePage();
+  }
+
+updateLongCountTrigram(null);
 
   return;
 }
@@ -729,11 +907,30 @@ if(openLongCountLevel === level){
 
   goToDate();
 
+// Historische cel van een andere laag sluiten
+if(
+  activeHistoryCell &&
+  activeHistoryCell.level !== level
+){
+  activeHistoryCell = null;
+  activePage = "intro";
+
+  document
+    .querySelectorAll(".activeHistoryCell")
+    .forEach(cell => {
+      cell.classList.remove("activeHistoryCell");
+    });
+
+  updateActivePage();
+}
+
   openLongCountLevel = level;
 
 uinalActive = false;
 
 setActiveLongCountLevel(level);
+
+updateLongCountTrigram(level);
 
   buildLongCountField();
 
@@ -744,28 +941,66 @@ let uinalActive = false;
 
 function goToUinal(){
 
-  // Als Uinal al actief is → deselecteren
-  if(uinalActive){
+if(uinalActive){
 
-    setActiveLongCountLevel(null);
-    uinalActive = false;
+  setActiveLongCountLevel(null);
+  uinalActive = false;
 
-    return;
-  }
+  updateLongCountTrigram(null);
+
+  return;
+}
 
   // Eventueel open 13×20 veld sluiten
   longCountField.style.display = "none";
   openLongCountLevel = null;
   currentLongCountStart = null;
 
+  // Eventuele actieve historische cel sluiten
+  if(activeHistoryCell){
+
+    activeHistoryCell = null;
+    activePage = "intro";
+
+    document
+      .querySelectorAll(".activeHistoryCell")
+      .forEach(cell => {
+        cell.classList.remove("activeHistoryCell");
+      });
+
+    updateActivePage();
+  }
+
   setActiveLongCountLevel("uinal");
   uinalActive = true;
+
+updateLongCountTrigram("uinal");
 
   document.getElementById("dayInput").value = 20;
   document.getElementById("monthInput").value = 1;
   document.getElementById("yearInput").value = 2282;
 
   goToDate();
+}
+
+function updateLongCountTrigram(level){
+
+  const trigram =
+    longCountTrigrams[level];
+
+  // Hablatun of geen actieve laag
+  if(!trigram){
+
+    longCountTrigram.style.display = "none";
+    longCountTrigram.removeAttribute("src");
+
+    return;
+  }
+
+  longCountTrigram.src =
+    `trigrams/${trigram}.svg`;
+
+  longCountTrigram.style.display = "block";
 }
 
 function setActiveLongCountLevel(level){
@@ -2460,7 +2695,70 @@ hoverMap.forEach(h => {
 
 }
 
+function toggleHistoryCell(level, key, cell){
+
+  // Zelfde vak opnieuw → terug naar intro
+  if(
+    activeHistoryCell &&
+    activeHistoryCell.level === level &&
+    activeHistoryCell.key === key
+  ){
+
+    activeHistoryCell = null;
+
+    cell.classList.remove("activeHistoryCell");
+
+    activePage = "intro";
+
+    document
+      .querySelectorAll(".infoTab")
+      .forEach(tab => {
+        tab.classList.remove("activeTab");
+      });
+
+    updateActivePage();
+
+    return;
+  }
+
+
+  // Eventuele andere historische cel uitzetten
+  document
+    .querySelectorAll(".activeHistoryCell")
+    .forEach(item => {
+      item.classList.remove("activeHistoryCell");
+    });
+
+
+  // Chakra-selectie uit
+  document
+    .querySelectorAll(".infoTab")
+    .forEach(tab => {
+      tab.classList.remove("activeTab");
+    });
+
+  activePage = "intro";
+
+  activeHistoryCell = {
+    level: level,
+    key: key
+  };
+
+  cell.classList.add("activeHistoryCell");
+
+  updateActivePage();
+}
+
+
 function setActivePage(pageName, tabId){
+
+activeHistoryCell = null;
+
+document
+  .querySelectorAll(".activeHistoryCell")
+  .forEach(item => {
+    item.classList.remove("activeHistoryCell");
+  });
 
   if(activePage === pageName){
 

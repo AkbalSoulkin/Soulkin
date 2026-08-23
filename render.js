@@ -11,6 +11,130 @@ function updateActivePage(){
     document.getElementById("infoPanelContent");
 
 
+// ===== HISTORISCHE LONG COUNT CEL =====
+
+if(activeHistoryCell){
+
+  const level =
+    activeHistoryCell.level;
+
+  const key =
+    activeHistoryCell.key;
+
+  const entry =
+    window.historyTexts?.[language]?.[level]?.[key]
+    ??
+    window.historyTexts?.en?.[level]?.[key];
+
+  if(entry){
+
+panel.style.background = "transparent";
+
+    // Achtergrond hoort bij de LAAG
+    if(level === "hablatun"){
+
+      panel.style.backgroundImage =
+        'url("backgrounds/hablatun.png")';
+
+      panel.style.backgroundSize =
+        "cover";
+
+      panel.style.backgroundPosition =
+        "center";
+    }
+
+if(level === "alautun"){
+
+  panel.style.backgroundImage =
+    'url("backgrounds/alautun.png")';
+
+  panel.style.backgroundSize =
+    "cover";
+
+  panel.style.backgroundPosition =
+    "center";
+}
+
+if(level === "kinchiltun"){
+
+  panel.style.backgroundImage =
+    'url("backgrounds/kinchiltun.png")';
+
+  panel.style.backgroundSize =
+    "cover";
+
+  panel.style.backgroundPosition =
+    "center";
+}
+
+if(level === "kalabtun"){
+
+  panel.style.backgroundImage =
+    'url("backgrounds/kalabtun.png")';
+
+  panel.style.backgroundSize =
+    "cover";
+
+  panel.style.backgroundPosition =
+    "center";
+}
+
+if(level === "piktun"){
+
+  panel.style.backgroundImage =
+    'url("backgrounds/piktun.png")';
+
+  panel.style.backgroundSize = "cover";
+  panel.style.backgroundPosition = "center";
+}
+
+if(level === "baktun"){
+
+  const baktunBackgrounds = {
+    actualiseren_oorsprong:
+      "backgrounds/baktun01.png"
+  };
+
+  const background =
+    baktunBackgrounds[key];
+
+  if(background){
+
+    panel.style.backgroundImage =
+      `url("${background}")`;
+
+    panel.style.backgroundSize =
+      "cover";
+
+    panel.style.backgroundPosition =
+      "center";
+  }
+}
+
+if(level === "katun"){
+
+  panel.style.backgroundImage =
+    'url("backgrounds/katun.png")';
+
+  panel.style.backgroundSize =
+    "cover";
+
+  panel.style.backgroundPosition =
+    "center";
+}
+
+    title.innerHTML =
+      entry.title;
+
+  title.classList.remove("chakraTitle");
+
+    content.innerHTML =
+      entry.text;
+
+    return;
+  }
+}
+
   // ===== VASTE STARTDATA =====
 
 
@@ -41,6 +165,8 @@ function updateActivePage(){
   // ===== INTRO =====
 
   if(activePage === "intro"){
+
+panel.style.background = "transparent";
 
     panel.style.backgroundImage =
       'url("backgrounds/maya.png")';
