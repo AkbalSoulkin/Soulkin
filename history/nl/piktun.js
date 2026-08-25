@@ -21,3 +21,255 @@ Rond 9600 v.Chr. begonnen gemeenschappen van jagers-verzamelaars bij Göbekli Te
   }
 
 };
+
+window.historyTexts.nl.piktun.verankeren_spoor = {
+
+  title:
+    "Plaatsen",
+
+text:
+  `Verankeren + Spoor
+
+<br><br>
+
+Ongeveer 75.000 jaar geleden graveerden Homo sapiens in de Blombos-grot, in het huidige Zuid-Afrika, geometrische patronen in stukken oker. De vindplaats bevat ook doorboorde schelpkralen die waarschijnlijk als persoonlijke ornamenten werden gebruikt.
+
+<br><br>
+
+Deze vondsten leveren enkele van de duidelijkste vroege archeologische bewijzen voor het doelbewust creëren van blijvende visuele patronen en persoonlijke ornamentatie en vormen zo een materieel spoor van steeds complexer symbolisch gedrag.`
+    
+};
+
+window.historyTexts.nl.piktun.erkennen_perspectief = {
+
+  title:
+    "Actualiseren",
+
+text:
+  `Erkennen + Perspectief
+
+<br><br>
+
+Ongeveer 100.000 jaar geleden begroeven Homo sapiens in de Qafzeh-grot, in het huidige Israël, doelbewust leden van hun gemeenschap. De vindplaats bevat de resten van meerdere individuen, samen met stukken rode oker die in de nabijheid van de botten zijn gevonden.
+
+<br><br>
+
+Deze begravingen leveren belangrijk vroeg archeologisch bewijs dat overledenen op doelbewuste en gestructureerde manieren werden behandeld en bieden een zeldzaam perspectief op het sociale en symbolische gedrag van vroege Homo sapiens.`
+
+};
+
+window.historyTexts.nl.piktun.actualiseren_interactie = {
+
+  title:
+    "Erkennen",
+
+text:
+  `Actualiseren + Interactie
+
+<br><br>
+
+Ongeveer 95.000 jaar geleden bewerkten mensen bij de Red Balloon-rotshelter, in het huidige Zuid-Afrika, doelbewust oker met technieken zoals slijpen en percussie. De archeologische resten tonen herhaalde selectie en bewerking van minerale materialen.
+
+<br><br>
+
+Dit bewijs wijst op gespecialiseerde kennis van lokale grondstoffen en op terugkerende praktijken waarbij mensen minerale pigmenten bewerkten en transformeerden voor praktisch of symbolisch gebruik.`
+
+};
+
+window.historyTexts.nl.piktun.actualiseren_structuur = {
+
+  title:
+    "Onderscheiden",
+
+text:
+  `Actualiseren + Structuur
+
+<br><br>
+
+Ongeveer 85.000 jaar geleden was Homo sapiens aanwezig bij Al Wusta, in het huidige Saoedi-Arabië. Een daar gevonden menselijk vingerkootje levert direct fossiel bewijs dat vroege Homo sapiens het binnenland van het Arabische Schiereiland had bereikt.
+
+<br><br>
+
+In die tijd was de regio veel vochtiger dan tegenwoordig, met zoetwatermeren en graslandachtige omgevingen. De ontdekking laat zien dat de vroege verspreiding van mensen buiten Afrika zich tijdens gunstige klimaatperioden tot diep in Arabië uitstrekte.`
+
+};
+
+window.historyTexts.nl.piktun.doorgronden_waarde = {
+
+  title:
+    "Selecteren",
+
+text:
+  `Doorgronden + Waarde
+
+<br><br>
+
+Ongeveer 71.000 jaar geleden gebruikten Homo sapiens in de Sibudu-grot, in het huidige Zuid-Afrika, samengestelde kleefstoffen om zorgvuldig gevormde stenen werktuigen aan handvatten of schachten te bevestigen. Sommige van deze kleefstoffen combineerden plantaardig materiaal met rode oker.
+
+<br><br>
+
+Voor het maken van deze samengestelde werktuigen moesten verschillende materialen worden geselecteerd, voorbereid en gecombineerd op basis van hun eigenschappen, wat wijst op geavanceerde technologische kennis tijdens de Midden-Steentijd.`
+
+};
+
+window.historyTexts.nl.piktun.erkennen_grenzen = {
+
+  title:
+    "Verfijnen",
+
+text:
+  `Erkennen + Grenzen
+
+<br><br>
+
+Ongeveer 64.000 jaar geleden gebruikten Homo sapiens in de Sibudu-grot, in het huidige Zuid-Afrika, kleine stenen punten waarvan microscopische slijtage- en inslagsporen overeenkomen met gebruik als pijlpunten.
+
+<br><br>
+
+Omdat de houten bogen en schachten niet bewaard zijn gebleven, wordt de technologie gereconstrueerd aan de hand van de stenen en benen onderdelen die wel zijn overgeleverd. Samen vormen deze vondsten enkele van de vroegst bekende archeologische aanwijzingen voor jacht met pijl en boog.`
+
+};
+
+window.historyTexts.nl.piktun.erkennen_levenspad = {
+
+  title:
+    "Afstemmen",
+
+text:
+  `Erkennen + Levenspad
+
+<br><br>
+
+Ongeveer 54.000 jaar geleden bewoonden Homo sapiens de Grotte Mandrin in de Rhônevallei van het huidige Frankrijk. Een menselijke tand die in verband wordt gebracht met de kenmerkende Neronian-steenindustrie levert bewijs voor een vroege aanwezigheid van Homo sapiens in West-Europa.
+
+<br><br>
+
+De bewoningslaag van Homo sapiens ligt tussen lagen die met Neanderthalers worden geassocieerd, die later naar de vindplaats terugkeerden. Deze opeenvolging laat zien dat de komst van Homo sapiens in Europa geen eenmalige, voortdurende vervanging was, maar afwisselende bewoning door verschillende menselijke populaties omvatte.`
+
+};
+
+window.historyTexts.nl.piktun.doorgronden_structuur = {
+
+  title:
+    "Transformeren",
+
+text:
+  `Doorgronden + Structuur
+
+<br><br>
+
+Minstens 45.500 jaar geleden schilderden mensen op Sulawesi een levensgrote afbeelding van een inheems wrattenzwijn op de wand van de Leang Tedongnge-grot. De schildering behoort tot de oudste betrouwbaar gedateerde figuratieve kunstwerken die bekend zijn.
+
+<br><br>
+
+Het pigment zelf werd niet rechtstreeks gedateerd. In plaats daarvan dateerden onderzoekers minerale afzettingen die zich boven op de schildering hadden gevormd, waaruit blijkt dat de afbeelding minstens zo oud moet zijn als deze afzettingen.`
+
+};
+
+window.historyTexts.nl.piktun.verankeren_interactie = {
+
+  title:
+    "Integreren",
+
+text:
+  `Verankeren + Interactie
+
+<br><br>
+
+Ongeveer 40.000 jaar geleden maakten mensen in de Zwabische Jura, in het huidige Duitsland, enkele van de oudste bekende muziekinstrumenten. Fluiten werden vervaardigd uit vogelbotten en mammoetivoor en konden gecontroleerde reeksen tonen voortbrengen.
+
+<br><br>
+
+Deze instrumenten leveren direct archeologisch bewijs dat muziek deel was geworden van het sociale en culturele leven van mensen, waarbij vakmanschap werd gecombineerd met georganiseerde interactie door middel van geluid.`
+
+};
+
+window.historyTexts.nl.piktun.transformeren_relatie = {
+
+  title:
+    "Doorgronden",
+
+text:
+  `Transformeren + Relatie
+
+<br><br>
+
+Ongeveer 30.000 jaar geleden vormden mensen bij Dolní Věstonice, in het huidige Tsjechië, klei tot menselijke en dierlijke figuren en maakten deze doelbewust hard door ze te bakken. De vindplaats bevat enkele van de oudste bekende keramische objecten.
+
+<br><br>
+
+Deze objecten laten zien dat mensen hadden geleerd klei permanent te transformeren met hitte, duizenden jaren voordat keramische gebruiksvaten algemeen werden, en tonen een vroeg begrip van hoe vuur de eigenschappen van materialen kon veranderen.`
+
+};
+
+window.historyTexts.nl.piktun.erkennen_relatie = {
+
+  title:
+    "Verankeren",
+
+text:
+  `Erkennen + Relatie
+
+<br><br>
+
+Ongeveer 23.000 jaar geleden leefden jager-verzamelaars bij Ohalo II aan de oever van het Meer van Galilea, in het huidige Israël. De uitzonderlijk goed bewaarde vindplaats bevat resten van hutten van takken, haarden, maalstenen en grote hoeveelheden wilde planten, waaronder wilde granen.
+
+<br><br>
+
+De vondsten laten zien dat mensen duizenden jaren voordat landbouw in de regio gevestigd raakte al wilde granen verzamelden en verwerkten, en leveren belangrijk bewijs voor de langdurige relatie tussen menselijke gemeenschappen en de planten die later belangrijke gedomesticeerde gewassen zouden worden.`
+
+};
+
+window.historyTexts.nl.piktun.verankeren_levenspad = {
+
+  title:
+    "Ontsluiten",
+
+text:
+  `Verankeren + Levenspad
+
+<br><br>
+
+Ongeveer 14.400 jaar geleden bereidden jager-verzamelaars bij Shubayqa 1, in het huidige Jordanië, broodachtige voedingsmiddelen uit wilde planten. Verkoolde fragmenten die in haarden zijn gevonden bevatten aanwijzingen voor fijngemalen granen en andere plantaardige ingrediënten die tot deeg werden verwerkt en gebakken.
+
+<br><br>
+
+Deze resten zijn duizenden jaren ouder dan de gevestigde landbouw en laten zien dat mensen al complexe voedingsmiddelen op basis van granen produceerden voordat de planten die zij gebruikten waren gedomesticeerd.`
+
+};
+
+window.historyTexts.nl.piktun.plaatsen_expressie = {
+
+  title:
+    "Vrijmaken",
+
+text:
+  `Plaatsen + Expressie
+
+<br><br>
+
+Rond 7100 v.Chr. stichtten mensen de grote neolithische nederzetting Çatalhöyük in Centraal-Anatolië, in het huidige Turkije. Uiteindelijk woonden duizenden mensen in dicht opeengepakte huizen van leemsteen, die doorgaans via openingen in de daken werden betreden in plaats van vanaf straten.
+
+<br><br>
+
+In het interieur van deze huizen zijn muurschilderingen, reliëfs, installaties en begravingen onder de vloeren bewaard gebleven, waardoor een uitzonderlijk gedetailleerd archeologisch beeld ontstaat van hoe neolithische gemeenschappen hun woonruimtes organiseerden, bewoonden en er betekenis in tot uitdrukking brachten.`
+
+};
+
+window.historyTexts.nl.piktun.verankeren_waarheid = {
+
+  title:
+    "Vrijmaken",
+
+text:
+  `Verankeren + Waarheid
+
+<br><br>
+
+Gedurende het vierde millennium v.Chr. ontwikkelde Uruk in Zuid-Mesopotamië zich tot een van de vroegste grote stedelijke centra ter wereld. De groeiende bevolking werd ondersteund door steeds complexere systemen van landbouw, gespecialiseerde productie, monumentale bouw en administratie.
+
+<br><br>
+
+De toenemende behoefte om goederen, arbeid en transacties te organiseren droeg bij aan nieuwe vormen van registratie. Tegen het einde van het vierde millennium v.Chr. zou deze administratieve omgeving bijdragen aan het ontstaan van de vroegst bekende schriftsystemen in Mesopotamië.`
+
+};
