@@ -403,3 +403,21 @@ text:
 Güneş merkezli fikirler Antik Çağ'da da mevcut olsa da Copernicus bunları ayrıntılı bir astronomik sistem hâline getirdi. Çalışması, uzun süredir yerleşmiş olan Dünya merkezli modele meydan okudu ve Kepler, Galileo ve diğerlerinin daha sonraki astronomik çalışmalarına önemli bir temel oluşturdu.`
 
 };
+
+window.historyTexts.tr.baktun.verfijnen_structuur = {
+
+  title:
+    "Serbest Bırakmak",
+
+text:
+  `İnceltmek + Yapı
+
+<br><br>
+
+On dokuzuncu yüzyılda mucitler, metinleri mekanik olarak üretmek için giderek daha kullanışlı makineler geliştirdi. 1868 yılında Christopher Latham Sholes, Carlos Glidden ve Samuel W. Soulé, modern daktilonun gelişimine katkıda bulunan bir yazı makinesi için patent aldı.
+
+<br><br>
+
+1874'ten itibaren Remington tarafından ticari bir modeli üretilmeye başlandı. Klavye düzeni QWERTY diziliminin yerleşmesine katkıda bulunurken, daktiloların giderek yaygınlaşması mektupların, belgelerin ve idari kayıtların hazırlanma biçimini önemli ölçüde değiştirdi.`
+
+};

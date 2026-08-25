@@ -405,3 +405,21 @@ In 1543, Nicolaus Copernicus published De revolutionibus orbium coelestium, pres
 Heliocentric ideas had existed in antiquity, but Copernicus developed them into a detailed astronomical system. His work challenged the long-established geocentric model and became an important foundation for the later astronomical work of Kepler, Galileo and others.`
 
 };
+
+window.historyTexts.en.baktun.verfijnen_structuur = {
+
+  title:
+    "Release",
+
+  text:
+    `Refine + Structure
+
+<br><br>
+
+During the nineteenth century, inventors developed increasingly practical machines for producing text mechanically. In 1868, Christopher Latham Sholes, Carlos Glidden and Samuel W. Soulé received a patent for a writing machine that contributed to the development of the modern typewriter.
+
+<br><br>
+
+A commercial version was manufactured by Remington from 1874. Its keyboard arrangement helped establish the QWERTY layout, while the growing use of typewriters transformed the production of letters, documents and administrative records.`
+
+};

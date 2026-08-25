@@ -404,3 +404,21 @@ In 1543 publiceerde Nicolaus Copernicus De revolutionibus orbium coelestium, waa
 Heliocentrische ideeën bestonden al in de oudheid, maar Copernicus werkte ze uit tot een gedetailleerd astronomisch systeem. Zijn werk stelde het lang gevestigde geocentrische model ter discussie en vormde een belangrijke basis voor het latere astronomische werk van Kepler, Galileo en anderen.`
 
 };
+
+window.historyTexts.nl.baktun.verfijnen_structuur = {
+
+  title:
+    "Vrijmaken",
+
+text:
+  `Verfijnen + Structuur
+
+<br><br>
+
+In de negentiende eeuw ontwikkelden uitvinders steeds praktischere machines om tekst mechanisch te produceren. In 1868 kregen Christopher Latham Sholes, Carlos Glidden en Samuel W. Soulé een patent op een schrijfmachine die bijdroeg aan de ontwikkeling van de moderne typmachine.
+
+<br><br>
+
+Vanaf 1874 werd een commerciële versie geproduceerd door Remington. De indeling van het toetsenbord hielp de QWERTY-indeling te vestigen, terwijl het groeiende gebruik van typmachines de productie van brieven, documenten en administratieve gegevens ingrijpend veranderde.`
+
+};
