@@ -91,8 +91,82 @@ if(level === "piktun"){
 if(level === "baktun"){
 
   const baktunBackgrounds = {
-    actualiseren_oorsprong:
-      "backgrounds/baktun01.png"
+
+verankeren_waarheid:
+  "backgrounds/baktun13.png",
+
+vrijmaken_bewustzijn:
+  "backgrounds/baktun12.png",
+
+onderscheiden_manifestatie:
+  "backgrounds/baktun12.png",
+
+onderscheiden_expressie:
+  "backgrounds/baktun11.png",
+
+erkennen_relatie:
+  "backgrounds/baktun11.png",
+
+transformeren_relatie:
+  "backgrounds/baktun10.png",
+
+integreren_expressie:
+  "backgrounds/baktun10.png",
+
+transformeren_potentieel:
+  "backgrounds/baktun09.png",
+
+selecteren_bewustzijn:
+  "backgrounds/baktun09.png",
+
+onderscheiden_grenzen:
+  "backgrounds/baktun08.png",
+
+actualiseren_manifestatie_rome:
+  "backgrounds/baktun08.png",
+
+onderscheiden_structuur_athene:
+  "backgrounds/baktun07.png",
+
+transformeren_waarheid:
+  "backgrounds/baktun07.png",
+
+erkennen_samenhang:
+  "backgrounds/baktun06.png",
+
+ontvouwen_verbeelding:
+  "backgrounds/baktun06.png",
+
+onderscheiden_bewustzijn:
+  "backgrounds/baktun05.png",
+
+afstemmen_waarheid:
+  "backgrounds/baktun05.png",
+
+selecteren_relatie:
+  "backgrounds/baktun04.png",
+
+erkennen_interactie:
+  "backgrounds/baktun04.png",
+
+vrijmaken_levenspad:
+  "backgrounds/baktun03.png",
+
+transformeren_interactie:
+  "backgrounds/baktun03.png",
+
+actualiseren_essentie:
+  "backgrounds/baktun02.png",
+
+onderscheiden_stroming:
+  "backgrounds/baktun02.png",
+
+actualiseren_oorsprong:
+  "backgrounds/baktun01.png",
+
+erkennen_informatie:
+  "backgrounds/baktun01.png"
+
   };
 
   const background =

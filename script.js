@@ -431,6 +431,14 @@ if(isBigBangCell){
   cell.classList.add("historyCell");
 }
 
+const isHablatunHubbleCell =
+  row === 1 &&
+  col === 12;
+
+if(isHablatunHubbleCell){
+  cell.classList.add("historyCell");
+}
+
   cell.addEventListener("click", () => {
 
     const startDays =
@@ -468,6 +476,16 @@ if(isBigBangCell){
   );
 
 }
+
+if(isHablatunHubbleCell){
+
+  toggleHistoryCell(
+    "hablatun",
+    "transformeren_informatie",
+    cell
+  );
+
+}
   });
 }
 
@@ -484,6 +502,30 @@ if(openLongCountLevel === "alautun"){
   if(isAlautunCambrianCell){
     cell.classList.add("historyCell");
   }
+
+const isAlautunKPgCell =
+  row === 12 &&
+  col === 12;
+
+if(isAlautunKPgCell){
+  cell.classList.add("historyCell");
+}
+
+const isAlautunPermianExtinctionCell =
+  row === 13 &&
+  col === 9;
+
+if(isAlautunPermianExtinctionCell){
+  cell.classList.add("historyCell");
+}
+
+const isAlautunLandPlantsCell =
+  row === 19 &&
+  col === 6;
+
+if(isAlautunLandPlantsCell){
+  cell.classList.add("historyCell");
+}
 
   cell.addEventListener("click", () => {
 
@@ -522,6 +564,37 @@ if(openLongCountLevel === "alautun"){
       );
 
     }
+
+if(isAlautunKPgCell){
+
+  toggleHistoryCell(
+    "alautun",
+    "afstemmen_structuur",
+    cell
+  );
+
+}
+
+if(isAlautunPermianExtinctionCell){
+
+  toggleHistoryCell(
+    "alautun",
+    "ontsluiten_bewustzijn",
+    cell
+  );
+
+}
+
+if(isAlautunLandPlantsCell){
+
+  toggleHistoryCell(
+    "alautun",
+    "doorgronden_essentie",
+    cell
+  );
+
+}
+
   });
 }
 
@@ -538,6 +611,30 @@ if(openLongCountLevel === "kinchiltun"){
   if(isKinchiltunEoceneOligoceneCell){
     cell.classList.add("historyCell");
   }
+
+const isKinchiltunLomekwiCell =
+  row === 12 &&
+  col === 12;
+
+if(isKinchiltunLomekwiCell){
+  cell.classList.add("historyCell");
+}
+
+const isKinchiltunSahelanthropusCell =
+  row === 9 &&
+  col === 11;
+
+if(isKinchiltunSahelanthropusCell){
+  cell.classList.add("historyCell");
+}
+
+const isKinchiltunMioceneCell =
+  row === 7 &&
+  col === 6;
+
+if(isKinchiltunMioceneCell){
+  cell.classList.add("historyCell");
+}
 
   cell.addEventListener("click", () => {
 
@@ -576,6 +673,37 @@ if(openLongCountLevel === "kinchiltun"){
       );
 
     }
+
+if(isKinchiltunLomekwiCell){
+
+  toggleHistoryCell(
+    "kinchiltun",
+    "verfijnen_structuur",
+    cell
+  );
+
+}
+
+if(isKinchiltunSahelanthropusCell){
+
+  toggleHistoryCell(
+    "kinchiltun",
+    "integreren_relatie",
+    cell
+  );
+
+}
+
+if(isKinchiltunMioceneCell){
+
+  toggleHistoryCell(
+    "kinchiltun",
+    "verankeren_waarde",
+    cell
+  );
+
+}
+
   });
 }
 
@@ -586,6 +714,38 @@ const isKalabtunHomoSapiensCell =
   col === 11;
 
 if(isKalabtunHomoSapiensCell){
+  cell.classList.add("historyCell");
+}
+
+const isKalabtunHomoErectusCell =
+  row === 12 &&
+  col === 1;
+
+if(isKalabtunHomoErectusCell){
+  cell.classList.add("historyCell");
+}
+
+const isKalabtunAcheuleanCell =
+  row === 10 &&
+  col === 2;
+
+if(isKalabtunAcheuleanCell){
+  cell.classList.add("historyCell");
+}
+
+const isKalabtunFireCell =
+  row === 13 &&
+  col === 8;
+
+if(isKalabtunFireCell){
+  cell.classList.add("historyCell");
+}
+
+const isKalabtunNeanderthalCell =
+  row === 18 &&
+  col === 10;
+
+if(isKalabtunNeanderthalCell){
   cell.classList.add("historyCell");
 }
 
@@ -628,6 +788,47 @@ if(isKalabtunHomoSapiensCell){
   );
 
 }
+
+if(isKalabtunHomoErectusCell){
+
+  toggleHistoryCell(
+    "kalabtun",
+    "afstemmen_structuur",
+    cell
+  );
+
+}
+
+if(isKalabtunAcheuleanCell){
+
+  toggleHistoryCell(
+    "kalabtun",
+    "ontsluiten_expressie",
+    cell
+  );
+
+}
+
+if(isKalabtunFireCell){
+
+  toggleHistoryCell(
+    "kalabtun",
+    "selecteren_bewustzijn",
+    cell
+  );
+
+}
+
+if(isKalabtunNeanderthalCell){
+
+  toggleHistoryCell(
+    "kalabtun",
+    "verankeren_samenhang",
+    cell
+  );
+
+}
+
   });
 }
 
@@ -640,6 +841,118 @@ const isPiktunGobekliCell =
   col === 12;
 
 if(isPiktunGobekliCell){
+  cell.classList.add("historyCell");
+}
+
+const isPiktunBlombosCell =
+  row === 15 &&
+  col === 3;
+
+if(isPiktunBlombosCell){
+  cell.classList.add("historyCell");
+}
+
+const isPiktunQafzehCell =
+  row === 14 &&
+  col === 0;
+
+if(isPiktunQafzehCell){
+  cell.classList.add("historyCell");
+}
+
+const isPiktunRedBalloonCell =
+  row === 6 &&
+  col === 1;
+
+if(isPiktunRedBalloonCell){
+  cell.classList.add("historyCell");
+}
+
+const isPiktunAlWustaCell =
+  row === 12 &&
+  col === 2;
+
+if(isPiktunAlWustaCell){
+  cell.classList.add("historyCell");
+}
+
+const isPiktunSibuduAdhesiveCell =
+  row === 7 &&
+  col === 4;
+
+if(isPiktunSibuduAdhesiveCell){
+  cell.classList.add("historyCell");
+}
+
+const isPiktunBowArrowCell =
+  row === 5 &&
+  col === 5;
+
+if(isPiktunBowArrowCell){
+  cell.classList.add("historyCell");
+}
+
+const isPiktunMandrinCell =
+  row === 11 &&
+  col === 6;
+
+if(isPiktunMandrinCell){
+  cell.classList.add("historyCell");
+}
+
+const isPiktunSulawesiArtCell =
+  row === 12 &&
+  col === 7;
+
+if(isPiktunSulawesiArtCell){
+  cell.classList.add("historyCell");
+}
+
+const isPiktunEarlyMusicCell =
+  row === 6 &&
+  col === 8;
+
+if(isPiktunEarlyMusicCell){
+  cell.classList.add("historyCell");
+}
+
+const isPiktunDolniVestoniceCell =
+  row === 9 &&
+  col === 9;
+
+if(isPiktunDolniVestoniceCell){
+  cell.classList.add("historyCell");
+}
+
+const isPiktunOhaloCell =
+  row === 9 &&
+  col === 10;
+
+if(isPiktunOhaloCell){
+  cell.classList.add("historyCell");
+}
+
+const isPiktunShubayqaBreadCell =
+  row === 11 &&
+  col === 11;
+
+if(isPiktunShubayqaBreadCell){
+  cell.classList.add("historyCell");
+}
+
+const isPiktunCatalhoyukCell =
+  row === 10 &&
+  col === 12;
+
+if(isPiktunCatalhoyukCell){
+  cell.classList.add("historyCell");
+}
+
+const isPiktunUrukCell =
+  row === 17 &&
+  col === 12;
+
+if(isPiktunUrukCell){
   cell.classList.add("historyCell");
 }
 
@@ -674,6 +987,147 @@ if(isPiktunGobekliCell){
   );
 
 }
+
+if(isPiktunBlombosCell){
+
+  toggleHistoryCell(
+    "piktun",
+    "verankeren_spoor",
+    cell
+  );
+
+}
+
+if(isPiktunQafzehCell){
+
+  toggleHistoryCell(
+    "piktun",
+    "erkennen_perspectief",
+    cell
+  );
+
+}
+
+if(isPiktunRedBalloonCell){
+
+  toggleHistoryCell(
+    "piktun",
+    "actualiseren_interactie",
+    cell
+  );
+
+}
+
+if(isPiktunAlWustaCell){
+
+  toggleHistoryCell(
+    "piktun",
+    "actualiseren_structuur",
+    cell
+  );
+
+}
+
+if(isPiktunSibuduAdhesiveCell){
+
+  toggleHistoryCell(
+    "piktun",
+    "doorgronden_waarde",
+    cell
+  );
+
+}
+
+if(isPiktunBowArrowCell){
+
+  toggleHistoryCell(
+    "piktun",
+    "erkennen_grenzen",
+    cell
+  );
+
+}
+
+if(isPiktunMandrinCell){
+
+  toggleHistoryCell(
+    "piktun",
+    "erkennen_levenspad",
+    cell
+  );
+
+}
+
+if(isPiktunSulawesiArtCell){
+
+  toggleHistoryCell(
+    "piktun",
+    "doorgronden_structuur",
+    cell
+  );
+
+}
+
+if(isPiktunEarlyMusicCell){
+
+  toggleHistoryCell(
+    "piktun",
+    "verankeren_interactie",
+    cell
+  );
+
+}
+
+if(isPiktunDolniVestoniceCell){
+
+  toggleHistoryCell(
+    "piktun",
+    "transformeren_relatie",
+    cell
+  );
+
+}
+
+if(isPiktunOhaloCell){
+
+  toggleHistoryCell(
+    "piktun",
+    "erkennen_relatie",
+    cell
+  );
+
+}
+
+if(isPiktunShubayqaBreadCell){
+
+  toggleHistoryCell(
+    "piktun",
+    "verankeren_levenspad",
+    cell
+  );
+
+}
+
+if(isPiktunCatalhoyukCell){
+
+  toggleHistoryCell(
+    "piktun",
+    "plaatsen_expressie",
+    cell
+  );
+
+}
+
+if(isPiktunUrukCell){
+
+  toggleHistoryCell(
+    "piktun",
+    "verankeren_waarheid",
+    cell
+  );
+
+}
+
   });
 }
 
@@ -691,6 +1145,198 @@ if(openLongCountLevel === "baktun"){
   if(isBaktunWritingCell){
     cell.classList.add("historyCell");
   }
+
+const isBaktunPyramidCell =
+  row === 8 &&
+  col === 1;
+
+if(isBaktunPyramidCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunIndusCell =
+  row === 6 &&
+  col === 2;
+
+if(isBaktunIndusCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunHammurabiCell =
+  row === 9 &&
+  col === 3;
+
+if(isBaktunHammurabiCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunBronzeAgeCollapseCell =
+  row === 17 &&
+  col === 4;
+
+if(isBaktunBronzeAgeCollapseCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunPhoenicianCell =
+  row === 2 &&
+  col === 5;
+
+if(isBaktunPhoenicianCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunDemocracyCell =
+  row === 12 &&
+  col === 6;
+
+if(isBaktunDemocracyCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunRomanEmpireCell =
+  row === 16 &&
+  col === 7;
+
+if(isBaktunRomanEmpireCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunChristianityCell =
+  row === 13 &&
+  col === 8;
+
+if(isBaktunChristianityCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunHijraCell =
+  row === 9 &&
+  col === 9;
+
+if(isBaktunHijraCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunMovableTypeCell =
+  row === 10 &&
+  col === 10;
+
+if(isBaktunMovableTypeCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunColumbusCell =
+  row === 13 &&
+  col === 11;
+
+if(isBaktunColumbusCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunArpanetCell =
+  row === 17 &&
+  col === 12;
+
+if(isBaktunArpanetCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunEarlyEgyptCell =
+  row === 1 &&
+  col === 0;
+
+if(isBaktunEarlyEgyptCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunAkkadianEmpireCell =
+  row === 19 &&
+  col === 1;
+
+if(isBaktunAkkadianEmpireCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunUrNammuCell =
+  row === 11 &&
+  col === 2;
+
+if(isBaktunUrNammuCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunEarlyAlphabetCell =
+  row === 6 &&
+  col === 3;
+
+if(isBaktunEarlyAlphabetCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunKadeshCell =
+  row === 13 &&
+  col === 4;
+
+if(isBaktunKadeshCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunOlympicsCell =
+  row === 18 &&
+  col === 5;
+
+if(isBaktunOlympicsCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunSocratesCell =
+  row === 17 &&
+  col === 6;
+
+if(isBaktunSocratesCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunArchimedesCell =
+  row === 5 &&
+  col === 7;
+
+if(isBaktunArchimedesCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunPaperCell =
+  row === 3 &&
+  col === 8;
+
+if(isBaktunPaperCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunBrahmaguptaCell =
+  row === 10 &&
+  col === 9;
+
+if(isBaktunBrahmaguptaCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunIbnAlHaythamCell =
+  row === 9 &&
+  col === 10;
+
+if(isBaktunIbnAlHaythamCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunCopernicusCell =
+  row === 16 &&
+  col === 11;
+
+if(isBaktunCopernicusCell){
+  cell.classList.add("historyCell");
+}
 
   cell.addEventListener("click", () => {
 
@@ -729,6 +1375,247 @@ if(openLongCountLevel === "baktun"){
       );
 
     }
+
+if(isBaktunPyramidCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "onderscheiden_stroming",
+    cell
+  );
+
+}
+
+if(isBaktunIndusCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "transformeren_interactie",
+    cell
+  );
+
+}
+
+if(isBaktunHammurabiCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "selecteren_relatie",
+    cell
+  );
+
+}
+
+if(isBaktunBronzeAgeCollapseCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "afstemmen_waarheid",
+    cell
+  );
+
+}
+
+if(isBaktunPhoenicianCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "ontvouwen_verbeelding",
+    cell
+  );
+
+}
+
+if(isBaktunDemocracyCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "onderscheiden_structuur_athene",
+    cell
+  );
+
+}
+
+if(isBaktunRomanEmpireCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "actualiseren_manifestatie_rome",
+    cell
+  );
+
+}
+
+if(isBaktunChristianityCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "selecteren_bewustzijn",
+    cell
+  );
+
+}
+
+if(isBaktunHijraCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "transformeren_relatie",
+    cell
+  );
+
+}
+
+if(isBaktunMovableTypeCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "onderscheiden_expressie",
+    cell
+  );
+
+}
+
+if(isBaktunColumbusCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "vrijmaken_bewustzijn",
+    cell
+  );
+
+}
+
+if(isBaktunArpanetCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "verankeren_waarheid",
+    cell
+  );
+
+}
+
+if(isBaktunEarlyEgyptCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "erkennen_informatie",
+    cell
+  );
+
+}
+
+if(isBaktunAkkadianEmpireCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "actualiseren_essentie",
+    cell
+  );
+
+}
+
+if(isBaktunUrNammuCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "vrijmaken_levenspad",
+    cell
+  );
+
+}
+
+if(isBaktunEarlyAlphabetCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "erkennen_interactie",
+    cell
+  );
+
+}
+
+if(isBaktunKadeshCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "onderscheiden_bewustzijn",
+    cell
+  );
+
+}
+
+if(isBaktunOlympicsCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "erkennen_samenhang",
+    cell
+  );
+
+}
+
+if(isBaktunSocratesCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "transformeren_waarheid",
+    cell
+  );
+
+}
+
+if(isBaktunArchimedesCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "onderscheiden_grenzen",
+    cell
+  );
+
+}
+
+if(isBaktunPaperCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "transformeren_potentieel",
+    cell
+  );
+
+}
+
+if(isBaktunBrahmaguptaCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "integreren_expressie",
+    cell
+  );
+
+}
+
+if(isBaktunIbnAlHaythamCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "erkennen_relatie",
+    cell
+  );
+
+}
+
+if(isBaktunCopernicusCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "onderscheiden_manifestatie",
+    cell
+  );
+
+}
+
   });
 }
 
@@ -2263,8 +3150,21 @@ const longCountText =
 let lcDays =
   dayOffset + LONG_COUNT_OFFSET;
 
+const TUN_OPERATOR_CYCLE_DAYS =
+  Number(TUN_OPERATOR_DAYS) * 13;
+
+const tunOperatorIndex =
+  Math.floor(
+    (
+      ((lcDays % TUN_OPERATOR_CYCLE_DAYS)
+      + TUN_OPERATOR_CYCLE_DAYS)
+      % TUN_OPERATOR_CYCLE_DAYS
+    ) /
+    Number(TUN_OPERATOR_DAYS)
+  );
+
 const tunAngle =
-  (lcDays % 1872000) * (360 / 1872000);
+  tunOperatorIndex * (360 / 13);
 
 const lcText =
   getLongCountFromDays(lcDays);
@@ -2313,7 +3213,6 @@ const lcKin    = lcParts[4];
 // TunChakra ophalen
 const tunChakra =
   document.getElementById("TunChakra");
-
 // normaal = Tun start: x.x.x.0.0
 const normalTun =
   lcUinal === 0 &&
