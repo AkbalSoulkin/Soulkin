@@ -1338,6 +1338,14 @@ if(isBaktunCopernicusCell){
   cell.classList.add("historyCell");
 }
 
+const isBaktunTypewriterCell =
+  row === 12 &&
+  col === 12;
+
+if(isBaktunTypewriterCell){
+  cell.classList.add("historyCell");
+}
+
   cell.addEventListener("click", () => {
 
     const startDays =
@@ -1611,6 +1619,16 @@ if(isBaktunCopernicusCell){
   toggleHistoryCell(
     "baktun",
     "onderscheiden_manifestatie",
+    cell
+  );
+
+}
+
+if(isBaktunTypewriterCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "verfijnen_structuur",
     cell
   );
 

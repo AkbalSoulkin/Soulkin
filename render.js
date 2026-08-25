@@ -95,6 +95,9 @@ if(level === "baktun"){
 verankeren_waarheid:
   "backgrounds/baktun13.png",
 
+verfijnen_structuur:
+  "backgrounds/baktun13_13.png",
+
 vrijmaken_bewustzijn:
   "backgrounds/baktun12.png",
 
