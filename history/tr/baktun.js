@@ -421,3 +421,291 @@ On dokuzuncu yüzyılda mucitler, metinleri mekanik olarak üretmek için gidere
 1874'ten itibaren Remington tarafından ticari bir modeli üretilmeye başlandı. Klavye düzeni QWERTY diziliminin yerleşmesine katkıda bulunurken, daktiloların giderek yaygınlaşması mektupların, belgelerin ve idari kayıtların hazırlanma biçimini önemli ölçüde değiştirdi.`
 
 };
+
+window.historyTexts.tr.baktun.afstemmen_oorsprong = {
+
+  title:
+    "Serbest Bırakmak",
+
+text:
+  `Uyumlamak + Kaynak
+
+<br><br>
+
+1628 yılında İngiliz hekim William Harvey, De Motu Cordis adlı eserini yayımlayarak kanın vücutta sürekli dolaştığını ve kalp tarafından pompalandığını gösteren deneysel ve nicel kanıtlar sundu.
+
+<br><br>
+
+Harvey, kalbin kanı atardamarlar boyunca hareket ettirdiğini ve kanın toplardamarlar aracılığıyla kalbe geri döndüğünü gösterdi. Çalışması, kanın hareketine ilişkin daha eski açıklamaları geçersiz kıldı ve kardiyovasküler sistemin modern biçimde anlaşılmasının önemli temellerinden biri oldu.`
+
+};
+
+window.historyTexts.tr.baktun.transformeren_informatie = {
+
+  title:
+    "Serbest Bırakmak",
+
+text:
+  `Dönüştürmek + Bilgi
+
+<br><br>
+
+1642 yılında Fransız matematikçi Blaise Pascal, babasının işiyle ilgili idari hesaplamalara yardımcı olmak amacıyla mekanik bir hesap makinesi geliştirmeye başladı. Daha sonra Pascaline olarak bilinen bu makine, aritmetik işlemleri mekanik olarak gerçekleştirmek için birbirine bağlı çarklar ve dişliler kullanıyordu.
+
+<br><br>
+
+Pascal tasarımı geliştirmeye devam etti ve makinenin çeşitli sürümlerini üretti. Pascaline, sayısal hesaplamaların zihinsel veya yazılı bir işlem olmaktan çıkarılıp mekanik bir aygıtın işleyişine aktarılmasının önemli erken örneklerinden biri oldu.`
+
+};
+
+window.historyTexts.tr.baktun.integreren_verbeelding = {
+
+  title:
+    "Serbest Bırakmak",
+
+text:
+  `Bütünleştirmek + Hayal Gücü
+
+<br><br>
+
+1665 yılında Robert Hooke, mikroskopla yaptığı ayrıntılı gözlemleri, normalde çıplak gözle görülemeyen yapıların çarpıcı çizimleriyle birlikte sunduğu Micrographia adlı eserini yayımladı.
+
+<br><br>
+
+Hooke, ince mantar kesitlerini incelerken gözlemlediği küçük bölmeleri "hücreler" olarak tanımladı. Çalışması, daha önce gizli kalan mikroskobik bir dünyanın görünür hâle gelmesine yardımcı oldu ve insan algısını genişletmek için araçların, gözlemin ve görsel temsilin nasıl bir araya getirilebileceğini gösterdi.`
+
+};
+
+window.historyTexts.tr.baktun.doorgronden_potentieel = {
+
+  title:
+    "Serbest Bırakmak",
+
+text:
+  `Kavramak + Potansiyel
+
+<br><br>
+
+1687 yılında Isaac Newton, hareket yasalarını formüle ettiği ve evrensel kütleçekimin matematiksel bir açıklamasını geliştirdiği Philosophiae Naturalis Principia Mathematica adlı eserini yayımladı.
+
+<br><br>
+
+Newton, Dünya üzerindeki nesnelerin hareketi ile gök cisimlerinin hareketinin aynı fiziksel ilkeler aracılığıyla anlaşılabileceğini gösterdi. Çalışması, hareketi öngörmek için güçlü bir matematiksel çerçeve sağladı ve klasik mekaniğin ve fiziğin önemli temellerinden biri oldu.`
+
+};
+
+window.historyTexts.tr.baktun.verankeren_energie = {
+
+  title:
+    "Serbest Bırakmak",
+
+text:
+  `Sabitlemek + Enerji
+
+<br><br>
+
+1712 yılında Thomas Newcomen, madenlerden su pompalamak için kullanılabilecek pratik bir atmosferik buhar makinesi geliştirdi. Buhar, silindirin içinde yoğunlaştırılarak kısmi bir vakum oluşturuyor ve atmosfer basıncının pistonu hareket ettirmesini sağlıyordu.
+
+<br><br>
+
+Makine, ısıyı pratik ölçekte mekanik işe dönüştürmenin yeni bir yolunu sağladı. Newcomen makineleri madencilik bölgelerinde yaygınlaştı ve Sanayi Devrimi sırasında buhar gücünün daha sonraki gelişimi için önemli bir temel oluşturdu.`
+
+};
+
+window.historyTexts.tr.baktun.ontsluiten_grenzen = {
+
+  title:
+    "Serbest Bırakmak",
+
+text:
+  `Açığa Çıkarmak + Sınırlar
+
+<br><br>
+
+1728 yılında İngiliz astronom James Bradley, günümüzde yıldız ışığının aberasyonu olarak bilinen olguyu açıkladı. Hassas gözlemler, yıldızların görünen konumlarının yıl boyunca küçük miktarlarda değiştiğini gösterdi.
+
+<br><br>
+
+Bradley bu etkiyi, Dünya'nın Güneş çevresindeki hareketi ile ışığın sonlu hızının birleşimiyle açıkladı. Keşfi, Dünya'nın yörüngesel hareketine ilişkin önemli gözlemsel kanıtlar sağladı ve gözlemcinin kendi hareketinin uzak nesnelerin görünen konumunu nasıl etkileyebileceğini ortaya koydu.`
+
+};
+
+window.historyTexts.tr.baktun.vrijmaken_interactie = {
+
+  title:
+    "Serbest Bırakmak",
+
+text:
+  `Serbest Bırakmak + Etkileşim
+
+<br><br>
+
+1752 yılında Benjamin Franklin ile ilişkilendirilen deneyler, yıldırım ile laboratuvar ortamında incelenen elektriğin aynı fiziksel olgunun farklı görünümleri olduğunu göstermeye yardımcı oldu. Franklin, fırtına bulutlarının elektriksel doğasını sınamak için yöntemler önermiş ve bununla ilişkili deneyler Avrupa ve Kuzey Amerika'da başarıyla gerçekleştirilmişti.
+
+<br><br>
+
+Bu anlayış aynı zamanda elektrik yükünü güvenli bir şekilde toprağa ileterek yıldırım çarpmalarının yol açabileceği hasar riskini azaltmanın pratik bir yolunu sağlayan paratonerin geliştirilmesine de yol açtı.`
+
+};
+
+window.historyTexts.tr.baktun.actualiseren_waarde = {
+
+  title:
+    "Serbest Bırakmak",
+
+text:
+  `Gerçekleştirmek + Değer
+
+<br><br>
+
+1776 yılında İskoç ekonomist ve filozof Adam Smith, An Inquiry into the Nature and Causes of the Wealth of Nations adlı eserini yayımladı. Eser, emek, uzmanlaşma, üretim ve mübadelenin ekonomik zenginliğin oluşmasına ve dağılımına nasıl katkıda bulunduğunu inceledi.
+
+<br><br>
+
+Smith, iş bölümünü, piyasaları, fiyatları ve bireysel ekonomik faaliyet ile daha geniş toplum arasındaki ilişkiyi analiz etti. Kitap, modern ekonominin temel eserlerinden biri hâline geldi ve malların, emeğin ve değerin ekonomiler içinde nasıl düzenlendiğinin incelenmesi üzerinde kalıcı bir etki bıraktı.`
+
+};
+
+window.historyTexts.tr.baktun.erkennen_stroming = {
+
+  title:
+    "Serbest Bırakmak",
+
+text:
+  `Tanımak + Akış
+
+<br><br>
+
+1785 yılında İskoç jeolog James Hutton, jeolojik değişimin çok uzun zaman dilimleri boyunca sürekli işleyen süreçlerden kaynaklandığı bir Dünya teorisi sundu. Yeryüzünü tekrar tekrar şekillendiren erozyon, tortulaşma, kayaç oluşumu ve yükselme döngülerini tanımladı.
+
+<br><br>
+
+Hutton'ın yorumu, yeryüzü şekillerinin ve kaya oluşumlarının kayıtlı insanlık tarihinden çok daha eski bir geçmişin kanıtlarını taşıdığını gösterdi. Çalışması, modern jeolojinin ve derin jeolojik zaman kavramının önemli temellerinden biri oldu.`
+
+};
+
+window.historyTexts.tr.baktun.onderscheiden_relatie = {
+
+  title:
+    "Serbest Bırakmak",
+
+text:
+  `Ayırt Etmek + İlişki
+
+<br><br>
+
+On dokuzuncu yüzyılın başlarında İngiliz bilim insanı John Dalton, her kimyasal elementin kendine özgü bir atom türünden oluştuğunu öne süren bir atom teorisi geliştirdi. Farklı elementlerin atomlarının belirli oranlarda birleşmesiyle kimyasal bileşiklerin oluştuğunu ileri sürdü.
+
+<br><br>
+
+Dalton, kimyasal tepkimelerde gözlemlenen düzenleri açıklamak için atom ağırlıklarını ve basit sayısal oranları kullandı. Teorisi, maddenin bileşimini anlamak için yeni bir çerçeve sağladı ve modern kimyanın gelişiminin önemli temellerinden biri oldu.`
+
+};
+
+window.historyTexts.tr.baktun.plaatsen_expressie = {
+
+  title:
+    "Serbest Bırakmak",
+
+text:
+  `Konumlandırmak + İfade
+
+<br><br>
+
+Joseph Nicéphore Niépce, yaklaşık 1826 veya 1827 yılında View from the Window at Le Gras adlı görüntüyü oluşturdu; bu, bir kamerayla üretildiği bilinen günümüze ulaşmış en eski fotoğraftır. Üst kattaki bir pencereden görünen manzarayı kaydetmek için camera obscura ve metal bir plaka üzerindeki ışığa duyarlı bir kaplama kullandı.
+
+<br><br>
+
+Pozlama, sahneden gelen ışığın mekânsal düzenini kalıcı bir fiziksel görüntüye dönüştürdü. Niépce'in deneyi, görünen biçimlerin tamamen elle yeniden üretilmesi yerine doğrudan kaydedilebilmesini sağlayarak fotoğrafçılığın gelişiminde önemli bir erken adım oldu.`
+
+};
+
+window.historyTexts.tr.baktun.selecteren_levenspad = {
+
+  title:
+    "Serbest Bırakmak",
+
+text:
+  `Seçmek + Yaşam Yolu
+
+<br><br>
+
+1830'lar ve 1840'lar boyunca demiryolu ağları Avrupa'nın ve Kuzey Amerika'nın çeşitli bölgelerinde hızla genişledi. Raylar, kavşaklar ve makaslar, giderek daha fazla insanın ve yükün uzun mesafeler boyunca hareket edebildiği birbirine bağlı güzergâhlar oluşturdu.
+
+<br><br>
+
+Demiryolları, insanların nerede yaşayabilecekleri, çalışabilecekleri ve seyahat edebileceklerine ilişkin olanakları değiştirirken, kasabaları ve şehirleri giderek daha düzenli ulaşım ağlarıyla birbirine bağladı. Farklı hatlar ve varış noktaları arasında seçim yapmak, daha sonra dünya çapında genişlemeye devam edecek yeni bir hareket altyapısının parçası hâline geldi.`
+
+};
+
+window.historyTexts.tr.baktun.afstemmen_bewustzijn = {
+
+  title:
+    "Serbest Bırakmak",
+
+text:
+  `Uyumlamak + Bilinç
+
+<br><br>
+
+1879 yılında Wilhelm Wundt, Leipzig Üniversitesi'nde deneysel psikoloji için bir laboratuvar kurdu. Laboratuvar, kontrollü koşullar altında algı, dikkat, tepki süresi ve bilinçli deneyimin incelendiği önemli bir merkez hâline geldi.
+
+<br><br>
+
+Wundt'ın çalışmaları, psikolojinin bağımsız bir deneysel disiplin olarak yerleşmesine katkıda bulundu ve insan bilincinin ve zihinsel süreçlerin çeşitli yönlerini sistematik laboratuvar araştırmalarının konusu hâline getirdi.`
+
+};
+
+window.historyTexts.tr.baktun.transformeren_perspectief = {
+
+  title:
+    "Serbest Bırakmak",
+
+text:
+  `Dönüştürmek + Perspektif
+
+<br><br>
+
+1905 yılında Albert Einstein özel görelilik teorisini yayımlayarak uzay ve zaman ölçümlerinin gözlemcilerin göreli hareketine bağlı olduğunu, buna karşılık boşluktaki ışık hızının eylemsiz gözlemciler için aynı kaldığını gösterdi.
+
+<br><br>
+
+Teori, uzay, zaman ve hareket arasındaki ilişkiyi dönüştürdü. Bir referans sisteminden eşzamanlı görünen olayların başka bir referans sisteminden eşzamanlı olması gerekmez; böylece evrensel zaman düşüncesinin yerini, ölçümlerin gözlemcinin hareket durumuyla ilişkili olduğu bir çerçeve aldı.`
+
+};
+
+window.historyTexts.tr.baktun.integreren_spoor = {
+
+  title:
+    "Serbest Bırakmak",
+
+text:
+  `Bütünleştirmek + İz
+
+<br><br>
+
+1929 yılında Edwin Hubble, galaksilerin uzaklıkları ile ölçülen uzaklaşma hızları arasında bir ilişki olduğunu gösteren gözlemler yayımladı. Daha uzaktaki galaksiler genel olarak daha büyük kırmızıya kaymalar göstererek kozmik ölçekte sistematik bir örüntüyü ortaya çıkardı.
+
+<br><br>
+
+Hubble, uzaklık tahminlerini spektroskopik ölçümlerle birleştirerek genişleyen bir evrene ilişkin gözlemsel kanıtların yerleşmesine katkıda bulundu. Bu ilişki, modern kozmolojinin ve evrenin büyük ölçekli davranışını ölçmenin temel araçlarından biri hâline geldi.`
+
+};
+
+window.historyTexts.tr.baktun.doorgronden_manifestatie = {
+
+  title:
+    "Serbest Bırakmak",
+
+text:
+  `Kavramak + Tezahür
+
+<br><br>
+
+1953 yılında James Watson ve Francis Crick, Rosalind Franklin, Maurice Wilkins ve çalışma arkadaşlarının önemli X-ışını kırınımı araştırmaları da dahil olmak üzere deneysel kanıtlardan yararlanarak DNA'nın çift sarmal yapısının bir modelini yayımladı.
+
+<br><br>
+
+Bu yapı, genetik bilginin fiziksel bir moleküler biçimde nasıl var olabileceğini ortaya koydu ve DNA'nın nasıl kopyalanabileceğine ilişkin bir mekanizma önerdi. Bu düzenin anlaşılması moleküler biyolojinin önemli temellerinden biri hâline geldi ve kalıtım ile canlı sistemlerin incelenmesini dönüştürdü.`
+
+};

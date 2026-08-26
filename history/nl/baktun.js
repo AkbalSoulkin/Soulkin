@@ -422,3 +422,291 @@ In de negentiende eeuw ontwikkelden uitvinders steeds praktischere machines om t
 Vanaf 1874 werd een commerciële versie geproduceerd door Remington. De indeling van het toetsenbord hielp de QWERTY-indeling te vestigen, terwijl het groeiende gebruik van typmachines de productie van brieven, documenten en administratieve gegevens ingrijpend veranderde.`
 
 };
+
+window.historyTexts.nl.baktun.afstemmen_oorsprong = {
+
+  title:
+    "Vrijmaken",
+
+text:
+  `Afstemmen + Oorsprong
+
+<br><br>
+
+In 1628 publiceerde de Engelse arts William Harvey De Motu Cordis, waarin hij experimenteel en kwantitatief bewijs presenteerde dat bloed voortdurend door het lichaam circuleert en door het hart wordt rondgepompt.
+
+<br><br>
+
+Harvey liet zien dat het hart het bloed door de slagaders voortstuwt en dat het via de aders naar het hart terugkeert. Zijn werk weerlegde oudere verklaringen van de beweging van bloed en vormde een belangrijke basis voor het moderne begrip van het cardiovasculaire systeem.`
+
+};
+
+window.historyTexts.nl.baktun.transformeren_informatie = {
+
+  title:
+    "Vrijmaken",
+
+text:
+  `Transformeren + Informatie
+
+<br><br>
+
+In 1642 begon de Franse wiskundige Blaise Pascal met de ontwikkeling van een mechanische rekenmachine om te helpen bij de administratieve berekeningen voor het werk van zijn vader. De machine, die later bekend werd als de Pascaline, gebruikte onderling verbonden wielen en tandwielen om rekenkundige bewerkingen mechanisch uit te voeren.
+
+<br><br>
+
+Pascal bleef het ontwerp verfijnen en vervaardigde verschillende versies van de machine. De Pascaline werd een belangrijk vroeg voorbeeld van het overbrengen van numerieke berekeningen van een mentale of schriftelijke procedure naar de werking van een mechanisch apparaat.`
+
+};
+
+window.historyTexts.nl.baktun.integreren_verbeelding = {
+
+  title:
+    "Vrijmaken",
+
+text:
+  `Integreren + Verbeelding
+
+<br><br>
+
+In 1665 publiceerde Robert Hooke Micrographia, waarin hij gedetailleerde waarnemingen met een microscoop presenteerde, samen met opvallende illustraties van structuren die normaal gesproken onzichtbaar zijn voor het blote oog.
+
+<br><br>
+
+Bij het onderzoeken van dunne plakjes kurk beschreef Hooke de kleine compartimenten die hij waarnam als "cellen". Zijn werk hielp een voorheen verborgen microscopische wereld zichtbaar te maken en liet zien hoe instrumenten, waarneming en visuele weergave konden worden gecombineerd om de menselijke waarneming uit te breiden.`
+
+};
+
+window.historyTexts.nl.baktun.doorgronden_potentieel = {
+
+  title:
+    "Vrijmaken",
+
+text:
+  `Doorgronden + Potentieel
+
+<br><br>
+
+In 1687 publiceerde Isaac Newton Philosophiae Naturalis Principia Mathematica, waarin hij zijn bewegingswetten formuleerde en een wiskundige beschrijving van de universele zwaartekracht ontwikkelde.
+
+<br><br>
+
+Newton liet zien dat de beweging van objecten op aarde en de beweging van hemellichamen vanuit dezelfde natuurkundige principes konden worden begrepen. Zijn werk bood een krachtig wiskundig raamwerk om beweging te voorspellen en vormde een belangrijke basis voor de klassieke mechanica en natuurkunde.`
+
+};
+
+window.historyTexts.nl.baktun.verankeren_energie = {
+
+  title:
+    "Vrijmaken",
+
+text:
+  `Verankeren + Energie
+
+<br><br>
+
+In 1712 ontwikkelde Thomas Newcomen een praktische atmosferische stoommachine om water uit mijnen te pompen. Stoom werd in een cilinder gecondenseerd om een gedeeltelijk vacuüm te creëren, waardoor de atmosferische druk de zuiger kon aandrijven.
+
+<br><br>
+
+De machine bood een nieuwe manier om warmte op praktische schaal om te zetten in mechanische arbeid. Newcomen-machines verspreidden zich over mijnbouwgebieden en vormden een belangrijke basis voor de latere ontwikkeling van stoomkracht tijdens de Industriële Revolutie.`
+
+};
+
+window.historyTexts.nl.baktun.ontsluiten_grenzen = {
+
+  title:
+    "Vrijmaken",
+
+text:
+  `Ontsluiten + Grenzen
+
+<br><br>
+
+In 1728 verklaarde de Engelse astronoom James Bradley het verschijnsel dat tegenwoordig bekendstaat als de aberratie van sterrenlicht. Nauwkeurige waarnemingen lieten zien dat de schijnbare posities van sterren in de loop van een jaar licht verschuiven.
+
+<br><br>
+
+Bradley verklaarde dit effect door de combinatie van de beweging van de aarde rond de zon en de eindige snelheid van het licht. Zijn ontdekking leverde belangrijk observationeel bewijs voor de baanbeweging van de aarde en liet zien hoe de beweging van de waarnemer zelf de schijnbare positie van verre objecten kan beïnvloeden.`
+
+};
+
+window.historyTexts.nl.baktun.vrijmaken_interactie = {
+
+  title:
+    "Vrijmaken",
+
+text:
+  `Vrijmaken + Interactie
+
+<br><br>
+
+In 1752 hielpen experimenten die met Benjamin Franklin worden geassocieerd aan te tonen dat bliksem en elektriciteit uit laboratoriumexperimenten verschijningsvormen waren van hetzelfde natuurkundige fenomeen. Franklin had methoden voorgesteld om de elektrische aard van onweerswolken te testen, en verwante experimenten werden met succes uitgevoerd in Europa en Noord-Amerika.
+
+<br><br>
+
+Dit inzicht leidde ook tot de ontwikkeling van de bliksemafleider, die een praktische manier bood om elektrische lading veilig naar de aarde af te voeren en het risico op schade door blikseminslagen te verminderen.`
+
+};
+
+window.historyTexts.nl.baktun.actualiseren_waarde = {
+
+  title:
+    "Vrijmaken",
+
+text:
+  `Actualiseren + Waarde
+
+<br><br>
+
+In 1776 publiceerde de Schotse econoom en filosoof Adam Smith An Inquiry into the Nature and Causes of the Wealth of Nations. Het werk onderzocht hoe arbeid, specialisatie, productie en uitwisseling bijdragen aan het ontstaan en de verdeling van economische welvaart.
+
+<br><br>
+
+Smith analyseerde de arbeidsdeling, markten, prijzen en de relatie tussen individuele economische activiteit en de bredere samenleving. Het boek werd een van de fundamentele werken van de moderne economie en had een blijvende invloed op de studie van hoe goederen, arbeid en waarde binnen economieën worden georganiseerd.`
+
+};
+
+window.historyTexts.nl.baktun.erkennen_stroming = {
+
+  title:
+    "Vrijmaken",
+
+text:
+  `Erkennen + Stroming
+
+<br><br>
+
+In 1785 presenteerde de Schotse geoloog James Hutton een theorie van de aarde waarin geologische verandering voortkomt uit processen die gedurende immense tijdsperioden voortdurend werkzaam zijn. Hij beschreef cycli van erosie, sedimentatie, gesteentevorming en opheffing die het aardoppervlak steeds opnieuw vormgeven.
+
+<br><br>
+
+Huttons interpretatie liet zien dat landschappen en gesteenteformaties sporen bewaren van een geschiedenis die veel verder teruggaat dan de opgetekende menselijke geschiedenis. Zijn werk vormde een belangrijke basis voor de moderne geologie en voor het begrip van diepe geologische tijd.`
+
+};
+
+window.historyTexts.nl.baktun.onderscheiden_relatie = {
+
+  title:
+    "Vrijmaken",
+
+text:
+  `Onderscheiden + Relatie
+
+<br><br>
+
+In het begin van de negentiende eeuw ontwikkelde de Engelse wetenschapper John Dalton een atoomtheorie waarin ieder chemisch element uit een kenmerkend type atoom bestond. Hij stelde dat chemische verbindingen ontstaan wanneer atomen van verschillende elementen zich in vaste verhoudingen met elkaar verbinden.
+
+<br><br>
+
+Dalton gebruikte atoomgewichten en eenvoudige numerieke verhoudingen om patronen in chemische reacties te verklaren. Zijn theorie bood een nieuw raamwerk voor het begrijpen van de samenstelling van materie en vormde een belangrijke basis voor de ontwikkeling van de moderne scheikunde.`
+
+};
+
+window.historyTexts.nl.baktun.plaatsen_expressie = {
+
+  title:
+    "Vrijmaken",
+
+text:
+  `Plaatsen + Expressie
+
+<br><br>
+
+Rond 1826 of 1827 maakte Joseph Nicéphore Niépce View from the Window at Le Gras, de oudste bewaard gebleven foto waarvan bekend is dat deze met een camera werd gemaakt. Hij gebruikte een camera obscura en een lichtgevoelige laag op een metalen plaat om het uitzicht vanuit een bovenraam vast te leggen.
+
+<br><br>
+
+De belichting zette de ruimtelijke ordening van het licht uit de scène om in een blijvend fysiek beeld. Niépces experiment vormde een belangrijke vroege stap in de ontwikkeling van de fotografie, waardoor zichtbare verschijningsvormen rechtstreeks konden worden vastgelegd in plaats van volledig met de hand te worden weergegeven.`
+
+};
+
+window.historyTexts.nl.baktun.selecteren_levenspad = {
+
+  title:
+    "Vrijmaken",
+
+text:
+  `Selecteren + Levenspad
+
+<br><br>
+
+In de jaren 1830 en 1840 breidden spoorwegnetwerken zich snel uit in delen van Europa en Noord-Amerika. Spoorlijnen, knooppunten en wissels vormden onderling verbonden routes waarlangs steeds grotere aantallen mensen en goederen over lange afstanden konden reizen.
+
+<br><br>
+
+Spoorwegen veranderden de mogelijkheden voor waar mensen konden wonen, werken en reizen, terwijl steden en dorpen via steeds verder georganiseerde vervoersnetwerken met elkaar werden verbonden. Het kiezen tussen verschillende lijnen en bestemmingen werd onderdeel van een nieuwe infrastructuur voor verplaatsing die zich vervolgens over de wereld bleef uitbreiden.`
+
+};
+
+window.historyTexts.nl.baktun.afstemmen_bewustzijn = {
+
+  title:
+    "Vrijmaken",
+
+text:
+  `Afstemmen + Bewustzijn
+
+<br><br>
+
+In 1879 richtte Wilhelm Wundt aan de Universiteit van Leipzig een laboratorium voor experimentele psychologie op. Het laboratorium werd een belangrijk centrum voor het onderzoeken van waarneming, aandacht, reactietijd en bewuste ervaring onder gecontroleerde omstandigheden.
+
+<br><br>
+
+Wundts werk hielp psychologie te vestigen als een zelfstandige experimentele discipline en bracht aspecten van het menselijk bewustzijn en mentale processen binnen het domein van systematisch laboratoriumonderzoek.`
+
+};
+
+window.historyTexts.nl.baktun.transformeren_perspectief = {
+
+  title:
+    "Vrijmaken",
+
+text:
+  `Transformeren + Perspectief
+
+<br><br>
+
+In 1905 publiceerde Albert Einstein zijn speciale relativiteitstheorie, waarin hij liet zien dat metingen van ruimte en tijd afhangen van de relatieve beweging van waarnemers, terwijl de lichtsnelheid in vacuüm voor inertiale waarnemers dezelfde blijft.
+
+<br><br>
+
+De theorie transformeerde de relatie tussen ruimte, tijd en beweging. Gebeurtenissen die vanuit het ene referentiestelsel gelijktijdig lijken, hoeven dat vanuit een ander referentiestelsel niet te zijn. Daarmee maakte het idee van een universele tijd plaats voor een raamwerk waarin metingen samenhangen met de bewegingstoestand van de waarnemer.`
+
+};
+
+window.historyTexts.nl.baktun.integreren_spoor = {
+
+  title:
+    "Vrijmaken",
+
+text:
+  `Integreren + Spoor
+
+<br><br>
+
+In 1929 publiceerde Edwin Hubble waarnemingen die een verband lieten zien tussen de afstanden van sterrenstelsels en hun gemeten recessiesnelheden. Verder verwijderde sterrenstelsels vertoonden over het algemeen grotere roodverschuivingen, waardoor een systematisch patroon op kosmische schaal zichtbaar werd.
+
+<br><br>
+
+Door afstandsschattingen te combineren met spectroscopische metingen hielp Hubble observationeel bewijs voor een uitdijend heelal te vestigen. Het verband werd een fundamenteel hulpmiddel binnen de moderne kosmologie en voor het meten van het grootschalige gedrag van het heelal.`
+
+};
+
+window.historyTexts.nl.baktun.doorgronden_manifestatie = {
+
+  title:
+    "Vrijmaken",
+
+text:
+  `Doorgronden + Manifestatie
+
+<br><br>
+
+In 1953 publiceerden James Watson en Francis Crick een model van de dubbele helixstructuur van DNA, gebaseerd op experimenteel bewijs waaronder cruciaal röntgendiffractieonderzoek van Rosalind Franklin, Maurice Wilkins en hun collega's.
+
+<br><br>
+
+De structuur maakte duidelijk hoe genetische informatie in een fysieke moleculaire vorm kan bestaan en suggereerde een mechanisme waarmee DNA kan worden gekopieerd. Het begrijpen van deze organisatie vormde een belangrijke basis voor de moleculaire biologie en veranderde het onderzoek naar erfelijkheid en levende systemen.`
+
+};

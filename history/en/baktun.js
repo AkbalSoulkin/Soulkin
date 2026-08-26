@@ -423,3 +423,291 @@ During the nineteenth century, inventors developed increasingly practical machin
 A commercial version was manufactured by Remington from 1874. Its keyboard arrangement helped establish the QWERTY layout, while the growing use of typewriters transformed the production of letters, documents and administrative records.`
 
 };
+
+window.historyTexts.en.baktun.afstemmen_oorsprong = {
+
+  title:
+    "Release",
+
+  text:
+    `Attune + Source
+
+<br><br>
+
+In 1628, the English physician William Harvey published De Motu Cordis, presenting experimental and quantitative evidence that blood circulates continuously through the body and is pumped by the heart.
+
+<br><br>
+
+Harvey showed that the heart drives blood through the arteries and that blood returns toward it through the veins. His work overturned older explanations of blood movement and became a major foundation for the modern understanding of the cardiovascular system.`
+
+};
+
+window.historyTexts.en.baktun.transformeren_informatie = {
+
+  title:
+    "Release",
+
+  text:
+    `Transform + Information
+
+<br><br>
+
+In 1642, the French mathematician Blaise Pascal began developing a mechanical calculating machine to assist with the administrative calculations involved in his father's work. The machine, later known as the Pascaline, used interconnected wheels and gears to perform arithmetic mechanically.
+
+<br><br>
+
+Pascal continued refining the design and produced several versions of the machine. The Pascaline became an important early example of transferring numerical calculation from a mental or written procedure into the operation of a mechanical device.`
+
+};
+
+window.historyTexts.en.baktun.integreren_verbeelding = {
+
+  title:
+    "Release",
+
+  text:
+    `Integrate + Imagination
+
+<br><br>
+
+In 1665, Robert Hooke published Micrographia, presenting detailed observations made with a microscope together with striking illustrations of structures that were normally invisible to the naked eye.
+
+<br><br>
+
+While examining thin slices of cork, Hooke described the small compartments he observed as "cells." His work helped reveal a previously hidden microscopic world and demonstrated how instruments, observation and visual representation could be combined to extend human perception.`
+
+};
+
+window.historyTexts.en.baktun.doorgronden_potentieel = {
+
+  title:
+    "Release",
+
+  text:
+    `Comprehend + Potential
+
+<br><br>
+
+In 1687, Isaac Newton published Philosophiae Naturalis Principia Mathematica, in which he formulated his laws of motion and developed a mathematical description of universal gravitation.
+
+<br><br>
+
+Newton showed that the motion of objects on Earth and the motion of celestial bodies could be understood through the same physical principles. His work provided a powerful mathematical framework for predicting motion and became a foundation of classical mechanics and physics.`
+
+};
+
+window.historyTexts.en.baktun.verankeren_energie = {
+
+  title:
+    "Release",
+
+  text:
+    `Anchor + Energy
+
+<br><br>
+
+In 1712, Thomas Newcomen developed a practical atmospheric steam engine for pumping water from mines. Steam was condensed inside a cylinder to create a partial vacuum, allowing atmospheric pressure to drive the piston.
+
+<br><br>
+
+The machine provided a new way to convert heat into mechanical work on a practical scale. Newcomen engines spread through mining regions and became an important foundation for the later development of steam power during the Industrial Revolution.`
+
+};
+
+window.historyTexts.en.baktun.ontsluiten_grenzen = {
+
+  title:
+    "Release",
+
+  text:
+    `Unfold + Boundaries
+
+<br><br>
+
+In 1728, the English astronomer James Bradley explained the phenomenon now known as the aberration of starlight. Precise observations showed that the apparent positions of stars shift slightly over the course of a year.
+
+<br><br>
+
+Bradley explained the effect through the combination of Earth's motion around the Sun and the finite speed of light. His discovery provided important observational evidence for Earth's orbital motion and revealed how the motion of the observer itself can affect the apparent position of distant objects.`
+
+};
+
+window.historyTexts.en.baktun.vrijmaken_interactie = {
+
+  title:
+    "Release",
+
+  text:
+    `Release + Interaction
+
+<br><br>
+
+In 1752, experiments associated with Benjamin Franklin helped demonstrate that lightning and laboratory electricity were manifestations of the same physical phenomenon. Franklin had proposed methods for testing the electrical nature of storm clouds, and related experiments were successfully carried out in Europe and North America.
+
+<br><br>
+
+This understanding also led to the development of the lightning rod, which provided a practical way to conduct electrical charge safely toward the ground and reduce the risk of damage from lightning strikes.`
+
+};
+
+window.historyTexts.en.baktun.actualiseren_waarde = {
+
+  title:
+    "Release",
+
+  text:
+    `Actualize + Value
+
+<br><br>
+
+In 1776, the Scottish economist and philosopher Adam Smith published An Inquiry into the Nature and Causes of the Wealth of Nations. The work examined how labor, specialization, production and exchange contribute to the creation and distribution of economic wealth.
+
+<br><br>
+
+Smith analyzed the division of labor, markets, prices and the relationship between individual economic activity and wider society. The book became one of the foundational works of modern economics and had a lasting influence on the study of how goods, labor and value are organized within economies.`
+
+};
+
+window.historyTexts.en.baktun.erkennen_stroming = {
+
+  title:
+    "Release",
+
+  text:
+    `Acknowledge + Flow
+
+<br><br>
+
+In 1785, the Scottish geologist James Hutton presented a theory of the Earth in which geological change resulted from processes operating continuously over immense periods of time. He described cycles of erosion, sedimentation, rock formation and uplift that repeatedly reshape the Earth's surface.
+
+<br><br>
+
+Hutton's interpretation showed that landscapes and rock formations preserve evidence of a history far deeper than recorded human history. His work became an important foundation for modern geology and for the concept of deep geological time.`
+
+};
+
+window.historyTexts.en.baktun.onderscheiden_relatie = {
+
+  title:
+    "Release",
+
+  text:
+    `Distinguish + Relationship
+
+<br><br>
+
+In the early nineteenth century, the English scientist John Dalton developed an atomic theory in which each chemical element consisted of a characteristic type of atom. He proposed that chemical compounds form when atoms of different elements combine in definite proportions.
+
+<br><br>
+
+Dalton used atomic weights and simple numerical relationships to explain patterns observed in chemical reactions. His theory provided a new framework for understanding the composition of matter and became an important foundation for the development of modern chemistry.`
+
+};
+
+window.historyTexts.en.baktun.plaatsen_expressie = {
+
+  title:
+    "Release",
+
+  text:
+    `Position + Expression
+
+<br><br>
+
+Around 1826 or 1827, Joseph Nicéphore Niépce created View from the Window at Le Gras, the oldest surviving photograph known to have been produced with a camera. He used a camera obscura and a light-sensitive coating on a metal plate to record the view from an upstairs window.
+
+<br><br>
+
+The exposure transformed the spatial arrangement of light from the scene into a lasting physical image. Niépce's experiment became an important early step in the development of photography, allowing visual appearances to be recorded directly rather than reproduced entirely by hand.`
+
+};
+
+window.historyTexts.en.baktun.selecteren_levenspad = {
+
+  title:
+    "Release",
+
+  text:
+    `Select + Life Path
+
+<br><br>
+
+During the 1830s and 1840s, railway networks expanded rapidly across parts of Europe and North America. Tracks, junctions and switches created interconnected routes along which growing numbers of people and goods could travel over long distances.
+
+<br><br>
+
+Railways changed the possibilities for where people could live, work and travel, while connecting towns and cities through increasingly organized transport networks. Choosing between different lines and destinations became part of a new infrastructure of movement that would continue to expand around the world.`
+
+};
+
+window.historyTexts.en.baktun.afstemmen_bewustzijn = {
+
+  title:
+    "Release",
+
+  text:
+    `Attune + Consciousness
+
+<br><br>
+
+In 1879, Wilhelm Wundt established a laboratory for experimental psychology at the University of Leipzig. The laboratory became an important center for studying perception, attention, reaction time and conscious experience under controlled conditions.
+
+<br><br>
+
+Wundt's work helped establish psychology as an independent experimental discipline, bringing aspects of human consciousness and mental processes into systematic laboratory investigation.`
+
+};
+
+window.historyTexts.en.baktun.transformeren_perspectief = {
+
+  title:
+    "Release",
+
+  text:
+    `Transform + Perspective
+
+<br><br>
+
+In 1905, Albert Einstein published his theory of special relativity, showing that measurements of space and time depend on the relative motion of observers, while the speed of light in vacuum remains the same for inertial observers.
+
+<br><br>
+
+The theory transformed the relationship between space, time and motion. Events that appear simultaneous from one frame of reference need not be simultaneous from another, replacing the idea of universal time with a framework in which measurements are related to the observer's state of motion.`
+
+};
+
+window.historyTexts.en.baktun.integreren_spoor = {
+
+  title:
+    "Release",
+
+  text:
+    `Integrate + Trace
+
+<br><br>
+
+In 1929, Edwin Hubble published observations showing a relationship between the distances of galaxies and their measured recession velocities. More distant galaxies generally showed larger redshifts, revealing a systematic pattern on a cosmic scale.
+
+<br><br>
+
+By combining distance estimates with spectroscopic measurements, Hubble helped establish observational evidence for an expanding universe. The relation became a fundamental tool in modern cosmology and in measuring the large-scale behavior of the universe.`
+
+};
+
+window.historyTexts.en.baktun.doorgronden_manifestatie = {
+
+  title:
+    "Release",
+
+  text:
+    `Comprehend + Manifestation
+
+<br><br>
+
+In 1953, James Watson and Francis Crick published a model of the double-helical structure of DNA, drawing on experimental evidence that included crucial X-ray diffraction work by Rosalind Franklin, Maurice Wilkins and their colleagues.
+
+<br><br>
+
+The structure revealed how genetic information could exist in a physical molecular form and suggested a mechanism by which DNA could be copied. Understanding its organization became a foundation for molecular biology and transformed the study of heredity and living systems.`
+
+};
