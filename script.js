@@ -1346,6 +1346,134 @@ if(isBaktunTypewriterCell){
   cell.classList.add("historyCell");
 }
 
+const isBaktunHarveyCell =
+  row === 0 &&
+  col === 12;
+
+if(isBaktunHarveyCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunPascalineCell =
+  row === 1 &&
+  col === 12;
+
+if(isBaktunPascalineCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunMicrographiaCell =
+  row === 2 &&
+  col === 12;
+
+if(isBaktunMicrographiaCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunNewtonCell =
+  row === 3 &&
+  col === 12;
+
+if(isBaktunNewtonCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunNewcomenCell =
+  row === 4 &&
+  col === 12;
+
+if(isBaktunNewcomenCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunBradleyCell =
+  row === 5 &&
+  col === 12;
+
+if(isBaktunBradleyCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunFranklinCell =
+  row === 6 &&
+  col === 12;
+
+if(isBaktunFranklinCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunAdamSmithCell =
+  row === 7 &&
+  col === 12;
+
+if(isBaktunAdamSmithCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunHuttonCell =
+  row === 8 &&
+  col === 12;
+
+if(isBaktunHuttonCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunDaltonCell =
+  row === 9 &&
+  col === 12;
+
+if(isBaktunDaltonCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunNiepceCell =
+  row === 10 &&
+  col === 12;
+
+if(isBaktunNiepceCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunRailwayCell =
+  row === 11 &&
+  col === 12;
+
+if(isBaktunRailwayCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunWundtCell =
+  row === 13 &&
+  col === 12;
+
+if(isBaktunWundtCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunEinsteinCell =
+  row === 14 &&
+  col === 12;
+
+if(isBaktunEinsteinCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunHubbleCell =
+  row === 15 &&
+  col === 12;
+
+if(isBaktunHubbleCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunDNACell =
+  row === 16 &&
+  col === 12;
+
+if(isBaktunDNACell){
+  cell.classList.add("historyCell");
+}
+
   cell.addEventListener("click", () => {
 
     const startDays =
@@ -1629,6 +1757,166 @@ if(isBaktunTypewriterCell){
   toggleHistoryCell(
     "baktun",
     "verfijnen_structuur",
+    cell
+  );
+
+}
+
+if(isBaktunHarveyCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "afstemmen_oorsprong",
+    cell
+  );
+
+}
+
+if(isBaktunPascalineCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "transformeren_informatie",
+    cell
+  );
+
+}
+
+if(isBaktunMicrographiaCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "integreren_verbeelding",
+    cell
+  );
+
+}
+
+if(isBaktunNewtonCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "doorgronden_potentieel",
+    cell
+  );
+
+}
+
+if(isBaktunNewcomenCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "verankeren_energie",
+    cell
+  );
+
+}
+
+if(isBaktunBradleyCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "ontsluiten_grenzen",
+    cell
+  );
+
+}
+
+if(isBaktunFranklinCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "vrijmaken_interactie",
+    cell
+  );
+
+}
+
+if(isBaktunAdamSmithCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "actualiseren_waarde",
+    cell
+  );
+
+}
+
+if(isBaktunHuttonCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "erkennen_stroming",
+    cell
+  );
+
+}
+
+if(isBaktunDaltonCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "onderscheiden_relatie",
+    cell
+  );
+
+}
+
+if(isBaktunNiepceCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "plaatsen_expressie",
+    cell
+  );
+
+}
+
+if(isBaktunRailwayCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "selecteren_levenspad",
+    cell
+  );
+
+}
+
+if(isBaktunWundtCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "afstemmen_bewustzijn",
+    cell
+  );
+
+}
+
+if(isBaktunEinsteinCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "transformeren_perspectief",
+    cell
+  );
+
+}
+
+if(isBaktunHubbleCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "integreren_spoor",
+    cell
+  );
+
+}
+
+if(isBaktunDNACell){
+
+  toggleHistoryCell(
+    "baktun",
+    "doorgronden_manifestatie",
     cell
   );
 

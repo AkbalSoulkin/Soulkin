@@ -95,8 +95,56 @@ if(level === "baktun"){
 verankeren_waarheid:
   "backgrounds/baktun13.png",
 
+afstemmen_oorsprong:
+  "backgrounds/baktun13_1.png",
+
+transformeren_informatie:
+  "backgrounds/baktun13_2.png",
+
+integreren_verbeelding:
+  "backgrounds/baktun13_3.png",
+
+doorgronden_potentieel:
+  "backgrounds/baktun13_4.png",
+
+verankeren_energie:
+  "backgrounds/baktun13_5.png",
+
+ontsluiten_grenzen:
+  "backgrounds/baktun13_6.png",
+
+vrijmaken_interactie:
+  "backgrounds/baktun13_7.png",
+
+actualiseren_waarde:
+  "backgrounds/baktun13_8.png",
+
+erkennen_stroming:
+  "backgrounds/baktun13_9.png",
+
+onderscheiden_relatie:
+  "backgrounds/baktun13_10.png",
+
+plaatsen_expressie:
+  "backgrounds/baktun13_11.png",
+
+selecteren_levenspad:
+  "backgrounds/baktun13_12.png",
+
 verfijnen_structuur:
   "backgrounds/baktun13_13.png",
+
+afstemmen_bewustzijn:
+  "backgrounds/baktun13_14.png",
+
+transformeren_perspectief:
+  "backgrounds/baktun13_15.png",
+
+integreren_spoor:
+  "backgrounds/baktun13_16.png",
+
+doorgronden_manifestatie:
+  "backgrounds/baktun13_17.png",
 
 vrijmaken_bewustzijn:
   "backgrounds/baktun12.png",
