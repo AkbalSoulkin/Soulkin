@@ -1474,6 +1474,22 @@ if(isBaktunDNACell){
   cell.classList.add("historyCell");
 }
 
+const isBaktunWebCell =
+  row === 18 &&
+  col === 12;
+
+if(isBaktunWebCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunGenomeCell =
+  row === 19 &&
+  col === 12;
+
+if(isBaktunGenomeCell){
+  cell.classList.add("historyCell");
+}
+
   cell.addEventListener("click", () => {
 
     const startDays =
@@ -1917,6 +1933,26 @@ if(isBaktunDNACell){
   toggleHistoryCell(
     "baktun",
     "doorgronden_manifestatie",
+    cell
+  );
+
+}
+
+if(isBaktunWebCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "ontsluiten_samenhang",
+    cell
+  );
+
+}
+
+if(isBaktunGenomeCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "vrijmaken_essentie",
     cell
   );
 

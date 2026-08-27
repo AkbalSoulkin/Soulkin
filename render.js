@@ -146,6 +146,12 @@ integreren_spoor:
 doorgronden_manifestatie:
   "backgrounds/baktun13_17.png",
 
+ontsluiten_samenhang:
+  "backgrounds/baktun13_19.png",
+
+vrijmaken_essentie:
+  "backgrounds/baktun13_20.png",
+
 vrijmaken_bewustzijn:
   "backgrounds/baktun12.png",
 
