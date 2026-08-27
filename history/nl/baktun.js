@@ -710,3 +710,39 @@ In 1953 publiceerden James Watson en Francis Crick een model van de dubbele heli
 De structuur maakte duidelijk hoe genetische informatie in een fysieke moleculaire vorm kan bestaan en suggereerde een mechanisme waarmee DNA kan worden gekopieerd. Het begrijpen van deze organisatie vormde een belangrijke basis voor de moleculaire biologie en veranderde het onderzoek naar erfelijkheid en levende systemen.`
 
 };
+
+window.historyTexts.nl.baktun.ontsluiten_samenhang = {
+
+  title:
+    "Vrijmaken",
+
+text:
+  `Ontsluiten + Samenhang
+
+<br><br>
+
+Tussen 1989 en 1991 ontwikkelde Tim Berners-Lee bij CERN het World Wide Web. Hij creëerde een systeem waarin documenten die op verschillende computers waren opgeslagen via hypertekstlinks met elkaar konden worden verbonden en met behulp van een gemeenschappelijke reeks technologieën toegankelijk konden worden gemaakt.
+
+<br><br>
+
+Het web combineerde URL's, HTTP, HTML, webservers en browsers tot een samenhangend informatiesysteem dat kon groeien naarmate nieuwe pagina's en links werden toegevoegd. Het veranderde het internet van een netwerk dat voornamelijk computers met elkaar verbond in een steeds toegankelijkere ruimte van onderling verbonden informatie.`
+
+};
+
+window.historyTexts.nl.baktun.vrijmaken_essentie = {
+
+  title:
+    "Vrijmaken",
+
+text:
+  `Vrijmaken + Essentie
+
+<br><br>
+
+In 2003 kondigde het Human Genome Project de voltooiing aan van een hoogwaardige referentiesequentie die vrijwel het gehele menselijke genoom omvatte. Het internationale project had miljarden DNA-basenparen in kaart gebracht en gesequencet en stelde de gegevens snel beschikbaar aan onderzoekers over de hele wereld.
+
+<br><br>
+
+Het referentiegenoom bood een gemeenschappelijke basis voor het onderzoeken van menselijke genen, erfelijke variatie en de moleculaire basis van biologische processen. Het veranderde genetisch en biomedisch onderzoek door grootschalige genomische informatie breed toegankelijk te maken voor verder onderzoek.`
+
+};

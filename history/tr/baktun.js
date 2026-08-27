@@ -709,3 +709,39 @@ text:
 Bu yapı, genetik bilginin fiziksel bir moleküler biçimde nasıl var olabileceğini ortaya koydu ve DNA'nın nasıl kopyalanabileceğine ilişkin bir mekanizma önerdi. Bu düzenin anlaşılması moleküler biyolojinin önemli temellerinden biri hâline geldi ve kalıtım ile canlı sistemlerin incelenmesini dönüştürdü.`
 
 };
+
+window.historyTexts.tr.baktun.ontsluiten_samenhang = {
+
+  title:
+    "Serbest Bırakmak",
+
+text:
+  `Açığa Çıkarmak + Bütünlük
+
+<br><br>
+
+Tim Berners-Lee, 1989 ile 1991 yılları arasında CERN'de World Wide Web'i geliştirdi. Farklı bilgisayarlarda saklanan belgelerin hipermetin bağlantıları aracılığıyla birbirine bağlanabildiği ve ortak bir teknoloji kümesi kullanılarak erişilebildiği bir sistem oluşturdu.
+
+<br><br>
+
+Web; URL'leri, HTTP'yi, HTML'yi, web sunucularını ve tarayıcıları, yeni sayfalar ve bağlantılar eklendikçe genişleyebilen bütünlüklü bir bilgi sisteminde bir araya getirdi. İnterneti, öncelikle bilgisayarları birbirine bağlayan bir ağdan, giderek daha erişilebilir bir birbirine bağlı bilgi alanına dönüştürdü.`
+
+};
+
+window.historyTexts.tr.baktun.vrijmaken_essentie = {
+
+  title:
+    "Serbest Bırakmak",
+
+text:
+  `Serbest Bırakmak + Öz
+
+<br><br>
+
+2003 yılında İnsan Genom Projesi, insan genomunun neredeyse tamamını kapsayan yüksek kaliteli bir referans dizisinin tamamlandığını duyurdu. Uluslararası proje, milyarlarca DNA baz çiftini haritalandırıp dizilemiş ve elde edilen verileri dünyanın dört bir yanındaki araştırmacıların hızlı bir şekilde erişimine açmıştı.
+
+<br><br>
+
+Referans genom; insan genlerinin, kalıtsal çeşitliliğin ve biyolojik süreçlerin moleküler temelinin incelenmesi için ortak bir temel sağladı. Büyük ölçekli genomik bilgiyi daha ileri araştırmalar için geniş ölçüde erişilebilir hâle getirerek genetik ve biyomedikal araştırmaları dönüştürdü.`
+
+};

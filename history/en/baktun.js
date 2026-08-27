@@ -711,3 +711,39 @@ In 1953, James Watson and Francis Crick published a model of the double-helical 
 The structure revealed how genetic information could exist in a physical molecular form and suggested a mechanism by which DNA could be copied. Understanding its organization became a foundation for molecular biology and transformed the study of heredity and living systems.`
 
 };
+
+window.historyTexts.en.baktun.ontsluiten_samenhang = {
+
+  title:
+    "Release",
+
+  text:
+    `Unfold + Coherence
+
+<br><br>
+
+Between 1989 and 1991, Tim Berners-Lee developed the World Wide Web at CERN. He created a system in which documents stored on different computers could be connected through hypertext links and accessed through a common set of technologies.
+
+<br><br>
+
+The Web combined URLs, HTTP, HTML, web servers and browsers into a coherent information system that could expand as new pages and links were added. It transformed the Internet from a network primarily connecting computers into an increasingly accessible space of interconnected information.`
+
+};
+
+window.historyTexts.en.baktun.vrijmaken_essentie = {
+
+  title:
+    "Release",
+
+  text:
+    `Release + Essence
+
+<br><br>
+
+In 2003, the Human Genome Project announced the completion of a high-quality reference sequence covering nearly all of the human genome. The international project had mapped and sequenced billions of DNA base pairs and made its data rapidly available to researchers around the world.
+
+<br><br>
+
+The reference genome provided a shared foundation for studying human genes, inherited variation and the molecular basis of biological processes. It transformed genetics and biomedical research by making large-scale genomic information broadly accessible for further investigation.`
+
+};
