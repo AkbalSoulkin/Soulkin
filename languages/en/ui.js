@@ -44,36 +44,35 @@ go: "Go",
 
 introTitle: "&nbsp;&nbsp;S&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;o&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;l&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;k&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;n",
 introText: `
-Welcome to Soulkin.
+Discover your Soulkin.
 
 <br><br>
 
-Soulkin reveals the pattern within the 260-day Tzolkin cycle connected to your date of birth.
-
-<br><br>
-
-Enter your date of birth to discover your Soulkin.
-
-<br><br>
-
-You will then uncover different layers, each offering another perspective on the same moment: from your personal core pattern to relationships, challenges, interactions, and recurring cycles.
-
-<br><br>
-
-Behind this daily cycle, Soulkin contains a much larger structure in which the same patterns are followed across increasingly greater timescales — all the way to the unfolding of the universe itself.
-
-<br><br>
-
-Soulkin is an experimental symbolic system. Its texts are intended as something to explore, recognize, and reflect upon — not as predictions or absolute statements about who you are.
-
-<br><br>
-
-Use the tabs to explore the different layers of your Soulkin. The information shown changes with your date of birth, the selected day, and the perspective you are viewing.
+Enter your date of birth here to discover your Soulkin.
 
 <br><br>
 
 If you were born before sunrise, it may be interesting to also explore the previous date. In various historical calendar systems, the day did not necessarily begin at midnight.
 
+<br><br>
+
+The fields above are clickable and connected to the chakras. By opening a field, you can discover the different kin relationships within that chakra field and how they relate to your Soulkin.
+
+<br><br>
+
+Use the Step button to move forward one day. This allows you to watch the mechanism of the cycle move step by step and discover how the different parts change and relate to one another.
+
+<br><br>
+
+The Long Count layers beside the calendar are also clickable. Together they form an interactive representation of the larger Maya calendar structure. Each cell takes you to its corresponding position in time; the white cells contain additional historical or scientific information.
+
+<br><br>
+
+At the foundation of Soulkin lies the 260-day Tzolkin cycle of the Maya. Soulkin follows the patterns within this cycle and explores how the same structure can be viewed across different layers and timescales.
+
+<br><br>
+
+Soulkin is an experimental symbolic system. Its texts are intended as something to explore, recognize, and reflect upon — not as predictions or absolute statements about who you are.
 `,
 
   step: "Step",

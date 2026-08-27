@@ -50,35 +50,35 @@ longCount: "Uzun Sayım",
 
 introTitle: "&nbsp;&nbsp;S&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;o&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;l&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;k&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;n",
 introText: `
-Soulkin'e hoş geldin.
+Soulkin'ini keşfet.
 
 <br><br>
 
-Soulkin, 260 günlük Tzolkin döngüsü içinde doğum tarihinle bağlantılı olan örüntüyü gösterir.
+Soulkin'ini keşfetmek için doğum tarihini buraya gir.
 
 <br><br>
 
-Soulkin'ini keşfetmek için doğum tarihini gir.
+Güneş doğmadan önce doğduysan, bir önceki tarihi de incelemek ilginç olabilir. Çeşitli tarihsel takvim sistemlerinde gün her zaman gece yarısında başlamıyordu.
 
 <br><br>
 
-Ardından aynı ana farklı açılardan bakan çeşitli katmanları keşfedebilirsin: kişisel temel örüntünden ilişkilere, meydan okumalara, etkileşimlere ve tekrarlanan döngülere kadar.
+Yukarıdaki alanlar tıklanabilir ve çakralarla bağlantılıdır. Bir alanı açarak o çakra alanındaki farklı kin ilişkilerini ve bunların Soulkin'inle nasıl ilişkili olduğunu keşfedebilirsin.
 
 <br><br>
 
-Bu günlük döngünün ardında, Soulkin içinde çok daha büyük bir yapı bulunur. Aynı örüntüler burada giderek daha büyük zaman ölçekleri boyunca izlenir — evrenin kendisinin açılımına kadar.
+Bir gün ileri gitmek için Step düğmesini kullan. Böylece döngünün mekanizmasının adım adım hareketini izleyebilir ve farklı parçaların nasıl değiştiğini ve birbirleriyle nasıl ilişki kurduğunu keşfedebilirsin.
 
 <br><br>
 
-Soulkin deneysel ve sembolik bir sistemdir. Metinler, kim olduğuna dair kehanetler ya da mutlak yargılar olarak değil; keşfetmek, kendinden bir şeyler bulmak ve üzerinde düşünmek için tasarlanmıştır.
+Takvimin yanındaki Long Count katmanları da tıklanabilir. Birlikte, Maya takviminin daha büyük yapısının etkileşimli bir gösterimini oluştururlar. Her hücre seni zaman içindeki karşılık gelen konuma götürür; beyaz hücreler ek tarihsel veya bilimsel bilgiler içerir.
 
 <br><br>
 
-Soulkin'inin farklı katmanlarını keşfetmek için sekmeleri kullan. Gösterilen bilgiler doğum tarihine, seçilen güne ve baktığın perspektife göre değişir.
+Soulkin'in temelinde Maya'nın 260 günlük Tzolkin döngüsü yer alır. Soulkin, bu döngü içindeki örüntüleri takip eder ve aynı yapının farklı katmanlar ve zaman ölçekleri boyunca nasıl görülebileceğini araştırır.
 
 <br><br>
 
-Güneş doğmadan önce doğduysan, bir önceki tarihi de incelemek ilginç olabilir. Tarih boyunca kullanılan çeşitli takvim sistemlerinde günün başlangıcı her zaman gece yarısı değildi.
-`
+Soulkin deneysel bir sembolik sistemdir. Metinleri keşfetmek, tanımak ve üzerine düşünmek içindir — kim olduğuna dair kehanetler veya mutlak ifadeler olarak değil.
+`,
 
 };
