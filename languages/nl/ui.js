@@ -78,7 +78,7 @@ Soulkin is een experimenteel symbolisch systeem. De teksten zijn bedoeld om te o
 
   step: "Stap",
 
-  supportText: "Ondersteun de ontwikkeling van Soulkin:",
+  supportText: "Speel:",
 
 longCount: "Lange Telling"
 

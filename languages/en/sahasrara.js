@@ -3,6 +3,8 @@ const sahasraraPages_en = {
 1: `
 How do I stay on the path?
 
+<br><br>
+
 The path is not always found through movement.
 
 Sometimes the next step is remembering why you started.
@@ -15,6 +17,10 @@ Meaning often survives long after excitement has disappeared.
 `,
 
 2: `
+100
+
+<br><br>
+
 Thunder brings movement and disruption.
 
 Something that has become stagnant is trying to wake up.
@@ -27,6 +33,10 @@ The path often becomes visible after the ground begins to shake.
 `,
 
 3: `
+101
+
+<br><br>
+
 Fire illuminates both strengths and weaknesses.
 
 What is hidden becomes easier to see.
@@ -39,6 +49,10 @@ The path becomes clearer when you are willing to see things as they are.
 `,
 
 4: `
+011
+
+<br><br>
+
 Wind carries messages from unexpected directions.
 
 Listen before acting.
@@ -51,6 +65,10 @@ The path is often adjusted through gentle corrections rather than dramatic event
 `,
 
 5: `
+111
+
+<br><br>
+
 Heaven invites a wider perspective.
 
 Try to rise above immediate concerns.
@@ -63,6 +81,10 @@ The path becomes easier when you stop mistaking every obstacle for the destinati
 `,
 
 6: `
+110
+
+<br><br>
+
 Lake reminds you that joy is part of the journey.
 
 A path sustained only by discipline eventually becomes brittle.
@@ -75,6 +97,10 @@ The path is not only about where you are going, but also about how you travel.
 `,
 
 7: `
+010
+
+<br><br>
+
 Water tests adaptability.
 
 When resistance becomes exhausting, flexibility may be the wiser choice.
@@ -87,6 +113,10 @@ The path continues when you learn the difference between persistence and stubbor
 `,
 
 8: `
+001
+
+<br><br>
+
 Mountain tests patience more than strength.
 
 Progress may appear slow, but stillness has its own purpose.
@@ -99,6 +129,10 @@ Sometimes standing still is part of moving forward.
 `,
 
 9: `
+000
+
+<br><br>
+
 Earth encourages balance and integration.
 
 Different parts of your life are seeking harmony.

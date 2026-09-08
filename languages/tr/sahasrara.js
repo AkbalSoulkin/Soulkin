@@ -3,6 +3,8 @@ const sahasraraPages_tr = {
 1: `
 Yolumda nasıl kalabilirim?
 
+<br><br>
+
 Yol her zaman hareket ederek bulunmaz.
 
 Bazen bir sonraki adım, neden başladığını hatırlamaktır.
@@ -15,6 +17,10 @@ Anlam, heyecan çoktan kaybolmuş olsa bile çoğu zaman varlığını sürdür�
 `,
 
 2: `
+100
+
+<br><br>
+
 Gök gürültüsü hareket ve değişim getirir.
 
 Uzun süredir durağan kalan bir şey uyanmaya çalışıyor.
@@ -27,6 +33,10 @@ Yol, çoğu zaman ancak zemin sarsılmaya başladıktan sonra görünür hâle g
 `,
 
 3: `
+101
+
+<br><br>
+
 Ateş hem güçlü hem de zayıf yönleri aydınlatır.
 
 Gizli olanı görmek kolaylaşır.
@@ -39,6 +49,10 @@ Işık, hakikati ortaya çıkardığında değerlidir.
 `,
 
 4: `
+011
+
+<br><br>
+
 Rüzgâr beklenmedik yönlerden mesajlar taşır.
 
 Harekete geçmeden önce dinle.
@@ -51,6 +65,10 @@ Yol çoğu zaman büyük olaylarla değil, nazik düzeltmelerle şekillenir.
 `,
 
 5: `
+111
+
+<br><br>
+
 Gök daha geniş bir bakış açısına davet eder.
 
 Bulunduğun anın ötesine bakmayı dene.
@@ -63,6 +81,10 @@ Her engeli varış noktası sanmayı bıraktığında yol daha kolay hâle gelir
 `,
 
 6: `
+110
+
+<br><br>
+
 Göl, neşenin de yolculuğun bir parçası olduğunu hatırlatır.
 
 Yalnızca disiplinle sürdürülen bir yol zamanla kırılganlaşır.
@@ -75,6 +97,10 @@ Yol yalnızca nereye gittiğinle değil, nasıl ilerlediğinle de ilgilidir.
 `,
 
 7: `
+010
+
+<br><br>
+
 Su uyum sağlama yeteneğini sınar.
 
 Direnmek yorucu hâle geldiğinde, esneklik daha bilgece bir seçim olabilir.
@@ -87,6 +113,10 @@ Azim ile inat arasındaki farkı öğrendiğinde yol devam eder.
 `,
 
 8: `
+001
+
+<br><br>
+
 Dağ, gücünden çok sabrını sınar.
 
 İlerleme yavaş görünebilir, ancak durgunluğun da bir amacı vardır.
@@ -99,6 +129,10 @@ Bazen durmak da ilerlemenin bir parçasıdır.
 `,
 
 9: `
+000
+
+<br><br>
+
 Toprak dengeyi ve bütünleşmeyi teşvik eder.
 
 Hayatının farklı yönleri uyum arıyor.

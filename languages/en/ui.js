@@ -77,7 +77,7 @@ Soulkin is an experimental symbolic system. Its texts are intended as something 
 
   step: "Step",
 
-  supportText: "Support the development of Soulkin:",
+  supportText: "Play:",
 
 longCount: "Long Count"
 

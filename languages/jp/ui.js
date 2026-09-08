@@ -81,7 +81,7 @@ Soulkinは実験的な象徴体系です。これらのテキストは、探求�
 
   step: "次へ",
 
-  supportText: "Soulkinの開発を支援する：",
+  supportText: "プレイ：",
 
 longCount: "ロングカウント"
 

@@ -3,6 +3,8 @@ const sahasraraPages_nl = {
 1: `
 Hoe blijf ik op het pad?
 
+<br><br>
+
 Het pad wordt niet altijd gevonden door beweging.
 
 Soms is de volgende stap herinneren waarom je begonnen bent.
@@ -15,6 +17,10 @@ Betekenis blijft vaak bestaan lang nadat enthousiasme verdwenen is.
 `,
 
 2: `
+100
+
+<br><br>
+
 Donder brengt beweging en verstoring.
 
 Iets dat vastgelopen is probeert wakker te worden.
@@ -27,6 +33,10 @@ Het pad wordt vaak zichtbaar wanneer de grond begint te bewegen.
 `,
 
 3: `
+101
+
+<br><br>
+
 Vuur verlicht zowel kracht als kwetsbaarheid.
 
 Wat verborgen was wordt gemakkelijker zichtbaar.
@@ -39,6 +49,10 @@ Het pad wordt helderder wanneer je bereid bent de dingen te zien zoals ze zijn.
 `,
 
 4: `
+011
+
+<br><br>
+
 Wind draagt boodschappen uit onverwachte richtingen.
 
 Luister voordat je handelt.
@@ -51,6 +65,10 @@ Het pad wordt vaak bijgestuurd door subtiele correcties in plaats van dramatisch
 `,
 
 5: `
+111
+
+<br><br>
+
 Hemel nodigt uit tot een ruimer perspectief.
 
 Probeer boven onmiddellijke zorgen uit te stijgen.
@@ -63,6 +81,10 @@ Het pad wordt eenvoudiger wanneer je niet elk obstakel voor de bestemming aanzie
 `,
 
 6: `
+110
+
+<br><br>
+
 Meer herinnert je eraan dat vreugde deel uitmaakt van de reis.
 
 Een pad dat uitsluitend door discipline wordt gedragen, wordt uiteindelijk broos.
@@ -75,6 +97,10 @@ Het pad gaat niet alleen over waar je naartoe gaat, maar ook over hoe je reist.
 `,
 
 7: `
+010
+
+<br><br>
+
 Water test aanpassingsvermogen.
 
 Wanneer weerstand uitputtend wordt, kan flexibiliteit de wijzere keuze zijn.
@@ -87,6 +113,10 @@ Het pad gaat verder wanneer je het verschil leert tussen volharding en koppighei
 `,
 
 8: `
+001
+
+<br><br>
+
 Berg test geduld meer dan kracht.
 
 Vooruitgang lijkt misschien langzaam, maar stilstand heeft zijn eigen doel.
@@ -99,6 +129,10 @@ Soms is stilstaan onderdeel van vooruitgaan.
 `,
 
 9: `
+000
+
+<br><br>
+
 Aarde moedigt balans en integratie aan.
 
 Verschillende delen van je leven zoeken naar harmonie.

@@ -44,7 +44,7 @@ go: "Git",
 
 step: "İlerle",
 
-supportText: "Soulkin'in geliştirilmesini destekleyin:",
+supportText: "Oyna:",
 
 longCount: "Uzun Sayım",
 
