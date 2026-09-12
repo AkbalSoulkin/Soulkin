@@ -1,7 +1,7 @@
 const anahataPages_nl = {
 
 1: `
-Imix (0001) · Bron
+0001 (Imix) · Bron
 
 <br><br>
 
@@ -18,7 +18,7 @@ Hun kracht ligt in het scheppen van een nieuw begin, terwijl hun uitdaging kan z
 `,
 
 2: `
-Ik (0011) · Informatie
+0011 (Ik) · Informatie
 
 <br><br>
 
@@ -35,7 +35,7 @@ Hun kracht ligt in het zichtbaar maken van samenhang binnen informatie, terwijl 
 `,
 
 3: `
-Akbal (0010) · Verbeelding
+0010 (Akbal) · Verbeelding
 
 <br><br>
 
@@ -69,7 +69,7 @@ Hun kracht ligt in het herkennen en ontwikkelen van verborgen mogelijkheden, ter
 `,
 
 5: `
-Chicchan (01) · Energie
+01 (Chicchan) · Energie
 
 <br><br>
 
@@ -86,7 +86,7 @@ Hun kracht ligt in het omzetten van energie in beweging, terwijl hun uitdaging k
 `,
 
 6: `
-Cimi (0111) · Grenzen
+0111 (Cimi) · Grenzen
 
 <br><br>
 
@@ -103,7 +103,7 @@ Hun kracht ligt in het bewaken én verleggen van grenzen, terwijl hun uitdaging 
 `,
 
 7: `
-Manik (0110) · Interactie
+0110 (Manik) · Interactie
 
 <br><br>
 
@@ -120,7 +120,7 @@ Hun kracht ligt in het scheppen van betekenisvolle wisselwerking, terwijl hun ui
 `,
 
 8: `
-Lamat (0100) · Waarde
+0100 (Lamat) · Waarde
 
 <br><br>
 
@@ -137,7 +137,7 @@ Hun kracht ligt in het zichtbaar maken van betekenis, terwijl hun uitdaging kan 
 `,
 
 9: `
-Muluc (0101) · Stroming
+0101 (Muluc) · Stroming
 
 <br><br>
 
@@ -154,7 +154,7 @@ Hun kracht ligt in het laten doorstromen van wat verder wil, terwijl hun uitdagi
 `,
 
 10: `
-Oc (11) · Relatie
+11 (Oc) · Relatie
 
 <br><br>
 
@@ -171,7 +171,7 @@ Hun kracht ligt in het verbinden van mensen vanuit wederzijds vertrouwen, terwij
 `,
 
 11: `
-Chuen (1110) · Expressie
+1110 (Chuen) · Expressie
 
 <br><br>
 
@@ -188,7 +188,7 @@ Hun kracht ligt in het zichtbaar maken van wat van binnen leeft, terwijl hun uit
 `,
 
 12: `
-Eb (1100) · Levenspad
+1100 (Eb) · Levenspad
 
 <br><br>
 
@@ -205,7 +205,7 @@ Hun kracht ligt in het bewust vormgeven van hun eigen ontwikkeling, terwijl hun 
 `,
 
 13: `
-Ben (1101) · Structuur
+1101 (Ben) · Structuur
 
 <br><br>
 
@@ -222,7 +222,7 @@ Hun kracht ligt in het scheppen van stabiliteit en richting, terwijl hun uitdagi
 `,
 
 14: `
-Ix (1111) · Bewustzijn
+1111 (Ix) · Bewustzijn
 
 <br><br>
 
@@ -239,7 +239,7 @@ Hun kracht ligt in het bewust worden van wat werkelijk speelt, terwijl hun uitda
 `,
 
 15: `
-Men (10) · Perspectief
+10 (Men) · Perspectief
 
 <br><br>
 
@@ -256,7 +256,7 @@ Hun kracht ligt in het verruimen van inzicht door vanuit verschillende gezichtsp
 `,
 
 16: `
-Cib (1000) · Spoor
+1000 (Cib) · Spoor
 
 <br><br>
 
@@ -273,7 +273,7 @@ Hun kracht ligt in het zichtbaar maken van de lessen die ervaringen nalaten, ter
 `,
 
 17: `
-Caban (1001) · Manifestatie
+1001 (Caban) · Manifestatie
 
 <br><br>
 
@@ -290,7 +290,7 @@ Hun kracht ligt in het zichtbaar maken van wat eerder alleen als mogelijkheid be
 `,
 
 18: `
-Etznab (1011) · Waarheid
+1011 (Etznab) · Waarheid
 
 <br><br>
 
@@ -307,7 +307,7 @@ Hun kracht ligt in het zichtbaar maken van waarheid zonder de samenhang uit het 
 `,
 
 19: `
-Cauac (1010) · Samenhang
+1010 (Cauac) · Samenhang
 
 <br><br>
 
@@ -324,7 +324,7 @@ Hun kracht ligt in het herstellen van samenhang door ontwikkeling en vernieuwing
 `,
 
 20: `
-Ahau (00) · Essentie
+00 (Ahau) · Essentie
 
 <br><br>
 

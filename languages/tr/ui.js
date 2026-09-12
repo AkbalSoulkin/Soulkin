@@ -40,6 +40,8 @@ moon: "Gece",
 sun: "Gün",
 tone: "Ton",
 
+sources: "Kaynaklar",
+
 go: "Git",
 
 step: "İlerle",
@@ -74,11 +76,23 @@ Takvimin yanındaki Long Count katmanları da tıklanabilir. Birlikte, Maya takv
 
 <br><br>
 
-Soulkin'in temelinde Maya'nın 260 günlük Tzolkin döngüsü yer alır. Soulkin, bu döngü içindeki örüntüleri takip eder ve aynı yapının farklı katmanlar ve zaman ölçekleri boyunca nasıl görülebileceğini araştırır.
+Soulkin'in temelinde Maya'nın 260 günlük Tzolkin döngüsü yer alır. Soulkin, bu döngünün içindeki örüntüleri takip eder ve aynı sayısal yapının, Maya Uzun Sayımı'nda bulunan yapılar da dahil olmak üzere, farklı katmanlar ve zaman ölçekleri boyunca nasıl ele alınabileceğini araştırır.
 
 <br><br>
 
-Soulkin deneysel bir sembolik sistemdir. Metinleri keşfetmek, tanımak ve üzerine düşünmek içindir — kim olduğuna dair kehanetler veya mutlak ifadeler olarak değil.
+Soulkin deneysel bir sembolik sistemdir. Metinleri; keşfetmek, kendinden bir şeyler bulmak ve üzerine düşünmek için tasarlanmıştır — kim olduğunuz hakkında kehanetler veya mutlak ifadeler olarak değil.
+
+<br><br>
+
+Soulkin, Maya düşüncesini veya günümüzdeki Maya topluluklarının yaşayan takvim geleneklerini bir bütün olarak temsil ettiğini iddia etmez. Belirli, belgelenmiş takvim yapılarını başlangıç noktası olarak alır ve bunlardan modern bir çerçeve geliştirir. Daha büyük döngülerin araştırılması kısmen Carl Johan Calleman'ın çalışmalarından da esinlenmiştir; Soulkin'in sonraki yapısı, terminolojisi, yorumları ve hipotezleri ise kendisine aittir.
+
+<br><br>
+
+Soulkin astronomi, tarih, arkeoloji, evrim veya diğer alanlarla olası bağlantıları araştırdığında, bunlar Maya'ya atfedilen bilgiler olarak değil, hipotezler olarak ele alınır. Takvim yapısı sabit kalırken bu tür hipotezler bağımsız kanıtlarla karşılaştırılabilir — ve bir örtüşme otomatik olarak doğrulama olarak kabul edilmez.
+
+<br><br>
+
+Kaynaklar; belgelenmiş takvim yapılarını, daha sonraki etkileri ve bu araştırmalarda kullanılan dış kanıtları birbirinden ayırmak amacıyla belirtilir.
 `,
 
 };

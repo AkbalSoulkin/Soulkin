@@ -1,7 +1,7 @@
 const anahataPages_en = {
 
 1: `
-Imix (0001) · Source
+0001 (Imix) · Source
 
 <br><br>
 
@@ -18,7 +18,7 @@ Their strength lies in creating a new beginning, while their challenge may be th
 `,
 
 2: `
-Ik (0011) · Information
+0011 (Ik) · Information
 
 <br><br>
 
@@ -35,7 +35,7 @@ Their strength lies in making coherence within information visible, while their 
 `,
 
 3: `
-Akbal (0010) · Imagination
+0010 (Akbal) · Imagination
 
 <br><br>
 
@@ -69,7 +69,7 @@ Their strength lies in recognizing and developing hidden possibilities, while th
 `,
 
 5: `
-Chicchan (01) · Energy
+01 (Chicchan) · Energy
 
 <br><br>
 
@@ -86,7 +86,7 @@ Their strength lies in turning energy into movement, while their challenge may b
 `,
 
 6: `
-Cimi (0111) · Boundaries
+0111 (Cimi) · Boundaries
 
 <br><br>
 
@@ -103,7 +103,7 @@ Their strength lies in both guarding and extending boundaries, while their chall
 `,
 
 7: `
-Manik (0110) · Interaction
+0110 (Manik) · Interaction
 
 <br><br>
 
@@ -119,7 +119,7 @@ Their strength lies in creating meaningful interaction, while their challenge ma
 
 `,
 8: `
-Lamat (0100) · Value
+0100 (Lamat) · Value
 
 <br><br>
 
@@ -136,7 +136,7 @@ Their strength lies in making meaning visible, while their challenge may be that
 `,
 
 9: `
-Muluc (0101) · Flow
+0101 (Muluc) · Flow
 
 <br><br>
 
@@ -153,7 +153,7 @@ Their strength lies in allowing what wants to move forward to keep flowing, whil
 `,
 
 10: `
-Oc (11) · Relationship
+11 (Oc) · Relationship
 
 <br><br>
 
@@ -170,7 +170,7 @@ Their strength lies in connecting people through mutual trust, while their chall
 `,
 
 11: `
-Chuen (1110) · Expression
+1110 (Chuen) · Expression
 
 <br><br>
 
@@ -187,7 +187,7 @@ Their strength lies in making visible what lives within, while their challenge m
 `,
 
 12: `
-Eb (1100) · Life Path
+1100 (Eb) · Life Path
 
 <br><br>
 
@@ -204,7 +204,7 @@ Their strength lies in consciously shaping their own development, while their ch
 `,
 
 13: `
-Ben (1101) · Structure
+1101 (Ben) · Structure
 
 <br><br>
 
@@ -221,7 +221,7 @@ Their strength lies in creating stability and direction, while their challenge m
 `,
 
 14: `
-Ix (1111) · Consciousness
+1111 (Ix) · Consciousness
 
 <br><br>
 
@@ -237,7 +237,7 @@ Their strength lies in becoming conscious of what is truly happening, while thei
 
 `,
 15: `
-Men (10) · Perspective
+10 (Men) · Perspective
 
 <br><br>
 
@@ -254,7 +254,7 @@ Their strength lies in broadening insight by looking from different points of vi
 `,
 
 16: `
-Cib (1000) · Trace
+1000 (Cib) · Trace
 
 <br><br>
 
@@ -271,7 +271,7 @@ Their strength lies in making visible the lessons that experiences leave behind,
 `,
 
 17: `
-Caban (1001) · Manifestation
+1001 (Caban) · Manifestation
 
 <br><br>
 
@@ -288,7 +288,7 @@ Their strength lies in making visible what previously existed only as a possibil
 `,
 
 18: `
-Etznab (1011) · Truth
+1011 (Etznab) · Truth
 
 <br><br>
 
@@ -305,7 +305,7 @@ Their strength lies in making truth visible without losing sight of coherence, w
 `,
 
 19: `
-Cauac (1010) · Coherence
+1010 (Cauac) · Coherence
 
 <br><br>
 
@@ -322,7 +322,7 @@ Their strength lies in restoring coherence through development and renewal, whil
 `,
 
 20: `
-Ahau (00) · Essence
+00 (Ahau) · Essence
 
 <br><br>
 

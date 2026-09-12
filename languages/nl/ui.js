@@ -69,12 +69,26 @@ Ook de Long Count-lagen naast de kalender zijn klikbaar. Samen vormen ze een int
 
 <br><br>
 
-Aan de basis van Soulkin ligt de 260-daagse Tzolkin-cyclus van de Maya's. Soulkin volgt de patronen binnen deze cyclus en onderzoekt hoe dezelfde structuur zich over verschillende lagen en tijdschalen laat bekijken.
+Aan de basis van Soulkin ligt de 260-daagse Tzolkin-cyclus van de Maya. Soulkin volgt de patronen binnen deze cyclus en onderzoekt hoe dezelfde numerieke structuur kan worden bekeken over verschillende lagen en tijdschalen, waaronder structuren die voorkomen in de Maya Long Count.
 
 <br><br>
 
-Soulkin is een experimenteel symbolisch systeem. De teksten zijn bedoeld om te onderzoeken, herkennen en over na te denken — niet als voorspellingen of absolute uitspraken over wie je bent.
+Soulkin is een experimenteel symbolisch systeem. De teksten zijn bedoeld als iets om te verkennen, herkennen en over na te denken — niet als voorspellingen of absolute uitspraken over wie je bent.
+
+<br><br>
+
+Soulkin beweert niet het Maya-denken of de levende kalendertradities van hedendaagse Maya-gemeenschappen als geheel te vertegenwoordigen. Het neemt specifieke gedocumenteerde kalenderstructuren als uitgangspunt en ontwikkelt daaruit een modern raamwerk. Het onderzoek naar grotere cycli is daarnaast gedeeltelijk geïnspireerd door het werk van Carl Johan Calleman, terwijl de verdere structuur, terminologie, interpretaties en hypothesen van Soulkin zelf zijn.
+
+<br><br>
+
+Waar Soulkin mogelijke verbanden onderzoekt met astronomie, geschiedenis, archeologie, evolutie of andere vakgebieden, worden deze behandeld als hypothesen en niet als kennis die aan de Maya wordt toegeschreven. De kalenderstructuur blijft vaststaan terwijl zulke hypothesen met onafhankelijk bewijs kunnen worden vergeleken — en een overeenkomst wordt niet automatisch als bevestiging beschouwd.
+
+<br><br>
+
+Bronnen worden vermeld om onderscheid te maken tussen de gedocumenteerde kalenderstructuren, latere invloeden en het externe bewijs dat bij deze onderzoeken wordt gebruikt.
 `,
+
+sources: "Bronnen",
 
   step: "Stap",
 

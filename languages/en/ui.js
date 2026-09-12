@@ -68,12 +68,26 @@ The Long Count layers beside the calendar are also clickable. Together they form
 
 <br><br>
 
-At the foundation of Soulkin lies the 260-day Tzolkin cycle of the Maya. Soulkin follows the patterns within this cycle and explores how the same structure can be viewed across different layers and timescales.
+At the foundation of Soulkin lies the 260-day Tzolkin cycle of the Maya. Soulkin follows the patterns within this cycle and explores how the same numerical structure can be viewed across different layers and timescales, including structures found in the Maya Long Count.
 
 <br><br>
 
 Soulkin is an experimental symbolic system. Its texts are intended as something to explore, recognize, and reflect upon — not as predictions or absolute statements about who you are.
+
+<br><br>
+
+Soulkin does not claim to represent Maya thought or the living calendar traditions of contemporary Maya communities as a whole. It takes specific documented calendrical structures as its starting point and develops a modern framework from them. The exploration of larger cycles was also partly inspired by the work of Carl Johan Calleman, while Soulkin's further structure, terminology, interpretations and hypotheses are its own.
+
+<br><br>
+
+Where Soulkin explores possible connections with astronomy, history, archaeology, evolution or other fields, these are treated as hypotheses rather than as knowledge attributed to the Maya. The calendar structure remains fixed while such hypotheses can be compared with independent evidence — and a correspondence is not automatically considered confirmation.
+
+<br><br>
+
+Sources are provided to distinguish the documented calendar structures, later influences and external evidence used in these explorations.
 `,
+
+sources: "Sources",
 
   step: "Step",
 

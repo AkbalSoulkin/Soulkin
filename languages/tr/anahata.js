@@ -1,7 +1,7 @@
 const anahataPages_tr = {
 
 1: `
-Imix (0001) · Kaynak
+0001 (Imix) · Kaynak
 
 <br><br>
 
@@ -18,7 +18,7 @@ Güçleri yeni bir başlangıç yaratmalarında yatar; zorlukları ise harekete 
 `,
 
 2: `
-Ik (0011) · Bilgi
+0011 (Ik) · Bilgi
 
 <br><br>
 
@@ -35,7 +35,7 @@ Güçleri bilgi içindeki bütünlüğü görünür hâle getirmelerinde yatar; 
 `,
 
 3: `
-Akbal (0010) · Hayal Gücü
+0010 (Akbal) · Hayal Gücü
 
 <br><br>
 
@@ -69,7 +69,7 @@ Güçleri gizli olasılıkları fark edip geliştirmelerinde yatar; zorlukları 
 `,
 
 5: `
-Chicchan (01) · Enerji
+01 (Chicchan) · Enerji
 
 <br><br>
 
@@ -86,7 +86,7 @@ Güçleri enerjiyi harekete dönüştürmelerinde yatar; zorlukları ise enerjil
 `,
 
 6: `
-Cimi (0111) · Sınırlar
+0111 (Cimi) · Sınırlar
 
 <br><br>
 
@@ -103,7 +103,7 @@ Güçleri sınırları hem korumalarında hem de genişletmelerinde yatar; zorlu
 `,
 
 7: `
-Manik (0110) · Etkileşim
+0110 (Manik) · Etkileşim
 
 <br><br>
 
@@ -120,7 +120,7 @@ Güçleri anlamlı etkileşim yaratmalarında yatar; zorlukları ise başkaları
 `,
 
 8: `
-Lamat (0100) · Değer
+0100 (Lamat) · Değer
 
 <br><br>
 
@@ -137,7 +137,7 @@ Güçleri anlamı görünür hâle getirmelerinde yatar; zorlukları ise yargıl
 `,
 
 9: `
-Muluc (0101) · Akış
+0101 (Muluc) · Akış
 
 <br><br>
 
@@ -154,7 +154,7 @@ Güçleri ilerlemek isteyen şeyin akmaya devam etmesini sağlamalarında yatar;
 `,
 
 10: `
-Oc (11) · İlişki
+11 (Oc) · İlişki
 
 <br><br>
 
@@ -171,7 +171,7 @@ Güçleri insanları karşılıklı güven aracılığıyla birbirine bağlamala
 `,
 
 11: `
-Chuen (1110) · İfade
+1110 (Chuen) · İfade
 
 <br><br>
 
@@ -188,7 +188,7 @@ Güçleri içlerinde yaşayanı görünür hâle getirmelerinde yatar; zorluklar
 `,
 
 12: `
-Eb (1100) · Yaşam Yolu
+1100 (Eb) · Yaşam Yolu
 
 <br><br>
 
@@ -205,7 +205,7 @@ Güçleri kendi gelişimlerini bilinçli olarak şekillendirmelerinde yatar; zor
 `,
 
 13: `
-Ben (1101) · Yapı
+1101 (Ben) · Yapı
 
 <br><br>
 
@@ -222,7 +222,7 @@ Güçleri istikrar ve yön yaratmalarında yatar; zorlukları ise tam da yenilen
 `,
 
 14: `
-Ix (1111) · Bilinç
+1111 (Ix) · Bilinç
 
 <br><br>
 
@@ -238,7 +238,7 @@ Güçleri gerçekte ne olup bittiğinin bilincine varmalarında yatar; zorluklar
 
 `,
 15: `
-Men (10) · Bakış Açısı
+10 (Men) · Bakış Açısı
 
 <br><br>
 
@@ -255,7 +255,7 @@ Güçleri farklı bakış açılarından bakarak anlayışı genişletmelerinde 
 `,
 
 16: `
-Cib (1000) · İz
+1000 (Cib) · İz
 
 <br><br>
 
@@ -272,7 +272,7 @@ Güçleri deneyimlerin geride bıraktığı dersleri görünür hâle getirmeler
 `,
 
 17: `
-Caban (1001) · Tezahür
+1001 (Caban) · Tezahür
 
 <br><br>
 
@@ -289,7 +289,7 @@ Güçleri daha önce yalnızca bir olasılık olarak var olanı görünür hâle
 `,
 
 18: `
-Etznab (1011) · Hakikat
+1011 (Etznab) · Hakikat
 
 <br><br>
 
@@ -306,7 +306,7 @@ Güçleri bütünlüğü gözden kaçırmadan hakikati görünür hâle getirmel
 `,
 
 19: `
-Cauac (1010) · Bütünlük
+1010 (Cauac) · Bütünlük
 
 <br><br>
 
@@ -323,7 +323,7 @@ Güçleri gelişim ve yenilenme yoluyla bütünlüğü yeniden oluşturmalarınd
 `,
 
 20: `
-Ahau (00) · Öz
+00 (Ahau) · Öz
 
 <br><br>
 
