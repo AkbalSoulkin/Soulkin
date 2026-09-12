@@ -32,26 +32,26 @@ const pts = [
 
 // ===== FRACTALS =====
 const animals = [
-  "Imix (0001)",
-  "Ik (0011)",
-  "Akbal (0010)",
-  "Kan (0000)",
-  "Chicchan (01)",
-  "Cimi (0111)",
-  "Manik (0110)",
-  "Lamat (0100)",
-  "Muluc (0101)",
-  "Oc (11)",
-  "Chuen (1110)",
-  "Eb (1100)",
-  "Ben (1101)",
-  "Ix (1111)",
-  "Men (10)",
-  "Cib (1000)",
-  "Caban (1001)",
-  "Etznab (1011)",
-  "Cauac (1010)",
-  "Ahau (00)"
+  "0001 (Imix)",
+  "0011 (Ik)",
+  "0010 (Akbal)",
+  "0000 (Kan)",
+  "01 (Chicchan)",
+  "0111 (Cimi)",
+  "0110 (Manik)",
+  "0100 (Lamat)",
+  "0101 (Muluc)",
+  "11 (Oc)",
+  "1110 (Chuen)",
+  "1100 (Eb)",
+  "1101 (Ben)",
+  "1111 (Ix)",
+  "10 (Men)",
+  "1000 (Cib)",
+  "1001 (Caban)",
+  "1011 (Etznab)",
+  "1010 (Cauac)",
+  "00 (Ahau)"
 ];
 
 const animalFiles = [
