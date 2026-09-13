@@ -52,7 +52,7 @@ Güçleri içsel olasılıkları görünür hâle getirmelerinde yatar; zorlukla
 `,
 
 4: `
-Kan (0000) · Potansiyel
+0000 (Kan) · Potansiyel
 
 <br><br>
 

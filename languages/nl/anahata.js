@@ -52,7 +52,7 @@ Hun kracht ligt in het zichtbaar maken van innerlijke mogelijkheden, terwijl hun
 `,
 
 4: `
-Kan (0000) · Potentieel
+0000 (Kan) · Potentieel
 
 <br><br>
 
