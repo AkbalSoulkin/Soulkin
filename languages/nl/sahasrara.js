@@ -1,7 +1,7 @@
 const sahasraraPages_nl = {
 
 1: `
-Hoe blijf ik op het pad?
+G1 (Hart) · Hoe blijf ik op het pad?
 
 <br><br>
 
@@ -17,7 +17,7 @@ Betekenis blijft vaak bestaan lang nadat enthousiasme verdwenen is.
 `,
 
 2: `
-100
+G2 (Donder) · 100
 
 <br><br>
 
@@ -33,7 +33,7 @@ Het pad wordt vaak zichtbaar wanneer de grond begint te bewegen.
 `,
 
 3: `
-101
+G3 (Vuur) · 101
 
 <br><br>
 
@@ -49,7 +49,7 @@ Het pad wordt helderder wanneer je bereid bent de dingen te zien zoals ze zijn.
 `,
 
 4: `
-011
+G4 (Wind) · 011
 
 <br><br>
 
@@ -65,7 +65,7 @@ Het pad wordt vaak bijgestuurd door subtiele correcties in plaats van dramatisch
 `,
 
 5: `
-111
+G5 (Hemel) · 111
 
 <br><br>
 
@@ -81,7 +81,7 @@ Het pad wordt eenvoudiger wanneer je niet elk obstakel voor de bestemming aanzie
 `,
 
 6: `
-110
+G6 (Meer) · 110
 
 <br><br>
 
@@ -97,7 +97,7 @@ Het pad gaat niet alleen over waar je naartoe gaat, maar ook over hoe je reist.
 `,
 
 7: `
-010
+G7 (Water) · 010
 
 <br><br>
 
@@ -113,7 +113,7 @@ Het pad gaat verder wanneer je het verschil leert tussen volharding en koppighei
 `,
 
 8: `
-001
+G8 (Berg) · 001
 
 <br><br>
 
@@ -129,7 +129,7 @@ Soms is stilstaan onderdeel van vooruitgaan.
 `,
 
 9: `
-000
+G9 (Aarde) · 000
 
 <br><br>
 

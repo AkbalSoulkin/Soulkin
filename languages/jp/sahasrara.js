@@ -1,7 +1,7 @@
 const sahasraraPages_jp = {
 
 1: `
-どのように道を歩み続けるのか？
+G1 (心) · どのように道を歩み続けるのか？
 
 <br><br>
 
@@ -17,7 +17,7 @@ const sahasraraPages_jp = {
 `,
 
 2: `
-100
+G2 (雷) · 100
 
 <br><br>
 
@@ -32,7 +32,7 @@ const sahasraraPages_jp = {
 `,
 
 3: `
-101
+G3 (火) · 101
 
 <br><br>
 
@@ -48,7 +48,7 @@ const sahasraraPages_jp = {
 `,
 
 4: `
-011
+G4 (風) · 011
 
 <br><br>
 
@@ -64,7 +64,7 @@ const sahasraraPages_jp = {
 `,
 
 5: `
-111
+G5 (天) · 111
 
 <br><br>
 
@@ -80,7 +80,7 @@ const sahasraraPages_jp = {
 `,
 
 6: `
-110
+G6 (湖) · 110
 
 <br><br>
 
@@ -97,7 +97,7 @@ const sahasraraPages_jp = {
 `,
 
 7: `
-010
+G7 (水) · 010
 
 <br><br>
 
@@ -115,7 +115,7 @@ const sahasraraPages_jp = {
 `,
 
 8: `
-001
+G8 (山) · 001
 
 <br><br>
 
@@ -134,7 +134,7 @@ const sahasraraPages_jp = {
 `,
 
 9: `
-000
+G9 (地) · 000
 
 <br><br>
 

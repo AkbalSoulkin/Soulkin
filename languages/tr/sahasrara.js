@@ -1,7 +1,7 @@
 const sahasraraPages_tr = {
 
 1: `
-Yolumda nasıl kalabilirim?
+G1 (Kalp) · Yolumda nasıl kalabilirim?
 
 <br><br>
 
@@ -17,7 +17,7 @@ Anlam, heyecan çoktan kaybolmuş olsa bile çoğu zaman varlığını sürdür�
 `,
 
 2: `
-100
+G2 (Gök Gürültüsü) · 100
 
 <br><br>
 
@@ -33,7 +33,7 @@ Yol, çoğu zaman ancak zemin sarsılmaya başladıktan sonra görünür hâle g
 `,
 
 3: `
-101
+G3 (Ateş) · 101
 
 <br><br>
 
@@ -49,7 +49,7 @@ Işık, hakikati ortaya çıkardığında değerlidir.
 `,
 
 4: `
-011
+G4 (Rüzgar) · 011
 
 <br><br>
 
@@ -65,7 +65,7 @@ Yol çoğu zaman büyük olaylarla değil, nazik düzeltmelerle şekillenir.
 `,
 
 5: `
-111
+G5 (Gök) · 111
 
 <br><br>
 
@@ -81,7 +81,7 @@ Her engeli varış noktası sanmayı bıraktığında yol daha kolay hâle gelir
 `,
 
 6: `
-110
+G6 (Göl) · 110
 
 <br><br>
 
@@ -97,7 +97,7 @@ Yol yalnızca nereye gittiğinle değil, nasıl ilerlediğinle de ilgilidir.
 `,
 
 7: `
-010
+G7 (Su) · 010
 
 <br><br>
 
@@ -113,7 +113,7 @@ Azim ile inat arasındaki farkı öğrendiğinde yol devam eder.
 `,
 
 8: `
-001
+G8 (Dağ) · 001
 
 <br><br>
 
@@ -129,7 +129,7 @@ Bazen durmak da ilerlemenin bir parçasıdır.
 `,
 
 9: `
-000
+G9 (Toprak) · 000
 
 <br><br>
 

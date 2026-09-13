@@ -1,7 +1,7 @@
 const sahasraraPages_ru = {
 
 1: `
-Как мне оставаться на своём пути?
+G1 (Сердце) · Как мне оставаться на своём пути?
 
 <br><br>
 
@@ -17,7 +17,7 @@ const sahasraraPages_ru = {
 `,
 
 2: `
-100
+G2 (Гром) · 100
 
 <br><br>
 
@@ -33,7 +33,7 @@ const sahasraraPages_ru = {
 `,
 
 3: `
-101
+G3 (Огонь) · 101
 
 <br><br>
 
@@ -49,7 +49,7 @@ const sahasraraPages_ru = {
 `,
 
 4: `
-011
+G4 (Ветер) · 011
 
 <br><br>
 
@@ -65,7 +65,7 @@ const sahasraraPages_ru = {
 `,
 
 5: `
-111
+G5 (Небо) · 111
 
 <br><br>
 
@@ -81,7 +81,7 @@ const sahasraraPages_ru = {
 `,
 
 6: `
-110
+G6 (Озеро) · 110
 
 <br><br>
 
@@ -97,7 +97,7 @@ const sahasraraPages_ru = {
 `,
 
 7: `
-010
+G7 (Вода) · 010
 
 <br><br>
 
@@ -113,7 +113,7 @@ const sahasraraPages_ru = {
 `,
 
 8: `
-001
+G8 (Гора) · 001
 
 <br><br>
 
@@ -129,7 +129,7 @@ const sahasraraPages_ru = {
 `,
 
 9: `
-000
+G9 (Земля) · 000
 
 <br><br>
 
