@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+
+  <meta
+    name="description"
+    content="Soulqub">
+
+  <title>Qub</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="hunabku.ico">
+
+</head>
+
+<body>
+
+<div id="viewport">
+
+<img id="appBackground" src="backgrounds/qb_maya.png" alt="">
+
+<div id="app">
+
+<div class="titleBlock">
+
+  <div class="mainTitle">
+    Qub
+  </div>
+
+  <div class="copyRight">
+    © Akbal 2026
+  </div>
+
+</div>
+
+<div class="support" id="supportText">
+  <span id="returnText">Return to:</span>
+
+  <a href="../index.html">Soulkin</a>
+</div>
+
+  <!-- ===== SVG ===== -->
+
+<svg id="gameSvg" 
+     width="1400" 
+     height="700" 
+     viewBox="-850 -430 1800 880">
+
+<text id="info"
+      x="50"
+      y="360"
+      font-size="27"
+      text-anchor="start"></text>
+
+  </svg>
+
+<button id="turnButton">Draw a card</button>
+
+<div id="gameOverScreen" class="hidden">
+  <div id="gameOverPanel">
+    <div id="gameOverTitle"></div>
+    <button id="playAgainButton">Play again</button>
+  </div>
+</div>
+
+</div>
+
+<script src="camera.js"></script>
+<script src="script.js"></script>
+
+<script>
+  Camera.update();
+
+  window.addEventListener(
+    "resize",
+    () => Camera.update()
+  );
+
+  window.addEventListener(
+    "orientationchange",
+    () => Camera.update()
+  );
+</script>
+
+<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+<script>
+  kofiWidgetOverlay.draw('soulkin', {
+    'type': 'floating-chat',
+    'floating-chat.donateButton.text': 'Support me',
+    'floating-chat.donateButton.background-color': '#323842',
+    'floating-chat.donateButton.text-color': '#fff'
+  });
+</script>
+
+</body>
+
+</html>
