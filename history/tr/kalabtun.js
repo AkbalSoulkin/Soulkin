@@ -46,7 +46,7 @@ window.historyTexts.tr.kalabtun.ontsluiten_expressie = {
     "Ayırt Etmek",
 
 text:
-  `Açığa Çıkarmak + İfade
+  `Açmak + İfade
 
 <br><br>
 
@@ -79,10 +79,10 @@ Kanıtların tekrarlanan ve mekânsal olarak düzenli yapısı, ateşin yalnızc
 window.historyTexts.tr.kalabtun.verankeren_samenhang = {
 
   title:
-    "Sabitlemek",
+    "Kalıcılaştırmak",
 
 text:
-  `Sabitlemek + Bütünlük
+  `Kalıcılaştırmak + Bütünlük
 
 <br><br>
 

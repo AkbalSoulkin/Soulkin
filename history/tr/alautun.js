@@ -29,7 +29,7 @@ window.historyTexts.tr.alautun.afstemmen_structuur = {
     "Serbest Bırakmak",
 
 text:
-  `İnce Ayar Yapmak + Yapı
+  `İyileştirmek + Yapı
 
 <br><br>
 

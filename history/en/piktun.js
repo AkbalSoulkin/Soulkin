@@ -273,3 +273,93 @@ During the fourth millennium BCE, Uruk in southern Mesopotamia developed into on
 The expanding need to organize goods, labor and transactions contributed to new forms of record-keeping. By the late fourth millennium BCE, this administrative environment would help give rise to the earliest known writing systems in Mesopotamia.`
 
 };
+
+window.historyTexts.en.piktun.actualiseren_manifestatie = {
+
+  title:
+    "Transform",
+
+  text:
+    `Actualize + Manifestation
+
+<br><br>
+
+Around 46,000 years ago, early Homo sapiens were present in Europe during the Initial Upper Palaeolithic. At Bacho Kiro Cave in present-day Bulgaria, human remains have been found together with stone tools, worked bone and personal ornaments, including pendants made from cave bear teeth.
+
+<br><br>
+
+These finds provide some of the earliest direct evidence for Homo sapiens associated with Upper Palaeolithic material culture in Europe. They form part of a wider period in which modern humans were expanding across Eurasia while Neanderthal populations were still present.`
+
+};
+
+window.historyTexts.en.piktun.erkennen_waarheid = {
+
+  title:
+    "Transform",
+
+  text:
+    `Acknowledge + Truth
+
+<br><br>
+
+Around 45,500 years ago, early Homo sapiens and Neanderthals were both present in Eurasia. Genetic evidence from early modern humans found at Bacho Kiro Cave in present-day Bulgaria shows that these individuals carried substantial segments of Neanderthal ancestry.
+
+<br><br>
+
+The length of these inherited DNA segments indicates that some of their Neanderthal ancestors had lived only several generations earlier. The findings provide direct genetic evidence that early Homo sapiens and Neanderthals did not merely inhabit overlapping regions, but also encountered one another and interbred.`
+
+};
+
+window.historyTexts.en.piktun.onderscheiden_samenhang = {
+
+  title:
+    "Transform",
+
+  text:
+    `Distinguish + Coherence
+
+<br><br>
+
+Around 45,000 years ago, a Homo sapiens man known as Ust'-Ishim lived in western Siberia. DNA recovered from his approximately 45,000-year-old femur produced one of the oldest high-quality genomes of a modern human and placed him among the early populations spreading across Eurasia.
+
+<br><br>
+
+His genome contained Neanderthal ancestry and provided insight into the relationships among early modern human populations. Genetic comparisons indicate that he lived before or around the time when the ancestral populations of later western and eastern Eurasians became genetically distinct, revealing an early stage in the developing population structure of Eurasia.`
+
+};
+
+window.historyTexts.en.piktun.plaatsen_essentie = {
+
+  title:
+    "Transform",
+
+  text:
+    `Position + Essence
+
+<br><br>
+
+Around 44,700 years ago, Homo sapiens populations were establishing themselves across widely separated parts of Eurasia. Evidence from Ranis in present-day Germany shows that early modern humans had reached northern Europe and were able to survive in a cold steppe environment during this period.
+
+<br><br>
+
+Together with evidence from eastern Europe and Siberia, these finds show that Homo sapiens was occupying increasingly diverse environments across Eurasia while Neanderthals were still present. Small and mobile human populations had begun to establish a broad geographical and ecological presence across the continent.`
+
+};
+
+window.historyTexts.en.piktun.selecteren_oorsprong = {
+
+  title:
+    "Integrate",
+
+  text:
+    `Select + Source
+
+<br><br>
+
+Around 44,300 years ago, Homo sapiens populations were dispersed across large parts of Eurasia. Archaeological and genetic evidence shows that these early expansions involved multiple populations, some of which disappeared without leaving detectable descendants among people living today, while others contributed to later Eurasian populations.
+
+<br><br>
+
+These movements formed part of a longer process in which ancestry from different human populations became incorporated into later generations. Neanderthal ancestry acquired through earlier interbreeding persisted in many expanding Homo sapiens populations and remains detectable in the genomes of most people with ancestry outside Africa today.`
+
+};

@@ -747,3 +747,57 @@ In 2003, the Human Genome Project announced the completion of a high-quality ref
 The reference genome provided a shared foundation for studying human genes, inherited variation and the molecular basis of biological processes. It transformed genetics and biomedical research by making large-scale genomic information broadly accessible for further investigation.`
 
 };
+
+window.historyTexts.en.baktun.erkennen_waarheid = {
+
+  title:
+    "Transform",
+
+  text:
+    `Acknowledge + Truth
+
+<br><br>
+
+September 11, 3 BCE has been proposed as a possible date for the birth of Jesus. Ernest L. Martin argued for this date through an astronomical interpretation of the imagery described in Revelation 12, an interpretation later discussed and supported by biblical scholar Michael S. Heiser.
+
+<br><br>
+
+Jesus emerged from the Jewish religious world of the first century and became the central figure of Christianity. Accounts of his life and teachings, and later of his death and resurrection, formed the basis of a movement that developed within its Jewish context before spreading throughout the Roman world and beyond.`
+
+};
+
+window.historyTexts.en.baktun.onderscheiden_samenhang = {
+
+  title:
+    "Transform",
+
+  text:
+    `Distinguish + Coherence
+
+<br><br>
+
+During the first decades of the first century, Jesus and his earliest followers were part of the Jewish religious world. His teachings developed within Jewish traditions, scriptures and debates, while the movement around him gradually acquired its own recognizable character.
+
+<br><br>
+
+After his death, his followers continued as communities rooted in Judaism while developing distinctive beliefs about his identity and significance. Over time, these communities expanded beyond their original setting, contributing to the gradual emergence of Christianity as a distinct religious tradition.`
+
+};
+
+window.historyTexts.en.baktun.plaatsen_essentie = {
+
+  title:
+    "Transform",
+
+  text:
+    `Position + Essence
+
+<br><br>
+
+During the first century CE, Jesus was crucified under the Roman prefect Pontius Pilate, most likely sometime around 30 CE. His death did not bring the movement around him to an end. His followers proclaimed that he had risen from the dead and continued to gather and spread his teachings.
+
+<br><br>
+
+In the years that followed, Jesus himself became the central reference point of the developing movement. Beliefs about his identity, death and resurrection increasingly defined its message, while communities of followers began to form and expand beyond Judea into other parts of the Roman world.`
+
+};

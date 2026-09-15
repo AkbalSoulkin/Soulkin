@@ -28,7 +28,7 @@ window.historyTexts.tr.piktun.verankeren_spoor = {
     "Konumlandırmak",
 
 text:
-  `Sabitlemek + İz
+  `Kalıcılaştırmak + İz
 
 <br><br>
 
@@ -46,7 +46,7 @@ window.historyTexts.tr.piktun.erkennen_perspectief = {
     "Gerçekleştirmek",
 
 text:
-  `Tanımak + Perspektif
+  `Kabul Etmek + Bakış Açısı
 
 <br><br>
 
@@ -118,7 +118,7 @@ window.historyTexts.tr.piktun.erkennen_grenzen = {
     "İyileştirmek",
 
 text:
-  `Tanımak + Sınırlar
+  `Kabul Etmek + Sınırlar
 
 <br><br>
 
@@ -136,7 +136,7 @@ window.historyTexts.tr.piktun.erkennen_levenspad = {
     "Uyumlamak",
 
 text:
-  `Tanımak + Yaşam Yolu
+  `Kabul Etmek + Yaşam Yolu
 
 <br><br>
 
@@ -172,7 +172,7 @@ window.historyTexts.tr.piktun.verankeren_interactie = {
     "Bütünleştirmek",
 
 text:
-  `Sabitlemek + Etkileşim
+  `Kalıcılaştırmak + Etkileşim
 
 <br><br>
 
@@ -208,7 +208,7 @@ window.historyTexts.tr.piktun.erkennen_relatie = {
     "Kalıcılaştırmak",
 
 text:
-  `Tanımak + İlişki
+  `Kabul Etmek + İlişki
 
 <br><br>
 
@@ -226,7 +226,7 @@ window.historyTexts.tr.piktun.verankeren_levenspad = {
     "Açmak",
 
 text:
-  `Sabitlemek + Yaşam Yolu
+  `Kalıcılaştırmak + Yaşam Yolu
 
 <br><br>
 
@@ -262,7 +262,7 @@ window.historyTexts.tr.piktun.verankeren_waarheid = {
     "Serbest Bırakmak",
 
 text:
-  `Sabitlemek + Gerçek
+  `Kalıcılaştırmak + Hakikat
 
 <br><br>
 
@@ -271,5 +271,95 @@ MÖ dördüncü binyıl boyunca Güney Mezopotamya'daki Uruk, dünyanın bilinen
 <br><br>
 
 Malları, emeği ve işlemleri düzenleme ihtiyacının artması, yeni kayıt tutma biçimlerinin gelişmesine katkıda bulundu. MÖ dördüncü binyılın sonlarına gelindiğinde bu idari ortam, Mezopotamya'da bilinen en eski yazı sistemlerinin ortaya çıkmasına katkı sağlayacaktı.`
+
+};
+
+window.historyTexts.tr.piktun.actualiseren_manifestatie = {
+
+  title:
+    "Dönüştürmek",
+
+  text:
+    `Gerçekleştirmek + Tezahür
+
+<br><br>
+
+Yaklaşık 46.000 yıl önce, erken Homo sapiens toplulukları Başlangıç Üst Paleolitik döneminde Avrupa'da bulunuyordu. Günümüz Bulgaristan'ındaki Bacho Kiro Mağarası'nda insan kalıntıları; taş aletler, işlenmiş kemikler ve mağara ayısı dişlerinden yapılmış kolyeler de dahil olmak üzere kişisel süs eşyalarıyla birlikte bulunmuştur.
+
+<br><br>
+
+Bu buluntular, Avrupa'da Üst Paleolitik maddi kültürle ilişkilendirilen Homo sapiens'e ait en eski doğrudan kanıtlardan bazılarını oluşturmaktadır. Bunlar, Neandertal popülasyonlarının hâlâ var olduğu bir dönemde modern insanların Avrasya'ya yayıldığı daha geniş bir sürecin parçasıdır.`
+
+};
+
+window.historyTexts.tr.piktun.erkennen_waarheid = {
+
+  title:
+    "Dönüştürmek",
+
+  text:
+    `Kabul Etmek + Hakikat
+
+<br><br>
+
+Yaklaşık 45.500 yıl önce, erken Homo sapiens ve Neandertaller Avrasya'da aynı dönemde bulunuyordu. Günümüz Bulgaristan'ındaki Bacho Kiro Mağarası'nda bulunan erken modern insanlara ait genetik kanıtlar, bu bireylerin DNA'larında önemli miktarda Neandertal kökenli bölümler taşıdığını göstermektedir.
+
+<br><br>
+
+Miras alınan bu DNA bölümlerinin uzunluğu, bazı Neandertal atalarının yalnızca birkaç nesil önce yaşamış olduğunu göstermektedir. Bu bulgular, erken Homo sapiens ve Neandertallerin yalnızca aynı bölgelerde yaşamadıklarına, aynı zamanda birbirleriyle karşılaştıklarına ve çiftleştiklerine dair doğrudan genetik kanıt sağlamaktadır.`
+
+};
+
+window.historyTexts.tr.piktun.onderscheiden_samenhang = {
+
+  title:
+    "Dönüştürmek",
+
+  text:
+    `Ayırt Etmek + Bütünlük
+
+<br><br>
+
+Yaklaşık 45.000 yıl önce, Batı Sibirya'da Ust'-Ishim olarak bilinen bir Homo sapiens erkeği yaşıyordu. Yaklaşık 45.000 yıllık uyluk kemiğinden elde edilen DNA, modern bir insana ait en eski yüksek kaliteli genomlardan birini sağladı ve onu Avrasya'ya yayılan erken insan toplulukları arasına yerleştirdi.
+
+<br><br>
+
+Genomu Neandertal kökenli genetik miras içeriyordu ve erken modern insan toplulukları arasındaki ilişkiler hakkında bilgi sağladı. Genetik karşılaştırmalar, onun daha sonraki Batı ve Doğu Avrasya topluluklarının atalarının genetik olarak birbirinden ayrılmaya başladığı dönemden önce ya da bu döneme yakın bir zamanda yaşadığını göstererek Avrasya'nın gelişmekte olan nüfus yapısının erken bir aşamasını ortaya koymaktadır.`
+
+};
+
+window.historyTexts.tr.piktun.plaatsen_essentie = {
+
+  title:
+    "Dönüştürmek",
+
+  text:
+    `Konumlandırmak + Öz
+
+<br><br>
+
+Yaklaşık 44.700 yıl önce Homo sapiens toplulukları Avrasya'nın birbirinden uzak bölgelerinde yerleşmeye başlamıştı. Günümüz Almanya'sındaki Ranis'ten elde edilen kanıtlar, erken modern insanların Kuzey Avrupa'ya ulaştığını ve bu dönemde soğuk bozkır koşullarında yaşayabildiğini göstermektedir.
+
+<br><br>
+
+Doğu Avrupa ve Sibirya'dan elde edilen kanıtlarla birlikte bu bulgular, Neandertaller hâlâ varlığını sürdürürken Homo sapiens'in Avrasya genelinde giderek daha çeşitli çevrelerde yaşadığını göstermektedir. Küçük ve hareketli insan toplulukları kıta genelinde geniş bir coğrafi ve ekolojik varlık oluşturmaya başlamıştı.`
+
+};
+
+window.historyTexts.tr.piktun.selecteren_oorsprong = {
+
+  title:
+    "Bütünleştirmek",
+
+  text:
+    `Seçmek + Kaynak
+
+<br><br>
+
+Yaklaşık 44.300 yıl önce Homo sapiens toplulukları Avrasya'nın geniş bölgelerine yayılmış durumdaydı. Arkeolojik ve genetik kanıtlar, bu erken yayılmaların birden fazla topluluğu içerdiğini; bunlardan bazılarının günümüzde yaşayan insanlar arasında tespit edilebilir torunlar bırakmadan ortadan kaybolduğunu, diğerlerinin ise daha sonraki Avrasya topluluklarına katkıda bulunduğunu göstermektedir.
+
+<br><br>
+
+Bu hareketler, farklı insan topluluklarından gelen genetik mirasın sonraki nesillere dahil olduğu daha uzun bir sürecin parçasıydı. Daha önceki çiftleşmeler yoluyla edinilen Neandertal kökenli genetik miras, yayılan birçok Homo sapiens topluluğunda varlığını sürdürdü ve bugün Afrika dışı kökene sahip insanların çoğunun genomlarında hâlâ tespit edilebilmektedir.`
 
 };

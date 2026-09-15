@@ -273,3 +273,93 @@ Gedurende het vierde millennium v.Chr. ontwikkelde Uruk in Zuid-Mesopotamië zic
 De toenemende behoefte om goederen, arbeid en transacties te organiseren droeg bij aan nieuwe vormen van registratie. Tegen het einde van het vierde millennium v.Chr. zou deze administratieve omgeving bijdragen aan het ontstaan van de vroegst bekende schriftsystemen in Mesopotamië.`
 
 };
+
+window.historyTexts.nl.piktun.actualiseren_manifestatie = {
+
+  title:
+    "Transformeren",
+
+  text:
+    `Actualiseren + Manifestatie
+
+<br><br>
+
+Ongeveer 46.000 jaar geleden waren vroege Homo sapiens aanwezig in Europa tijdens het Initial Upper Palaeolithic. In de Bacho Kiro-grot in het huidige Bulgarije zijn menselijke resten gevonden samen met stenen werktuigen, bewerkt bot en persoonlijke ornamenten, waaronder hangers gemaakt van tanden van holenberen.
+
+<br><br>
+
+Deze vondsten vormen enkele van de vroegste directe bewijzen voor Homo sapiens in Europa in samenhang met materiële cultuur uit het Laatpaleolithicum. Ze maken deel uit van een bredere periode waarin moderne mensen zich over Eurazië verspreidden terwijl er nog Neanderthalerpopulaties aanwezig waren.`
+
+};
+
+window.historyTexts.nl.piktun.erkennen_waarheid = {
+
+  title:
+    "Transformeren",
+
+  text:
+    `Erkennen + Waarheid
+
+<br><br>
+
+Ongeveer 45.500 jaar geleden waren vroege Homo sapiens en Neanderthalers beide aanwezig in Eurazië. Genetisch bewijs van vroege moderne mensen die zijn gevonden in de Bacho Kiro-grot in het huidige Bulgarije laat zien dat deze individuen aanzienlijke segmenten Neanderthaler-afkomst in hun DNA droegen.
+
+<br><br>
+
+De lengte van deze overgeërfde DNA-segmenten wijst erop dat sommige van hun Neanderthaler-voorouders slechts enkele generaties eerder hadden geleefd. De vondsten leveren direct genetisch bewijs dat vroege Homo sapiens en Neanderthalers niet alleen overlappende gebieden bewoonden, maar elkaar ook ontmoetten en zich onderling voortplantten.`
+
+};
+
+window.historyTexts.nl.piktun.onderscheiden_samenhang = {
+
+  title:
+    "Transformeren",
+
+  text:
+    `Onderscheiden + Samenhang
+
+<br><br>
+
+Ongeveer 45.000 jaar geleden leefde in West-Siberië een Homo sapiens-man die bekendstaat als Ust'-Ishim. DNA uit zijn ongeveer 45.000 jaar oude dijbeen leverde een van de oudste hoogwaardige genomen van een moderne mens op en plaatste hem onder de vroege populaties die zich over Eurazië verspreidden.
+
+<br><br>
+
+Zijn genoom bevatte Neanderthaler-afkomst en gaf inzicht in de onderlinge relaties tussen vroege moderne menselijke populaties. Genetische vergelijkingen wijzen erop dat hij leefde vóór of rond de tijd waarin de voorouderlijke populaties van latere West- en Oost-Euraziaten genetisch van elkaar gingen verschillen, waardoor een vroege fase in de ontwikkeling van de bevolkingsstructuur van Eurazië zichtbaar wordt.`
+
+};
+
+window.historyTexts.nl.piktun.plaatsen_essentie = {
+
+  title:
+    "Transformeren",
+
+  text:
+    `Plaatsen + Essentie
+
+<br><br>
+
+Ongeveer 44.700 jaar geleden vestigden Homo sapiens-populaties zich in ver van elkaar gelegen delen van Eurazië. Bewijs uit Ranis in het huidige Duitsland laat zien dat vroege moderne mensen Noord-Europa hadden bereikt en in deze periode konden overleven in een koude steppeomgeving.
+
+<br><br>
+
+Samen met bewijs uit Oost-Europa en Siberië laten deze vondsten zien dat Homo sapiens steeds uiteenlopendere leefomgevingen in Eurazië bewoonde terwijl Neanderthalers nog aanwezig waren. Kleine en mobiele menselijke populaties begonnen een brede geografische en ecologische aanwezigheid op het continent te vestigen.`
+
+};
+
+window.historyTexts.nl.piktun.selecteren_oorsprong = {
+
+  title:
+    "Integreren",
+
+  text:
+    `Selecteren + Bron
+
+<br><br>
+
+Ongeveer 44.300 jaar geleden waren Homo sapiens-populaties verspreid over grote delen van Eurazië. Archeologisch en genetisch bewijs laat zien dat deze vroege uitbreidingen meerdere populaties omvatten, waarvan sommige verdwenen zonder aantoonbare nakomelingen onder mensen die tegenwoordig leven, terwijl andere bijdroegen aan latere Euraziatische populaties.
+
+<br><br>
+
+Deze bewegingen maakten deel uit van een langer proces waarin afkomst van verschillende menselijke populaties in latere generaties werd opgenomen. Neanderthaler-afkomst die door eerdere vermenging was verkregen, bleef aanwezig in veel zich verspreidende Homo sapiens-populaties en is tegenwoordig nog aantoonbaar in de genomen van de meeste mensen met voorouders buiten Afrika.`
+
+};

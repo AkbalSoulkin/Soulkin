@@ -82,7 +82,7 @@ window.historyTexts.jp.kalabtun.verankeren_samenhang = {
     "定着させる",
 
 text:
-  `定着させる + 一貫性
+  `定着させる + つながり
 
 <br><br>
 

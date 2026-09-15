@@ -746,3 +746,57 @@ In 2003 kondigde het Human Genome Project de voltooiing aan van een hoogwaardige
 Het referentiegenoom bood een gemeenschappelijke basis voor het onderzoeken van menselijke genen, erfelijke variatie en de moleculaire basis van biologische processen. Het veranderde genetisch en biomedisch onderzoek door grootschalige genomische informatie breed toegankelijk te maken voor verder onderzoek.`
 
 };
+
+window.historyTexts.nl.baktun.erkennen_waarheid = {
+
+  title:
+    "Transformeren",
+
+  text:
+    `Erkennen + Waarheid
+
+<br><br>
+
+11 september 3 v.Chr. is voorgesteld als een mogelijke geboortedatum van Jezus. Ernest L. Martin onderbouwde deze datum met een astronomische interpretatie van de beeldspraak in Openbaring 12, een interpretatie die later werd besproken en ondersteund door bijbelwetenschapper Michael S. Heiser.
+
+<br><br>
+
+Jezus kwam voort uit de Joodse religieuze wereld van de eerste eeuw en werd de centrale figuur van het christendom. Verhalen over zijn leven en leer, en later over zijn dood en opstanding, vormden de basis van een beweging die zich binnen haar Joodse context ontwikkelde voordat zij zich door de Romeinse wereld en daarbuiten verspreidde.`
+
+};
+
+window.historyTexts.nl.baktun.onderscheiden_samenhang = {
+
+  title:
+    "Transformeren",
+
+  text:
+    `Onderscheiden + Samenhang
+
+<br><br>
+
+Tijdens de eerste decennia van de eerste eeuw maakten Jezus en zijn vroegste volgelingen deel uit van de Joodse religieuze wereld. Zijn leer ontwikkelde zich binnen Joodse tradities, geschriften en debatten, terwijl de beweging rond hem geleidelijk een eigen herkenbaar karakter kreeg.
+
+<br><br>
+
+Na zijn dood bleven zijn volgelingen gemeenschappen vormen die geworteld waren in het jodendom, terwijl zij onderscheidende opvattingen over zijn identiteit en betekenis ontwikkelden. Na verloop van tijd breidden deze gemeenschappen zich uit buiten hun oorspronkelijke omgeving en droegen zij bij aan het geleidelijke ontstaan van het christendom als een afzonderlijke religieuze traditie.`
+
+};
+
+window.historyTexts.nl.baktun.plaatsen_essentie = {
+
+  title:
+    "Transformeren",
+
+  text:
+    `Plaatsen + Essentie
+
+<br><br>
+
+In de eerste eeuw n.Chr. werd Jezus gekruisigd onder de Romeinse prefect Pontius Pilatus, waarschijnlijk rond 30 n.Chr. Zijn dood betekende niet het einde van de beweging rond hem. Zijn volgelingen verkondigden dat hij uit de dood was opgestaan en bleven samenkomen en zijn leer verspreiden.
+
+<br><br>
+
+In de jaren daarna werd Jezus zelf het centrale referentiepunt van de zich ontwikkelende beweging. Opvattingen over zijn identiteit, dood en opstanding gingen de boodschap ervan steeds sterker bepalen, terwijl gemeenschappen van volgelingen ontstonden en zich vanuit Judea naar andere delen van de Romeinse wereld uitbreidden.`
+
+};

@@ -28,7 +28,7 @@ window.historyTexts.tr.kinchiltun.verfijnen_structuur = {
     "Serbest Bırakmak",
 
 text:
-  `İnce Ayar Yapmak + Yapı
+  `İyileştirmek + Yapı
 
 <br><br>
 
@@ -64,7 +64,7 @@ window.historyTexts.tr.kinchiltun.verankeren_waarde = {
     "Uyumlamak",
 
 text:
-  `Sabitlemek + Değer
+  `Kalıcılaştırmak + Değer
 
 <br><br>
 

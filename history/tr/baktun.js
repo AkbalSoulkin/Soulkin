@@ -69,7 +69,7 @@ window.historyTexts.tr.baktun.afstemmen_waarheid = {
     "Seçmek",
 
 text:
-  `Uyumlamak + Gerçek
+  `Uyumlamak + Hakikat
 
 <br><br>
 
@@ -180,7 +180,7 @@ window.historyTexts.tr.baktun.verankeren_waarheid = {
     "Serbest Bırakmak",
 
 text:
-  `Sabitlemek + Gerçek
+  `Kalıcılaştırmak + Hakikat
 
 <br><br>
 
@@ -248,7 +248,7 @@ window.historyTexts.tr.baktun.erkennen_interactie = {
     "Konumlandırmak",
 
 text:
-  `Tanımak + Etkileşim
+  `Kabul Etmek + Etkileşim
 
 <br><br>
 
@@ -284,7 +284,7 @@ window.historyTexts.tr.baktun.erkennen_samenhang = {
     "İyileştirmek",
 
 text:
-  `Tanımak + Bütünlük
+  `Kabul Etmek + Bütünlük
 
 <br><br>
 
@@ -302,7 +302,7 @@ window.historyTexts.tr.baktun.transformeren_waarheid = {
     "Uyumlamak",
 
 text:
-  `Dönüştürmek + Gerçek
+  `Dönüştürmek + Hakikat
 
 <br><br>
 
@@ -374,7 +374,7 @@ window.historyTexts.tr.baktun.erkennen_relatie = {
     "Kalıcılaştırmak",
 
 text:
-  `Tanımak + İlişki
+  `Kabul Etmek + İlişki
 
 <br><br>
 
@@ -500,7 +500,7 @@ window.historyTexts.tr.baktun.verankeren_energie = {
     "Serbest Bırakmak",
 
 text:
-  `Sabitlemek + Enerji
+  `Kalıcılaştırmak + Enerji
 
 <br><br>
 
@@ -518,7 +518,7 @@ window.historyTexts.tr.baktun.ontsluiten_grenzen = {
     "Serbest Bırakmak",
 
 text:
-  `Açığa Çıkarmak + Sınırlar
+  `Açmak + Sınırlar
 
 <br><br>
 
@@ -572,7 +572,7 @@ window.historyTexts.tr.baktun.erkennen_stroming = {
     "Serbest Bırakmak",
 
 text:
-  `Tanımak + Akış
+  `Kabul Etmek + Akış
 
 <br><br>
 
@@ -662,7 +662,7 @@ window.historyTexts.tr.baktun.transformeren_perspectief = {
     "Serbest Bırakmak",
 
 text:
-  `Dönüştürmek + Perspektif
+  `Dönüştürmek + Bakış Açısı
 
 <br><br>
 
@@ -716,7 +716,7 @@ window.historyTexts.tr.baktun.ontsluiten_samenhang = {
     "Serbest Bırakmak",
 
 text:
-  `Açığa Çıkarmak + Bütünlük
+  `Açmak + Bütünlük
 
 <br><br>
 
@@ -743,5 +743,59 @@ text:
 <br><br>
 
 Referans genom; insan genlerinin, kalıtsal çeşitliliğin ve biyolojik süreçlerin moleküler temelinin incelenmesi için ortak bir temel sağladı. Büyük ölçekli genomik bilgiyi daha ileri araştırmalar için geniş ölçüde erişilebilir hâle getirerek genetik ve biyomedikal araştırmaları dönüştürdü.`
+
+};
+
+window.historyTexts.tr.baktun.erkennen_waarheid = {
+
+  title:
+    "Dönüştürmek",
+
+  text:
+    `Kabul Etmek + Hakikat
+
+<br><br>
+
+MÖ 11 Eylül 3, İsa'nın olası doğum tarihi olarak önerilmiştir. Ernest L. Martin bu tarihi, Vahiy 12'de betimlenen imgelerin astronomik bir yorumuna dayanarak savundu; bu yorum daha sonra Kutsal Kitap araştırmacısı Michael S. Heiser tarafından da ele alındı ve desteklendi.
+
+<br><br>
+
+İsa, birinci yüzyılın Yahudi dini dünyasından ortaya çıktı ve Hristiyanlığın merkezi figürü haline geldi. Yaşamı ve öğretileri, daha sonra da ölümü ve dirilişi hakkındaki anlatılar, Roma dünyasına ve ötesine yayılmadan önce Yahudi bağlamı içinde gelişen bir hareketin temelini oluşturdu.`
+
+};
+
+window.historyTexts.tr.baktun.onderscheiden_samenhang = {
+
+  title:
+    "Dönüştürmek",
+
+  text:
+    `Ayırt Etmek + Bütünlük
+
+<br><br>
+
+Birinci yüzyılın ilk on yıllarında İsa ve onun ilk takipçileri Yahudi dini dünyasının bir parçasıydı. Öğretileri Yahudi gelenekleri, kutsal metinleri ve tartışmaları içinde gelişirken, çevresinde oluşan hareket zamanla kendine özgü ve tanınabilir bir karakter kazanmaya başladı.
+
+<br><br>
+
+Ölümünden sonra takipçileri, Yahudilik içinde kök salmış topluluklar olarak varlıklarını sürdürürken onun kimliği ve önemi hakkında kendilerine özgü inançlar geliştirdiler. Zamanla bu topluluklar başlangıçtaki çevrelerinin ötesine yayıldı ve Hristiyanlığın ayrı bir dini gelenek olarak kademeli biçimde ortaya çıkmasına katkıda bulundu.`
+
+};
+
+window.historyTexts.tr.baktun.plaatsen_essentie = {
+
+  title:
+    "Dönüştürmek",
+
+  text:
+    `Konumlandırmak + Öz
+
+<br><br>
+
+MS birinci yüzyılda İsa, Roma valisi Pontius Pilatus döneminde, büyük olasılıkla MS 30 civarında çarmıha gerildi. Ölümü, çevresinde oluşan hareketin sonunu getirmedi. Takipçileri onun ölümden dirildiğini ilan ettiler, bir araya gelmeye ve öğretilerini yaymaya devam ettiler.
+
+<br><br>
+
+Takip eden yıllarda İsa'nın kendisi gelişmekte olan hareketin merkezi referans noktası haline geldi. Kimliği, ölümü ve dirilişi hakkındaki inançlar hareketin mesajını giderek daha fazla tanımlarken, takipçi toplulukları oluşmaya ve Yahudiye'den Roma dünyasının diğer bölgelerine yayılmaya başladı.`
 
 };

@@ -12,7 +12,7 @@ window.historyTexts.jp.kinchiltun = {
       "区別する",
 
 text:
-  `調整する + 整合性
+  `調整する + つながり
 
 <br><br>
 

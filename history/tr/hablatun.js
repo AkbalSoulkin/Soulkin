@@ -12,7 +12,7 @@ window.historyTexts.tr.hablatun = {
       "Ayırt Etmek",
 
 text:
-  `Ayırt Etmek + Perspektif
+  `Ayırt Etmek + Bakış Açısı
 
 <br><br>
 
