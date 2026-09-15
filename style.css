@@ -423,7 +423,7 @@ body,
     position:fixed;
 
     top:900px;
-    right:90px;
+    right:260px;
     bottom:
       calc(18px + env(safe-area-inset-bottom));
 
