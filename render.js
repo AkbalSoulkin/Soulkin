@@ -182,6 +182,15 @@ onderscheiden_grenzen:
 actualiseren_manifestatie_rome:
   "backgrounds/baktun08.png",
 
+erkennen_waarheid:
+  "backgrounds/baktun08.png",
+
+onderscheiden_samenhang:
+  "backgrounds/baktun08.png",
+
+plaatsen_essentie:
+  "backgrounds/baktun08.png",
+
 onderscheiden_structuur_athene:
   "backgrounds/baktun07.png",
 
@@ -322,7 +331,8 @@ panel.style.background = "transparent";
 
 if(
   dayOffset < CHAKRA_TEXT_START_DAY &&
-  activePage !== "manipura"
+  activePage !== "manipura" &&
+  activePage !== "anahata"
 ){
 
   panel.style.backgroundImage = "none";
@@ -519,24 +529,48 @@ combinationText =
     return;
   }
 
+// ===== ANAHATA =====
 
-  // ===== ANAHATA =====
+if(activePage === "anahata"){
 
-  if(activePage === "anahata"){
+  panel.style.background =
+    "rgba(0,128,0,0.25)";
 
-    panel.style.background =
-      "rgba(0,128,0,0.25)";
+  title.classList.remove("chakraTitle");
+
+  const ANAHATA_FIRST_DAY =
+    ROOT_OFFSET - 4; // 10/11
+
+  // vóór 10/11: volledig leeg
+  if(dayOffset < ANAHATA_FIRST_DAY){
+
+    title.innerHTML = "";
+    content.innerHTML = "";
+
+    return;
+  }
+
+  // exact 10/11: "There was."
+  if(dayOffset === ANAHATA_FIRST_DAY){
 
     title.innerHTML =
       lang.anahata;
 
-    title.classList.remove("chakraTitle");
-
     content.innerHTML =
-      pages.anahata[seal + 1] ?? "";
+      manipuraPages?.[language]?.[1] ?? "";
 
     return;
   }
+
+  // vanaf 11/11: bestaande Anahata
+  title.innerHTML =
+    lang.anahata;
+
+  content.innerHTML =
+    pages.anahata[seal + 1] ?? "";
+
+  return;
+}
 
 
   // ===== VISHUDDHA =====
@@ -576,6 +610,7 @@ combinationText =
     return;
   }
 
+
 // ===== MANIPURA =====
 
 if(activePage === "manipura"){
@@ -585,14 +620,13 @@ if(activePage === "manipura"){
 
   title.classList.remove("chakraTitle");
 
-  // 10/11/-17264374702
+  // 10/11
   const MANIPURA_TEXT_DAY =
     ROOT_OFFSET - 4;
 
-
-  // ===== VOOR 10/11 =====
-  // Manipura is nog leeg.
-  if(dayOffset < MANIPURA_TEXT_DAY){
+  // ===== POSITIE 0 + 10/11 =====
+  // Nog geen Manipura: titel én tekst leeg.
+  if(dayOffset <= MANIPURA_TEXT_DAY){
 
     title.innerHTML = "";
     content.innerHTML = "";
@@ -600,24 +634,11 @@ if(activePage === "manipura"){
     return;
   }
 
+  // ===== VANAF 11/11 =====
 
   title.innerHTML =
     lang.manipura;
 
-
-  // ===== EXACT 10/11 =====
-  // Eenmalige eerste tekst.
-  if(dayOffset === MANIPURA_TEXT_DAY){
-
-    content.innerHTML =
-      manipuraPages?.[language]?.[1] ?? "";
-
-    return;
-  }
-
-
-  // ===== VANAF 11/11 =====
-  // Normale bestaande Manipura-tekst.
   content.innerHTML =
     pages.manipura[seal + 1] ?? "";
 

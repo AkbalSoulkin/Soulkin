@@ -31,7 +31,7 @@
 <div class="titleBlock">
 
   <div class="mainTitle">
-    Soulkin 1.4
+    Soulkin 1.5
   </div>
 
   <div class="subTitle">
@@ -43,12 +43,8 @@
   </div>
 
   <div class="support" id="supportText">
-    Support the development of Soulkin:
+    Play:
 
-    <a href="https://ko-fi.com/soulkin"
-       target="_blank">
-       ko-fi.com/soulkin
-    </a>
 </div>
 
 
@@ -132,6 +128,10 @@
   <!-- ===== CONTROLS ===== -->
 
   <div class="controls">
+
+<button id="sourcesButton" type="button">
+  Sources
+</button>
 
 <select id="languageSelect">
 
@@ -249,9 +249,9 @@
 
   <div class="infoTab nightTab" id="nightTab">
     <img id="crownTabSymbol"
-         src="other/crown.svg"
-         width="50"
-         height="50"
+         src="other/yin.svg"
+         width="36"
+         height="36"
          pointer-events="none">
   </div>
 
@@ -325,56 +325,54 @@
        width="440"
        height="440"/>
 
-<!-- ===== ROOT YIN / YANG ===== -->
-
-<image id="rootYin"
-       href="other/yin.svg"
-       x="100"
-       y="-35"
-       width="70"
-       height="70"
-       opacity="0"/>
+<!-- ===== ROOT 0–5 ===== -->
 
 <image id="rootYang"
        href="other/yang.svg"
-       x="-170"
-       y="-35"
-       width="70"
-       height="70"
+       x="-270"
+       y="350"
+       width="60"
+       height="60"
        opacity="0"/>
 
-<!-- ===== ROOT FRACTALS 11–14 NOVEMBER ===== -->
+<image id="rootYin"
+       href="other/yin.svg"
+       x="-270"
+       y="350"
+       width="60"
+       height="60"
+       opacity="0"/>
 
 <image id="rootChicchan"
        href="animals/13Chicchan.svg"
-       x="-190"
-       y="70"
-       width="70"
-       height="70"
+       x="-270"
+       y="350"
+       width="60"
+       height="60"
        opacity="0"/>
 
 <image id="rootOc"
        href="animals/13Oc.svg"
-       x="-190"
-       y="-100"
-       width="70"
-       height="70"
+       x="-270"
+       y="350"
+       width="60"
+       height="60"
        opacity="0"/>
 
 <image id="rootMen"
        href="animals/13Men.svg"
-       x="115"
-       y="70"
-       width="70"
-       height="70"
+       x="-270"
+       y="350"
+       width="60"
+       height="60"
        opacity="0"/>
 
 <image id="rootAhau"
        href="animals/13Ahau.svg"
-       x="115"
-       y="-100"
-       width="70"
-       height="70"
+       x="-270"
+       y="350"
+       width="60"
+       height="60"
        opacity="0"/>
 
 <g id="rootRing1"></g>   <!-- onderste -->
@@ -635,6 +633,11 @@
 <script src="languages/ru/sahasrara_64_ru.js"></script>
 <script src="languages/tr/sahasrara.js"></script>
 <script src="languages/tr/sahasrara_64_tr.js"></script>
+<script src="languages/sources_en.js"></script>
+<script src="languages/sources_nl.js"></script>
+<script src="languages/sources_ru.js"></script>
+<script src="languages/sources_tr.js"></script>
+<script src="languages/sources_jp.js"></script>
 <script src="history/en/hablatun.js"></script>
 <script src="history/jp/hablatun.js"></script>
 <script src="history/nl/hablatun.js"></script>
@@ -677,6 +680,16 @@
 <script src="state.js"></script>
 <script src="render.js"></script>
 <script src="script.js"></script>
+
+<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+<script>
+  kofiWidgetOverlay.draw('soulkin', {
+    'type': 'floating-chat',
+    'floating-chat.donateButton.text': 'Support me',
+    'floating-chat.donateButton.background-color': '#323842',
+    'floating-chat.donateButton.text-color': '#fff'
+  });
+</script>
 
 <!-- Cloudflare Web Analytics -->
 <script

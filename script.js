@@ -37,6 +37,7 @@ let guideSeal = 0;
 let animating = false;
 let activePage = "intro";
 let activeHistoryCell = null;
+let sourcesActive = false;
 let mechanismKin = 0;
 let ringKin = 0;
 let beforeOrAtRoot = false;
@@ -65,15 +66,11 @@ const revealOrder = [
   18   // 3/12 Cauac
 ];
 
-const rootImages = [
-  "animals/13Ahau.svg",
-  "animals/13Chicchan.svg",
-  "animals/13Oc.svg",
-  "animals/13Men.svg"
-];
 
-const img =
-  rootImages[kin % 4];
+const WORKFIELD_REVEAL_START_DAY = Number(
+  daysFromCivil(-17264374702, 11, 15) -
+  daysFromCivil(1982, 8, 22)
+);
 
 const languages = {
 
@@ -85,6 +82,22 @@ const languages = {
 
 };
 
+const sourceLanguages = {
+  en: sources_en,
+  nl: sources_nl,
+  ru: sources_ru,
+  tr: sources_tr,
+  jp: sources_jp
+};
+
+const sourcesButtonLabels = {
+  en: "Sources",
+  nl: "Bronnen",
+  jp: "出典",
+  ru: "Источники",
+  tr: "Kaynaklar"
+};
+
 
 const languageSelect =
   document.getElementById(
@@ -93,11 +106,26 @@ const languageSelect =
 
 languageSelect.onchange = () => {
 
-language = languageSelect.value;
-lang = languages[language];
-pages = pageSets[language];
+  language = languageSelect.value;
 
-updateLanguage();
+  localStorage.setItem(
+    "language",
+    language
+  );
+
+  lang = languages[language];
+
+  pages = pageSets[language];
+
+  updateLanguage();
+
+  // Sources opnieuw laden in de gekozen taal
+  if(sourcesActive){
+    showSources();
+  }
+
+sourcesButton.textContent =
+  sourcesButtonLabels[language];
 };
 
 
@@ -166,10 +194,35 @@ const pageSets = {
 
 let pages = pageSets.en;
 
+const savedLanguage =
+  localStorage.getItem(
+    "soulkinLanguage"
+  );
+
+if(
+  savedLanguage &&
+  languages[savedLanguage] &&
+  pageSets[savedLanguage]
+){
+
+  language = savedLanguage;
+  lang = languages[language];
+  pages = pageSets[language];
+
+  languageSelect.value =
+    language;
+}
+
+
 function updateFromKin(){
 
   tone = (kin % 13) + 1;
   seal = kin % 20;
+
+const ANAHATA_TEXT_DAY = Number(
+  daysFromCivil(-17264374702, 11, 10) -
+  daysFromCivil(1982, 8, 22)
+);
 
   night =
     (((dayOffset % 9) + 9) % 9 + 8) % 9 + 1;
@@ -188,21 +241,20 @@ const ROOT_ROT =
   beforeOrAtRoot =
     dayOffset <= ROOT_OFFSET;
 
-  // alles vóór 10/11 blijft bevroren op 13 Ahau
-  if(dayOffset < ROOT_OFFSET - 4){
+if(dayOffset < ROOT_OFFSET - 4){
 
-    tone = 13;
-    seal = 19;
-    night = 5;
+  tone = 13;
+  seal = 19;
+  night = 0;
 
-    mechanismKin = 259;
-    ringKin = 159;
-    pos = 0;
-    rot = ROOT_ROT;
-    dotVisible = false;
+  mechanismKin = 259;
+  ringKin = 156;
+  pos = 0;
+  rot = ROOT_ROT;
+  dotVisible = false;
 
-    return;
-  }
+  return;
+}
 
   const specialIndex =
     dayOffset - ROOT_OFFSET + 4;
@@ -210,11 +262,13 @@ const ROOT_ROT =
   if(specialIndex >= 0 && specialIndex <= 4){
 
     const special = [
-      {tone:13, seal:19, night:5, mechanismKin:259, ringKin:159, dot:false}, // 10 nov
-      {tone:1,  seal:4,  night:6, mechanismKin:156, ringKin:159, dot:true},
-      {tone:2,  seal:9,  night:7, mechanismKin:157, ringKin:159, dot:true},
-      {tone:3,  seal:14, night:8, mechanismKin:158, ringKin:159, dot:true},
-      {tone:4,  seal:19, night:9, mechanismKin:159, ringKin:159, dot:true}
+      // De 20-ring blijft t/m 11/11 op Caban en loopt daarna
+      // iedere dag één normaal werkveld door naar Ahau.
+      {tone:13, seal:19, night:3, mechanismKin:259, ringKin:156, dot:false}, // 10/11: Caban onder
+      {tone:1,  seal:4,  night:7, mechanismKin:156, ringKin:156, dot:true},  // 11/11: Caban onder
+      {tone:2,  seal:9,  night:1, mechanismKin:157, ringKin:157, dot:true},  // 12/11: Etznab onder
+      {tone:3,  seal:14, night:5, mechanismKin:158, ringKin:158, dot:true},  // 13/11: Cauac onder
+      {tone:4,  seal:19, night:9, mechanismKin:159, ringKin:159, dot:true}   // 14/11: Ahau onder
     ][specialIndex];
 
     tone = special.tone;
@@ -324,6 +378,14 @@ function getHeartType(currentSeal){
 // ===== DATE PICKER =====
 function goToDate(){
 
+const refreshGo = () => {
+  render();
+
+  if(sourcesActive){
+    showSources();
+  }
+};
+
   const day =
     Number(document.getElementById("dayInput").value);
 
@@ -353,7 +415,7 @@ const diff =
 
   updateFromKin();
 
-  render();
+  refreshGo();
 }
 
 // ===== LONG COUNT 260 FIELD =====
@@ -378,6 +440,13 @@ const TUN_WORKFIELD_DAYS = 18n;
 const longCountField =
   document.getElementById("longCountField");
 
+longCountField.addEventListener(
+  "click",
+  () => {
+    closeSources();
+  },
+  true
+);
 
 function buildLongCountField(){
 
@@ -956,6 +1025,46 @@ if(isPiktunUrukCell){
   cell.classList.add("historyCell");
 }
 
+const isPiktunEarlySapiensCell =
+  row === 16 &&
+  col === 7;
+
+if(isPiktunEarlySapiensCell){
+  cell.classList.add("historyCell");
+}
+
+const isPiktunSapiensNeanderthalCell =
+  row === 17 &&
+  col === 7;
+
+if(isPiktunSapiensNeanderthalCell){
+  cell.classList.add("historyCell");
+}
+
+const isPiktunUstIshimCell =
+  row === 18 &&
+  col === 7;
+
+if(isPiktunUstIshimCell){
+  cell.classList.add("historyCell");
+}
+
+const isPiktunSapiensExpansionCell =
+  row === 19 &&
+  col === 7;
+
+if(isPiktunSapiensExpansionCell){
+  cell.classList.add("historyCell");
+}
+
+const isPiktunSapiensIntegrationCell =
+  row === 0 &&
+  col === 8;
+
+if(isPiktunSapiensIntegrationCell){
+  cell.classList.add("historyCell");
+}
+
   cell.addEventListener("click", () => {
 
     const startDays =
@@ -1123,6 +1232,56 @@ if(isPiktunUrukCell){
   toggleHistoryCell(
     "piktun",
     "verankeren_waarheid",
+    cell
+  );
+
+}
+
+if(isPiktunEarlySapiensCell){
+
+  toggleHistoryCell(
+    "piktun",
+    "actualiseren_manifestatie",
+    cell
+  );
+
+}
+
+if(isPiktunSapiensNeanderthalCell){
+
+  toggleHistoryCell(
+    "piktun",
+    "erkennen_waarheid",
+    cell
+  );
+
+}
+
+if(isPiktunUstIshimCell){
+
+  toggleHistoryCell(
+    "piktun",
+    "onderscheiden_samenhang",
+    cell
+  );
+
+}
+
+if(isPiktunSapiensExpansionCell){
+
+  toggleHistoryCell(
+    "piktun",
+    "plaatsen_essentie",
+    cell
+  );
+
+}
+
+if(isPiktunSapiensIntegrationCell){
+
+  toggleHistoryCell(
+    "piktun",
+    "selecteren_oorsprong",
     cell
   );
 
@@ -1487,6 +1646,30 @@ const isBaktunGenomeCell =
   col === 12;
 
 if(isBaktunGenomeCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunJesusBirthCell =
+  row === 17 &&
+  col === 7;
+
+if(isBaktunJesusBirthCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunJesusMovementCell =
+  row === 18 &&
+  col === 7;
+
+if(isBaktunJesusMovementCell){
+  cell.classList.add("historyCell");
+}
+
+const isBaktunJesusCrucifixionCell =
+  row === 19 &&
+  col === 7;
+
+if(isBaktunJesusCrucifixionCell){
   cell.classList.add("historyCell");
 }
 
@@ -1958,6 +2141,36 @@ if(isBaktunGenomeCell){
 
 }
 
+if(isBaktunJesusBirthCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "erkennen_waarheid",
+    cell
+  );
+
+}
+
+if(isBaktunJesusMovementCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "onderscheiden_samenhang",
+    cell
+  );
+
+}
+
+if(isBaktunJesusCrucifixionCell){
+
+  toggleHistoryCell(
+    "baktun",
+    "plaatsen_essentie",
+    cell
+  );
+
+}
+
   });
 }
 
@@ -2394,7 +2607,7 @@ for(let i=0;i<20;i++){
     "transform",
     `
     translate(${x + adj.x}, ${y + adj.y})
-    rotate(${adj.angle})
+    rotate(${adj.angle + 180})
     `
   );
 
@@ -2685,10 +2898,8 @@ window.updateLanguage = function(){
       `
       ${lang.supportText}
 
-      <a href="https://ko-fi.com/soulkin"
-         target="_blank">
-         ko-fi.com/soulkin
-      </a>
+<a href="qub/index.html">Qub</a>
+
       `;
   }
 
@@ -2707,24 +2918,68 @@ function render(){
   const rootStage =
     dayOffset - ROOT_OFFSET + 5;
 
-const rootYin =
-  document.getElementById("rootYin");
-
 const rootYang =
   document.getElementById("rootYang");
 
-const showRootPair =
-  rootStage === 1; // 10/11
+const rootYin =
+  document.getElementById("rootYin");
 
-rootYin.setAttribute(
-  "opacity",
-  showRootPair ? "1" : "0"
-);
+const rootChicchan =
+  document.getElementById("rootChicchan");
 
-rootYang.setAttribute(
-  "opacity",
-  showRootPair ? "1" : "0"
-);
+const rootOc =
+  document.getElementById("rootOc");
+
+const rootMen =
+  document.getElementById("rootMen");
+
+const rootAhau =
+  document.getElementById("rootAhau");
+
+
+// standaard alle root-symbolen uit
+[
+  rootYin,
+  rootYang,
+  rootChicchan,
+  rootOc,
+  rootMen,
+  rootAhau
+].forEach(item => {
+  item.setAttribute("opacity", "0");
+});
+
+
+// 9/11 en alles daarvoor: Yang
+if(rootStage <= 0){
+
+  rootYang.setAttribute("opacity", "1");
+
+// 10/11: Yin
+} else if(rootStage === 1){
+
+  rootYin.setAttribute("opacity", "1");
+
+// 11/11: 13 Chicchan
+} else if(rootStage === 2){
+
+  rootChicchan.setAttribute("opacity", "1");
+
+// 12/11: 13 Oc
+} else if(rootStage === 3){
+
+  rootOc.setAttribute("opacity", "1");
+
+// 13/11: 13 Men
+} else if(rootStage === 4){
+
+  rootMen.setAttribute("opacity", "1");
+
+// 14/11: 13 Ahau
+} else if(rootStage === 5){
+
+  rootAhau.setAttribute("opacity", "1");
+}
 
 // ===== BINNENSTE 4-RING ONTVOUWING =====
 
@@ -2887,34 +3142,6 @@ rootRing3Items.forEach((item, index) => {
 
 // ===== VIER VASTE ROOT FRACTALS =====
 
-const rootFractalPreview = [
-  document.getElementById("rootChicchan"), // 11/11
-  document.getElementById("rootOc"),       // 12/11
-  document.getElementById("rootMen"),      // 13/11
-  document.getElementById("rootAhau")      // 14/11
-];
-
-const showRootFractalPreview =
-  rootStage >= 2 &&
-  rootStage <= 5;
-
-rootFractalPreview.forEach((item, index) => {
-
-  if(!showRootFractalPreview){
-
-    item.setAttribute("opacity", "0");
-    return;
-  }
-
-  const activeIndex =
-    rootStage - 2;
-
-  item.setAttribute(
-    "opacity",
-    index === activeIndex ? "1" : "0.3"
-  );
-});
-
   let [x,y] = pts[pos];
 
   document.getElementById("dot")
@@ -2989,9 +3216,71 @@ const HEXAGRAM_START_DAY = Number(
   daysFromCivil(1982, 8, 22)
 );
 
-if(dayOffset < HEXAGRAM_START_DAY){
+const WORKFIELD_FRACTAL_START_DAY = Number(
+  daysFromCivil(-17264374702, 12, 5) -
+  daysFromCivil(1982, 8, 22)
+);
+
+// De zestien 4-bit-werkvelden zoals het mechanisme ze vormt:
+// per kleurfamilie verder na Chicchan, met de vier basisvelden overgeslagen.
+const workfieldFractalSequence = [
+  8, 12, 16, 0,  // Muluc, Ben, Caban, Imix
+  5, 13, 17, 1,  // Cimi, Ix, Etznab, Ik
+  6, 10, 18, 2,  // Manik, Chuen, Cauac, Akbal
+  7, 11, 15, 3   // Lamat, Eb, Cib, Kan
+];
+
+if(dayOffset < WORKFIELD_REVEAL_START_DAY){
 
   hexagram.setAttribute("opacity", "0");
+
+} else if(dayOffset < WORKFIELD_FRACTAL_START_DAY){
+
+  const revealIndex =
+    dayOffset - WORKFIELD_REVEAL_START_DAY;
+
+  const revealFiles = [
+    "animals/Imix.svg",
+    "animals/Ik.svg",
+    "animals/Akbal.svg",
+    "animals/Kan.svg",
+    "animals/13Chicchan.svg",
+    "animals/Cimi.svg",
+    "animals/Manik.svg",
+    "animals/Lamat.svg",
+    "animals/Muluc.svg",
+    "animals/13Oc.svg",
+    "animals/Chuen.svg",
+    "animals/Eb.svg",
+    "animals/Ben.svg",
+    "animals/Ix.svg",
+    "animals/13Men.svg",
+    "animals/Cib.svg",
+    "animals/Caban.svg",
+    "animals/Etznab.svg",
+    "animals/Cauac.svg",
+    "animals/13Ahau.svg"
+  ];
+
+  hexagram.setAttribute("opacity", "1");
+  hexagram.setAttribute(
+    "href",
+    revealFiles[revealIndex]
+  );
+
+} else if(dayOffset < HEXAGRAM_START_DAY){
+
+  const fractalIndex =
+    dayOffset - WORKFIELD_FRACTAL_START_DAY;
+
+  const fractalSeal =
+    workfieldFractalSequence[fractalIndex];
+
+  hexagram.setAttribute("opacity", "1");
+  hexagram.setAttribute(
+    "href",
+    `animals/${animalFiles[fractalSeal]}`
+  );
 
 } else {
 
@@ -3009,53 +3298,54 @@ if(dayOffset < HEXAGRAM_START_DAY){
 
 // ===== KLEURENRING ONTVOUWING =====
 //
-// 10/11 en eerder: alle segmenten zwart
-// 11/11: rood verschijnt
-// 12/11: wit verschijnt
-// 13/11: blauw verschijnt
-// 14/11: geel verschijnt
-// 15/11 en verder: compleet en in beweging
+// Voor 10/11: alles zwart.
+// Daarna verschijnen de werkvelden in Fibonacci-blokken:
+// 10/11: 1  = Ahau
+// 11/11: 1  = Chicchan
+// 12/11: 2  = Oc + Men
+// 13/11: 3  = Imix + Ik + Akbal
+// 14/11: 5  = Kan + Cimi + Manik + Lamat + Muluc
+// 15/11: 8  = Chuen + Eb + Ben + Ix + Cib + Caban + Etznab + Cauac
 
-const visibleColorCount =
-  Math.max(
-    0,
-    Math.min(4, rootStage - 1)
-  );
+const fibonacciRevealCounts = [
+  0,  // vóór 10/11
+  1,  // 10/11
+  2,  // 11/11
+  4,  // 12/11
+  7,  // 13/11
+  12, // 14/11
+  20  // 15/11 en verder
+];
 
+const visibleFieldCount =
+  fibonacciRevealCounts[
+    Math.max(
+      0,
+      Math.min(6, rootStage)
+    )
+  ];
 
+// Volgorde waarin de twintig afzonderlijke ringsegmenten verschijnen.
+// Dit is de bestaande Soulkin-volgorde in Fibonacci-blokken 1|1|2|3|5|8.
+const fibonacciRevealOrder = [
+  4,      // Chicchan — 10/11
+  9,      // Oc — 11/11
+  14, 19, // Men + Ahau — 12/11
+  0, 1, 2,// Imix, Ik, Akbal
+  3, 5, 6, 7, 8,
+  10, 11, 12, 13, 15, 16, 17, 18
+];
+
+const visibleFields = new Set(
+  fibonacciRevealOrder.slice(0, visibleFieldCount)
+);
 
 segments.forEach((segment, index) => {
-
-  const colorIndex = index % 4;
-
-  const colorIsVisible =
-    colorIndex < visibleColorCount;
-
-  let segmentFill;
-
-  // Alle normaal witte vakken blijven wit.
-  if(colorIndex === 1){
-
-    segmentFill = "white";
-
-  // Alle normaal rode vakken zijn t/m 10/11 wit.
-  // Op 11/11 worden ze rood.
-  } else if(colorIndex === 0 && rootStage <= 1){
-
-    segmentFill = "white";
-
-  // De bestaande ontvouwingslogica blijft gelden.
-  } else {
-
-    segmentFill =
-      colorIsVisible
-        ? colors[colorIndex]
-        : "black";
-  }
-
   segment.setAttribute(
     "fill",
-    segmentFill
+    visibleFields.has(index)
+      ? colors[index % 4]
+      : "black"
   );
 });
 
@@ -3360,9 +3650,9 @@ const letters = [
 ];
 
 
-if(rootStage <= 0){
+if(rootStage <= 1){
 
-  // 9/11 en alles daarvoor:
+  // 10/11 en alles daarvoor:
   // compacte gele-wavespellstand q p / d b
   Object.entries(compactDirectionPoints)
     .forEach(([id, point]) => {
@@ -3374,9 +3664,50 @@ if(rootStage <= 0){
         .setAttribute("y", point[1]);
     });
 
+} else if(rootStage <= 5){
+
+  // 11/11 t/m 14/11:
+  // iedere dag schuift één letter vanuit het midden
+  // naar zijn vaste richting; eerdere letters blijven staan.
+  const stagedDirectionPoints = {
+    letterB: dirPoints[2], // 11/11: onder
+    letterP: dirPoints[3], // 12/11: links
+    letterQ: dirPoints[1], // 13/11: rechts
+    letterD: dirPoints[0]  // 14/11: boven
+  };
+
+  const stagedDirectionOrder = [
+    "letterB",
+    "letterP",
+    "letterQ",
+    "letterD"
+  ];
+
+  const expandedLetterCount =
+    rootStage - 1;
+
+  Object.entries(compactDirectionPoints)
+    .forEach(([id, compactPoint]) => {
+
+      const isExpanded =
+        stagedDirectionOrder
+          .slice(0, expandedLetterCount)
+          .includes(id);
+
+      const point = isExpanded
+        ? stagedDirectionPoints[id]
+        : compactPoint;
+
+      document.getElementById(id)
+        .setAttribute("x", point[0]);
+
+      document.getElementById(id)
+        .setAttribute("y", point[1]);
+    });
+
 } else {
 
-  // Vanaf 10/11:
+  // Vanaf 15/11:
   // normale ontvouwde positie volgens de actuele wavespell
   letters.forEach((id, i) => {
 
@@ -3472,7 +3803,7 @@ rootItems.forEach((pair, i) => {
 
 document.getElementById("info").innerHTML = `
 <tspan x="-140" dy="0">
-${lang.moon}: G${night} (${lang.nightNames[night-1]})
+${lang.moon}: G${night}${night === 0 ? "" : ` (${lang.nightNames[night-1]})`}
 </tspan>
 
 <tspan x="-140" dy="36">
@@ -3618,8 +3949,79 @@ const toneTab =
 toneTab.style.background =
   toneColors[tone - 1];
 
-document.getElementById("toneTabSymbol")
-  .src = `zodiac/${tone}.svg`;
+const toneFractals = [
+  "101", // 1 Ram
+  "000", // 2 Stier
+  "111", // 3 Tweelingen
+  "010", // 4 Kreeft
+  "101", // 5 Leeuw
+  "000", // 6 Maagd
+  "111", // 7 Weegschaal
+  "010", // 8 Schorpioen
+  "yang", // 9 Ophiuchus
+  "001", // 10 Boogschutter
+  "100", // 11 Steenbok
+  "011", // 12 Waterman
+  "110"  // 13 Vissen
+];
+
+const toneFractal = toneFractals[tone - 1];
+
+document.getElementById("toneTabSymbol").src =
+  tone === 9
+    ? "other/yang.svg"
+    : `trigrams/${toneFractal}.svg`;
+
+// ===== 4E CHAKRA SYMBOOL ONTVOUWING =====
+
+const birthTabSymbol =
+  document.getElementById("birthTabSymbol");
+
+const HEART_UNFOLD_START_DAY = Number(
+  daysFromCivil(-17264374702, 11, 10) -
+  daysFromCivil(1982, 8, 22)
+);
+
+const HEART_NORMAL_START_DAY = Number(
+  daysFromCivil(-17264374702, 11, 15) -
+  daysFromCivil(1982, 8, 22)
+);
+
+const heartUnfoldingFiles = [
+  "other/yin.svg",             // 10/11
+  "animals/13Chicchan.svg",    // 11/11
+  "animals/13Oc.svg",          // 12/11
+  "animals/13Men.svg",         // 13/11
+  "animals/13Ahau.svg"         // 14/11
+];
+
+if(dayOffset < HEART_UNFOLD_START_DAY){
+
+  // t/m 9/11: positie 0 = hand
+  birthTabSymbol.src = "other/touch.svg";
+
+} else if(dayOffset < HEART_NORMAL_START_DAY){
+
+  // 10/11 t/m 14/11: root-uitvouwing
+  const heartUnfoldIndex =
+    dayOffset - HEART_UNFOLD_START_DAY;
+
+  birthTabSymbol.src =
+    heartUnfoldingFiles[heartUnfoldIndex];
+
+} else {
+
+  // vanaf 15/11: normale 20-ronde
+const birthFile =
+  seal === 4  ? "13Chicchan.svg" :
+  seal === 9  ? "13Oc.svg" :
+  seal === 14 ? "13Men.svg" :
+  seal === 19 ? "13Ahau.svg" :
+  animalFiles[seal];
+
+birthTabSymbol.src =
+  `animals/${birthFile}`;
+}
 
 
 // ===== ORACLE KRUIS =====
@@ -3656,6 +4058,34 @@ guideSeal =
 
 let guideKin =
   guideSeal + ((tone - 1) * 20);
+
+const guideTabSymbol =
+  document.getElementById("guideTabSymbol");
+
+if(rootStage <= 2){
+  // t/m 11/11: oorspronkelijk zintuig
+  guideTabSymbol.src = "other/sight.svg";
+
+} else if(rootStage === 3){
+  // 12/11
+  guideTabSymbol.src = "animals/Ik.svg";
+
+} else if(rootStage === 4){
+  // 13/11
+  guideTabSymbol.src = "animals/Cauac.svg";
+
+} else {
+  // vanaf 14/11 normale gidsreeks
+const guideFile =
+  guideSeal === 4  ? "13Chicchan.svg" :
+  guideSeal === 9  ? "13Oc.svg" :
+  guideSeal === 14 ? "13Men.svg" :
+  guideSeal === 19 ? "13Ahau.svg" :
+  animalFiles[guideSeal];
+
+guideTabSymbol.src =
+  `animals/${guideFile}`;
+}
 
 guideKin =
   ((guideKin % 260) + 260) % 260;
@@ -3698,11 +4128,71 @@ const analogTab =
 analogTab.style.background =
   colors[analogSeal % 4];
 
+const analogTabSymbol =
+  document.getElementById("analogTabSymbol");
+
+if(rootStage <= 1){
+  // t/m 10/11: oorspronkelijk zintuig
+  analogTabSymbol.src = "other/smell.svg";
+
+} else if(rootStage === 2){
+  // 11/11
+  analogTabSymbol.src = "animals/Ix.svg";
+
+} else if(rootStage === 3){
+  // 12/11
+  analogTabSymbol.src = "animals/Muluc.svg";
+
+} else if(rootStage === 4){
+  // 13/11
+  analogTabSymbol.src = "animals/Kan.svg";
+
+} else {
+  // vanaf 14/11 normale analog-volgorde
+const analogFile =
+  analogSeal === 4  ? "13Chicchan.svg" :
+  analogSeal === 9  ? "13Oc.svg" :
+  analogSeal === 14 ? "13Men.svg" :
+  analogSeal === 19 ? "13Ahau.svg" :
+  animalFiles[analogSeal];
+
+analogTabSymbol.src =
+  `animals/${analogFile}`;
+}
+
 // BLAUW = antipode
 let antipodeSeal = (seal + 10) % 20;
 
 let blueKin =
   antipodeSeal + ((tone - 1) * 20);
+
+const antipodeTabSymbol =
+  document.getElementById("antipodeTabSymbol");
+
+if(rootStage <= 2){
+  // t/m 11/11: oorspronkelijk zintuig
+  antipodeTabSymbol.src = "other/hear.svg";
+
+} else if(rootStage === 3){
+  // 12/11
+  antipodeTabSymbol.src = "animals/13Ahau.svg";
+
+} else if(rootStage === 4){
+  // 13/11
+  antipodeTabSymbol.src = "animals/13Chicchan.svg";
+
+} else {
+  // vanaf 14/11 normale antipode-volgorde
+const antipodeFile =
+  antipodeSeal === 4  ? "13Chicchan.svg" :
+  antipodeSeal === 9  ? "13Oc.svg" :
+  antipodeSeal === 14 ? "13Men.svg" :
+  antipodeSeal === 19 ? "13Ahau.svg" :
+  animalFiles[antipodeSeal];
+
+antipodeTabSymbol.src =
+  `animals/${antipodeFile}`;
+}
 
 blueKin =
   ((blueKin % 260) + 260) % 260;
@@ -3722,8 +4212,39 @@ birthTab.style.background =
 
 // GEEL = occult
 let occultTone = 14 - tone;
-
 let occultSeal = 19 - seal;
+
+const occultTabSymbol =
+  document.getElementById("occultTabSymbol");
+
+if(rootStage <= 1){
+  // t/m 10/11: oorspronkelijk zintuig
+  occultTabSymbol.src = "other/taste.svg";
+
+} else if(rootStage === 2){
+  // 11/11
+  occultTabSymbol.src = "animals/Cib.svg";
+
+} else if(rootStage === 3){
+  // 12/11
+  occultTabSymbol.src = "animals/Manik.svg";
+
+} else if(rootStage === 4){
+  // 13/11
+  occultTabSymbol.src = "animals/Cimi.svg";
+
+} else {
+  // vanaf 14/11 normale occult-volgorde
+const occultFile =
+  occultSeal === 4  ? "13Chicchan.svg" :
+  occultSeal === 9  ? "13Oc.svg" :
+  occultSeal === 14 ? "13Men.svg" :
+  occultSeal === 19 ? "13Ahau.svg" :
+  animalFiles[occultSeal];
+
+occultTabSymbol.src =
+  `animals/${occultFile}`;
+}
 
 const occultTab =
   document.getElementById("occultTab");
@@ -3748,6 +4269,66 @@ guideTab.style.background =
 
 const nightTab =
   document.querySelector(".nightTab");
+
+const crownTabSymbol =
+  document.getElementById("crownTabSymbol");
+
+const trigramFiles = [
+  "other/yin.svg",       // G1
+  "trigrams/100.svg",      // G2
+  "trigrams/101.svg",      // G3
+  "trigrams/011.svg",      // G4
+  "trigrams/111.svg",      // G5
+  "trigrams/110.svg",      // G6
+  "trigrams/010.svg",      // G7
+  "trigrams/001.svg",      // G8
+  "trigrams/000.svg"       // G9
+];
+
+const TRIGRAM_UNFOLD_START_DAY = Number(
+  daysFromCivil(-17264374702, 11, 10) -
+  daysFromCivil(1982, 8, 22)
+);
+
+const trigramUnfoldingFiles = [
+  "trigrams/101.svg",      // 10/11 = G3
+  "trigrams/010.svg",      // 11/11 = G7
+  "other/yin.svg",       // 12/11 = G1
+  "trigrams/111.svg",      // 13/11 = G5
+  "trigrams/000.svg"       // 14/11 = G9
+];
+
+const trigramUnfoldIndex =
+  dayOffset - TRIGRAM_UNFOLD_START_DAY;
+
+
+if(night === 0){
+
+  crownTabSymbol.style.visibility = "hidden";
+
+} else {
+
+  crownTabSymbol.style.visibility = "visible";
+
+  if(
+    trigramUnfoldIndex >= 0 &&
+    trigramUnfoldIndex < trigramUnfoldingFiles.length
+  ){
+
+    crownTabSymbol.setAttribute(
+      "src",
+      trigramUnfoldingFiles[trigramUnfoldIndex]
+    );
+
+  } else {
+
+    crownTabSymbol.setAttribute(
+      "src",
+      trigramFiles[night - 1]
+    );
+  }
+}
+
 
 nightTabHover.onclick = () => {
 
@@ -3804,80 +4385,102 @@ const oracleKin = {
 // 5 = 14/11
 // 6 = 15/11, normale werking begint
 
-if(rootStage <= 0){
-
-  // ===== NULSTAND =====
-
-  toneTab.style.background = "white";       // Muladhara
-  antipodeTab.style.background = "black";   // Svadhisthana
-  analogTab.style.background = "white";     // Manipura
-  birthTab.style.background = "#777";       // Anahata
-  occultTab.style.background = "black";     // Vishuddha
-  guideTab.style.background = "white";      // Ajna
-  nightTab.style.background = "black";      // Sahasrara
-
-} else if(rootStage <= 5){
-
-  /*
-   * Tijdens 10/11 t/m 14/11 eerst iedere knop
-   * opnieuw in zijn vaste nulstand zetten.
-   *
-   * Daardoor kan geen eerder verschenen chakra
-   * alweer met de normale oraclelogica meedraaien.
-   */
-
-  toneTab.style.background = "white";
-  antipodeTab.style.background = "black";
-  analogTab.style.background = "white";
-  birthTab.style.background = "#777";
-  occultTab.style.background = "black";
-  guideTab.style.background = "white";
-  nightTab.style.background = "black";
 
 
-  // 10/11: Manipura verschijnt — rood / neus
+if(rootStage <= 5){
+
+  // Vaste kruiskleuren zolang een chakra nog vergrendeld is.
+  toneTab.style.background = "black";                   // 1 Muladhara
+  antipodeTab.style.background = "rgba(0,0,255,0.7)";   // 2 Svadhisthana
+  analogTab.style.background = "rgba(255,0,0,0.7)";     // 3 Manipura
+  birthTab.style.background = "rgba(0,128,0,0.7)";      // 4 Anahata
+  occultTab.style.background = "rgba(255,255,0,0.7)";   // 5 Vishuddha
+  guideTab.style.background = "rgba(255,255,255,0.7)";  // 6 Ajna
+  nightTab.style.background = "black";                  // 7 Sahasrara
+
+  // De matchdag zelf toont nog de vaste kruiskleur.
+  // Vanaf de volgende dag volgt het chakra zijn dynamische kin.
+
+  // 9/11: chakra 4 matcht groen; vanaf 10/11 dynamisch.
   if(rootStage >= 1){
-    analogTab.style.background =
-      "rgba(255,0,0,0.7)";
+    birthTab.style.background =
+      colors[seal % 4];
   }
 
-  // 11/11: Svadhisthana verschijnt — blauw / oor
-  // Muladhara begint eveneens.
+  // 10/11: chakra 1 matcht zwart; vanaf 11/11 dynamisch.
   if(rootStage >= 2){
-    antipodeTab.style.background =
-      "rgba(0,0,255,0.7)";
-
     toneTab.style.background =
       toneColors[tone - 1];
   }
 
-  // 12/11: Anahata verschijnt — groen / hand
+  // 11/11: chakra 2 matcht blauw en chakra 5 geel;
+  // beide volgen vanaf 12/11 hun dynamische kin.
   if(rootStage >= 3){
-    birthTab.style.background =
-      "rgba(0,128,0,0.7)";
-  }
+    antipodeTab.style.background =
+      colors[antipodeSeal % 4];
 
-  // 13/11: Ajna verschijnt — wit / oog
-  if(rootStage >= 4){
-    guideTab.style.background =
-      "rgba(255,255,255,0.7)";
-  }
-
-  // 14/11: Vishuddha verschijnt — geel / smaak
-  if(rootStage >= 5){
     occultTab.style.background =
-      "rgba(255,255,0,0.7)";
+      occultColor;
   }
 
-  /*
-   * Sahasrara blijft tijdens de volledige
-   * oorsprongsfase zwart.
-   *
-   * Op 15/11 (rootStage 6) komt deze code niet
-   * meer tussenbeide en gebruikt hij automatisch
-   * de normale nightColor.
-   */
+  // 12/11: chakra 3 matcht rood en chakra 6 wit;
+  // beide volgen vanaf 13/11 hun dynamische kin.
+  if(rootStage >= 4){
+    analogTab.style.background =
+      colors[analogSeal % 4];
 
+    guideTab.style.background =
+      colors[guideSeal % 4];
+  }
+
+  // Chakra 7 draagt de uitvouwing van het centrum naar de top.
+  // 9/11 en eerder zwart; vanaf 15/11 neemt nightColor weer over.
+  const rootNightColors = [
+    "black",                  // 9/11 en eerder
+    "rgba(255,0,0,0.7)",     // 10/11 rood
+    "rgba(0,0,255,0.7)",     // 11/11 blauw
+    "rgba(0,128,0,0.7)",     // 12/11 groen
+    "rgba(255,255,255,0.7)", // 13/11 wit
+    "rgba(255,255,0,0.7)"    // 14/11 geel
+  ];
+
+  nightTab.style.background =
+    rootNightColors[
+      Math.max(0, rootStage)
+    ];
+
+// Tijdelijke kleuren tijdens de splitsing vanuit het centrum.
+
+if(rootStage === 1){
+  // 10/11
+  analogTab.style.background =
+    "rgba(0,128,0,0.7)";
+
+  occultTab.style.background =
+    "rgba(0,128,0,0.7)";
+
+} else if(rootStage === 2){
+  // 11/11
+  antipodeTab.style.background =
+    "rgba(0,128,0,0.7)";
+
+  analogTab.style.background =
+    "rgba(255,255,255,0.7)";
+
+  guideTab.style.background =
+    "rgba(0,128,0,0.7)";
+
+} else if(rootStage === 3){
+  // 12/11
+  occultTab.style.background =
+    "rgba(0,0,255,0.7)";
+
+  guideTab.style.background =
+    "rgba(255,255,255,0.7)";
+
+  nightTab.style.background =
+    "rgba(0,128,0,0.7)";
+}
 }
 
 updateActivePage();
@@ -3913,6 +4516,11 @@ hoverMap.forEach(h => {
 
   el.onmouseenter = () => {
 
+if(dayOffset < ROOT_OFFSET){
+  hoverPath.setAttribute("opacity","0");
+  return;
+}
+
     let targetSeal = h.target % 20;
 
     hoverPath.setAttribute(
@@ -3936,7 +4544,122 @@ hoverMap.forEach(h => {
 
 }
 
+// ===== SOURCES =====
+
+const sourcesButton =
+  document.getElementById("sourcesButton");
+
+
+function setSourcesButtonState(){
+
+  if(sourcesActive){
+    sourcesButton.classList.add("active");
+  } else {
+    sourcesButton.classList.remove("active");
+  }
+}
+
+
+function closeSources(){
+
+  if(!sourcesActive){
+    return;
+  }
+
+  sourcesActive = false;
+
+  setSourcesButtonState();
+
+  const infoPanel =
+    document.getElementById("infoPanel");
+
+  infoPanel.style.backgroundImage = "";
+  infoPanel.style.backgroundSize = "";
+  infoPanel.style.backgroundPosition = "";
+
+}
+
+
+function showSources(){
+
+  // Historische selectie uit
+  activeHistoryCell = null;
+
+  document
+    .querySelectorAll(".activeHistoryCell")
+    .forEach(item => {
+      item.classList.remove("activeHistoryCell");
+    });
+
+
+  // Chakra-selectie uit
+  document
+    .querySelectorAll(".infoTab")
+    .forEach(tab => {
+      tab.classList.remove("activeTab");
+    });
+
+  // Eerst gewone introstatus herstellen,
+  // zodat eventuele chakra-achtergrond verdwijnt
+  activePage = "intro";
+  updateActivePage();
+
+
+const infoPanel =
+  document.getElementById("infoPanel");
+
+const infoPanelTitle =
+  document.getElementById("infoPanelTitle");
+
+infoPanelTitle.classList.remove("chakraTitle");
+
+infoPanel.style.backgroundImage =
+  'url("backgrounds/sources.png")';
+
+infoPanel.style.backgroundSize = "cover";
+infoPanel.style.backgroundPosition = "center";
+
+
+const sourcePage =
+  sourceLanguages[language] || sources_en;
+
+document
+  .getElementById("infoPanelTitle")
+  .textContent = sourcePage.title;
+
+document
+  .getElementById("infoPanelContent")
+  .innerHTML = sourcePage.content;
+}
+
+
+sourcesButton.onclick = () => {
+
+  // Zelfde knop opnieuw = terug naar intro
+  if(sourcesActive){
+
+    sourcesActive = false;
+
+    setSourcesButtonState();
+
+    activePage = "intro";
+
+    updateActivePage();
+
+    return;
+  }
+
+
+  sourcesActive = true;
+
+  setSourcesButtonState();
+
+  showSources();
+};
+
 function toggleHistoryCell(level, key, cell){
+
+closeSources();
 
   // Zelfde vak opnieuw → terug naar intro
   if(
@@ -3993,6 +4716,8 @@ function toggleHistoryCell(level, key, cell){
 
 function setActivePage(pageName, tabId){
 
+closeSources();
+
 activeHistoryCell = null;
 
 document
@@ -4026,9 +4751,6 @@ document
   updateActivePage();
 }
 
-
-const toneTab =
-  document.getElementById("toneTab");
 
 toneTab.onclick = () => {
 

@@ -1,6 +1,14 @@
 // ===== STEP =====
 function step(){
 
+  const refreshStep = () => {
+    render();
+
+    if(sourcesActive){
+      showSources();
+    }
+  };
+
   if(animating) return;
 
   const ROOT_OFFSET = Number(
@@ -18,77 +26,75 @@ function step(){
 
   updateFromKin();
 
-const rootStage =
-  dayOffset - ROOT_OFFSET + 5;
+  const rootStage =
+    dayOffset - ROOT_OFFSET + 5;
 
-const rootUnfolding =
-  rootStage >= 1 &&
-  rootStage <= 5;
+  const rootUnfolding =
+    rootStage >= 1 &&
+    rootStage <= 5;
 
   // vóór 10/11: absoluut geen animatie
   if(dayOffset < ROOT_OFFSET - 4){
 
     updateDateFromKin();
-    render();
+    refreshStep();
     return;
   }
 
   animating = true;
 
-if(rootStage <= 1){
+  if(rootStage <= 1){
 
-  // Tot en met 10/11: niets animeren.
-  updateDateFromKin();
-  animating = false;
-  render();
-  return;
+    // Tot en met 10/11: niets animeren.
+    updateDateFromKin();
+    animating = false;
+    refreshStep();
+    return;
 
-} else if(rootUnfolding){
+  } else if(rootUnfolding){
 
-  const enteringFirstDot =
-    rootStage === 2; // 10/11 → 11/11
-
-  if(enteringFirstDot){
-    dotVisible = false;
-    render();
-  }
-
-  animateMove(pts[prevPos], pts[pos], 300, () => {
+    const enteringFirstDot =
+      rootStage === 2; // 10/11 → 11/11
 
     if(enteringFirstDot){
-      dotVisible = true;
+      dotVisible = false;
+      refreshStep();
     }
 
-    updateDateFromKin();
-    animating = false;
-    render();
-  });
+    animateMove(pts[prevPos], pts[pos], 300, () => {
 
-} else if(prevTone === 13){
+      if(enteringFirstDot){
+        dotVisible = true;
+      }
 
-  let startRot = rot - 72;
-  let endRot = rot;
+      updateDateFromKin();
+      animating = false;
+      refreshStep();
+    });
 
-  animateRotate(startRot, endRot, 400, () => {
+  } else if(prevTone === 13){
 
-    updateDateFromKin();
-    animating = false;
-    render();
+    let startRot = rot - 72;
+    let endRot = rot;
 
-  });
+    animateRotate(startRot, endRot, 400, () => {
 
+      updateDateFromKin();
+      animating = false;
+      refreshStep();
 
+    });
 
-} else {
+  } else {
 
-  animateMove(pts[prevPos], pts[pos], 300, () => {
-    updateDateFromKin();
-    animating = false;
-    render();
-  });
-}
+    animateMove(pts[prevPos], pts[pos], 300, () => {
+      updateDateFromKin();
+      animating = false;
+      refreshStep();
+    });
+  }
 
-  render();
+  refreshStep();
 }
 
 
