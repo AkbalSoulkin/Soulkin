@@ -66,6 +66,10 @@ const revealOrder = [
   18   // 3/12 Cauac
 ];
 
+const WAVESPELL_FRACTAL_START_DAY = Number(
+  daysFromCivil(-17264374702, 11, 11) -
+  daysFromCivil(1982, 8, 22)
+);
 
 const WORKFIELD_REVEAL_START_DAY = Number(
   daysFromCivil(-17264374702, 11, 15) -
@@ -2907,6 +2911,68 @@ window.updateLanguage = function(){
 };
 
 
+const HAAB_START_DAY = Number(
+  daysFromCivil(-17264374701, 5, 5) -
+  daysFromCivil(1982, 8, 22)
+);
+
+function getHaabFromLCDays(lcDays){
+
+  const haabMonths = [
+    "Pop",
+    "Wo",
+    "Sip",
+    "Sotz'",
+    "Sek",
+    "Xul",
+    "Yaxk'in",
+    "Mol",
+    "Ch'en",
+    "Yax",
+    "Sak'",
+    "Keh",
+    "Mak",
+    "K'ank'in",
+    "Muwan",
+    "Pax",
+    "K'ayab",
+    "Kumk'u"
+  ];
+
+  // Long Count 0.0.0.0.0 = 8 Kumk'u
+  const haabPosition =
+    ((lcDays + 348) % 365 + 365) % 365;
+
+  if(haabPosition < 360){
+
+    const monthIndex =
+      Math.floor(haabPosition / 20);
+
+    const day =
+      haabPosition % 20;
+
+    return `${day} ${haabMonths[monthIndex]}`;
+  }
+
+  return `${haabPosition - 360} Wayeb`;
+}
+
+const toneFractals = [
+  "101", // 1 Ram
+  "000", // 2 Stier
+  "111", // 3 Tweelingen
+  "010", // 4 Kreeft
+  "101", // 5 Leeuw
+  "000", // 6 Maagd
+  "111", // 7 Weegschaal
+  "010", // 8 Schorpioen
+  "yang", // 9 Ophiuchus
+  "001", // 10 Boogschutter
+  "100", // 11 Steenbok
+  "011", // 12 Waterman
+  "110"  // 13 Vissen
+];
+
 // ===== RENDER =====
 function render(){
 
@@ -3204,6 +3270,88 @@ if(beforeOrAtRoot){
 
   // Alle normale dagen: standaard zichtbaar
   toneSymbol.setAttribute("opacity","1");
+}
+
+
+const wavespellFractal =
+  document.getElementById("wavespellFractal");
+
+const NORMAL_WAVESPELL_START_DAY = Number(
+  daysFromCivil(-17264374702, 11, 14) -
+  daysFromCivil(1982, 8, 22)
+);
+
+if(dayOffset < WAVESPELL_FRACTAL_START_DAY){
+
+  wavespellFractal.setAttribute("opacity", "0");
+
+} else if(dayOffset < NORMAL_WAVESPELL_START_DAY){
+
+  // 11/11–13/11: de nog lopende Caban-wavespell
+  wavespellFractal.setAttribute(
+    "href",
+    "animals/caban.svg"
+  );
+
+  wavespellFractal.setAttribute("opacity", "1");
+
+} else {
+
+  // Vanaf 4 Ahau: normale wavespell
+  const wavespellSeal =
+    ((seal - (tone - 1)) % 20 + 20) % 20;
+
+  wavespellFractal.setAttribute(
+    "href",
+    `animals/${animalFiles[wavespellSeal]}`
+  );
+
+  wavespellFractal.setAttribute("opacity", "1");
+}
+
+const tzolkinOperatorFractal =
+  document.getElementById("tzolkinOperatorFractal");
+
+const TZOLKIN_OPERATOR_NORMAL_DAY = Number(
+  daysFromCivil(-17264374702, 11, 15) -
+  daysFromCivil(1982, 8, 22)
+);
+
+if(dayOffset < WAVESPELL_FRACTAL_START_DAY){
+
+  tzolkinOperatorFractal.setAttribute("opacity", "0");
+
+} else {
+
+let operatorTone;
+
+if(dayOffset < TZOLKIN_OPERATOR_NORMAL_DAY){
+
+  // 11/11–14/11:
+  // laatste 4 dagen van operator 7
+  operatorTone = 7;
+
+} else {
+
+  // Vanaf 15/11:
+  // iedere operator duurt 20 dagen
+  operatorTone =
+    ((7 + Math.floor(
+      (dayOffset - TZOLKIN_OPERATOR_NORMAL_DAY) / 20
+    )) % 13) + 1;
+}
+
+  const operatorFractal =
+    toneFractals[operatorTone - 1];
+
+  tzolkinOperatorFractal.setAttribute(
+    "href",
+    operatorTone === 9
+      ? "other/yang.svg"
+      : `trigrams/${operatorFractal}.svg`
+  );
+
+  tzolkinOperatorFractal.setAttribute("opacity", "1");
 }
 
 // ===== HEXAGRAM =====
@@ -3823,6 +3971,51 @@ const longCountText =
 let lcDays =
   dayOffset + LONG_COUNT_OFFSET;
 
+const haabDisplay =
+  getHaabFromLCDays(lcDays);
+
+const yearBearerFractal =
+  document.getElementById("yearBearerFractal");
+
+if(dayOffset < HAAB_START_DAY){
+
+  yearBearerFractal.setAttribute("opacity", "0");
+
+} else {
+
+  // Aantal dagen sinds de laatste 0 Pop
+  const daysSincePop =
+    ((dayOffset - HAAB_START_DAY) % 365 + 365) % 365;
+
+  // Tzolkin-kin op die laatste 0 Pop
+  const yearBearerKin =
+    ((kin - daysSincePop) % 260 + 260) % 260;
+
+  const yearBearerSeal =
+    yearBearerKin % 20;
+
+  yearBearerFractal.setAttribute(
+    "href",
+    `animals/${animalFiles[yearBearerSeal]}`
+  );
+
+  yearBearerFractal.setAttribute("opacity", "1");
+}
+
+const haabText =
+  document.getElementById("haabText");
+
+
+if(dayOffset < HAAB_START_DAY){
+
+  haabText.textContent = "Haab: 0";
+
+} else {
+
+  haabText.textContent =
+    "Haab: " + haabDisplay;
+}
+
 const TUN_OPERATOR_CYCLE_DAYS =
   Number(TUN_OPERATOR_DAYS) * 13;
 
@@ -3949,21 +4142,7 @@ const toneTab =
 toneTab.style.background =
   toneColors[tone - 1];
 
-const toneFractals = [
-  "101", // 1 Ram
-  "000", // 2 Stier
-  "111", // 3 Tweelingen
-  "010", // 4 Kreeft
-  "101", // 5 Leeuw
-  "000", // 6 Maagd
-  "111", // 7 Weegschaal
-  "010", // 8 Schorpioen
-  "yang", // 9 Ophiuchus
-  "001", // 10 Boogschutter
-  "100", // 11 Steenbok
-  "011", // 12 Waterman
-  "110"  // 13 Vissen
-];
+
 
 const toneFractal = toneFractals[tone - 1];
 
