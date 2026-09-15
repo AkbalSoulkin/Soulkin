@@ -3977,6 +3977,51 @@ const haabDisplay =
 const yearBearerFractal =
   document.getElementById("yearBearerFractal");
 
+const yearBearerOperatorFractal =
+  document.getElementById("yearBearerOperatorFractal");
+
+if(dayOffset < HAAB_START_DAY){
+
+  yearBearerFractal.setAttribute("opacity", "0");
+  yearBearerOperatorFractal.setAttribute("opacity", "0");
+
+} else {
+
+  const daysSincePop =
+    ((dayOffset - HAAB_START_DAY) % 365 + 365) % 365;
+
+  const yearBearerKin =
+    ((kin - daysSincePop) % 260 + 260) % 260;
+
+  const yearBearerSeal =
+    yearBearerKin % 20;
+
+  const yearBearerOperator =
+    Math.floor(yearBearerKin / 20) + 1;
+
+  // Werkveld van de jaardrager
+  yearBearerFractal.setAttribute(
+    "href",
+    `animals/${animalFiles[yearBearerSeal]}`
+  );
+
+  // Operator van de jaardrager
+  const operatorFractal =
+    toneFractals[yearBearerOperator - 1];
+
+  yearBearerOperatorFractal.setAttribute(
+    "href",
+    yearBearerOperator === 9
+      ? "other/yang.svg"
+      : `trigrams/${operatorFractal}.svg`
+  );
+
+  yearBearerFractal.setAttribute("opacity", "1");
+  yearBearerOperatorFractal.setAttribute("opacity", "1");
+}
+
+
+
 if(dayOffset < HAAB_START_DAY){
 
   yearBearerFractal.setAttribute("opacity", "0");
