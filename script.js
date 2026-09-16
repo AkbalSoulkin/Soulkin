@@ -67,7 +67,7 @@ const revealOrder = [
 ];
 
 const WAVESPELL_FRACTAL_START_DAY = Number(
-  daysFromCivil(-17264374702, 11, 11) -
+  daysFromCivil(-17264374702, 11, 10) -
   daysFromCivil(1982, 8, 22)
 );
 
@@ -3305,23 +3305,32 @@ const NORMAL_WAVESPELL_START_DAY = Number(
   daysFromCivil(1982, 8, 22)
 );
 
+
+
 if(dayOffset < WAVESPELL_FRACTAL_START_DAY){
 
   wavespellFractal.setAttribute("opacity", "0");
 
 } else if(dayOffset < NORMAL_WAVESPELL_START_DAY){
 
-  // 11/11–13/11: de nog lopende Caban-wavespell
+  const unfoldingWorkfields = [
+    "animals/imix.svg",         // 10/11 Oorsprong
+    "animals/13Chicchan.svg",   // 11/11 Energie
+    "animals/muluc.svg",        // 12/11 Stroming
+    "animals/ben.svg",          // 13/11 Structuur
+  ];
+
   wavespellFractal.setAttribute(
     "href",
-    "animals/caban.svg"
+    unfoldingWorkfields[
+      dayOffset - WAVESPELL_FRACTAL_START_DAY
+    ]
   );
 
   wavespellFractal.setAttribute("opacity", "1");
 
 } else {
 
-  // Vanaf 4 Ahau: normale wavespell
   const wavespellSeal =
     ((seal - (tone - 1)) % 20 + 20) % 20;
 
