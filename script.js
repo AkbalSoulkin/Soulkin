@@ -81,6 +81,16 @@ const PENTAGRAM_FRACTAL_START_DAY = Number(
   daysFromCivil(1982, 8, 22)
 );
 
+const TZOLKIN_OPERATOR_START_DAY = Number(
+  daysFromCivil(-17264374702, 11, 10) -
+  daysFromCivil(1982, 8, 22)
+);
+
+const WORKFIELD_UNFOLD_START_DAY = Number(
+  daysFromCivil(-17264374702, 11, 10) -
+  daysFromCivil(1982, 8, 22)
+);
+
 const languages = {
 
   en: lang_en,
@@ -2436,10 +2446,19 @@ updateLongCountTrigram("uinal");
 
 function updateLongCountTrigram(level){
 
+  if(level === "hablatun"){
+
+    longCountTrigram.src =
+      "other/yin.svg";
+
+    longCountTrigram.style.display = "block";
+
+    return;
+  }
+
   const trigram =
     longCountTrigrams[level];
 
-  // Hablatun of geen actieve laag
   if(!trigram){
 
     longCountTrigram.style.display = "none";
@@ -3318,31 +3337,42 @@ const tzolkinOperatorFractal =
   document.getElementById("tzolkinOperatorFractal");
 
 const TZOLKIN_OPERATOR_NORMAL_DAY = Number(
-  daysFromCivil(-17264374702, 11, 15) -
+  daysFromCivil(-17264374702, 11, 14) -
   daysFromCivil(1982, 8, 22)
 );
 
-if(dayOffset < WAVESPELL_FRACTAL_START_DAY){
+if(dayOffset < TZOLKIN_OPERATOR_START_DAY){
 
   tzolkinOperatorFractal.setAttribute("opacity", "0");
 
 } else {
 
-let operatorTone;
+  let operatorTone;
 
+  if(dayOffset < TZOLKIN_OPERATOR_NORMAL_DAY){
 
-if(dayOffset < TZOLKIN_OPERATOR_NORMAL_DAY){
+    // 10/11–13/11:
+    // +5-patroon: 1 → 6 → 11 → 3
+    const unfoldingOperators = [
+      1,
+      6,
+      11,
+      3
+    ];
 
-  // 11/11–14/11:
-  // eerste zichtbare 4 dagen van operator 8
-  operatorTone = 8;
+    operatorTone =
+      unfoldingOperators[
+        dayOffset - TZOLKIN_OPERATOR_START_DAY
+      ];
 
-} else {
+  } else {
 
-  operatorTone =
-    Math.floor(kin / 20) + 1;
+    // Vanaf 14/11 loopt de normale 260-lus,
+    // die hier begint bij operator 8.
+    operatorTone =
+      Math.floor(kin / 20) + 1;
 
-}
+  }
 
   const operatorFractal =
     toneFractals[operatorTone - 1];
