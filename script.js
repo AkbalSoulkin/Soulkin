@@ -76,6 +76,11 @@ const WORKFIELD_REVEAL_START_DAY = Number(
   daysFromCivil(1982, 8, 22)
 );
 
+const PENTAGRAM_FRACTAL_START_DAY = Number(
+  daysFromCivil(-17264374702, 11, 10) -
+  daysFromCivil(1982, 8, 22)
+);
+
 const languages = {
 
   en: lang_en,
@@ -3325,20 +3330,18 @@ if(dayOffset < WAVESPELL_FRACTAL_START_DAY){
 
 let operatorTone;
 
+
 if(dayOffset < TZOLKIN_OPERATOR_NORMAL_DAY){
 
   // 11/11–14/11:
-  // laatste 4 dagen van operator 7
-  operatorTone = 7;
+  // eerste zichtbare 4 dagen van operator 8
+  operatorTone = 8;
 
 } else {
 
-  // Vanaf 15/11:
-  // iedere operator duurt 20 dagen
   operatorTone =
-    ((7 + Math.floor(
-      (dayOffset - TZOLKIN_OPERATOR_NORMAL_DAY) / 20
-    )) % 13) + 1;
+    Math.floor(kin / 20) + 1;
+
 }
 
   const operatorFractal =
@@ -3378,9 +3381,29 @@ const workfieldFractalSequence = [
   7, 11, 15, 3   // Lamat, Eb, Cib, Kan
 ];
 
-if(dayOffset < WORKFIELD_REVEAL_START_DAY){
+if(dayOffset < PENTAGRAM_FRACTAL_START_DAY){
 
   hexagram.setAttribute("opacity", "0");
+
+} else if(dayOffset < WORKFIELD_REVEAL_START_DAY){
+
+  const pentagramFiles = [
+    "trigrams/101.svg", // 10/11 rood
+    "trigrams/010.svg", // 11/11 blauw
+    "other/yin.svg",    // 12/11 groen
+    "trigrams/111.svg", // 13/11 wit
+    "trigrams/000.svg"  // 14/11 geel
+  ];
+
+  const pentagramIndex =
+    dayOffset - PENTAGRAM_FRACTAL_START_DAY;
+
+  hexagram.setAttribute(
+    "href",
+    pentagramFiles[pentagramIndex]
+  );
+
+  hexagram.setAttribute("opacity", "1");
 
 } else if(dayOffset < WORKFIELD_FRACTAL_START_DAY){
 
@@ -3997,7 +4020,7 @@ if(dayOffset < HAAB_START_DAY){
     yearBearerKin % 20;
 
   const yearBearerOperator =
-    Math.floor(yearBearerKin / 20) + 1;
+  (yearBearerKin % 13) + 1;
 
   // Werkveld van de jaardrager
   yearBearerFractal.setAttribute(
