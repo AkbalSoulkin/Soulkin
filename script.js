@@ -91,6 +91,17 @@ const WORKFIELD_UNFOLD_START_DAY = Number(
   daysFromCivil(1982, 8, 22)
 );
 
+const letterO  = document.getElementById("letterO");
+const letterOQ = document.getElementById("letterOQ");
+const letterOD = document.getElementById("letterOD");
+const letterOB = document.getElementById("letterOB");
+const letterOP = document.getElementById("letterOP");
+
+const O_UNFOLD_DAY = Number(
+  daysFromCivil(-17264374702, 11, 10) -
+  daysFromCivil(1982, 8, 22)
+);
+
 const languages = {
 
   en: lang_en,
@@ -3306,7 +3317,6 @@ const NORMAL_WAVESPELL_START_DAY = Number(
 );
 
 
-
 if(dayOffset < WAVESPELL_FRACTAL_START_DAY){
 
   wavespellFractal.setAttribute("opacity", "0");
@@ -3331,12 +3341,29 @@ if(dayOffset < WAVESPELL_FRACTAL_START_DAY){
 
 } else {
 
-  const wavespellSeal =
-    ((seal - (tone - 1)) % 20 + 20) % 20;
+  // Wavespell-perspectief wisselt op tonen 1, 5, 9 en 13.
+  // Bepaal hoeveel dagen we terug moeten naar het laatste anker.
+  let back;
+
+  if(tone >= 9){
+    back = tone - 9;
+  } else if(tone >= 5){
+    back = tone - 5;
+  } else {
+    back = tone - 1;
+  }
+
+  // Toon 13 is zelf een anker en hoort niet bij de 9-groep.
+  if(tone === 13){
+    back = 0;
+  }
+
+  const perspectiveSeal =
+    ((seal - back) % 20 + 20) % 20;
 
   wavespellFractal.setAttribute(
     "href",
-    `animals/${animalFiles[wavespellSeal]}`
+    `animals/${animalFiles[perspectiveSeal]}`
   );
 
   wavespellFractal.setAttribute("opacity", "1");
@@ -3760,12 +3787,63 @@ const compactDirectionPoints = {
   letterB: [ 11,  32]
 };
 
+// ===== O / CENTRUM-ONTVOUWING =====
+
+const oLetters = [
+  letterOQ,
+  letterOD,
+  letterOB,
+  letterOP
+];
+
+// ≤ 9/11: één groene o in het centrum
+if(dayOffset < O_UNFOLD_DAY){
+
+  letterO.setAttribute("x", 0);
+  letterO.setAttribute("y", 10);
+  letterO.setAttribute("opacity", "1");
+
+  oLetters.forEach(el =>
+    el.setAttribute("opacity", "0")
+  );
+
+// 10/11: centrum verdwijnt,
+// vier o's verschijnen op de vier toekomstige richtingspunten
+} else if(dayOffset === O_UNFOLD_DAY){
+
+  letterO.setAttribute("opacity", "0");
+
+  const oPoints = [
+    dirPoints[0], // OQ boven
+    dirPoints[1], // OD rechts
+    dirPoints[2], // OB onder
+    dirPoints[3]  // OP links
+  ];
+
+  oLetters.forEach((el, i) => {
+    el.setAttribute("x", oPoints[i][0]);
+    el.setAttribute("y", oPoints[i][1]);
+    el.setAttribute("opacity", "1");
+  });
+
+// ≥ 11/11: alle o's weg
+} else {
+
+  letterO.setAttribute("opacity", "0");
+
+  oLetters.forEach(el =>
+    el.setAttribute("opacity", "0")
+  );
+}
+
 ["letterB","letterD","letterP","letterQ"]
   .forEach(id => {
     document
       .getElementById(id)
       .setAttribute("opacity", "1");
   });
+
+
 
 // alleen 4 standen
 let shift = Math.floor(mechanismKin / 13) % 4;
