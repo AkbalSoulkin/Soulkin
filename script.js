@@ -4426,11 +4426,17 @@ let guideKin =
 const guideTabSymbol =
   document.getElementById("guideTabSymbol");
 
-if(rootStage <= 2){
-  // t/m 11/11: oorspronkelijk zintuig
+if(rootStage <= 1){
+  // t/m 10/11: oorspronkelijk zintuig
   guideTabSymbol.src = "other/sight.svg";
 
+} else if(rootStage === 2){
+  // 11/11
+  guideTabSymbol.src = "animals/13Chicchan.svg";
+
 } else if(rootStage === 3){
+
+
   // 12/11
   guideTabSymbol.src = "animals/Ik.svg";
 
@@ -4533,11 +4539,16 @@ let blueKin =
 const antipodeTabSymbol =
   document.getElementById("antipodeTabSymbol");
 
-if(rootStage <= 2){
-  // t/m 11/11: oorspronkelijk zintuig
+if(rootStage <= 1){
+  // t/m 10/11: oorspronkelijk zintuig
   antipodeTabSymbol.src = "other/hear.svg";
 
+} else if(rootStage === 2){
+  // 11/11
+  antipodeTabSymbol.src = "animals/13Men.svg";
+
 } else if(rootStage === 3){
+
   // 12/11
   antipodeTabSymbol.src = "animals/13Ahau.svg";
 
@@ -4815,26 +4826,46 @@ if(rootStage <= 5){
 
 // Tijdelijke kleuren tijdens de splitsing vanuit het centrum.
 
+
 if(rootStage === 1){
   // 10/11
+
+  // Chakra 2 groen
+  antipodeTab.style.background =
+    "rgba(0,128,0,0.7)";
+
+  // Chakra 3 groen
   analogTab.style.background =
     "rgba(0,128,0,0.7)";
 
+  // Chakra 4 zwart
+  birthTab.style.background =
+    "black";
+
+  // Chakra 5 groen
   occultTab.style.background =
+    "rgba(0,128,0,0.7)";
+
+  // Chakra 6 groen
+  guideTab.style.background =
     "rgba(0,128,0,0.7)";
 
 } else if(rootStage === 2){
   // 11/11
+
+  // Chakra 2 blauw
   antipodeTab.style.background =
-    "rgba(0,128,0,0.7)";
+    "rgba(0,0,255,0.7)";
 
   analogTab.style.background =
     "rgba(255,255,255,0.7)";
 
+  // Chakra 6 rood
   guideTab.style.background =
-    "rgba(0,128,0,0.7)";
+    "rgba(255,0,0,0.7)";
 
 } else if(rootStage === 3){
+
   // 12/11
   occultTab.style.background =
     "rgba(0,0,255,0.7)";
