@@ -9,7 +9,7 @@ window.historyTexts.en.hablatun = {
   onderscheiden_perspectief: {
 
     title:
-      "Distinguish",
+      "Distinguish + Structure",
 
     text:
       `Distinguish + Perspective
@@ -25,7 +25,7 @@ Based on the scientific understanding in 2026, cosmological models place the beg
 window.historyTexts.en.hablatun.transformeren_informatie = {
 
   title:
-    "Release",
+    "Release + Perspective",
 
   text:
     `Transform + Information

@@ -9,7 +9,7 @@ window.historyTexts.nl.alautun = {
   vrijmaken_potentieel: {
 
     title:
-      "Verfijnen",
+      "Verfijnen + Levenspad",
 
 text:
   `Vrijmaken + Potentieel
@@ -25,7 +25,7 @@ Volgens de wetenschappelijke inzichten in 2026 begon de Cambrische explosie onge
 window.historyTexts.nl.alautun.afstemmen_structuur = {
 
   title:
-    "Vrijmaken",
+    "Vrijmaken + Waarde",
 
 text:
   `Verfijnen + Structuur
@@ -43,7 +43,7 @@ Alle niet-vliegende dinosauriërs verdwenen, samen met vele andere groepen organ
 window.historyTexts.nl.alautun.ontsluiten_bewustzijn = {
 
   title:
-    "Doorgronden",
+    "Doorgronden + Verbeelding",
 
 text:
   `Ontsluiten + Bewustzijn
@@ -61,7 +61,7 @@ De crisis wordt sterk in verband gebracht met enorme vulkanische activiteit in d
 window.historyTexts.nl.alautun.doorgronden_essentie = {
 
   title:
-    "Afstemmen",
+    "Afstemmen + Expressie",
 
 text:
   `Doorgronden + Essentie

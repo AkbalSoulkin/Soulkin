@@ -9,7 +9,7 @@ window.historyTexts.nl.kalabtun = {
   erkennen_spoor: {
 
     title:
-      "Ontsluiten",
+      "Ontsluiten + Perspectief",
 
 text:
   `Erkennen + Spoor
@@ -25,7 +25,7 @@ Volgens de wetenschappelijke inzichten in 2026 ontstond Homo sapiens ongeveer 30
 window.historyTexts.nl.kalabtun.afstemmen_structuur = {
 
   title:
-    "Erkennen",
+    "Erkennen + Interactie",
 
 text:
   `Afstemmen + Structuur
@@ -43,7 +43,7 @@ Homo erectus werd ook de eerste bekende mensensoort die zich op grote schaal bui
 window.historyTexts.nl.kalabtun.ontsluiten_expressie = {
 
   title:
-    "Onderscheiden",
+    "Onderscheiden + Essentie",
 
 text:
   `Ontsluiten + Expressie
@@ -61,7 +61,7 @@ Vergeleken met eerdere tradities van stenen werktuigen omvatte de Acheuléen-tec
 window.historyTexts.nl.kalabtun.selecteren_bewustzijn = {
 
   title:
-    "Integreren",
+    "Integreren + Relatie",
 
 text:
   `Selecteren + Bewustzijn
@@ -79,7 +79,7 @@ Het herhaalde en ruimtelijk georganiseerde bewijs wijst erop dat vuur een gecont
 window.historyTexts.nl.kalabtun.verankeren_samenhang = {
 
   title:
-    "Verankeren",
+    "Verankeren + Stroming",
 
 text:
   `Verankeren + Samenhang

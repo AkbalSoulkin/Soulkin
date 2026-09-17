@@ -9,7 +9,7 @@ window.historyTexts.en.katun = {
   onderscheiden_verbeelding: {
 
 title:
-  "Actualize",
+  "Actualize + Source",
 
 text:
   `Distinguish + Imagination

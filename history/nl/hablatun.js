@@ -9,7 +9,7 @@ window.historyTexts.nl.hablatun = {
   onderscheiden_perspectief: {
 
     title:
-      "Onderscheiden",
+      "Onderscheiden + Structuur",
 
 text:
   `Onderscheiden + Perspectief
@@ -25,7 +25,7 @@ Op basis van de wetenschappelijke inzichten in 2026 plaatsen kosmologische model
 window.historyTexts.nl.hablatun.transformeren_informatie = {
 
   title:
-    "Vrijmaken",
+    "Vrijmaken + Perspectief",
 
 text:
   `Transformeren + Informatie

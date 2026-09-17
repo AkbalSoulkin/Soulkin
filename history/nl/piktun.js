@@ -9,7 +9,7 @@ window.historyTexts.nl.piktun = {
   integreren_verbeelding: {
 
     title:
-      "Vrijmaken",
+      "Vrijmaken + Perspectief",
 
 text:
   `Integreren + Verbeelding
@@ -25,7 +25,7 @@ Rond 9600 v.Chr. begonnen gemeenschappen van jagers-verzamelaars bij Göbekli Te
 window.historyTexts.nl.piktun.verankeren_spoor = {
 
   title:
-    "Plaatsen",
+    "Plaatsen + Grenzen",
 
 text:
   `Verankeren + Spoor
@@ -43,7 +43,7 @@ Deze vondsten leveren enkele van de duidelijkste vroege archeologische bewijzen 
 window.historyTexts.nl.piktun.erkennen_perspectief = {
 
   title:
-    "Actualiseren",
+    "Actualiseren + Bewustzijn",
 
 text:
   `Erkennen + Perspectief
@@ -61,7 +61,7 @@ Deze begravingen leveren belangrijk vroeg archeologisch bewijs dat overledenen o
 window.historyTexts.nl.piktun.actualiseren_interactie = {
 
   title:
-    "Erkennen",
+    "Erkennen + Interactie",
 
 text:
   `Actualiseren + Interactie
@@ -79,7 +79,7 @@ Dit bewijs wijst op gespecialiseerde kennis van lokale grondstoffen en op terugk
 window.historyTexts.nl.piktun.actualiseren_structuur = {
 
   title:
-    "Onderscheiden",
+    "Onderscheiden + Structuur",
 
 text:
   `Actualiseren + Structuur
@@ -97,7 +97,7 @@ In die tijd was de regio veel vochtiger dan tegenwoordig, met zoetwatermeren en 
 window.historyTexts.nl.piktun.doorgronden_waarde = {
 
   title:
-    "Selecteren",
+    "Selecteren + Samenhang",
 
 text:
   `Doorgronden + Waarde
@@ -115,7 +115,7 @@ Voor het maken van deze samengestelde werktuigen moesten verschillende materiale
 window.historyTexts.nl.piktun.erkennen_grenzen = {
 
   title:
-    "Verfijnen",
+    "Verfijnen + Energie",
 
 text:
   `Erkennen + Grenzen
@@ -133,7 +133,7 @@ Omdat de houten bogen en schachten niet bewaard zijn gebleven, wordt de technolo
 window.historyTexts.nl.piktun.erkennen_levenspad = {
 
   title:
-    "Afstemmen",
+    "Afstemmen + Expressie",
 
 text:
   `Erkennen + Levenspad
@@ -151,7 +151,7 @@ De bewoningslaag van Homo sapiens ligt tussen lagen die met Neanderthalers worde
 window.historyTexts.nl.piktun.doorgronden_structuur = {
 
   title:
-    "Transformeren",
+    "Transformeren + Potentieel",
 
 text:
   `Doorgronden + Structuur
@@ -169,7 +169,7 @@ Het pigment zelf werd niet rechtstreeks gedateerd. In plaats daarvan dateerden o
 window.historyTexts.nl.piktun.verankeren_interactie = {
 
   title:
-    "Integreren",
+    "Integreren + Manifestatie",
 
 text:
   `Verankeren + Interactie
@@ -187,7 +187,7 @@ Deze instrumenten leveren direct archeologisch bewijs dat muziek deel was geword
 window.historyTexts.nl.piktun.transformeren_relatie = {
 
   title:
-    "Doorgronden",
+    "Doorgronden + Verbeelding",
 
 text:
   `Transformeren + Relatie
@@ -205,7 +205,7 @@ Deze objecten laten zien dat mensen hadden geleerd klei permanent te transformer
 window.historyTexts.nl.piktun.erkennen_relatie = {
 
   title:
-    "Verankeren",
+    "Verankeren + Stroming",
 
 text:
   `Erkennen + Relatie
@@ -223,7 +223,7 @@ De vondsten laten zien dat mensen duizenden jaren voordat landbouw in de regio g
 window.historyTexts.nl.piktun.verankeren_levenspad = {
 
   title:
-    "Ontsluiten",
+    "Ontsluiten + Informatie",
 
 text:
   `Verankeren + Levenspad
@@ -241,7 +241,7 @@ Deze resten zijn duizenden jaren ouder dan de gevestigde landbouw en laten zien 
 window.historyTexts.nl.piktun.plaatsen_expressie = {
 
   title:
-    "Vrijmaken",
+    "Vrijmaken + Waarde",
 
 text:
   `Plaatsen + Expressie
@@ -259,7 +259,7 @@ In het interieur van deze huizen zijn muurschilderingen, reliëfs, installaties 
 window.historyTexts.nl.piktun.verankeren_waarheid = {
 
   title:
-    "Vrijmaken",
+    "Vrijmaken + Waarde",
 
 text:
   `Verankeren + Waarheid
@@ -277,7 +277,7 @@ De toenemende behoefte om goederen, arbeid en transacties te organiseren droeg b
 window.historyTexts.nl.piktun.actualiseren_manifestatie = {
 
   title:
-    "Transformeren",
+    "Transformeren + Manifestatie",
 
   text:
     `Actualiseren + Manifestatie
@@ -295,7 +295,7 @@ Deze vondsten vormen enkele van de vroegste directe bewijzen voor Homo sapiens i
 window.historyTexts.nl.piktun.erkennen_waarheid = {
 
   title:
-    "Transformeren",
+    "Transformeren + Manifestatie",
 
   text:
     `Erkennen + Waarheid
@@ -313,7 +313,7 @@ De lengte van deze overgeërfde DNA-segmenten wijst erop dat sommige van hun Nea
 window.historyTexts.nl.piktun.onderscheiden_samenhang = {
 
   title:
-    "Transformeren",
+    "Transformeren + Manifestatie",
 
   text:
     `Onderscheiden + Samenhang
@@ -331,7 +331,7 @@ Zijn genoom bevatte Neanderthaler-afkomst en gaf inzicht in de onderlinge relati
 window.historyTexts.nl.piktun.plaatsen_essentie = {
 
   title:
-    "Transformeren",
+    "Transformeren + Manifestatie",
 
   text:
     `Plaatsen + Essentie
@@ -349,7 +349,7 @@ Samen met bewijs uit Oost-Europa en Siberië laten deze vondsten zien dat Homo s
 window.historyTexts.nl.piktun.selecteren_oorsprong = {
 
   title:
-    "Integreren",
+    "Integreren + Manifestatie",
 
   text:
     `Selecteren + Bron

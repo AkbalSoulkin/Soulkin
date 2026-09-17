@@ -9,7 +9,7 @@ window.historyTexts.en.kinchiltun = {
   afstemmen_samenhang: {
 
     title:
-      "Distinguish",
+      "Distinguish + Structure",
 
     text:
       `Attune + Coherence
@@ -25,7 +25,7 @@ Based on the scientific understanding in 2026, the Eocene–Oligocene transition
 window.historyTexts.en.kinchiltun.verfijnen_structuur = {
 
   title:
-    "Release",
+    "Release + Value",
 
   text:
     `Refine + Structure
@@ -43,7 +43,7 @@ These tools predate the earliest known members of the genus Homo, showing that s
 window.historyTexts.en.kinchiltun.integreren_relatie = {
 
   title:
-    "Unfold",
+    "Unfold + Information",
 
   text:
     `Integrate + Relationship
@@ -61,7 +61,7 @@ Features of its skull and other fossil remains have contributed to discussions a
 window.historyTexts.en.kinchiltun.verankeren_waarde = {
 
   title:
-    "Attune",
+    "Attune + Truth",
 
   text:
     `Anchor + Value

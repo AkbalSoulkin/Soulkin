@@ -10,7 +10,7 @@ window.historyTexts.en.baktun =
 window.historyTexts.en.baktun.actualiseren_oorsprong = {
 
   title:
-    "Actualize",
+    "Actualize + Source",
 
   text:
     `Actualize + Source
@@ -24,7 +24,7 @@ Around 3100 BCE writing in Mesopotamia was developing into a practical system fo
 window.historyTexts.en.baktun.onderscheiden_stroming = {
 
   title:
-    "Acknowledge",
+    "Acknowledge + Interaction",
 
   text:
     `Distinguish + Flow
@@ -38,7 +38,7 @@ Around 2560 BCE, the Great Pyramid of Giza was completed during the reign of Khu
 window.historyTexts.en.baktun.transformeren_interactie = {
 
   title:
-    "Distinguish",
+    "Distinguish + Essence",
 
   text:
     `Transform + Interaction
@@ -52,7 +52,7 @@ Around 2200 BCE, cities of the Indus Valley Civilization such as Mohenjo-daro an
 window.historyTexts.en.baktun.selecteren_relatie = {
 
   title:
-    "Position",
+    "Position + Boundaries",
 
   text:
     `Select + Relationship
@@ -66,7 +66,7 @@ Around 1750 BCE, the Code of Hammurabi was inscribed in Babylon, bringing togeth
 window.historyTexts.en.baktun.afstemmen_waarheid = {
 
   title:
-    "Select",
+    "Select + Life Path",
 
   text:
     `Attune + Truth
@@ -80,7 +80,7 @@ Around 1200 BCE, several major societies of the eastern Mediterranean and Near E
 window.historyTexts.en.baktun.ontvouwen_verbeelding = {
 
   title:
-    "Refine",
+    "Refine + Life Path",
 
   text:
     `Unfold + Imagination
@@ -94,7 +94,7 @@ Around 1100 BCE, the Phoenician alphabet was in use as a compact writing system 
 window.historyTexts.en.baktun.onderscheiden_structuur_athene = {
 
   title:
-    "Attune",
+    "Attune + Expression",
 
   text:
     `Distinguish + Structure
@@ -108,7 +108,7 @@ Around 508 BCE, reforms associated with Cleisthenes reorganized the political st
 window.historyTexts.en.baktun.actualiseren_manifestatie_rome = {
 
   title:
-    "Transform",
+    "Transform + Manifestation",
 
   text:
     `Actualize + Manifestation
@@ -122,7 +122,7 @@ Around 27 BCE, Octavian was granted the title Augustus, marking the beginning of
 window.historyTexts.en.baktun.selecteren_bewustzijn = {
 
   title:
-    "Integrate",
+    "Integrate + Relationship",
 
   text:
     `Select + Consciousness
@@ -136,7 +136,7 @@ In 313 CE, Constantine and Licinius issued the Edict of Milan, establishing reli
 window.historyTexts.en.baktun.transformeren_relatie = {
 
   title:
-    "Comprehend",
+    "Comprehend + Imagination",
 
   text:
     `Transform + Relationship
@@ -150,7 +150,7 @@ In 622 CE, Muhammad and his followers migrated from Mecca to Medina in an event 
 window.historyTexts.en.baktun.onderscheiden_expressie = {
 
   title:
-    "Anchor",
+    "Anchor + Flow",
 
   text:
     `Distinguish + Expression
@@ -164,7 +164,7 @@ Around 1040 CE, Bi Sheng developed movable type printing in China using individu
 window.historyTexts.en.baktun.vrijmaken_bewustzijn = {
 
   title:
-    "Unfold",
+    "Unfold + Information",
 
   text:
     `Release + Consciousness
@@ -178,7 +178,7 @@ In 1492 CE, Christopher Columbus reached the Americas on a voyage sponsored by t
 window.historyTexts.en.baktun.verankeren_waarheid = {
 
   title:
-    "Release",
+    "Release + Value",
 
   text:
     `Anchor + Truth
@@ -192,7 +192,7 @@ In 1969 CE, the first message was transmitted over ARPANET between computers at 
 window.historyTexts.en.baktun.erkennen_informatie = {
 
   title:
-    "Actualize",
+    "Actualize + Source",
 
   text:
     `Acknowledge + Information
@@ -210,7 +210,7 @@ The unification created a more centralized political structure along the Nile an
 window.historyTexts.en.baktun.actualiseren_essentie = {
 
   title:
-    "Acknowledge",
+    "Acknowledge + Essence",
 
   text:
     `Actualize + Essence
@@ -228,7 +228,7 @@ The Akkadian state connected previously separate political centers through a sha
 window.historyTexts.en.baktun.vrijmaken_levenspad = {
 
   title:
-    "Distinguish",
+    "Distinguish + Essence",
 
   text:
     `Release + Life Path
@@ -247,7 +247,7 @@ The Code of Ur-Nammu is the oldest substantially preserved law code known today.
 window.historyTexts.en.baktun.erkennen_interactie = {
 
   title:
-    "Position",
+    "Position + Boundaries",
 
   text:
     `Acknowledge + Interaction
@@ -265,7 +265,7 @@ These early inscriptions belong to the development of an alphabetic tradition th
 window.historyTexts.en.baktun.onderscheiden_bewustzijn = {
 
   title:
-    "Select",
+    "Select + Life Path",
 
   text:
     `Distinguish + Consciousness
@@ -283,7 +283,7 @@ Neither empire achieved a lasting decisive victory. About fifteen years later, E
 window.historyTexts.en.baktun.erkennen_samenhang = {
 
   title:
-    "Refine",
+    "Refine + Truth",
 
   text:
     `Acknowledge + Coherence
@@ -301,7 +301,7 @@ The Olympic festival continued for centuries, and later Greek historians used fo
 window.historyTexts.en.baktun.transformeren_waarheid = {
 
   title:
-    "Attune",
+    "Attune + Expression",
 
   text:
     `Transform + Truth
@@ -319,7 +319,7 @@ His method of persistent questioning became one of the most influential traditio
 window.historyTexts.en.baktun.onderscheiden_grenzen = {
 
   title:
-    "Transform",
+    "Transform + Potential",
 
   text:
     `Distinguish + Boundaries
@@ -337,7 +337,7 @@ By applying mathematical reasoning to physical problems, Archimedes demonstrated
 window.historyTexts.en.baktun.transformeren_potentieel = {
 
   title:
-    "Integrate",
+    "Integrate + Manifestation",
 
   text:
     `Transform + Potential
@@ -355,7 +355,7 @@ Archaeological evidence shows that forms of paper already existed in China befor
 window.historyTexts.en.baktun.integreren_expressie = {
 
   title:
-    "Comprehend",
+    "Comprehend + Imagination",
 
   text:
     `Integrate + Expression
@@ -373,7 +373,7 @@ Zero had a longer history in Indian mathematics, but Brahmagupta's systematic tr
 window.historyTexts.en.baktun.erkennen_relatie = {
 
   title:
-    "Anchor",
+    "Anchor + Flow",
 
   text:
     `Acknowledge + Relationship
@@ -391,7 +391,7 @@ His investigations combined geometry with observation and experiments involving 
 window.historyTexts.en.baktun.onderscheiden_manifestatie = {
 
   title:
-    "Unfold",
+    "Unfold + Perspective",
 
   text:
     `Distinguish + Manifestation
@@ -409,7 +409,7 @@ Heliocentric ideas had existed in antiquity, but Copernicus developed them into 
 window.historyTexts.en.baktun.verfijnen_structuur = {
 
   title:
-    "Release",
+    "Release + Value",
 
   text:
     `Refine + Structure
@@ -427,7 +427,7 @@ A commercial version was manufactured by Remington from 1874. Its keyboard arran
 window.historyTexts.en.baktun.afstemmen_oorsprong = {
 
   title:
-    "Release",
+    "Release + Perspective",
 
   text:
     `Attune + Source
@@ -445,7 +445,7 @@ Harvey showed that the heart drives blood through the arteries and that blood re
 window.historyTexts.en.baktun.transformeren_informatie = {
 
   title:
-    "Release",
+    "Release + Perspective",
 
   text:
     `Transform + Information
@@ -463,7 +463,7 @@ Pascal continued refining the design and produced several versions of the machin
 window.historyTexts.en.baktun.integreren_verbeelding = {
 
   title:
-    "Release",
+    "Release + Perspective",
 
   text:
     `Integrate + Imagination
@@ -481,7 +481,7 @@ While examining thin slices of cork, Hooke described the small compartments he o
 window.historyTexts.en.baktun.doorgronden_potentieel = {
 
   title:
-    "Release",
+    "Release + Perspective",
 
   text:
     `Comprehend + Potential
@@ -499,7 +499,7 @@ Newton showed that the motion of objects on Earth and the motion of celestial bo
 window.historyTexts.en.baktun.verankeren_energie = {
 
   title:
-    "Release",
+    "Release + Perspective",
 
   text:
     `Anchor + Energy
@@ -517,7 +517,7 @@ The machine provided a new way to convert heat into mechanical work on a practic
 window.historyTexts.en.baktun.ontsluiten_grenzen = {
 
   title:
-    "Release",
+    "Release + Perspective",
 
   text:
     `Unfold + Boundaries
@@ -535,7 +535,7 @@ Bradley explained the effect through the combination of Earth's motion around th
 window.historyTexts.en.baktun.vrijmaken_interactie = {
 
   title:
-    "Release",
+    "Release + Perspective",
 
   text:
     `Release + Interaction
@@ -553,7 +553,7 @@ This understanding also led to the development of the lightning rod, which provi
 window.historyTexts.en.baktun.actualiseren_waarde = {
 
   title:
-    "Release",
+    "Release + Value",
 
   text:
     `Actualize + Value
@@ -571,7 +571,7 @@ Smith analyzed the division of labor, markets, prices and the relationship betwe
 window.historyTexts.en.baktun.erkennen_stroming = {
 
   title:
-    "Release",
+    "Release + Value",
 
   text:
     `Acknowledge + Flow
@@ -589,7 +589,7 @@ Hutton's interpretation showed that landscapes and rock formations preserve evid
 window.historyTexts.en.baktun.onderscheiden_relatie = {
 
   title:
-    "Release",
+    "Release + Value",
 
   text:
     `Distinguish + Relationship
@@ -607,7 +607,7 @@ Dalton used atomic weights and simple numerical relationships to explain pattern
 window.historyTexts.en.baktun.plaatsen_expressie = {
 
   title:
-    "Release",
+    "Release + Value",
 
   text:
     `Position + Expression
@@ -625,7 +625,7 @@ The exposure transformed the spatial arrangement of light from the scene into a 
 window.historyTexts.en.baktun.selecteren_levenspad = {
 
   title:
-    "Release",
+    "Release + Value",
 
   text:
     `Select + Life Path
@@ -643,7 +643,7 @@ Railways changed the possibilities for where people could live, work and travel,
 window.historyTexts.en.baktun.afstemmen_bewustzijn = {
 
   title:
-    "Release",
+    "Release + Value",
 
   text:
     `Attune + Consciousness
@@ -661,7 +661,7 @@ Wundt's work helped establish psychology as an independent experimental discipli
 window.historyTexts.en.baktun.transformeren_perspectief = {
 
   title:
-    "Release",
+    "Release + Value",
 
   text:
     `Transform + Perspective
@@ -679,7 +679,7 @@ The theory transformed the relationship between space, time and motion. Events t
 window.historyTexts.en.baktun.integreren_spoor = {
 
   title:
-    "Release",
+    "Release + Value",
 
   text:
     `Integrate + Trace
@@ -697,7 +697,7 @@ By combining distance estimates with spectroscopic measurements, Hubble helped e
 window.historyTexts.en.baktun.doorgronden_manifestatie = {
 
   title:
-    "Release",
+    "Release + Value",
 
   text:
     `Comprehend + Manifestation
@@ -715,7 +715,7 @@ The structure revealed how genetic information could exist in a physical molecul
 window.historyTexts.en.baktun.ontsluiten_samenhang = {
 
   title:
-    "Release",
+    "Release + Value",
 
   text:
     `Unfold + Coherence
@@ -733,7 +733,7 @@ The Web combined URLs, HTTP, HTML, web servers and browsers into a coherent info
 window.historyTexts.en.baktun.vrijmaken_essentie = {
 
   title:
-    "Release",
+    "Release + Value",
 
   text:
     `Release + Essence
@@ -751,7 +751,7 @@ The reference genome provided a shared foundation for studying human genes, inhe
 window.historyTexts.en.baktun.erkennen_waarheid = {
 
   title:
-    "Transform",
+    "Transform + Manifestation",
 
   text:
     `Acknowledge + Truth
@@ -769,7 +769,7 @@ Jesus emerged from the Jewish religious world of the first century and became th
 window.historyTexts.en.baktun.onderscheiden_samenhang = {
 
   title:
-    "Transform",
+    "Transform + Manifestation",
 
   text:
     `Distinguish + Coherence
@@ -787,7 +787,7 @@ After his death, his followers continued as communities rooted in Judaism while 
 window.historyTexts.en.baktun.plaatsen_essentie = {
 
   title:
-    "Transform",
+    "Transform + Manifestation",
 
   text:
     `Position + Essence

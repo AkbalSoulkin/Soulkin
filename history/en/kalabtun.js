@@ -9,7 +9,7 @@ window.historyTexts.en.kalabtun = {
   erkennen_spoor: {
 
     title:
-      "Unfold",
+      "Unfold + Perspective",
 
     text:
       `Acknowledge + Trace
@@ -25,7 +25,7 @@ Based on the scientific understanding in 2026, Homo sapiens emerged in Africa ap
 window.historyTexts.en.kalabtun.afstemmen_structuur = {
 
   title:
-    "Acknowledge",
+    "Acknowledge + Interaction",
 
   text:
     `Attune + Structure
@@ -43,7 +43,7 @@ Homo erectus also became the first known human species to spread widely beyond A
 window.historyTexts.en.kalabtun.ontsluiten_expressie = {
 
   title:
-    "Distinguish",
+    "Distinguish + Essence",
 
   text:
     `Unfold + Expression
@@ -61,7 +61,7 @@ Compared with earlier stone-tool traditions, Acheulean technology involved more 
 window.historyTexts.en.kalabtun.selecteren_bewustzijn = {
 
   title:
-    "Integrate",
+    "Integrate + Relationship",
 
   text:
     `Select + Consciousness
@@ -79,7 +79,7 @@ The repeated and spatially patterned evidence indicates that fire had become a c
 window.historyTexts.en.kalabtun.verankeren_samenhang = {
 
   title:
-    "Anchor",
+    "Anchor + Flow",
 
   text:
     `Anchor + Coherence

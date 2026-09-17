@@ -9,7 +9,7 @@ window.historyTexts.en.piktun = {
   integreren_verbeelding: {
 
     title:
-      "Release",
+      "Release + Perspective",
 
     text:
       `Integrate + Imagination
@@ -25,7 +25,7 @@ Around 9600 BCE, hunter-gatherer communities at Göbekli Tepe in southeastern An
 window.historyTexts.en.piktun.verankeren_spoor = {
 
   title:
-    "Position",
+    "Position + Boundaries",
 
   text:
     `Anchor + Trace
@@ -43,7 +43,7 @@ These finds provide some of the clearest early archaeological evidence for the d
 window.historyTexts.en.piktun.erkennen_perspectief = {
 
   title:
-    "Actualize",
+    "Actualize + Consciousness",
 
   text:
     `Acknowledge + Perspective
@@ -61,7 +61,7 @@ These burials provide important early archaeological evidence that the dead were
 window.historyTexts.en.piktun.actualiseren_interactie = {
 
   title:
-    "Acknowledge",
+    "Acknowledge + Interaction",
 
   text:
     `Actualize + Interaction
@@ -79,7 +79,7 @@ This evidence points to specialized knowledge of local resources and to recurrin
 window.historyTexts.en.piktun.actualiseren_structuur = {
 
   title:
-    "Distinguish",
+    "Distinguish + Structure",
 
   text:
     `Actualize + Structure
@@ -97,7 +97,7 @@ At the time, the region was much wetter than it is today, with freshwater lakes 
 window.historyTexts.en.piktun.doorgronden_waarde = {
 
   title:
-    "Select",
+    "Select + Coherence",
 
   text:
     `Comprehend + Value
@@ -115,7 +115,7 @@ Producing these composite tools required different materials to be selected, pre
 window.historyTexts.en.piktun.erkennen_grenzen = {
 
   title:
-    "Refine",
+    "Refine + Energy",
 
   text:
     `Acknowledge + Boundaries
@@ -133,7 +133,7 @@ Because the wooden bows and shafts have not survived, the technology is reconstr
 window.historyTexts.en.piktun.erkennen_levenspad = {
 
   title:
-    "Attune",
+    "Attune + Expression",
 
   text:
     `Acknowledge + Life Path
@@ -151,7 +151,7 @@ The Homo sapiens occupation lies between layers associated with Neanderthals, wh
 window.historyTexts.en.piktun.doorgronden_structuur = {
 
   title:
-    "Transform",
+    "Transform + Potential",
 
   text:
     `Comprehend + Structure
@@ -169,7 +169,7 @@ The pigment itself was not dated directly. Instead, researchers dated mineral de
 window.historyTexts.en.piktun.verankeren_interactie = {
 
   title:
-    "Integrate",
+    "Integrate + Manifestation",
 
   text:
     `Anchor + Interaction
@@ -187,7 +187,7 @@ These instruments provide direct archaeological evidence that music had become p
 window.historyTexts.en.piktun.transformeren_relatie = {
 
   title:
-    "Comprehend",
+    "Comprehend + Imagination",
 
   text:
     `Transform + Relationship
@@ -205,7 +205,7 @@ These objects show that people had learned to permanently transform clay with he
 window.historyTexts.en.piktun.erkennen_relatie = {
 
   title:
-    "Anchor",
+    "Anchor + Flow",
 
   text:
     `Acknowledge + Relationship
@@ -223,7 +223,7 @@ The finds show that people were collecting and processing wild grains thousands 
 window.historyTexts.en.piktun.verankeren_levenspad = {
 
   title:
-    "Unfold",
+    "Unfold + Information",
 
   text:
     `Anchor + Life Path
@@ -241,7 +241,7 @@ These remains predate established agriculture by thousands of years, showing tha
 window.historyTexts.en.piktun.plaatsen_expressie = {
 
   title:
-    "Release",
+    "Release + Value",
 
   text:
     `Position + Expression
@@ -259,7 +259,7 @@ The interiors of these houses preserve wall paintings, reliefs, installations an
 window.historyTexts.en.piktun.verankeren_waarheid = {
 
   title:
-    "Release",
+    "Release + Value",
 
   text:
     `Anchor + Truth
@@ -277,7 +277,7 @@ The expanding need to organize goods, labor and transactions contributed to new 
 window.historyTexts.en.piktun.actualiseren_manifestatie = {
 
   title:
-    "Transform",
+    "Transform + Manifestation",
 
   text:
     `Actualize + Manifestation
@@ -295,7 +295,7 @@ These finds provide some of the earliest direct evidence for Homo sapiens associ
 window.historyTexts.en.piktun.erkennen_waarheid = {
 
   title:
-    "Transform",
+    "Transform + Manifestation",
 
   text:
     `Acknowledge + Truth
@@ -313,7 +313,7 @@ The length of these inherited DNA segments indicates that some of their Neandert
 window.historyTexts.en.piktun.onderscheiden_samenhang = {
 
   title:
-    "Transform",
+    "Transform + Manifestation",
 
   text:
     `Distinguish + Coherence
@@ -331,7 +331,7 @@ His genome contained Neanderthal ancestry and provided insight into the relation
 window.historyTexts.en.piktun.plaatsen_essentie = {
 
   title:
-    "Transform",
+    "Transform + Manifestation",
 
   text:
     `Position + Essence
@@ -349,7 +349,7 @@ Together with evidence from eastern Europe and Siberia, these finds show that Ho
 window.historyTexts.en.piktun.selecteren_oorsprong = {
 
   title:
-    "Integrate",
+    "Integrate + Manifestation",
 
   text:
     `Select + Source

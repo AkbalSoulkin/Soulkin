@@ -9,7 +9,7 @@ window.historyTexts.nl.katun = {
   onderscheiden_verbeelding: {
 
 title:
-  "Actualiseren",
+  "Actualiseren + Bron",
 
 text:
   `Onderscheiden + Verbeelding
