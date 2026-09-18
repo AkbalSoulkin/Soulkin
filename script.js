@@ -91,6 +91,11 @@ const WORKFIELD_UNFOLD_START_DAY = Number(
   daysFromCivil(1982, 8, 22)
 );
 
+const ICHING_UNFOLD_START_DAY = Number(
+  daysFromCivil(-17264374702, 11, 10) -
+  daysFromCivil(1982, 8, 22)
+);
+
 const letterO  = document.getElementById("letterO");
 const letterOQ = document.getElementById("letterOQ");
 const letterOD = document.getElementById("letterOD");
@@ -3019,69 +3024,6 @@ function render(){
   const rootStage =
     dayOffset - ROOT_OFFSET + 5;
 
-const rootYang =
-  document.getElementById("rootYang");
-
-const rootYin =
-  document.getElementById("rootYin");
-
-const rootChicchan =
-  document.getElementById("rootChicchan");
-
-const rootOc =
-  document.getElementById("rootOc");
-
-const rootMen =
-  document.getElementById("rootMen");
-
-const rootAhau =
-  document.getElementById("rootAhau");
-
-
-// standaard alle root-symbolen uit
-[
-  rootYin,
-  rootYang,
-  rootChicchan,
-  rootOc,
-  rootMen,
-  rootAhau
-].forEach(item => {
-  item.setAttribute("opacity", "0");
-});
-
-
-// 9/11 en alles daarvoor: Yang
-if(rootStage <= 0){
-
-  rootYang.setAttribute("opacity", "1");
-
-// 10/11: Yin
-} else if(rootStage === 1){
-
-  rootYin.setAttribute("opacity", "1");
-
-// 11/11: 13 Chicchan
-} else if(rootStage === 2){
-
-  rootChicchan.setAttribute("opacity", "1");
-
-// 12/11: 13 Oc
-} else if(rootStage === 3){
-
-  rootOc.setAttribute("opacity", "1");
-
-// 13/11: 13 Men
-} else if(rootStage === 4){
-
-  rootMen.setAttribute("opacity", "1");
-
-// 14/11: 13 Ahau
-} else if(rootStage === 5){
-
-  rootAhau.setAttribute("opacity", "1");
-}
-
 // ===== BINNENSTE 4-RING ONTVOUWING =====
 
 // 10/11 en eerder: niets.
@@ -3447,31 +3389,41 @@ const workfieldFractalSequence = [
   7, 11, 15, 3   // Lamat, Eb, Cib, Kan
 ];
 
+
+// ===== HEXAGRAM-ONTVOUWING =====
+
 if(dayOffset < PENTAGRAM_FRACTAL_START_DAY){
 
-  hexagram.setAttribute("opacity", "0");
+  // 0-positie: Yang
+  hexagram.setAttribute(
+    "href",
+    "other/yang.svg"
+  );
+
+  hexagram.setAttribute("opacity", "1");
 
 } else if(dayOffset < WORKFIELD_REVEAL_START_DAY){
 
-  const pentagramFiles = [
-    "trigrams/101.svg", // 10/11 rood
-    "trigrams/010.svg", // 11/11 blauw
-    "other/yin.svg",    // 12/11 groen
-    "trigrams/111.svg", // 13/11 wit
-    "trigrams/000.svg"  // 14/11 geel
+  const rootUnfoldingFiles = [
+    "other/yin.svg",             // 10/11
+    "animals/13Chicchan.svg",    // 11/11 = 01
+    "animals/13Oc.svg",          // 12/11 = 11
+    "animals/13Men.svg",         // 13/11 = 10
+    "animals/13Ahau.svg"         // 14/11 = 00
   ];
 
-  const pentagramIndex =
+  const rootIndex =
     dayOffset - PENTAGRAM_FRACTAL_START_DAY;
 
   hexagram.setAttribute(
     "href",
-    pentagramFiles[pentagramIndex]
+    rootUnfoldingFiles[rootIndex]
   );
 
   hexagram.setAttribute("opacity", "1");
 
 } else if(dayOffset < WORKFIELD_FRACTAL_START_DAY){
+
 
   const revealIndex =
     dayOffset - WORKFIELD_REVEAL_START_DAY;
@@ -3753,22 +3705,53 @@ const specialHeart =
   [19].includes(seal);
 
 
-// ===== I-CHING ZICHTBAAR =====
+// ===== I-CHING ONTVOUWING + ZICHTBAAR =====
 
-if(beforeOrAtRoot){
+if(
+  dayOffset >= ICHING_UNFOLD_START_DAY &&
+  dayOffset < ICHING_UNFOLD_START_DAY + 5
+){
 
-  iChing.setAttribute("opacity","0");
+  const iChingUnfoldingFiles = [
+    "other/iching_1.svg", // 10/11
+    "other/iching_2.svg", // 11/11
+    "other/iching_2.svg", // 12/11
+    "other/iching_3.svg", // 13/11
+    "other/iching_4.svg"  // 14/11
+  ];
 
-} else if(heartHoverOnly){
+  iChing.setAttribute(
+    "href",
+    iChingUnfoldingFiles[
+      dayOffset - ICHING_UNFOLD_START_DAY
+    ]
+  );
 
-  // Alleen Heart-dagen tonen de I Ching via hover
-  iChing.setAttribute("opacity","0");
+  iChing.setAttribute("opacity","1");
 
 } else {
 
-  // Alle normale dagen: standaard zichtbaar
-  iChing.setAttribute("opacity","1");
+  // Normale I Ching vanaf 15/11
+  iChing.setAttribute(
+    "href",
+    "other/iching.svg"
+  );
+
+  if(beforeOrAtRoot){
+
+    iChing.setAttribute("opacity","0");
+
+  } else if(heartHoverOnly){
+
+    iChing.setAttribute("opacity","0");
+
+  } else {
+
+    iChing.setAttribute("opacity","1");
+  }
 }
+
+
 
 // ===== BDPQ POSITIES =====
 
