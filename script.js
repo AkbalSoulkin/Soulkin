@@ -3365,7 +3365,8 @@ if(dayOffset < TZOLKIN_OPERATOR_START_DAY){
   tzolkinOperatorFractal.setAttribute("opacity", "1");
 }
 
-// ===== HEXAGRAM =====
+
+// ===== HEXAGRAM-ONTVOUWING =====
 
 const hexagram =
   document.getElementById("hexagram");
@@ -3375,105 +3376,201 @@ const HEXAGRAM_START_DAY = Number(
   daysFromCivil(1982, 8, 22)
 );
 
-const WORKFIELD_FRACTAL_START_DAY = Number(
+const TWO_BIT_START_DAY = Number(
+  daysFromCivil(-17264374702, 11, 11) -
+  daysFromCivil(1982, 8, 22)
+);
+
+const FOUR_BIT_TOP_START_DAY = Number(
+  daysFromCivil(-17264374702, 11, 15) -
+  daysFromCivil(1982, 8, 22)
+);
+
+const FOUR_BIT_BOTTOM_START_DAY = Number(
   daysFromCivil(-17264374702, 12, 5) -
   daysFromCivil(1982, 8, 22)
 );
 
-// De zestien 4-bit-werkvelden zoals het mechanisme ze vormt:
-// per kleurfamilie verder na Chicchan, met de vier basisvelden overgeslagen.
-const workfieldFractalSequence = [
-  8, 12, 16, 0,  // Muluc, Ben, Caban, Imix
-  5, 13, 17, 1,  // Cimi, Ix, Etznab, Ik
-  6, 10, 18, 2,  // Manik, Chuen, Cauac, Akbal
-  7, 11, 15, 3   // Lamat, Eb, Cib, Kan
+
+// De zestien 4-bit werkvelden in de volgorde
+// waarin Soulkin ze vanaf 5/12 vormt.
+const workfieldFractalCodes = [
+  "0101", // Muluc
+  "1101", // Ben
+  "1001", // Caban
+  "0001", // Imix
+
+  "0111", // Cimi
+  "1111", // Ix
+  "1011", // Etznab
+  "0011", // Ik
+
+  "0110", // Manik
+  "1110", // Chuen
+  "1010", // Cauac
+  "0010", // Akbal
+
+  "0100", // Lamat
+  "1100", // Eb
+  "1000", // Cib
+  "0000"  // Kan
 ];
 
+const UNFOLD_Y = 341;   // nieuwe reeks iets omlaag
+const HEXAGRAM_Y = 300; // bestaande h1-h64
 
-// ===== HEXAGRAM-ONTVOUWING =====
+if(dayOffset < HEXAGRAM_START_DAY){
+  hexagram.setAttribute("y", UNFOLD_Y);
+} else {
+  hexagram.setAttribute("y", HEXAGRAM_Y);
+}
+
+// ===== 0-POSITIE =====
+// t/m 9/11: één Yang-lijn
 
 if(dayOffset < PENTAGRAM_FRACTAL_START_DAY){
 
-  // 0-positie: Yang
   hexagram.setAttribute(
     "href",
-    "other/yang.svg"
+    "hexagrams/1bit/yang_uppercenter.svg"
   );
 
   hexagram.setAttribute("opacity", "1");
 
-} else if(dayOffset < WORKFIELD_REVEAL_START_DAY){
 
-  const rootUnfoldingFiles = [
-    "other/yin.svg",             // 10/11
-    "animals/13Chicchan.svg",    // 11/11 = 01
-    "animals/13Oc.svg",          // 12/11 = 11
-    "animals/13Men.svg",         // 13/11 = 10
-    "animals/13Ahau.svg"         // 14/11 = 00
+// ===== EERSTE OPENING =====
+// 10/11: één Yin-lijn
+
+} else if(dayOffset < TWO_BIT_START_DAY){
+
+  hexagram.setAttribute(
+    "href",
+    "hexagrams/1bit/yin_uppercenter.svg"
+  );
+
+  hexagram.setAttribute("opacity", "1");
+
+
+// ===== 2 BIT =====
+// 11/11 Chicchan 01
+// 12/11 Oc       11
+// 13/11 Men      10
+// 14/11 Ahau     00
+
+} else if(dayOffset < FOUR_BIT_TOP_START_DAY){
+
+  const twoBitCodes = [
+    "01",
+    "11",
+    "10",
+    "00"
   ];
 
-  const rootIndex =
-    dayOffset - PENTAGRAM_FRACTAL_START_DAY;
+  const index =
+    dayOffset - TWO_BIT_START_DAY;
 
   hexagram.setAttribute(
     "href",
-    rootUnfoldingFiles[rootIndex]
+    `hexagrams/2bit/${twoBitCodes[index]}.svg`
   );
 
   hexagram.setAttribute("opacity", "1");
 
-} else if(dayOffset < WORKFIELD_FRACTAL_START_DAY){
 
+// ===== EERSTE 4-BIT ONTVOUWING =====
+// 15/11 t/m 4/12
+//
+// Dit zijn de gewone twintig kalenderwerkvelden.
+// De vier 2-bit basisvelden blijven 2-bit.
+// De zestien andere velden worden als 4-bit getoond.
+//
+// We gebruiken LOWER:
+// de nieuwe lijnen groeien dus naar BENEDEN.
+
+} else if(dayOffset < FOUR_BIT_BOTTOM_START_DAY){
 
   const revealIndex =
-    dayOffset - WORKFIELD_REVEAL_START_DAY;
+    dayOffset - FOUR_BIT_TOP_START_DAY;
 
-  const revealFiles = [
-    "animals/imix.svg",
-    "animals/ik.svg",
-    "animals/akbal.svg",
-    "animals/kan.svg",
-    "animals/13Chicchan.svg",
-    "animals/cimi.svg",
-    "animals/manik.svg",
-    "animals/lamat.svg",
-    "animals/muluc.svg",
-    "animals/13Oc.svg",
-    "animals/chuen.svg",
-    "animals/eb.svg",
-    "animals/ben.svg",
-    "animals/ix.svg",
-    "animals/13Men.svg",
-    "animals/cib.svg",
-    "animals/caban.svg",
-    "animals/etznab.svg",
-    "animals/cauac.svg",
-    "animals/13Ahau.svg"
+  const revealCodes = [
+    "0001", // Imix
+    "0011", // Ik
+    "0010", // Akbal
+    "0000", // Kan
+
+    "01",   // Chicchan
+
+    "0111", // Cimi
+    "0110", // Manik
+    "0100", // Lamat
+    "0101", // Muluc
+
+    "11",   // Oc
+
+    "1110", // Chuen
+    "1100", // Eb
+    "1101", // Ben
+    "1111", // Ix
+
+    "10",   // Men
+
+    "1000", // Cib
+    "1001", // Caban
+    "1011", // Etznab
+    "1010", // Cauac
+
+    "00"    // Ahau
   ];
 
+  const code =
+    revealCodes[revealIndex];
+
+  if(code.length === 2){
+
+    hexagram.setAttribute(
+      "href",
+      `hexagrams/2bit/${code}.svg`
+    );
+
+  } else {
+
+    hexagram.setAttribute(
+      "href",
+      `hexagrams/4bit/lower/${code}.svg`
+    );
+  }
+
   hexagram.setAttribute("opacity", "1");
-  hexagram.setAttribute(
-    "href",
-    revealFiles[revealIndex]
-  );
+
+
+// ===== TWEEDE 4-BIT ONTVOUWING =====
+// 5/12 t/m 20/12
+//
+// Nu dezelfde 4-bit geometrie aan de andere kant:
+// de vier lijnen staan UPPER en laten onderaan
+// ruimte voor de laatste uitbreiding naar 6 bit.
 
 } else if(dayOffset < HEXAGRAM_START_DAY){
 
   const fractalIndex =
-    dayOffset - WORKFIELD_FRACTAL_START_DAY;
+    dayOffset - FOUR_BIT_BOTTOM_START_DAY;
 
-  const fractalSeal =
-    workfieldFractalSequence[fractalIndex];
+  const code =
+    workfieldFractalCodes[fractalIndex];
 
-  hexagram.setAttribute("opacity", "1");
   hexagram.setAttribute(
     "href",
-    `animals/${animalFiles[fractalSeal]}`
+    `hexagrams/4bit/upper/${code}.svg`
   );
 
-} else {
-
   hexagram.setAttribute("opacity", "1");
+
+
+// ===== 6 BIT =====
+// vanaf 21/12:
+// bestaande 64 hexagrammen
+
+} else {
 
   const hex =
     ((dayOffset - HEXAGRAM_START_DAY) % 64 + 64) % 64 + 1;
@@ -3482,6 +3579,8 @@ if(dayOffset < PENTAGRAM_FRACTAL_START_DAY){
     "href",
     `hexagrams/h${hex}.svg`
   );
+
+  hexagram.setAttribute("opacity", "1");
 }
 
 
