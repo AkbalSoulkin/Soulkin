@@ -9,7 +9,7 @@ window.historyTexts.en.piktun = {
   integreren_verbeelding: {
 
     title:
-      "Release + Perspective",
+      "Release + Imagination",
 
     text:
       `Integrate + Imagination
@@ -25,7 +25,7 @@ Around 9600 BCE, hunter-gatherer communities at Göbekli Tepe in southeastern An
 window.historyTexts.en.piktun.verankeren_spoor = {
 
   title:
-    "Position + Boundaries",
+    "Position + Consciousness",
 
   text:
     `Anchor + Trace
@@ -97,7 +97,7 @@ At the time, the region was much wetter than it is today, with freshwater lakes 
 window.historyTexts.en.piktun.doorgronden_waarde = {
 
   title:
-    "Select + Coherence",
+    "Select + Interaction",
 
   text:
     `Comprehend + Value
@@ -151,7 +151,7 @@ The Homo sapiens occupation lies between layers associated with Neanderthals, wh
 window.historyTexts.en.piktun.doorgronden_structuur = {
 
   title:
-    "Transform + Potential",
+    "Transform + Life Path",
 
   text:
     `Comprehend + Structure
@@ -169,7 +169,7 @@ The pigment itself was not dated directly. Instead, researchers dated mineral de
 window.historyTexts.en.piktun.verankeren_interactie = {
 
   title:
-    "Integrate + Manifestation",
+    "Integrate + Energy",
 
   text:
     `Anchor + Interaction
@@ -187,7 +187,7 @@ These instruments provide direct archaeological evidence that music had become p
 window.historyTexts.en.piktun.transformeren_relatie = {
 
   title:
-    "Comprehend + Imagination",
+    "Comprehend + Manifestation",
 
   text:
     `Transform + Relationship
@@ -223,7 +223,7 @@ The finds show that people were collecting and processing wild grains thousands 
 window.historyTexts.en.piktun.verankeren_levenspad = {
 
   title:
-    "Unfold + Information",
+    "Unfold + Relationship",
 
   text:
     `Anchor + Life Path
@@ -259,7 +259,7 @@ The interiors of these houses preserve wall paintings, reliefs, installations an
 window.historyTexts.en.piktun.verankeren_waarheid = {
 
   title:
-    "Release + Value",
+    "Release + Trace",
 
   text:
     `Anchor + Truth
@@ -349,7 +349,7 @@ Together with evidence from eastern Europe and Siberia, these finds show that Ho
 window.historyTexts.en.piktun.selecteren_oorsprong = {
 
   title:
-    "Integrate + Manifestation",
+    "Integrate + Source",
 
   text:
     `Select + Source

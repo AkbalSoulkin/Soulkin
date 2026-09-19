@@ -9,7 +9,7 @@ window.historyTexts.en.alautun = {
   vrijmaken_potentieel: {
 
     title:
-      "Refine + Life Path",
+      "Refine + Potential",
 
     text:
       `Release + Potential
@@ -25,7 +25,7 @@ Based on the scientific understanding in 2026, the Cambrian Explosion began appr
 window.historyTexts.en.alautun.afstemmen_structuur = {
 
   title:
-    "Release + Value",
+    "Release + Life Path",
 
   text:
     `Refine + Structure
@@ -43,7 +43,7 @@ All non-avian dinosaurs disappeared, together with many other groups of organism
 window.historyTexts.en.alautun.ontsluiten_bewustzijn = {
 
   title:
-    "Comprehend + Imagination",
+    "Comprehend + Expression",
 
   text:
     `Unfold + Consciousness
@@ -61,7 +61,7 @@ The crisis is strongly associated with massive volcanic activity in the Siberian
 window.historyTexts.en.alautun.doorgronden_essentie = {
 
   title:
-    "Attune + Expression",
+    "Attune + Coherence",
 
   text:
     `Comprehend + Essence

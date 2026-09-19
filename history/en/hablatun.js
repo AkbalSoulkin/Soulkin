@@ -25,7 +25,7 @@ Based on the scientific understanding in 2026, cosmological models place the beg
 window.historyTexts.en.hablatun.transformeren_informatie = {
 
   title:
-    "Release + Perspective",
+    "Release + Coherence",
 
   text:
     `Transform + Information

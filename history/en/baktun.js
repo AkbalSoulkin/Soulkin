@@ -38,7 +38,7 @@ Around 2560 BCE, the Great Pyramid of Giza was completed during the reign of Khu
 window.historyTexts.en.baktun.transformeren_interactie = {
 
   title:
-    "Distinguish + Essence",
+    "Distinguish + Potential",
 
   text:
     `Transform + Interaction
@@ -80,7 +80,7 @@ Around 1200 BCE, several major societies of the eastern Mediterranean and Near E
 window.historyTexts.en.baktun.ontvouwen_verbeelding = {
 
   title:
-    "Refine + Life Path",
+    "Refine + Essence",
 
   text:
     `Unfold + Imagination
@@ -122,7 +122,7 @@ Around 27 BCE, Octavian was granted the title Augustus, marking the beginning of
 window.historyTexts.en.baktun.selecteren_bewustzijn = {
 
   title:
-    "Integrate + Relationship",
+    "Integrate + Consciousness",
 
   text:
     `Select + Consciousness
@@ -136,7 +136,7 @@ In 313 CE, Constantine and Licinius issued the Edict of Milan, establishing reli
 window.historyTexts.en.baktun.transformeren_relatie = {
 
   title:
-    "Comprehend + Imagination",
+    "Comprehend + Interaction",
 
   text:
     `Transform + Relationship
@@ -164,7 +164,7 @@ Around 1040 CE, Bi Sheng developed movable type printing in China using individu
 window.historyTexts.en.baktun.vrijmaken_bewustzijn = {
 
   title:
-    "Unfold + Information",
+    "Unfold + Consciousness",
 
   text:
     `Release + Consciousness
@@ -178,7 +178,7 @@ In 1492 CE, Christopher Columbus reached the Americas on a voyage sponsored by t
 window.historyTexts.en.baktun.verankeren_waarheid = {
 
   title:
-    "Release + Value",
+    "Release + Trace",
 
   text:
     `Anchor + Truth
@@ -228,7 +228,7 @@ The Akkadian state connected previously separate political centers through a sha
 window.historyTexts.en.baktun.vrijmaken_levenspad = {
 
   title:
-    "Distinguish + Essence",
+    "Distinguish + Life Path",
 
   text:
     `Release + Life Path
@@ -301,7 +301,7 @@ The Olympic festival continued for centuries, and later Greek historians used fo
 window.historyTexts.en.baktun.transformeren_waarheid = {
 
   title:
-    "Attune + Expression",
+    "Attune + Perspective",
 
   text:
     `Transform + Truth
@@ -337,7 +337,7 @@ By applying mathematical reasoning to physical problems, Archimedes demonstrated
 window.historyTexts.en.baktun.transformeren_potentieel = {
 
   title:
-    "Integrate + Manifestation",
+    "Integrate + Source",
 
   text:
     `Transform + Potential
@@ -355,7 +355,7 @@ Archaeological evidence shows that forms of paper already existed in China befor
 window.historyTexts.en.baktun.integreren_expressie = {
 
   title:
-    "Comprehend + Imagination",
+    "Comprehend + Interaction",
 
   text:
     `Integrate + Expression
@@ -409,7 +409,7 @@ Heliocentric ideas had existed in antiquity, but Copernicus developed them into 
 window.historyTexts.en.baktun.verfijnen_structuur = {
 
   title:
-    "Release + Value",
+    "Release + Life Path",
 
   text:
     `Refine + Structure
@@ -427,7 +427,7 @@ A commercial version was manufactured by Remington from 1874. Its keyboard arran
 window.historyTexts.en.baktun.afstemmen_oorsprong = {
 
   title:
-    "Release + Perspective",
+    "Release + Coherence",
 
   text:
     `Attune + Source
@@ -445,7 +445,7 @@ Harvey showed that the heart drives blood through the arteries and that blood re
 window.historyTexts.en.baktun.transformeren_informatie = {
 
   title:
-    "Release + Perspective",
+    "Release + Coherence",
 
   text:
     `Transform + Information
@@ -463,7 +463,7 @@ Pascal continued refining the design and produced several versions of the machin
 window.historyTexts.en.baktun.integreren_verbeelding = {
 
   title:
-    "Release + Perspective",
+    "Release + Imagination",
 
   text:
     `Integrate + Imagination
@@ -481,7 +481,7 @@ While examining thin slices of cork, Hooke described the small compartments he o
 window.historyTexts.en.baktun.doorgronden_potentieel = {
 
   title:
-    "Release + Perspective",
+    "Release + Imagination",
 
   text:
     `Comprehend + Potential
@@ -499,7 +499,7 @@ Newton showed that the motion of objects on Earth and the motion of celestial bo
 window.historyTexts.en.baktun.verankeren_energie = {
 
   title:
-    "Release + Perspective",
+    "Release + Imagination",
 
   text:
     `Anchor + Energy
@@ -517,7 +517,7 @@ The machine provided a new way to convert heat into mechanical work on a practic
 window.historyTexts.en.baktun.ontsluiten_grenzen = {
 
   title:
-    "Release + Perspective",
+    "Release + Imagination",
 
   text:
     `Unfold + Boundaries
@@ -535,7 +535,7 @@ Bradley explained the effect through the combination of Earth's motion around th
 window.historyTexts.en.baktun.vrijmaken_interactie = {
 
   title:
-    "Release + Perspective",
+    "Release + Interaction",
 
   text:
     `Release + Interaction
@@ -625,7 +625,7 @@ The exposure transformed the spatial arrangement of light from the scene into a 
 window.historyTexts.en.baktun.selecteren_levenspad = {
 
   title:
-    "Release + Value",
+    "Release + Life Path",
 
   text:
     `Select + Life Path
@@ -643,7 +643,7 @@ Railways changed the possibilities for where people could live, work and travel,
 window.historyTexts.en.baktun.afstemmen_bewustzijn = {
 
   title:
-    "Release + Value",
+    "Release + Life Path",
 
   text:
     `Attune + Consciousness
@@ -661,7 +661,7 @@ Wundt's work helped establish psychology as an independent experimental discipli
 window.historyTexts.en.baktun.transformeren_perspectief = {
 
   title:
-    "Release + Value",
+    "Release + Life Path",
 
   text:
     `Transform + Perspective
@@ -679,7 +679,7 @@ The theory transformed the relationship between space, time and motion. Events t
 window.historyTexts.en.baktun.integreren_spoor = {
 
   title:
-    "Release + Value",
+    "Release + Trace",
 
   text:
     `Integrate + Trace
@@ -697,7 +697,7 @@ By combining distance estimates with spectroscopic measurements, Hubble helped e
 window.historyTexts.en.baktun.doorgronden_manifestatie = {
 
   title:
-    "Release + Value",
+    "Release + Trace",
 
   text:
     `Comprehend + Manifestation
@@ -715,7 +715,7 @@ The structure revealed how genetic information could exist in a physical molecul
 window.historyTexts.en.baktun.ontsluiten_samenhang = {
 
   title:
-    "Release + Value",
+    "Release + Trace",
 
   text:
     `Unfold + Coherence
@@ -733,7 +733,7 @@ The Web combined URLs, HTTP, HTML, web servers and browsers into a coherent info
 window.historyTexts.en.baktun.vrijmaken_essentie = {
 
   title:
-    "Release + Value",
+    "Release + Essence",
 
   text:
     `Release + Essence
