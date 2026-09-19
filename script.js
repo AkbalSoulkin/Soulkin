@@ -96,6 +96,8 @@ const ICHING_UNFOLD_START_DAY = Number(
   daysFromCivil(1982, 8, 22)
 );
 
+let wavespellActive = false;
+
 const letterO  = document.getElementById("letterO");
 const letterOQ = document.getElementById("letterOQ");
 const letterOD = document.getElementById("letterOD");
@@ -106,6 +108,19 @@ const O_UNFOLD_DAY = Number(
   daysFromCivil(-17264374702, 11, 10) -
   daysFromCivil(1982, 8, 22)
 );
+
+const HEART_CHAKRA_DAY = Number(
+  daysFromCivil(-2, 9, 11) -
+  daysFromCivil(1982, 8, 22)
+);
+
+const wavespellWorkfieldLanguages = {
+  en: wavespell_workfields_en,
+  nl: wavespell_workfields_nl,
+  ru: wavespell_workfields_ru,
+  tr: wavespell_workfields_tr,
+  jp: wavespell_workfields_jp
+};
 
 const languages = {
 
@@ -139,6 +154,8 @@ const languageSelect =
     "languageSelect"
   );
 
+
+
 languageSelect.onchange = () => {
 
   language = languageSelect.value;
@@ -158,6 +175,10 @@ languageSelect.onchange = () => {
   if(sourcesActive){
     showSources();
   }
+
+if(wavespellActive){
+  showWavespellText();
+}
 
 sourcesButton.textContent =
   sourcesButtonLabels[language];
@@ -247,6 +268,8 @@ if(
   languageSelect.value =
     language;
 }
+
+
 
 
 function updateFromKin(){
@@ -419,6 +442,11 @@ const refreshGo = () => {
   if(sourcesActive){
     showSources();
   }
+
+  if(wavespellActive){
+    showWavespellText();
+  }
+
 };
 
   const day =
@@ -2877,6 +2905,114 @@ for(let i = 0; i < 64; i++){
 }
 
 
+
+function showWavespellText(){
+
+  const infoPanel =
+    document.getElementById("infoPanel");
+
+  const infoPanelTitle =
+    document.getElementById("infoPanelTitle");
+
+  const infoPanelContent =
+    document.getElementById("infoPanelContent");
+
+  const workfieldSeal =
+    getWavespellWorkfieldSeal();
+
+  const workfieldPages =
+    wavespellWorkfieldLanguages[language] ||
+    wavespell_workfields_en;
+
+
+  // ===== TITEL =====
+
+  infoPanelTitle.classList.remove("chakraTitle");
+
+  infoPanelTitle.textContent =
+    "Workfield";
+
+
+  // ===== TEKST =====
+
+  infoPanelContent.innerHTML =
+    workfieldPages[workfieldSeal + 1] ?? "";
+
+
+  // ===== WAVESPELL-KLEUR =====
+  // 11/11 = toon 1 van eerste volledige wavespell.
+  // 10/11 hoort visueel al bij rood.
+
+  const wavespellColorStart =
+    WAVESPELL_FRACTAL_START_DAY + 1;
+
+  const wavespellBlock =
+    dayOffset < wavespellColorStart
+      ? 0
+      : Math.floor(
+          (dayOffset - wavespellColorStart) / 13
+        );
+
+  const colorIndex =
+    ((wavespellBlock % 4) + 4) % 4;
+
+
+  // ===== ZELFDE ACHTERGRONDEN ALS CHAKRA'S =====
+
+  const wavespellBackgrounds = [
+    "rgba(120,0,0,0.35)",       // rood    = Muladhara
+    "rgba(255,255,255,0.18)",   // wit     = Sahasrara
+    "rgba(80,180,255,0.25)",    // blauw   = Vishuddha
+    "rgba(255,220,0,0.25)"      // geel    = Manipura
+  ];
+
+  infoPanel.style.backgroundImage = "none";
+  infoPanel.style.background =
+    wavespellBackgrounds[colorIndex];
+}
+
+
+function getWavespellWorkfieldSeal(){
+
+  const ROOT_OFFSET = Number(
+    daysFromCivil(-17264374702, 11, 14) -
+    daysFromCivil(1982, 8, 22)
+  );
+
+  // 10/11 t/m 14/11:
+  // Imix → Chicchan → Muluc → Ben → Caban
+  const specialIndex =
+    dayOffset - (ROOT_OFFSET - 4);
+
+  if(specialIndex >= 0 && specialIndex <= 4){
+
+    return [
+      0,   // Imix
+      4,   // Chicchan
+      8,   // Muluc
+      12,  // Ben
+      16   // Caban
+    ][specialIndex];
+  }
+
+  // Vanaf 15/11 normale Tzolkin:
+  // workfield wisselt op toon 1, 5, 9 en 13
+  let back;
+
+  if(tone === 13){
+    back = 0;
+  } else if(tone >= 9){
+    back = tone - 9;
+  } else if(tone >= 5){
+    back = tone - 5;
+  } else {
+    back = tone - 1;
+  }
+
+  return ((seal - back) % 20 + 20) % 20;
+}
+
+
 function getHeartPoint(sealIndex, radius = 255){
 
   const angle =
@@ -3023,6 +3159,14 @@ function render(){
 
   const rootStage =
     dayOffset - ROOT_OFFSET + 5;
+
+const heartChakra =
+  document.getElementById("HeartChakra");
+
+heartChakra.setAttribute(
+  "opacity",
+  dayOffset === HEART_CHAKRA_DAY ? "1" : "0"
+);
 
 // ===== BINNENSTE 4-RING ONTVOUWING =====
 
@@ -3249,9 +3393,65 @@ if(beforeOrAtRoot){
   toneSymbol.setAttribute("opacity","1");
 }
 
-
 const wavespellFractal =
   document.getElementById("wavespellFractal");
+
+wavespellFractal.style.cursor = "pointer";
+
+const wavespellButton =
+  document.getElementById("wavespellButton");
+
+const wavespellColorStart =
+  WAVESPELL_FRACTAL_START_DAY + 1; // 11/11 = toon 1
+
+const wavespellBlock =
+  dayOffset < wavespellColorStart
+    ? 0
+    : Math.floor(
+        (dayOffset - wavespellColorStart) / 13
+      );
+
+const wavespellColors = [
+  "rgba(255,0,0,0.7)",       // rood
+  "rgba(255,255,255,0.7)",   // wit
+  "rgba(0,0,255,0.7)",       // blauw
+  "rgba(255,255,0,0.7)"      // geel
+];
+
+if(dayOffset < WAVESPELL_FRACTAL_START_DAY){
+
+  wavespellButton.setAttribute("opacity", "0");
+  wavespellButton.style.pointerEvents = "none";
+
+  // Wavespell bestaat hier nog niet
+  if(wavespellActive){
+
+    wavespellActive = false;
+
+    activePage = "intro";
+
+    document
+      .querySelectorAll(".infoTab")
+      .forEach(tab => {
+        tab.classList.remove("activeTab");
+      });
+
+    updateActivePage();
+  }
+
+} else {
+
+  const colorIndex =
+    ((wavespellBlock % 4) + 4) % 4;
+
+  wavespellButton.setAttribute(
+    "fill",
+    wavespellColors[colorIndex]
+  );
+
+  wavespellButton.setAttribute("opacity", "1");
+  wavespellButton.style.pointerEvents = "auto";
+}
 
 const NORMAL_WAVESPELL_START_DAY = Number(
   daysFromCivil(-17264374702, 11, 14) -
@@ -3311,6 +3511,8 @@ if(dayOffset < WAVESPELL_FRACTAL_START_DAY){
   wavespellFractal.setAttribute("opacity", "1");
 }
 
+
+
 const tzolkinOperatorFractal =
   document.getElementById("tzolkinOperatorFractal");
 
@@ -3364,6 +3566,7 @@ if(dayOffset < TZOLKIN_OPERATOR_START_DAY){
 
   tzolkinOperatorFractal.setAttribute("opacity", "1");
 }
+
 
 
 // ===== HEXAGRAM-ONTVOUWING =====
@@ -3726,6 +3929,18 @@ document.getElementById("iChing")
     `
   );
 
+const wavespellLift =
+  wavespellActive ? -4 : 0;
+
+wavespellButton.setAttribute(
+  "transform",
+  `translate(0 ${wavespellLift})`
+);
+
+wavespellFractal.setAttribute(
+  "transform",
+  `translate(0 ${wavespellLift})`
+);
 
 // ===== HEART KRUIS =====
 
@@ -4786,6 +5001,56 @@ if(night === 0){
   }
 }
 
+wavespellFractal.onclick = () => {
+
+wavespellButton.onclick = () => {
+  wavespellFractal.onclick();
+};
+
+  // Nog niet ontvouwd = niet klikbaar
+  if(dayOffset < WAVESPELL_FRACTAL_START_DAY){
+    return;
+  }
+
+
+  // Zelfde fractal opnieuw → intro
+  if(wavespellActive){
+
+    wavespellActive = false;
+    render();
+    activePage = "intro";
+    updateActivePage();
+
+    return;
+  }
+
+
+  // Sources uit
+  closeSources();
+
+
+  // Chakra's uit
+  document
+    .querySelectorAll(".infoTab")
+    .forEach(tab => {
+      tab.classList.remove("activeTab");
+    });
+
+
+  // Witte historische cellen uit
+  activeHistoryCell = null;
+
+  document
+    .querySelectorAll(".activeHistoryCell")
+    .forEach(cell => {
+      cell.classList.remove("activeHistoryCell");
+    });
+
+
+  wavespellActive = true;
+  render();
+  showWavespellText();
+};
 
 nightTabHover.onclick = () => {
 
@@ -5056,10 +5321,25 @@ function closeSources(){
 
 }
 
+function closeWavespell(){
+
+  if(!wavespellActive){
+    return;
+  }
+
+  wavespellActive = false;
+
+  const wavespellFractal =
+    document.getElementById("wavespellFractal");
+
+  if(wavespellFractal){
+    wavespellFractal.classList.remove("activeWavespell");
+  }
+}
 
 function showSources(){
 
-  // Historische selectie uit
+  closeWavespell();
   activeHistoryCell = null;
 
   document
@@ -5137,6 +5417,7 @@ sourcesButton.onclick = () => {
 function toggleHistoryCell(level, key, cell){
 
 closeSources();
+closeWavespell();
 
   // Zelfde vak opnieuw → terug naar intro
   if(
@@ -5194,6 +5475,7 @@ closeSources();
 function setActivePage(pageName, tabId){
 
 closeSources();
+closeWavespell();
 
 activeHistoryCell = null;
 
