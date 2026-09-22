@@ -97,6 +97,7 @@ const ICHING_UNFOLD_START_DAY = Number(
 );
 
 let wavespellActive = false;
+let operatorActive = false;
 
 const letterO  = document.getElementById("letterO");
 const letterOQ = document.getElementById("letterOQ");
@@ -113,6 +114,14 @@ const HEART_CHAKRA_DAY = Number(
   daysFromCivil(-2, 9, 11) -
   daysFromCivil(1982, 8, 22)
 );
+
+const wavespellOperatorLanguages = {
+  en: wavespell_operators_en,
+  nl: wavespell_operators_nl,
+  ru: wavespell_operators_ru,
+  tr: wavespell_operators_tr,
+  jp: wavespell_operators_jp
+};
 
 const wavespellWorkfieldLanguages = {
   en: wavespell_workfields_en,
@@ -178,6 +187,10 @@ languageSelect.onchange = () => {
 
 if(wavespellActive){
   showWavespellText();
+}
+
+if(operatorActive){
+  showOperatorText();
 }
 
 sourcesButton.textContent =
@@ -268,8 +281,6 @@ if(
   languageSelect.value =
     language;
 }
-
-
 
 
 function updateFromKin(){
@@ -432,6 +443,14 @@ function getHeartType(currentSeal){
   return "normal";
 }
 
+function closeOperator(){
+
+  if(!operatorActive){
+    return;
+  }
+
+  operatorActive = false;
+}
 
 // ===== DATE PICKER =====
 function goToDate(){
@@ -447,6 +466,9 @@ const refreshGo = () => {
     showWavespellText();
   }
 
+  if(operatorActive){
+    showOperatorText();
+  }
 };
 
   const day =
@@ -477,6 +499,10 @@ const diff =
     ((dayOffset % 260) + 260) % 260;
 
   updateFromKin();
+
+if(dayOffset < TZOLKIN_OPERATOR_START_DAY){
+  operatorActive = false;
+}
 
   refreshGo();
 }
@@ -2904,7 +2930,56 @@ for(let i = 0; i < 64; i++){
   rootRing3Items.push(img);
 }
 
+function showOperatorText(){
 
+  const operatorPages =
+    wavespellOperatorLanguages[language] ||
+    wavespell_operators_en;
+
+  const operator =
+    getWavespellOperator();
+
+  if(operator === null){
+    return;
+  }
+
+  const infoPanel =
+    document.getElementById("infoPanel");
+
+  const infoPanelTitle =
+    document.getElementById("infoPanelTitle");
+
+  const infoPanelContent =
+    document.getElementById("infoPanelContent");
+
+  infoPanelTitle.classList.remove("chakraTitle");
+
+  infoPanelTitle.textContent =
+    "Operator";
+
+const operatorBackgrounds = {
+  1:  "rgba(120,0,0,0.35)",       // rood
+  2:  "rgba(255,220,0,0.25)",     // geel
+  3:  "rgba(255,255,255,0.18)",   // wit
+  4:  "rgba(80,180,255,0.25)",    // blauw
+  5:  "rgba(120,0,0,0.35)",       // rood
+  6:  "rgba(255,220,0,0.25)",     // geel
+  7:  "rgba(255,255,255,0.18)",   // wit
+  8:  "rgba(80,180,255,0.25)",    // blauw
+  9:  "rgba(0,128,0,0.25)",       // groen
+  10: "rgba(120,0,0,0.35)",       // rood
+  11: "rgba(255,220,0,0.25)",     // geel
+  12: "rgba(255,255,255,0.18)",   // wit
+  13: "rgba(80,180,255,0.25)"     // blauw
+};
+
+infoPanel.style.backgroundImage = "none";
+infoPanel.style.backgroundColor =
+  operatorBackgrounds[operator];
+
+  infoPanelContent.innerHTML =
+    operatorPages[operator] ?? "";
+}
 
 function showWavespellText(){
 
@@ -2971,6 +3046,45 @@ function showWavespellText(){
     wavespellBackgrounds[colorIndex];
 }
 
+function getWavespellOperator(){
+
+  const firstDay = Number(
+    daysFromCivil(-17264374702, 11, 10) -
+    daysFromCivil(1982, 8, 22)
+  );
+
+  const normalStart = Number(
+    daysFromCivil(-17264374702, 11, 15) -
+    daysFromCivil(1982, 8, 22)
+  );
+
+  if(dayOffset < firstDay){
+    return null;
+  }
+
+  if(dayOffset < normalStart){
+
+const specialOperators = [
+  1,   // 10/11
+  6,   // 11/11
+  11,  // 12/11
+  3,   // 13/11
+  8    // 14/11
+];
+
+    return specialOperators[
+      dayOffset - firstDay
+    ];
+  }
+
+  // 15/11 begint Integreren (9), telkens 20 dagen.
+  const block =
+    Math.floor(
+      (dayOffset - normalStart) / 20
+    );
+
+  return ((8 + block) % 13) + 1;
+}
 
 function getWavespellWorkfieldSeal(){
 
@@ -3512,6 +3626,8 @@ if(dayOffset < WAVESPELL_FRACTAL_START_DAY){
 }
 
 
+const operatorButton =
+  document.getElementById("operatorButton");
 
 const tzolkinOperatorFractal =
   document.getElementById("tzolkinOperatorFractal");
@@ -3568,6 +3684,153 @@ if(dayOffset < TZOLKIN_OPERATOR_START_DAY){
 }
 
 
+
+function toggleOperator(){
+
+  if(dayOffset < OPERATOR_FIRST_DAY){
+    return;
+  }
+
+  if(operatorActive){
+
+    operatorActive = false;
+
+    render();
+
+    activePage = "intro";
+    updateActivePage();
+
+    return;
+  }
+
+  // Alle andere panelen uit
+  closeSources();
+  closeWavespell();
+
+  activeHistoryCell = null;
+
+  document
+    .querySelectorAll(".activeHistoryCell")
+    .forEach(cell => {
+      cell.classList.remove("activeHistoryCell");
+    });
+
+  document
+    .querySelectorAll(".infoTab")
+    .forEach(tab => {
+      tab.classList.remove("activeTab");
+    });
+
+  activePage = "intro";
+  operatorActive = true;
+
+  render();
+  showOperatorText();
+}
+
+operatorButton.onclick = toggleOperator;
+tzolkinOperatorFractal.onclick = toggleOperator;
+
+
+const OPERATOR_NORMAL_START_DAY = Number(
+  daysFromCivil(-17264374702, 11, 15) -
+  daysFromCivil(1982, 8, 22)
+);
+
+const OPERATOR_FIRST_DAY = Number(
+  daysFromCivil(-17264374702, 11, 10) -
+  daysFromCivil(1982, 8, 22)
+);
+
+const operatorBackgrounds = {
+  red:    "rgba(255,0,0,0.7)",       // rood
+  yellow: "rgba(255,255,0,0.7)",     // geel
+  white:  "rgba(255,255,255,0.7)",   // wit
+  blue:   "rgba(0,0,255,0.7)",       // blauw
+  green:  "rgba(0,128,0,0.7)"
+
+};
+
+const operatorLift =
+  operatorActive ? -4 : 0;
+
+operatorButton.setAttribute(
+  "transform",
+  `translate(0 ${operatorLift})`
+);
+
+tzolkinOperatorFractal.setAttribute(
+  "transform",
+  `translate(0 ${operatorLift})`
+);
+
+operatorButton.onclick = toggleOperator;
+tzolkinOperatorFractal.onclick = toggleOperator;
+
+if(dayOffset < OPERATOR_FIRST_DAY){
+
+  operatorButton.setAttribute("opacity", "0");
+  operatorButton.style.pointerEvents = "none";
+
+} else {
+
+  operatorButton.setAttribute("opacity", "1");
+  operatorButton.style.pointerEvents = "auto";
+
+  let operatorColor;
+
+  // 10/11 t/m 14/11
+  if(dayOffset < OPERATOR_NORMAL_START_DAY){
+
+    const specialIndex =
+      dayOffset - OPERATOR_FIRST_DAY;
+
+    const specialColors = [
+      "red",     // 10/11
+      "yellow",  // 11/11
+      "yellow",  // 12/11
+      "white",   // 13/11
+      "blue"     // 14/11
+    ];
+
+    operatorColor =
+      specialColors[specialIndex];
+
+  } else {
+
+    // 15/11 begint operator 9:
+    // 20 dagen groen.
+
+    const block =
+      Math.floor(
+        (dayOffset - OPERATOR_NORMAL_START_DAY) / 20
+      );
+
+    const colors = [
+      "green",   // 9
+      "red",     // 10
+      "yellow",  // 11
+      "white",   // 12
+      "blue",    // 13
+      "red",     // 1
+      "yellow",  // 2
+      "white",   // 3
+      "blue",    // 4
+      "red",     // 5
+      "yellow",  // 6
+      "white",   // 7
+      "blue"     // 8
+    ];
+
+    operatorColor =
+      colors[block % 13];
+  }
+
+  operatorButton.setAttribute(
+    "fill",
+    operatorBackgrounds[operatorColor]
+  );
+}
 
 // ===== HEXAGRAM-ONTVOUWING =====
 
@@ -5025,8 +5288,9 @@ wavespellButton.onclick = () => {
   }
 
 
-  // Sources uit
-  closeSources();
+  // Sources en Operator uit
+closeSources();
+closeOperator();
 
 
   // Chakra's uit
@@ -5340,6 +5604,8 @@ function closeWavespell(){
 function showSources(){
 
   closeWavespell();
+  closeOperator();
+  render();
   activeHistoryCell = null;
 
   document
@@ -5418,6 +5684,8 @@ function toggleHistoryCell(level, key, cell){
 
 closeSources();
 closeWavespell();
+closeOperator();
+render();
 
   // Zelfde vak opnieuw → terug naar intro
   if(
@@ -5474,23 +5742,21 @@ closeWavespell();
 
 function setActivePage(pageName, tabId){
 
-closeSources();
-closeWavespell();
+  closeSources();
+  closeOperator();
+  closeWavespell();
 
-activeHistoryCell = null;
+  activeHistoryCell = null;
 
-document
-  .querySelectorAll(".activeHistoryCell")
-  .forEach(item => {
-    item.classList.remove("activeHistoryCell");
-  });
+  document
+    .querySelectorAll(".activeHistoryCell")
+    .forEach(item => {
+      item.classList.remove("activeHistoryCell");
+    });
 
   if(activePage === pageName){
-
     activePage = "intro";
-
   } else {
-
     activePage = pageName;
   }
 
@@ -5501,13 +5767,13 @@ document
     });
 
   if(activePage !== "intro"){
-
     document
       .getElementById(tabId)
       .classList.add("activeTab");
   }
 
   updateActivePage();
+  render();
 }
 
 

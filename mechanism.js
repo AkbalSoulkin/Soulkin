@@ -7,6 +7,16 @@ function step(){
     if(sourcesActive){
       showSources();
     }
+
+  if(wavespellActive){
+    showWavespellText();
+  }
+
+if(operatorActive){
+  showOperatorText();
+
+ }
+
   };
 
   if(animating) return;
