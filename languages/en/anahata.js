@@ -5,10 +5,6 @@ const anahataPages_en = {
 
 <br><br>
 
-Imix is the consciousness orientation expressed as source. A source is an origin. A source makes emergence possible. It is associated with everything that emerges from it.
-
-<br><br>
-
 People with Source often naturally form the beginning of a new development.
 
 They bring forth ideas, possibilities, or initiatives and give others the space to build upon them.
@@ -19,10 +15,6 @@ Their strength lies in creating a new beginning, while their challenge may be th
 
 2: `
 0011 (Ik) · Information
-
-<br><br>
-
-Ik is the consciousness orientation expressed as information. Information is a pattern. A pattern makes distinction possible. It is associated with recognition and organization.
 
 <br><br>
 
@@ -39,10 +31,6 @@ Their strength lies in making coherence within information visible, while their 
 
 <br><br>
 
-Akbal is the consciousness orientation expressed as imagination. Imagination is a representation. A representation makes inner formation possible. It is associated with meaning.
-
-<br><br>
-
 People with Imagination often naturally form a rich inner world.
 
 They see possibilities, images, and meanings that are not yet visible and give form to what previously existed only as an idea.
@@ -52,11 +40,7 @@ Their strength lies in making inner possibilities visible, while their challenge
 `,
 
 4: `
-Kan (0000) · Potential
-
-<br><br>
-
-Kan is the consciousness orientation expressed as potential. Potential consists of possibilities. Possibilities make development possible. They are associated with everything that can emerge.
+0000 (Kan) · Potential
 
 <br><br>
 
@@ -73,10 +57,6 @@ Their strength lies in recognizing and developing hidden possibilities, while th
 
 <br><br>
 
-Chicchan is the consciousness orientation expressed as energy. Energy makes change possible. Change produces movement. It is associated with every form of activity.
-
-<br><br>
-
 People with Energy often naturally sense when something needs to be set in motion.
 
 They bring vitality, drive, and change and encourage development by taking action.
@@ -87,10 +67,6 @@ Their strength lies in turning energy into movement, while their challenge may b
 
 6: `
 0111 (Cimi) · Boundaries
-
-<br><br>
-
-Cimi is the consciousness orientation expressed as boundaries. Boundaries are delimitations. Delimitations make limitation possible. They are associated with everything that defines the limits of a form.
 
 <br><br>
 
@@ -107,10 +83,6 @@ Their strength lies in both guarding and extending boundaries, while their chall
 
 <br><br>
 
-Manik is the consciousness orientation expressed as interaction. Interaction is a reciprocal exchange. Reciprocal exchange makes influence possible. It is associated with everything that encounters something else.
-
-<br><br>
-
 People with Interaction often naturally bring people, ideas, or experiences into connection with one another.
 
 They learn through exchange and influence their surroundings through what they do, share, and apply.
@@ -120,10 +92,6 @@ Their strength lies in creating meaningful interaction, while their challenge ma
 `,
 8: `
 0100 (Lamat) · Value
-
-<br><br>
-
-Lamat is the consciousness orientation expressed as value. Value is that to which meaning is attributed. It makes relevance visible. It is associated with everything that is given meaning.
 
 <br><br>
 
@@ -140,10 +108,6 @@ Their strength lies in making meaning visible, while their challenge may be that
 
 <br><br>
 
-Muluc is the consciousness orientation expressed as flow. Flow is a transfer. Transfer makes progress possible. It is associated with everything that is passed on.
-
-<br><br>
-
 People with Flow often naturally sense what wants to be set in motion.
 
 They set ideas, feelings, and developments in motion and adapt easily to changing circumstances.
@@ -154,10 +118,6 @@ Their strength lies in allowing what wants to move forward to keep flowing, whil
 
 10: `
 11 (Oc) · Relationship
-
-<br><br>
-
-Oc is the consciousness orientation expressed as relationship. A relationship is a connection. A connection makes connectedness possible. It is associated with everything that connects one thing to another.
 
 <br><br>
 
@@ -174,10 +134,6 @@ Their strength lies in connecting people through mutual trust, while their chall
 
 <br><br>
 
-Chuen is the consciousness orientation expressed as expression. Expression is an outward manifestation. An outward manifestation makes visible what is present within. It is associated with every form of communication.
-
-<br><br>
-
 People with Expression often naturally bring their inner world outward.
 
 They give form to ideas, feelings, and experiences and inspire others through their creativity, humor, or way of communicating.
@@ -188,10 +144,6 @@ Their strength lies in making visible what lives within, while their challenge m
 
 12: `
 1100 (Eb) · Life Path
-
-<br><br>
-
-Eb is the consciousness orientation expressed as life path. A life path is a trajectory. A trajectory makes development visible. It is associated with every form of progress.
 
 <br><br>
 
@@ -208,10 +160,6 @@ Their strength lies in consciously shaping their own development, while their ch
 
 <br><br>
 
-Ben is the consciousness orientation expressed as structure. Structure is organization. Organization makes composition possible. It is associated with everything that is organized.
-
-<br><br>
-
 People with Structure often naturally bring order and direction to complex situations.
 
 From a clear vision, they build a solid foundation upon which others can continue to build and know how to turn ideas into lasting forms.
@@ -225,10 +173,6 @@ Their strength lies in creating stability and direction, while their challenge m
 
 <br><br>
 
-Ix is the consciousness orientation expressed as consciousness. Consciousness is awareness. Awareness makes experience possible. It is associated with everything that is perceived.
-
-<br><br>
-
 People with Consciousness often naturally perceive what is present beneath the surface.
 
 They connect insight, intuition, and experience into a deeper understanding of themselves, others, and their surroundings.
@@ -238,10 +182,6 @@ Their strength lies in becoming conscious of what is truly happening, while thei
 `,
 15: `
 10 (Men) · Perspective
-
-<br><br>
-
-Men is the consciousness orientation expressed as perspective. Perspective is an orientation. Orientation makes direction visible. It is associated with every way of looking.
 
 <br><br>
 
@@ -258,10 +198,6 @@ Their strength lies in broadening insight by looking from different points of vi
 
 <br><br>
 
-Cib is the consciousness orientation expressed as trace. A trace is a record. A record makes return possible. It is associated with everything that leaves an impression.
-
-<br><br>
-
 People with Trace often naturally recognize which experiences have lasting meaning.
 
 They learn from what has been and use those insights to provide direction for themselves and others.
@@ -272,10 +208,6 @@ Their strength lies in making visible the lessons that experiences leave behind,
 
 17: `
 1001 (Caban) · Manifestation
-
-<br><br>
-
-Caban is the consciousness orientation expressed as manifestation. Manifestation is a phenomenon. A phenomenon makes perception possible. It is associated with everything that becomes visible.
 
 <br><br>
 
@@ -292,10 +224,6 @@ Their strength lies in making visible what previously existed only as a possibil
 
 <br><br>
 
-Etznab is the consciousness orientation expressed as truth. Truth is correspondence. Correspondence makes recognition possible. It is associated with everything that corresponds with reality.
-
-<br><br>
-
 People with Truth often naturally recognize what truly corresponds with reality.
 
 They see through appearances, bring clarity to complex situations, and help distinguish between what is true and what merely appears to be.
@@ -309,10 +237,6 @@ Their strength lies in making truth visible without losing sight of coherence, w
 
 <br><br>
 
-Cauac is the consciousness orientation expressed as coherence. Coherence is the quality of forming a connected whole. Coherence makes a whole possible. It is associated with everything that is interconnected.
-
-<br><br>
-
 People with Coherence often naturally recognize how separate parts are connected to one another.
 
 They bring change not to disrupt, but to allow a new balance to emerge in which everything works together more effectively.
@@ -323,10 +247,6 @@ Their strength lies in restoring coherence through development and renewal, whil
 
 20: `
 00 (Ahau) · Essence
-
-<br><br>
-
-Ahau is the consciousness orientation expressed as essence. Essence is that which makes something what it is. A core makes identity possible. It is associated with everything that is essential.
 
 <br><br>
 

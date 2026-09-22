@@ -1,15 +1,7 @@
 const muladharaPages_tr = {
 
 1: `
-Ton: 1 (Koç) · Gerçekleştirmek
-
-<br><br>
-
-Gerçekleştirmek, gerçekleşme olarak ifade edilen bilinç yönelimidir.
-
-Gerçekleşme, gerçekliği mümkün kılar.
-
-Somut biçimin başlangıcıyla ilişkilidir.
+Ton: 1 (Koç) · 101 · Gerçekleştirmek
 
 <br><br>
 
@@ -22,15 +14,7 @@ Onların asıl zorluğu başlamaktan çok, başladıkları şeyi tamamlamaktır.
 `,
 
 2: `
-Ton: 2 (Boğa) · Kabul Etmek
-
-<br><br>
-
-Kabul Etmek, kabulleniş olarak ifade edilen bilinç yönelimidir.
-
-Kabulleniş, var olanın olduğu gibi mevcut olmasına alan açar.
-
-Zaten var olanı olduğu hâliyle kabul etmekle ilişkilidir.
+Ton: 2 (Boğa) · 000 · Kabul Etmek
 
 <br><br>
 
@@ -43,15 +27,7 @@ Güçleri, gerçekliği olduğu gibi kabul ederek istikrar yaratmalarında yatar
 `,
 
 3: `
-Ton: 3 (İkizler) · Ayırt Etmek
-
-<br><br>
-
-Ayırt Etmek, farklılık olarak ifade edilen bilinç yönelimidir.
-
-Farklılık, tanımayı mümkün kılar.
-
-Kimliğin ortaya çıkışıyla ilişkilidir.
+Ton: 3 (İkizler) · 111 · Ayırt Etmek
 
 <br><br>
 
@@ -64,15 +40,7 @@ Güçleri, neyin dikkat gerektirdiğini açıkça ayırt etmelerinde yatar; zorl
 `,
 
 4: `
-Ton: 4 (Yengeç) · Konumlandırmak
-
-<br><br>
-
-Konumlandırmak, konumlandırma olarak ifade edilen bilinç yönelimidir.
-
-Konumlandırma, ilişkilerin görünür hâle gelmesini mümkün kılar.
-
-Bağlamla ilişkilidir.
+Ton: 4 (Yengeç) · 010 · Konumlandırmak
 
 <br><br>
 
@@ -84,15 +52,7 @@ Güçleri, açıklık ve bütünlük yaratmalarında yatar; zorlukları ise değ
 
 `,
 5: `
-Ton: 5 (Aslan) · Seçmek
-
-<br><br>
-
-Seçmek, seçim olarak ifade edilen bilinç yönelimidir.
-
-Seçim, odaklanmayı mümkün kılar.
-
-Odak ve öncelikle ilişkilidir.
+Ton: 5 (Aslan) · 101 · Seçmek
 
 <br><br>
 
@@ -105,15 +65,7 @@ Güçleri, odak ve yön oluşturmalarında yatar; zorlukları ise fazla kontrol 
 `,
 
 6: `
-Ton: 6 (Başak) · İyileştirmek
-
-<br><br>
-
-İyileştirmek, gelişme olarak ifade edilen bilinç yönelimidir.
-
-Gelişme, kaliteyi mümkün kılar.
-
-Hassasiyet ve uyumla ilişkilidir.
+Ton: 6 (Başak) · 000 · İyileştirmek
 
 <br><br>
 
@@ -126,15 +78,7 @@ Güçleri, zaten var olanı geliştirmelerinde yatar; zorlukları ise bir şey z
 `,
 
 7: `
-Ton: 7 (Terazi) · Uyumlamak
-
-<br><br>
-
-Uyumlamak, uyum olarak ifade edilen bilinç yönelimidir.
-
-Uyum, bütünlüğü mümkün kılar.
-
-Rezonansla ilişkilidir.
+Ton: 7 (Terazi) · 111 · Uyumlamak
 
 <br><br>
 
@@ -147,15 +91,7 @@ Güçleri, uyum ve ilham yaratmalarında yatar; zorlukları ise başkalarına fa
 `,
 
 8: `
-Ton: 8 (Akrep) · Dönüştürmek
-
-<br><br>
-
-Dönüştürmek, değişim olarak ifade edilen bilinç yönelimidir.
-
-Değişim, yenilenmeyi mümkün kılar.
-
-Geçiş ve gelişimle ilişkilidir.
+Ton: 8 (Akrep) · 010 · Dönüştürmek
 
 <br><br>
 
@@ -168,15 +104,7 @@ Güçleri, değişimi gelişime dönüştürmelerinde yatar; zorlukları ise ken
 `,
 
 9: `
-Ton: 9 (Yılancı) · Bütünleştirmek
-
-<br><br>
-
-Bütünleştirmek, bütünleşme olarak ifade edilen bilinç yönelimidir.
-
-Bütünleşme, birlikte işleyişi mümkün kılar.
-
-Bağlantı ve bütünlükle ilişkilidir.
+Ton: 9 (Yılancı) · 1 · Bütünleştirmek
 
 <br><br>
 
@@ -189,15 +117,7 @@ Güçleri, ayrı deneyimleri anlamlı bir bütün içinde birleştirmelerinde ya
 `,
 
 10: `
-Ton: 10 (Yay) · Kavramak
-
-<br><br>
-
-Kavramak, içgörü olarak ifade edilen bilinç yönelimidir.
-
-İçgörü, anlayışı mümkün kılar.
-
-Öz ve anlamla ilişkilidir.
+Ton: 10 (Yay) · 001 · Kavramak
 
 <br><br>
 
@@ -210,15 +130,7 @@ Güçleri, anlayışı somut sonuçlara dönüştürmelerinde yatar; zorlukları
 `,
 
 11: `
-Ton: 11 (Oğlak) · Kalıcılaştırmak
-
-<br><br>
-
-Kalıcılaştırmak, kalıcılık olarak ifade edilen bilinç yönelimidir.
-
-Kalıcılık, sürekliliği mümkün kılar.
-
-İstikrar ve güvenilirlikle ilişkilidir.
+Ton: 11 (Oğlak) · 100 · Kalıcılaştırmak
 
 <br><br>
 
@@ -231,15 +143,7 @@ Güçleri, gerçekten anlamlı olanı kalıcı hâle getirmelerinde yatar; zorlu
 `,
 
 12: `
-Ton: 12 (Kova) · Açmak
-
-<br><br>
-
-Açmak, erişilebilirlik olarak ifade edilen bilinç yönelimidir.
-
-Erişilebilirlik, aktarımı mümkün kılar.
-
-Paylaşım ve ulaşılabilirlikle ilişkilidir.
+Ton: 12 (Kova) · 011 · Açmak
 
 <br><br>
 
@@ -252,15 +156,7 @@ Güçleri, değerli olanı paylaşmalarında yatar; zorlukları ise bilgiyi ger�
 `,
 
 13: `
-Ton: 13 (Balık) · Serbest Bırakmak
-
-<br><br>
-
-Serbest Bırakmak, bırakma olarak ifade edilen bilinç yönelimidir.
-
-Bırakmak, bağımsız devamlılığı mümkün kılar.
-
-Özgürlük ve devamlılıkla ilişkilidir.
+Ton: 13 (Balık) · 110 · Serbest Bırakmak
 
 <br><br>
 

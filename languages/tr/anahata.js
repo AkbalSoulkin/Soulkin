@@ -5,10 +5,6 @@ const anahataPages_tr = {
 
 <br><br>
 
-Imix, kaynak olarak ifade edilen bilinç yönelimidir. Kaynak bir başlangıç noktasıdır. Kaynak, bir şeyin ortaya çıkmasını mümkün kılar. Kendisinden ortaya çıkan her şeyle ilişkilidir.
-
-<br><br>
-
 Kaynak insanları çoğu zaman doğal olarak yeni bir gelişimin başlangıcını oluştururlar.
 
 Fikirler, olasılıklar veya girişimler ortaya çıkarır ve başkalarına bunların üzerine inşa edebilecekleri alanı sağlarlar.
@@ -19,10 +15,6 @@ Güçleri yeni bir başlangıç yaratmalarında yatar; zorlukları ise harekete 
 
 2: `
 0011 (Ik) · Bilgi
-
-<br><br>
-
-Ik, bilgi olarak ifade edilen bilinç yönelimidir. Bilgi bir örüntüdür. Örüntü, ayırt etmeyi mümkün kılar. Tanıma ve düzenlemeyle ilişkilidir.
 
 <br><br>
 
@@ -39,10 +31,6 @@ Güçleri bilgi içindeki bütünlüğü görünür hâle getirmelerinde yatar; 
 
 <br><br>
 
-Akbal, hayal gücü olarak ifade edilen bilinç yönelimidir. Hayal gücü bir tasarımdır. Bir tasarım, içsel biçimlenmeyi mümkün kılar. Anlamla ilişkilidir.
-
-<br><br>
-
 Hayal Gücü insanları çoğu zaman doğal olarak zengin bir iç dünya oluştururlar.
 
 Henüz görünür olmayan olasılıkları, imgeleri ve anlamları görür ve daha önce yalnızca bir fikir olarak var olan şeye biçim verirler.
@@ -53,10 +41,6 @@ Güçleri içsel olasılıkları görünür hâle getirmelerinde yatar; zorlukla
 
 4: `
 0000 (Kan) · Potansiyel
-
-<br><br>
-
-Kan, potansiyel olarak ifade edilen bilinç yönelimidir. Potansiyel olasılıklardan oluşur. Olasılıklar gelişimi mümkün kılar. Ortaya çıkabilecek her şeyle ilişkilidir.
 
 <br><br>
 
@@ -73,10 +57,6 @@ Güçleri gizli olasılıkları fark edip geliştirmelerinde yatar; zorlukları 
 
 <br><br>
 
-Chicchan, enerji olarak ifade edilen bilinç yönelimidir. Enerji değişimi mümkün kılar. Değişim hareket yaratır. Her türlü etkinlikle ilişkilidir.
-
-<br><br>
-
 Enerji insanları çoğu zaman doğal olarak bir şeyin ne zaman harekete geçmesi gerektiğini hissederler.
 
 Canlılık, hareket gücü ve değişim getirir ve harekete geçerek gelişimi teşvik ederler.
@@ -87,10 +67,6 @@ Güçleri enerjiyi harekete dönüştürmelerinde yatar; zorlukları ise enerjil
 
 6: `
 0111 (Cimi) · Sınırlar
-
-<br><br>
-
-Cimi, sınırlar olarak ifade edilen bilinç yönelimidir. Sınırlar ayrımlardır. Ayrımlar, sınırlandırmayı mümkün kılar. Bir biçimin sınırlarını belirleyen her şeyle ilişkilidir.
 
 <br><br>
 
@@ -107,10 +83,6 @@ Güçleri sınırları hem korumalarında hem de genişletmelerinde yatar; zorlu
 
 <br><br>
 
-Manik, etkileşim olarak ifade edilen bilinç yönelimidir. Etkileşim karşılıklı bir etkilemedir. Karşılıklı etkileme, etkilenmeyi mümkün kılar. Birbiriyle karşılaşan her şeyle ilişkilidir.
-
-<br><br>
-
 Etkileşim insanları çoğu zaman doğal olarak insanları, fikirleri veya deneyimleri birbirleriyle bağlantıya getirirler.
 
 Alışveriş yoluyla öğrenir ve yaptıkları, paylaştıkları ve uyguladıkları şeyler aracılığıyla çevrelerini etkilerler.
@@ -121,10 +93,6 @@ Güçleri anlamlı etkileşim yaratmalarında yatar; zorlukları ise başkaları
 
 8: `
 0100 (Lamat) · Değer
-
-<br><br>
-
-Lamat, değer olarak ifade edilen bilinç yönelimidir. Değer, kendisine anlam yüklenen şeydir. Değer, neyin önemli olduğunu görünür hâle getirir. Anlam kazanan her şeyle ilişkilidir.
 
 <br><br>
 
@@ -141,10 +109,6 @@ Güçleri anlamı görünür hâle getirmelerinde yatar; zorlukları ise yargıl
 
 <br><br>
 
-Muluc, akış olarak ifade edilen bilinç yönelimidir. Akış bir aktarımdır. Aktarım ilerlemeyi mümkün kılar. Aktarılan her şeyle ilişkilidir.
-
-<br><br>
-
 Akış insanları çoğu zaman doğal olarak neyin harekete geçmek istediğini hissederler.
 
 Fikirleri, duyguları ve gelişmeleri harekete geçirir ve değişen koşullara kolayca uyum sağlarlar.
@@ -155,10 +119,6 @@ Güçleri ilerlemek isteyen şeyin akmaya devam etmesini sağlamalarında yatar;
 
 10: `
 11 (Oc) · İlişki
-
-<br><br>
-
-Oc, ilişki olarak ifade edilen bilinç yönelimidir. İlişki bir bağdır. Bir bağ, bağlılığı mümkün kılar. Bir şeyi başka bir şeye bağlayan her şeyle ilişkilidir.
 
 <br><br>
 
@@ -175,10 +135,6 @@ Güçleri insanları karşılıklı güven aracılığıyla birbirine bağlamala
 
 <br><br>
 
-Chuen, ifade olarak ifade edilen bilinç yönelimidir. İfade bir dışavurumdur. Dışavurum, içte bulunanı görünür hâle getirir. Her türlü iletişim biçimiyle ilişkilidir.
-
-<br><br>
-
 İfade insanları çoğu zaman doğal olarak iç dünyalarını dışarıya yansıtırlar.
 
 Fikirlere, duygulara ve deneyimlere biçim verir ve yaratıcılıkları, mizahları veya iletişim biçimleriyle başkalarına ilham verirler.
@@ -189,10 +145,6 @@ Güçleri içlerinde yaşayanı görünür hâle getirmelerinde yatar; zorluklar
 
 12: `
 1100 (Eb) · Yaşam Yolu
-
-<br><br>
-
-Eb, yaşam yolu olarak ifade edilen bilinç yönelimidir. Yaşam yolu bir süreçtir. Bir süreç, gelişimi görünür hâle getirir. Her türlü ilerlemeyle ilişkilidir.
 
 <br><br>
 
@@ -209,10 +161,6 @@ Güçleri kendi gelişimlerini bilinçli olarak şekillendirmelerinde yatar; zor
 
 <br><br>
 
-Ben, yapı olarak ifade edilen bilinç yönelimidir. Yapı bir düzenlemedir. Düzenleme, parçaların bir araya gelmesini mümkün kılar. Organize edilmiş her şeyle ilişkilidir.
-
-<br><br>
-
 Yapı insanları çoğu zaman doğal olarak karmaşık durumlara düzen ve yön getirirler.
 
 Açık bir vizyondan hareketle başkalarının üzerine inşa etmeye devam edebileceği sağlam bir temel oluşturur ve fikirleri kalıcı biçimlere dönüştürmeyi bilirler.
@@ -226,10 +174,6 @@ Güçleri istikrar ve yön yaratmalarında yatar; zorlukları ise tam da yenilen
 
 <br><br>
 
-Ix, bilinç olarak ifade edilen bilinç yönelimidir. Bilinç farkındalıktır. Farkındalık, deneyimi mümkün kılar. Algılanan her şeyle ilişkilidir.
-
-<br><br>
-
 Bilinç insanları çoğu zaman doğal olarak yüzeyin altında bulunanı algılarlar.
 
 İçgörüyü, sezgiyi ve deneyimi bir araya getirerek kendileri, başkaları ve çevreleri hakkında daha derin bir anlayış geliştirirler.
@@ -239,10 +183,6 @@ Güçleri gerçekte ne olup bittiğinin bilincine varmalarında yatar; zorluklar
 `,
 15: `
 10 (Men) · Bakış Açısı
-
-<br><br>
-
-Men, bakış açısı olarak ifade edilen bilinç yönelimidir. Bakış açısı bir yönelimdir. Yönelim, yönü görünür hâle getirir. Her türlü bakış biçimiyle ilişkilidir.
 
 <br><br>
 
@@ -259,10 +199,6 @@ Güçleri farklı bakış açılarından bakarak anlayışı genişletmelerinde 
 
 <br><br>
 
-Cib, iz olarak ifade edilen bilinç yönelimidir. İz bir kayıttır. Kayıt, geri dönmeyi mümkün kılar. Bir izlenim bırakan her şeyle ilişkilidir.
-
-<br><br>
-
 İz insanları çoğu zaman doğal olarak hangi deneyimlerin kalıcı anlam taşıdığını fark ederler.
 
 Geçmişte yaşananlardan öğrenir ve bu içgörüleri kendilerine ve başkalarına yön vermek için kullanırlar.
@@ -273,10 +209,6 @@ Güçleri deneyimlerin geride bıraktığı dersleri görünür hâle getirmeler
 
 17: `
 1001 (Caban) · Tezahür
-
-<br><br>
-
-Caban, tezahür olarak ifade edilen bilinç yönelimidir. Tezahür bir olgudur. Bir olgu, algıyı mümkün kılar. Görünür hâle gelen her şeyle ilişkilidir.
 
 <br><br>
 
@@ -293,10 +225,6 @@ Güçleri daha önce yalnızca bir olasılık olarak var olanı görünür hâle
 
 <br><br>
 
-Etznab, hakikat olarak ifade edilen bilinç yönelimidir. Hakikat bir uygunluktur. Uygunluk, tanımayı mümkün kılar. Gerçeklikle örtüşen her şeyle ilişkilidir.
-
-<br><br>
-
 Hakikat insanları çoğu zaman doğal olarak neyin gerçekten gerçeklikle örtüştüğünü fark ederler.
 
 Görünüşün ötesini görür, karmaşık durumlara açıklık getirir ve neyin hakikat olduğunu, neyin yalnızca öyle göründüğünü ayırt etmeye yardımcı olurlar.
@@ -310,10 +238,6 @@ Güçleri bütünlüğü gözden kaçırmadan hakikati görünür hâle getirmel
 
 <br><br>
 
-Cauac, bütünlük olarak ifade edilen bilinç yönelimidir. Bütünlük, parçaların birbirleriyle tutarlı bir bütün oluşturmasıdır. Bu tutarlılık, bir bütünün oluşmasını mümkün kılar. Birbiriyle bağlantılı olan her şeyle ilişkilidir.
-
-<br><br>
-
 Bütünlük insanları çoğu zaman doğal olarak ayrı parçaların birbirleriyle nasıl bağlantılı olduğunu fark ederler.
 
 Değişimi mevcut olanı bozmak için değil, her şeyin birlikte daha iyi işlediği yeni bir dengenin ortaya çıkabilmesi için getirirler.
@@ -324,10 +248,6 @@ Güçleri gelişim ve yenilenme yoluyla bütünlüğü yeniden oluşturmalarınd
 
 20: `
 00 (Ahau) · Öz
-
-<br><br>
-
-Ahau, öz olarak ifade edilen bilinç yönelimidir. Öz, bir şeyi kendisi yapan şeydir. Bir çekirdek, kimliği mümkün kılar. Özsel olan her şeyle ilişkilidir.
 
 <br><br>
 

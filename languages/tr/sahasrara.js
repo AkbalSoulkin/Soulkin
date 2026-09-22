@@ -1,9 +1,11 @@
 const sahasraraPages_tr = {
 
 1: `
-G1 (Kalp) · Yolumda nasıl kalabilirim?
+G1 (Kalp) · 0
 
 <br><br>
+
+Yolumda nasıl kalabilirim?
 
 Yol her zaman hareket ederek bulunmaz.
 

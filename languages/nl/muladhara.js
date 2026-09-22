@@ -1,15 +1,7 @@
 const muladharaPages_nl = {
 
 1: `
-Toon: 1 (Ram) · Actualiseren
-
-<br><br>
-
-Actualiseren is de bewustzijnsoriëntatie die zich uitdrukt als verwezenlijking.
-
-Verwezenlijking maakt werkelijkheid mogelijk.
-
-Zij hangt samen met het begin van concrete vorm.
+Toon: 1 (Ram) · 101 · Actualiseren
 
 <br><br>
 
@@ -22,15 +14,7 @@ Hun uitdaging ligt minder in het beginnen dan in het voltooien.
 `,
 
 2: `
-Toon: 2 (Stier) · Erkennen
-
-<br><br>
-
-Erkennen is de bewustzijnsoriëntatie die zich uitdrukt als aanvaarding.
-
-Aanvaarding maakt aanwezigheid mogelijk.
-
-Zij hangt samen met het toelaten van wat bestaat.
+Toon: 2 (Stier) · 000 · Erkennen
 
 <br><br>
 
@@ -43,15 +27,7 @@ Hun kracht ligt in het scheppen van stabiliteit door de werkelijkheid te erkenne
 `,
 
 3: `
-Toon: 3 (Tweelingen) · Onderscheiden
-
-<br><br>
-
-Onderscheiden is de bewustzijnsoriëntatie die zich uitdrukt als verschil.
-
-Verschil maakt herkenning mogelijk.
-
-Zij hangt samen met het ontstaan van identiteit.
+Toon: 3 (Tweelingen) · 111 · Onderscheiden
 
 <br><br>
 
@@ -64,15 +40,7 @@ Hun kracht ligt in het helder onderscheiden van wat aandacht vraagt, terwijl hun
 `,
 
 4: `
-Toon: 4 (Kreeft) · Plaatsen
-
-<br><br>
-
-Plaatsen is de bewustzijnsoriëntatie die zich uitdrukt als positionering.
-
-Positionering maakt verhouding mogelijk.
-
-Zij hangt samen met context.
+Toon: 4 (Kreeft) · 010 · Plaatsen
 
 <br><br>
 
@@ -85,15 +53,7 @@ Hun kracht ligt in het scheppen van overzicht en samenhang, terwijl hun uitdagin
 `,
 
 5: `
-Toon: 5 (Leeuw) · Selecteren
-
-<br><br>
-
-Selecteren is de bewustzijnsoriëntatie die zich uitdrukt als keuze.
-
-Selectie maakt gerichtheid mogelijk.
-
-Zij hangt samen met focus en prioriteit.
+Toon: 5 (Leeuw) · 101 · Selecteren
 
 <br><br>
 
@@ -105,15 +65,7 @@ Hun kracht ligt in het aanbrengen van focus en richting, terwijl hun uitdaging k
 `,
 
 6: `
-Toon: 6 (Maagd) · Verfijnen
-
-<br><br>
-
-Verfijnen is de bewustzijnsoriëntatie die zich uitdrukt als verbetering.
-
-Verfijning maakt kwaliteit mogelijk.
-
-Zij hangt samen met nauwkeurigheid en afstemming.
+Toon: 6 (Maagd) · 000 · Verfijnen
 
 <br><br>
 
@@ -126,15 +78,7 @@ Hun kracht ligt in het verbeteren van wat al bestaat, terwijl hun uitdaging kan 
 `,
 
 7: `
-Toon: 7 (Weegschaal) · Afstemmen
-
-<br><br>
-
-Afstemmen is de bewustzijnsoriëntatie die zich uitdrukt als afstemming.
-
-Afstemming maakt samenhang mogelijk.
-
-Zij hangt samen met resonantie.
+Toon: 7 (Weegschaal) · 111 · Afstemmen
 
 <br><br>
 
@@ -147,15 +91,7 @@ Hun kracht ligt in het creëren van harmonie en inspiratie, terwijl hun uitdagin
 `,
 
 8: `
-Toon: 8 (Schorpioen) · Transformeren
-
-<br><br>
-
-Transformeren is de bewustzijnsoriëntatie die zich uitdrukt als verandering.
-
-Verandering maakt vernieuwing mogelijk.
-
-Zij hangt samen met overgang en ontwikkeling.
+Toon: 8 (Schorpioen) · 010 · Transformeren
 
 <br><br>
 
@@ -168,15 +104,7 @@ Hun kracht ligt in het omzetten van verandering in ontwikkeling, terwijl hun uit
 `,
 
 9: `
-Toon: 9 (Slangendrager) · Integreren
-
-<br><br>
-
-Integreren is de bewustzijnsoriëntatie die zich uitdrukt als integratie.
-
-Integratie maakt samen functioneren mogelijk.
-
-Zij hangt samen met verbinding en heelheid.
+Toon: 9 (Slangendrager) · 1 · Integreren
 
 <br><br>
 
@@ -189,15 +117,7 @@ Hun kracht ligt in het verbinden van losse ervaringen tot een betekenisvol gehee
 `,
 
 10: `
-Toon: 10 (Boogschutter) · Doorgronden
-
-<br><br>
-
-Doorgronden is de bewustzijnsoriëntatie die zich uitdrukt als inzicht.
-
-Inzicht maakt begrip mogelijk.
-
-Zij hangt samen met essentie en betekenis.
+Toon: 10 (Boogschutter) · 001 · Doorgronden
 
 <br><br>
 
@@ -210,15 +130,7 @@ Hun kracht ligt in het omzetten van begrip in concrete resultaten, terwijl hun u
 `,
 
 11: `
-Toon: 11 (Steenbok) · Verankeren
-
-<br><br>
-
-Verankeren is de bewustzijnsoriëntatie die zich uitdrukt als bestendiging.
-
-Bestendiging maakt continuïteit mogelijk.
-
-Zij hangt samen met stabiliteit en betrouwbaarheid.
+Toon: 11 (Steenbok) · 100 · Verankeren
 
 <br><br>
 
@@ -231,15 +143,7 @@ Hun kracht ligt in het bestendigen van wat werkelijk betekenisvol is, terwijl hu
 `,
 
 12: `
-Toon: 12 (Waterman) · Ontsluiten
-
-<br><br>
-
-Ontsluiten is de bewustzijnsoriëntatie die zich uitdrukt als toegankelijkheid.
-
-Toegankelijkheid maakt overdracht mogelijk.
-
-Zij hangt samen met delen en beschikbaarheid.
+Toon: 12 (Waterman) · 011 · Ontsluiten
 
 <br><br>
 
@@ -252,15 +156,7 @@ Hun kracht ligt in het delen van wat waardevol is, terwijl hun uitdaging kan zij
 `,
 
 13: `
-Toon: 13 (Vissen) · Vrijmaken
-
-<br><br>
-
-Vrijmaken is de bewustzijnsoriëntatie die zich uitdrukt als loslaten.
-
-Loslaten maakt zelfstandige voortzetting mogelijk.
-
-Zij hangt samen met vrijheid en voortzetting.
+Toon: 13 (Vissen) · 110 · Vrijmaken
 
 <br><br>
 

@@ -1,9 +1,11 @@
 const sahasraraPages_en = {
 
 1: `
-G1 (Heart) · How do I stay on the path?
+G1 (Heart) · 0
 
 <br><br>
+
+How do I stay on the path?
 
 The path is not always found through movement.
 

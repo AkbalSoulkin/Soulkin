@@ -1,15 +1,7 @@
 const muladharaPages_en = {
 
 1: `
-Tone: 1 (Aries) · Actualize
-
-<br><br>
-
-Actualize is the consciousness orientation expressed as realization.
-
-Realization makes reality possible.
-
-It is associated with the beginning of concrete form.
+Tone: 1 (Aries) · 101 · Actualize
 
 <br><br>
 
@@ -22,15 +14,7 @@ Their challenge lies less in starting than in bringing things to completion.
 `,
 
 2: `
-Tone: 2 (Taurus) · Acknowledge
-
-<br><br>
-
-Acknowledge is the consciousness orientation expressed as acceptance.
-
-Acceptance makes presence possible.
-
-It is associated with allowing what already exists.
+Tone: 2 (Taurus) · 000 · Acknowledge
 
 <br><br>
 
@@ -43,15 +27,7 @@ Their strength lies in creating stability by recognizing reality as it is, while
 `,
 
 3: `
-Tone: 3 (Gemini) · Distinguish
-
-<br><br>
-
-Distinguish is the consciousness orientation expressed as distinction.
-
-Distinction makes recognition possible.
-
-It is associated with the emergence of identity.
+Tone: 3 (Gemini) · 111 · Distinguish
 
 <br><br>
 
@@ -64,15 +40,7 @@ Their strength lies in clearly distinguishing what deserves attention, while the
 `,
 
 4: `
-Tone: 4 (Cancer) · Position
-
-<br><br>
-
-Position is the consciousness orientation expressed as positioning.
-
-Positioning makes relationship possible.
-
-It is associated with context.
+Tone: 4 (Cancer) · 010 · Position
 
 <br><br>
 
@@ -84,15 +52,7 @@ Their strength lies in creating clarity and coherence, while their challenge may
 
 `,
 5: `
-Tone: 5 (Leo) · Select
-
-<br><br>
-
-Select is the consciousness orientation expressed as choice.
-
-Selection makes focus possible.
-
-It is associated with focus and priority.
+Tone: 5 (Leo) · 101 · Select
 
 <br><br>
 
@@ -105,15 +65,7 @@ Their strength lies in creating focus and direction, while their challenge may b
 `,
 
 6: `
-Tone: 6 (Virgo) · Refine
-
-<br><br>
-
-Refine is the consciousness orientation expressed as improvement.
-
-Refinement makes quality possible.
-
-It is associated with precision and attunement.
+Tone: 6 (Virgo) · 000 · Refine
 
 <br><br>
 
@@ -126,15 +78,7 @@ Their strength lies in improving what already exists, while their challenge may 
 `,
 
 7: `
-Tone: 7 (Libra) · Attune
-
-<br><br>
-
-Attune is the consciousness orientation expressed as attunement.
-
-Attunement makes coherence possible.
-
-It is associated with resonance.
+Tone: 7 (Libra) · 111 · Attune
 
 <br><br>
 
@@ -147,15 +91,7 @@ Their strength lies in creating harmony and inspiration, while their challenge m
 `,
 
 8: `
-Tone: 8 (Scorpio) · Transform
-
-<br><br>
-
-Transform is the consciousness orientation expressed as change.
-
-Change makes renewal possible.
-
-It is associated with transition and development.
+Tone: 8 (Scorpio) · 010 · Transform
 
 <br><br>
 
@@ -167,15 +103,7 @@ Their strength lies in turning change into development, while their challenge ma
 
 `,
 9: `
-Tone: 9 (Ophiuchus) · Integrate
-
-<br><br>
-
-Integrate is the consciousness orientation expressed as integration.
-
-Integration makes collective functioning possible.
-
-It is associated with connection and wholeness.
+Tone: 9 (Ophiuchus) · 1 · Integrate
 
 <br><br>
 
@@ -188,15 +116,7 @@ Their strength lies in connecting individual experiences into a meaningful whole
 `,
 
 10: `
-Tone: 10 (Sagittarius) · Comprehend
-
-<br><br>
-
-Comprehend is the consciousness orientation expressed as insight.
-
-Insight makes understanding possible.
-
-It is associated with essence and meaning.
+Tone: 10 (Sagittarius) · 001 · Comprehend
 
 <br><br>
 
@@ -209,15 +129,7 @@ Their strength lies in turning understanding into practical results, while their
 `,
 
 11: `
-Tone: 11 (Capricorn) · Anchor
-
-<br><br>
-
-Anchor is the consciousness orientation expressed as continuity.
-
-Continuity makes stability possible.
-
-It is associated with reliability and endurance.
+Tone: 11 (Capricorn) · 100 · Anchor
 
 <br><br>
 
@@ -230,15 +142,7 @@ Their strength lies in preserving what is truly meaningful, while their challeng
 `,
 
 12: `
-Tone: 12 (Aquarius) · Unfold
-
-<br><br>
-
-Unfold is the consciousness orientation expressed as accessibility.
-
-Accessibility makes transmission possible.
-
-It is associated with sharing and availability.
+Tone: 12 (Aquarius) · 011 · Unfold
 
 <br><br>
 
@@ -251,15 +155,7 @@ Their strength lies in sharing what is valuable, while their challenge may be be
 `,
 
 13: `
-Tone: 13 (Pisces) · Release
-
-<br><br>
-
-Release is the consciousness orientation expressed as letting go.
-
-Letting go makes independent continuation possible.
-
-It is associated with freedom and continuity.
+Tone: 13 (Pisces) · 110 · Release
 
 <br><br>
 

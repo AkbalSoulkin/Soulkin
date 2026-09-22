@@ -5,12 +5,16 @@ const wavespell_workfields_nl = {
 
 <br><br>
 
+Imix is de bewustzijnsoriëntatie die zich uitdrukt als bron. Bron is een oorsprong. De bron maakt voortkomst mogelijk. Zij hangt samen met alles wat uit haar voortkomt.
+
 `,
 
 2: `
 0011 (Ik) · Informatie
 
 <br><br>
+
+Ik is de bewustzijnsoriëntatie die zich uitdrukt als informatie. Informatie is een patroon. Een patroon maakt onderscheid mogelijk. Het hangt samen met herkenning en ordening.
 
 
 `,
@@ -20,6 +24,8 @@ const wavespell_workfields_nl = {
 
 <br><br>
 
+Akbal is de bewustzijnsoriëntatie die zich uitdrukt als verbeelding. Verbeelding is een representatie. Een representatie maakt innerlijke vorming mogelijk. Zij hangt samen met betekenis.
+
 
 `,
 
@@ -27,6 +33,8 @@ const wavespell_workfields_nl = {
 0000 (Kan) · Potentieel
 
 <br><br>
+
+Kan is de bewustzijnsoriëntatie die zich uitdrukt als potentieel. Potentieel bestaat uit mogelijkheden. Mogelijkheden maken ontwikkeling mogelijk. Zij hangen samen met alles wat kan ontstaan.
 
 
 `,
@@ -36,6 +44,8 @@ const wavespell_workfields_nl = {
 
 <br><br>
 
+Chicchan is de bewustzijnsoriëntatie die zich uitdrukt als energie. Energie maakt verandering mogelijk. Verandering brengt beweging voort. Zij hangt samen met iedere vorm van activiteit.
+
 
 `,
 
@@ -43,6 +53,8 @@ const wavespell_workfields_nl = {
 0111 (Cimi) · Grenzen
 
 <br><br>
+
+Cimi is de bewustzijnsoriëntatie die zich uitdrukt als grenzen. Grenzen zijn afbakeningen. Afbakeningen maken begrenzing mogelijk. Zij hangen samen met alles wat een vorm begrenst.
 
 
 `,
@@ -52,11 +64,15 @@ const wavespell_workfields_nl = {
 
 <br><br>
 
+Manik is de bewustzijnsoriëntatie die zich uitdrukt als interactie. Interactie is een wisselwerking. Wisselwerking maakt beïnvloeding mogelijk. Zij hangt samen met alles wat elkaar ontmoet.
+
 
 `,8: `
 0100 (Lamat) · Waarde
 
 <br><br>
+
+Lamat is de bewustzijnsoriëntatie die zich uitdrukt als waarde. Waarde is datgene waaraan betekenis wordt toegekend. Zij maakt relevantie zichtbaar. Zij hangt samen met alles wat betekenis krijgt.
  
 
 `,
@@ -66,6 +82,8 @@ const wavespell_workfields_nl = {
 
 <br><br>
 
+Muluc is de bewustzijnsoriëntatie die zich uitdrukt als stroming. Stroming is een overdracht. Overdracht maakt voortgang mogelijk. Zij hangt samen met alles wat wordt doorgegeven.
+
 
 `,
 
@@ -73,6 +91,8 @@ const wavespell_workfields_nl = {
 11 (Oc) · Relatie
 
 <br><br>
+
+Oc is de bewustzijnsoriëntatie die zich uitdrukt als relatie. Relatie is een verband. Een verband maakt verbondenheid mogelijk. Het hangt samen met alles wat elkaar verbindt.
 
 
 `,
@@ -82,6 +102,8 @@ const wavespell_workfields_nl = {
 
 <br><br>
 
+Chuen is de bewustzijnsoriëntatie die zich uitdrukt als expressie. Expressie is een uiting. Een uiting maakt zichtbaar wat innerlijk aanwezig is. Zij hangt samen met iedere vorm van communicatie.
+
 
 `,
 
@@ -89,6 +111,8 @@ const wavespell_workfields_nl = {
 1100 (Eb) · Levenspad
 
 <br><br>
+
+Eb is de bewustzijnsoriëntatie die zich uitdrukt als levenspad. Een levenspad is een traject. Een traject maakt ontwikkeling zichtbaar. Het hangt samen met iedere vorm van voortgang.
 
 
 `,
@@ -98,6 +122,8 @@ const wavespell_workfields_nl = {
 
 <br><br>
 
+Ben is de bewustzijnsoriëntatie die zich uitdrukt als structuur. Structuur is ordening. Ordening maakt samenstelling mogelijk. Zij hangt samen met alles wat georganiseerd is.
+
 
 `,
 
@@ -106,12 +132,16 @@ const wavespell_workfields_nl = {
 
 <br><br>
 
+Ix is de bewustzijnsoriëntatie die zich uitdrukt als bewustzijn. Bewustzijn is gewaarzijn. Gewaarzijn maakt ervaring mogelijk. Het hangt samen met alles wat wordt waargenomen.
+
 
 `,
 15: `
 10 (Men) · Perspectief
 
 <br><br>
+
+Men is de bewustzijnsoriëntatie die zich uitdrukt als perspectief. Perspectief is een oriëntatie. Oriëntatie maakt richting zichtbaar. Zij hangt samen met iedere manier van kijken.
 
 
 `,
@@ -121,6 +151,8 @@ const wavespell_workfields_nl = {
 
 <br><br>
 
+Cib is de bewustzijnsoriëntatie die zich uitdrukt als spoor. Een spoor is een registratie. Registratie maakt terugkeer mogelijk. Zij hangt samen met alles wat een indruk achterlaat.
+
 
 `,
 
@@ -128,6 +160,8 @@ const wavespell_workfields_nl = {
 1001 (Caban) · Manifestatie
 
 <br><br>
+
+Caban is de bewustzijnsoriëntatie die zich uitdrukt als manifestatie. Manifestatie is een verschijnsel. Een verschijnsel maakt waarneming mogelijk. Het hangt samen met alles wat zichtbaar wordt.
 
 
 `,
@@ -137,6 +171,9 @@ const wavespell_workfields_nl = {
 
 <br><br>
 
+Etznab is de bewustzijnsoriëntatie die zich uitdrukt als waarheid. Waarheid is overeenstemming. Overeenstemming maakt herkenning mogelijk. Zij hangt samen met alles wat met de werkelijkheid overeenkomt.
+
+
 
 `,
 
@@ -145,6 +182,8 @@ const wavespell_workfields_nl = {
 
 <br><br>
 
+Cauac is de bewustzijnsoriëntatie die zich uitdrukt als samenhang. Samenhang is coherentie. Coherentie maakt een geheel mogelijk. Zij hangt samen met alles wat onderling verbonden is.
+
 
 `,
 
@@ -152,6 +191,8 @@ const wavespell_workfields_nl = {
 00 (Ahau) · Essentie
 
 <br><br>
+
+Ahau is de bewustzijnsoriëntatie die zich uitdrukt als essentie. Essentie is datgene waardoor iets zichzelf is. Een kern maakt identiteit mogelijk. Zij hangt samen met alles wat wezenlijk is.
 
 
 `

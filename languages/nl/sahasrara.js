@@ -1,9 +1,11 @@
 const sahasraraPages_nl = {
 
 1: `
-G1 (Hart) · Hoe blijf ik op het pad?
+G1 (Hart) · 0
 
 <br><br>
+
+Hoe blijf ik op het pad?
 
 Het pad wordt niet altijd gevonden door beweging.
 
