@@ -332,7 +332,8 @@ panel.style.background = "transparent";
 if(
   dayOffset < CHAKRA_TEXT_START_DAY &&
   activePage !== "manipura" &&
-  activePage !== "anahata"
+  activePage !== "anahata" &&
+  activePage !== "sahasrara"
 ){
 
   panel.style.backgroundImage = "none";
@@ -451,83 +452,98 @@ combinationText =
   }
 
 
-  // ===== SAHASRARA =====
+// ===== SAHASRARA =====
 
-  if(activePage === "sahasrara"){
+if(activePage === "sahasrara"){
 
-    panel.style.background =
-      "rgba(255,255,255,0.18)";
+  panel.style.background =
+    "rgba(255,255,255,0.18)";
 
-    title.classList.remove("chakraTitle");
-
-
-    /*
-     * 11/11 t/m 14/11:
-     * Sahasrara blijft nog volledig leeg.
-     */
-    if(dayOffset < SAHASRARA_TEXT_START_DAY){
-
-      title.innerHTML = "";
-      content.innerHTML = "";
-
-      return;
-    }
+  title.classList.remove("chakraTitle");
 
 
-    /*
-     * Vanaf 15/11:
-     * bovenste helft / G1–G9-tekst zichtbaar.
-     */
-    title.innerHTML =
-      lang.sahasrara;
+const pentagramPage =
+  dayOffset - PENTAGRAM_FRACTAL_START_DAY + 1;
 
-    const nightText =
-      pages.sahasrara[night] ?? "";
+if(
+  pentagramPage >= 1 &&
+  pentagramPage <= 5
+){
+    title.innerHTML = lang.sahasrara;
+    content.innerHTML =
+      pentagramPages[language]?.[pentagramPage] ?? "";
 
-
-    /*
-     * 15/11 t/m 20/12:
-     * alleen de bestaande Sahasrara-tekst.
-     */
-    if(dayOffset < HEXAGRAM_START_DAY){
-
-      content.innerHTML = `
-        <div class="nightText">
-          ${nightText}
-        </div>
-      `;
-
-      return;
-    }
+    return;
+  }
 
 
-    /*
-     * Vanaf 21/12:
-     * bestaande tekst + juiste hexagramtekst.
-     */
-    const hexagramNumber =
-      (
-        (dayOffset - HEXAGRAM_START_DAY) % 64
-        + 64
-      ) % 64 + 1;
+  /*
+   * Voor de normale Sahasrara-tekst:
+   * nog volledig leeg.
+   */
+  if(dayOffset < SAHASRARA_TEXT_START_DAY){
 
-    const hexagramText =
-      pages.sahasrara64?.[hexagramNumber] ?? "";
+    title.innerHTML = "";
+    content.innerHTML = "";
+
+    return;
+  }
+
+
+  /*
+   * Vanaf 15/11:
+   * bovenste helft / G1–G9-tekst zichtbaar.
+   */
+  title.innerHTML =
+    lang.sahasrara;
+
+  const nightText =
+    pages.sahasrara[night] ?? "";
+
+
+  /*
+   * 15/11 t/m 20/12:
+   * alleen de bestaande Sahasrara-tekst.
+   */
+  if(dayOffset < HEXAGRAM_START_DAY){
 
     content.innerHTML = `
       <div class="nightText">
         ${nightText}
       </div>
-
-      <div class="textDivider"></div>
-
-      <div class="combinationText">
-        ${hexagramText}
-      </div>
     `;
 
     return;
   }
+
+
+  /*
+   * Vanaf 21/12:
+   * bestaande tekst + juiste hexagramtekst.
+   */
+  const hexagramNumber =
+    (
+      (dayOffset - HEXAGRAM_START_DAY) % 64
+      + 64
+    ) % 64 + 1;
+
+  const hexagramText =
+    pages.sahasrara64?.[hexagramNumber] ?? "";
+
+  content.innerHTML = `
+    <div class="nightText">
+      ${nightText}
+    </div>
+
+    <div class="textDivider"></div>
+
+    <div class="combinationText">
+      ${hexagramText}
+    </div>
+  `;
+
+  return;
+}
 
 // ===== ANAHATA =====
 

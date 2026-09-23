@@ -5975,7 +5975,18 @@ const nightTabHover =
 const iChing =
   document.getElementById("iChing");
 
+
+
+
 nightTabHover.onmouseenter = () => {
+
+const pentagramUnfolding =
+  dayOffset >= PENTAGRAM_FRACTAL_START_DAY &&
+  dayOffset < PENTAGRAM_FRACTAL_START_DAY + 5;
+
+  if(pentagramUnfolding){
+    return;
+  }
 
   const isHeartDay =
     night === 1 &&
@@ -5988,6 +5999,14 @@ nightTabHover.onmouseenter = () => {
 };
 
 nightTabHover.onmouseleave = () => {
+
+const pentagramUnfolding =
+  dayOffset >= PENTAGRAM_FRACTAL_START_DAY &&
+  dayOffset < PENTAGRAM_FRACTAL_START_DAY + 5;
+
+  if(pentagramUnfolding){
+    return;
+  }
 
   const isHeartDay =
     night === 1 &&
