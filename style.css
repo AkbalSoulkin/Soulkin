@@ -707,3 +707,47 @@ body,
 
   transform:translateY(-2px);
 }
+
+#planetLayer {
+  position: fixed;
+
+  /* tijdelijke positie */
+  left: 31%;
+  bottom: 410px;
+
+  width: 32px;
+  height: 32px;
+
+  z-index: 20;
+  pointer-events: none;
+}
+
+#planetLayer img {
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+#planetLayer img {
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+
+  opacity: 0;
+}
+
+#planetWorkfield {
+  left: 42px !important;
+  top: 0;
+  width: 32px !important;
+  height: 32px !important;
+  opacity: 1;
+}

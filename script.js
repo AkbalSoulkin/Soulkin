@@ -66,6 +66,11 @@ const revealOrder = [
   18   // 3/12 Cauac
 ];
 
+const PLANET_DISPLAY_START_DAY = Number(
+  daysFromCivil(-863216567, 7, 12) -
+  daysFromCivil(1982, 8, 22)
+);
+
 const WAVESPELL_FRACTAL_START_DAY = Number(
   daysFromCivil(-17264374702, 11, 10) -
   daysFromCivil(1982, 8, 22)
@@ -96,8 +101,21 @@ const ICHING_UNFOLD_START_DAY = Number(
   daysFromCivil(1982, 8, 22)
 );
 
+const PLANET_ANCHOR_DAY = Number(
+  daysFromCivil(-3113, 8, 8) -
+  daysFromCivil(1982, 8, 22)
+);
+
 let wavespellActive = false;
 let operatorActive = false;
+
+const planetMercury = document.getElementById("planetMercury");
+const planetVenus   = document.getElementById("planetVenus");
+const planetSaturn  = document.getElementById("planetSaturn");
+const planetJupiter = document.getElementById("planetJupiter");
+const planetMars    = document.getElementById("planetMars");
+const planetWorkfield =
+  document.getElementById("planetWorkfield");
 
 const letterO  = document.getElementById("letterO");
 const letterOQ = document.getElementById("letterOQ");
@@ -3229,9 +3247,9 @@ function getHaabFromLCDays(lcDays){
     "Kumk'u"
   ];
 
-  // Long Count 0.0.0.0.0 = 8 Kumk'u
-  const haabPosition =
-    ((lcDays + 348) % 365 + 365) % 365;
+// Long Count 0.0.0.0.0 = 8 Kumk'u
+const haabPosition =
+  ((lcDays + 348) % 365 + 365) % 365;
 
   if(haabPosition < 360){
 
@@ -3281,6 +3299,93 @@ heartChakra.setAttribute(
   "opacity",
   dayOffset === HEART_CHAKRA_DAY ? "1" : "0"
 );
+
+// Planetary cycle
+const planetDays =
+  dayOffset - PLANET_ANCHOR_DAY;
+
+const mercuryStep =
+  ((planetDays % 117) + 117) % 117;
+
+const station819 =
+  ((planetDays % 819) + 819) % 819 === 0;
+
+// Welk 819-station zijn we?
+const stationNumber =
+  Math.floor(planetDays / 819);
+
+// Ieder volgend 819-station gaat één werkveld terug
+const planetWorkfieldSeal =
+  ((16 - stationNumber) % 20 + 20) % 20;
+
+// Verberg eerst de vier speciale planeten
+planetVenus.style.opacity   = "0";
+planetSaturn.style.opacity  = "0";
+planetJupiter.style.opacity = "0";
+planetMars.style.opacity    = "0";
+
+// Alleen tonen op het exacte 819-station
+if (station819) {
+
+  // Venus: Caban, Eb, Manik, Ik
+  if ([16, 11, 6, 1].includes(planetWorkfieldSeal)) {
+    planetVenus.style.opacity = "1";
+  }
+
+  // Saturnus: Cib, Oc, Kan
+  if ([15, 9, 3].includes(planetWorkfieldSeal)) {
+    planetSaturn.style.opacity = "1";
+  }
+
+  // Jupiter: Akbal
+  if (planetWorkfieldSeal === 2) {
+    planetJupiter.style.opacity = "1";
+  }
+
+  // Mars: Ik
+  if (planetWorkfieldSeal === 1) {
+    planetMars.style.opacity = "1";
+  }
+}
+
+planetWorkfield.setAttribute(
+  "src",
+  `animals/${animalFiles[planetWorkfieldSeal]}`
+);
+
+planetWorkfield.style.opacity = "1";
+
+const planetsVisible =
+  dayOffset >= PLANET_DISPLAY_START_DAY;
+
+planetLayer.style.display =
+  planetsVisible ? "block" : "none";
+
+// Heeft dit 819-station een bijzondere planeet?
+const hasSpecialPlanet =
+  station819 &&
+  [16, 15, 11, 9, 6, 3, 2, 1].includes(planetWorkfieldSeal);
+
+if (mercuryStep === 0 && !hasSpecialPlanet) {
+
+  planetMercury.style.opacity = "1";
+
+  if (station819) {
+    planetMercury.style.width = "32px";
+    planetMercury.style.height = "32px";
+    planetMercury.style.left = "0px";
+    planetMercury.style.top = "0px";
+  } else {
+    planetMercury.style.width = "18px";
+    planetMercury.style.height = "18px";
+    planetMercury.style.left = "7px";
+    planetMercury.style.top = "7px";
+  }
+
+} else {
+  planetMercury.style.opacity = "0";
+}
+
 
 // ===== BINNENSTE 4-RING ONTVOUWING =====
 
