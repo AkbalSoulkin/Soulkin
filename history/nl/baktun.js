@@ -10,7 +10,7 @@ window.historyTexts.nl.baktun =
 window.historyTexts.nl.baktun.actualiseren_oorsprong = {
 
   title:
-    "Actualiseren",
+    "Actualiseren + Bron",
 
 text:
   `Actualiseren + Bron
@@ -24,7 +24,7 @@ Rond 3100 v.Chr. ontwikkelde het schrift in Mesopotamië zich tot een praktisch 
 window.historyTexts.nl.baktun.onderscheiden_stroming = {
 
   title:
-    "Erkennen",
+    "Erkennen + Interactie",
 
 text:
   `Onderscheiden + Stroming
@@ -38,7 +38,7 @@ Rond 2560 v.Chr. werd de Grote Piramide van Gizeh voltooid tijdens de regering v
 window.historyTexts.nl.baktun.transformeren_interactie = {
 
   title:
-    "Onderscheiden",
+    "Onderscheiden + Potentieel",
 
 text:
   `Transformeren + Interactie
@@ -52,7 +52,7 @@ Rond 2200 v.Chr. hadden steden van de Indusbeschaving, zoals Mohenjodaro en Hara
 window.historyTexts.nl.baktun.selecteren_relatie = {
 
   title:
-    "Plaatsen",
+    "Plaatsen + Relatie",
 
 text:
   `Selecteren + Relatie
@@ -66,7 +66,7 @@ Rond 1750 v.Chr. werd de Codex van Hammurabi in Babylon opgetekend, waarin wette
 window.historyTexts.nl.baktun.afstemmen_waarheid = {
 
   title:
-    "Selecteren",
+    "Selecteren + Spoor",
 
 text:
   `Afstemmen + Waarheid
@@ -80,7 +80,7 @@ Rond 1200 v.Chr. raakten verschillende grote samenlevingen in het oostelijke Mid
 window.historyTexts.nl.baktun.ontvouwen_verbeelding = {
 
   title:
-    "Verfijnen",
+    "Verfijnen + Essentie",
 
 text:
   `Ontvouwen + Verbeelding
@@ -94,7 +94,7 @@ Rond 1100 v.Chr. was het Fenicische alfabet in gebruik als een compact schriftsy
 window.historyTexts.nl.baktun.onderscheiden_structuur_athene = {
 
   title:
-    "Afstemmen",
+    "Afstemmen + Expressie",
 
 text:
   `Onderscheiden + Structuur
@@ -108,7 +108,7 @@ Rond 508 v.Chr. reorganiseerden hervormingen die met Cleisthenes worden geassoci
 window.historyTexts.nl.baktun.actualiseren_manifestatie_rome = {
 
   title:
-    "Transformeren",
+    "Transformeren + Manifestatie",
 
 text:
   `Actualiseren + Manifestatie
@@ -122,7 +122,7 @@ Rond 27 v.Chr. kreeg Octavianus de titel Augustus, wat het begin markeerde van h
 window.historyTexts.nl.baktun.selecteren_bewustzijn = {
 
   title:
-    "Integreren",
+    "Integreren + Bewustzijn",
 
 text:
   `Selecteren + Bewustzijn
@@ -136,7 +136,7 @@ In 313 n.Chr. vaardigden Constantijn en Licinius het Edict van Milaan uit, waarm
 window.historyTexts.nl.baktun.transformeren_relatie = {
 
   title:
-    "Doorgronden",
+    "Doorgronden + Interactie",
 
 text:
   `Transformeren + Relatie
@@ -150,7 +150,7 @@ In 622 n.Chr. migreerden Mohammed en zijn volgelingen van Mekka naar Medina tijd
 window.historyTexts.nl.baktun.onderscheiden_expressie = {
 
   title:
-    "Verankeren",
+    "Verankeren + Stroming",
 
 text:
   `Onderscheiden + Expressie
@@ -164,7 +164,7 @@ Rond 1040 n.Chr. ontwikkelde Bi Sheng in China de boekdrukkunst met losse letter
 window.historyTexts.nl.baktun.vrijmaken_bewustzijn = {
 
   title:
-    "Ontsluiten",
+    "Ontsluiten + Bewustzijn",
 
 text:
   `Vrijmaken + Bewustzijn
@@ -178,7 +178,7 @@ In 1492 n.Chr. bereikte Christoffel Columbus de Amerika's tijdens een reis die w
 window.historyTexts.nl.baktun.verankeren_waarheid = {
 
   title:
-    "Vrijmaken",
+    "Vrijmaken + Spoor",
 
 text:
   `Verankeren + Waarheid
@@ -192,7 +192,7 @@ In 1969 n.Chr. werd het eerste bericht via ARPANET verzonden tussen computers va
 window.historyTexts.nl.baktun.erkennen_informatie = {
 
   title:
-    "Actualiseren",
+    "Actualiseren + Bron",
 
 text:
   `Erkennen + Informatie
@@ -210,7 +210,7 @@ De eenwording creëerde een meer gecentraliseerde politieke structuur langs de N
 window.historyTexts.nl.baktun.actualiseren_essentie = {
 
   title:
-    "Erkennen",
+    "Erkennen + Essentie",
 
 text:
   `Actualiseren + Essentie
@@ -228,7 +228,7 @@ De Akkadische staat verbond voorheen afzonderlijke politieke centra door een ged
 window.historyTexts.nl.baktun.vrijmaken_levenspad = {
 
   title:
-    "Onderscheiden",
+    "Onderscheiden + Levenspad",
 
 text:
   `Vrijmaken + Levenspad
@@ -246,7 +246,7 @@ De Codex van Ur-Nammu is de oudste grotendeels bewaard gebleven verzameling wett
 window.historyTexts.nl.baktun.erkennen_interactie = {
 
   title:
-    "Plaatsen",
+    "Plaatsen + Grenzen",
 
 text:
   `Erkennen + Interactie
@@ -264,7 +264,7 @@ Deze vroege inscripties behoren tot de ontwikkeling van een alfabetische traditi
 window.historyTexts.nl.baktun.onderscheiden_bewustzijn = {
 
   title:
-    "Selecteren",
+    "Selecteren + Levenspad",
 
 text:
   `Onderscheiden + Bewustzijn
@@ -282,7 +282,7 @@ Geen van beide rijken behaalde een blijvende beslissende overwinning. Ongeveer v
 window.historyTexts.nl.baktun.erkennen_samenhang = {
 
   title:
-    "Verfijnen",
+    "Verfijnen + Waarheid",
 
 text:
   `Erkennen + Samenhang
@@ -300,7 +300,7 @@ Het Olympische festival bleef eeuwenlang bestaan en latere Griekse historici geb
 window.historyTexts.nl.baktun.transformeren_waarheid = {
 
   title:
-    "Afstemmen",
+    "Afstemmen + Perspectief",
 
 text:
   `Transformeren + Waarheid
@@ -318,7 +318,7 @@ Zijn methode van aanhoudend vragen stellen werd een van de invloedrijkste tradit
 window.historyTexts.nl.baktun.onderscheiden_grenzen = {
 
   title:
-    "Transformeren",
+    "Transformeren + Potentieel",
 
 text:
   `Onderscheiden + Grenzen
@@ -336,7 +336,7 @@ Door wiskundige redeneringen toe te passen op natuurkundige problemen liet Archi
 window.historyTexts.nl.baktun.transformeren_potentieel = {
 
   title:
-    "Integreren",
+    "Integreren + Bron",
 
 text:
   `Transformeren + Potentieel
@@ -354,7 +354,7 @@ Archeologisch bewijs laat zien dat vormen van papier al vóór Cai Lun in China 
 window.historyTexts.nl.baktun.integreren_expressie = {
 
   title:
-    "Doorgronden",
+    "Doorgronden + Expressie",
 
 text:
   `Integreren + Expressie
@@ -372,7 +372,7 @@ Nul kende al een langere geschiedenis binnen de Indiase wiskunde, maar Brahmagup
 window.historyTexts.nl.baktun.erkennen_relatie = {
 
   title:
-    "Verankeren",
+    "Verankeren + Stroming",
 
 text:
   `Erkennen + Relatie
@@ -390,7 +390,7 @@ Zijn onderzoek combineerde meetkunde met waarnemingen en experimenten met licht,
 window.historyTexts.nl.baktun.onderscheiden_manifestatie = {
 
   title:
-    "Ontsluiten",
+    "Ontsluiten + Perspectief",
 
 text:
   `Onderscheiden + Manifestatie
@@ -408,7 +408,7 @@ Heliocentrische ideeën bestonden al in de oudheid, maar Copernicus werkte ze ui
 window.historyTexts.nl.baktun.verfijnen_structuur = {
 
   title:
-    "Vrijmaken",
+    "Vrijmaken + Levenspad",
 
 text:
   `Verfijnen + Structuur
@@ -426,10 +426,10 @@ Vanaf 1874 werd een commerciële versie geproduceerd door Remington. De indeling
 window.historyTexts.nl.baktun.afstemmen_oorsprong = {
 
   title:
-    "Vrijmaken",
+    "Vrijmaken + Samenhang",
 
 text:
-  `Afstemmen + Oorsprong
+  `Afstemmen + Bron
 
 <br><br>
 
@@ -444,7 +444,7 @@ Harvey liet zien dat het hart het bloed door de slagaders voortstuwt en dat het 
 window.historyTexts.nl.baktun.transformeren_informatie = {
 
   title:
-    "Vrijmaken",
+    "Vrijmaken + Samenhang",
 
 text:
   `Transformeren + Informatie
@@ -462,7 +462,7 @@ Pascal bleef het ontwerp verfijnen en vervaardigde verschillende versies van de 
 window.historyTexts.nl.baktun.integreren_verbeelding = {
 
   title:
-    "Vrijmaken",
+    "Vrijmaken + Verbeelding",
 
 text:
   `Integreren + Verbeelding
@@ -480,7 +480,7 @@ Bij het onderzoeken van dunne plakjes kurk beschreef Hooke de kleine compartimen
 window.historyTexts.nl.baktun.doorgronden_potentieel = {
 
   title:
-    "Vrijmaken",
+    "Vrijmaken + Verbeelding",
 
 text:
   `Doorgronden + Potentieel
@@ -498,7 +498,7 @@ Newton liet zien dat de beweging van objecten op aarde en de beweging van hemell
 window.historyTexts.nl.baktun.verankeren_energie = {
 
   title:
-    "Vrijmaken",
+    "Vrijmaken + Verbeelding",
 
 text:
   `Verankeren + Energie
@@ -516,7 +516,7 @@ De machine bood een nieuwe manier om warmte op praktische schaal om te zetten in
 window.historyTexts.nl.baktun.ontsluiten_grenzen = {
 
   title:
-    "Vrijmaken",
+    "Vrijmaken + Verbeelding",
 
 text:
   `Ontsluiten + Grenzen
@@ -534,7 +534,7 @@ Bradley verklaarde dit effect door de combinatie van de beweging van de aarde ro
 window.historyTexts.nl.baktun.vrijmaken_interactie = {
 
   title:
-    "Vrijmaken",
+    "Vrijmaken + Interactie",
 
 text:
   `Vrijmaken + Interactie
@@ -552,7 +552,7 @@ Dit inzicht leidde ook tot de ontwikkeling van de bliksemafleider, die een prakt
 window.historyTexts.nl.baktun.actualiseren_waarde = {
 
   title:
-    "Vrijmaken",
+    "Vrijmaken + Waarde",
 
 text:
   `Actualiseren + Waarde
@@ -570,7 +570,7 @@ Smith analyseerde de arbeidsdeling, markten, prijzen en de relatie tussen indivi
 window.historyTexts.nl.baktun.erkennen_stroming = {
 
   title:
-    "Vrijmaken",
+    "Vrijmaken + Waarde",
 
 text:
   `Erkennen + Stroming
@@ -588,7 +588,7 @@ Huttons interpretatie liet zien dat landschappen en gesteenteformaties sporen be
 window.historyTexts.nl.baktun.onderscheiden_relatie = {
 
   title:
-    "Vrijmaken",
+    "Vrijmaken + Waarde",
 
 text:
   `Onderscheiden + Relatie
@@ -606,7 +606,7 @@ Dalton gebruikte atoomgewichten en eenvoudige numerieke verhoudingen om patronen
 window.historyTexts.nl.baktun.plaatsen_expressie = {
 
   title:
-    "Vrijmaken",
+    "Vrijmaken + Waarde",
 
 text:
   `Plaatsen + Expressie
@@ -624,7 +624,7 @@ De belichting zette de ruimtelijke ordening van het licht uit de scène om in ee
 window.historyTexts.nl.baktun.selecteren_levenspad = {
 
   title:
-    "Vrijmaken",
+    "Vrijmaken + Levenspad",
 
 text:
   `Selecteren + Levenspad
@@ -642,7 +642,7 @@ Spoorwegen veranderden de mogelijkheden voor waar mensen konden wonen, werken en
 window.historyTexts.nl.baktun.afstemmen_bewustzijn = {
 
   title:
-    "Vrijmaken",
+    "Vrijmaken + Levenspad",
 
 text:
   `Afstemmen + Bewustzijn
@@ -660,7 +660,7 @@ Wundts werk hielp psychologie te vestigen als een zelfstandige experimentele dis
 window.historyTexts.nl.baktun.transformeren_perspectief = {
 
   title:
-    "Vrijmaken",
+    "Vrijmaken + Levenspad",
 
 text:
   `Transformeren + Perspectief
@@ -678,7 +678,7 @@ De theorie transformeerde de relatie tussen ruimte, tijd en beweging. Gebeurteni
 window.historyTexts.nl.baktun.integreren_spoor = {
 
   title:
-    "Vrijmaken",
+    "Vrijmaken + Spoor",
 
 text:
   `Integreren + Spoor
@@ -696,7 +696,7 @@ Door afstandsschattingen te combineren met spectroscopische metingen hielp Hubbl
 window.historyTexts.nl.baktun.doorgronden_manifestatie = {
 
   title:
-    "Vrijmaken",
+    "Vrijmaken + Spoor",
 
 text:
   `Doorgronden + Manifestatie
@@ -714,7 +714,7 @@ De structuur maakte duidelijk hoe genetische informatie in een fysieke moleculai
 window.historyTexts.nl.baktun.ontsluiten_samenhang = {
 
   title:
-    "Vrijmaken",
+    "Vrijmaken + Spoor",
 
 text:
   `Ontsluiten + Samenhang
@@ -732,7 +732,7 @@ Het web combineerde URL's, HTTP, HTML, webservers en browsers tot een samenhange
 window.historyTexts.nl.baktun.vrijmaken_essentie = {
 
   title:
-    "Vrijmaken",
+    "Vrijmaken + Essentie",
 
 text:
   `Vrijmaken + Essentie
@@ -750,7 +750,7 @@ Het referentiegenoom bood een gemeenschappelijke basis voor het onderzoeken van 
 window.historyTexts.nl.baktun.erkennen_waarheid = {
 
   title:
-    "Transformeren",
+    "Transformeren + Manifestatie",
 
   text:
     `Erkennen + Waarheid
@@ -768,7 +768,7 @@ Jezus kwam voort uit de Joodse religieuze wereld van de eerste eeuw en werd de c
 window.historyTexts.nl.baktun.onderscheiden_samenhang = {
 
   title:
-    "Transformeren",
+    "Transformeren + Manifestatie",
 
   text:
     `Onderscheiden + Samenhang
@@ -786,7 +786,7 @@ Na zijn dood bleven zijn volgelingen gemeenschappen vormen die geworteld waren i
 window.historyTexts.nl.baktun.plaatsen_essentie = {
 
   title:
-    "Transformeren",
+    "Transformeren + Manifestatie",
 
   text:
     `Plaatsen + Essentie

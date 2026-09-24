@@ -9,7 +9,7 @@ window.historyTexts.nl.kinchiltun = {
   afstemmen_samenhang: {
 
     title:
-      "Onderscheiden + Structuur",
+      "Onderscheiden + Manifestatie",
 
 text:
   `Afstemmen + Samenhang
@@ -25,7 +25,7 @@ Volgens de wetenschappelijke inzichten in 2026 vond de overgang van het Eoceen n
 window.historyTexts.nl.kinchiltun.verfijnen_structuur = {
 
   title:
-    "Vrijmaken + Waarde",
+    "Vrijmaken + Levenspad",
 
 text:
   `Verfijnen + Structuur
@@ -43,7 +43,7 @@ Deze werktuigen zijn ouder dan de vroegst bekende vertegenwoordigers van het ges
 window.historyTexts.nl.kinchiltun.integreren_relatie = {
 
   title:
-    "Ontsluiten + Informatie",
+    "Ontsluiten + Relatie",
 
 text:
   `Integreren + Relatie
@@ -61,7 +61,7 @@ Kenmerken van de schedel en andere fossiele resten hebben bijgedragen aan discus
 window.historyTexts.nl.kinchiltun.verankeren_waarde = {
 
   title:
-    "Afstemmen + Waarheid",
+    "Afstemmen + Grenzen",
 
 text:
   `Verankeren + Waarde

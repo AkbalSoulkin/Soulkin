@@ -25,7 +25,7 @@ Op basis van de wetenschappelijke inzichten in 2026 plaatsen kosmologische model
 window.historyTexts.nl.hablatun.transformeren_informatie = {
 
   title:
-    "Vrijmaken + Perspectief",
+    "Vrijmaken + Samenhang",
 
 text:
   `Transformeren + Informatie

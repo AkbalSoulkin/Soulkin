@@ -66,7 +66,7 @@ Around 1750 BCE, the Code of Hammurabi was inscribed in Babylon, bringing togeth
 window.historyTexts.en.baktun.afstemmen_waarheid = {
 
   title:
-    "Select + Life Path",
+    "Select + Trace",
 
   text:
     `Attune + Truth
@@ -355,7 +355,7 @@ Archaeological evidence shows that forms of paper already existed in China befor
 window.historyTexts.en.baktun.integreren_expressie = {
 
   title:
-    "Comprehend + Interaction",
+    "Comprehend + Expression",
 
   text:
     `Integrate + Expression
