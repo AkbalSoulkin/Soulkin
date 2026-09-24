@@ -3220,7 +3220,7 @@ window.updateLanguage = function(){
 
 
 const HAAB_START_DAY = Number(
-  daysFromCivil(-17264374701, 5, 5) -
+  daysFromCivil(-863216567, 6, 27) -
   daysFromCivil(1982, 8, 22)
 );
 
