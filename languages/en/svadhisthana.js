@@ -31,7 +31,7 @@ You may recognize this when something feels vivid or meaningful within you, but 
 `,
 
 4: `
-Awareness appears as the challenge of Potential.
+Consciousness appears as the challenge of Potential.
 
 <br><br>
 
@@ -130,7 +130,7 @@ You may recognize this when you understand that something is built according to 
 `,
 
 14: `
-Potential appears as the challenge of Awareness.
+Potential appears as the challenge of Consciousness.
 
 <br><br>
 
