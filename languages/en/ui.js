@@ -35,11 +35,11 @@ nightNames: [
   vishuddha: "Vishuddha",
   ajna: "Ajna",
   sahasrara: "Sahasrara",
-
+operator: "Operator",
 moon: "Night",
 sun: "Day",
 tone: "Tone",
-
+workfield: "Workfield",
 go: "Go",
 
 introTitle: "&nbsp;&nbsp;S&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;o&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;l&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;k&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;n",

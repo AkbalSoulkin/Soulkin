@@ -37,11 +37,11 @@ anahata: "Анахата",
 vishuddha: "Вишуддха",
 ajna: "Аджна",
 sahasrara: "Сахасрара",
-
+operator: "Оператор",
 moon: "Ночь",
 sun: "День",
 tone: "Тон",
-
+workfield: "Рабочее поле",
 go: "Перейти",
 step: "Шаг",
 introText: `

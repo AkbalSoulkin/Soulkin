@@ -39,9 +39,9 @@ sahasrara: "Sahasrara",
 moon: "Gece",
 sun: "Gün",
 tone: "Ton",
-
+workfield: "Çalışma alanı",
 sources: "Kaynaklar",
-
+operator: "Operatör",
 go: "Git",
 
 step: "İlerle",
