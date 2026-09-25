@@ -2993,8 +2993,8 @@ function showOperatorText(){
 
   infoPanelTitle.classList.remove("chakraTitle");
 
-  infoPanelTitle.textContent =
-    "Operator";
+infoPanelTitle.textContent =
+    lang.operator;
 
 const operatorBackgrounds = {
   1:  "rgba(120,0,0,0.35)",       // rood
@@ -3043,8 +3043,8 @@ function showWavespellText(){
 
   infoPanelTitle.classList.remove("chakraTitle");
 
-  infoPanelTitle.textContent =
-    "Workfield";
+infoPanelTitle.textContent =
+    lang.workfield;
 
 
   // ===== TEKST =====
@@ -3622,9 +3622,12 @@ if(beforeOrAtRoot){
 
   toneSymbol.setAttribute("opacity","0");
 
-} else if(heartHoverOnly){
+} else if(
+  heartHoverOnly &&
+  activePage !== "muladhara"
+){
 
-  // Alleen Heart-dagen tonen de toon via hover
+  // Heart-dag: verborgen, behalve wanneer 1e chakra geselecteerd is
   toneSymbol.setAttribute("opacity","0");
 
 } else {
@@ -6005,11 +6008,12 @@ toneTab.onmouseleave = () => {
 
     toneSymbol.setAttribute("opacity","0");
 
-  } else if(isHeartDay){
-
-    toneSymbol.setAttribute("opacity","0");
-
-  } else {
+} else if(
+  isHeartDay &&
+  activePage !== "muladhara"
+){
+  toneSymbol.setAttribute("opacity","0");
+} else {
 
     toneSymbol.setAttribute("opacity","1");
   }
