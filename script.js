@@ -474,6 +474,10 @@ function closeOperator(){
 function goToDate(){
 
 const refreshGo = () => {
+
+  // Eventuele oude hover mag niet als tweede kin blijven staan
+  hoverPath.setAttribute("opacity","0");
+
   render();
 
   if(sourcesActive){
@@ -2608,6 +2612,11 @@ const hoverPath = document.createElementNS(
   "path"
 );
 
+const lockedPath = document.createElementNS(
+  "http://www.w3.org/2000/svg",
+  "path"
+);
+
 hoverPath.setAttribute("fill","white");
 hoverPath.setAttribute("opacity","0");
 
@@ -2617,6 +2626,18 @@ hoverPath.setAttribute("stroke-width","8");
 hoverPath.setAttribute("stroke-linejoin","round");
 hoverPath.setAttribute("stroke-linecap","round");
 
+lockedPath.setAttribute("fill","white");
+lockedPath.setAttribute("opacity","0");
+
+lockedPath.setAttribute("stroke","black");
+lockedPath.setAttribute("stroke-width","8");
+
+lockedPath.setAttribute("stroke-linejoin","round");
+lockedPath.setAttribute("stroke-linecap","round");
+
+document
+  .getElementById("hoverLayer")
+  .appendChild(lockedPath);
 
 document
   .getElementById("hoverLayer")
@@ -5596,6 +5617,40 @@ if(rootStage === 1){
 
 updateActivePage();
 
+// ===== LOCK HIGHLIGHT VAN GESELECTEERDE KIN =====
+
+const lockedKinByPage = {
+  anahata: oracleKin.green,
+  manipura: oracleKin.red,
+  ajna: oracleKin.white,
+  svadhisthana: oracleKin.blue,
+  vishuddha: oracleKin.yellow
+};
+
+const lockedKin =
+  lockedKinByPage[activePage];
+
+if(
+  lockedKin !== undefined &&
+  dayOffset >= ROOT_OFFSET
+){
+  const targetSeal = lockedKin % 20;
+
+  lockedPath.setAttribute(
+    "d",
+    segments[targetSeal].getAttribute("d")
+  );
+
+  lockedPath.setAttribute(
+    "fill",
+    segments[targetSeal].getAttribute("fill")
+  );
+
+  lockedPath.setAttribute("opacity","1");
+} else {
+  lockedPath.setAttribute("opacity","0");
+}
+
 // ===== HOVER LINKS =====
 const hoverMap = [
   {
@@ -5647,10 +5702,37 @@ if(dayOffset < ROOT_OFFSET){
     hoverPath.setAttribute("opacity","1");
   };
 
-  el.onmouseleave = () => {
+
+el.onmouseleave = () => {
+
+  const lockedKin =
+    lockedKinByPage[activePage];
+
+  if(
+    lockedKin !== undefined &&
+    dayOffset >= ROOT_OFFSET
+  ){
+
+    const targetSeal =
+      lockedKin % 20;
+
+    hoverPath.setAttribute(
+      "d",
+      segments[targetSeal].getAttribute("d")
+    );
+
+    hoverPath.setAttribute(
+      "fill",
+      segments[targetSeal].getAttribute("fill")
+    );
+
+    hoverPath.setAttribute("opacity","1");
+
+  } else {
 
     hoverPath.setAttribute("opacity","0");
-  };
+  }
+};
 });
 
 }
@@ -5710,7 +5792,6 @@ function showSources(){
 
   closeWavespell();
   closeOperator();
-  render();
   activeHistoryCell = null;
 
   document
@@ -5727,11 +5808,11 @@ function showSources(){
       tab.classList.remove("activeTab");
     });
 
-  // Eerst gewone introstatus herstellen,
-  // zodat eventuele chakra-achtergrond verdwijnt
-  activePage = "intro";
-  updateActivePage();
+activePage = "intro";
 
+hoverPath.setAttribute("opacity","0");
+
+updateActivePage();
 
 const infoPanel =
   document.getElementById("infoPanel");
@@ -5790,7 +5871,6 @@ function toggleHistoryCell(level, key, cell){
 closeSources();
 closeWavespell();
 closeOperator();
-render();
 
   // Zelfde vak opnieuw → terug naar intro
   if(
@@ -5804,6 +5884,8 @@ render();
     cell.classList.remove("activeHistoryCell");
 
     activePage = "intro";
+
+hoverPath.setAttribute("opacity","0");
 
     document
       .querySelectorAll(".infoTab")
@@ -5834,6 +5916,8 @@ render();
 
   activePage = "intro";
 
+hoverPath.setAttribute("opacity","0");
+
   activeHistoryCell = {
     level: level,
     key: key
@@ -5843,6 +5927,7 @@ render();
 
   updateActivePage();
 }
+
 
 
 function setActivePage(pageName, tabId){
@@ -5880,6 +5965,8 @@ function setActivePage(pageName, tabId){
   updateActivePage();
   render();
 }
+
+
 
 
 toneTab.onclick = () => {

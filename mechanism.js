@@ -2,7 +2,10 @@
 function step(){
 
   const refreshStep = () => {
-    render();
+
+hoverPath.setAttribute("opacity","0");    
+
+render();
 
     if(sourcesActive){
       showSources();
