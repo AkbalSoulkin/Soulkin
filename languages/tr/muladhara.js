@@ -1,171 +1,149 @@
 const muladharaPages_tr = {
 
 1: `
-Ton: 1 (Koç) · 101 · Gerçekleştirmek
+G1 (Kalp) · 0
 
 <br><br>
 
-Gerçekleştirmek insanları çoğu zaman doğal olarak inisiyatif alırlar.
+Yolumda nasıl kalabilirim?
 
-Başkaları henüz görmeden olasılıkları fark eder ve yeni gelişmeleri harekete geçirirler.
+Yol her zaman hareket ederek bulunmaz.
 
-Onların asıl zorluğu başlamaktan çok, başladıkları şeyi tamamlamaktır.
+Bazen bir sonraki adım, neden başladığını hatırlamaktır.
 
+Kalp dönemleri, yönünü seçmeden önce seni yeniden merkezine dönmeye davet eder.
+
+Her şey belirsiz görünüyorsa, hâlâ anlamlı hissettiren şeyi ara.
+
+Anlam, heyecan çoktan kaybolmuş olsa bile çoğu zaman varlığını sürdürür.
 `,
 
 2: `
-Ton: 2 (Boğa) · 000 · Kabul Etmek
+G2 (Gök Gürültüsü) · 100
 
 <br><br>
 
-Kabul Etmek insanları çoğu zaman harekete geçmeden önce gözlem yaparlar.
+Gök gürültüsü hareket ve değişim getirir.
 
-Bir seçim yapmadan önce içinde bulundukları durumu bütünüyle kabul etme eğilimindedirler.
+Uzun süredir durağan kalan bir şey uyanmaya çalışıyor.
 
-Güçleri, gerçekliği olduğu gibi kabul ederek istikrar yaratmalarında yatar; zorlukları ise harekete geçmeden önce seçenekleri gereğinden uzun süre değerlendirmek olabilir.
+Yalnızca neyin değiştiğine odaklanma.
 
+Kendine bu değişimin neyi ortaya çıkarmaya çalıştığını sor.
+
+Yol, çoğu zaman ancak zemin sarsılmaya başladıktan sonra görünür hâle gelir.
 `,
 
 3: `
-Ton: 3 (İkizler) · 111 · Ayırt Etmek
+G3 (Ateş) · 101
 
 <br><br>
 
-Ayırt Etmek insanları farklılıkları, bağlantıları ve olasılıkları çoğu zaman hızla fark ederler.
+Ateş hem güçlü hem de zayıf yönleri aydınlatır.
 
-Fikirleri, insanları ve içgörüleri birbirleriyle ilişkilendirerek başkalarının kolayca fark etmediği şeyleri görünür hâle getirirler.
+Gizli olanı görmek kolaylaşır.
 
-Güçleri, neyin dikkat gerektirdiğini açıkça ayırt etmelerinde yatar; zorlukları ise çok fazla olasılık içinde kaybolmak veya aynı anda gereğinden fazlasını kavramaya çalışmak olabilir.
+Yalnızca görünüşlere kapılmamaya dikkat et.
 
+Işık, hakikati ortaya çıkardığında değerlidir.
+
+Şeyleri oldukları gibi görmeye istekli olduğunda yol daha netleşir.
 `,
 
 4: `
-Ton: 4 (Yengeç) · 010 · Konumlandırmak
+G4 (Rüzgar) · 011
 
 <br><br>
 
-Konumlandırmak insanları henüz belirsiz olan şeylere çoğu zaman doğal olarak yapı kazandırırlar.
+Rüzgâr beklenmedik yönlerden mesajlar taşır.
 
-Parçaların birbirleriyle nasıl ilişkili olduğunu görür ve fikirlere, planlara veya durumlara açık bir yer verirler.
+Harekete geçmeden önce dinle.
 
-Güçleri, açıklık ve bütünlük yaratmalarında yatar; zorlukları ise değişim gerektiğinde daha önce oluşturulmuş bir yapıya bağlı kalmak olabilir.
+Küçük etkiler bile bir yolculuğun yönünü değiştirebilir.
 
+Tekrarlayan düşüncelere, konuşmalara ve fırsatlara dikkat et.
+
+Yol çoğu zaman büyük olaylarla değil, nazik düzeltmelerle şekillenir.
 `,
+
 5: `
-Ton: 5 (Aslan) · 101 · Seçmek
+G5 (Gök) · 111
 
 <br><br>
 
-Seçmek insanları dikkatlerini çoğu zaman doğal olarak gerçekten önemli olan şeye yöneltirler.
+Gök daha geniş bir bakış açısına davet eder.
 
-Hangi olasılıkların, insanların veya kaynakların bir gelişmeyi ileri taşıyabileceğini fark eder ve enerjilerini bunlara yoğunlaştırmayı bilirler.
+Bulunduğun anın ötesine bakmayı dene.
 
-Güçleri, odak ve yön oluşturmalarında yatar; zorlukları ise fazla kontrol etmeye çalışmak veya alternatifleri bırakmakta zorlanmak olabilir.
+Her sorun hemen çözülmek zorunda değildir.
 
+Bazen açıklık, bir zorluğun daha büyük bir bütünün parçası olduğunu gördüğünde ortaya çıkar.
+
+Her engeli varış noktası sanmayı bıraktığında yol daha kolay hâle gelir.
 `,
 
 6: `
-Ton: 6 (Başak) · 000 · İyileştirmek
+G6 (Göl) · 110
 
 <br><br>
 
-İyileştirmek insanları bir şeyin nasıl daha iyi, daha açık veya daha özenli hâle getirilebileceğini çoğu zaman doğal olarak görürler.
+Göl, neşenin de yolculuğun bir parçası olduğunu hatırlatır.
 
-Başkalarının kolayca gözden kaçırdığı küçük farklılıkları fark eder ve çevrelerine adım adım daha fazla kalite kazandırırlar.
+Yalnızca disiplinle sürdürülen bir yol zamanla kırılganlaşır.
 
-Güçleri, zaten var olanı geliştirmelerinde yatar; zorlukları ise bir şey zaten yeterince iyiyken mükemmelliği aramaya devam etmek olabilir.
+Ruhunu besleyen şeyi ara.
 
+Anlam, minnettarlık ve bağ hissiyle birlikte daha kolay büyür.
+
+Yol yalnızca nereye gittiğinle değil, nasıl ilerlediğinle de ilgilidir.
 `,
 
 7: `
-Ton: 7 (Terazi) · 111 · Uyumlamak
+G7 (Su) · 010
 
 <br><br>
 
-Uyumlamak insanları insanların, fikirlerin veya koşulların birbirleriyle nasıl uyum sağlayabileceğini çoğu zaman sezgisel olarak hissederler.
+Su uyum sağlama yeteneğini sınar.
 
-Farklılıkların ortaya çıktığı yerde bağlantı kurar ve her şeyin birlikte daha iyi işleyebileceği bir denge ararlar.
+Direnmek yorucu hâle geldiğinde, esneklik daha bilgece bir seçim olabilir.
 
-Güçleri, uyum ve ilham yaratmalarında yatar; zorlukları ise başkalarına fazla uyum sağlayarak kendi yönleriyle bağlarını kaybetmek olabilir.
+Su engelleri güç kullanarak aşmaz.
 
+Onların etrafından akar.
+
+Azim ile inat arasındaki farkı öğrendiğinde yol devam eder.
 `,
 
 8: `
-Ton: 8 (Akrep) · 010 · Dönüştürmek
+G8 (Dağ) · 001
 
 <br><br>
 
-Dönüştürmek insanları değişimin nasıl büyümeye yol açabileceğini çoğu zaman doğal olarak görürler.
+Dağ, gücünden çok sabrını sınar.
 
-Yeni içgörüleri, fikirleri veya deneyimleri, bütünlüğü gözden kaçırmadan yenilenmiş bir bütün içinde bir araya getirirler.
+İlerleme yavaş görünebilir, ancak durgunluğun da bir amacı vardır.
 
-Güçleri, değişimi gelişime dönüştürmelerinde yatar; zorlukları ise kendi görüşlerine fazla bağlı kalmak veya değişimin nasıl gerçekleşeceğini fazla yönlendirmeye çalışmak olabilir.
+Gecikme gibi görünen şey, aksi hâlde fark edilmeyecek zayıflıkları ortaya çıkarabilir.
 
+Kendine ne kadar yolun kaldığını sormak yerine, bu anın sana ne öğretmeye çalıştığını sor.
+
+Bazen durmak da ilerlemenin bir parçasıdır.
 `,
 
 9: `
-Ton: 9 (Yılancı) · 1 · Bütünleştirmek
+G9 (Toprak) · 000
 
 <br><br>
 
-Bütünleştirmek insanları ayrı parçaların nasıl daha büyük bir bütün oluşturabileceğini çoğu zaman doğal olarak görürler.
+Toprak dengeyi ve bütünleşmeyi teşvik eder.
 
-Gelişmeleri anlamlı bir sonuca ulaştırma eğilimindedirler ve bunu yaparken daha büyük amacı gözden kaçırmazlar.
+Hayatının farklı yönleri uyum arıyor.
 
-Güçleri, ayrı deneyimleri anlamlı bir bütün içinde birleştirmelerinde yatar; zorlukları ise fazla sorumluluk üstlenmek veya anlamını yitirmiş bir amaca bağlı kalmak olabilir.
+Bir sonraki hedefin peşinden koşmak yerine, bulunduğun yerde sağlamlık oluşturmaya odaklan.
 
-`,
+Eylemlerin değerlerinle uyumlu olduğunda gelişim sürdürülebilir hâle gelir.
 
-10: `
-Ton: 10 (Yay) · 001 · Kavramak
-
-<br><br>
-
-Kavramak insanları harekete geçmeden önce bir konunun özünü çoğu zaman doğal olarak ararlar.
-
-Bir şeyin gerçekte nasıl işlediği açıklığa kavuşana kadar içgörü, deneyim ve bilgiyi bir araya getirirler.
-
-Güçleri, anlayışı somut sonuçlara dönüştürmelerinde yatar; zorlukları ise bir sonraki adımı atmadan önce tam bir kesinlik aramaya devam etmek olabilir.
-
-`,
-
-11: `
-Ton: 11 (Oğlak) · 100 · Kalıcılaştırmak
-
-<br><br>
-
-Kalıcılaştırmak insanları neyin kalıcı değere sahip olduğunu çoğu zaman doğal olarak fark ederler.
-
-Fikirlere, deneyimlere veya içgörülere kalıcı bir yer vererek bunların korunmasını ve gelişmeye devam etmesini sağlarlar.
-
-Güçleri, gerçekten anlamlı olanı kalıcı hâle getirmelerinde yatar; zorlukları ise işlevini çoktan tamamlamış bir şeye gereğinden uzun süre bağlı kalmak olabilir.
-
-`,
-
-12: `
-Ton: 12 (Kova) · 011 · Açmak
-
-<br><br>
-
-Açmak insanları bilgi, deneyim ve içgörüleri çoğu zaman doğal olarak başkaları için erişilebilir hâle getirirler.
-
-Farklı bakış açılarını bir araya getirir ve karmaşık konuları açık ve anlaşılır bir biçimde aktarabilirler.
-
-Güçleri, değerli olanı paylaşmalarında yatar; zorlukları ise bilgiyi gerçekten uygulamadan sürekli toplamaya kapılmak olabilir.
-
-`,
-
-13: `
-Ton: 13 (Balık) · 110 · Serbest Bırakmak
-
-<br><br>
-
-Serbest Bırakmak insanları bir şeyin ne zaman tamamlandığını ve bırakılabileceğini çoğu zaman doğal olarak bilirler.
-
-İşlevini tamamlamış olana bağlı kalmadan yeni bir gelişme için alan açarlar.
-
-Güçleri, kendileri geri çekildiklerinde bile gelişimin devam edeceğine güvenmelerinde yatar; zorlukları ise değişime gereğinden uzun süre direnmek veya henüz tamamlanmamış bir şeyin önüne geçmeye çalışmak olabilir.
-
+Temellerin güçlü olduğunda yol da sağlam kalır.
 `
 
 };

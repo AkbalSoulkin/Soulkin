@@ -1,170 +1,149 @@
 const muladharaPages_en = {
 
 1: `
-Tone: 1 (Aries) · 101 · Actualize
+G1 (Heart) · 0
 
 <br><br>
 
-People with Actualize naturally tend to take the initiative.
+How do I stay on the path?
 
-They often recognize possibilities before others do and set new developments in motion.
+The path is not always found through movement.
 
-Their challenge lies less in starting than in bringing things to completion.
+Sometimes the next step is remembering why you started.
 
+Heart periods ask you to return to your center before choosing a direction.
+
+If everything feels uncertain, look for what still feels meaningful.
+
+Meaning often survives long after excitement has disappeared.
 `,
 
 2: `
-Tone: 2 (Taurus) · 000 · Acknowledge
+G2 (Thunder) · 100
 
 <br><br>
 
-People with Acknowledge often observe before they act.
+Thunder brings movement and disruption.
 
-They tend to fully acknowledge a situation before making a decision.
+Something that has become stagnant is trying to wake up.
 
-Their strength lies in creating stability by recognizing reality as it is, while their challenge may be spending too much time weighing their options before taking action.
+Do not focus only on what changed.
 
+Ask yourself what the change is trying to reveal.
+
+The path often becomes visible after the ground begins to shake.
 `,
 
 3: `
-Tone: 3 (Gemini) · 111 · Distinguish
+G3 (Fire) · 101
 
 <br><br>
 
-People with Distinguish quickly recognize differences, connections, and possibilities.
+Fire illuminates both strengths and weaknesses.
 
-They connect ideas, people, and insights, making visible what often remains unnoticed by others.
+What is hidden becomes easier to see.
 
-Their strength lies in clearly distinguishing what deserves attention, while their challenge may be becoming overwhelmed by too many possibilities or trying to embrace too much at once.
+Avoid becoming fascinated by appearances alone.
 
+Light is useful when it reveals truth.
+
+The path becomes clearer when you are willing to see things as they are.
 `,
 
 4: `
-Tone: 4 (Cancer) · 010 · Position
+G4 (Wind) · 011
 
 <br><br>
 
-People with Position naturally bring structure to what is still unclear.
+Wind carries messages from unexpected directions.
 
-They recognize how individual parts relate to one another and give ideas, plans, or situations a clear place.
+Listen before acting.
 
-Their strength lies in creating clarity and coherence, while their challenge may be holding on to an established structure when change becomes necessary.
+Small influences can change the course of a journey.
 
+Pay attention to recurring thoughts, conversations and opportunities.
+
+The path is often adjusted through gentle corrections rather than dramatic events.
 `,
+
 5: `
-Tone: 5 (Leo) · 101 · Select
+G5 (Heaven) · 111
 
 <br><br>
 
-People with Select naturally direct their attention toward what truly matters.
+Heaven invites a wider perspective.
 
-They recognize which possibilities, people, or resources can move a development forward and know how to concentrate their energy on them.
+Try to rise above immediate concerns.
 
-Their strength lies in creating focus and direction, while their challenge may be trying to control too much or finding it difficult to let go of alternatives.
+Not every problem requires an immediate solution.
 
+Sometimes clarity comes from seeing how a challenge fits into a larger pattern.
+
+The path becomes easier when you stop mistaking every obstacle for the destination.
 `,
 
 6: `
-Tone: 6 (Virgo) · 000 · Refine
+G6 (Lake) · 110
 
 <br><br>
 
-People with Refine naturally see how something can be improved, clarified, or made more precise.
+Lake reminds you that joy is part of the journey.
 
-They notice subtle differences that others easily overlook and steadily bring greater quality to their surroundings.
+A path sustained only by discipline eventually becomes brittle.
 
-Their strength lies in improving what already exists, while their challenge may be continuing to seek perfection when something is already good enough.
+Look for what nourishes your spirit.
 
+Meaning grows more easily when accompanied by gratitude and connection.
+
+The path is not only about where you are going, but also about how you travel.
 `,
 
 7: `
-Tone: 7 (Libra) · 111 · Attune
+G7 (Water) · 010
 
 <br><br>
 
-People with Attune naturally sense how people, ideas, or circumstances can be brought into harmony.
+Water tests adaptability.
 
-They create connection where differences arise and seek a balance in which everything works together more effectively.
+When resistance becomes exhausting, flexibility may be the wiser choice.
 
-Their strength lies in creating harmony and inspiration, while their challenge may be adapting too much to others and losing touch with their own direction.
+Water does not defeat obstacles through force.
 
+It flows around them.
+
+The path continues when you learn the difference between persistence and stubbornness.
 `,
 
 8: `
-Tone: 8 (Scorpio) · 010 · Transform
+G8 (Mountain) · 001
 
 <br><br>
 
-People with Transform naturally recognize how change can lead to growth.
+Mountain tests patience more than strength.
 
-They bring together new insights, ideas, or experiences into a renewed whole without losing sight of coherence.
+Progress may appear slow, but stillness has its own purpose.
 
-Their strength lies in turning change into development, while their challenge may be holding too firmly to their own vision or trying to control the course of change.
+What feels like a delay can reveal weaknesses that would otherwise remain hidden.
 
+Instead of asking how far you still have to go, ask what this moment is trying to teach you.
+
+Sometimes standing still is part of moving forward.
 `,
+
 9: `
-Tone: 9 (Ophiuchus) · 1 · Integrate
+G9 (Earth) · 000
 
 <br><br>
 
-People with Integrate naturally recognize how separate parts can become a greater whole.
+Earth encourages balance and integration.
 
-They tend to bring developments to a meaningful completion without losing sight of the larger purpose.
+Different parts of your life are seeking harmony.
 
-Their strength lies in connecting individual experiences into a meaningful whole, while their challenge may be taking on too much responsibility or holding on to a goal that has lost its purpose.
+Rather than chasing the next destination, focus on creating stability where you stand.
 
-`,
+Growth becomes sustainable when your actions align with your values.
 
-10: `
-Tone: 10 (Sagittarius) · 001 · Comprehend
-
-<br><br>
-
-People with Comprehend naturally seek the core of a question before taking action.
-
-They bring together insight, experience, and knowledge until it becomes clear how something truly works.
-
-Their strength lies in turning understanding into practical results, while their challenge may be continuing to seek complete certainty before taking the next step.
-
-`,
-
-11: `
-Tone: 11 (Capricorn) · 100 · Anchor
-
-<br><br>
-
-People with Anchor naturally recognize what has lasting value.
-
-They give ideas, experiences, and insights a lasting place, allowing them to endure and continue to grow.
-
-Their strength lies in preserving what is truly meaningful, while their challenge may be holding on too long to something that has already fulfilled its purpose.
-
-`,
-
-12: `
-Tone: 12 (Aquarius) · 011 · Unfold
-
-<br><br>
-
-People with Unfold naturally make knowledge, experiences, and insights accessible to others.
-
-They bring together different perspectives and communicate complex ideas with clarity and understanding.
-
-Their strength lies in sharing what is valuable, while their challenge may be becoming absorbed in gathering knowledge without putting it into practice.
-
-`,
-
-13: `
-Tone: 13 (Pisces) · 110 · Release
-
-<br><br>
-
-People with Release naturally recognize when something has reached completion and can be let go.
-
-They create space for new development without holding on to what has already fulfilled its purpose.
-
-Their strength lies in trusting that growth continues even when they take a step back, while their challenge may be resisting change for too long or moving ahead before something has truly been completed.
-
+The path remains steady when your foundations are strong.
 `
 
 };
