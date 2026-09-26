@@ -217,21 +217,22 @@ sourcesButton.textContent =
 
 
 const pageSets = {
-  en: {
-    muladhara: muladharaPages_en,
-    muladharaKin: muladharaKinPages_en,
-    svadhisthana: svadhisthanaPages_en,
-    manipura: manipuraPages_en,
-    anahata: anahataPages_en,
-    vishuddha: vishuddhaPages_en,
-    ajna: ajnaPages_en,
-    sahasrara: sahasraraPages_en,
-    sahasrara64: sahasrara64Pages_en
-  },
+
+en: {
+  muladhara: muladharaPages_en,
+  muladhara64: muladhara64Pages_en,
+  svadhisthana: svadhisthanaPages_en,
+  manipura: manipuraPages_en,
+  anahata: anahataPages_en,
+  vishuddha: vishuddhaPages_en,
+  ajna: ajnaPages_en,
+  sahasrara: sahasraraPages_en,
+  sahasraraKin: sahasraraKinPages_en
+},
 
   nl: {
     muladhara: muladharaPages_nl,
-    muladharaKin: muladharaKinPages_nl,
+muladhara64: muladhara64Pages_nl,
     special: specialPages,
     svadhisthana: svadhisthanaPages_nl,
     manipura: manipuraPages_nl,
@@ -239,44 +240,45 @@ const pageSets = {
     vishuddha: vishuddhaPages_nl,
     ajna: ajnaPages_nl,
     sahasrara: sahasraraPages_nl,
-    sahasrara64: sahasrara64Pages_nl
+    sahasraraKin: sahasraraKinPages_nl
   },
 
   jp: {
     muladhara: muladharaPages_jp,
-    muladharaKin: muladharaKinPages_jp,
+muladhara64: muladhara64Pages_jp,
     svadhisthana: svadhisthanaPages_jp,
     manipura: manipuraPages_jp,
     anahata: anahataPages_jp,
     vishuddha: vishuddhaPages_jp,
     ajna: ajnaPages_jp,
     sahasrara: sahasraraPages_jp,
-    sahasrara64: sahasrara64Pages_jp
+    sahasraraKin: sahasraraKinPages_jp
   },
 
   ru: {
     muladhara: muladharaPages_ru,
-    muladharaKin: muladharaKinPages_ru,
+muladhara64: muladhara64Pages_ru,
     svadhisthana: svadhisthanaPages_ru,
     manipura: manipuraPages_ru,
     anahata: anahataPages_ru,
     vishuddha: vishuddhaPages_ru,
     ajna: ajnaPages_ru,
     sahasrara: sahasraraPages_ru,
-    sahasrara64: sahasrara64Pages_ru
+    sahasraraKin: sahasraraKinPages_ru
   },
 
   tr: {
     muladhara: muladharaPages_tr,
-    muladharaKin: muladharaKinPages_tr,
+muladhara64: muladhara64Pages_tr,
     svadhisthana: svadhisthanaPages_tr,
     manipura: manipuraPages_tr,
     anahata: anahataPages_tr,
     vishuddha: vishuddhaPages_tr,
     ajna: ajnaPages_tr,
     sahasrara: sahasraraPages_tr,
-    sahasrara64: sahasrara64Pages_tr
+    sahasraraKin: sahasraraKinPages_tr
   }
+
 };
 
 let pages = pageSets.en;
@@ -3624,7 +3626,7 @@ if(beforeOrAtRoot){
 
 } else if(
   heartHoverOnly &&
-  activePage !== "muladhara"
+  activePage !== "sahasrara"
 ){
 
   // Heart-dag: verborgen, behalve wanneer 1e chakra geselecteerd is
@@ -4780,7 +4782,7 @@ rootItems.forEach((pair, i) => {
 
 document.getElementById("info").innerHTML = `
 <tspan x="-140" dy="0">
-${lang.moon}: G${night}${night === 0 ? "" : ` (${lang.nightNames[night-1]})`}
+${lang.tone}: ${tone} (${lang.toneNames[tone-1]})
 </tspan>
 
 <tspan x="-140" dy="36">
@@ -4788,7 +4790,7 @@ ${lang.sun}: ${animals[seal]}
 </tspan>
 
 <tspan x="-140" dy="36">
-${lang.tone}: ${tone} (${lang.toneNames[tone-1]})
+${lang.moon}: G${night}${night === 0 ? "" : ` (${lang.nightNames[night-1]})`}
 </tspan>
 `;
 
@@ -5013,17 +5015,35 @@ if(beforeOrAtRoot){
 const toneTab =
   document.getElementById("toneTab");
 
-toneTab.style.background =
+
+// ===== SAHASRARA: TONE =====
+
+document.getElementById("nightTab").style.background =
   toneColors[tone - 1];
 
+const toneFractal =
+  toneFractals[tone - 1];
 
+const crownSymbol =
+  document.getElementById("crownTabSymbol");
 
-const toneFractal = toneFractals[tone - 1];
+if(rootStage < 2){
 
-document.getElementById("toneTabSymbol").src =
-  tone === 9
-    ? "other/yang.svg"
-    : `trigrams/${toneFractal}.svg`;
+  crownSymbol.style.visibility = "hidden";
+
+  document
+    .getElementById("nightTab")
+    .style.background = "black";
+
+} else {
+
+  crownSymbol.style.visibility = "visible";
+
+  crownSymbol.src =
+    tone === 9
+      ? "other/yang.svg"
+      : `trigrams/${toneFractal}.svg`;
+}
 
 // ===== 4E CHAKRA SYMBOOL ONTVOUWING =====
 
@@ -5368,25 +5388,25 @@ const trigramUnfoldIndex =
 
 if(night === 0){
 
-  crownTabSymbol.style.visibility = "hidden";
+  toneTabSymbol.style.visibility = "hidden";
 
 } else {
 
-  crownTabSymbol.style.visibility = "visible";
+  toneTabSymbol.style.visibility = "visible";
 
   if(
     trigramUnfoldIndex >= 0 &&
     trigramUnfoldIndex < trigramUnfoldingFiles.length
   ){
 
-    crownTabSymbol.setAttribute(
+    toneTabSymbol.setAttribute(
       "src",
       trigramUnfoldingFiles[trigramUnfoldIndex]
     );
 
   } else {
 
-    crownTabSymbol.setAttribute(
+    toneTabSymbol.setAttribute(
       "src",
       trigramFiles[night - 1]
     );
@@ -5479,7 +5499,7 @@ if([2,3].includes(night)){
     "rgba(255,255,0,0.7)";
 }
 
-nightTab.style.background =
+toneTab.style.background =
   nightColor;
 
 const oracleKin = {
@@ -5505,7 +5525,17 @@ const oracleKin = {
 if(rootStage <= 5){
 
   // Vaste kruiskleuren zolang een chakra nog vergrendeld is.
-  toneTab.style.background = "black";                   // 1 Muladhara
+const rootMuladharaColors = [
+  "black",                  // 9/11 en eerder
+  "rgba(255,0,0,0.7)",     // 10/11 rood
+  "rgba(0,0,255,0.7)",     // 11/11 blauw
+  "rgba(0,128,0,0.7)",     // 12/11 groen
+  "rgba(255,255,255,0.7)", // 13/11 wit
+  "rgba(255,255,0,0.7)"    // 14/11 geel
+];
+
+toneTab.style.background =
+  rootMuladharaColors[Math.max(0, rootStage)];
   antipodeTab.style.background = "rgba(0,0,255,0.7)";   // 2 Svadhisthana
   analogTab.style.background = "rgba(255,0,0,0.7)";     // 3 Manipura
   birthTab.style.background = "rgba(0,128,0,0.7)";      // 4 Anahata
@@ -5520,12 +5550,6 @@ if(rootStage <= 5){
   if(rootStage >= 1){
     birthTab.style.background =
       colors[seal % 4];
-  }
-
-  // 10/11: chakra 1 matcht zwart; vanaf 11/11 dynamisch.
-  if(rootStage >= 2){
-    toneTab.style.background =
-      toneColors[tone - 1];
   }
 
   // 11/11: chakra 2 matcht blauw en chakra 5 geel;
@@ -5548,21 +5572,18 @@ if(rootStage <= 5){
       colors[guideSeal % 4];
   }
 
-  // Chakra 7 draagt de uitvouwing van het centrum naar de top.
-  // 9/11 en eerder zwart; vanaf 15/11 neemt nightColor weer over.
-  const rootNightColors = [
-    "black",                  // 9/11 en eerder
-    "rgba(255,0,0,0.7)",     // 10/11 rood
-    "rgba(0,0,255,0.7)",     // 11/11 blauw
-    "rgba(0,128,0,0.7)",     // 12/11 groen
-    "rgba(255,255,255,0.7)", // 13/11 wit
-    "rgba(255,255,0,0.7)"    // 14/11 geel
-  ];
+// Chakra 7 = Sahasrara / Tone
+// t/m 10/11 zwart, vanaf 11/11 dynamische Tone-kleur
+
+if(rootStage < 2){
+
+  nightTab.style.background = "black";
+
+} else {
 
   nightTab.style.background =
-    rootNightColors[
-      Math.max(0, rootStage)
-    ];
+    toneColors[tone - 1];
+}
 
 // Tijdelijke kleuren tijdens de splitsing vanuit het centrum.
 
@@ -5613,8 +5634,6 @@ if(rootStage === 1){
   guideTab.style.background =
     "rgba(255,255,255,0.7)";
 
-  nightTab.style.background =
-    "rgba(0,128,0,0.7)";
 }
 }
 
@@ -5970,16 +5989,10 @@ function setActivePage(pageName, tabId){
 }
 
 
-
-
 toneTab.onclick = () => {
 
   setActivePage("muladhara", "toneTab");
 };
-
-const hoverHeart =
-    night === 1 || superHeart || specialHeart;
-
 
 toneTab.onmouseenter = () => {
 
@@ -5988,36 +6001,25 @@ toneTab.onmouseenter = () => {
     !beforeOrAtRoot;
 
   if(isHeartDay){
-
     document
-      .getElementById("toneSymbol")
+      .getElementById("iChing")
       .setAttribute("opacity","1");
   }
 };
 
 toneTab.onmouseleave = () => {
 
-  const toneSymbol =
-    document.getElementById("toneSymbol");
-
   const isHeartDay =
     night === 1 &&
     !beforeOrAtRoot;
 
-  if(beforeOrAtRoot){
-
-    toneSymbol.setAttribute("opacity","0");
-
-} else if(
-  isHeartDay &&
-  activePage !== "muladhara"
-){
-  toneSymbol.setAttribute("opacity","0");
-} else {
-
-    toneSymbol.setAttribute("opacity","1");
+  if(isHeartDay){
+    document
+      .getElementById("iChing")
+      .setAttribute("opacity","0");
   }
 };
+
 
 const birthTabClick =
   document.getElementById("birthTab");
@@ -6067,17 +6069,7 @@ const iChing =
   document.getElementById("iChing");
 
 
-
-
 nightTabHover.onmouseenter = () => {
-
-const pentagramUnfolding =
-  dayOffset >= PENTAGRAM_FRACTAL_START_DAY &&
-  dayOffset < PENTAGRAM_FRACTAL_START_DAY + 5;
-
-  if(pentagramUnfolding){
-    return;
-  }
 
   const isHeartDay =
     night === 1 &&
@@ -6085,19 +6077,17 @@ const pentagramUnfolding =
 
   if(isHeartDay){
 
-    iChing.setAttribute("opacity","1");
+    document
+      .getElementById("toneSymbol")
+      .setAttribute("opacity","1");
   }
 };
 
+
 nightTabHover.onmouseleave = () => {
 
-const pentagramUnfolding =
-  dayOffset >= PENTAGRAM_FRACTAL_START_DAY &&
-  dayOffset < PENTAGRAM_FRACTAL_START_DAY + 5;
-
-  if(pentagramUnfolding){
-    return;
-  }
+  const toneSymbol =
+    document.getElementById("toneSymbol");
 
   const isHeartDay =
     night === 1 &&
@@ -6105,15 +6095,18 @@ const pentagramUnfolding =
 
   if(beforeOrAtRoot){
 
-    iChing.setAttribute("opacity","0");
+    toneSymbol.setAttribute("opacity","0");
 
-  } else if(isHeartDay){
+  } else if(
+    isHeartDay &&
+    activePage !== "sahasrara"
+  ){
 
-    iChing.setAttribute("opacity","0");
+    toneSymbol.setAttribute("opacity","0");
 
   } else {
 
-    iChing.setAttribute("opacity","1");
+    toneSymbol.setAttribute("opacity","1");
   }
 };
 

@@ -333,7 +333,8 @@ if(
   dayOffset < CHAKRA_TEXT_START_DAY &&
   activePage !== "manipura" &&
   activePage !== "anahata" &&
-  activePage !== "sahasrara"
+  activePage !== "sahasrara" &&
+  activePage !== "muladhara"
 ){
 
   panel.style.backgroundImage = "none";
@@ -378,78 +379,90 @@ if(
   return;
 }
 
-  // ===== MULADHARA =====
+// ===== MULADHARA =====
 
-  if(activePage === "muladhara"){
+if(activePage === "muladhara"){
 
-    panel.style.background =
-      "rgba(120,0,0,0.35)";
+  panel.style.background =
+    "rgba(120,0,0,0.35)";
 
-    title.innerHTML =
-      lang.muladhara;
+  title.classList.remove("chakraTitle");
 
-    title.classList.remove("chakraTitle");
+const PENTAGRAM_TEXT_START_DAY =
+  ROOT_OFFSET - 4; // 10/11
 
-    const toneText =
-      pages.muladhara[tone] ?? "";
+const pentagramPage =
+  dayOffset - PENTAGRAM_TEXT_START_DAY + 1;
 
-    let combinationText = "";
+if(
+  pentagramPage >= 1 &&
+  pentagramPage <= 5
+){
+  title.innerHTML =
+    lang.muladhara;
 
+  content.innerHTML =
+    pentagramPages[language]?.[pentagramPage] ?? "";
 
-    /*
-     * 11/11 t/m 14/11:
-     *
-     * 1 Actualiseren + Energie
-     * 2 Erkennen + Relatie
-     * 3 Onderscheiden + Perspectief
-     * 4 Plaatsen + Essentie
-     */
-    if(dayOffset <= ROOT_OFFSET){
+  return;
+}
 
-      const specialPageNumber =
-        dayOffset - CHAKRA_TEXT_START_DAY + 1;
+  /*
+   * Voorlopig alleen normale werking vanaf 15/11.
+   * De eerste uitvouwingsdagen en pentagramteksten
+   * voegen we hierna apart toe.
+   */
+  if(dayOffset < SAHASRARA_TEXT_START_DAY){
 
-combinationText =
-  specialPages?.[language]?.[specialPageNumber] ?? "";
-
-    } else {
-
-      /*
-       * Vanaf 15/11:
-       * de bestaande 260 combinaties.
-       *
-       * Hier niets aan veranderen.
-       */
-      combinationText =
-        pages.muladharaKin[mechanismKin + 1] ?? "";
-    }
-
-
-    if(combinationText){
-
-      content.innerHTML = `
-        <div class="toneText">
-          ${toneText}
-        </div>
-
-        <div class="textDivider"></div>
-
-        <div class="combinationText">
-          ${combinationText}
-        </div>
-      `;
-
-    } else {
-
-      content.innerHTML = `
-        <div class="toneText">
-          ${toneText}
-        </div>
-      `;
-    }
+    title.innerHTML = "";
+    content.innerHTML = "";
 
     return;
   }
+
+  title.innerHTML =
+    lang.muladhara;
+
+const nightText =
+  pages.muladhara?.[night] ?? "";
+
+// 15/11 t/m 20/12: alleen Night
+if(dayOffset < HEXAGRAM_START_DAY){
+
+  content.innerHTML = `
+    <div class="nightText">
+      ${nightText}
+    </div>
+  `;
+
+  return;
+}
+
+// Vanaf 21/12: Night + hexagram
+const hexagramNumber =
+  (
+    (dayOffset - HEXAGRAM_START_DAY) % 64
+    + 64
+  ) % 64 + 1;
+
+const hexagramText =
+  pages.muladhara64?.[hexagramNumber] ?? "";
+
+content.innerHTML = `
+  <div class="nightText">
+    ${nightText}
+  </div>
+
+  <div class="textDivider"></div>
+
+  <div class="combinationText">
+    ${hexagramText}
+  </div>
+`;
+
+return;
+
+}
 
 
 // ===== SAHASRARA =====
@@ -462,85 +475,83 @@ if(activePage === "sahasrara"){
   title.classList.remove("chakraTitle");
 
 
-const pentagramPage =
-  dayOffset - PENTAGRAM_FRACTAL_START_DAY + 1;
+// ===== EERSTE UITVOUWING 11/11 T/M 14/11 =====
 
-if(
-  pentagramPage >= 1 &&
-  pentagramPage <= 5
-){
-    title.innerHTML = lang.sahasrara;
-    content.innerHTML =
-      pentagramPages[language]?.[pentagramPage] ?? "";
+if(dayOffset < SAHASRARA_TEXT_START_DAY){
 
-    return;
-  }
+  if(dayOffset >= CHAKRA_TEXT_START_DAY){
 
+    const specialPageNumber =
+      dayOffset - CHAKRA_TEXT_START_DAY + 1;
 
-  /*
-   * Voor de normale Sahasrara-tekst:
-   * nog volledig leeg.
-   */
-  if(dayOffset < SAHASRARA_TEXT_START_DAY){
+    const specialText =
+      specialPages?.[language]?.[specialPageNumber] ?? "";
 
-    title.innerHTML = "";
-    content.innerHTML = "";
+    const toneText =
+      pages.sahasrara?.[tone] ?? "";
 
-    return;
-  }
-
-
-  /*
-   * Vanaf 15/11:
-   * bovenste helft / G1–G9-tekst zichtbaar.
-   */
-  title.innerHTML =
-    lang.sahasrara;
-
-  const nightText =
-    pages.sahasrara[night] ?? "";
-
-
-  /*
-   * 15/11 t/m 20/12:
-   * alleen de bestaande Sahasrara-tekst.
-   */
-  if(dayOffset < HEXAGRAM_START_DAY){
+    title.innerHTML =
+      lang.sahasrara;
 
     content.innerHTML = `
-      <div class="nightText">
-        ${nightText}
+      <div class="toneText">
+        ${toneText}
+      </div>
+
+      <div class="textDivider"></div>
+
+      <div class="combinationText">
+        ${specialText}
       </div>
     `;
 
-    return;
+  } else {
+
+    title.innerHTML = "";
+    content.innerHTML = "";
   }
 
+  return;
+}
 
-  /*
-   * Vanaf 21/12:
-   * bestaande tekst + juiste hexagramtekst.
-   */
-  const hexagramNumber =
-    (
-      (dayOffset - HEXAGRAM_START_DAY) % 64
-      + 64
-    ) % 64 + 1;
 
-  const hexagramText =
-    pages.sahasrara64?.[hexagramNumber] ?? "";
+  title.innerHTML =
+    lang.sahasrara;
+
+
+  // ===== TOON 1–13 =====
+
+  const toneText =
+    pages.sahasrara?.[tone] ?? "";
+
+
+// ===== 260 COMBINATIE =====
+
+const combinationText =
+  pages.sahasraraKin?.[mechanismKin + 1] ?? "";
+
+if(combinationText){
 
   content.innerHTML = `
-    <div class="nightText">
-      ${nightText}
+    <div class="toneText">
+      ${toneText}
     </div>
 
     <div class="textDivider"></div>
 
     <div class="combinationText">
-      ${hexagramText}
+      ${combinationText}
     </div>
   `;
+
+} else {
+
+  content.innerHTML = `
+    <div class="toneText">
+      ${toneText}
+    </div>
+  `;
+}
 
   return;
 }
