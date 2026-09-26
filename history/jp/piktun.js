@@ -9,10 +9,10 @@ window.historyTexts.jp.piktun = {
   integreren_verbeelding: {
 
     title:
-      "解き放つ",
+      "解き放つ + 想像",
 
 text:
-  `統合する + 想像力
+  `統合する + 想像
 
 <br><br>
 
@@ -25,7 +25,7 @@ text:
 window.historyTexts.jp.piktun.verankeren_spoor = {
 
   title:
-    "配置する",
+    "配置する + 意識",
 
 text:
   `定着させる + 痕跡
@@ -43,7 +43,7 @@ text:
 window.historyTexts.jp.piktun.erkennen_perspectief = {
 
   title:
-    "実現する",
+    "実現する + 意識",
 
 text:
   `認める + 視点
@@ -61,7 +61,7 @@ text:
 window.historyTexts.jp.piktun.actualiseren_interactie = {
 
   title:
-    "認める",
+    "認める + 相互作用",
 
 text:
   `実現する + 相互作用
@@ -79,7 +79,7 @@ text:
 window.historyTexts.jp.piktun.actualiseren_structuur = {
 
   title:
-    "区別する",
+    "区別する + 構造",
 
 text:
   `実現する + 構造
@@ -97,10 +97,10 @@ text:
 window.historyTexts.jp.piktun.doorgronden_waarde = {
 
   title:
-    " 選ぶ",
+    "選ぶ + 境界",
 
 text:
-  `解き明かす + 価値
+  `理解する + 価値
 
 <br><br>
 
@@ -115,7 +115,7 @@ text:
 window.historyTexts.jp.piktun.erkennen_grenzen = {
 
   title:
-    "洗練する",
+    "洗練する + エネルギー",
 
 text:
   `認める + 境界
@@ -133,7 +133,7 @@ text:
 window.historyTexts.jp.piktun.erkennen_levenspad = {
 
   title:
-    "調和する",
+    "調和する + 表現",
 
 text:
   `認める + 人生の道
@@ -151,10 +151,10 @@ text:
 window.historyTexts.jp.piktun.doorgronden_structuur = {
 
   title:
-    "変容する",
+    "変容する + 人生の道",
 
 text:
-  `解き明かす + 構造
+  `理解する + 構造
 
 <br><br>
 
@@ -169,7 +169,7 @@ text:
 window.historyTexts.jp.piktun.verankeren_interactie = {
 
   title:
-    "統合する",
+    "統合する + エネルギー",
 
 text:
   `定着させる + 相互作用
@@ -187,7 +187,7 @@ text:
 window.historyTexts.jp.piktun.transformeren_relatie = {
 
   title:
-    "理解する",
+    "理解する + 相互作用",
 
 text:
   `変容する + 関係
@@ -205,7 +205,7 @@ text:
 window.historyTexts.jp.piktun.erkennen_relatie = {
 
   title:
-    "定着させる",
+    "定着させる + 流れ",
 
 text:
   `認める + 関係
@@ -223,7 +223,7 @@ text:
 window.historyTexts.jp.piktun.verankeren_levenspad = {
 
   title:
-    "展開する",
+    "展開する + 関係",
 
 text:
   `定着させる + 人生の道
@@ -241,7 +241,7 @@ text:
 window.historyTexts.jp.piktun.plaatsen_expressie = {
 
   title:
-    "解き放つ",
+    "解き放つ + 価値",
 
 text:
   `位置づける + 表現
@@ -259,7 +259,7 @@ text:
 window.historyTexts.jp.piktun.verankeren_waarheid = {
 
   title:
-    "解き放つ",
+    "解き放つ + 痕跡",
 
 text:
   `定着させる + 真実
@@ -277,7 +277,7 @@ text:
 window.historyTexts.jp.piktun.actualiseren_manifestatie = {
 
   title:
-    "変容する",
+    "変容する + 顕現",
 
   text:
     `実現する + 顕現
@@ -295,7 +295,7 @@ window.historyTexts.jp.piktun.actualiseren_manifestatie = {
 window.historyTexts.jp.piktun.erkennen_waarheid = {
 
   title:
-    "変容する",
+    "変容する + 顕現",
 
   text:
     `認識する + 真実
@@ -313,10 +313,10 @@ window.historyTexts.jp.piktun.erkennen_waarheid = {
 window.historyTexts.jp.piktun.onderscheiden_samenhang = {
 
   title:
-    "変容する",
+    "変容する + 顕現",
 
   text:
-    `区別する + 一貫性
+    `区別する + つながり
 
 <br><br>
 
@@ -331,7 +331,7 @@ window.historyTexts.jp.piktun.onderscheiden_samenhang = {
 window.historyTexts.jp.piktun.plaatsen_essentie = {
 
   title:
-    "変容する",
+    "変容する + 顕現",
 
   text:
     `位置づける + 本質
@@ -349,7 +349,7 @@ window.historyTexts.jp.piktun.plaatsen_essentie = {
 window.historyTexts.jp.piktun.selecteren_oorsprong = {
 
   title:
-    "統合する",
+    "統合する + 源",
 
   text:
     `選択する + 源

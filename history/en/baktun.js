@@ -52,7 +52,7 @@ Around 2200 BCE, cities of the Indus Valley Civilization such as Mohenjo-daro an
 window.historyTexts.en.baktun.selecteren_relatie = {
 
   title:
-    "Position + Boundaries",
+    "Position + Relationship",
 
   text:
     `Select + Relationship

@@ -9,10 +9,10 @@ window.historyTexts.jp.kinchiltun = {
   afstemmen_samenhang: {
 
     title:
-      "区別する",
+      "区別する + 顕現",
 
 text:
-  `調整する + つながり
+  `調和する + つながり
 
 <br><br>
 
@@ -25,7 +25,7 @@ text:
 window.historyTexts.jp.kinchiltun.verfijnen_structuur = {
 
   title:
-    "解き放つ",
+    "解き放つ + 人生の道",
 
 text:
   `洗練する + 構造
@@ -43,7 +43,7 @@ text:
 window.historyTexts.jp.kinchiltun.integreren_relatie = {
 
   title:
-    "展開する",
+    "展開する + 関係",
 
 text:
   `統合する + 関係
@@ -61,7 +61,7 @@ text:
 window.historyTexts.jp.kinchiltun.verankeren_waarde = {
 
   title:
-    "調和する",
+    "調和する + 境界",
 
 text:
   `定着させる + 価値

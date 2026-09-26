@@ -9,10 +9,10 @@ window.historyTexts.jp.katun = {
   onderscheiden_verbeelding: {
 
 title:
-  "実現する",
+  "実現する + 源",
 
 text:
-  `識別する + 想像力
+  `区別する + 想像
 
 <br><br>
 

@@ -9,10 +9,10 @@ window.historyTexts.jp.alautun = {
   vrijmaken_potentieel: {
 
     title:
-      "洗練する",
+      "洗練する + 可能性",
 
 text:
-  `解放する + 可能性
+  `解き放つ + 可能性
 
 <br><br>
 
@@ -25,10 +25,10 @@ text:
 window.historyTexts.jp.alautun.afstemmen_structuur = {
 
   title:
-    "解き放つ",
+    "解き放つ + 人生の道",
 
 text:
-  `洗練する + 構造
+  `変容する + 構造
 
 <br><br>
 
@@ -43,10 +43,10 @@ text:
 window.historyTexts.jp.alautun.ontsluiten_bewustzijn = {
 
   title:
-    "理解する",
+    "理解する + 表現",
 
 text:
-  `解き明かす + 意識
+  `展開する + 意識
 
 <br><br>
 
@@ -61,10 +61,10 @@ text:
 window.historyTexts.jp.alautun.doorgronden_essentie = {
 
   title:
-    "調和する",
+    "調和する + つながり",
 
 text:
-  `解き明かす + 本質
+  `理解する + 本質
 
 <br><br>
 

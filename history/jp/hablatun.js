@@ -9,10 +9,10 @@ window.historyTexts.jp.hablatun = {
   onderscheiden_perspectief: {
 
     title:
-      "識別する",
+      "区別する + 構造",
 
 text:
-  `識別する + 視点
+  `区別する + 視点
 
 <br><br>
 
@@ -25,7 +25,7 @@ text:
 window.historyTexts.jp.hablatun.transformeren_informatie = {
 
   title:
-    "解き放つ",
+    "解き放つ + つながり",
 
 text:
   `変容する + 情報

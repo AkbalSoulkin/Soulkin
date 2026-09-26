@@ -10,7 +10,7 @@ window.historyTexts.jp.baktun =
 window.historyTexts.jp.baktun.actualiseren_oorsprong = {
 
   title:
-    "実現する",
+    "実現する + 源",
 
 text:
   `実現する + 源
@@ -24,7 +24,7 @@ text:
 window.historyTexts.jp.baktun.onderscheiden_stroming = {
 
   title:
-    "認める",
+    "認める + 相互作用",
 
 text:
   `区別する + 流れ
@@ -38,7 +38,7 @@ text:
 window.historyTexts.jp.baktun.transformeren_interactie = {
 
   title:
-    "区別する",
+    "区別する + 可能性",
 
 text:
   `変容する + 相互作用
@@ -52,7 +52,7 @@ text:
 window.historyTexts.jp.baktun.selecteren_relatie = {
 
   title:
-    "配置する",
+    "配置する + 関係",
 
 text:
   `選択する + 関係
@@ -66,7 +66,7 @@ text:
 window.historyTexts.jp.baktun.afstemmen_waarheid = {
 
   title:
-    "選ぶ",
+    "選ぶ + 痕跡",
 
 text:
   `調整する + 真実
@@ -80,10 +80,10 @@ text:
 window.historyTexts.jp.baktun.ontvouwen_verbeelding = {
 
   title:
-    "洗練する",
+    "洗練する + 本質",
 
 text:
-  `展開する + 想像力
+  `展開する + 想像
 
 <br><br>
 
@@ -94,7 +94,7 @@ text:
 window.historyTexts.jp.baktun.onderscheiden_structuur_athene = {
 
   title:
-    "調和する",
+    "調和する + 表現",
 
 text:
   `区別する + 構造
@@ -108,7 +108,7 @@ text:
 window.historyTexts.jp.baktun.actualiseren_manifestatie_rome = {
 
   title:
-    "変容する",
+    "変容する + 顕現",
 
 text:
   `実現する + 顕現
@@ -122,7 +122,7 @@ text:
 window.historyTexts.jp.baktun.selecteren_bewustzijn = {
 
   title:
-    "統合する",
+    "統合する + 意識",
 
 text:
   `選択する + 意識
@@ -136,7 +136,7 @@ text:
 window.historyTexts.jp.baktun.transformeren_relatie = {
 
   title:
-    "理解する",
+    "理解する + 相互作用",
 
 text:
   `変容する + 関係
@@ -150,7 +150,7 @@ text:
 window.historyTexts.jp.baktun.onderscheiden_expressie = {
 
   title:
-    "定着させる",
+    "定着させる + 流れ",
 
 text:
   `区別する + 表現
@@ -164,7 +164,7 @@ text:
 window.historyTexts.jp.baktun.vrijmaken_bewustzijn = {
 
   title:
-    "展開する",
+    "展開する + 意識",
 
 text:
   `解放する + 意識
@@ -178,7 +178,7 @@ text:
 window.historyTexts.jp.baktun.verankeren_waarheid = {
 
   title:
-    "解き放つ",
+    "解き放つ + 痕跡",
 
 text:
   `定着させる + 真実
@@ -192,7 +192,7 @@ text:
 window.historyTexts.jp.baktun.erkennen_informatie = {
 
   title:
-    "実現する",
+    "実現する + 源",
 
 text:
   `認める + 情報
@@ -210,7 +210,7 @@ text:
 window.historyTexts.jp.baktun.actualiseren_essentie = {
 
   title:
-    "認める",
+    "認める + 本質",
 
 text:
   `実現する + 本質
@@ -228,7 +228,7 @@ text:
 window.historyTexts.jp.baktun.vrijmaken_levenspad = {
 
   title:
-    "区別する",
+    "区別する + 人生の道",
 
 text:
   `解放する + 人生の道
@@ -246,7 +246,7 @@ text:
 window.historyTexts.jp.baktun.erkennen_interactie = {
 
   title:
-    "配置する",
+    "配置する + 境界",
 
 text:
   `認める + 相互作用
@@ -264,7 +264,7 @@ text:
 window.historyTexts.jp.baktun.onderscheiden_bewustzijn = {
 
   title:
-    "選ぶ",
+    "選ぶ + 人生の道",
 
 text:
   `識別する + 意識
@@ -282,7 +282,7 @@ text:
 window.historyTexts.jp.baktun.erkennen_samenhang = {
 
   title:
-    "洗練する",
+    "洗練する + 真実",
 
 text:
   `認める + つながり
@@ -300,7 +300,7 @@ text:
 window.historyTexts.jp.baktun.transformeren_waarheid = {
 
   title:
-    "調和する",
+    "調和する + 視点",
 
 text:
   `変容する + 真実
@@ -318,7 +318,7 @@ text:
 window.historyTexts.jp.baktun.onderscheiden_grenzen = {
 
   title:
-    "変容する",
+    "変容する + 可能性",
 
 text:
   `識別する + 境界
@@ -336,7 +336,7 @@ text:
 window.historyTexts.jp.baktun.transformeren_potentieel = {
 
   title:
-    "統合する",
+    "統合する + 源",
 
 text:
   `変容する + 可能性
@@ -354,7 +354,7 @@ text:
 window.historyTexts.jp.baktun.integreren_expressie = {
 
   title:
-    "理解する",
+    "理解する + 表現",
 
 text:
   `統合する + 表現
@@ -372,7 +372,7 @@ text:
 window.historyTexts.jp.baktun.erkennen_relatie = {
 
   title:
-    "定着させる",
+    "定着させる + 流れ",
 
 text:
   `認める + 関係
@@ -390,7 +390,7 @@ text:
 window.historyTexts.jp.baktun.onderscheiden_manifestatie = {
 
   title:
-    "展開する",
+    "展開する + 視点",
 
 text:
   `識別する + 顕現
@@ -408,7 +408,7 @@ text:
 window.historyTexts.jp.baktun.verfijnen_structuur = {
 
   title:
-    "解き放つ",
+    "解き放つ + 人生の道",
 
 text:
   `洗練する + 構造
@@ -426,7 +426,7 @@ text:
 window.historyTexts.jp.baktun.afstemmen_oorsprong = {
 
   title:
-    "解き放つ",
+    "解き放つ + つながり",
 
 text:
   `調整する + 源
@@ -444,7 +444,7 @@ text:
 window.historyTexts.jp.baktun.transformeren_informatie = {
 
   title:
-    "解き放つ",
+    "解き放つ + つながり",
 
 text:
   `変容する + 情報
@@ -462,10 +462,10 @@ text:
 window.historyTexts.jp.baktun.integreren_verbeelding = {
 
   title:
-    "解き放つ",
+    "解き放つ + 想像",
 
 text:
-  `統合する + 想像力
+  `統合する + 想像
 
 <br><br>
 
@@ -480,7 +480,7 @@ text:
 window.historyTexts.jp.baktun.doorgronden_potentieel = {
 
   title:
-    "解き放つ",
+    "解き放つ + 想像",
 
 text:
   `究明する + 可能性
@@ -498,7 +498,7 @@ text:
 window.historyTexts.jp.baktun.verankeren_energie = {
 
   title:
-    "解き放つ",
+    "解き放つ + 想像",
 
 text:
   `定着させる + エネルギー
@@ -516,7 +516,7 @@ text:
 window.historyTexts.jp.baktun.ontsluiten_grenzen = {
 
   title:
-    "解き放つ",
+    "解き放つ + 想像",
 
 text:
   `解き明かす + 境界
@@ -534,7 +534,7 @@ text:
 window.historyTexts.jp.baktun.vrijmaken_interactie = {
 
   title:
-    "解き放つ",
+    "解き放つ + 相互作用",
 
 text:
   `解放する + 相互作用
@@ -552,7 +552,7 @@ text:
 window.historyTexts.jp.baktun.actualiseren_waarde = {
 
   title:
-    "解き放つ",
+    "解き放つ + 価値",
 
 text:
   `実現する + 価値
@@ -570,7 +570,7 @@ text:
 window.historyTexts.jp.baktun.erkennen_stroming = {
 
   title:
-    "解き放つ",
+    "解き放つ + 価値",
 
 text:
   `認める + 流れ
@@ -588,7 +588,7 @@ text:
 window.historyTexts.jp.baktun.onderscheiden_relatie = {
 
   title:
-    "解き放つ",
+    "解き放つ + 価値",
 
 text:
   `識別する + 関係
@@ -606,7 +606,7 @@ text:
 window.historyTexts.jp.baktun.plaatsen_expressie = {
 
   title:
-    "解き放つ",
+    "解き放つ + 価値",
 
 text:
   `配置する + 表現
@@ -624,7 +624,7 @@ text:
 window.historyTexts.jp.baktun.selecteren_levenspad = {
 
   title:
-    "解き放つ",
+    "解き放つ + 人生の道",
 
 text:
   `選択する + 人生の道
@@ -642,7 +642,7 @@ text:
 window.historyTexts.jp.baktun.afstemmen_bewustzijn = {
 
   title:
-    "解き放つ",
+    "解き放つ + 人生の道",
 
 text:
   `調整する + 意識
@@ -660,7 +660,7 @@ text:
 window.historyTexts.jp.baktun.transformeren_perspectief = {
 
   title:
-    "解き放つ",
+    "解き放つ + 人生の道",
 
 text:
   `変容する + 視点
@@ -678,7 +678,7 @@ text:
 window.historyTexts.jp.baktun.integreren_spoor = {
 
   title:
-    "解き放つ",
+    "解き放つ + 痕跡",
 
 text:
   `統合する + 痕跡
@@ -696,7 +696,7 @@ text:
 window.historyTexts.jp.baktun.doorgronden_manifestatie = {
 
   title:
-    "解き放つ",
+    "解き放つ + 痕跡",
 
 text:
   `究明する + 顕現
@@ -714,7 +714,7 @@ text:
 window.historyTexts.jp.baktun.ontsluiten_samenhang = {
 
   title:
-    "解き放つ",
+    "解き放つ + 痕跡",
 
 text:
   `解き明かす + つながり
@@ -732,7 +732,7 @@ Webは、URL、HTTP、HTML、Webサーバー、ブラウザーを一つの整合
 window.historyTexts.jp.baktun.vrijmaken_essentie = {
 
   title:
-    "解き放つ",
+    "解き放つ + 本質",
 
 text:
   `解放する + 本質
@@ -750,7 +750,7 @@ text:
 window.historyTexts.jp.baktun.erkennen_waarheid = {
 
   title:
-    "変容する",
+    "変容する + 顕現",
 
   text:
     `認識する + 真実
@@ -768,7 +768,7 @@ window.historyTexts.jp.baktun.erkennen_waarheid = {
 window.historyTexts.jp.baktun.onderscheiden_samenhang = {
 
   title:
-    "変容する",
+    "変容する + 顕現",
 
   text:
     `区別する + つながり
@@ -786,7 +786,7 @@ window.historyTexts.jp.baktun.onderscheiden_samenhang = {
 window.historyTexts.jp.baktun.plaatsen_essentie = {
 
   title:
-    "変容する",
+    "変容する + 顕現",
 
   text:
     `位置づける + 本質

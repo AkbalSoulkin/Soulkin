@@ -9,7 +9,7 @@ window.historyTexts.jp.kalabtun = {
   erkennen_spoor: {
 
     title:
-      "展開する",
+      "展開する + 視点",
 
 text:
   `認める + 痕跡
@@ -25,7 +25,7 @@ text:
 window.historyTexts.jp.kalabtun.afstemmen_structuur = {
 
   title:
-    "認める",
+    "認める + 表現",
 
 text:
   `調整する + 構造
@@ -43,10 +43,10 @@ text:
 window.historyTexts.jp.kalabtun.ontsluiten_expressie = {
 
   title:
-    "区別する",
+    "区別する + 価値",
 
 text:
-  `解き明かす + 表現
+  `展開する + 表現
 
 <br><br>
 
@@ -61,10 +61,10 @@ text:
 window.historyTexts.jp.kalabtun.selecteren_bewustzijn = {
 
   title:
-    "統合する",
+    "統合する + 意識",
 
 text:
-  `選択する + 意識
+  `選ぶ + 意識
 
 <br><br>
 
@@ -79,7 +79,7 @@ text:
 window.historyTexts.jp.kalabtun.verankeren_samenhang = {
 
   title:
-    "定着させる",
+    "定着させる + 顕現",
 
 text:
   `定着させる + つながり
