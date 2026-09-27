@@ -751,3 +751,8 @@ body,
   height: 32px !important;
   opacity: 1;
 }
+
+#crownTabSymbol {
+  width: 65%;
+  height: 65%;
+}
