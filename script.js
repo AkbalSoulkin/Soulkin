@@ -4737,11 +4737,11 @@ document.getElementById("castleCore")
 
 
 const rootItems = [
-  ["redPoint", "smell"],     // 10/11
-  ["bluePoint", "hear"],     // 11/11
-  ["greenPoint", "touch"],   // 12/11
-  ["whitePoint", "sight"],   // 13/11
-  ["yellowPoint", "taste"]   // 14/11
+  ["redPoint", "sight"],     // 10/11
+  ["bluePoint", "taste"],    // 11/11
+  ["greenPoint", "hear"],    // 12/11
+  ["whitePoint", "touch"],   // 13/11
+  ["yellowPoint", "smell"]   // 14/11
 ];
 
 rootItems.forEach((pair, i) => {
@@ -5071,7 +5071,7 @@ const heartUnfoldingFiles = [
 if(dayOffset < HEART_UNFOLD_START_DAY){
 
   // t/m 9/11: positie 0 = hand
-  birthTabSymbol.src = "other/touch.svg";
+  birthTabSymbol.src = "other/hear.svg";
 
 } else if(dayOffset < HEART_NORMAL_START_DAY){
 
@@ -5137,7 +5137,7 @@ const guideTabSymbol =
 
 if(rootStage <= 1){
   // t/m 10/11: oorspronkelijk zintuig
-  guideTabSymbol.src = "other/sight.svg";
+  guideTabSymbol.src = "other/touch.svg";
 
 } else if(rootStage === 2){
   // 11/11
@@ -5212,7 +5212,7 @@ const analogTabSymbol =
 
 if(rootStage <= 1){
   // t/m 10/11: oorspronkelijk zintuig
-  analogTabSymbol.src = "other/smell.svg";
+  analogTabSymbol.src = "other/sight.svg";
 
 } else if(rootStage === 2){
   // 11/11
@@ -5250,7 +5250,7 @@ const antipodeTabSymbol =
 
 if(rootStage <= 1){
   // t/m 10/11: oorspronkelijk zintuig
-  antipodeTabSymbol.src = "other/hear.svg";
+  antipodeTabSymbol.src = "other/taste.svg";
 
 } else if(rootStage === 2){
   // 11/11
@@ -5303,7 +5303,7 @@ const occultTabSymbol =
 
 if(rootStage <= 1){
   // t/m 10/11: oorspronkelijk zintuig
-  occultTabSymbol.src = "other/taste.svg";
+  occultTabSymbol.src = "other/smell.svg";
 
 } else if(rootStage === 2){
   // 11/11
