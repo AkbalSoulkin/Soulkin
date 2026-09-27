@@ -334,7 +334,7 @@ if(
   activePage !== "manipura" &&
   activePage !== "anahata" &&
   activePage !== "sahasrara" &&
-  activePage !== "muladhara"
+  activePage !== "ajna"
 ){
 
   panel.style.backgroundImage = "none";
@@ -388,31 +388,11 @@ if(activePage === "muladhara"){
 
   title.classList.remove("chakraTitle");
 
-const PENTAGRAM_TEXT_START_DAY =
-  ROOT_OFFSET - 4; // 10/11
+  // 10/11
+  const MULADHARA_TEXT_START_DAY =
+    ROOT_OFFSET - 4;
 
-const pentagramPage =
-  dayOffset - PENTAGRAM_TEXT_START_DAY + 1;
-
-if(
-  pentagramPage >= 1 &&
-  pentagramPage <= 5
-){
-  title.innerHTML =
-    lang.muladhara;
-
-  content.innerHTML =
-    pentagramPages[language]?.[pentagramPage] ?? "";
-
-  return;
-}
-
-  /*
-   * Voorlopig alleen normale werking vanaf 15/11.
-   * De eerste uitvouwingsdagen en pentagramteksten
-   * voegen we hierna apart toe.
-   */
-  if(dayOffset < SAHASRARA_TEXT_START_DAY){
+  if(dayOffset < MULADHARA_TEXT_START_DAY){
 
     title.innerHTML = "";
     content.innerHTML = "";
@@ -423,45 +403,10 @@ if(
   title.innerHTML =
     lang.muladhara;
 
-const nightText =
-  pages.muladhara?.[night] ?? "";
-
-// 15/11 t/m 20/12: alleen Night
-if(dayOffset < HEXAGRAM_START_DAY){
-
-  content.innerHTML = `
-    <div class="nightText">
-      ${nightText}
-    </div>
-  `;
+  content.innerHTML =
+    pages.muladhara[seal + 1] ?? "";
 
   return;
-}
-
-// Vanaf 21/12: Night + hexagram
-const hexagramNumber =
-  (
-    (dayOffset - HEXAGRAM_START_DAY) % 64
-    + 64
-  ) % 64 + 1;
-
-const hexagramText =
-  pages.muladhara64?.[hexagramNumber] ?? "";
-
-content.innerHTML = `
-  <div class="nightText">
-    ${nightText}
-  </div>
-
-  <div class="textDivider"></div>
-
-  <div class="combinationText">
-    ${hexagramText}
-  </div>
-`;
-
-return;
-
 }
 
 
@@ -568,7 +513,7 @@ if(activePage === "anahata"){
   const ANAHATA_FIRST_DAY =
     ROOT_OFFSET - 4; // 10/11
 
-  // vóór 10/11: volledig leeg
+  // vóór 10/11: leeg
   if(dayOffset < ANAHATA_FIRST_DAY){
 
     title.innerHTML = "";
@@ -577,7 +522,7 @@ if(activePage === "anahata"){
     return;
   }
 
-  // exact 10/11: "There was."
+  // exact 10/11: bestaande eerste speciale tekst
   if(dayOffset === ANAHATA_FIRST_DAY){
 
     title.innerHTML =
@@ -589,12 +534,26 @@ if(activePage === "anahata"){
     return;
   }
 
-  // vanaf 11/11: bestaande Anahata
+  // vanaf 11/11: Guide
   title.innerHTML =
     lang.anahata;
 
+  const sealKey =
+    sealKeys[seal];
+
+  const guideOrder = [
+    seal,
+    (seal + 4) % 20,
+    (seal + 8) % 20,
+    (seal + 12) % 20,
+    (seal + 16) % 20
+  ];
+
+  const guideStep =
+    guideOrder.indexOf(guideSeal) + 1;
+
   content.innerHTML =
-    pages.anahata[seal + 1] ?? "";
+    pages.anahata?.[sealKey]?.[guideStep] ?? "";
 
   return;
 }
@@ -672,35 +631,83 @@ if(activePage === "manipura"){
   return;
 }
 
-  // ===== AJNA =====
+// ===== AJNA =====
 
-  if(activePage === "ajna"){
+if(activePage === "ajna"){
 
-    panel.style.background =
-      "rgba(90,70,180,0.28)";
+  panel.style.background =
+    "rgba(90,70,180,0.28)";
+
+  title.classList.remove("chakraTitle");
+
+// ===== EERSTE UITVOUWING 10/11 T/M 14/11 =====
+
+const PENTAGRAM_TEXT_START_DAY =
+  ROOT_OFFSET - 4; // 10/11
+
+if(dayOffset < SAHASRARA_TEXT_START_DAY){
+
+  if(dayOffset >= PENTAGRAM_TEXT_START_DAY){
+
+    const pentagramPage =
+      dayOffset - PENTAGRAM_TEXT_START_DAY + 1;
 
     title.innerHTML =
       lang.ajna;
 
-    title.classList.remove("chakraTitle");
-
-    const sealKey =
-      sealKeys[seal];
-
-    const guideOrder = [
-      seal,
-      (seal + 4) % 20,
-      (seal + 8) % 20,
-      (seal + 12) % 20,
-      (seal + 16) % 20
-    ];
-
-    const guideStep =
-      guideOrder.indexOf(guideSeal) + 1;
-
     content.innerHTML =
-      pages.ajna?.[sealKey]?.[guideStep] ?? "";
+      pentagramPages?.[language]?.[pentagramPage] ?? "";
+
+  } else {
+
+    title.innerHTML = "";
+    content.innerHTML = "";
+  }
+
+  return;
+}
+
+  title.innerHTML =
+    lang.ajna;
+
+  const nightText =
+    pages.ajna?.[night] ?? "";
+
+  // 15/11 t/m 20/12: alleen Night
+  if(dayOffset < HEXAGRAM_START_DAY){
+
+    content.innerHTML = `
+      <div class="nightText">
+        ${nightText}
+      </div>
+    `;
 
     return;
   }
+
+  // Vanaf 21/12: Night + hexagram
+  const hexagramNumber =
+    (
+      (dayOffset - HEXAGRAM_START_DAY) % 64
+      + 64
+    ) % 64 + 1;
+
+  const hexagramText =
+    pages.ajna64?.[hexagramNumber] ?? "";
+
+  content.innerHTML = `
+    <div class="nightText">
+      ${nightText}
+    </div>
+
+    <div class="textDivider"></div>
+
+    <div class="combinationText">
+      ${hexagramText}
+    </div>
+  `;
+
+  return;
+}
+
 }

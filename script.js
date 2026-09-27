@@ -215,66 +215,65 @@ sourcesButton.textContent =
   sourcesButtonLabels[language];
 };
 
-
 const pageSets = {
 
-en: {
-  muladhara: muladharaPages_en,
-  muladhara64: muladhara64Pages_en,
-  svadhisthana: svadhisthanaPages_en,
-  manipura: manipuraPages_en,
-  anahata: anahataPages_en,
-  vishuddha: vishuddhaPages_en,
-  ajna: ajnaPages_en,
-  sahasrara: sahasraraPages_en,
-  sahasraraKin: sahasraraKinPages_en
-},
+  en: {
+    muladhara: muladharaPages_en,
+    svadhisthana: svadhisthanaPages_en,
+    manipura: manipuraPages_en,
+    anahata: anahataPages_en,
+    vishuddha: vishuddhaPages_en,
+    ajna: ajnaPages_en,
+    ajna64: ajna64Pages_en,
+    sahasrara: sahasraraPages_en,
+    sahasraraKin: sahasraraKinPages_en
+  },
 
   nl: {
     muladhara: muladharaPages_nl,
-muladhara64: muladhara64Pages_nl,
     special: specialPages,
     svadhisthana: svadhisthanaPages_nl,
     manipura: manipuraPages_nl,
     anahata: anahataPages_nl,
     vishuddha: vishuddhaPages_nl,
     ajna: ajnaPages_nl,
+    ajna64: ajna64Pages_nl,
     sahasrara: sahasraraPages_nl,
     sahasraraKin: sahasraraKinPages_nl
   },
 
   jp: {
     muladhara: muladharaPages_jp,
-muladhara64: muladhara64Pages_jp,
     svadhisthana: svadhisthanaPages_jp,
     manipura: manipuraPages_jp,
     anahata: anahataPages_jp,
     vishuddha: vishuddhaPages_jp,
     ajna: ajnaPages_jp,
+    ajna64: ajna64Pages_jp,
     sahasrara: sahasraraPages_jp,
     sahasraraKin: sahasraraKinPages_jp
   },
 
   ru: {
     muladhara: muladharaPages_ru,
-muladhara64: muladhara64Pages_ru,
     svadhisthana: svadhisthanaPages_ru,
     manipura: manipuraPages_ru,
     anahata: anahataPages_ru,
     vishuddha: vishuddhaPages_ru,
     ajna: ajnaPages_ru,
+    ajna64: ajna64Pages_ru,
     sahasrara: sahasraraPages_ru,
     sahasraraKin: sahasraraKinPages_ru
   },
 
   tr: {
     muladhara: muladharaPages_tr,
-muladhara64: muladhara64Pages_tr,
     svadhisthana: svadhisthanaPages_tr,
     manipura: manipuraPages_tr,
     anahata: anahataPages_tr,
     vishuddha: vishuddhaPages_tr,
     ajna: ajnaPages_tr,
+    ajna64: ajna64Pages_tr,
     sahasrara: sahasraraPages_tr,
     sahasraraKin: sahasraraKinPages_tr
   }
@@ -5413,6 +5412,52 @@ if(night === 0){
   }
 }
 
+// ===== NORMALE CHAKRA SYMBOLEN VANAF 15/11 =====
+
+if(dayOffset >= HEART_NORMAL_START_DAY){
+
+  // 1 Muladhara = Occult
+  const muladharaFile =
+    occultSeal === 4  ? "13Chicchan.svg" :
+    occultSeal === 9  ? "13Oc.svg" :
+    occultSeal === 14 ? "13Men.svg" :
+    occultSeal === 19 ? "13Ahau.svg" :
+    animalFiles[occultSeal];
+
+  toneTabSymbol.style.visibility = "visible";
+  toneTabSymbol.src =
+    `animals/${muladharaFile}`;
+
+
+  // 4 Anahata = Guide
+  const anahataFile =
+    guideSeal === 4  ? "13Chicchan.svg" :
+    guideSeal === 9  ? "13Oc.svg" :
+    guideSeal === 14 ? "13Men.svg" :
+    guideSeal === 19 ? "13Ahau.svg" :
+    animalFiles[guideSeal];
+
+  birthTabSymbol.src =
+    `animals/${anahataFile}`;
+
+
+  // 5 Vishuddha = Current
+  const vishuddhaFile =
+    seal === 4  ? "13Chicchan.svg" :
+    seal === 9  ? "13Oc.svg" :
+    seal === 14 ? "13Men.svg" :
+    seal === 19 ? "13Ahau.svg" :
+    animalFiles[seal];
+
+  occultTabSymbol.src =
+    `animals/${vishuddhaFile}`;
+
+
+  // 6 Ajna = Night
+  guideTabSymbol.src =
+    trigramFiles[night - 1];
+}
+
 wavespellFractal.onclick = () => {
 
 wavespellButton.onclick = () => {
@@ -5509,6 +5554,37 @@ const oracleKin = {
   blue: blueKin,
   yellow: yellowKin
 };
+
+// ===== NORMALE CHAKRA KLEUREN =====
+
+// 1 Muladhara = Occult
+toneTab.style.background =
+  colors[occultSeal % 4];
+
+// 2 Svadhisthana = Antipode
+antipodeTab.style.background =
+  colors[antipodeSeal % 4];
+
+// 3 Manipura = Analog
+analogTab.style.background =
+  colors[analogSeal % 4];
+
+// 4 Anahata = Guide
+birthTab.style.background =
+  colors[guideSeal % 4];
+
+// 5 Vishuddha = Current
+occultTab.style.background =
+  colors[seal % 4];
+
+// 6 Ajna = Night
+guideTab.style.background =
+  nightColor;
+
+// 7 Sahasrara = Tone
+nightTab.style.background =
+  toneColors[tone - 1];
+
 
 // ===== CHAKRA TABS: OORSPRONGSFASE =====
 //
@@ -5637,16 +5713,204 @@ if(rootStage === 1){
 }
 }
 
+// ===== FINALE CHAKRA OVERRIDE 9/11 T/M 14/11 =====
+
+const CHAKRA_OVERRIDE_START_DAY = Number(
+  daysFromCivil(-17264374702, 11, 9) -
+  daysFromCivil(1982, 8, 22)
+);
+
+const chakraOverrideDay =
+  dayOffset - CHAKRA_OVERRIDE_START_DAY;
+
+
+// 9/11
+if(chakraOverrideDay <= 0){
+
+  // Muladhara = geel + smell
+  toneTab.style.background =
+    "rgba(255,255,0,0.7)";
+  toneTabSymbol.style.visibility = "visible";
+  toneTabSymbol.src =
+    "other/smell.svg";
+
+  // Anahata = wit + touch
+  birthTab.style.background =
+    "rgba(255,255,255,0.7)";
+  birthTabSymbol.src =
+    "other/touch.svg";
+
+  // Vishuddha = groen + hear
+  occultTab.style.background =
+    "rgba(0,128,0,0.7)";
+  occultTabSymbol.src =
+    "other/hear.svg";
+
+  // Ajna = zwart, nog geen symbool
+  guideTab.style.background = "black";
+  guideTabSymbol.style.visibility = "hidden";
+
+  // Sahasrara = wit + crown
+  nightTab.style.background =
+    "rgba(255,255,255,0.7)";
+  crownSymbol.style.visibility = "visible";
+  crownSymbol.src =
+    "other/crown.svg";
+}
+
+
+// 10/11
+else if(chakraOverrideDay === 1){
+
+  // Muladhara = groen + smell
+  toneTab.style.background =
+    "rgba(0,128,0,0.7)";
+  toneTabSymbol.style.visibility = "visible";
+  toneTabSymbol.src =
+    "other/smell.svg";
+
+  // Anahata = groen + touch
+  birthTab.style.background =
+    "rgba(0,128,0,0.7)";
+  birthTabSymbol.src =
+    "other/touch.svg";
+
+  // Vishuddha = groen + hear
+  occultTab.style.background =
+    "rgba(0,128,0,0.7)";
+  occultTabSymbol.src =
+    "other/hear.svg";
+
+  // Ajna = rood + 101
+  guideTab.style.background =
+    "rgba(255,0,0,0.7)";
+  guideTabSymbol.style.visibility = "visible";
+  guideTabSymbol.src =
+    "trigrams/101.svg";
+
+  // Sahasrara blijft zoals bestaande code hem maakt
+}
+
+
+// 11/11
+else if(chakraOverrideDay === 2){
+
+  // Muladhara = geel + Cib
+  toneTab.style.background =
+    "rgba(255,255,0,0.7)";
+  toneTabSymbol.style.visibility = "visible";
+  toneTabSymbol.src =
+    "animals/cib.svg";
+
+  // Anahata is al goed
+
+  // Vishuddha = rood + 13 Chicchan
+  occultTab.style.background =
+    "rgba(255,0,0,0.7)";
+  occultTabSymbol.src =
+    "animals/13Chicchan.svg";
+
+  // Ajna = blauw + 010
+  guideTab.style.background =
+    "rgba(0,0,255,0.7)";
+  guideTabSymbol.style.visibility = "visible";
+  guideTabSymbol.src =
+    "trigrams/010.svg";
+}
+
+
+// 12/11
+else if(chakraOverrideDay === 3){
+
+  // Muladhara = blauw + Chuen
+  toneTab.style.background =
+    "rgba(0,0,255,0.7)";
+  toneTabSymbol.style.visibility = "visible";
+  toneTabSymbol.src =
+    "animals/chuen.svg";
+
+  // Anahata = Ik
+  birthTabSymbol.src =
+    "animals/ik.svg";
+
+  // Vishuddha = wit + Oc
+  occultTab.style.background =
+    "rgba(255,255,255,0.7)";
+  occultTabSymbol.src =
+    "animals/13Oc.svg";
+
+  // Ajna = groen + Yin
+  guideTab.style.background =
+    "rgba(0,128,0,0.7)";
+  guideTabSymbol.style.visibility = "visible";
+  guideTabSymbol.src =
+    "other/yin.svg";
+}
+
+
+// 13/11
+else if(chakraOverrideDay === 4){
+
+  // Muladhara: kleur is al goed + Cimi
+  toneTabSymbol.style.visibility = "visible";
+  toneTabSymbol.src =
+    "animals/cimi.svg";
+
+  // Anahata = Cauac
+  birthTabSymbol.src =
+    "animals/cauac.svg";
+
+  // Vishuddha = blauw + 13 Men
+  occultTab.style.background =
+    "rgba(0,0,255,0.7)";
+  occultTabSymbol.src =
+    "animals/13Men.svg";
+
+  // Ajna = wit + 111
+  guideTab.style.background =
+    "rgba(255,255,255,0.7)";
+  guideTabSymbol.style.visibility = "visible";
+  guideTabSymbol.src =
+    "trigrams/111.svg";
+}
+
+
+// 14/11
+else if(chakraOverrideDay === 5){
+
+  // Muladhara = rood + Imix
+  toneTab.style.background =
+    "rgba(255,0,0,0.7)";
+  toneTabSymbol.style.visibility = "visible";
+  toneTabSymbol.src =
+    "animals/Imix.svg";
+
+  // Anahata = Cib
+  birthTabSymbol.src =
+    "animals/Cib.svg";
+
+  // Vishuddha = geel + 13 Ahau
+  occultTab.style.background =
+    "rgba(255,255,0,0.7)";
+  occultTabSymbol.src =
+    "animals/13Ahau.svg";
+
+  // Ajna: kleur is al goed + 000
+  guideTabSymbol.style.visibility = "visible";
+  guideTabSymbol.src =
+    "trigrams/000.svg";
+}
+
 updateActivePage();
 
 // ===== LOCK HIGHLIGHT VAN GESELECTEERDE KIN =====
 
 const lockedKinByPage = {
-  anahata: oracleKin.green,
-  manipura: oracleKin.red,
-  ajna: oracleKin.white,
-  svadhisthana: oracleKin.blue,
-  vishuddha: oracleKin.yellow
+  muladhara: oracleKin.yellow,     // Occult
+  svadhisthana: oracleKin.blue,   // Antipode
+  manipura: oracleKin.red,        // Analog
+  anahata: oracleKin.white,       // Guide
+  vishuddha: oracleKin.green      // Current
 };
 
 const lockedKin =
@@ -5676,24 +5940,24 @@ if(
 // ===== HOVER LINKS =====
 const hoverMap = [
   {
-    box: "birthTab",
-    target: oracleKin.green
+    box: "toneTab",       // Muladhara
+    target: oracleKin.yellow
   },
   {
-    box: "analogTab",
-    target: oracleKin.red
-  },
-  {
-    box: "guideTab",
-    target: oracleKin.white
-  },
-  {
-    box: "antipodeTab",
+    box: "antipodeTab",   // Svadhisthana
     target: oracleKin.blue
   },
   {
-    box: "occultTab",
-    target: oracleKin.yellow
+    box: "analogTab",     // Manipura
+    target: oracleKin.red
+  },
+  {
+    box: "birthTab",      // Anahata
+    target: oracleKin.white
+  },
+  {
+    box: "occultTab",     // Vishuddha
+    target: oracleKin.green
   }
 ];
 
@@ -5990,51 +6254,20 @@ function setActivePage(pageName, tabId){
 
 
 toneTab.onclick = () => {
-
   setActivePage("muladhara", "toneTab");
 };
-
-toneTab.onmouseenter = () => {
-
-  const isHeartDay =
-    night === 1 &&
-    !beforeOrAtRoot;
-
-  if(isHeartDay){
-    document
-      .getElementById("iChing")
-      .setAttribute("opacity","1");
-  }
-};
-
-toneTab.onmouseleave = () => {
-
-  const isHeartDay =
-    night === 1 &&
-    !beforeOrAtRoot;
-
-  if(isHeartDay){
-    document
-      .getElementById("iChing")
-      .setAttribute("opacity","0");
-  }
-};
-
 
 const birthTabClick =
   document.getElementById("birthTab");
 
 birthTabClick.onclick = () => {
-
   setActivePage("anahata", "birthTab");
 };
-
 
 const occultTabClick =
   document.getElementById("occultTab");
 
 occultTabClick.onclick = () => {
-
   setActivePage("vishuddha", "occultTab");
 };
 
@@ -6042,7 +6275,6 @@ const antipodeTabClick =
   document.getElementById("antipodeTab");
 
 antipodeTabClick.onclick = () => {
-
   setActivePage("svadhisthana", "antipodeTab");
 };
 
@@ -6050,7 +6282,6 @@ const analogTabClick =
   document.getElementById("analogTab");
 
 analogTabClick.onclick = () => {
-
   setActivePage("manipura", "analogTab");
 };
 
@@ -6058,12 +6289,15 @@ const guideTabClick =
   document.getElementById("guideTab");
 
 guideTabClick.onclick = () => {
-
   setActivePage("ajna", "guideTab");
 };
 
 const nightTabHover =
   document.getElementById("nightTab");
+
+nightTabHover.onclick = () => {
+  setActivePage("sahasrara", "nightTab");
+};
 
 const iChing =
   document.getElementById("iChing");
