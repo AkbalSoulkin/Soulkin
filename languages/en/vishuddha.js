@@ -1,300 +1,260 @@
 const vishuddhaPages_en = {
 
 1: `
-Source secretly longs for Essence.
+0001 (Imix) · Source
 
 <br><br>
 
-People with Source often want not only to bring something new into being, but also hope that what they bring forth will gain real meaning and become itself.
+People with Source often naturally form the beginning of a new development.
 
-Beneath their drive to initiate ideas, possibilities or developments lies a desire to create something essential that reaches beyond its initial beginning.
+They bring forth ideas, possibilities, or initiatives and give others the space to build upon them.
 
-This can express itself as a strong need to bring forth something authentic and meaningful, but also as disappointment when what they begin ultimately takes on a different form or meaning than they originally envisioned.
-
-<br><br>
+Their strength lies in creating a new beginning, while their challenge may be that they focus more strongly on starting than on completing what they have set in motion.
 
 `,
 
 2: `
-Information secretly longs for Coherence.
+0011 (Ik) · Information
 
 <br><br>
 
-People with Information often want not only to know and understand, but also seek to see how separate pieces of information are connected.
+People with Information often naturally recognize patterns, connections, and meaning.
 
-Beneath their need to recognize patterns, gather knowledge and share insights lies a desire to turn separate information into an understandable whole.
+They gather, organize, and share knowledge, allowing new insights to emerge.
 
-This can express itself as a strong need to discover connections and find meaning, but also as difficulty letting something go while it is still unclear how all the parts fit together.
-
-<br><br>
+Their strength lies in making coherence within information visible, while their challenge may be that they become lost in too many possibilities or continue searching for more information before making a decision.
 
 `,
 
 3: `
-Imagination secretly longs for Truth.
+0010 (Akbal) · Imagination
 
 <br><br>
 
-People with Imagination often want not only to form new images, ideas and meanings, but also long for their inner world to connect with reality.
+People with Imagination often naturally form a rich inner world.
 
-Beneath their rich inner experience lies a need to feel that what they imagine, sense or create corresponds in some way with what is real.
+They see possibilities, images, and meanings that are not yet visible and give form to what previously existed only as an idea.
 
-This can express itself as a strong need to test their ideas against reality, but also as doubt when their inner representation and reality do not correspond.
-
-<br><br>
+Their strength lies in making inner possibilities visible, while their challenge may be that they become lost in their own inner world or keep searching for too long before bringing their ideas into reality.
 
 `,
 
 4: `
-Potential secretly longs for Manifestation.
+0000 (Kan) · Potential
 
 <br><br>
 
-People with Potential often want not only to see possibilities, but also long to eventually see them reflected in reality.
+People with Potential often naturally recognize what can grow into something new.
 
-Beneath their sense of what could emerge lies a need to experience possibilities taking on a visible form.
+They see possibilities before they become visible and encourage growth in themselves, others, or their surroundings.
 
-This can express itself as a strong need to see growth and development become real, but also as disappointment when possibilities remain present without ever finding expression.
-
-<br><br>
+Their strength lies in recognizing and developing hidden possibilities, while their challenge may be that they keep waiting for the right moment or leave their possibilities unrealized.
 
 `,
 
 5: `
-Energy secretly longs for Trace.
+01 (Chicchan) · Energy
 
 <br><br>
 
-People with Energy often want not only to create movement and change, but also long for their efforts to leave something behind.
+People with Energy often naturally sense when something needs to be set in motion.
 
-Beneath their natural drive and need for movement lies a desire to experience that what they set in motion leaves a lasting impression.
+They bring vitality, drive, and change and encourage development by taking action.
 
-This can express itself as a strong need to have a noticeable impact, but also as frustration when much energy is invested without anything remaining noticeably different afterward.
-
-<br><br>
+Their strength lies in turning energy into movement, while their challenge may be that they use their energy too impulsively or spread it across too many directions at once.
 
 `,
 
 6: `
-Boundaries secretly long for Perspective.
+0111 (Cimi) · Boundaries
 
 <br><br>
 
-People with Boundaries often want not only to recognize where something ends, but also long to understand what may exist beyond that boundary.
+People with Boundaries often naturally recognize when something has reached its limit.
 
-Beneath their need for clear boundaries lies a desire to view situations from a broader perspective.
+They help create space for change by letting go of what no longer fits and allowing new possibilities to enter.
 
-This can express itself as a strong need to look beyond what currently seems limited, but also as uncertainty when another perspective calls familiar boundaries into question.
-
-<br><br>
+Their strength lies in both guarding and extending boundaries, while their challenge may be that they hold on to certainty for too long or find it difficult to let go of what is familiar.
 
 `,
 
 7: `
-Interaction secretly longs for Consciousness.
+0110 (Manik) · Interaction
 
 <br><br>
 
-People with Interaction often want not only to experience exchange, but also long to become aware of what happens within that interaction.
+People with Interaction often naturally bring people, ideas, or experiences into connection with one another.
 
-Beneath their need for contact, exchange and mutual influence lies a desire to experience what encounters bring about in themselves and others.
+They learn through exchange and influence their surroundings through what they do, share, and apply.
 
-This can express itself as a strong need for meaningful interaction, but also as unease when much exchange takes place without it becoming clear what it actually brings about.
-
-<br><br>
+Their strength lies in creating meaningful interaction, while their challenge may be that they adapt too much to others or postpone their own development by constantly being there for others.
 
 `,
 8: `
-Value secretly longs for Structure.
+0100 (Lamat) · Value
 
 <br><br>
 
-People with Value often want not only to recognize what is meaningful, but also long for what they value to have a clear and lasting place.
+People with Value often naturally recognize what truly has meaning.
 
-Beneath their sense of meaning, quality and importance lies a need for a form in which value can be preserved and supported.
+They express beauty, quality, and harmony by giving attention to what is valuable to themselves and others.
 
-This can express itself as a strong need to give meaningful things a solid place in their lives, but also as difficulty when existing structures no longer support what is truly valuable to them.
-
-<br><br>
+Their strength lies in making meaning visible, while their challenge may be that they are guided by judgments, extremes, or the need for recognition, causing the true value to fade from view.
 
 `,
 
 9: `
-Flow secretly longs for Life Path.
+0101 (Muluc) · Flow
 
 <br><br>
 
-People with Flow often want not only to move with what is developing, but also long for all that movement to lead somewhere.
+People with Flow often naturally sense what wants to be set in motion.
 
-Beneath their natural ability to let feelings, ideas and developments flow lies a need to experience that what passes is part of a larger journey.
+They set ideas, feelings, and developments in motion and adapt easily to changing circumstances.
 
-This can express itself as a strong need to experience meaning in the path they travel, but also as uncertainty when life keeps changing without it becoming clear where that movement is taking them.
-
-<br><br>
+Their strength lies in allowing what wants to move forward to keep flowing, while their challenge may be that they are carried away by their own feelings or have difficulty maintaining direction when everything is constantly changing.
 
 `,
 
 10: `
-Relationship secretly longs for Expression.
+11 (Oc) · Relationship
 
 <br><br>
 
-People with Relationship often want not only to experience connection, but also long for that connection to be expressed.
+People with Relationship often naturally build lasting connections with people, ideas, or communities.
 
-Beneath their need for trust, involvement and closeness lies a desire to experience that what exists between people also becomes visible, tangible or shareable.
+They create trust through involvement, cooperation, and loyalty to what truly has meaning for them.
 
-This can express itself as a strong need to express connection and see it reflected in return, but also as uncertainty when a relationship exists without it being clear what it means to the other person.
-
-<br><br>
+Their strength lies in connecting people through mutual trust, while their challenge may be that they become too attached to relationships, expectations, or ideals, leaving less room for growth.
 
 `,
 
 11: `
-Expression secretly longs for Relationship.
+1110 (Chuen) · Expression
 
 <br><br>
 
-People with Expression often want not only to make visible what lives within them, but also long for their expression to create genuine connection.
+People with Expression often naturally bring their inner world outward.
 
-Beneath their need to bring ideas, feelings and experiences outward lies a desire to reach someone or something through what they express.
+They give form to ideas, feelings, and experiences and inspire others through their creativity, humor, or way of communicating.
 
-This can express itself as a strong need to share themselves and experience connection through doing so, but also as disappointment when what they express finds no connection or remains unanswered.
-
-<br><br>
+Their strength lies in making visible what lives within, while their challenge may be that they become lost in outward display or continue playing with possibilities without truly expressing them.
 
 `,
 
 12: `
-Life Path secretly longs for Flow.
+1100 (Eb) · Life Path
 
 <br><br>
 
-People with Life Path often want not only to follow a path and develop along the way, but also long for that path to remain open to movement and change.
+People with Life Path often develop step by step through their own experiences.
 
-Beneath their need to connect experiences into an ongoing journey lies a desire to move with whatever life brings along the way.
+They connect what they learn along the way into a direction that can help not only themselves, but others move forward as well.
 
-This can express itself as a strong need to allow their path to develop freely, but also as unease when circumstances block their progress or life begins to flow differently from what they expected.
-
-<br><br>
+Their strength lies in consciously shaping their own development, while their challenge may be that they subordinate their own needs to those of others or continue holding on to experiences from the past.
 
 `,
 
 13: `
-Structure secretly longs for Value.
+1101 (Ben) · Structure
 
 <br><br>
 
-People with Structure often want not only to create order and coherence, but also long for what they build to be truly meaningful.
+People with Structure often naturally bring order and direction to complex situations.
 
-Beneath their need for organization, stability and a solid foundation lies a desire to support something that has value for themselves or others.
+From a clear vision, they build a solid foundation upon which others can continue to build and know how to turn ideas into lasting forms.
 
-This can express itself as a strong need to devote time and attention to what is truly meaningful, but also as doubt when a structure functions well while it is no longer clear what purpose it actually serves.
-
-<br><br>
+Their strength lies in creating stability and direction, while their challenge may be that they hold on to existing beliefs or structures when renewal is precisely what is needed.
 
 `,
 
 14: `
-Consciousness secretly longs for Interaction.
+1111 (Ix) · Consciousness
 
 <br><br>
 
-People with Consciousness often want not only to perceive what is present within themselves and their surroundings, but also long to interact with it.
+People with Consciousness often naturally perceive what is present beneath the surface.
 
-Beneath their need for awareness and experience lies a desire to be influenced by contact with people, ideas and circumstances, while also having an influence themselves.
+They connect insight, intuition, and experience into a deeper understanding of themselves, others, and their surroundings.
 
-This can express itself as a strong need for experiences that bring their consciousness into contact with something beyond themselves, but also as a sense of separation when they perceive a great deal without truly participating in what they experience.
-
-<br><br>
+Their strength lies in becoming conscious of what is truly happening, while their challenge may be that they become lost in their own beliefs or close themselves off too much from other perspectives.
 
 `,
 15: `
-Perspective secretly longs for Boundaries.
+10 (Men) · Perspective
 
 <br><br>
 
-People with Perspective often want not only to look from different points of view, but also long to know within what boundaries their view gains meaning.
+People with Perspective often naturally see the larger whole.
 
-Beneath their need to look further and see the larger whole lies a desire for boundaries that make clear which part of that whole is relevant at that moment.
+They recognize possibilities and developments that still remain outside the view of others and bring a vision that can provide direction for the future.
 
-This can express itself as a strong need to direct their view within a clear frame, but also as unease when there are so many possible perspectives that no clear boundary emerges.
-
-<br><br>
+Their strength lies in broadening insight by looking from different points of view, while their challenge may be that they become lost in ideals or distance themselves from the reality in which their vision must take form.
 
 `,
 
 16: `
-Trace secretly longs for Energy.
+1000 (Cib) · Trace
 
 <br><br>
 
-People with Trace often want not only to preserve what experiences have left behind, but also long for what comes from the past to create movement again.
+People with Trace often naturally recognize which experiences have lasting meaning.
 
-Beneath their attention to memories, experiences and lasting impressions lies a desire for these not only to be preserved, but also to influence what emerges next.
+They learn from what has been and use those insights to provide direction for themselves and others.
 
-This can express itself as a strong need to build on previous experiences, but also as frustration when what they have learned or left behind no longer sets anything new in motion.
-
-<br><br>
+Their strength lies in making visible the lessons that experiences leave behind, while their challenge may be that they hold on to old beliefs or events, leaving less room for new possibilities.
 
 `,
 
 17: `
-Manifestation secretly longs for Potential.
+1001 (Caban) · Manifestation
 
 <br><br>
 
-People with Manifestation often want not only to see what has become reality, but also long to experience what possibilities still lie hidden within it.
+People with Manifestation often naturally bring ideas, insights, or possibilities into expression within reality.
 
-Beneath their attention to what is visibly and concretely present lies a desire for what could still emerge from it.
+They connect thought and action and give form to changes that contribute to further development.
 
-This can express itself as a strong need to keep seeing new possibilities in what already exists, but also as dissatisfaction when reality seems to contain fewer possibilities than they had hoped.
-
-<br><br>
+Their strength lies in making visible what previously existed only as a possibility, while their challenge may be that they hold on to their own beliefs or try too strongly to shape reality through their thinking.
 
 `,
 
 18: `
-Truth secretly longs for Imagination.
+1011 (Etznab) · Truth
 
 <br><br>
 
-People with Truth often want not only to see what corresponds with reality, but also long to imagine what could become possible from within that reality.
+People with Truth often naturally recognize what truly corresponds with reality.
 
-Beneath their need for authenticity and correspondence lies a desire to look beyond what is presently real.
+They see through appearances, bring clarity to complex situations, and help distinguish between what is true and what merely appears to be.
 
-This can express itself as a strong need to form new images and possibilities from reality, but also as difficulty when imagination asks them to make room for something that has not yet been confirmed by reality.
-
-<br><br>
+Their strength lies in making truth visible without losing sight of coherence, while their challenge may be that they judge too harshly, hold on to their own beliefs, or forget that truth also requires openness to other perspectives.
 
 `,
 
 19: `
-Coherence secretly longs for Information.
+1010 (Cauac) · Coherence
 
 <br><br>
 
-People with Coherence often want not only to experience that different parts are connected, but also long for it to become visible how that connection is structured.
+People with Coherence often naturally recognize how separate parts are connected to one another.
 
-Beneath their need for coherence and interconnectedness lies a desire for information that makes the relationships within the whole recognizable.
+They bring change not to disrupt, but to allow a new balance to emerge in which everything works together more effectively.
 
-This can express itself as a strong need to know what is happening within a larger whole, but also as uncertainty when they experience coherence without enough information to see what it is based on.
-
-<br><br>
+Their strength lies in restoring coherence through development and renewal, while their challenge may be that they want too much change at once or create unrest before a new balance has had the chance to form.
 
 `,
 
 20: `
-Essence secretly longs for Source.
+00 (Ahau) · Essence
 
 <br><br>
 
-People with Essence often want not only to recognize what is truly essential, but also long to experience where that essence comes from.
+People with Essence often naturally recognize what is truly essential.
 
-Beneath their need for authenticity, meaning and a recognizable core lies a desire for the source from which something has been able to develop into itself.
+They focus on what has lasting meaning and inspire others by living from their deepest convictions and involvement.
 
-This can express itself as a strong need to return to what originally gave something meaning, but also as difficulty accepting that what is essential can change along the way and does not have to be fully explained by its origin.
-
-<br><br>
+Their strength lies in making visible the core of people, ideas, and situations, while their challenge may be that they hold on to an idealized image or judge reality through a desire for perfection.
 
 `
 

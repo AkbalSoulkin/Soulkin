@@ -1,300 +1,261 @@
 const vishuddhaPages_tr = {
 
 1: `
-Kaynak gizliden Özü arzular.
+0001 (Imix) · Kaynak
 
 <br><br>
 
-Kaynak insanları yalnızca yeni bir şeyin ortaya çıkmasını sağlamak istemez, aynı zamanda ortaya çıkardıkları şeyin gerçek bir anlam kazanmasını ve kendi özüyle var olmasını da arzular.
+Kaynak insanları çoğu zaman doğal olarak yeni bir gelişimin başlangıcını oluştururlar.
 
-Fikirlerin, olasılıkların veya gelişmelerin başlangıcını oluşturma eğilimlerinin altında, ilk başlangıcın ötesine uzanan özsel ve anlamlı bir şey ortaya çıkarma arzusu yatar.
+Fikirler, olasılıklar veya girişimler ortaya çıkarır ve başkalarına bunların üzerine inşa edebilecekleri alanı sağlarlar.
 
-Bu, özgün ve anlamlı bir şey ortaya çıkarma yönünde güçlü bir ihtiyaç olarak kendini gösterebilir; ancak başlattıkları şey zamanla başlangıçta hayal ettiklerinden farklı bir biçim veya anlam kazandığında hayal kırıklığına da yol açabilir.
-
-<br><br>
+Güçleri yeni bir başlangıç yaratmalarında yatar; zorlukları ise harekete geçirdikleri şeyi tamamlamaktan çok başlatmaya odaklanmaları olabilir.
 
 `,
 
 2: `
-Bilgi gizliden Bütünlüğü arzular.
+0011 (Ik) · Bilgi
 
 <br><br>
 
-Bilgi insanları yalnızca bilmek ve anlamak istemez, aynı zamanda ayrı bilgilerin birbirleriyle nasıl bağlantılı olduğunu da görmek ister.
+Bilgi insanları çoğu zaman doğal olarak örüntüleri, bağlantıları ve anlamı fark ederler.
 
-Örüntüleri fark etme, bilgi toplama ve içgörülerini paylaşma ihtiyaçlarının altında, ayrı bilgileri anlaşılır bir bütün hâline getirme arzusu yatar.
+Bilgiyi toplar, düzenler ve paylaşırlar; böylece yeni içgörülerin ortaya çıkmasını mümkün kılarlar.
 
-Bu, bağlantıları keşfetme ve anlam bulma yönünde güçlü bir ihtiyaç olarak kendini gösterebilir; ancak bütün parçaların birbirleriyle nasıl bağlantılı olduğu henüz açık değilken bir konuyu bırakmakta zorlanmalarına da yol açabilir.
-
-<br><br>
+Güçleri bilgi içindeki bütünlüğü görünür hâle getirmelerinde yatar; zorlukları ise çok fazla olasılık arasında kaybolmaları veya bir karar vermeden önce daha fazla bilgi aramaya devam etmeleri olabilir.
 
 `,
 
 3: `
-Hayal Gücü gizliden Hakikati arzular.
+0010 (Akbal) · Hayal Gücü
 
 <br><br>
 
-Hayal Gücü insanları yalnızca yeni imgeler, fikirler ve anlamlar oluşturmak istemez, aynı zamanda iç dünyalarının gerçeklikle bağ kurmasını da arzular.
+Hayal Gücü insanları çoğu zaman doğal olarak zengin bir iç dünya oluştururlar.
 
-Zengin iç dünyalarının altında, hayal ettikleri, hissettikleri veya yarattıkları şeylerin bir şekilde gerçeklikle örtüştüğünü hissetme ihtiyacı yatar.
+Henüz görünür olmayan olasılıkları, imgeleri ve anlamları görür ve daha önce yalnızca bir fikir olarak var olan şeye biçim verirler.
 
-Bu, fikirlerini gerçeklikle sınama yönünde güçlü bir ihtiyaç olarak kendini gösterebilir; ancak içlerindeki tasvir ile gerçeklik birbiriyle örtüşmediğinde kuşkuya da yol açabilir.
-
-<br><br>
+Güçleri içsel olasılıkları görünür hâle getirmelerinde yatar; zorlukları ise kendi iç dünyalarında kaybolmaları veya fikirlerini gerçeğe dönüştürmeden önce çok uzun süre aramaya devam etmeleri olabilir.
 
 `,
 
 4: `
-Potansiyel gizliden Tezahürü arzular.
+0000 (Kan) · Potansiyel
 
 <br><br>
 
-Potansiyel insanları yalnızca olasılıkları görmek istemez, aynı zamanda bu olasılıkların sonunda gerçeklikte görünür hâle gelmesini de arzular.
+Potansiyel insanları çoğu zaman doğal olarak neyin yeni bir şeye dönüşerek gelişebileceğini fark ederler.
 
-Nelerin ortaya çıkabileceğine yönelik duyarlılıklarının altında, olasılıkların görünür bir biçim kazanmasını deneyimleme ihtiyacı yatar.
+Olasılıkları henüz görünür hâle gelmeden görür ve kendilerinde, başkalarında veya çevrelerinde gelişimi teşvik ederler.
 
-Bu, büyüme ve gelişmenin gerçeğe dönüşmesini görme yönünde güçlü bir ihtiyaç olarak kendini gösterebilir; ancak olasılıklar hiçbir zaman ifade bulmadan yalnızca olasılık olarak kaldığında hayal kırıklığına da yol açabilir.
-
-<br><br>
+Güçleri gizli olasılıkları fark edip geliştirmelerinde yatar; zorlukları ise doğru anı beklemeye devam etmeleri veya sahip oldukları olasılıkları gerçekleştirmeden bırakmaları olabilir.
 
 `,
 
 5: `
-Enerji gizliden İzi arzular.
+01 (Chicchan) · Enerji
 
 <br><br>
 
-Enerji insanları yalnızca hareket ve değişim yaratmak istemez, aynı zamanda harcadıkları enerjinin geride bir şey bırakmasını da arzular.
+Enerji insanları çoğu zaman doğal olarak bir şeyin ne zaman harekete geçmesi gerektiğini hissederler.
 
-Doğal hareketliliklerinin ve hareket ihtiyaçlarının altında, harekete geçirdikleri şeyin kalıcı bir iz bıraktığını hissetme arzusu yatar.
+Canlılık, hareket gücü ve değişim getirir ve harekete geçerek gelişimi teşvik ederler.
 
-Bu, fark edilir bir etki bırakma yönünde güçlü bir ihtiyaç olarak kendini gösterebilir; ancak çok fazla enerji harcandığı hâlde sonrasında hissedilir bir şey kalmadığında hayal kırıklığına da yol açabilir.
-
-<br><br>
+Güçleri enerjiyi harekete dönüştürmelerinde yatar; zorlukları ise enerjilerini fazla dürtüsel kullanmaları veya aynı anda çok fazla yöne dağıtmaları olabilir.
 
 `,
 
 6: `
-Sınırlar gizliden Bakış Açısını arzular.
+0111 (Cimi) · Sınırlar
 
 <br><br>
 
-Sınırlar insanları yalnızca bir şeyin nerede sona erdiğini fark etmek istemez, aynı zamanda bu sınırın ötesinde nelerin bulunabileceğini de görmek ister.
+Sınırlar insanları çoğu zaman doğal olarak bir şeyin sınırına ne zaman ulaştığını fark ederler.
 
-Belirgin sınırlara duydukları ihtiyacın altında, durumlara daha geniş bir bakış açısından bakma arzusu yatar.
+Artık uygun olmayanı bırakarak ve yeni olasılıklara yer açarak değişim için alan yaratırlar.
 
-Bu, o anda sınırlı görünen şeylerin ötesine bakma yönünde güçlü bir ihtiyaç olarak kendini gösterebilir; ancak farklı bir bakış açısı alışılmış sınırları sorguladığında belirsizlik de yaratabilir.
-
-<br><br>
+Güçleri sınırları hem korumalarında hem de genişletmelerinde yatar; zorlukları ise kesinliğe gereğinden uzun süre tutunmaları veya alışılmış olanı bırakmakta zorlanmaları olabilir.
 
 `,
 
 7: `
-Etkileşim gizliden Bilinci arzular.
+0110 (Manik) · Etkileşim
 
 <br><br>
 
-Etkileşim insanları yalnızca karşılıklı alışverişi deneyimlemek istemez, aynı zamanda bu etkileşimin içinde neler olduğunun farkında olmayı da arzular.
+Etkileşim insanları çoğu zaman doğal olarak insanları, fikirleri veya deneyimleri birbirleriyle bağlantıya getirirler.
 
-Temas, alışveriş ve karşılıklı etki ihtiyaçlarının altında, karşılaşmaların kendilerinde ve başkalarında neler meydana getirdiğini deneyimleme arzusu yatar.
+Alışveriş yoluyla öğrenir ve yaptıkları, paylaştıkları ve uyguladıkları şeyler aracılığıyla çevrelerini etkilerler.
 
-Bu, anlamlı etkileşimlere yönelik güçlü bir ihtiyaç olarak kendini gösterebilir; ancak çok fazla etkileşim yaşandığı hâlde bunun gerçekte neye yol açtığı belirsiz kaldığında huzursuzluk da yaratabilir.
-
-<br><br>
+Güçleri anlamlı etkileşim yaratmalarında yatar; zorlukları ise başkalarına fazla uyum sağlamaları veya sürekli başkaları için var olarak kendi gelişimlerini ertelemeleri olabilir.
 
 `,
+
 8: `
-Değer gizliden Yapıyı arzular.
+0100 (Lamat) · Değer
 
 <br><br>
 
-Değer insanları yalnızca neyin anlamlı olduğunu fark etmek istemez, aynı zamanda değer verdikleri şeylerin açık ve kalıcı bir yere sahip olmasını da arzular.
+Değer insanları çoğu zaman doğal olarak neyin gerçekten anlam taşıdığını fark ederler.
 
-Anlam, nitelik ve önem duygularının altında, değerli olanın korunabileceği ve desteklenebileceği bir biçime duyulan ihtiyaç yatar.
+Kendileri ve başkaları için değerli olan şeylere dikkat vererek güzelliği, niteliği ve uyumu ifade ederler.
 
-Bu, anlamlı şeylere yaşamlarında sağlam bir yer verme yönünde güçlü bir ihtiyaç olarak kendini gösterebilir; ancak mevcut yapılar onlar için gerçekten değerli olanı artık desteklemediğinde zorlanmalarına da yol açabilir.
-
-<br><br>
+Güçleri anlamı görünür hâle getirmelerinde yatar; zorlukları ise yargılar, aşırılıklar veya takdir edilme ihtiyacı tarafından yönlendirilmeleri ve bunun sonucunda gerçek değeri gözden kaçırmaları olabilir.
 
 `,
 
 9: `
-Akış gizliden Yaşam Yolunu arzular.
+0101 (Muluc) · Akış
 
 <br><br>
 
-Akış insanları yalnızca gelişen şeylerle birlikte hareket etmek istemez, aynı zamanda bütün bu hareketin bir yere varmasını da arzular.
+Akış insanları çoğu zaman doğal olarak neyin harekete geçmek istediğini hissederler.
 
-Duyguların, fikirlerin ve gelişmelerin doğal biçimde akmasına izin verme eğilimlerinin altında, geçip gidenlerin daha büyük bir yolculuğun parçası olduğunu hissetme ihtiyacı yatar.
+Fikirleri, duyguları ve gelişmeleri harekete geçirir ve değişen koşullara kolayca uyum sağlarlar.
 
-Bu, yürüdükleri yolda anlam hissetme yönünde güçlü bir ihtiyaç olarak kendini gösterebilir; ancak yaşam değişmeye devam ederken bu hareketin onları nereye götürdüğü belirsiz kaldığında huzursuzluğa da yol açabilir.
-
-<br><br>
+Güçleri ilerlemek isteyen şeyin akmaya devam etmesini sağlamalarında yatar; zorlukları ise kendi duygularına kapılmaları veya her şey sürekli değişirken yönlerini korumakta zorlanmaları olabilir.
 
 `,
 
 10: `
-İlişki gizliden İfadeyi arzular.
+11 (Oc) · İlişki
 
 <br><br>
 
-İlişki insanları yalnızca bağlılık hissetmek istemez, aynı zamanda bu bağlılığın ifade edilmesini de arzular.
+İlişki insanları çoğu zaman doğal olarak insanlarla, fikirlerle veya topluluklarla kalıcı bağlar kurarlar.
 
-Güven, yakınlık ve bağlılık ihtiyaçlarının altında, insanlar arasında var olan şeyin görünür, hissedilir veya paylaşılabilir hâle gelmesini deneyimleme arzusu yatar.
+Katılım, iş birliği ve kendileri için gerçekten anlam taşıyan şeylere sadakat yoluyla güven oluştururlar.
 
-Bu, aralarındaki bağı ifade etme ve karşılığını görme yönünde güçlü bir ihtiyaç olarak kendini gösterebilir; ancak bir ilişki var olduğu hâlde bunun diğer kişi için ne anlama geldiği açıkça ifade edilmediğinde belirsizlik de yaratabilir.
-
-<br><br>
+Güçleri insanları karşılıklı güven aracılığıyla birbirine bağlamalarında yatar; zorlukları ise ilişkilere, beklentilere veya ideallere fazla bağlanarak gelişim için daha az alan bırakmaları olabilir.
 
 `,
 
 11: `
-İfade gizliden İlişkiyi arzular.
+1110 (Chuen) · İfade
 
 <br><br>
 
-İfade insanları yalnızca içlerinde yaşayanı dışa vurmak istemez, aynı zamanda ifadelerinin gerçek bir bağ kurmasını da arzular.
+İfade insanları çoğu zaman doğal olarak iç dünyalarını dışarıya yansıtırlar.
 
-Fikirlerini, duygularını ve deneyimlerini dışa vurma ihtiyaçlarının altında, ifade ettikleri şey aracılığıyla birine veya bir şeye ulaşma arzusu yatar.
+Fikirlere, duygulara ve deneyimlere biçim verir ve yaratıcılıkları, mizahları veya iletişim biçimleriyle başkalarına ilham verirler.
 
-Bu, kendilerini paylaşma ve bunun içinde bağlılık hissetme yönünde güçlü bir ihtiyaç olarak kendini gösterebilir; ancak ifade ettikleri şey karşılık bulmadığında veya yanıtsız kaldığında hayal kırıklığına da yol açabilir.
-
-<br><br>
+Güçleri içlerinde yaşayanı görünür hâle getirmelerinde yatar; zorlukları ise dışarıya nasıl göründüklerine fazla kapılmaları veya olasılıklarla oynamaya devam ederken onları gerçekten ifade edememeleri olabilir.
 
 `,
 
 12: `
-Yaşam Yolu gizliden Akışı arzular.
+1100 (Eb) · Yaşam Yolu
 
 <br><br>
 
-Yaşam Yolu insanları yalnızca kendi yollarında ilerlemek ve yol boyunca gelişmek istemez, aynı zamanda bu yolun hareket ve değişime açık kalmasını da arzular.
+Yaşam Yolu insanları çoğu zaman kendi deneyimleri aracılığıyla adım adım gelişirler.
 
-Deneyimlerini devam eden bir yolculukta birleştirme ihtiyaçlarının altında, yaşamın yol boyunca getirdikleriyle birlikte hareket edebilme arzusu yatar.
+Yol boyunca öğrendiklerini bir yön hâline getirir ve böylece yalnızca kendilerinin değil, başkalarının da ilerlemesine yardımcı olabilirler.
 
-Bu, yollarının özgürce gelişmesine izin verme yönünde güçlü bir ihtiyaç olarak kendini gösterebilir; ancak koşullar ilerlemelerini engellediğinde veya yaşam beklediklerinden farklı bir yönde akmaya başladığında huzursuzluğa da yol açabilir.
-
-<br><br>
+Güçleri kendi gelişimlerini bilinçli olarak şekillendirmelerinde yatar; zorlukları ise kendi ihtiyaçlarını başkalarının ihtiyaçlarına tabi kılmaları veya geçmiş deneyimlere tutunmaya devam etmeleri olabilir.
 
 `,
 
 13: `
-Yapı gizliden Değeri arzular.
+1101 (Ben) · Yapı
 
 <br><br>
 
-Yapı insanları yalnızca düzen ve bütünlük oluşturmak istemez, aynı zamanda inşa ettikleri şeyin gerçekten anlam taşımasını da arzular.
+Yapı insanları çoğu zaman doğal olarak karmaşık durumlara düzen ve yön getirirler.
 
-Düzen, istikrar ve sağlam bir temel ihtiyaçlarının altında, kendileri veya başkaları için değer taşıyan bir şeyi destekleme arzusu yatar.
+Açık bir vizyondan hareketle başkalarının üzerine inşa etmeye devam edebileceği sağlam bir temel oluşturur ve fikirleri kalıcı biçimlere dönüştürmeyi bilirler.
 
-Bu, gerçekten anlamlı olan şeylere zaman ve dikkat ayırma yönünde güçlü bir ihtiyaç olarak kendini gösterebilir; ancak bir yapı iyi işlediği hâlde artık neye hizmet ettiği açık olmadığında kuşkuya da yol açabilir.
-
-<br><br>
+Güçleri istikrar ve yön yaratmalarında yatar; zorlukları ise tam da yenilenmenin gerekli olduğu bir anda mevcut inançlara veya yapılara bağlı kalmaları olabilir.
 
 `,
 
 14: `
-Bilinç gizliden Etkileşimi arzular.
+1111 (Ix) · Bilinç
 
 <br><br>
 
-Bilinç insanları yalnızca kendi içlerinde ve çevrelerinde bulunanları algılamak istemez, aynı zamanda bunlarla etkileşim içinde olmayı da arzular.
+Bilinç insanları çoğu zaman doğal olarak yüzeyin altında bulunanı algılarlar.
 
-Farkındalık ve deneyim ihtiyaçlarının altında, insanlarla, fikirlerle ve koşullarla temas yoluyla etkilenme ve kendilerinin de etki yaratma arzusu yatar.
+İçgörüyü, sezgiyi ve deneyimi bir araya getirerek kendileri, başkaları ve çevreleri hakkında daha derin bir anlayış geliştirirler.
 
-Bu, bilinçlerini kendilerinin dışındaki bir şeyle temasa geçiren deneyimlere yönelik güçlü bir ihtiyaç olarak kendini gösterebilir; ancak çok şey algıladıkları hâlde deneyimledikleri şeye gerçekten katılmadıklarında bir ayrılık hissine de yol açabilir.
-
-<br><br>
+Güçleri gerçekte ne olup bittiğinin bilincine varmalarında yatar; zorlukları ise kendi inançlarının içinde kaybolmaları veya diğer bakış açılarına kendilerini fazla kapatmaları olabilir.
 
 `,
 15: `
-Bakış Açısı gizliden Sınırları arzular.
+10 (Men) · Bakış Açısı
 
 <br><br>
 
-Bakış Açısı insanları yalnızca farklı açılardan bakmak istemez, aynı zamanda bakışlarının hangi sınırlar içinde anlam kazandığını bilmeyi de arzular.
+Bakış Açısı insanları çoğu zaman doğal olarak daha büyük bütünü görürler.
 
-Daha uzağa bakma ve daha büyük bütünü görme ihtiyaçlarının altında, o bütünün hangi bölümünün o anda önemli olduğunu belirginleştiren sınırlara duyulan arzu yatar.
+Başkalarının henüz göremediği olasılıkları ve gelişmeleri fark eder ve geleceğe yön verebilecek bir vizyon ortaya koyarlar.
 
-Bu, bakışlarını belirli bir çerçeve içinde yöneltme yönünde güçlü bir ihtiyaç olarak kendini gösterebilir; ancak olası bakış açıları o kadar çoğaldığında ki hiçbir yerde belirgin bir sınır oluşmadığında huzursuzluğa da yol açabilir.
-
-<br><br>
+Güçleri farklı bakış açılarından bakarak anlayışı genişletmelerinde yatar; zorlukları ise ideallerin içinde kaybolmaları veya vizyonlarının biçim kazanması gereken gerçeklikten uzaklaşmaları olabilir.
 
 `,
 
 16: `
-İz gizliden Enerjiyi arzular.
+1000 (Cib) · İz
 
 <br><br>
 
-İz insanları yalnızca deneyimlerin geride bıraktıklarını korumak istemez, aynı zamanda geçmişten gelenlerin yeniden bir şeyleri harekete geçirmesini de arzular.
+İz insanları çoğu zaman doğal olarak hangi deneyimlerin kalıcı anlam taşıdığını fark ederler.
 
-Anılara, deneyimlere ve kalıcı izlere gösterdikleri ilginin altında, bunların yalnızca korunması değil, bundan sonra ortaya çıkacak olanı da etkilemesi yönünde bir arzu yatar.
+Geçmişte yaşananlardan öğrenir ve bu içgörüleri kendilerine ve başkalarına yön vermek için kullanırlar.
 
-Bu, geçmiş deneyimlerin üzerine yeni şeyler inşa etme yönünde güçlü bir ihtiyaç olarak kendini gösterebilir; ancak öğrendikleri veya geride bıraktıkları şey artık yeni bir hareket yaratmadığında hayal kırıklığına da yol açabilir.
-
-<br><br>
+Güçleri deneyimlerin geride bıraktığı dersleri görünür hâle getirmelerinde yatar; zorlukları ise eski inançlara veya olaylara tutunarak yeni olasılıklar için daha az alan bırakmaları olabilir.
 
 `,
 
 17: `
-Tezahür gizliden Potansiyeli arzular.
+1001 (Caban) · Tezahür
 
 <br><br>
 
-Tezahür insanları yalnızca neyin gerçeklik hâline geldiğini görmek istemez, aynı zamanda onun içinde hâlâ hangi olasılıkların saklı olduğunu deneyimlemeyi de arzular.
+Tezahür insanları çoğu zaman doğal olarak fikirleri, içgörüleri veya olasılıkları gerçeklik içinde görünür hâle getirirler.
 
-Görünür ve somut olarak var olana yönelen dikkatlerinin altında, bundan başka nelerin ortaya çıkabileceğine yönelik bir arzu yatar.
+Düşünceyi eylemle birleştirir ve daha ileri gelişime katkıda bulunan değişimlere biçim verirler.
 
-Bu, zaten var olan şeylerde yeni olasılıklar görmeye devam etme yönünde güçlü bir ihtiyaç olarak kendini gösterebilir; ancak gerçeklik umduklarından daha az olasılık barındırıyor gibi göründüğünde memnuniyetsizliğe de yol açabilir.
-
-<br><br>
+Güçleri daha önce yalnızca bir olasılık olarak var olanı görünür hâle getirmelerinde yatar; zorlukları ise kendi inançlarına tutunmaları veya düşünceleri aracılığıyla gerçekliği fazla güçlü biçimde şekillendirmeye çalışmaları olabilir.
 
 `,
 
 18: `
-Hakikat gizliden Hayal Gücünü arzular.
+1011 (Etznab) · Hakikat
 
 <br><br>
 
-Hakikat insanları yalnızca gerçeklikle örtüşen şeyi görmek istemez, aynı zamanda bu gerçeklikten hareketle nelerin mümkün hâle gelebileceğini hayal etmeyi de arzular.
+Hakikat insanları çoğu zaman doğal olarak neyin gerçekten gerçeklikle örtüştüğünü fark ederler.
 
-Özgünlük ve gerçeklikle örtüşme ihtiyaçlarının altında, şu anda gerçek olanın ötesini hayal etme arzusu yatar.
+Görünüşün ötesini görür, karmaşık durumlara açıklık getirir ve neyin hakikat olduğunu, neyin yalnızca öyle göründüğünü ayırt etmeye yardımcı olurlar.
 
-Bu, gerçeklikten yola çıkarak yeni imgeler ve olasılıklar oluşturma yönünde güçlü bir ihtiyaç olarak kendini gösterebilir; ancak hayal gücü, gerçeklik tarafından henüz doğrulanmamış bir şeye yer açmalarını istediğinde zorlanmalarına da yol açabilir.
-
-<br><br>
+Güçleri bütünlüğü gözden kaçırmadan hakikati görünür hâle getirmelerinde yatar; zorlukları ise fazla sert yargılamaları, kendi inançlarına tutunmaları veya hakikatin diğer bakış açılarına açıklık da gerektirdiğini unutmaları olabilir.
 
 `,
 
 19: `
-Bütünlük gizliden Bilgiyi arzular.
+1010 (Cauac) · Bütünlük
 
 <br><br>
 
-Bütünlük insanları yalnızca farklı parçaların birbirleriyle bağlantılı olduğunu hissetmek istemez, aynı zamanda bu bağlantının nasıl oluştuğunun görünür olmasını da arzular.
+Bütünlük insanları çoğu zaman doğal olarak ayrı parçaların birbirleriyle nasıl bağlantılı olduğunu fark ederler.
 
-Bütünlük ve karşılıklı bağlılık ihtiyaçlarının altında, bütünün içindeki ilişkileri fark edilir hâle getiren bilgiye yönelik bir arzu yatar.
+Değişimi mevcut olanı bozmak için değil, her şeyin birlikte daha iyi işlediği yeni bir dengenin ortaya çıkabilmesi için getirirler.
 
-Bu, daha büyük bir bütünün içinde neler olduğunu bilme yönünde güçlü bir ihtiyaç olarak kendini gösterebilir; ancak bütünlüğü hissettikleri hâlde bunun neye dayandığını görebilecek kadar bilgiye sahip olmadıklarında belirsizliğe de yol açabilir.
-
-<br><br>
+Güçleri gelişim ve yenilenme yoluyla bütünlüğü yeniden oluşturmalarında yatar; zorlukları ise aynı anda çok fazla şeyi değiştirmek istemeleri veya yeni bir denge oluşmaya fırsat bulamadan huzursuzluk yaratmaları olabilir.
 
 `,
 
 20: `
-Öz gizliden Kaynağı arzular.
+00 (Ahau) · Öz
 
 <br><br>
 
-Öz insanları yalnızca gerçekten özsel olanı fark etmek istemez, aynı zamanda bu özün nereden geldiğini deneyimlemeyi de arzular.
+Öz insanları çoğu zaman doğal olarak neyin gerçekten özsel olduğunu fark ederler.
 
-Özgünlük, anlam ve kendine özgü bir öz arayışlarının altında, bir şeyin gelişerek kendisi olmasını mümkün kılan kaynağa yönelik bir arzu yatar.
+Kalıcı anlam taşıyan şeylere yönelir ve en derin inançları ve bağlılıkları doğrultusunda yaşayarak başkalarına ilham verirler.
 
-Bu, başlangıçta bir şeye anlam veren şeye geri dönme yönünde güçlü bir ihtiyaç olarak kendini gösterebilir; ancak özsel olanın gelişim boyunca değişebileceğini ve yalnızca kökeniyle tamamen açıklanamayacağını kabul etmekte zorlanmalarına da yol açabilir.
-
-<br><br>
+Güçleri insanların, fikirlerin ve durumların özünü görünür hâle getirmelerinde yatar; zorlukları ise idealize edilmiş bir imgeye tutunmaları veya gerçekliği kusursuzluk arzusuyla değerlendirmeleri olabilir.
 
 `
 

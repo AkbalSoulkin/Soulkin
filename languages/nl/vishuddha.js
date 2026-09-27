@@ -1,303 +1,262 @@
 const vishuddhaPages_nl = {
 
 1: `
-Bron verlangt verborgen naar Essentie.
+0001 (Imix) · Bron
 
 <br><br>
 
-Mensen met Bron willen vaak niet alleen iets nieuws laten ontstaan, maar hopen ook dat wat zij voortbrengen werkelijk betekenis krijgt en zichzelf kan worden.
+Mensen met Bron vormen vaak vanzelf het begin van een nieuwe ontwikkeling.
 
-Onder hun drang om ideeën, mogelijkheden of ontwikkelingen op gang te brengen ligt een verlangen om iets wezenlijks achter te laten dat verder reikt dan het eerste begin.
+Zij brengen ideeën, mogelijkheden of initiatieven voort en geven anderen de ruimte om verder te bouwen.
 
-Dit kan zich uiten in een sterke behoefte om iets authentieks en betekenisvols voort te brengen, maar ook in teleurstelling wanneer wat zij beginnen uiteindelijk een andere vorm of betekenis krijgt dan zij oorspronkelijk voor ogen hadden.
-
-<br><br>
+Hun kracht ligt in het scheppen van een nieuw begin, terwijl hun uitdaging kan zijn dat zij zich sterker richten op het starten dan op het voltooien van wat zij in beweging hebben gezet.
 
 `,
 
 2: `
-Informatie verlangt verborgen naar Samenhang.
+0011 (Ik) · Informatie
 
 <br><br>
 
-Mensen met Informatie willen vaak niet alleen weten en begrijpen, maar zoeken ook naar hoe afzonderlijke gegevens met elkaar verbonden zijn.
+Mensen met Informatie herkennen vaak vanzelf patronen, verbanden en betekenis.
 
-Onder hun behoefte om patronen te herkennen, kennis te verzamelen en inzichten te delen ligt een verlangen om van losse informatie een begrijpelijk geheel te maken.
+Zij verzamelen, ordenen en delen kennis, waardoor nieuwe inzichten kunnen ontstaan.
 
-Dit kan zich uiten in een sterke behoefte om verbanden te ontdekken en betekenis te vinden, maar ook in moeite om iets los te laten zolang nog niet duidelijk is hoe alle onderdelen met elkaar samenhangen.
-
-<br><br>
+Hun kracht ligt in het zichtbaar maken van samenhang binnen informatie, terwijl hun uitdaging kan zijn dat zij zich verliezen in te veel mogelijkheden of blijven zoeken naar meer informatie voordat zij een beslissing nemen.
 
 `,
 
 3: `
-Verbeelding verlangt verborgen naar Waarheid.
+0010 (Akbal) · Verbeelding
 
 <br><br>
 
-Mensen met Verbeelding willen vaak niet alleen nieuwe beelden, ideeën en betekenissen vormen, maar verlangen er ook naar dat hun innerlijke wereld aansluiting vindt bij de werkelijkheid.
+Mensen met Verbeelding vormen vaak vanzelf een rijke innerlijke wereld.
 
-Onder hun rijke innerlijke belevingswereld ligt een behoefte om te ervaren dat wat zij zich voorstellen, aanvoelen of creëren ergens werkelijk mee overeenkomt.
+Zij zien mogelijkheden, beelden en betekenissen die nog niet zichtbaar zijn en geven vorm aan wat eerst alleen als idee bestond.
 
-Dit kan zich uiten in een sterke behoefte om hun ideeën aan de werkelijkheid te toetsen, maar ook in twijfel wanneer hun innerlijke voorstelling en de werkelijkheid niet met elkaar overeenkomen.
-
-<br><br>
+Hun kracht ligt in het zichtbaar maken van innerlijke mogelijkheden, terwijl hun uitdaging kan zijn dat zij zich verliezen in hun eigen belevingswereld of te lang blijven zoeken voordat zij hun ideeën werkelijkheid laten worden.
 
 `,
 
 4: `
-Potentieel verlangt verborgen naar Manifestatie.
+0000 (Kan) · Potentieel
 
 <br><br>
 
-Mensen met Potentieel willen vaak niet alleen mogelijkheden zien, maar verlangen er ook naar deze uiteindelijk terug te zien in de werkelijkheid.
+Mensen met Potentieel herkennen vaak vanzelf wat kan uitgroeien tot iets nieuws.
 
-Onder hun gevoel voor wat zou kunnen ontstaan ligt een behoefte om te ervaren dat mogelijkheden daadwerkelijk een zichtbare vorm kunnen krijgen.
+Zij zien mogelijkheden voordat deze zichtbaar worden en stimuleren groei bij zichzelf, anderen of hun omgeving.
 
-Dit kan zich uiten in een sterke behoefte om groei en ontwikkeling werkelijkheid te zien worden, maar ook in teleurstelling wanneer mogelijkheden aanwezig blijven zonder ooit tot uiting te komen.
-
-<br><br>
+Hun kracht ligt in het herkennen en ontwikkelen van verborgen mogelijkheden, terwijl hun uitdaging kan zijn dat zij blijven wachten op het juiste moment of hun mogelijkheden onbenut laten.
 
 `,
 
 5: `
-Energie verlangt verborgen naar Spoor.
+01 (Chicchan) · Energie
 
 <br><br>
 
-Mensen met Energie willen vaak niet alleen beweging en verandering teweegbrengen, maar verlangen er ook naar dat hun inzet iets achterlaat.
+Mensen met Energie voelen vaak vanzelf aan wanneer iets in beweging moet komen.
 
-Onder hun natuurlijke daadkracht en behoefte aan beweging ligt een verlangen om te ervaren dat wat zij in beweging brengen een blijvende indruk heeft.
+Zij brengen levenskracht, daadkracht en verandering met zich mee en stimuleren ontwikkeling door in actie te komen.
 
-Dit kan zich uiten in een sterke behoefte om een merkbare invloed te hebben, maar ook in frustratie wanneer veel energie wordt ingezet zonder dat daarvan later iets merkbaar overblijft.
-
-<br><br>
+Hun kracht ligt in het omzetten van energie in beweging, terwijl hun uitdaging kan zijn dat zij hun energie te impulsief inzetten of deze over te veel richtingen tegelijk verdelen.
 
 `,
 
 6: `
-Grenzen verlangt verborgen naar Perspectief.
+0111 (Cimi) · Grenzen
 
 <br><br>
 
-Mensen met Grenzen willen vaak niet alleen herkennen waar iets eindigt, maar verlangen er ook naar te begrijpen wat er aan de andere kant van die begrenzing mogelijk is.
+Mensen met Grenzen herkennen vaak vanzelf wanneer iets zijn grens heeft bereikt.
 
-Onder hun behoefte aan duidelijke afbakening ligt een verlangen om situaties vanuit een ruimer gezichtspunt te kunnen bekijken.
+Zij helpen ruimte te maken voor verandering door los te laten wat niet langer past en nieuwe mogelijkheden toe te laten.
 
-Dit kan zich uiten in een sterke behoefte om verder te kijken dan wat op dat moment begrensd lijkt, maar ook in onzekerheid wanneer een ander perspectief vertrouwde grenzen ter discussie stelt.
-
-<br><br>
+Hun kracht ligt in het bewaken én verleggen van grenzen, terwijl hun uitdaging kan zijn dat zij te lang vasthouden aan zekerheid of juist te moeilijk afscheid nemen van het vertrouwde.
 
 `,
 
 7: `
-Interactie verlangt verborgen naar Bewustzijn.
+0110 (Manik) · Interactie
 
 <br><br>
 
-Mensen met Interactie willen vaak niet alleen uitwisseling ervaren, maar verlangen er ook naar bewust te worden van wat er binnen die wisselwerking gebeurt.
+Mensen met Interactie brengen vaak vanzelf mensen, ideeën of ervaringen met elkaar in verbinding.
 
-Onder hun behoefte aan contact, uitwisseling en wederzijdse beïnvloeding ligt een verlangen om te ervaren wat ontmoetingen in henzelf en anderen teweegbrengen.
+Zij leren door uitwisseling en beïnvloeden hun omgeving door wat zij doen, delen en toepassen.
 
-Dit kan zich uiten in een sterke behoefte aan betekenisvolle interactie, maar ook in onrust wanneer er veel uitwisseling plaatsvindt zonder dat duidelijk wordt wat deze werkelijk teweegbrengt.
-
-<br><br>
+Hun kracht ligt in het scheppen van betekenisvolle wisselwerking, terwijl hun uitdaging kan zijn dat zij zich te veel aanpassen aan anderen of hun eigen ontwikkeling uitstellen door voortdurend voor anderen klaar te staan.
 
 `,
 
 8: `
-Waarde verlangt verborgen naar Structuur.
+0100 (Lamat) · Waarde
 
 <br><br>
 
-Mensen met Waarde willen vaak niet alleen herkennen wat betekenisvol is, maar verlangen er ook naar dat wat zij waarderen een duidelijke en duurzame plaats krijgt.
+Mensen met Waarde herkennen vaak vanzelf wat werkelijk betekenis heeft.
 
-Onder hun gevoel voor betekenis, kwaliteit en belang ligt een behoefte aan een vorm waarin waarde behouden en gedragen kan worden.
+Zij brengen schoonheid, kwaliteit en harmonie tot uitdrukking door aandacht te geven aan wat voor henzelf en anderen van waarde is.
 
-Dit kan zich uiten in een sterke behoefte om betekenisvolle dingen een stevige plaats in hun leven te geven, maar ook in moeite wanneer bestaande structuren niet langer ondersteunen wat voor hen werkelijk van waarde is.
-
-<br><br>
+Hun kracht ligt in het zichtbaar maken van betekenis, terwijl hun uitdaging kan zijn dat zij zich laten leiden door oordelen, uitersten of de behoefte aan erkenning, waardoor de werkelijke waarde uit beeld raakt.
 
 `,
 
 9: `
-Stroming verlangt verborgen naar Levenspad.
+0101 (Muluc) · Stroming
 
 <br><br>
 
-Mensen met Stroming willen vaak niet alleen meegaan met wat zich ontwikkelt, maar verlangen er ook naar dat al die beweging ergens toe leidt.
+Mensen met Stroming voelen vaak vanzelf aan wat in beweging wil komen.
 
-Onder hun natuurlijke vermogen om gevoelens, ideeën en ontwikkelingen te laten doorstromen ligt een behoefte om te ervaren dat wat voorbijgaat onderdeel is van een groter traject.
+Zij brengen ideeën, gevoelens en ontwikkelingen in beweging en passen zich gemakkelijk aan veranderende omstandigheden aan.
 
-Dit kan zich uiten in een sterke behoefte om betekenis te ervaren in de weg die zij afleggen, maar ook in onzekerheid wanneer het leven blijft veranderen zonder dat zichtbaar wordt waar die beweging hen brengt.
-
-<br><br>
+Hun kracht ligt in het laten doorstromen van wat verder wil, terwijl hun uitdaging kan zijn dat zij zich laten meeslepen door hun eigen gevoelens of moeite hebben richting te houden wanneer alles voortdurend verandert.
 
 `,
 
 10: `
-Relatie verlangt verborgen naar Expressie.
+11 (Oc) · Relatie
 
 <br><br>
 
-Mensen met Relatie willen vaak niet alleen verbondenheid ervaren, maar verlangen er ook naar dat die verbondenheid tot uitdrukking komt.
+Mensen met Relatie bouwen vaak vanzelf duurzame verbindingen op met mensen, ideeën of gemeenschappen.
 
-Onder hun behoefte aan vertrouwen, betrokkenheid en nabijheid ligt een verlangen om te ervaren dat wat tussen mensen bestaat ook zichtbaar, voelbaar of deelbaar wordt.
+Zij scheppen vertrouwen door betrokkenheid, samenwerking en trouw aan wat voor hen werkelijk betekenis heeft.
 
-Dit kan zich uiten in een sterke behoefte om verbondenheid te uiten en terug te zien, maar ook in onzekerheid wanneer een relatie aanwezig is zonder dat duidelijk tot uitdrukking komt wat zij voor de ander betekent.
-
-<br><br>
+Hun kracht ligt in het verbinden van mensen vanuit wederzijds vertrouwen, terwijl hun uitdaging kan zijn dat zij zich te sterk vastklampen aan relaties, verwachtingen of idealen waardoor ruimte voor groei verloren gaat.
 
 `,
 
 11: `
-Expressie verlangt verborgen naar Relatie.
+1110 (Chuen) · Expressie
 
 <br><br>
 
-Mensen met Expressie willen vaak niet alleen zichtbaar maken wat in hen leeft, maar verlangen er ook naar dat hun uiting werkelijk verbinding tot stand brengt.
+Mensen met Expressie brengen hun innerlijke wereld vaak vanzelf naar buiten.
 
-Onder hun behoefte om ideeën, gevoelens en ervaringen naar buiten te brengen ligt een verlangen om daarmee iemand of iets te bereiken.
+Zij geven vorm aan ideeën, gevoelens en ervaringen en inspireren anderen door hun creativiteit, humor of manier van communiceren.
 
-Dit kan zich uiten in een sterke behoefte om zichzelf te delen en daarin verbondenheid te ervaren, maar ook in teleurstelling wanneer wat zij uitdrukken geen aansluiting vindt of onbeantwoord blijft.
-
-<br><br>
+Hun kracht ligt in het zichtbaar maken van wat van binnen leeft, terwijl hun uitdaging kan zijn dat zij zich verliezen in uiterlijk vertoon of blijven spelen met mogelijkheden zonder deze werkelijk tot uitdrukking te brengen.
 
 `,
 
 12: `
-Levenspad verlangt verborgen naar Stroming.
+1100 (Eb) · Levenspad
 
 <br><br>
 
-Mensen met Levenspad willen vaak niet alleen een weg volgen en zich onderweg ontwikkelen, maar verlangen er ook naar dat die weg ruimte blijft bieden voor beweging en verandering.
+Mensen met Levenspad ontwikkelen zich vaak stap voor stap vanuit hun eigen ervaringen.
 
-Onder hun behoefte om ervaringen tot een doorgaand traject te verbinden ligt een verlangen om mee te kunnen bewegen met wat het leven onderweg met zich meebrengt.
+Zij verbinden wat zij onderweg leren tot een richting die niet alleen henzelf, maar ook anderen verder kan helpen.
 
-Dit kan zich uiten in een sterke behoefte om hun weg vrij te laten ontwikkelen, maar ook in onrust wanneer omstandigheden de voortgang blokkeren of het leven anders begint te stromen dan zij hadden verwacht.
-
-<br><br>
+Hun kracht ligt in het bewust vormgeven van hun eigen ontwikkeling, terwijl hun uitdaging kan zijn dat zij hun eigen behoeften ondergeschikt maken aan die van anderen of blijven vasthouden aan ervaringen uit het verleden.
 
 `,
 
 13: `
-Structuur verlangt verborgen naar Waarde.
+1101 (Ben) · Structuur
 
 <br><br>
 
-Mensen met Structuur willen vaak niet alleen orde en samenhang aanbrengen, maar verlangen er ook naar dat wat zij opbouwen werkelijk van betekenis is.
+Mensen met Structuur brengen vaak vanzelf orde en richting aan in complexe situaties.
 
-Onder hun behoefte aan organisatie, stabiliteit en een stevig fundament ligt een verlangen om iets te dragen dat voor henzelf of anderen waarde heeft.
+Zij bouwen vanuit een duidelijke visie aan een stevig fundament waarop anderen kunnen voortbouwen en weten ideeën om te zetten in duurzame vormen.
 
-Dit kan zich uiten in een sterke behoefte om tijd en aandacht te besteden aan wat werkelijk betekenisvol is, maar ook in twijfel wanneer een structuur goed functioneert zonder dat nog duidelijk is waarvoor zij eigenlijk dient.
-
-<br><br>
+Hun kracht ligt in het scheppen van stabiliteit en richting, terwijl hun uitdaging kan zijn dat zij vasthouden aan bestaande overtuigingen of structuren wanneer vernieuwing juist nodig is.
 
 `,
 
 14: `
-Bewustzijn verlangt verborgen naar Interactie.
+1111 (Ix) · Bewustzijn
 
 <br><br>
 
-Mensen met Bewustzijn willen vaak niet alleen waarnemen wat in henzelf en hun omgeving aanwezig is, maar verlangen er ook naar daarmee in wisselwerking te staan.
+Mensen met Bewustzijn nemen vaak vanzelf waar wat onder de oppervlakte aanwezig is.
 
-Onder hun behoefte aan gewaarzijn en ervaring ligt een verlangen om door contact met mensen, ideeën en omstandigheden zelf beïnvloed te worden en invloed uit te oefenen.
+Zij verbinden inzicht, intuïtie en ervaring tot een dieper begrip van zichzelf, anderen en hun omgeving.
 
-Dit kan zich uiten in een sterke behoefte aan ervaringen die hun bewustzijn in aanraking brengen met iets buiten henzelf, maar ook in een gevoel van afzondering wanneer zij veel waarnemen zonder werkelijk deel te nemen aan wat zij ervaren.
-
-<br><br>
+Hun kracht ligt in het bewust worden van wat werkelijk speelt, terwijl hun uitdaging kan zijn dat zij zich verliezen in hun eigen overtuigingen of zich te veel afsluiten voor andere perspectieven.
 
 `,
 
 15: `
-Perspectief verlangt verborgen naar Grenzen.
+10 (Men) · Perspectief
 
 <br><br>
 
-Mensen met Perspectief willen vaak niet alleen vanuit verschillende gezichtspunten kijken, maar verlangen er ook naar te weten waarbinnen hun blik betekenis krijgt.
+Mensen met Perspectief zien vaak vanzelf het grotere geheel.
 
-Onder hun behoefte om verder te kijken en het grotere geheel te zien ligt een verlangen naar grenzen die duidelijk maken welk deel van dat geheel op dat moment relevant is.
+Zij herkennen mogelijkheden en ontwikkelingen die voor anderen nog buiten beeld blijven en brengen visie die richting kan geven aan de toekomst.
 
-Dit kan zich uiten in een sterke behoefte om hun blik ergens op te kunnen richten, maar ook in onrust wanneer er zoveel mogelijke perspectieven zijn dat nergens meer een duidelijke begrenzing ontstaat.
-
-<br><br>
+Hun kracht ligt in het verruimen van inzicht door vanuit verschillende gezichtspunten te kijken, terwijl hun uitdaging kan zijn dat zij zich verliezen in idealen of afstand nemen van de werkelijkheid waarin hun visie vorm moet krijgen.
 
 `,
 
 16: `
-Spoor verlangt verborgen naar Energie.
+1000 (Cib) · Spoor
 
 <br><br>
 
-Mensen met Spoor willen vaak niet alleen bewaren wat ervaringen hebben achtergelaten, maar verlangen er ook naar dat wat uit het verleden voortkomt opnieuw beweging kan veroorzaken.
+Mensen met Spoor herkennen vaak vanzelf welke ervaringen blijvende betekenis hebben.
 
-Onder hun aandacht voor herinneringen, ervaringen en blijvende indrukken ligt een verlangen dat deze niet alleen bewaard blijven, maar ook invloed hebben op wat verder ontstaat.
+Zij leren van wat is geweest en gebruiken die inzichten om richting te geven aan zichzelf en anderen.
 
-Dit kan zich uiten in een sterke behoefte om voort te bouwen op eerdere ervaringen, maar ook in frustratie wanneer wat zij hebben geleerd of achtergelaten geen nieuwe beweging meer teweegbrengt.
-
-<br><br>
+Hun kracht ligt in het zichtbaar maken van de lessen die ervaringen nalaten, terwijl hun uitdaging kan zijn dat zij vasthouden aan oude overtuigingen of gebeurtenissen waardoor nieuwe mogelijkheden minder ruimte krijgen.
 
 `,
 
 17: `
-Manifestatie verlangt verborgen naar Potentieel.
+1001 (Caban) · Manifestatie
 
 <br><br>
 
-Mensen met Manifestatie willen vaak niet alleen zien wat werkelijkheid is geworden, maar verlangen er ook naar te ervaren welke mogelijkheden daarin nog verborgen liggen.
+Mensen met Manifestatie brengen ideeën, inzichten of mogelijkheden vaak vanzelf tot uitdrukking in de werkelijkheid.
 
-Onder hun aandacht voor wat zichtbaar en concreet aanwezig is ligt een verlangen naar wat daaruit nog verder zou kunnen ontstaan.
+Zij verbinden denken en doen en geven vorm aan veranderingen die bijdragen aan verdere ontwikkeling.
 
-Dit kan zich uiten in een sterke behoefte om nieuwe mogelijkheden te blijven zien in wat al bestaat, maar ook in ontevredenheid wanneer de werkelijkheid minder mogelijkheden lijkt te bevatten dan zij hadden gehoopt.
-
-<br><br>
+Hun kracht ligt in het zichtbaar maken van wat eerder alleen als mogelijkheid bestond, terwijl hun uitdaging kan zijn dat zij vasthouden aan hun eigen overtuigingen of de werkelijkheid te veel willen sturen vanuit hun denken.
 
 `,
 
 18: `
-Waarheid verlangt verborgen naar Verbeelding.
+1011 (Etznab) · Waarheid
 
 <br><br>
 
-Mensen met Waarheid willen vaak niet alleen zien wat met de werkelijkheid overeenkomt, maar verlangen er ook naar zich voor te stellen wat vanuit die werkelijkheid mogelijk kan worden.
+Mensen met Waarheid herkennen vaak vanzelf wat werkelijk overeenkomt met de werkelijkheid.
 
-Onder hun behoefte aan echtheid en overeenstemming ligt een verlangen om verder te kunnen kijken dan wat op dit moment werkelijk aanwezig is.
+Zij doorzien schijn, brengen helderheid in complexe situaties en helpen onderscheid te maken tussen wat waar is en wat slechts zo lijkt.
 
-Dit kan zich uiten in een sterke behoefte om vanuit de werkelijkheid nieuwe beelden en mogelijkheden te vormen, maar ook in moeite wanneer verbeelding hen vraagt ruimte te geven aan iets waarvoor nog geen bevestiging in de werkelijkheid bestaat.
-
-<br><br>
+Hun kracht ligt in het zichtbaar maken van waarheid zonder de samenhang uit het oog te verliezen, terwijl hun uitdaging kan zijn dat zij te streng oordelen, vasthouden aan hun eigen overtuigingen of vergeten dat waarheid ook vraagt om openheid voor andere perspectieven.
 
 `,
 
 19: `
-Samenhang verlangt verborgen naar Informatie.
+1010 (Cauac) · Samenhang
 
 <br><br>
 
-Mensen met Samenhang willen vaak niet alleen ervaren dat verschillende onderdelen met elkaar verbonden zijn, maar verlangen er ook naar dat zichtbaar wordt hoe die verbinding in elkaar zit.
+Mensen met Samenhang herkennen vaak vanzelf hoe afzonderlijke delen met elkaar verbonden zijn.
 
-Onder hun behoefte aan coherentie en onderlinge verbondenheid ligt een verlangen naar informatie die de relaties binnen het geheel herkenbaar maakt.
+Zij brengen verandering niet om te verstoren, maar om een nieuw evenwicht te laten ontstaan waarin alles beter met elkaar samenwerkt.
 
-Dit kan zich uiten in een sterke behoefte om te weten wat binnen een groter geheel gebeurt, maar ook in onzekerheid wanneer zij samenhang ervaren zonder voldoende informatie om te zien waarop deze berust.
-
-<br><br>
+Hun kracht ligt in het herstellen van samenhang door ontwikkeling en vernieuwing, terwijl hun uitdaging kan zijn dat zij te veel verandering tegelijk willen of onrust veroorzaken voordat een nieuw evenwicht zich heeft kunnen vormen.
 
 `,
 
 20: `
-Essentie verlangt verborgen naar Bron.
+00 (Ahau) · Essentie
 
 <br><br>
 
-Mensen met Essentie willen vaak niet alleen herkennen wat werkelijk wezenlijk is, maar verlangen er ook naar te ervaren waar dat wezenlijke uit voortkomt.
+Mensen met Essentie herkennen vaak vanzelf wat werkelijk wezenlijk is.
 
-Onder hun behoefte aan echtheid, betekenis en een herkenbare kern ligt een verlangen naar de oorsprong waaruit iets zichzelf heeft kunnen ontwikkelen.
+Zij richten zich op datgene wat blijvende betekenis heeft en inspireren anderen door vanuit hun diepste overtuiging en betrokkenheid te leven.
 
-Dit kan zich uiten in een sterke behoefte om terug te keren naar wat oorspronkelijk betekenis gaf, maar ook in moeite om te aanvaarden dat wat wezenlijk is onderweg kan veranderen en niet volledig uit zijn oorsprong hoeft te verklaren.
-
-<br><br>
+Hun kracht ligt in het zichtbaar maken van de kern van mensen, ideeën en situaties, terwijl hun uitdaging kan zijn dat zij vasthouden aan een ideaalbeeld of de werkelijkheid beoordelen vanuit een verlangen naar volmaaktheid.
 
 `
-
 };
