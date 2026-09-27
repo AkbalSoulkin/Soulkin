@@ -5146,11 +5146,11 @@ if(rootStage <= 1){
 
 
   // 12/11
-  guideTabSymbol.src = "animals/Ik.svg";
+  guideTabSymbol.src = "animals/ik.svg";
 
 } else if(rootStage === 4){
   // 13/11
-  guideTabSymbol.src = "animals/Cauac.svg";
+  guideTabSymbol.src = "animals/cauac.svg";
 
 } else {
   // vanaf 14/11 normale gidsreeks
@@ -5215,15 +5215,15 @@ if(rootStage <= 1){
 
 } else if(rootStage === 2){
   // 11/11
-  analogTabSymbol.src = "animals/Ix.svg";
+  analogTabSymbol.src = "animals/ix.svg";
 
 } else if(rootStage === 3){
   // 12/11
-  analogTabSymbol.src = "animals/Muluc.svg";
+  analogTabSymbol.src = "animals/muluc.svg";
 
 } else if(rootStage === 4){
   // 13/11
-  analogTabSymbol.src = "animals/Kan.svg";
+  analogTabSymbol.src = "animals/kan.svg";
 
 } else {
   // vanaf 14/11 normale analog-volgorde
@@ -5306,15 +5306,15 @@ if(rootStage <= 1){
 
 } else if(rootStage === 2){
   // 11/11
-  occultTabSymbol.src = "animals/Cib.svg";
+  occultTabSymbol.src = "animals/cib.svg";
 
 } else if(rootStage === 3){
   // 12/11
-  occultTabSymbol.src = "animals/Manik.svg";
+  occultTabSymbol.src = "animals/manik.svg";
 
 } else if(rootStage === 4){
   // 13/11
-  occultTabSymbol.src = "animals/Cimi.svg";
+  occultTabSymbol.src = "animals/cimi.svg";
 
 } else {
   // vanaf 14/11 normale occult-volgorde
@@ -5883,11 +5883,11 @@ else if(chakraOverrideDay === 5){
     "rgba(255,0,0,0.7)";
   toneTabSymbol.style.visibility = "visible";
   toneTabSymbol.src =
-    "animals/Imix.svg";
+    "animals/imix.svg";
 
   // Anahata = Cib
   birthTabSymbol.src =
-    "animals/Cib.svg";
+    "animals/cib.svg";
 
   // Vishuddha = geel + 13 Ahau
   occultTab.style.background =
