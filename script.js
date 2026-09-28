@@ -5723,6 +5723,17 @@ const CHAKRA_OVERRIDE_START_DAY = Number(
 const chakraOverrideDay =
   dayOffset - CHAKRA_OVERRIDE_START_DAY;
 
+// Muladhara: vanaf 11/11 altijd werkveld-bits/fractals groter
+const MULADHARA_BITS_START_DAY = Number(
+  daysFromCivil(-17264374702, 11, 11) -
+  daysFromCivil(1982, 8, 22)
+);
+
+toneTabSymbol.classList.toggle(
+  "muladharaBits",
+  dayOffset >= MULADHARA_BITS_START_DAY
+);
+
 
 // 9/11
 if(chakraOverrideDay <= 0){
@@ -5731,8 +5742,7 @@ if(chakraOverrideDay <= 0){
   toneTab.style.background =
     "rgba(255,255,0,0.7)";
   toneTabSymbol.style.visibility = "visible";
-  toneTabSymbol.src =
-    "other/smell.svg";
+toneTabSymbol.src = "other/smell.svg";
 
   // Anahata = wit + touch
   birthTab.style.background =
@@ -5754,20 +5764,21 @@ if(chakraOverrideDay <= 0){
   nightTab.style.background =
     "rgba(255,255,255,0.7)";
   crownSymbol.style.visibility = "visible";
-  crownSymbol.src =
-    "other/crown.svg";
+crownSymbol.src = "other/crown.svg";
+crownSymbol.classList.add("crownSymbolLarge");
 }
 
 
 // 10/11
 else if(chakraOverrideDay === 1){
 
+crownSymbol.classList.remove("crownSymbolLarge");
+
   // Muladhara = groen + smell
   toneTab.style.background =
     "rgba(0,128,0,0.7)";
   toneTabSymbol.style.visibility = "visible";
-  toneTabSymbol.src =
-    "other/smell.svg";
+toneTabSymbol.src = "other/smell.svg";
 
   // Anahata = groen + touch
   birthTab.style.background =

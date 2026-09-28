@@ -756,3 +756,13 @@ body,
   width: 65%;
   height: 65%;
 }
+
+#crownTabSymbol.crownSymbolLarge {
+  width: 85%;
+  height: 85%;
+}
+
+#toneTabSymbol.muladharaBits {
+  width: 40px;
+  height: 40px;
+}
