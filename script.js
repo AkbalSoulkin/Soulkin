@@ -3881,6 +3881,10 @@ const operatorBackgrounds = {
 
 };
 
+const panelOpen =
+  activeHistoryCell !== null ||
+  sourcesActive;
+
 const operatorLift =
   operatorActive ? -4 : 0;
 
@@ -5735,6 +5739,11 @@ toneTabSymbol.classList.toggle(
 );
 
 
+crownSymbol.classList.toggle(
+  "crownSymbolLarge",
+  dayOffset <= CHAKRA_OVERRIDE_START_DAY
+);
+
 // 9/11
 if(chakraOverrideDay <= 0){
 
@@ -6110,6 +6119,7 @@ activePage = "intro";
 hoverPath.setAttribute("opacity","0");
 
 updateActivePage();
+render();
 
 const infoPanel =
   document.getElementById("infoPanel");
@@ -6163,6 +6173,7 @@ sourcesButton.onclick = () => {
   showSources();
 };
 
+
 function toggleHistoryCell(level, key, cell){
 
 closeSources();
@@ -6191,6 +6202,7 @@ hoverPath.setAttribute("opacity","0");
       });
 
     updateActivePage();
+render();
 
     return;
   }
@@ -6223,8 +6235,8 @@ hoverPath.setAttribute("opacity","0");
   cell.classList.add("activeHistoryCell");
 
   updateActivePage();
+render();
 }
-
 
 
 function setActivePage(pageName, tabId){
