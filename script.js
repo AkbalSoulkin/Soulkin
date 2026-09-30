@@ -3353,10 +3353,19 @@ const planetWorkfieldSeal =
   ((16 - stationNumber) % 20 + 20) % 20;
 
 // Verberg eerst de vier speciale planeten
-planetVenus.style.opacity   = "0";
-planetSaturn.style.opacity  = "0";
-planetJupiter.style.opacity = "0";
-planetMars.style.opacity    = "0";
+// en herstel hun 819-formaat
+[
+  planetVenus,
+  planetSaturn,
+  planetJupiter,
+  planetMars
+].forEach(planet => {
+  planet.style.opacity = "0";
+  planet.style.width = "32px";
+  planet.style.height = "32px";
+  planet.style.left = "0px";
+  planet.style.top = "0px";
+});
 
 // Alleen tonen op het exacte 819-station
 if (station819) {
