@@ -3329,6 +3329,18 @@ const planetDays =
 const mercuryStep =
   ((planetDays % 117) + 117) % 117;
 
+const venusStep =
+  ((planetDays % 585) + 585) % 585;
+
+const saturnStep =
+  ((planetDays % 378) + 378) % 378;
+
+const jupiterStep =
+  ((planetDays % 399) + 399) % 399;
+
+const marsStep =
+  ((planetDays % 780) + 780) % 780;
+
 const station819 =
   ((planetDays % 819) + 819) % 819 === 0;
 
@@ -3388,26 +3400,71 @@ const hasSpecialPlanet =
   station819 &&
   [16, 15, 11, 9, 6, 3, 2, 1].includes(planetWorkfieldSeal);
 
+
+
 if (mercuryStep === 0 && !hasSpecialPlanet) {
 
-  planetMercury.style.opacity = "1";
+  // Venus valt iedere 585 dagen op een 117-punt
+  if (venusStep === 0) {
 
-  if (station819) {
-    planetMercury.style.width = "32px";
-    planetMercury.style.height = "32px";
-    planetMercury.style.left = "0px";
-    planetMercury.style.top = "0px";
+    planetMercury.style.opacity = "0";
+
+    planetVenus.style.opacity = "1";
+    planetVenus.style.width = "18px";
+    planetVenus.style.height = "18px";
+    planetVenus.style.left = "7px";
+    planetVenus.style.top = "7px";
+
   } else {
+
+    planetVenus.style.opacity = "0";
+
+    planetMercury.style.opacity = "1";
     planetMercury.style.width = "18px";
     planetMercury.style.height = "18px";
     planetMercury.style.left = "7px";
     planetMercury.style.top = "7px";
+
   }
 
 } else {
+
   planetMercury.style.opacity = "0";
 }
 
+
+if (
+  saturnStep === 0 &&
+  !station819
+) {
+  planetSaturn.style.opacity = "1";
+  planetSaturn.style.width = "18px";
+  planetSaturn.style.height = "18px";
+  planetSaturn.style.left = "7px";
+  planetSaturn.style.top = "7px";
+}
+
+if (
+  jupiterStep === 0 &&
+  !station819
+) {
+  planetJupiter.style.opacity = "1";
+  planetJupiter.style.width = "18px";
+  planetJupiter.style.height = "18px";
+  planetJupiter.style.left = "7px";
+  planetJupiter.style.top = "7px";
+}
+
+if (
+  marsStep === 0 &&
+  !station819
+) {
+  planetMars.style.opacity = "1";
+  planetMars.style.width = "18px";
+  planetMars.style.height = "18px";
+  planetMars.style.left = "7px";
+  planetMars.style.top = "7px";
+}
 
 // ===== BINNENSTE 4-RING ONTVOUWING =====
 
