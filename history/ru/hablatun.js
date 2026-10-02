@@ -9,7 +9,7 @@ window.historyTexts.ru.hablatun = {
   onderscheiden_perspectief: {
 
     title:
-      "Различать",
+      "Различать + Структура",
 
 text:
   `Различать + Перспектива
@@ -25,10 +25,10 @@ text:
 window.historyTexts.ru.hablatun.transformeren_informatie = {
 
   title:
-    "Освобождать",
+    "Освобождать + Связность",
 
 text:
-  `Трансформировать + Информация
+  `Преобразовывать + Информация
 
 <br><br>
 

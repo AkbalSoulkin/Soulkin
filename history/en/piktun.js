@@ -262,7 +262,7 @@ window.historyTexts.en.piktun.verankeren_waarheid = {
     "Release + Trace",
 
   text:
-    `Anchor + Truth
+    `Anchor + Reflection
 
 <br><br>
 
@@ -298,7 +298,7 @@ window.historyTexts.en.piktun.erkennen_waarheid = {
     "Transform + Manifestation",
 
   text:
-    `Acknowledge + Truth
+    `Acknowledge + Reflection
 
 <br><br>
 

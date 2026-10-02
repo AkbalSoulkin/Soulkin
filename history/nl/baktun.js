@@ -69,7 +69,7 @@ window.historyTexts.nl.baktun.afstemmen_waarheid = {
     "Selecteren + Spoor",
 
 text:
-  `Afstemmen + Waarheid
+  `Afstemmen + Reflectie
 
 <br><br>
 
@@ -181,7 +181,7 @@ window.historyTexts.nl.baktun.verankeren_waarheid = {
     "Vrijmaken + Spoor",
 
 text:
-  `Verankeren + Waarheid
+  `Verankeren + Reflectie
 
 <br><br>
 
@@ -282,7 +282,7 @@ Geen van beide rijken behaalde een blijvende beslissende overwinning. Ongeveer v
 window.historyTexts.nl.baktun.erkennen_samenhang = {
 
   title:
-    "Verfijnen + Waarheid",
+    "Verfijnen + Reflectie",
 
 text:
   `Erkennen + Samenhang
@@ -303,7 +303,7 @@ window.historyTexts.nl.baktun.transformeren_waarheid = {
     "Afstemmen + Perspectief",
 
 text:
-  `Transformeren + Waarheid
+  `Transformeren + Reflectie
 
 <br><br>
 
@@ -753,7 +753,7 @@ window.historyTexts.nl.baktun.erkennen_waarheid = {
     "Transformeren + Manifestatie",
 
   text:
-    `Erkennen + Waarheid
+    `Erkennen + Reflectie
 
 <br><br>
 

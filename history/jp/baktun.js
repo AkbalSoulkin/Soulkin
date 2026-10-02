@@ -69,7 +69,7 @@ window.historyTexts.jp.baktun.afstemmen_waarheid = {
     "選ぶ + 痕跡",
 
 text:
-  `調整する + 真実
+  `調整する + 反射
 
 <br><br>
 
@@ -181,7 +181,7 @@ window.historyTexts.jp.baktun.verankeren_waarheid = {
     "解き放つ + 痕跡",
 
 text:
-  `定着させる + 真実
+  `定着させる + 反射
 
 <br><br>
 
@@ -282,7 +282,7 @@ text:
 window.historyTexts.jp.baktun.erkennen_samenhang = {
 
   title:
-    "洗練する + 真実",
+    "洗練する + 反射",
 
 text:
   `認める + つながり
@@ -303,7 +303,7 @@ window.historyTexts.jp.baktun.transformeren_waarheid = {
     "調和する + 視点",
 
 text:
-  `変容する + 真実
+  `変容する + 反射
 
 <br><br>
 
@@ -753,7 +753,7 @@ window.historyTexts.jp.baktun.erkennen_waarheid = {
     "変容する + 顕現",
 
   text:
-    `認識する + 真実
+    `認識する + 反射
 
 <br><br>
 

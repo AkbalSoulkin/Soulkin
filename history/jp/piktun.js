@@ -262,7 +262,7 @@ window.historyTexts.jp.piktun.verankeren_waarheid = {
     "解き放つ + 痕跡",
 
 text:
-  `定着させる + 真実
+  `定着させる + 反射
 
 <br><br>
 
@@ -298,7 +298,7 @@ window.historyTexts.jp.piktun.erkennen_waarheid = {
     "変容する + 顕現",
 
   text:
-    `認識する + 真実
+    `認識する + 反射
 
 <br><br>
 

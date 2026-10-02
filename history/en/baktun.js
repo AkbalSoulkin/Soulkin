@@ -69,7 +69,7 @@ window.historyTexts.en.baktun.afstemmen_waarheid = {
     "Select + Trace",
 
   text:
-    `Attune + Truth
+    `Attune + Reflection
 
 <br><br>
 
@@ -181,7 +181,7 @@ window.historyTexts.en.baktun.verankeren_waarheid = {
     "Release + Trace",
 
   text:
-    `Anchor + Truth
+    `Anchor + Reflection
 
 <br><br>
 
@@ -283,7 +283,7 @@ Neither empire achieved a lasting decisive victory. About fifteen years later, E
 window.historyTexts.en.baktun.erkennen_samenhang = {
 
   title:
-    "Refine + Truth",
+    "Refine + Reflection",
 
   text:
     `Acknowledge + Coherence
@@ -304,7 +304,7 @@ window.historyTexts.en.baktun.transformeren_waarheid = {
     "Attune + Perspective",
 
   text:
-    `Transform + Truth
+    `Transform + Reflection
 
 <br><br>
 
@@ -754,7 +754,7 @@ window.historyTexts.en.baktun.erkennen_waarheid = {
     "Transform + Manifestation",
 
   text:
-    `Acknowledge + Truth
+    `Acknowledge + Reflection
 
 <br><br>
 

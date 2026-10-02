@@ -262,7 +262,7 @@ window.historyTexts.nl.piktun.verankeren_waarheid = {
     "Vrijmaken + Spoor",
 
 text:
-  `Verankeren + Waarheid
+  `Verankeren + Reflectie
 
 <br><br>
 
@@ -298,7 +298,7 @@ window.historyTexts.nl.piktun.erkennen_waarheid = {
     "Transformeren + Manifestatie",
 
   text:
-    `Erkennen + Waarheid
+    `Erkennen + Reflectie
 
 <br><br>
 
