@@ -220,11 +220,11 @@ Their strength lies in making visible what previously existed only as a possibil
 `,
 
 18: `
-1011 (Etznab) · Truth
+1011 (Etznab) · Reflection
 
 <br><br>
 
-People with Truth often naturally recognize what truly corresponds with reality.
+People with reflection often naturally recognize what truly corresponds with reality.
 
 They see through appearances, bring clarity to complex situations, and help distinguish between what is true and what merely appears to be.
 

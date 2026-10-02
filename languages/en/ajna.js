@@ -1,7 +1,7 @@
 const ajnaPages_en = {
 
 1: `
-G1 (Heart) · 0
+G1 (Heart) · 0 · Undivided
 
 <br><br>
 
@@ -19,7 +19,7 @@ Meaning often survives long after excitement has disappeared.
 `,
 
 2: `
-G2 (Thunder) · 100
+G2 (Thunder) · 100 · Nascent
 
 <br><br>
 
@@ -35,7 +35,7 @@ The path often becomes visible after the ground begins to shake.
 `,
 
 3: `
-G3 (Fire) · 101
+G3 (Fire) · 101 · Bound
 
 <br><br>
 
@@ -51,7 +51,7 @@ The path becomes clearer when you are willing to see things as they are.
 `,
 
 4: `
-G4 (Wind) · 011
+G4 (Wind) · 011 · Pervasive
 
 <br><br>
 
@@ -67,7 +67,7 @@ The path is often adjusted through gentle corrections rather than dramatic event
 `,
 
 5: `
-G5 (Heaven) · 111
+G5 (Heaven) · 111 · Active
 
 <br><br>
 
@@ -83,7 +83,7 @@ The path becomes easier when you stop mistaking every obstacle for the destinati
 `,
 
 6: `
-G6 (Lake) · 110
+G6 (Lake) · 110 · Open
 
 <br><br>
 
@@ -99,7 +99,7 @@ The path is not only about where you are going, but also about how you travel.
 `,
 
 7: `
-G7 (Water) · 010
+G7 (Water) · 010 · Immersed
 
 <br><br>
 
@@ -115,7 +115,7 @@ The path continues when you learn the difference between persistence and stubbor
 `,
 
 8: `
-G8 (Mountain) · 001
+G8 (Mountain) · 001 · Still
 
 <br><br>
 
@@ -131,7 +131,7 @@ Sometimes standing still is part of moving forward.
 `,
 
 9: `
-G9 (Earth) · 000
+G9 (Earth) · 000 · Receptive
 
 <br><br>
 

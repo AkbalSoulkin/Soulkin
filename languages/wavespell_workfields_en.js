@@ -167,11 +167,11 @@ Caban is the consciousness orientation expressed as manifestation. Manifestation
 `,
 
 18: `
-1011 (Etznab) · Truth
+1011 (Etznab) · Reflection
 
 <br><br>
 
-Etznab is the consciousness orientation expressed as truth. Truth is correspondence. Correspondence makes recognition possible. It is associated with everything that corresponds with reality.
+Etznab is the consciousness orientation expressed as reflection. Correspondence makes recognition possible. It is associated with everything that corresponds with reality.
 
 
 `,

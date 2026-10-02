@@ -28,27 +28,27 @@ Geel kasteel`
   },
 
   en: {
-    1: `G3 (Fire) · 101<br><br>
+    1: `G3 (Fire) · 101 · Bound<br><br>
 13 Ahau · Kin 260/0<br><br>
 +105 days<br><br>
 Red Castle`,
 
-    2: `G7 (Water) · 010<br><br>
+    2: `G7 (Water) · 010 · Immersed<br><br>
 1 Chicchan · Kin 105<br><br>
 +105 days<br><br>
 Blue Castle`,
 
-    3: `G1 (Heart) · 0<br><br>
+    3: `G1 (Heart) · 0 · Undivided<br><br>
 2 Oc · Kin 210<br><br>
 +105 days<br><br>
 Green Castle`,
 
-    4: `G5 (Heaven) · 111<br><br>
+    4: `G5 (Heaven) · 111 · Active<br><br>
 3 Men · Kin 55<br><br>
 +105 days<br><br>
 White Castle`,
 
-    5: `G9 (Earth) · 000<br><br>
+    5: `G9 (Earth) · 000 · Receptive<br><br>
 4 Ahau · Kin 160<br><br>
 +1 day<br><br>
 Yellow Castle`

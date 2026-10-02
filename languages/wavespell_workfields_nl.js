@@ -167,12 +167,11 @@ Caban is de bewustzijnsoriëntatie die zich uitdrukt als manifestatie. Manifesta
 `,
 
 18: `
-1011 (Etznab) · Waarheid
+1011 (Etznab) · Reflectie
 
 <br><br>
 
-Etznab is de bewustzijnsoriëntatie die zich uitdrukt als waarheid. Waarheid is overeenstemming. Overeenstemming maakt herkenning mogelijk. Zij hangt samen met alles wat met de werkelijkheid overeenkomt.
-
+Etznab is de bewustzijnsoriëntatie die zich uitdrukt als reflectie. Overeenstemming maakt herkenning mogelijk. Zij hangt samen met alles wat met de werkelijkheid overeenkomt.
 
 
 `,
