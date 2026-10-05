@@ -66,6 +66,11 @@ const revealOrder = [
   18   // 3/12 Cauac
 ];
 
+const HEXAGRAM_ZERO_DAY = Number(
+  daysFromCivil(-17264374702, 11, 10) -
+  daysFromCivil(1982, 8, 22)
+);
+
 const PLANET_DISPLAY_START_DAY = Number(
   daysFromCivil(-863216567, 7, 12) -
   daysFromCivil(1982, 8, 22)
@@ -133,6 +138,8 @@ const HEART_CHAKRA_DAY = Number(
   daysFromCivil(1982, 8, 22)
 );
 
+
+
 const wavespellOperatorLanguages = {
   en: wavespell_operators_en,
   nl: wavespell_operators_nl,
@@ -175,13 +182,10 @@ const sourcesButtonLabels = {
   tr: "Kaynaklar"
 };
 
-
 const languageSelect =
   document.getElementById(
     "languageSelect"
   );
-
-
 
 languageSelect.onchange = () => {
 
@@ -224,7 +228,8 @@ const pageSets = {
     anahata: anahataPages_en,
     vishuddha: vishuddhaPages_en,
     ajna: ajnaPages_en,
-    ajna64: ajna64Pages_en,
+    hexagram: hexagramPages_en,
+    hexagram64: hexagram64Pages_en,
     sahasrara: sahasraraPages_en,
     sahasraraKin: sahasraraKinPages_en
   },
@@ -237,7 +242,8 @@ const pageSets = {
     anahata: anahataPages_nl,
     vishuddha: vishuddhaPages_nl,
     ajna: ajnaPages_nl,
-    ajna64: ajna64Pages_nl,
+    hexagram: hexagramPages_nl,
+    hexagram64: hexagram64Pages_nl,
     sahasrara: sahasraraPages_nl,
     sahasraraKin: sahasraraKinPages_nl
   },
@@ -249,7 +255,8 @@ const pageSets = {
     anahata: anahataPages_jp,
     vishuddha: vishuddhaPages_jp,
     ajna: ajnaPages_jp,
-    ajna64: ajna64Pages_jp,
+    hexagram: hexagramPages_jp,
+    hexagram64: hexagram64Pages_jp,
     sahasrara: sahasraraPages_jp,
     sahasraraKin: sahasraraKinPages_jp
   },
@@ -261,7 +268,8 @@ const pageSets = {
     anahata: anahataPages_ru,
     vishuddha: vishuddhaPages_ru,
     ajna: ajnaPages_ru,
-    ajna64: ajna64Pages_ru,
+    hexagram: hexagramPages_ru,
+    hexagram64: hexagram64Pages_ru,
     sahasrara: sahasraraPages_ru,
     sahasraraKin: sahasraraKinPages_ru
   },
@@ -273,7 +281,8 @@ const pageSets = {
     anahata: anahataPages_tr,
     vishuddha: vishuddhaPages_tr,
     ajna: ajnaPages_tr,
-    ajna64: ajna64Pages_tr,
+    hexagram: hexagramPages_tr,
+    hexagram64: hexagram64Pages_tr,
     sahasrara: sahasraraPages_tr,
     sahasraraKin: sahasraraKinPages_tr
   }
@@ -352,11 +361,11 @@ if(dayOffset < ROOT_OFFSET - 4){
     const special = [
       // De 20-ring blijft t/m 11/11 op Caban en loopt daarna
       // iedere dag één normaal werkveld door naar Ahau.
-      {tone:13, seal:19, night:3, mechanismKin:259, ringKin:156, dot:false}, // 10/11: Caban onder
-      {tone:1,  seal:4,  night:7, mechanismKin:156, ringKin:156, dot:true},  // 11/11: Caban onder
+      {tone:13, seal:19, night:2, mechanismKin:259, ringKin:156, dot:false}, // 10/11: Caban onder
+      {tone:1,  seal:4,  night:6, mechanismKin:156, ringKin:156, dot:true},  // 11/11: Caban onder
       {tone:2,  seal:9,  night:1, mechanismKin:157, ringKin:157, dot:true},  // 12/11: Etznab onder
-      {tone:3,  seal:14, night:5, mechanismKin:158, ringKin:158, dot:true},  // 13/11: Cauac onder
-      {tone:4,  seal:19, night:9, mechanismKin:159, ringKin:159, dot:true}   // 14/11: Ahau onder
+      {tone:3,  seal:14, night:4, mechanismKin:158, ringKin:158, dot:true},  // 13/11: Cauac onder
+      {tone:4,  seal:19, night:8, mechanismKin:159, ringKin:159, dot:true}   // 14/11: Ahau onder
     ][specialIndex];
 
     tone = special.tone;
@@ -521,13 +530,20 @@ const diff =
   kin =
     ((dayOffset % 260) + 260) % 260;
 
-  updateFromKin();
+updateFromKin();
 
 if(dayOffset < TZOLKIN_OPERATOR_START_DAY){
   operatorActive = false;
 }
 
-  refreshGo();
+if(
+  dayOffset < ICHING_UNFOLD_START_DAY &&
+  activePage === "hexagram64"
+){
+  activePage = "intro";
+}
+
+refreshGo();
 }
 
 // ===== LONG COUNT 260 FIELD =====
@@ -2401,13 +2417,13 @@ const longCountTrigram =
 
 const longCountTrigrams = {
 
-  alautun: "thunder",
+  alautun: "mountain",
   kinchiltun: "fire",
   kalabtun: "wind",
   piktun: "heaven",
   baktun: "lake",
   katun: "water",
-  tun: "mountain",
+  tun: "thunder",
   uinal: "earth"
 
 };
@@ -4037,6 +4053,22 @@ if(dayOffset < OPERATOR_FIRST_DAY){
 const hexagram =
   document.getElementById("hexagram");
 
+const hexagramBackground =
+  document.getElementById("hexagramBackground");
+
+hexagramBackground.style.cursor =
+  dayOffset <
+  Number(
+    daysFromCivil(-17264374702, 11, 10) -
+    daysFromCivil(1982, 8, 22)
+  )
+    ? "default"
+    : "pointer";
+
+hexagramBackground.style.pointerEvents = "auto";
+hexagram.style.cursor = "pointer";
+hexagram.style.pointerEvents = "none";
+
 const HEXAGRAM_START_DAY = Number(
   daysFromCivil(-17264374702, 12, 21) -
   daysFromCivil(1982, 8, 22)
@@ -4085,11 +4117,18 @@ const workfieldFractalCodes = [
 const UNFOLD_Y = 341;   // nieuwe reeks iets omlaag
 const HEXAGRAM_Y = 300; // bestaande h1-h64
 
+hexagramBackground.setAttribute(
+  "opacity",
+  dayOffset >= HEXAGRAM_START_DAY ? "1" : "0"
+);
+
 if(dayOffset < HEXAGRAM_START_DAY){
   hexagram.setAttribute("y", UNFOLD_Y);
 } else {
   hexagram.setAttribute("y", HEXAGRAM_Y);
 }
+
+
 
 // ===== 0-POSITIE =====
 // t/m 9/11: één Yang-lijn
@@ -4116,6 +4155,21 @@ if(dayOffset < PENTAGRAM_FRACTAL_START_DAY){
 
   hexagram.setAttribute("opacity", "1");
 
+hexagramBackground.setAttribute(
+  "fill",
+  "rgba(0,128,0,0.7)"
+);
+
+hexagramBackground.setAttribute(
+  "stroke",
+  "rgba(255,255,255,0.7)"
+);
+
+hexagramBackground.setAttribute("x", "195");
+hexagramBackground.setAttribute("y", "375");
+hexagramBackground.setAttribute("width", "130");
+hexagramBackground.setAttribute("height", "30");
+hexagramBackground.setAttribute("opacity", "1");
 
 // ===== 2 BIT =====
 // 11/11 Chicchan 01
@@ -4141,6 +4195,30 @@ if(dayOffset < PENTAGRAM_FRACTAL_START_DAY){
   );
 
   hexagram.setAttribute("opacity", "1");
+
+  const twoBitColors = [
+    "rgba(255,0,0,0.7)",       // 11/11 rood
+    "rgba(255,255,255,0.7)",   // 12/11 wit
+    "rgba(0,0,255,0.7)",       // 13/11 blauw
+    "rgba(255,255,0,0.7)"      // 14/11 geel
+  ];
+
+  hexagramBackground.setAttribute(
+    "fill",
+    twoBitColors[index]
+  );
+
+hexagramBackground.setAttribute(
+  "stroke",
+  "black"
+);
+
+  // 2-bit formaat
+  hexagramBackground.setAttribute("x", "195");
+  hexagramBackground.setAttribute("y", "375");
+  hexagramBackground.setAttribute("width", "130");
+  hexagramBackground.setAttribute("height", "50");
+  hexagramBackground.setAttribute("opacity", "1");
 
 
 // ===== EERSTE 4-BIT ONTVOUWING =====
@@ -4208,6 +4286,47 @@ if(dayOffset < PENTAGRAM_FRACTAL_START_DAY){
 
   hexagram.setAttribute("opacity", "1");
 
+// 15/11 t/m 4/12:
+// iedere dag rood → wit → blauw → geel
+
+const revealColors = [
+  "rgba(255,0,0,0.7)",
+  "rgba(255,255,255,0.7)",
+  "rgba(0,0,255,0.7)",
+  "rgba(255,255,0,0.7)"
+];
+
+hexagramBackground.setAttribute(
+  "fill",
+  revealColors[revealIndex % 4]
+);
+
+hexagramBackground.setAttribute(
+  "stroke",
+  "black"
+);
+
+hexagramBackground.setAttribute("x", "195");
+hexagramBackground.setAttribute("width", "130");
+hexagramBackground.setAttribute("opacity", "1");
+
+if(code.length === 2){
+
+  // Chicchan / Oc / Men / Ahau:
+  // zelfde formaat als 11–14/11
+  hexagramBackground.setAttribute("y", "375");
+  hexagramBackground.setAttribute("height", "50");
+
+} else {
+
+  // overige 16:
+  // zelfde formaat als andere 4-bit reeks,
+  // maar iets lager wegens LOWER
+  hexagramBackground.setAttribute("y", "375");
+  hexagramBackground.setAttribute("height", "90");
+}
+
+
 
 // ===== TWEEDE 4-BIT ONTVOUWING =====
 // 5/12 t/m 20/12
@@ -4232,9 +4351,43 @@ if(dayOffset < PENTAGRAM_FRACTAL_START_DAY){
   hexagram.setAttribute("opacity", "1");
 
 
+  // 5/12 t/m 20/12:
+  // 4 dagen rood
+  // 4 dagen wit
+  // 4 dagen blauw
+  // 4 dagen geel
+
+  const fourBitColors = [
+    "rgba(255,0,0,0.7)",
+    "rgba(255,255,255,0.7)",
+    "rgba(0,0,255,0.7)",
+    "rgba(255,255,0,0.7)"
+  ];
+
+  const fourBitColorIndex =
+    Math.floor(fractalIndex / 4);
+
+  hexagramBackground.setAttribute(
+    "fill",
+    fourBitColors[fourBitColorIndex]
+  );
+
+hexagramBackground.setAttribute(
+  "stroke",
+  "black"
+);
+
+  // 4-bit formaat
+  hexagramBackground.setAttribute("x", "195");
+  hexagramBackground.setAttribute("y", "335");
+  hexagramBackground.setAttribute("width", "130");
+  hexagramBackground.setAttribute("height", "90");
+  hexagramBackground.setAttribute("opacity", "1");
+
+
 // ===== 6 BIT =====
 // vanaf 21/12:
-// bestaande 64 hexagrammen
+// 16 rood → 16 wit → 16 blauw → 16 geel
 
 } else {
 
@@ -4247,6 +4400,56 @@ if(dayOffset < PENTAGRAM_FRACTAL_START_DAY){
   );
 
   hexagram.setAttribute("opacity", "1");
+
+
+  const hexColors = [
+    "rgba(255,0,0,0.7)",
+    "rgba(255,255,255,0.7)",
+    "rgba(0,0,255,0.7)",
+    "rgba(255,255,0,0.7)"
+  ];
+
+  const hexColorIndex =
+    Math.floor((hex - 1) / 16);
+
+  hexagramBackground.setAttribute(
+    "fill",
+    hexColors[hexColorIndex]
+  );
+
+hexagramBackground.setAttribute(
+  "stroke",
+  "black"
+);
+
+  // volledig 6-bit formaat
+  hexagramBackground.setAttribute("x", "195");
+  hexagramBackground.setAttribute("y", "295");
+  hexagramBackground.setAttribute("width", "130");
+  hexagramBackground.setAttribute("height", "130");
+  hexagramBackground.setAttribute("opacity", "1");
+}
+
+if(activePage === "hexagram64"){
+hexagramBackground.setAttribute(
+  "stroke",
+  "black"
+);
+
+  hexagramBackground.setAttribute(
+    "stroke-width",
+    "4"
+  );
+} else {
+  hexagramBackground.setAttribute(
+    "stroke",
+    "rgba(255,255,255,0.7)"
+  );
+
+  hexagramBackground.setAttribute(
+    "stroke-width",
+    "2"
+  );
 }
 
 
@@ -4482,52 +4685,35 @@ const specialHeart =
   [19].includes(seal);
 
 
-// ===== I-CHING ONTVOUWING + ZICHTBAAR =====
+// ===== I CHING UNFOLDING =====
 
-if(
-  dayOffset >= ICHING_UNFOLD_START_DAY &&
-  dayOffset < ICHING_UNFOLD_START_DAY + 5
-){
+const ichingUnfoldStep =
+  dayOffset - ICHING_UNFOLD_START_DAY;
 
-  const iChingUnfoldingFiles = [
-    "other/iching_1.svg", // 10/11
-    "other/iching_2.svg", // 11/11
-    "other/iching_2.svg", // 12/11
-    "other/iching_3.svg", // 13/11
-    "other/iching_4.svg"  // 14/11
-  ];
+let ichingFile = "other/iching.svg";
 
-  iChing.setAttribute(
-    "href",
-    iChingUnfoldingFiles[
-      dayOffset - ICHING_UNFOLD_START_DAY
-    ]
-  );
+if(ichingUnfoldStep >= 0 && ichingUnfoldStep <= 3){
 
-  iChing.setAttribute("opacity","1");
+  ichingFile =
+    `other/iching_${ichingUnfoldStep + 1}.svg`;
+}
+
+iChing.setAttribute("href", ichingFile);
+
+
+// vóór 10/11 nog niet zichtbaar
+if(ichingUnfoldStep < 0){
+
+  iChing.setAttribute("opacity","0");
+
+} else if(heartHoverOnly){
+
+  iChing.setAttribute("opacity","0");
 
 } else {
 
-  // Normale I Ching vanaf 15/11
-  iChing.setAttribute(
-    "href",
-    "other/iching.svg"
-  );
-
-  if(beforeOrAtRoot){
-
-    iChing.setAttribute("opacity","0");
-
-  } else if(heartHoverOnly){
-
-    iChing.setAttribute("opacity","0");
-
-  } else {
-
-    iChing.setAttribute("opacity","1");
-  }
+  iChing.setAttribute("opacity","1");
 }
-
 
 
 // ===== BDPQ POSITIES =====
@@ -4849,6 +5035,36 @@ rootItems.forEach((pair, i) => {
   );
 });
 
+const NIGHT_UNFOLD_START_DAY = Number(
+  daysFromCivil(-17264374702, 11, 10) -
+  daysFromCivil(1982, 8, 22)
+);
+
+const nightUnfolding = [
+  { code: "001", g: 2 }, // 10/11 Mountain
+  { code: "110", g: 6 }, // 11/11 Lake
+  { code: "0",   g: 1 }, // 12/11 Heart
+  { code: "011", g: 4 }, // 13/11 Wind
+  { code: "100", g: 8 }  // 14/11 Thunder
+];
+
+const nightUnfoldIndex =
+  dayOffset - NIGHT_UNFOLD_START_DAY;
+
+const displayedNight =
+  nightUnfoldIndex >= 0 &&
+  nightUnfoldIndex < nightUnfolding.length
+    ? nightUnfolding[nightUnfoldIndex]
+    : night === 0
+      ? {
+          code: "0",
+          g: 1
+        }
+      : {
+          code: nightCodes[night - 1],
+          g: night
+        };
+
 document.getElementById("info").innerHTML = `
 <tspan x="-140" dy="0">
 ${lang.tone}: ${tone} (${lang.toneNames[tone-1]})
@@ -4859,7 +5075,7 @@ ${lang.sun}: ${animals[seal]}
 </tspan>
 
 <tspan x="-140" dy="36">
-${lang.moon}: G${night}${night === 0 ? "" : ` (${lang.nightNames[night-1]})`}
+${lang.moon}: ${displayedNight.code} (G${displayedNight.g})
 </tspan>
 `;
 
@@ -5428,13 +5644,13 @@ const crownTabSymbol =
 
 const trigramFiles = [
   "other/yin.svg",       // G1
-  "trigrams/100.svg",      // G2
+  "trigrams/001.svg",      // G2
   "trigrams/101.svg",      // G3
   "trigrams/011.svg",      // G4
   "trigrams/111.svg",      // G5
   "trigrams/110.svg",      // G6
   "trigrams/010.svg",      // G7
-  "trigrams/001.svg",      // G8
+  "trigrams/100.svg",      // G8
   "trigrams/000.svg"       // G9
 ];
 
@@ -5444,11 +5660,11 @@ const TRIGRAM_UNFOLD_START_DAY = Number(
 );
 
 const trigramUnfoldingFiles = [
-  "trigrams/101.svg",      // 10/11 = G3
-  "trigrams/010.svg",      // 11/11 = G7
-  "other/yin.svg",       // 12/11 = G1
-  "trigrams/111.svg",      // 13/11 = G5
-  "trigrams/000.svg"       // 14/11 = G9
+  "trigrams/100.svg",      // 10/11 = G2 Thunder
+  "trigrams/110.svg",      // 11/11 = G6 Lake
+  "other/yin.svg",         // 12/11 = G1 Heart
+  "trigrams/011.svg",      // 13/11 = G4 Wind
+  "trigrams/001.svg"       // 14/11 = G8 Mountain
 ];
 
 const trigramUnfoldIndex =
@@ -5575,6 +5791,7 @@ closeOperator();
     });
 
 
+activePage = "intro";
   wavespellActive = true;
   render();
   showWavespellText();
@@ -5867,12 +6084,12 @@ toneTabSymbol.src = "other/smell.svg";
   occultTabSymbol.src =
     "other/hear.svg";
 
-  // Ajna = rood + 101
+  // Ajna = rood + 001
   guideTab.style.background =
     "rgba(255,0,0,0.7)";
   guideTabSymbol.style.visibility = "visible";
   guideTabSymbol.src =
-    "trigrams/101.svg";
+    "trigrams/001.svg";
 
   // Sahasrara blijft zoals bestaande code hem maakt
 }
@@ -5896,12 +6113,12 @@ else if(chakraOverrideDay === 2){
   occultTabSymbol.src =
     "animals/13Chicchan.svg";
 
-  // Ajna = blauw + 010
+  // Ajna = blauw + 110
   guideTab.style.background =
     "rgba(0,0,255,0.7)";
   guideTabSymbol.style.visibility = "visible";
   guideTabSymbol.src =
-    "trigrams/010.svg";
+    "trigrams/110.svg";
 }
 
 
@@ -5952,12 +6169,12 @@ else if(chakraOverrideDay === 4){
   occultTabSymbol.src =
     "animals/13Men.svg";
 
-  // Ajna = wit + 111
+  // Ajna = wit + 011
   guideTab.style.background =
     "rgba(255,255,255,0.7)";
   guideTabSymbol.style.visibility = "visible";
   guideTabSymbol.src =
-    "trigrams/111.svg";
+    "trigrams/011.svg";
 }
 
 
@@ -5981,10 +6198,10 @@ else if(chakraOverrideDay === 5){
   occultTabSymbol.src =
     "animals/13Ahau.svg";
 
-  // Ajna: kleur is al goed + 000
+  // Ajna = geel + 100
   guideTabSymbol.style.visibility = "visible";
   guideTabSymbol.src =
-    "trigrams/000.svg";
+    "trigrams/100.svg";
 }
 
 updateActivePage();
@@ -6341,6 +6558,46 @@ function setActivePage(pageName, tabId){
   render();
 }
 
+
+hexagramBackground.onclick = () => {
+
+  if(
+    dayOffset <
+    Number(
+      daysFromCivil(-17264374702, 11, 10) -
+      daysFromCivil(1982, 8, 22)
+    )
+  ){
+    return;
+  }
+
+  closeSources();
+  closeOperator();
+  closeWavespell();
+
+  activeHistoryCell = null;
+
+  document
+    .querySelectorAll(".activeHistoryCell")
+    .forEach(item => {
+      item.classList.remove("activeHistoryCell");
+    });
+
+  document
+    .querySelectorAll(".infoTab")
+    .forEach(tab => {
+      tab.classList.remove("activeTab");
+    });
+
+  if(activePage === "hexagram64"){
+    activePage = "intro";
+  } else {
+    activePage = "hexagram64";
+  }
+
+  updateActivePage();
+  render();
+};
 
 toneTab.onclick = () => {
   setActivePage("muladhara", "toneTab");

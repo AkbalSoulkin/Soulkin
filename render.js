@@ -333,7 +333,7 @@ if(
   dayOffset < CHAKRA_TEXT_START_DAY &&
   activePage !== "manipura" &&
   activePage !== "anahata" &&
-  activePage !== "sahasrara" &&
+  activePage !== "hexagram64" &&
   activePage !== "ajna"
 ){
 
@@ -673,39 +673,140 @@ if(dayOffset < SAHASRARA_TEXT_START_DAY){
   const nightText =
     pages.ajna?.[night] ?? "";
 
-  // 15/11 t/m 20/12: alleen Night
-  if(dayOffset < HEXAGRAM_START_DAY){
+// Vanaf 15/11: alleen Night
 
-    content.innerHTML = `
-      <div class="nightText">
-        ${nightText}
-      </div>
-    `;
+content.innerHTML = `
+  <div class="nightText">
+    ${nightText}
+  </div>
+`;
 
-    return;
-  }
+return;
+}
 
-  // Vanaf 21/12: Night + hexagram
+// ===== HEXAGRAM 64 =====
+
+if(activePage === "hexagram64"){
+
+  const HEXAGRAM_TEXT_START_DAY = Number(
+    daysFromCivil(-17264374702, 12, 21) -
+    daysFromCivil(1982, 8, 22)
+  );
+
+const HEXAGRAM_PAGE_START_DAY = Number(
+  daysFromCivil(-17264374702, 11, 10) -
+  daysFromCivil(1982, 8, 22)
+);
+
+const unfoldIndex =
+  dayOffset - HEXAGRAM_PAGE_START_DAY;
+
+// ===== EERSTE 5 DAGEN =====
+
+if(unfoldIndex >= 0 && unfoldIndex < 5){
+
+  const unfoldTitles = [
+    "0",   // 10/11
+    "01",  // 11/11
+    "11",  // 12/11
+    "10",  // 13/11
+    "00"   // 14/11
+  ];
+
+  const unfoldBackgrounds = [
+    "backgrounds/kasteel_1.png",
+    "backgrounds/kasteel_2.png",
+    "backgrounds/kasteel_3.png",
+    "backgrounds/kasteel_4.png",
+    "backgrounds/kasteel_5.png"
+  ];
+
+title.classList.remove("chakraTitle");
+
+  title.innerHTML =
+    unfoldTitles[unfoldIndex];
+
+  content.innerHTML =
+    pages.hexagram?.[unfoldIndex + 1] ?? "";
+
+  panel.style.background = "";
+
+  panel.style.backgroundImage =
+    `url("${unfoldBackgrounds[unfoldIndex]}")`;
+
+  panel.style.backgroundSize =
+    "cover";
+
+  panel.style.backgroundPosition =
+    "center";
+
+  return;
+}
+
+// ===== REST VAN DE UITVOUWING =====
+// 15/11 t/m 20/12: teksten volgen later
+
+if(dayOffset < HEXAGRAM_TEXT_START_DAY){
+
+  title.innerHTML = "";
+  content.innerHTML = "";
+
+  return;
+}
+
   const hexagramNumber =
     (
-      (dayOffset - HEXAGRAM_START_DAY) % 64
+      (dayOffset - HEXAGRAM_TEXT_START_DAY) % 64
       + 64
     ) % 64 + 1;
 
-  const hexagramText =
-    pages.ajna64?.[hexagramNumber] ?? "";
+  title.classList.remove("chakraTitle");
 
-  content.innerHTML = `
-    <div class="nightText">
-      ${nightText}
-    </div>
+const hexagramText =
+  pages.hexagram64?.[hexagramNumber] ?? "";
 
-    <div class="textDivider"></div>
+const hexagramCode =
+  hexagramText.trim().slice(0, 6);
 
-    <div class="combinationText">
-      ${hexagramText}
-    </div>
-  `;
+const hexagramBody =
+  hexagramText
+    .trim()
+    .slice(6)
+    .trim();
+
+title.innerHTML =
+  hexagramCode;
+
+content.innerHTML =
+  hexagramBody;
+
+const hexagramTints = [
+  "rgba(120,0,0,0.35)",       // 1–16 rood
+  "rgba(255,255,255,0.18)",   // 17–32 wit
+  "rgba(80,180,255,0.25)",    // 33–48 blauw
+  "rgba(255,220,0,0.25)"      // 49–64 geel
+];
+
+const hexagramTint =
+  hexagramTints[
+    Math.floor((hexagramNumber - 1) / 16)
+  ];
+
+// eerst oude achtergrond volledig wissen
+panel.style.background = "";
+
+panel.style.backgroundImage =
+  `linear-gradient(
+    ${hexagramTint},
+    ${hexagramTint}
+  ),
+  url("backgrounds/hexagrams.png")`;
+
+panel.style.backgroundSize =
+  "cover";
+
+panel.style.backgroundPosition =
+  "center";
 
   return;
 }
