@@ -1,138 +1,84 @@
 const pentagramPages = {
 
   nl: {
-    1: `G3 (Vuur) · 101<br><br>
-13 Ahau · Kin 260/0<br><br>
-+105 dagen<br><br>
-Rood kasteel`,
-
-    2: `G7 (Water) · 010<br><br>
-1 Chicchan · Kin 105<br><br>
-+105 dagen<br><br>
-Blauw kasteel`,
-
-    3: `G1 (Hart) · 0<br><br>
-2 Oc · Kin 210<br><br>
-+105 dagen<br><br>
-Groen kasteel`,
-
-    4: `G5 (Hemel) · 111<br><br>
-3 Men · Kin 55<br><br>
-+105 dagen<br><br>
-Wit kasteel`,
-
-    5: `G9 (Aarde) · 000<br><br>
-4 Ahau · Kin 160<br><br>
-+1 dag<br><br>
-Geel kasteel`
+    1: `001 (G2) · Stil<br><br>
+`,
+    2: `110 (G6) · Open<br><br>
+`,
+    3: `0 (G1) · Ongedeeld<br><br>
+`,
+    4: `011 (G4) · Alomtegenwoordig<br><br>
+`,
+    5: `100 (G8) · Ontluikend<br><br>
+`
   },
 
   en: {
-    1: `G3 (Fire) · 101 · Bound<br><br>
-13 Ahau · Kin 260/0<br><br>
-+105 days<br><br>
-Red Castle`,
+    1: `001 (G2) · Still<br><br>
+`,
 
-    2: `G7 (Water) · 010 · Immersed<br><br>
-1 Chicchan · Kin 105<br><br>
-+105 days<br><br>
-Blue Castle`,
+    2: `110 (G6) · Open<br><br>
+`,
 
-    3: `G1 (Heart) · 0 · Undivided<br><br>
-2 Oc · Kin 210<br><br>
-+105 days<br><br>
-Green Castle`,
+    3: `0 (G1) · Undivided<br><br>
+`,
 
-    4: `G5 (Heaven) · 111 · Active<br><br>
-3 Men · Kin 55<br><br>
-+105 days<br><br>
-White Castle`,
+    4: `011 (G4) · Pervasive<br><br>
+`,
 
-    5: `G9 (Earth) · 000 · Receptive<br><br>
-4 Ahau · Kin 160<br><br>
-+1 day<br><br>
-Yellow Castle`
+    5: `100 (G8) · Nascent<br><br>
+`
   },
 
   ru: {
-    1: `G3 (Огонь) · 101<br><br>
-13 Ahau · Kin 260/0<br><br>
-+105 дней<br><br>
-Красный замок`,
+    1: `001 (G2) · Неподвижный<br><br>
+`,
 
-    2: `G7 (Вода) · 010<br><br>
-1 Chicchan · Kin 105<br><br>
-+105 дней<br><br>
-Синий замок`,
+    2: `110 (G6) · Открытый<br><br>
+`,
 
-    3: `G1 (Сердце) · 0<br><br>
-2 Oc · Kin 210<br><br>
-+105 дней<br><br>
-Зелёный замок`,
+    3: `0 (G1) · Неразделённый<br><br>
+`,
 
-    4: `G5 (Небо) · 111<br><br>
-3 Men · Kin 55<br><br>
-+105 дней<br><br>
-Белый замок`,
+    4: `011 (G4) · Всепроникающий<br><br>
+`,
 
-    5: `G9 (Земля) · 000<br><br>
-4 Ahau · Kin 160<br><br>
-+1 день<br><br>
-Жёлтый замок`
+    5: `100 (G8) · Зарождающийся<br><br>
+`
   },
 
   jp: {
-    1: `G3 (火) · 101<br><br>
-13 Ahau · Kin 260/0<br><br>
-+105日<br><br>
-赤の城`,
+    1: `001 (G2) · 静止<br><br>
+`,
 
-    2: `G7 (水) · 010<br><br>
-1 Chicchan · Kin 105<br><br>
-+105日<br><br>
-青の城`,
+    2: `110 (G6) · 開放<br><br>
+`,
 
-    3: `G1 (心) · 0<br><br>
-2 Oc · Kin 210<br><br>
-+105日<br><br>
-緑の城`,
+    3: `0 (G1) · 未分化<br><br>
+`,
 
-    4: `G5 (天) · 111<br><br>
-3 Men · Kin 55<br><br>
-+105日<br><br>
-白の城`,
+    4: `011 (G4) · 浸透<br><br>
+`,
 
-    5: `G9 (地) · 000<br><br>
-4 Ahau · Kin 160<br><br>
-+1日<br><br>
-黄の城`
+    5: `100 (G8) · 発生期<br><br>
+`
   },
 
   tr: {
-    1: `G3 (Ateş) · 101<br><br>
-13 Ahau · Kin 260/0<br><br>
-+105 gün<br><br>
-Kırmızı Kale`,
+    1: `001 (G2) · Durgun<br><br>
+`,
 
-    2: `G7 (Su) · 010<br><br>
-1 Chicchan · Kin 105<br><br>
-+105 gün<br><br>
-Mavi Kale`,
+    2: `110 (G6) · Açık<br><br>
+`,
 
-    3: `G1 (Kalp) · 0<br><br>
-2 Oc · Kin 210<br><br>
-+105 gün<br><br>
-Yeşil Kale`,
+    3: `0 (G1) · Bölünmemiş<br><br>
+`,
 
-    4: `G5 (Gök) · 111<br><br>
-3 Men · Kin 55<br><br>
-+105 gün<br><br>
-Beyaz Kale`,
+    4: `011 (G4) · Yaygın<br><br>
+`,
 
-    5: `G9 (Toprak) · 000<br><br>
-4 Ahau · Kin 160<br><br>
-+1 gün<br><br>
-Sarı Kale`
+    5: `100 (G8) · Oluşmakta<br><br>
+`
   }
 
 };
