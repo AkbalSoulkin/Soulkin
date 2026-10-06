@@ -647,22 +647,44 @@ const PENTAGRAM_TEXT_START_DAY =
 
 if(dayOffset < SAHASRARA_TEXT_START_DAY){
 
-  if(dayOffset >= PENTAGRAM_TEXT_START_DAY){
 
-    const pentagramPage =
-      dayOffset - PENTAGRAM_TEXT_START_DAY + 1;
+if(dayOffset >= PENTAGRAM_TEXT_START_DAY){
 
-    title.innerHTML =
-      lang.ajna;
+  const pentagramPage =
+    dayOffset - PENTAGRAM_TEXT_START_DAY + 1;
 
-    content.innerHTML =
-      pentagramPages?.[language]?.[pentagramPage] ?? "";
+  const pentagramBackgrounds = [
+    "backgrounds/pent_1.png",
+    "backgrounds/pent_2.png",
+    "backgrounds/pent_3.png",
+    "backgrounds/pent_4.png",
+    "backgrounds/pent_5.png"
+  ];
 
-  } else {
+  title.innerHTML =
+    lang.ajna;
 
-    title.innerHTML = "";
-    content.innerHTML = "";
-  }
+  title.classList.remove("chakraTitle");
+
+  content.innerHTML =
+    pentagramPages?.[language]?.[pentagramPage] ?? "";
+
+  panel.style.background = "";
+
+  panel.style.backgroundImage =
+    `url("${pentagramBackgrounds[pentagramPage - 1]}")`;
+
+  panel.style.backgroundSize =
+    "cover";
+
+  panel.style.backgroundPosition =
+    "center";
+
+} else {
+
+  title.innerHTML = "";
+  content.innerHTML = "";
+}
 
   return;
 }

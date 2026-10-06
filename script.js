@@ -3677,11 +3677,16 @@ dot.setAttribute("fill-opacity", "1");
       `rotate(${rot})`
     );
 
-  document.getElementById("toneSymbol")
-    .setAttribute(
-      "href",
-      `tones/tone${tone}.svg`
-    );
+const mechanismToneFractal =
+  toneFractals[tone - 1];
+
+document.getElementById("toneSymbol")
+  .setAttribute(
+    "href",
+    tone === 9
+      ? "other/yang.svg"
+      : `trigrams/${mechanismToneFractal}.svg`
+  );
 
 const toneSymbol =
   document.getElementById("toneSymbol");
