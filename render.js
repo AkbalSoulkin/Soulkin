@@ -857,10 +857,59 @@ if(unfoldIndex >= 5 && unfoldIndex < 25){
 }
 
 
-// ===== REST VAN DE UITVOUWING =====
-// 15/11 t/m 20/12: teksten volgen later
+// ===== 16 FRACTALS 5/12 T/M 20/12 =====
 
 if(dayOffset < HEXAGRAM_TEXT_START_DAY){
+
+  const HEX16_START_DAY = Number(
+    daysFromCivil(-17264374702, 12, 5) -
+    daysFromCivil(1982, 8, 22)
+  );
+
+  if(dayOffset >= HEX16_START_DAY){
+
+    const hex16Index =
+      dayOffset - HEX16_START_DAY;
+
+    const hex16Titles = [
+      "0101",
+      "1101",
+      "1001",
+      "0001",
+      "0111",
+      "1111",
+      "1011",
+      "0011",
+      "0110",
+      "1110",
+      "1010",
+      "0010",
+      "0100",
+      "1100",
+      "1000",
+      "0000"
+    ];
+
+    title.classList.remove("chakraTitle");
+
+    title.innerHTML =
+      hex16Titles[hex16Index];
+
+    content.innerHTML = "";
+
+    panel.style.background = "";
+
+    panel.style.backgroundImage =
+      `url("backgrounds/hex_${hex16Index + 1}.png")`;
+
+    panel.style.backgroundSize =
+      "cover";
+
+    panel.style.backgroundPosition =
+      "center";
+
+    return;
+  }
 
   title.innerHTML = "";
   content.innerHTML = "";
