@@ -414,8 +414,29 @@ if(activePage === "muladhara"){
 
 if(activePage === "sahasrara"){
 
-  panel.style.background =
-    "rgba(255,255,255,0.18)";
+  // Vanaf 11/11 krijgt Sahasrara de achtergrond
+  // die bij de actuele toon 1–13 hoort.
+  if(dayOffset >= CHAKRA_TEXT_START_DAY){
+
+    panel.style.background = "";
+
+    panel.style.backgroundImage =
+      `url("backgrounds/toon_${tone}.png")`;
+
+    panel.style.backgroundSize =
+      "cover";
+
+    panel.style.backgroundPosition =
+      "center";
+
+  } else {
+
+    // vóór 11/11: bestaande achtergrond
+    panel.style.backgroundImage = "none";
+
+    panel.style.background =
+      "rgba(255,255,255,0.18)";
+  }
 
   title.classList.remove("chakraTitle");
 
