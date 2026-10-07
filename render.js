@@ -716,7 +716,18 @@ if(dayOffset >= PENTAGRAM_TEXT_START_DAY){
   const nightText =
     pages.ajna?.[night] ?? "";
 
-// Vanaf 15/11: alleen Night
+// Vanaf 15/11: alleen Night + vaste Ajna achtergrond
+
+panel.style.background = "";
+
+panel.style.backgroundImage =
+  'url("backgrounds/ajna.png")';
+
+panel.style.backgroundSize =
+  "cover";
+
+panel.style.backgroundPosition =
+  "center";
 
 content.innerHTML = `
   <div class="nightText">
@@ -785,6 +796,66 @@ title.classList.remove("chakraTitle");
 
   return;
 }
+
+// ===== 20 WERKVELDEN 15/11 T/M 4/12 =====
+
+if(unfoldIndex >= 5 && unfoldIndex < 25){
+
+  const workfieldIndex =
+    unfoldIndex - 5;
+
+  const workfieldTitles = [
+    "0001", // 15/11 Imix
+    "0011", // 16/11 Ik
+    "0010", // 17/11 Akbal
+    "0000", // 18/11 Kan
+
+    "01",   // 19/11 Chicchan
+
+    "0111", // 20/11 Cimi
+    "0110", // 21/11 Manik
+    "0100", // 22/11 Lamat
+    "0101", // 23/11 Muluc
+
+    "11",   // 24/11 Oc
+
+    "1110", // 25/11 Chuen
+    "1100", // 26/11 Eb
+    "1101", // 27/11 Ben
+    "1111", // 28/11 Ix
+
+    "10",   // 29/11 Men
+
+    "1000", // 30/11 Cib
+    "1001", // 1/12 Caban
+    "1011", // 2/12 Etznab
+    "1010", // 3/12 Cauac
+
+    "00"    // 4/12 Ahau
+  ];
+
+  title.classList.remove("chakraTitle");
+
+  title.innerHTML =
+    workfieldTitles[workfieldIndex];
+
+  // Teksten komen later
+  content.innerHTML = "";
+
+  panel.style.background = "";
+
+  panel.style.backgroundImage =
+    `url("backgrounds/${workfieldIndex + 1}.png")`;
+
+  panel.style.backgroundSize =
+    "cover";
+
+  panel.style.backgroundPosition =
+    "center";
+
+  return;
+}
+
 
 // ===== REST VAN DE UITVOUWING =====
 // 15/11 t/m 20/12: teksten volgen later
