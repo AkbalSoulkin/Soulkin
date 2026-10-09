@@ -6417,6 +6417,48 @@ if(chakraOverrideDay >= 0 && chakraOverrideDay <= 5){
   birthTabSymbol.src = anahataSymbol;
 }
 
+
+// ===== ONDERSTE 4 CHAKRA'S: 2-BIT STROMING =====
+// 14/11 t/m 4/12
+
+const CHAKRA_TWO_BIT_START_DAY = Number(
+  daysFromCivil(-17264374702, 11, 14) -
+  daysFromCivil(1982, 8, 22)
+);
+
+const CHAKRA_TWO_BIT_END_DAY = Number(
+  daysFromCivil(-17264374702, 12, 4) -
+  daysFromCivil(1982, 8, 22)
+);
+
+if(
+  dayOffset >= CHAKRA_TWO_BIT_START_DAY &&
+  dayOffset <= CHAKRA_TWO_BIT_END_DAY
+){
+
+  // De bestaande seal-stroming bepaalt de 2 bits.
+  // Alleen de fractals worden aangepast.
+
+  const twoBitFractals = [
+    "13Chicchan.svg", // rood  01
+    "13Oc.svg",       // wit   11
+    "13Men.svg",      // blauw 10
+    "13Ahau.svg"      // geel  00
+  ];
+
+  toneTabSymbol.src =
+    "animals/" + twoBitFractals[occultSeal % 4];
+
+  antipodeTabSymbol.src =
+    "animals/" + twoBitFractals[antipodeSeal % 4];
+
+  analogTabSymbol.src =
+    "animals/" + twoBitFractals[analogSeal % 4];
+
+  birthTabSymbol.src =
+    "animals/" + twoBitFractals[guideSeal % 4];
+}
+
 updateActivePage();
 
 // ===== LOCK HIGHLIGHT VAN GESELECTEERDE KIN =====
