@@ -4503,19 +4503,64 @@ const visibleFields = new Set(
 );
 
 segments.forEach((segment, index) => {
-  segment.setAttribute(
-    "fill",
+
+  let segmentColor =
     visibleFields.has(index)
       ? colors[index % 4]
-      : "black"
-  );
+      : "black";
+
+// ===== KLEURBLOKKEN BUITENRING =====
+
+// 10/11 t/m 14/11: Ahau-blok geel
+if(rootStage >= 1 && rootStage <= 5){
+
+  if([19, 0, 1, 2, 3].includes(index)){
+    segmentColor = colors[3];
+  }
+}
+
+// 11/11 t/m 14/11: Chicchan-blok rood
+if(rootStage >= 2 && rootStage <= 5){
+
+  if([4, 5, 6, 7, 8].includes(index)){
+    segmentColor = colors[0];
+  }
+}
+
+// 12/11 t/m 14/11: Oc-blok wit
+if(rootStage >= 3 && rootStage <= 5){
+
+  if([9, 10, 11, 12, 13].includes(index)){
+    segmentColor = colors[1];
+  }
+
+  // Men-blok blijft zwart tot 13/11
+  if(rootStage === 3 && [14, 15, 16, 17, 18].includes(index)){
+    segmentColor = "black";
+  }
+}
+
+// 13/11 t/m 14/11: Men-blok blauw
+if(rootStage >= 4 && rootStage <= 5){
+
+  if([14, 15, 16, 17, 18].includes(index)){
+    segmentColor = colors[2];
+  }
+}
+
+  segment.setAttribute("fill", segmentColor);
 });
 
 const ringSeal = ringKin % 20;
 
-ringSegments.setAttribute("transform", `rotate(${ringSeal * 18})`);
-hoverLayer.setAttribute("transform", `rotate(${ringSeal * 18})`);
-ringAnimals.setAttribute("transform", `rotate(${ringSeal * 18})`);
+// Alleen op 10/11 een halve dagstap tegen de klok in
+const halfDayOffset = rootStage === 1 ? -9 : 0;
+
+const outerRingAngle = ringSeal * 18 + halfDayOffset;
+
+ringSegments.setAttribute("transform", `rotate(${outerRingAngle})`);
+hoverLayer.setAttribute("transform", `rotate(${outerRingAngle})`);
+ringAnimals.setAttribute("transform", `rotate(${outerRingAngle})`);
 
 
 const ROOT_RING_STEP =
