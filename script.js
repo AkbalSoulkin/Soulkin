@@ -4490,9 +4490,9 @@ const visibleFieldCount =
 // Volgorde waarin de twintig afzonderlijke ringsegmenten verschijnen.
 // Dit is de bestaande Soulkin-volgorde in Fibonacci-blokken 1|1|2|3|5|8.
 const fibonacciRevealOrder = [
-  4,      // Chicchan — 10/11
-  9,      // Oc — 11/11
-  14, 19, // Men + Ahau — 12/11
+  19,      // Ahau — 10/11
+  4,      // Chicchan — 11/11
+  14, 9, // Men + Oc — 12/11
   0, 1, 2,// Imix, Ik, Akbal
   3, 5, 6, 7, 8,
   10, 11, 12, 13, 15, 16, 17, 18
@@ -5888,8 +5888,6 @@ nightTab.style.background =
 // 5 = 14/11
 // 6 = 15/11, normale werking begint
 
-
-
 if(rootStage <= 5){
 
   // Vaste kruiskleuren zolang een chakra nog vergrendeld is.
@@ -6017,7 +6015,7 @@ const chakraOverrideDay =
 
 // Muladhara: vanaf 11/11 altijd werkveld-bits/fractals groter
 const MULADHARA_BITS_START_DAY = Number(
-  daysFromCivil(-17264374702, 11, 11) -
+  daysFromCivil(-17264374702, 11, 9) -
   daysFromCivil(1982, 8, 22)
 );
 
@@ -6032,14 +6030,25 @@ crownSymbol.classList.toggle(
   dayOffset <= CHAKRA_OVERRIDE_START_DAY
 );
 
-// 9/11
+
 if(chakraOverrideDay <= 0){
 
-  // Muladhara = geel + smell
+toneTab.style.background =
+  "rgba(255,255,0,0.7)";
+toneTabSymbol.style.visibility = "visible";
+toneTabSymbol.src = "other/smell.svg";
+
+// Muladhara: 9/11 geel + Yin
+// Daarvoor oorspronkelijke toestand behouden
+if(chakraOverrideDay === 0){
+
   toneTab.style.background =
     "rgba(255,255,0,0.7)";
+
   toneTabSymbol.style.visibility = "visible";
-toneTabSymbol.src = "other/smell.svg";
+  toneTabSymbol.src = "other/yin.svg";
+
+}
 
   // Anahata = wit + touch
   birthTab.style.background =
@@ -6071,11 +6080,10 @@ else if(chakraOverrideDay === 1){
 
 crownSymbol.classList.remove("crownSymbolLarge");
 
-  // Muladhara = groen + smell
   toneTab.style.background =
-    "rgba(0,128,0,0.7)";
+    "rgba(255,255,0,0.7)";
   toneTabSymbol.style.visibility = "visible";
-toneTabSymbol.src = "other/smell.svg";
+toneTabSymbol.src = "other/yin.svg";
 
   // Anahata = groen + touch
   birthTab.style.background =
@@ -6103,12 +6111,13 @@ toneTabSymbol.src = "other/smell.svg";
 // 11/11
 else if(chakraOverrideDay === 2){
 
-  // Muladhara = geel + Cib
-  toneTab.style.background =
-    "rgba(255,255,0,0.7)";
-  toneTabSymbol.style.visibility = "visible";
-  toneTabSymbol.src =
-    "animals/cib.svg";
+// Muladhara = rood + 01 Chicchan
+toneTab.style.background =
+  "rgba(255,0,0,0.7)";
+
+toneTabSymbol.style.visibility = "visible";
+toneTabSymbol.src =
+  "animals/13Chicchan.svg";
 
   // Anahata is al goed
 
@@ -6130,12 +6139,13 @@ else if(chakraOverrideDay === 2){
 // 12/11
 else if(chakraOverrideDay === 3){
 
-  // Muladhara = blauw + Chuen
-  toneTab.style.background =
-    "rgba(0,0,255,0.7)";
-  toneTabSymbol.style.visibility = "visible";
-  toneTabSymbol.src =
-    "animals/chuen.svg";
+// Muladhara = rood + 01 Chicchan
+toneTab.style.background =
+  "rgba(255,0,0,0.7)";
+
+toneTabSymbol.style.visibility = "visible";
+toneTabSymbol.src =
+  "animals/13Chicchan.svg";
 
   // Anahata = Ik
   birthTabSymbol.src =
@@ -6159,10 +6169,13 @@ else if(chakraOverrideDay === 3){
 // 13/11
 else if(chakraOverrideDay === 4){
 
-  // Muladhara: kleur is al goed + Cimi
-  toneTabSymbol.style.visibility = "visible";
-  toneTabSymbol.src =
-    "animals/cimi.svg";
+// Muladhara = rood + 01 Chicchan
+toneTab.style.background =
+  "rgba(255,0,0,0.7)";
+
+toneTabSymbol.style.visibility = "visible";
+toneTabSymbol.src =
+  "animals/13Chicchan.svg";
 
   // Anahata = Cauac
   birthTabSymbol.src =
@@ -6186,12 +6199,13 @@ else if(chakraOverrideDay === 4){
 // 14/11
 else if(chakraOverrideDay === 5){
 
-  // Muladhara = rood + Imix
-  toneTab.style.background =
-    "rgba(255,0,0,0.7)";
-  toneTabSymbol.style.visibility = "visible";
-  toneTabSymbol.src =
-    "animals/imix.svg";
+// Muladhara = rood + 01 Chicchan
+toneTab.style.background =
+  "rgba(255,0,0,0.7)";
+
+toneTabSymbol.style.visibility = "visible";
+toneTabSymbol.src =
+  "animals/13Chicchan.svg";
 
   // Anahata = Cib
   birthTabSymbol.src =
@@ -6207,6 +6221,123 @@ else if(chakraOverrideDay === 5){
   guideTabSymbol.style.visibility = "visible";
   guideTabSymbol.src =
     "trigrams/100.svg";
+}
+
+// ===== SVADHISTHANA: 9/11 T/M 14/11 =====
+
+if(chakraOverrideDay >= 0 && chakraOverrideDay <= 5){
+
+  let svadhisthanaColor;
+  let svadhisthanaSymbol;
+
+  if(chakraOverrideDay === 0){
+
+    // 9/11: blauw + Yin (0)
+    svadhisthanaColor = "rgba(0,0,255,0.7)";
+    svadhisthanaSymbol = "other/yin.svg";
+
+  } else if(chakraOverrideDay === 1){
+
+    // 10/11: rood + Yang (1)
+    svadhisthanaColor = "rgba(255,0,0,0.7)";
+    svadhisthanaSymbol = "other/yang.svg";
+
+  } else if(chakraOverrideDay <= 4){
+
+    // 11/11 t/m 13/11: geel + Yin (0)
+    svadhisthanaColor = "rgba(255,255,0,0.7)";
+    svadhisthanaSymbol = "other/yin.svg";
+
+  } else {
+
+    // 14/11: wit + Oc (11)
+    svadhisthanaColor = "rgba(255,255,255,0.7)";
+    svadhisthanaSymbol = "animals/13Oc.svg";
+  }
+
+  antipodeTab.style.background = svadhisthanaColor;
+  antipodeTabSymbol.style.visibility = "visible";
+  antipodeTabSymbol.src = svadhisthanaSymbol;
+}
+
+// ===== MANIPURA: 9/11 T/M 14/11 =====
+
+if(chakraOverrideDay >= 0 && chakraOverrideDay <= 5){
+
+  let manipuraColor;
+  let manipuraSymbol;
+
+  if(chakraOverrideDay === 0){
+
+    // 9/11: rood + Yang (1)
+    manipuraColor = "rgba(255,0,0,0.7)";
+    manipuraSymbol = "other/yang.svg";
+
+  } else if(chakraOverrideDay <= 2){
+
+    // 10/11 en 11/11: blauw + Yin (0)
+    manipuraColor = "rgba(0,0,255,0.7)";
+    manipuraSymbol = "other/yin.svg";
+
+  } else if(chakraOverrideDay <= 4){
+
+    // 12/11 en 13/11: wit + Oc (11)
+    manipuraColor = "rgba(255,255,255,0.7)";
+    manipuraSymbol = "animals/13Oc.svg";
+
+  } else {
+
+    // 14/11: blauw + Men (10)
+    manipuraColor = "rgba(0,0,255,0.7)";
+    manipuraSymbol = "animals/13Men.svg";
+  }
+
+analogTab.style.background = manipuraColor;
+analogTabSymbol.style.visibility = "visible";
+analogTabSymbol.src = manipuraSymbol;
+}
+
+// ===== ANAHATA: 9/11 T/M 14/11 =====
+
+if(chakraOverrideDay >= 0 && chakraOverrideDay <= 5){
+
+  let anahataColor;
+  let anahataSymbol;
+
+  if(chakraOverrideDay <= 1){
+
+    // 9/11 en 10/11: wit + Yang (1)
+    anahataColor = "rgba(255,255,255,0.7)";
+    anahataSymbol = "other/yang.svg";
+
+  } else if(chakraOverrideDay === 2){
+
+    // 11/11: wit + Oc (11)
+    anahataColor = "rgba(255,255,255,0.7)";
+    anahataSymbol = "animals/13Oc.svg";
+
+  } else if(chakraOverrideDay === 3){
+
+    // 12/11: blauw + Yang (1)
+    anahataColor = "rgba(0,0,255,0.7)";
+    anahataSymbol = "other/yang.svg";
+
+  } else if(chakraOverrideDay === 4){
+
+    // 13/11: blauw + Men (10)
+    anahataColor = "rgba(0,0,255,0.7)";
+    anahataSymbol = "animals/13Men.svg";
+
+  } else {
+
+    // 14/11: geel + Ahau (00)
+    anahataColor = "rgba(255,255,0,0.7)";
+    anahataSymbol = "animals/13Ahau.svg";
+  }
+
+  birthTab.style.background = anahataColor;
+  birthTabSymbol.style.visibility = "visible";
+  birthTabSymbol.src = anahataSymbol;
 }
 
 updateActivePage();
