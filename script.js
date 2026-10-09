@@ -4502,54 +4502,86 @@ const visibleFields = new Set(
   fibonacciRevealOrder.slice(0, visibleFieldCount)
 );
 
+
+// ===== BUITENRING: KLEURBLOKKEN EN UITVOUWING =====
+
+const workfieldRevealDays = [
+  0, 1, 2, 3,       // 15 t/m 18 november
+  5, 6, 7, 8,       // 20 t/m 23 november
+  10, 11, 12, 13,   // 25 t/m 28 november
+  15, 16, 17, 18    // 30 november t/m 3 december
+];
+
+const workfieldRevealIndices = [
+  0, 1, 2, 3,       // Imix, Ik, Akbal, Kan
+  5, 6, 7, 8,       // Cimi, Manik, Lamat, Muluc
+  10, 11, 12, 13,   // Chuen, Eb, Ben, Ix
+  15, 16, 17, 18    // Cib, Caban, Etznab, Cauac
+];
+
+const daysSinceReveal =
+  dayOffset - WORKFIELD_REVEAL_START_DAY;
+
 segments.forEach((segment, index) => {
 
-  let segmentColor =
-    visibleFields.has(index)
+  let segmentColor = "black";
+
+  // Vóór 10/11: bestaande toestand
+  if(rootStage <= 0){
+
+    segmentColor = visibleFields.has(index)
       ? colors[index % 4]
       : "black";
 
-// ===== KLEURBLOKKEN BUITENRING =====
+  } else {
 
-// 10/11 t/m 14/11: Ahau-blok geel
-if(rootStage >= 1 && rootStage <= 5){
+    // De vier oorspronkelijke kleurblokken
+    if(index === 19 || index <= 3){
+      segmentColor = colors[3]; // geel
+    }
+    else if(index <= 8){
+      segmentColor = colors[0]; // rood
+    }
+    else if(index <= 13){
+      segmentColor = colors[1]; // wit
+    }
+    else {
+      segmentColor = colors[2]; // blauw
+    }
 
-  if([19, 0, 1, 2, 3].includes(index)){
-    segmentColor = colors[3];
+    // Blokken verschijnen achtereenvolgens
+    if(rootStage === 1 && index !== 19 && index > 3){
+      segmentColor = "black";
+    }
+
+    if(rootStage === 2 && index >= 9 && index <= 18){
+      segmentColor = "black";
+    }
+
+    if(rootStage === 3 && index >= 14 && index <= 18){
+      segmentColor = "black";
+    }
+
+    // Vanaf 15/11 veranderen de individuele werkvelden
+    // op hun eigen verschijningsdag naar hun definitieve kleur.
+    if(daysSinceReveal >= 0){
+
+      workfieldRevealIndices.forEach((fieldIndex, i) => {
+
+        if(
+          index === fieldIndex &&
+          daysSinceReveal >= workfieldRevealDays[i]
+        ){
+          segmentColor = colors[index % 4];
+        }
+
+      });
+    }
   }
-}
-
-// 11/11 t/m 14/11: Chicchan-blok rood
-if(rootStage >= 2 && rootStage <= 5){
-
-  if([4, 5, 6, 7, 8].includes(index)){
-    segmentColor = colors[0];
-  }
-}
-
-// 12/11 t/m 14/11: Oc-blok wit
-if(rootStage >= 3 && rootStage <= 5){
-
-  if([9, 10, 11, 12, 13].includes(index)){
-    segmentColor = colors[1];
-  }
-
-  // Men-blok blijft zwart tot 13/11
-  if(rootStage === 3 && [14, 15, 16, 17, 18].includes(index)){
-    segmentColor = "black";
-  }
-}
-
-// 13/11 t/m 14/11: Men-blok blauw
-if(rootStage >= 4 && rootStage <= 5){
-
-  if([14, 15, 16, 17, 18].includes(index)){
-    segmentColor = colors[2];
-  }
-}
 
   segment.setAttribute("fill", segmentColor);
 });
+
 
 const ringSeal = ringKin % 20;
 
