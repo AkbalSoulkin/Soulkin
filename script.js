@@ -6459,6 +6459,231 @@ if(
     "animals/" + twoBitFractals[guideSeal % 4];
 }
 
+// ===== MULADHARA: 2-BIT NAAR 4-BIT =====
+// 5/12 t/m 20/12
+
+const MULADHARA_FOUR_BIT_START = Number(
+  daysFromCivil(-17264374702, 12, 5) -
+  daysFromCivil(1982, 8, 22)
+);
+
+const muladharaFourBitDay =
+  dayOffset - MULADHARA_FOUR_BIT_START;
+
+if(
+  muladharaFourBitDay >= 0 &&
+  muladharaFourBitDay < 16
+){
+
+  const muladharaCodes = [
+    "00",   // 5/12  Ahau
+    "10",   // 6/12  Men
+    "11",   // 7/12  Oc
+    "0001", // 8/12  Imix
+    "00",   // 9/12  Ahau
+    "10",   // 10/12 Men
+    "1011", // 11/12 Etznab
+    "1101", // 12/12 Ben
+    "00",   // 13/12 Ahau
+    "1110", // 14/12 Chuen
+    "11",   // 15/12 Oc
+    "0101", // 16/12 Muluc
+    "0100", // 17/12 Lamat
+    "0110", // 18/12 Manik
+    "0111", // 19/12 Cimi
+    "01"    // 20/12 Chicchan
+  ];
+
+  const muladharaFiles = {
+    "00":   "13Ahau.svg",
+    "01":   "13Chicchan.svg",
+    "10":   "13Men.svg",
+    "11":   "13Oc.svg",
+    "0001": "imix.svg",
+    "1011": "etznab.svg",
+    "1101": "ben.svg",
+    "1110": "chuen.svg",
+    "0101": "muluc.svg",
+    "0100": "lamat.svg",
+    "0110": "manik.svg",
+    "0111": "cimi.svg"
+  };
+
+  const code =
+    muladharaCodes[muladharaFourBitDay];
+
+  toneTabSymbol.style.visibility = "visible";
+  toneTabSymbol.src =
+    "animals/" + muladharaFiles[code];
+}
+
+// ===== SVADHISTHANA: 2-BIT NAAR 4-BIT =====
+// 5/12 t/m 20/12
+
+const SVADHISTHANA_FOUR_BIT_START = Number(
+  daysFromCivil(-17264374702, 12, 5) -
+  daysFromCivil(1982, 8, 22)
+);
+
+const svadhisthanaFourBitDay =
+  dayOffset - SVADHISTHANA_FOUR_BIT_START;
+
+if(
+  svadhisthanaFourBitDay >= 0 &&
+  svadhisthanaFourBitDay < 16
+){
+
+  const svadhisthanaCodes = [
+    "10",   // 5/12
+    "00",   // 6/12
+    "1001", // 7/12
+    "11",   // 8/12
+    "10",   // 9/12
+    "00",   // 10/12
+    "1001", // 11/12
+    "0011", // 12/12
+    "0110", // 13/12
+    "00",   // 14/12
+    "0001", // 15/12
+    "0011", // 16/12
+    "0010", // 17/12
+    "1100", // 18/12
+    "01",   // 19/12
+    "0111"  // 20/12
+  ];
+
+  const svadhisthanaFiles = {
+    "00":   "13Ahau.svg",
+    "01":   "13Chicchan.svg",
+    "10":   "13Men.svg",
+    "11":   "13Oc.svg",
+    "0001": "imix.svg",
+    "0010": "akbal.svg",
+    "0011": "ik.svg",
+    "0110": "manik.svg",
+    "0111": "cimi.svg",
+    "1100": "eb.svg",
+    "1001": "caban.svg"
+  };
+
+  const code =
+    svadhisthanaCodes[svadhisthanaFourBitDay];
+
+  antipodeTabSymbol.style.visibility = "visible";
+  antipodeTabSymbol.src =
+    "animals/" + svadhisthanaFiles[code];
+}
+
+// ===== MANIPURA: 2-BIT NAAR 4-BIT =====
+// 5/12 t/m 20/12
+
+const MANIPURA_FOUR_BIT_START = Number(
+  daysFromCivil(-17264374702, 12, 5) -
+  daysFromCivil(1982, 8, 22)
+);
+
+const manipuraFourBitDay =
+  dayOffset - MANIPURA_FOUR_BIT_START;
+
+if(
+  manipuraFourBitDay >= 0 &&
+  manipuraFourBitDay < 16
+){
+
+  const manipuraCodes = [
+    "11",   // 5/12
+    "1101", // 6/12
+    "00",   // 7/12
+    "10",   // 8/12
+    "0111", // 9/12
+    "1101", // 10/12
+    "00",   // 11/12
+    "10",   // 12/12
+    "11",   // 13/12
+    "0101", // 14/12
+    "00",   // 15/12
+    "0010", // 16/12
+    "0111", // 17/12
+    "01",   // 18/12
+    "1000", // 19/12
+    "0010"  // 20/12
+  ];
+
+  const manipuraFiles = {
+    "00":   "13Ahau.svg",
+    "01":   "13Chicchan.svg",
+    "10":   "13Men.svg",
+    "11":   "13Oc.svg",
+    "1101": "ben.svg",
+    "0111": "cimi.svg",
+    "0101": "muluc.svg",
+    "0010": "akbal.svg",
+    "1000": "cib.svg"
+  };
+
+  const code =
+    manipuraCodes[manipuraFourBitDay];
+
+  analogTabSymbol.style.visibility = "visible";
+  analogTabSymbol.src =
+    "animals/" + manipuraFiles[code];
+}
+
+// ===== ANAHATA: 2-BIT NAAR 4-BIT =====
+// 5/12 t/m 20/12
+
+const ANAHATA_FOUR_BIT_START = Number(
+  daysFromCivil(-17264374702, 12, 5) -
+  daysFromCivil(1982, 8, 22)
+);
+
+const anahataFourBitDay =
+  dayOffset - ANAHATA_FOUR_BIT_START;
+
+if(
+  anahataFourBitDay >= 0 &&
+  anahataFourBitDay < 16
+){
+
+  const anahataCodes = [
+    "0101", // 5/12
+    "11",   // 6/12
+    "10",   // 7/12
+    "00",   // 8/12
+    "0101", // 9/12
+    "1111", // 10/12
+    "10",   // 11/12
+    "00",   // 12/12
+    "0001", // 13/12
+    "1111", // 14/12
+    "1010", // 15/12
+    "00",   // 16/12
+    "1101", // 17/12
+    "1101", // 18/12
+    "1010", // 19/12
+    "0000"  // 20/12
+  ];
+
+  const anahataFiles = {
+    "00":   "13Ahau.svg",
+    "10":   "13Men.svg",
+    "11":   "13Oc.svg",
+    "0000": "kan.svg",
+    "0001": "imix.svg",
+    "0101": "muluc.svg",
+    "1010": "cauac.svg",
+    "1101": "ben.svg",
+    "1111": "ix.svg"
+  };
+
+  const code =
+    anahataCodes[anahataFourBitDay];
+
+  birthTabSymbol.style.visibility = "visible";
+  birthTabSymbol.src =
+    "animals/" + anahataFiles[code];
+}
+
 updateActivePage();
 
 // ===== LOCK HIGHLIGHT VAN GESELECTEERDE KIN =====
