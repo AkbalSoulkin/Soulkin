@@ -71,6 +71,18 @@ const HEXAGRAM_ZERO_DAY = Number(
   daysFromCivil(1982, 8, 22)
 );
 
+const LOWER_HEXAGRAM_START_DAY = Number(
+  daysFromCivil(-17264374701, 2, 23) -
+  daysFromCivil(1982, 8, 22)
+);
+
+  const hexColors = [
+    "rgba(255,0,0,0.7)",
+    "rgba(255,255,255,0.7)",
+    "rgba(0,0,255,0.7)",
+    "rgba(255,255,0,0.7)"
+  ];
+
 const PLANET_DISPLAY_START_DAY = Number(
   daysFromCivil(-863216567, 7, 12) -
   daysFromCivil(1982, 8, 22)
@@ -4061,6 +4073,74 @@ const hexagram =
 const hexagramBackground =
   document.getElementById("hexagramBackground");
 
+
+
+
+// ===== TWEEKLEURIGE HEXAGRAMACHTERGROND =====
+
+const hexagramGradient =
+  document.createElementNS(
+    "http://www.w3.org/2000/svg",
+    "linearGradient"
+  );
+
+hexagramGradient.id = "hexagramSplitGradient";
+
+hexagramGradient.setAttribute(
+  "gradientUnits",
+  "objectBoundingBox"
+);
+
+hexagramGradient.setAttribute("x1", "0%");
+hexagramGradient.setAttribute("y1", "0%");
+hexagramGradient.setAttribute("x2", "0%");
+hexagramGradient.setAttribute("y2", "100%");
+
+const hexagramGradientStops = [];
+
+for (const offset of ["0%", "50%", "50%", "100%"]) {
+  const stop = document.createElementNS(
+    "http://www.w3.org/2000/svg",
+    "stop"
+  );
+
+  stop.setAttribute("offset", offset);
+  stop.setAttribute("stop-opacity", "0.7");
+
+  hexagramGradient.appendChild(stop);
+  hexagramGradientStops.push(stop);
+}
+
+
+
+// ===== GRADIENT EENMALIG AANMAKEN =====
+
+let existingGradient =
+  document.getElementById("hexagramSplitGradient");
+
+if (!existingGradient) {
+
+  const defs = document.createElementNS(
+    "http://www.w3.org/2000/svg",
+    "defs"
+  );
+
+  defs.appendChild(hexagramGradient);
+
+  hexagramBackground.parentNode.insertBefore(
+    defs,
+    hexagramBackground
+  );
+
+  existingGradient = hexagramGradient;
+
+}
+
+const activeHexagramGradientStops =
+  [...existingGradient.querySelectorAll("stop")];
+
+
+
 hexagramBackground.style.cursor =
   dayOffset <
   Number(
@@ -4406,21 +4486,13 @@ hexagramBackground.setAttribute(
 
   hexagram.setAttribute("opacity", "1");
 
-
-  const hexColors = [
-    "rgba(255,0,0,0.7)",
-    "rgba(255,255,255,0.7)",
-    "rgba(0,0,255,0.7)",
-    "rgba(255,255,0,0.7)"
-  ];
-
   const hexColorIndex =
     Math.floor((hex - 1) / 16);
 
-  hexagramBackground.setAttribute(
-    "fill",
-    hexColors[hexColorIndex]
-  );
+hexagramBackground.setAttribute(
+  "fill",
+  hexColors[hexColorIndex]
+);
 
 hexagramBackground.setAttribute(
   "stroke",
@@ -4434,6 +4506,70 @@ hexagramBackground.setAttribute(
   hexagramBackground.setAttribute("height", "130");
   hexagramBackground.setAttribute("opacity", "1");
 }
+
+
+
+// ===== ONDERSTE TRIGRAM KLEURCYCLUS =====
+
+if (dayOffset >= HEXAGRAM_START_DAY + 64) {
+
+  const elapsed = dayOffset - HEXAGRAM_START_DAY;
+
+  // Boven: oorspronkelijke 64-dagencyclus
+  const upperIndex =
+    Math.floor((elapsed % 64) / 16);
+
+  // Onder: nieuwe 16-dagencyclus
+  const lowerOrder = [
+    2, 2, 3, 3,
+    1, 1, 0, 0,
+    1, 1, 0, 0,
+    2, 2, 3, 3
+  ];
+
+  const lowerIndex = (elapsed - 64) % 16;
+
+  const colors = [
+    "#ff0000", // rood
+    "#ffffff", // wit
+    "#0000ff", // blauw
+    "#ffff00"  // geel
+  ];
+
+  const upperColor = colors[upperIndex];
+  const lowerColor = colors[lowerOrder[lowerIndex]];
+
+  const stopColors = [
+    upperColor,
+    upperColor,
+    lowerColor,
+    lowerColor
+  ];
+
+  activeHexagramGradientStops.forEach((stop, i) => {
+    stop.setAttribute("stop-color", stopColors[i]);
+    stop.setAttribute("stop-opacity", "1");
+  });
+
+  hexagramBackground.setAttribute(
+    "fill",
+    "url(#hexagramSplitGradient)"
+  );
+
+  hexagramBackground.setAttribute(
+    "fill-opacity",
+    "0.7"
+  );
+
+} else {
+
+  hexagramBackground.setAttribute(
+    "fill-opacity",
+    "1"
+  );
+
+}
+
 
 if(activePage === "hexagram64"){
 hexagramBackground.setAttribute(
@@ -6172,7 +6308,7 @@ toneTabSymbol.src = "other/yin.svg";
   occultTab.style.background =
     "rgba(0,128,0,0.7)";
   occultTabSymbol.src =
-    "other/hear.svg";
+    "other/yin.svg";
 
   // Ajna = rood + 001
   guideTab.style.background =
@@ -6389,15 +6525,15 @@ if(chakraOverrideDay >= 0 && chakraOverrideDay <= 5){
 
   } else if(chakraOverrideDay === 2){
 
-    // 11/11: wit + Oc (11)
+    // 11/11: wit + Yang (1)
     anahataColor = "rgba(255,255,255,0.7)";
-    anahataSymbol = "animals/13Oc.svg";
+    anahataSymbol = "other/yang.svg";
 
   } else if(chakraOverrideDay === 3){
 
-    // 12/11: blauw + Yang (1)
+    // 12/11: blauw + Yin (0)
     anahataColor = "rgba(0,0,255,0.7)";
-    anahataSymbol = "other/yang.svg";
+    anahataSymbol = "other/yin.svg";
 
   } else if(chakraOverrideDay === 4){
 
