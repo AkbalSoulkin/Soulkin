@@ -3692,12 +3692,22 @@ dot.setAttribute("fill-opacity", "1");
 const mechanismToneFractal =
   toneFractals[tone - 1];
 
+const tone9Trigrams = [
+  "011", // rood
+  "111", // wit
+  "101", // blauw
+  "001"  // geel
+];
+
+const toneSymbolFile =
+  tone === 9
+    ? tone9Trigrams[seal % 4]
+    : mechanismToneFractal;
+
 document.getElementById("toneSymbol")
   .setAttribute(
     "href",
-    tone === 9
-      ? "other/yang.svg"
-      : `trigrams/${mechanismToneFractal}.svg`
+    `trigrams/${toneSymbolFile}.svg`
   );
 
 const toneSymbol =
@@ -3718,23 +3728,11 @@ const heartType =
 const heartHoverOnly =
   isHeartDay;
 
-if(beforeOrAtRoot){
+toneSymbol.setAttribute(
+  "opacity",
+  beforeOrAtRoot ? "0" : "1"
+);
 
-  toneSymbol.setAttribute("opacity","0");
-
-} else if(
-  heartHoverOnly &&
-  activePage !== "sahasrara"
-){
-
-  // Heart-dag: verborgen, behalve wanneer 1e chakra geselecteerd is
-  toneSymbol.setAttribute("opacity","0");
-
-} else {
-
-  // Alle normale dagen: standaard zichtbaar
-  toneSymbol.setAttribute("opacity","1");
-}
 
 const wavespellFractal =
   document.getElementById("wavespellFractal");
@@ -4797,13 +4795,26 @@ let sacredAlignment =
 
 let iChingStep = 0;
 
-if(night >= 2){
+if(night === 1){
+
+  // Dagkleur: rood, wit, blauw, geel
+  const colorIndex = seal % 4;
+
+  // G1 neemt de positie over van G7, G6, G8 of G9
+  const g1Positions = [6, 5, 7, 0];
+
+  iChingStep = g1Positions[colorIndex];
+
+} else if(night >= 2){
 
   iChingStep = night - 1;
+
 }
 
 // 45 graden per stap
 let iChingRotation = iChingStep * 45;
+
+
 
 document.getElementById("iChing")
   .setAttribute(
@@ -4921,10 +4932,6 @@ iChing.setAttribute("href", ichingFile);
 
 // vóór 10/11 nog niet zichtbaar
 if(ichingUnfoldStep < 0){
-
-  iChing.setAttribute("opacity","0");
-
-} else if(heartHoverOnly){
 
   iChing.setAttribute("opacity","0");
 
