@@ -470,8 +470,8 @@ function updateDateFromKin(){
 
 function getHeartType(currentSeal){
 
-  // Manik en Caban
-  if([6, 16].includes(currentSeal)){
+  // Ik, Manik, Eb en Caban
+  if([1, 6, 11, 16].includes(currentSeal)){
     return "super";
   }
 
@@ -2790,6 +2790,34 @@ const rootFractalFiles = [
   "animals/13Men.svg"         // 10
 ];
 
+
+const rootBitBackgrounds = {
+  "animals/13Chicchan.svg": "#0000ff", // 01 rood
+  "animals/13Oc.svg":       "#ffffff", // 11 wit
+  "animals/13Men.svg":      "#ff0000", // 10 blauw
+  "animals/13Ahau.svg":     "#ffff00"  // 00 geel
+};
+
+function addRootBitWithBackground(ring, img, file, items){
+  const group = document.createElementNS("http://www.w3.org/2000/svg", "g");
+  const bg = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+
+  bg.setAttribute("x", "-12");
+  bg.setAttribute("y", "-6");
+  bg.setAttribute("width", "24");
+  bg.setAttribute("height", "13");
+  bg.setAttribute("rx", "4");
+  bg.setAttribute("fill", rootBitBackgrounds[file]);
+  bg.setAttribute("fill-opacity", "0.65");
+  bg.setAttribute("transform", img.getAttribute("transform"));
+
+  group.appendChild(bg);
+  group.appendChild(img);
+  ring.appendChild(group);
+  items.push(group);
+}
+
+
 const rootRing1Items = [];
 
 for(let i = 0; i < 4; i++){
@@ -2838,8 +2866,7 @@ const fractalIndex =
 
   img.setAttribute("opacity", "1");
 
-  rootRing1.appendChild(img);
-  rootRing1Items.push(img);
+addRootBitWithBackground(rootRing1, img, rootFractalFiles[fractalIndex], rootRing1Items);
 }
 
 // ===== SOULKIN TWEEDE FRACTALRIJ: STATISCHE TEST =====
@@ -2924,8 +2951,7 @@ for(let i = 0; i < 16; i++){
 
   img.setAttribute("opacity", "1");
 
-  rootRing2.appendChild(img);
-  rootRing2Items.push(img);
+addRootBitWithBackground(rootRing2, img, rootRing2Files[i], rootRing2Items);
 }
 
 // ===== SOULKIN DERDE FRACTALRIJ: STATISCHE TEST =====
@@ -2994,8 +3020,7 @@ for(let i = 0; i < 64; i++){
 
   img.setAttribute("opacity", "1");
 
-  rootRing3.appendChild(img);
-  rootRing3Items.push(img);
+addRootBitWithBackground(rootRing3, img, rootRing3Files[i], rootRing3Items);
 }
 
 function showOperatorText(){
@@ -7270,49 +7295,6 @@ nightTabHover.onclick = () => {
 
 const iChing =
   document.getElementById("iChing");
-
-
-nightTabHover.onmouseenter = () => {
-
-  const isHeartDay =
-    night === 1 &&
-    !beforeOrAtRoot;
-
-  if(isHeartDay){
-
-    document
-      .getElementById("toneSymbol")
-      .setAttribute("opacity","1");
-  }
-};
-
-
-nightTabHover.onmouseleave = () => {
-
-  const toneSymbol =
-    document.getElementById("toneSymbol");
-
-  const isHeartDay =
-    night === 1 &&
-    !beforeOrAtRoot;
-
-  if(beforeOrAtRoot){
-
-    toneSymbol.setAttribute("opacity","0");
-
-  } else if(
-    isHeartDay &&
-    activePage !== "sahasrara"
-  ){
-
-    toneSymbol.setAttribute("opacity","0");
-
-  } else {
-
-    toneSymbol.setAttribute("opacity","1");
-  }
-};
-
 
 function getLongCountFromDays(days) {
   days = ((days % 1872000) + 1872000) % 1872000;
