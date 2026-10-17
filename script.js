@@ -2805,7 +2805,7 @@ function addRootBitWithBackground(ring, img, file, items){
   bg.setAttribute("x", "-12");
   bg.setAttribute("y", "-6");
   bg.setAttribute("width", "24");
-  bg.setAttribute("height", "13");
+  bg.setAttribute("height", "12");
   bg.setAttribute("rx", "4");
   bg.setAttribute("fill", rootBitBackgrounds[file]);
   bg.setAttribute("fill-opacity", "0.65");
@@ -4121,7 +4121,10 @@ hexagramGradient.setAttribute("y2", "100%");
 
 const hexagramGradientStops = [];
 
-for (const offset of ["0%", "50%", "50%", "100%"]) {
+for (const offset of [
+  "0%", "33.333%", "33.333%",
+  "66.667%", "66.667%", "100%"
+]) {
   const stop = document.createElementNS(
     "http://www.w3.org/2000/svg",
     "stop"
@@ -4530,7 +4533,88 @@ hexagramBackground.setAttribute(
   hexagramBackground.setAttribute("opacity", "1");
 }
 
+// ===== 2-BIT KLEURVERDELING =====
+// 5/12 t/m 22/2
 
+const THREE_LAYER_END_DAY =
+  HEXAGRAM_START_DAY + 64;
+
+if(
+  dayOffset >= FOUR_BIT_BOTTOM_START_DAY &&
+  dayOffset < THREE_LAYER_END_DAY
+){
+
+  const elapsed =
+    dayOffset - FOUR_BIT_BOTTOM_START_DAY;
+
+const colors = [
+  "rgba(255,0,0,0.7)",
+  "rgba(255,255,255,0.7)",
+  "rgba(0,0,255,0.7)",
+  "rgba(255,255,0,0.7)"
+];
+
+  let stopColors;
+
+  if(dayOffset < HEXAGRAM_START_DAY){
+
+    // 5/12 t/m 20/12:
+    // boven per 4 dagen, onder dagelijks
+    const upper = colors[Math.floor(elapsed / 4) % 4];
+    const lower = colors[elapsed % 4];
+
+    stopColors = [
+      upper, upper,
+      lower, lower,
+      lower, lower
+    ];
+
+    const stops = ["0%", "50%", "50%", "50%", "50%", "100%"];
+
+    activeHexagramGradientStops.forEach((stop, i) => {
+      stop.setAttribute("offset", stops[i]);
+    });
+
+  } else {
+
+    // 21/12 t/m 22/2:
+    // boven per 16, midden per 4, onder dagelijks
+    const hexElapsed =
+  dayOffset - HEXAGRAM_START_DAY;
+
+const upper =
+  colors[Math.floor(hexElapsed / 16) % 4];
+    const middle = colors[Math.floor(elapsed / 4) % 4];
+    const lower = colors[elapsed % 4];
+
+    stopColors = [
+      upper, upper,
+      middle, middle,
+      lower, lower
+    ];
+
+    const stops = [
+      "0%", "33.333%", "33.333%",
+      "66.667%", "66.667%", "100%"
+    ];
+
+    activeHexagramGradientStops.forEach((stop, i) => {
+      stop.setAttribute("offset", stops[i]);
+    });
+  }
+
+  activeHexagramGradientStops.forEach((stop, i) => {
+    stop.setAttribute("stop-color", stopColors[i]);
+    stop.setAttribute("stop-opacity", "1");
+  });
+
+  hexagramBackground.setAttribute(
+    "fill",
+    "url(#hexagramSplitGradient)"
+  );
+
+  hexagramBackground.setAttribute("fill-opacity", "0.7");
+}
 
 // ===== ONDERSTE TRIGRAM KLEURCYCLUS =====
 
@@ -4552,22 +4636,29 @@ if (dayOffset >= HEXAGRAM_START_DAY + 64) {
 
   const lowerIndex = (elapsed - 64) % 16;
 
-  const colors = [
-    "#ff0000", // rood
-    "#ffffff", // wit
-    "#0000ff", // blauw
-    "#ffff00"  // geel
-  ];
+const colors = [
+  "rgba(255,0,0,0.7)",
+  "rgba(255,255,255,0.7)",
+  "rgba(0,0,255,0.7)",
+  "rgba(255,255,0,0.7)"
+];
 
   const upperColor = colors[upperIndex];
   const lowerColor = colors[lowerOrder[lowerIndex]];
 
-  const stopColors = [
-    upperColor,
-    upperColor,
-    lowerColor,
-    lowerColor
-  ];
+const stopColors = [
+  upperColor, upperColor, upperColor,
+  lowerColor, lowerColor, lowerColor
+];
+
+const stops = [
+  "0%", "50%", "50%",
+  "50%", "50%", "100%"
+];
+
+activeHexagramGradientStops.forEach((stop, i) => {
+  stop.setAttribute("offset", stops[i]);
+});
 
   activeHexagramGradientStops.forEach((stop, i) => {
     stop.setAttribute("stop-color", stopColors[i]);
@@ -4581,7 +4672,7 @@ if (dayOffset >= HEXAGRAM_START_DAY + 64) {
 
   hexagramBackground.setAttribute(
     "fill-opacity",
-    "0.7"
+    "1"
   );
 
 } else {
