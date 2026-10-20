@@ -943,6 +943,33 @@ title.innerHTML =
 content.innerHTML =
   hexagramBody;
 
+// ===== EERSTE 64 HEXAGRAMDAGEN =====
+// 21/12 t/m 22/2:
+// alleen titel + eigen achtergrond
+
+if(
+  dayOffset >= HEXAGRAM_TEXT_START_DAY &&
+  dayOffset < HEXAGRAM_TEXT_START_DAY + 64
+){
+
+  // Titel blijft de bestaande 6-bitcode
+  title.innerHTML = hexagramCode;
+
+  // Geen beschrijvende tekst
+  content.innerHTML = "";
+
+  // Achtergrond van hexagram 1 t/m 64
+  panel.style.background = "";
+
+  panel.style.backgroundImage =
+    `url("backgrounds/hexagram_${hexagramNumber}.png")`;
+
+  panel.style.backgroundSize = "cover";
+  panel.style.backgroundPosition = "center";
+
+  return;
+}
+
 const hexagramTints = [
   "rgba(120,0,0,0.35)",       // 1–16 rood
   "rgba(255,255,255,0.18)",   // 17–32 wit
