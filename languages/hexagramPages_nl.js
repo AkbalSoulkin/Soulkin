@@ -4,22 +4,23 @@ const hexagramPages_nl = {
 
 <br><br>
 
-+105 dagen
+Rood kasteel · 001
 
 <br><br>
 
-Rood kasteel · 001`,
++105 dagen
+`,
 
   2: `1 Chicchan · Kin 105<br><br>
-+105 dagen<br><br>
-Blauw kasteel · 110`,
+Blauw kasteel · 110<br><br>
++105 dagen`,
   3: `2 Oc · Kin 210<br><br>
-+105 dagen<br><br>
-Groen kasteel · 0`,
+Groen kasteel · 0<br><br>
++105 dagen`,
   4: `3 Men · Kin 55<br><br>
-+105 dagen<br><br>
-Wit kasteel · 011`,
+Wit kasteel · 011<br><br>
++105 dagen`,
   5: `4 Ahau · Kin 160<br><br>
-+1 dag<br><br>
-Geel kasteel · 100`
+Geel kasteel · 100<br><br>
++1 dag`
 };
