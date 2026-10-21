@@ -3718,10 +3718,10 @@ const mechanismToneFractal =
   toneFractals[tone - 1];
 
 const tone9Trigrams = [
-  "011", // rood
+  "101", // rood
   "111", // wit
-  "101", // blauw
-  "001"  // geel
+  "110", // blauw
+  "100"  // geel
 ];
 
 const toneSymbolFile =
@@ -4916,8 +4916,8 @@ if(night === 1){
   // Dagkleur: rood, wit, blauw, geel
   const colorIndex = seal % 4;
 
-  // G1 neemt de positie over van G7, G6, G8 of G9
-  const g1Positions = [6, 5, 7, 0];
+  // G1 neemt de positie over van G2, G4, G7 of G9
+  const g1Positions = [1, 3, 6, 0];
 
   iChingStep = g1Positions[colorIndex];
 
