@@ -1,149 +1,66 @@
 const ajnaPages_nl = {
 
 1: `
-G1 (Hart) · 0
-
+<strong>0 (G1) · Ongedeeld</strong><br>
+<em>De Oerbron & De Bemiddelaar (Enneagram Type 9)</em><br><br>
+Dit is het onverdeelde centrum — de absolute stilte vóór de deling. Psychologisch vertegenwoordigt dit de integratie van alle polariteiten. Hier ligt het diepe verlangen naar vrede en heelheid. Het is de stille waarnemer die alle ruimte bijeen houdt zonder beweging te erzover te dwingen.
 <br><br>
-
-Hoe blijf ik op het pad?
-
-Het pad wordt niet altijd gevonden door beweging.
-
-Soms is de volgende stap herinneren waarom je begonnen bent.
-
-Hart-periodes nodigen je uit terug te keren naar je centrum voordat je een richting kiest.
-
-Als alles onzeker voelt, zoek dan naar wat nog betekenisvol aanvoelt.
-
-Betekenis blijft vaak bestaan lang nadat enthousiasme verdwenen is.
 `,
 
 2: `
-G2 (Donder) · 100
-
+<strong>001 (G2) · Stil</strong><br>
+<em>De Berg & De Waarnemer (Enneagram Type 5)</em><br><br>
+De energie keert naar binnen in stilte en observatie. Net als een berg wortelt dit zich in diepe contemplatie. Psychologisch vraagt deze staat om het verzamelen van energie, het analyseren van innerlijke structuren en het zich terugtrekken uit externe ruis om helder perspectief te krijgen.
 <br><br>
-
-Donder brengt beweging en verstoring.
-
-Iets dat vastgelopen is probeert wakker te worden.
-
-Richt je niet alleen op wat veranderd is.
-
-Vraag jezelf af wat de verandering probeert te onthullen.
-
-Het pad wordt vaak zichtbaar wanneer de grond begint te bewegen.
 `,
 
 3: `
-G3 (Vuur) · 101
-
+<strong>101 (G3) · Gebonden</strong><br>
+<em>Het Vuur & De Presteerder (Enneagram Type 3)</em><br><br>
+Energie wordt opgevangen, gefocust en gebonden in één krachtige vector. Psychologisch is dit de vonk van doelgerichte ambitie en gestuurde wil. Het snijdt door afleiding heen en manifesteert ideeën tot tastbare focus, wat voortgang en prestatie aandrijft.
 <br><br>
-
-Vuur verlicht zowel kracht als kwetsbaarheid.
-
-Wat verborgen was wordt gemakkelijker zichtbaar.
-
-Laat je niet alleen verleiden door uiterlijke schijn.
-
-Licht is waardevol wanneer het waarheid onthult.
-
-Het pad wordt helderder wanneer je bereid bent de dingen te zien zoals ze zijn.
 `,
 
 4: `
-G4 (Wind) · 011
-
+<strong>011 (G4) · Alomtegenwoordig</strong><br>
+<em>De Wind & De Enthousiast (Enneagram Type 7)</em><br><br>
+Een flexibele, doordringende stroom die zich overal doorheen beweegt zoals wind door bomen. Psychologisch vertegenwoordigt dit aanpassingsvermogen, intellectuele vrijheid en de zoektocht naar nieuwe ervaringen. Het voorkomt stagnatie en opent de deur naar frisse mogelijkheden.
 <br><br>
-
-Wind draagt boodschappen uit onverwachte richtingen.
-
-Luister voordat je handelt.
-
-Kleine invloeden kunnen de koers van een reis veranderen.
-
-Let op terugkerende gedachten, gesprekken en mogelijkheden.
-
-Het pad wordt vaak bijgestuurd door subtiele correcties in plaats van dramatische gebeurtenissen.
 `,
 
 5: `
-G5 (Hemel) · 111
-
+<strong>111 (G5) · Actief</strong><br>
+<em>De Hemel & De Hervormer (Enneagram Type 1)</em><br><br>
+Het absolute hoogtepunt van Yang-energie — actief, stralend en oncompromisoir. Psychologisch is dit het archetype van principe, structurele integriteit en bewuste richting. Het brengt orde in de chaos en stelt de morele en kosmische standaard.
 <br><br>
-
-Hemel nodigt uit tot een ruimer perspectief.
-
-Probeer boven onmiddellijke zorgen uit te stijgen.
-
-Niet ieder probleem vraagt om een directe oplossing.
-
-Soms ontstaat helderheid wanneer je ziet hoe een uitdaging deel uitmaakt van een groter patroon.
-
-Het pad wordt eenvoudiger wanneer je niet elk obstakel voor de bestemming aanziet.
 `,
 
 6: `
-G6 (Meer) · 110
-
+<strong>110 (G6) · Open</strong><br>
+<em>Het Meer & De Helper (Enneagram Type 2)</em><br><br>
+Een open reservoir, ontvankelijk en reflecterend als een stil meer. Psychologisch vertegenwoordigt dit relationele resonantie, empathie en emotionele uitwisseling. Het is de bereidheid om de hartruimte te openen om anderen te ontvangen en te ondersteunen.
 <br><br>
-
-Meer herinnert je eraan dat vreugde deel uitmaakt van de reis.
-
-Een pad dat uitsluitend door discipline wordt gedragen, wordt uiteindelijk broos.
-
-Zoek naar wat je geest voedt.
-
-Betekenis groeit gemakkelijker wanneer dankbaarheid en verbondenheid aanwezig zijn.
-
-Het pad gaat niet alleen over waar je naartoe gaat, maar ook over hoe je reist.
 `,
 
 7: `
-G7 (Water) · 010
-
+<strong>010 (G7) · Verzonken</strong><br>
+<em>Het Water & De Individualist (Enneagram Type 4)</em><br><br>
+Diep ondergedompeld in de stromingen van gevoel en het onbewuste. Psychologisch duikt dit in de emotionele diepten, op zoek naar authenticiteit, creatieve expressie en het verwerken van verborgen waarheden die logica niet kan bereiken.
 <br><br>
-
-Water test aanpassingsvermogen.
-
-Wanneer weerstand uitputtend wordt, kan flexibiliteit de wijzere keuze zijn.
-
-Water overwint obstakels niet door kracht.
-
-Het stroomt eromheen.
-
-Het pad gaat verder wanneer je het verschil leert tussen volharding en koppigheid.
 `,
 
 8: `
-G8 (Berg) · 001
-
+<strong>100 (G8) · Ontluikend</strong><br>
+<em>De Donder & De Uitdager (Enneagram Type 8)</em><br><br>
+De plotselinge, ontwakende schok van de geboorte — rauwe energie die door de grond breekt. Psychologisch is dit het oerinstinct, pure kracht en het stellen van grenzen. Het verbrijzelt oude structuren en initieert moedige, kordate actie.
 <br><br>
-
-Berg test geduld meer dan kracht.
-
-Vooruitgang lijkt misschien langzaam, maar stilstand heeft zijn eigen doel.
-
-Wat als vertraging voelt kan zwakke plekken zichtbaar maken die anders verborgen zouden blijven.
-
-Vraag niet alleen hoe ver je nog moet gaan, maar ook wat dit moment je probeert te leren.
-
-Soms is stilstaan onderdeel van vooruitgaan.
 `,
 
 9: `
-G9 (Aarde) · 000
-
+<strong>000 (G9) · Ontvankelijk</strong><br>
+<em>De Aarde & De Loyalist (Enneagram Type 6)</em><br><br>
+Het ultieme fundament van absolute ontvankelijkheid en structurele steun. Psychologisch is dit de grond onder onze voeten — op zoek naar veiligheid, het bouwen van betrouwbare structuren en het bieden van een veilige haven waar het hele systeem op kan rusten.
 <br><br>
-
-Aarde moedigt balans en integratie aan.
-
-Verschillende delen van je leven zoeken naar harmonie.
-
-In plaats van de volgende bestemming na te jagen, richt je op stabiliteit waar je nu staat.
-
-Groei wordt duurzaam wanneer je handelen overeenkomt met je waarden.
-
-Het pad blijft stabiel wanneer de fundering sterk is.
 `
 
 };
