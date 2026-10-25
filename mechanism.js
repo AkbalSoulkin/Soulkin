@@ -24,11 +24,6 @@ if(operatorActive){
 
   if(animating) return;
 
-  const ROOT_OFFSET = Number(
-    daysFromCivil(-17264374702, 11, 14) -
-    daysFromCivil(1982, 8, 22)
-  );
-
   // bewaar oude toestand
   let prevPos = pos;
   let prevTone = tone;
@@ -118,7 +113,7 @@ function animateMove(from,to,duration,callback){
 
   function frame(t){
 
-    if(!start) start = t;
+    if (start === null) start = t;
 
     let p = Math.min((t-start)/duration,1);
 
@@ -152,7 +147,7 @@ function animateRotate(from,to,duration,callback){
 
   function frame(t){
 
-    if(!start) start = t;
+    if (start === null) start = t;
 
     let p = Math.min((t-start)/duration,1);
 

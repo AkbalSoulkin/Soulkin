@@ -1,17 +1,15 @@
 const Camera = {
-
     baseWidth: 1920,
     baseHeight: 1080,
 
-    update(){
-
+    update() {
         const app = document.getElementById("app");
+        const background = document.getElementById("appBackground");
 
-	const background =
-    	    document.getElementById("appBackground");
-
-        if(!app){
-            console.error("Camera: #app kon niet worden gevonden.");
+        if (!app || !background) {
+            console.error(
+                "Camera: #app of #appBackground ontbreekt."
+            );
             return;
         }
 
@@ -21,27 +19,18 @@ const Camera = {
         const viewportHeight =
             document.documentElement.clientHeight;
 
-        const isPortrait =
-            viewportHeight > viewportWidth;
+        const isPortrait = viewportHeight > viewportWidth;
 
-        if(isPortrait){
+        if (isPortrait) {
+            background.src = "backgrounds/sun_mobile.png";
 
-	    appBackground.src = "backgrounds/sun_mobile.png";
-
-            /*
-             * Na rotatie wordt de virtuele hoogte de zichtbare breedte
-             * en de virtuele breedte de zichtbare hoogte.
-             */
             const scale = Math.min(
                 viewportWidth / this.baseHeight,
                 viewportHeight / this.baseWidth
             );
 
-            const rotatedWidth =
-                this.baseHeight * scale;
-
-            const rotatedHeight =
-                this.baseWidth * scale;
+            const rotatedWidth = this.baseHeight * scale;
+            const rotatedHeight = this.baseWidth * scale;
 
             const offsetX =
                 (viewportWidth - rotatedWidth) / 2;
@@ -55,22 +44,17 @@ const Camera = {
                 translate(${offsetX + rotatedWidth}px, ${offsetY}px)
                 rotate(90deg)
                 scale(${scale})
-		`;
-
+            `;
         } else {
-
-	    appBackground.src = "backgrounds/sun.png";
+            background.src = "backgrounds/sun.png";
 
             const scale = Math.min(
                 viewportWidth / this.baseWidth,
                 viewportHeight / this.baseHeight
             );
 
-            const scaledWidth =
-                this.baseWidth * scale;
-
-            const scaledHeight =
-                this.baseHeight * scale;
+            const scaledWidth = this.baseWidth * scale;
+            const scaledHeight = this.baseHeight * scale;
 
             const offsetX =
                 (viewportWidth - scaledWidth) / 2;
@@ -83,7 +67,6 @@ const Camera = {
             app.style.transform = `
                 translate(${offsetX}px, ${offsetY}px)
                 scale(${scale})
-
             `;
         }
     }

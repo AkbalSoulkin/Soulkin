@@ -277,13 +277,6 @@ if(level === "katun"){
 
   // ===== VASTE STARTDATA =====
 
-
-  // 14/11/-17264374702 = vierde speciale dag
-  const ROOT_OFFSET = Number(
-    daysFromCivil(-17264374702, 11, 14) -
-    daysFromCivil(1982, 8, 22)
-  );
-
   // 11/11/-17264374702:
   // Muladhara + vijf middelste chakra's worden leesbaar.
   const CHAKRA_TEXT_START_DAY =
@@ -293,14 +286,6 @@ if(level === "katun"){
   // bestaande G1–G9-tekst van Sahasrara wordt leesbaar.
   const SAHASRARA_TEXT_START_DAY =
     ROOT_OFFSET + 1;
-
-  // 21/12/-17264374702:
-  // eerste hexagram en eerste hexagramtekst.
-  const HEXAGRAM_START_DAY = Number(
-    daysFromCivil(-17264374702, 12, 21) -
-    daysFromCivil(1982, 8, 22)
-  );
-
 
   // ===== INTRO =====
 
@@ -742,15 +727,7 @@ return;
 
 if(activePage === "hexagram64"){
 
-  const HEXAGRAM_TEXT_START_DAY = Number(
-    daysFromCivil(-17264374702, 12, 21) -
-    daysFromCivil(1982, 8, 22)
-  );
-
-const HEXAGRAM_PAGE_START_DAY = Number(
-  daysFromCivil(-17264374702, 11, 10) -
-  daysFromCivil(1982, 8, 22)
-);
+const HEXAGRAM_PAGE_START_DAY = HEXAGRAM_ZERO_DAY;
 
 const unfoldIndex =
   dayOffset - HEXAGRAM_PAGE_START_DAY;

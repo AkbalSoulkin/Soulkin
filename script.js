@@ -23,25 +23,6 @@ for(let k=0;k<260;k++){
   }
 }
 
-// ===== STATE =====
-let language = "en";
-let lang = lang_en;
-let kin = 0;
-let dayOffset = 0;
-let tone = 1;
-let seal = 0;
-let night = 1;
-let pos = 0;
-let rot = 0;
-let guideSeal = 0;
-let animating = false;
-let activePage = "intro";
-let activeHistoryCell = null;
-let sourcesActive = false;
-let mechanismKin = 0;
-let ringKin = 0;
-let beforeOrAtRoot = false;
-let dotVisible = true;
 
 const revealOrder = [
   4,   // 11/11 Chicchan
@@ -71,6 +52,16 @@ const HEXAGRAM_ZERO_DAY = Number(
   daysFromCivil(1982, 8, 22)
 );
 
+const ROOT_OFFSET = Number(
+  daysFromCivil(-17264374702, 11, 14) -
+  daysFromCivil(1982, 8, 22)
+);
+
+const HEXAGRAM_TEXT_START_DAY = Number(
+  daysFromCivil(-17264374702, 12, 21) -
+  daysFromCivil(1982, 8, 22)
+);
+
 const LOWER_HEXAGRAM_START_DAY = Number(
   daysFromCivil(-17264374701, 2, 23) -
   daysFromCivil(1982, 8, 22)
@@ -88,43 +79,25 @@ const PLANET_DISPLAY_START_DAY = Number(
   daysFromCivil(1982, 8, 22)
 );
 
-const WAVESPELL_FRACTAL_START_DAY = Number(
-  daysFromCivil(-17264374702, 11, 10) -
-  daysFromCivil(1982, 8, 22)
-);
+const WAVESPELL_FRACTAL_START_DAY = HEXAGRAM_ZERO_DAY;
 
 const WORKFIELD_REVEAL_START_DAY = Number(
   daysFromCivil(-17264374702, 11, 15) -
   daysFromCivil(1982, 8, 22)
 );
 
-const PENTAGRAM_FRACTAL_START_DAY = Number(
-  daysFromCivil(-17264374702, 11, 10) -
-  daysFromCivil(1982, 8, 22)
-);
+const PENTAGRAM_FRACTAL_START_DAY = HEXAGRAM_ZERO_DAY;
 
-const TZOLKIN_OPERATOR_START_DAY = Number(
-  daysFromCivil(-17264374702, 11, 10) -
-  daysFromCivil(1982, 8, 22)
-);
+const TZOLKIN_OPERATOR_START_DAY = HEXAGRAM_ZERO_DAY;
 
-const WORKFIELD_UNFOLD_START_DAY = Number(
-  daysFromCivil(-17264374702, 11, 10) -
-  daysFromCivil(1982, 8, 22)
-);
+const WORKFIELD_UNFOLD_START_DAY = HEXAGRAM_ZERO_DAY;
 
-const ICHING_UNFOLD_START_DAY = Number(
-  daysFromCivil(-17264374702, 11, 10) -
-  daysFromCivil(1982, 8, 22)
-);
+const ICHING_UNFOLD_START_DAY = HEXAGRAM_ZERO_DAY;
 
 const PLANET_ANCHOR_DAY = Number(
   daysFromCivil(-3113, 8, 8) -
   daysFromCivil(1982, 8, 22)
 );
-
-let wavespellActive = false;
-let operatorActive = false;
 
 const planetMercury = document.getElementById("planetMercury");
 const planetVenus   = document.getElementById("planetVenus");
@@ -140,17 +113,12 @@ const letterOD = document.getElementById("letterOD");
 const letterOB = document.getElementById("letterOB");
 const letterOP = document.getElementById("letterOP");
 
-const O_UNFOLD_DAY = Number(
-  daysFromCivil(-17264374702, 11, 10) -
-  daysFromCivil(1982, 8, 22)
-);
+const O_UNFOLD_DAY = HEXAGRAM_ZERO_DAY;
 
 const HEART_CHAKRA_DAY = Number(
   daysFromCivil(-2, 9, 11) -
   daysFromCivil(1982, 8, 22)
 );
-
-
 
 const wavespellOperatorLanguages = {
   en: wavespell_operators_en,
@@ -204,9 +172,9 @@ languageSelect.onchange = () => {
   language = languageSelect.value;
 
   localStorage.setItem(
-    "language",
-    language
-  );
+  "soulkinLanguage",
+  language
+);
 
   lang = languages[language];
 
@@ -328,21 +296,11 @@ function updateFromKin(){
   tone = (kin % 13) + 1;
   seal = kin % 20;
 
-const ANAHATA_TEXT_DAY = Number(
-  daysFromCivil(-17264374702, 11, 10) -
-  daysFromCivil(1982, 8, 22)
-);
-
   night =
     (((dayOffset % 9) + 9) % 9 + 8) % 9 + 1;
 
   mechanismKin = kin;
   ringKin = kin;
-
-  const ROOT_OFFSET = Number(
-    daysFromCivil(-17264374702, 11, 14) -
-    daysFromCivil(1982, 8, 22)
-  );
 
 const ROOT_ROT =
   cycle[159].rot; // 4 Ahau / 5 Imix wavespell-rotatie
@@ -7386,154 +7344,6 @@ nightTabHover.onclick = () => {
 
 const iChing =
   document.getElementById("iChing");
-
-function getLongCountFromDays(days) {
-  days = ((days % 1872000) + 1872000) % 1872000;
-
-  const baktun = Math.floor(days / 144000);
-  days %= 144000;
-
-  const katun = Math.floor(days / 7200);
-  days %= 7200;
-
-  const tun = Math.floor(days / 360);
-  days %= 360;
-
-  const uinal = Math.floor(days / 20);
-  const kin = days % 20;
-
-  return `${baktun}.${katun}.${tun}.${uinal}.${kin}`;
-}
-
-function getExtendedLongCountFromDays(totalDays){
-
-  totalDays = Math.floor(totalDays);
-
-  // Hablatun.Alautun.Kinchiltun.Kalabtun.Piktun.Baktun.Katun.Tun.Uinal.Kin
-  const values = [
-    13, // Hablatun
-    13, // Alautun
-    13, // Kinchiltun
-    13, // Kalabtun
-    13, // Piktun
-    0,  // Baktun
-    0,  // Katun
-    0,  // Tun
-    0,  // Uinal
-    0   // Kin
-  ];
-
-  values[9] += totalDays;
-
-  const bases = [
-    20, // Kin → Uinal
-    18, // Uinal → Tun
-    20, // Tun → Katun
-    20, // Katun → Baktun
-    20, // Baktun → Piktun
-    20, // Piktun → Kalabtun
-    20, // Kalabtun → Kinchiltun
-    20, // Kinchiltun → Alautun
-    20  // Alautun → Hablatun
-  ];
-
-  for(let i = values.length - 1; i > 0; i--){
-
-    const base = bases[values.length - 1 - i];
-
-    const carry = Math.floor(values[i] / base);
-    const remainder = ((values[i] % base) + base) % base;
-
-    values[i] = remainder;
-    values[i - 1] += carry;
-  }
-
-  return values.join(".");
-}
-
-function getGrandLongCountFromBigDays(totalDays){
-
-  let values = [
-    13n, // Hablatun
-    13n, // Alautun
-    13n, // Kinchiltun
-    13n, // Kalabtun
-    13n, // Piktun
-    0n,  // Baktun
-    0n,  // Katun
-    0n,  // Tun
-    0n,  // Uinal
-    0n   // Kin
-  ];
-
-  values[9] += BigInt(totalDays);
-
-  const bases = [
-    20n, // Kin
-    18n, // Uinal
-    20n, // Tun
-    20n, // Katun
-    20n, // Baktun
-    20n, // Piktun
-    20n, // Kalabtun
-    20n, // Kinchiltun
-    20n  // Alautun
-  ];
-
-  for(let i = values.length - 1; i > 0; i--){
-
-    const base = bases[values.length - 1 - i];
-
-    let carry = values[i] / base;
-    let remainder = values[i] % base;
-
-    if(remainder < 0n){
-      remainder += base;
-      carry -= 1n;
-    }
-
-    values[i] = remainder;
-    values[i - 1] += carry;
-  }
-
-  return values.join(".");
-}
-
-function floorDiv(a, b){
-  let q = a / b;
-  let r = a % b;
-
-  if(r < 0n){
-    q -= 1n;
-  }
-
-  return q;
-}
-
-function daysFromCivil(year, month, day){
-
-  let y = BigInt(year);
-  let m = BigInt(month);
-  let d = BigInt(day);
-
-  y -= m <= 2n ? 1n : 0n;
-
-  const era = floorDiv(y, 400n);
-  const yoe = y - era * 400n;
-
-  const mp = m + (m > 2n ? -3n : 9n);
-
-  const doy =
-    floorDiv(153n * mp + 2n, 5n) + d - 1n;
-
-  const doe =
-    yoe * 365n +
-    floorDiv(yoe, 4n) -
-    floorDiv(yoe, 100n) +
-    doy;
-
-  return era * 146097n + doe - 719468n;
-}
 
 // ===== START VANDAAG =====
 let today = new Date();
