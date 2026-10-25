@@ -450,28 +450,27 @@ function closeOperator(){
   operatorActive = false;
 }
 
-// ===== DATE PICKER =====
-function goToDate(){
 
-const refreshGo = () => {
-
-  // Eventuele oude hover mag niet als tweede kin blijven staan
-  hoverPath.setAttribute("opacity","0");
+function refreshSoulkin() {
+  hoverPath.setAttribute("opacity", "0");
 
   render();
 
-  if(sourcesActive){
+  if (sourcesActive) {
     showSources();
   }
 
-  if(wavespellActive){
+  if (wavespellActive) {
     showWavespellText();
   }
 
-  if(operatorActive){
+  if (operatorActive) {
     showOperatorText();
   }
-};
+}
+
+// ===== DATE PICKER =====
+function goToDate(){
 
   const day =
     Number(document.getElementById("dayInput").value);
@@ -513,7 +512,7 @@ if(
   activePage = "intro";
 }
 
-refreshGo();
+refreshSoulkin();
 }
 
 // ===== LONG COUNT 260 FIELD =====
@@ -545,6 +544,27 @@ longCountField.addEventListener(
   },
   true
 );
+
+function goToLongCountCell(row, col, operatorDays, workfieldDays) {
+  const startDays = daysFromCivil(
+    currentLongCountStart.year,
+    currentLongCountStart.month,
+    currentLongCountStart.day
+  );
+
+  const targetDays =
+    startDays +
+    BigInt(col) * operatorDays +
+    BigInt(row) * workfieldDays;
+
+  const targetDate = civilFromDays(targetDays);
+
+  document.getElementById("dayInput").value = targetDate.day;
+  document.getElementById("monthInput").value = targetDate.month;
+  document.getElementById("yearInput").value = targetDate.year;
+
+  goToDate();
+}
 
 function buildLongCountField(){
 
@@ -608,31 +628,12 @@ if(isHablatunHubbleCell){
 
   cell.addEventListener("click", () => {
 
-    const startDays =
-      daysFromCivil(
-        currentLongCountStart.year,
-        currentLongCountStart.month,
-        currentLongCountStart.day
-      );
-
-    const targetDays =
-      startDays
-      + BigInt(col) * HABLATUN_OPERATOR_DAYS
-      + BigInt(row) * HABLATUN_WORKFIELD_DAYS;
-
-    const targetDate =
-      civilFromDays(targetDays);
-
-    document.getElementById("dayInput").value =
-      targetDate.day;
-
-    document.getElementById("monthInput").value =
-      targetDate.month;
-
-    document.getElementById("yearInput").value =
-      targetDate.year;
-
-    goToDate();
+goToLongCountCell(
+  row,
+  col,
+  HABLATUN_OPERATOR_DAYS,
+  HABLATUN_WORKFIELD_DAYS
+);
 
 if(isBigBangCell){
 
@@ -696,31 +697,12 @@ if(isAlautunLandPlantsCell){
 
   cell.addEventListener("click", () => {
 
-    const startDays =
-      daysFromCivil(
-        currentLongCountStart.year,
-        currentLongCountStart.month,
-        currentLongCountStart.day
-      );
-
-    const targetDays =
-      startDays
-      + BigInt(col) * ALAUTUN_OPERATOR_DAYS
-      + BigInt(row) * ALAUTUN_WORKFIELD_DAYS;
-
-    const targetDate =
-      civilFromDays(targetDays);
-
-    document.getElementById("dayInput").value =
-      targetDate.day;
-
-    document.getElementById("monthInput").value =
-      targetDate.month;
-
-    document.getElementById("yearInput").value =
-      targetDate.year;
-
-    goToDate();
+goToLongCountCell(
+  row,
+  col,
+  ALAUTUN_OPERATOR_DAYS,
+  ALAUTUN_WORKFIELD_DAYS
+);
 
     if(isAlautunCambrianCell){
 
@@ -805,31 +787,12 @@ if(isKinchiltunMioceneCell){
 
   cell.addEventListener("click", () => {
 
-    const startDays =
-      daysFromCivil(
-        currentLongCountStart.year,
-        currentLongCountStart.month,
-        currentLongCountStart.day
-      );
-
-    const targetDays =
-      startDays
-      + BigInt(col) * KINCHILTUN_OPERATOR_DAYS
-      + BigInt(row) * KINCHILTUN_WORKFIELD_DAYS;
-
-    const targetDate =
-      civilFromDays(targetDays);
-
-    document.getElementById("dayInput").value =
-      targetDate.day;
-
-    document.getElementById("monthInput").value =
-      targetDate.month;
-
-    document.getElementById("yearInput").value =
-      targetDate.year;
-
-    goToDate();
+goToLongCountCell(
+  row,
+  col,
+  KINCHILTUN_OPERATOR_DAYS,
+  KINCHILTUN_WORKFIELD_DAYS
+);
 
     if(isKinchiltunEoceneOligoceneCell){
 
@@ -920,31 +883,12 @@ if(isKalabtunNeanderthalCell){
 
   cell.addEventListener("click", () => {
 
-    const startDays =
-      daysFromCivil(
-        currentLongCountStart.year,
-        currentLongCountStart.month,
-        currentLongCountStart.day
-      );
-
-    const targetDays =
-      startDays
-      + BigInt(col) * KALABTUN_OPERATOR_DAYS
-      + BigInt(row) * KALABTUN_WORKFIELD_DAYS;
-
-    const targetDate =
-      civilFromDays(targetDays);
-
-    document.getElementById("dayInput").value =
-      targetDate.day;
-
-    document.getElementById("monthInput").value =
-      targetDate.month;
-
-    document.getElementById("yearInput").value =
-      targetDate.year;
-
-    goToDate();
+goToLongCountCell(
+  row,
+  col,
+  KALABTUN_OPERATOR_DAYS,
+  KALABTUN_WORKFIELD_DAYS
+);
 
 if(isKalabtunHomoSapiensCell){
 
@@ -1165,25 +1109,12 @@ if(isPiktunSapiensIntegrationCell){
 
   cell.addEventListener("click", () => {
 
-    const startDays =
-      daysFromCivil(
-        currentLongCountStart.year,
-        currentLongCountStart.month,
-        currentLongCountStart.day
-      );
-
-    const targetDays =
-      startDays
-      + BigInt(col) * PIKTUN_OPERATOR_DAYS
-      + BigInt(row) * PIKTUN_WORKFIELD_DAYS;
-
-    const targetDate = civilFromDays(targetDays);
-
-    document.getElementById("dayInput").value = targetDate.day;
-    document.getElementById("monthInput").value = targetDate.month;
-    document.getElementById("yearInput").value = targetDate.year;
-
-    goToDate();
+goToLongCountCell(
+  row,
+  col,
+  PIKTUN_OPERATOR_DAYS,
+  PIKTUN_WORKFIELD_DAYS
+);
 
 if(isPiktunGobekliCell){
 
@@ -1773,31 +1704,12 @@ if(isBaktunJesusCrucifixionCell){
 
   cell.addEventListener("click", () => {
 
-    const startDays =
-      daysFromCivil(
-        currentLongCountStart.year,
-        currentLongCountStart.month,
-        currentLongCountStart.day
-      );
-
-    const targetDays =
-      startDays
-      + BigInt(col) * BAKTUN_OPERATOR_DAYS
-      + BigInt(row) * BAKTUN_WORKFIELD_DAYS;
-
-    const targetDate =
-      civilFromDays(targetDays);
-
-    document.getElementById("dayInput").value =
-      targetDate.day;
-
-    document.getElementById("monthInput").value =
-      targetDate.month;
-
-    document.getElementById("yearInput").value =
-      targetDate.year;
-
-    goToDate();
+goToLongCountCell(
+  row,
+  col,
+  BAKTUN_OPERATOR_DAYS,
+  BAKTUN_WORKFIELD_DAYS
+);
 
     if(isBaktunWritingCell){
 
@@ -2289,31 +2201,12 @@ if(openLongCountLevel === "katun"){
 
   cell.addEventListener("click", () => {
 
-    const startDays =
-      daysFromCivil(
-        currentLongCountStart.year,
-        currentLongCountStart.month,
-        currentLongCountStart.day
-      );
-
-    const targetDays =
-      startDays
-      + BigInt(col) * KATUN_OPERATOR_DAYS
-      + BigInt(row) * KATUN_WORKFIELD_DAYS;
-
-    const targetDate =
-      civilFromDays(targetDays);
-
-    document.getElementById("dayInput").value =
-      targetDate.day;
-
-    document.getElementById("monthInput").value =
-      targetDate.month;
-
-    document.getElementById("yearInput").value =
-      targetDate.year;
-
-    goToDate();
+goToLongCountCell(
+  row,
+  col,
+  KATUN_OPERATOR_DAYS,
+  KATUN_WORKFIELD_DAYS
+);
 
     if(isKatunAkbalCell){
 
@@ -2333,31 +2226,12 @@ if(openLongCountLevel === "tun"){
 
   cell.addEventListener("click", () => {
 
-    const startDays =
-      daysFromCivil(
-        currentLongCountStart.year,
-        currentLongCountStart.month,
-        currentLongCountStart.day
-      );
-
-    const targetDays =
-      startDays
-      + BigInt(col) * TUN_OPERATOR_DAYS
-      + BigInt(row) * TUN_WORKFIELD_DAYS;
-
-    const targetDate =
-      civilFromDays(targetDays);
-
-    document.getElementById("dayInput").value =
-      targetDate.day;
-
-    document.getElementById("monthInput").value =
-      targetDate.month;
-
-    document.getElementById("yearInput").value =
-      targetDate.year;
-
-    goToDate();
+goToLongCountCell(
+  row,
+  col,
+  TUN_OPERATOR_DAYS,
+  TUN_WORKFIELD_DAYS
+);
   });
 }
       const index =

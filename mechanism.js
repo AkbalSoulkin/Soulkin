@@ -1,27 +1,6 @@
 // ===== STEP =====
 function step(){
 
-  const refreshStep = () => {
-
-hoverPath.setAttribute("opacity","0");    
-
-render();
-
-    if(sourcesActive){
-      showSources();
-    }
-
-  if(wavespellActive){
-    showWavespellText();
-  }
-
-if(operatorActive){
-  showOperatorText();
-
- }
-
-  };
-
   if(animating) return;
 
   // bewaar oude toestand
@@ -45,7 +24,7 @@ if(operatorActive){
   if(dayOffset < ROOT_OFFSET - 4){
 
     updateDateFromKin();
-    refreshStep();
+    refreshSoulkin();
     return;
   }
 
@@ -56,7 +35,7 @@ if(operatorActive){
     // Tot en met 10/11: niets animeren.
     updateDateFromKin();
     animating = false;
-    refreshStep();
+    refreshSoulkin();
     return;
 
   } else if(rootUnfolding){
@@ -66,7 +45,7 @@ if(operatorActive){
 
     if(enteringFirstDot){
       dotVisible = false;
-      refreshStep();
+      refreshSoulkin();
     }
 
     animateMove(pts[prevPos], pts[pos], 300, () => {
@@ -77,7 +56,7 @@ if(operatorActive){
 
       updateDateFromKin();
       animating = false;
-      refreshStep();
+      refreshSoulkin();
     });
 
   } else if(prevTone === 13){
@@ -89,7 +68,7 @@ if(operatorActive){
 
       updateDateFromKin();
       animating = false;
-      refreshStep();
+      refreshSoulkin();
 
     });
 
@@ -98,11 +77,11 @@ if(operatorActive){
     animateMove(pts[prevPos], pts[pos], 300, () => {
       updateDateFromKin();
       animating = false;
-      refreshStep();
+      refreshSoulkin();
     });
   }
 
-  refreshStep();
+  refreshSoulkin();
 }
 
 

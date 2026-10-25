@@ -1,3 +1,10 @@
+function setPanelBackground(panel, image) {
+  panel.style.background = "";
+  panel.style.backgroundImage = `url("${image}")`;
+  panel.style.backgroundSize = "cover";
+  panel.style.backgroundPosition = "center";
+}
+
 // ===== RENDER CHAKRAPAGINA'S =====
 function updateActivePage(){
 
@@ -30,62 +37,24 @@ if(activeHistoryCell){
 
 panel.style.background = "transparent";
 
-    // Achtergrond hoort bij de LAAG
     if(level === "hablatun"){
-
-      panel.style.backgroundImage =
-        'url("backgrounds/hablatun.png")';
-
-      panel.style.backgroundSize =
-        "cover";
-
-      panel.style.backgroundPosition =
-        "center";
+setPanelBackground(panel, "backgrounds/hablatun.png");
     }
 
 if(level === "alautun"){
-
-  panel.style.backgroundImage =
-    'url("backgrounds/alautun.png")';
-
-  panel.style.backgroundSize =
-    "cover";
-
-  panel.style.backgroundPosition =
-    "center";
+  setPanelBackground(panel, "backgrounds/alautun.png");
 }
 
 if(level === "kinchiltun"){
-
-  panel.style.backgroundImage =
-    'url("backgrounds/kinchiltun.png")';
-
-  panel.style.backgroundSize =
-    "cover";
-
-  panel.style.backgroundPosition =
-    "center";
+  setPanelBackground(panel, "backgrounds/kinchiltun.png");
 }
 
 if(level === "kalabtun"){
-
-  panel.style.backgroundImage =
-    'url("backgrounds/kalabtun.png")';
-
-  panel.style.backgroundSize =
-    "cover";
-
-  panel.style.backgroundPosition =
-    "center";
+  setPanelBackground(panel, "backgrounds/kalabtun.png");
 }
 
 if(level === "piktun"){
-
-  panel.style.backgroundImage =
-    'url("backgrounds/piktun.png")';
-
-  panel.style.backgroundSize = "cover";
-  panel.style.backgroundPosition = "center";
+  setPanelBackground(panel, "backgrounds/piktun.png");
 }
 
 if(level === "baktun"){
@@ -236,31 +205,15 @@ erkennen_informatie:
   };
 
   const background =
-    baktunBackgrounds[key];
+  baktunBackgrounds[key];
 
-  if(background){
-
-    panel.style.backgroundImage =
-      `url("${background}")`;
-
-    panel.style.backgroundSize =
-      "cover";
-
-    panel.style.backgroundPosition =
-      "center";
-  }
+if(background){
+  setPanelBackground(panel, background);
+}
 }
 
 if(level === "katun"){
-
-  panel.style.backgroundImage =
-    'url("backgrounds/katun.png")';
-
-  panel.style.backgroundSize =
-    "cover";
-
-  panel.style.backgroundPosition =
-    "center";
+  setPanelBackground(panel, "backgrounds/katun.png");
 }
 
     title.innerHTML =
@@ -291,16 +244,7 @@ if(level === "katun"){
 
   if(activePage === "intro"){
 
-panel.style.background = "transparent";
-
-    panel.style.backgroundImage =
-      'url("backgrounds/maya.png")';
-
-    panel.style.backgroundSize =
-      "cover";
-
-    panel.style.backgroundPosition =
-      "center";
+setPanelBackground(panel, "backgrounds/maya.png");
 
     title.innerHTML =
       lang.introTitle;
@@ -399,22 +343,14 @@ if(activePage === "muladhara"){
 
 if(activePage === "sahasrara"){
 
-  // Vanaf 11/11 krijgt Sahasrara de achtergrond
-  // die bij de actuele toon 1–13 hoort.
   if(dayOffset >= CHAKRA_TEXT_START_DAY){
 
-    panel.style.background = "";
+  setPanelBackground(
+    panel,
+    `backgrounds/toon_${tone}.png`
+  );
 
-    panel.style.backgroundImage =
-      `url("backgrounds/toon_${tone}.png")`;
-
-    panel.style.backgroundSize =
-      "cover";
-
-    panel.style.backgroundPosition =
-      "center";
-
-  } else {
+} else {
 
     // vóór 11/11: bestaande achtergrond
     panel.style.backgroundImage = "none";
@@ -675,16 +611,10 @@ if(dayOffset >= PENTAGRAM_TEXT_START_DAY){
   content.innerHTML =
     pentagramPages?.[language]?.[pentagramPage] ?? "";
 
-  panel.style.background = "";
-
-  panel.style.backgroundImage =
-    `url("${pentagramBackgrounds[pentagramPage - 1]}")`;
-
-  panel.style.backgroundSize =
-    "cover";
-
-  panel.style.backgroundPosition =
-    "center";
+  setPanelBackground(
+  panel,
+  pentagramBackgrounds[pentagramPage - 1]
+);
 
 } else {
 
@@ -703,16 +633,7 @@ if(dayOffset >= PENTAGRAM_TEXT_START_DAY){
 
 // Vanaf 15/11: alleen Night + vaste Ajna achtergrond
 
-panel.style.background = "";
-
-panel.style.backgroundImage =
-  'url("backgrounds/ajna.png")';
-
-panel.style.backgroundSize =
-  "cover";
-
-panel.style.backgroundPosition =
-  "center";
+setPanelBackground(panel, "backgrounds/ajna.png");
 
 content.innerHTML = `
   <div class="nightText">
@@ -760,16 +681,10 @@ title.classList.remove("chakraTitle");
   content.innerHTML =
     pages.hexagram?.[unfoldIndex + 1] ?? "";
 
-  panel.style.background = "";
-
-  panel.style.backgroundImage =
-    `url("${unfoldBackgrounds[unfoldIndex]}")`;
-
-  panel.style.backgroundSize =
-    "cover";
-
-  panel.style.backgroundPosition =
-    "center";
+  setPanelBackground(
+  panel,
+  unfoldBackgrounds[unfoldIndex]
+);
 
   return;
 }
@@ -819,16 +734,10 @@ if(unfoldIndex >= 5 && unfoldIndex < 25){
   // Teksten komen later
   content.innerHTML = "";
 
-  panel.style.background = "";
-
-  panel.style.backgroundImage =
-    `url("backgrounds/${workfieldIndex + 1}.png")`;
-
-  panel.style.backgroundSize =
-    "cover";
-
-  panel.style.backgroundPosition =
-    "center";
+  setPanelBackground(
+  panel,
+  `backgrounds/${workfieldIndex + 1}.png`
+);
 
   return;
 }
@@ -872,18 +781,10 @@ if(dayOffset < HEXAGRAM_TEXT_START_DAY){
     title.innerHTML =
       hex16Titles[hex16Index];
 
-    content.innerHTML = "";
-
-    panel.style.background = "";
-
-    panel.style.backgroundImage =
-      `url("backgrounds/hex_${hex16Index + 1}.png")`;
-
-    panel.style.backgroundSize =
-      "cover";
-
-    panel.style.backgroundPosition =
-      "center";
+    setPanelBackground(
+  panel,
+  `backgrounds/hex_${hex16Index + 1}.png`
+);
 
     return;
   }
@@ -935,14 +836,10 @@ if(
   // Geen beschrijvende tekst
   content.innerHTML = "";
 
-  // Achtergrond van hexagram 1 t/m 64
-  panel.style.background = "";
-
-  panel.style.backgroundImage =
-    `url("backgrounds/hexagram_${hexagramNumber}.png")`;
-
-  panel.style.backgroundSize = "cover";
-  panel.style.backgroundPosition = "center";
+  setPanelBackground(
+  panel,
+  `backgrounds/hexagram_${hexagramNumber}.png`
+);
 
   return;
 }
