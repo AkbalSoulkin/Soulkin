@@ -10,7 +10,7 @@ const pentagramPages = {
     3: `<strong>0 (G1) · Ongedeeld</strong><br><br>
 
 `,
-    4: `0<strong>011 (G4) · Alomtegenwoordig</strong><br><br>
+    4: `<strong>011 (G4) · Alomtegenwoordig</strong><br><br>
 
 `,
     5: `<strong>100 (G8) · Ontluikend</strong><br><br>

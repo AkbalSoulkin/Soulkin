@@ -1,7 +1,7 @@
 const wavespell_operators_tr = {
 
 1: `
-Ton: 1 (Koç) · 101 · Gerçekleştirmek
+<strong>Ton: 1 (Koç) · 101 · Gerçekleştirmek</strong>
 
 <br><br>
 
@@ -11,11 +11,12 @@ Gerçekleşme, gerçekliği mümkün kılar.
 
 Somut biçimin başlangıcıyla ilişkilidir.
 
+<br><br>
 
 `,
 
 2: `
-Ton: 2 (Boğa) · 000 · Kabul Etmek
+<strong>Ton: 2 (Boğa) · 000 · Kabul Etmek</strong>
 
 <br><br>
 
@@ -25,11 +26,12 @@ Kabulleniş, var olanın olduğu gibi mevcut olmasına alan açar.
 
 Zaten var olanı olduğu hâliyle kabul etmekle ilişkilidir.
 
+<br><br>
 
 `,
 
 3: `
-Ton: 3 (İkizler) · 111 · Ayırt Etmek
+<strong>Ton: 3 (İkizler) · 111 · Ayırt Etmek</strong>
 
 
 <br><br>
@@ -40,11 +42,12 @@ Farklılık, tanımayı mümkün kılar.
 
 Kimliğin ortaya çıkışıyla ilişkilidir.
 
+<br><br>
 
 `,
 
 4: `
-Ton: 4 (Yengeç) · 010 · Konumlandırmak
+<strong>Ton: 4 (Yengeç) · 010 · Konumlandırmak</strong>
 
 <br><br>
 
@@ -54,10 +57,12 @@ Konumlandırma, ilişkilerin görünür hâle gelmesini mümkün kılar.
 
 Bağlamla ilişkilidir.
 
+<br><br>
 
 `,
+
 5: `
-Ton: 5 (Aslan) · 101 · Seçmek
+<strong>Ton: 5 (Aslan) · 101 · Seçmek</strong>
 
 <br><br>
 
@@ -67,11 +72,12 @@ Seçim, odaklanmayı mümkün kılar.
 
 Odak ve öncelikle ilişkilidir.
 
+<br><br>
 
 `,
 
 6: `
-Ton: 6 (Başak) · 000 · İyileştirmek
+<strong>Ton: 6 (Başak) · 000 · İyileştirmek</strong>
 
 <br><br>
 
@@ -81,11 +87,12 @@ Gelişme, kaliteyi mümkün kılar.
 
 Hassasiyet ve uyumla ilişkilidir.
 
+<br><br>
 
 `,
 
 7: `
-Ton: 7 (Terazi) · 111 · Uyumlamak
+<strong>Ton: 7 (Terazi) · 111 · Uyumlamak</strong>
 
 <br><br>
 
@@ -95,11 +102,12 @@ Uyum, bütünlüğü mümkün kılar.
 
 Rezonansla ilişkilidir.
 
+<br><br>
 
 `,
 
 8: `
-Ton: 8 (Akrep) · 010 · Dönüştürmek
+<strong>Ton: 8 (Akrep) · 010 · Dönüştürmek</strong>
 
 <br><br>
 
@@ -109,9 +117,12 @@ Değişim, yenilenmeyi mümkün kılar.
 
 Geçiş ve gelişimle ilişkilidir.
 
+<br><br>
+
 `,
+
 9: `
-Ton: 9 (Yılancı) · 1 · Bütünleştirmek
+<strong>Ton: 9 (Yılancı) · 1 · Bütünleştirmek</strong>
 
 <br><br>
 
@@ -121,11 +132,12 @@ Bütünleşme, birlikte işleyişi mümkün kılar.
 
 Bağlantı ve bütünlükle ilişkilidir.
 
+<br><br>
 
 `,
 
 10: `
-Ton: 10 (Yay) · 001 · Kavramak
+<strong>Ton: 10 (Yay) · 001 · Kavramak</strong>
 
 <br><br>
 
@@ -135,11 +147,12 @@ Kavramak, içgörü olarak ifade edilen bilinç yönelimidir.
 
 Öz ve anlamla ilişkilidir.
 
+<br><br>
 
 `,
 
 11: `
-Ton: 11 (Oğlak) · 100 · Kalıcılaştırmak
+<strong>Ton: 11 (Oğlak) · 100 · Kalıcılaştırmak</strong>
 
 <br><br>
 
@@ -149,11 +162,12 @@ Kalıcılık, sürekliliği mümkün kılar.
 
 İstikrar ve güvenilirlikle ilişkilidir.
 
+<br><br>
 
 `,
 
 12: `
-Ton: 12 (Kova) · 011 · Açmak
+<strong>Ton: 12 (Kova) · 011 · Açmak</strong>
 
 <br><br>
 
@@ -163,11 +177,12 @@ Erişilebilirlik, aktarımı mümkün kılar.
 
 Paylaşım ve ulaşılabilirlikle ilişkilidir.
 
+<br><br>
 
 `,
 
 13: `
-Ton: 13 (Balık) · 110 · Serbest Bırakmak
+<strong>Ton: 13 (Balık) · 110 · Serbest Bırakmak</strong>
 
 <br><br>
 
@@ -177,6 +192,7 @@ Bırakmak, bağımsız devamlılığı mümkün kılar.
 
 Özgürlük ve devamlılıkla ilişkilidir.
 
+<br><br>
 
 `
 
