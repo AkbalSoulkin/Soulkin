@@ -5214,11 +5214,11 @@ const NIGHT_UNFOLD_START_DAY = Number(
 );
 
 const nightUnfolding = [
-  { code: "001", g: 2 }, // 10/11 Mountain
-  { code: "110", g: 6 }, // 11/11 Lake
+  { code: "101", g: 3 }, // 10/11 Fire
+  { code: "010", g: 7 }, // 11/11 Water
   { code: "0",   g: 1 }, // 12/11 Heart
-  { code: "011", g: 4 }, // 13/11 Wind
-  { code: "100", g: 8 }  // 14/11 Thunder
+  { code: "111", g: 5 }, // 13/11 Heaven
+  { code: "000", g: 9 }  // 14/11 Earth
 ];
 
 const nightUnfoldIndex =
@@ -5833,11 +5833,11 @@ const TRIGRAM_UNFOLD_START_DAY = Number(
 );
 
 const trigramUnfoldingFiles = [
-  "trigrams/100.svg",      // 10/11 = G2 Thunder
-  "trigrams/110.svg",      // 11/11 = G6 Lake
+  "trigrams/101.svg",      // 10/11 = G3 Fire
+  "trigrams/010.svg",      // 11/11 = G7 Water
   "other/yin.svg",         // 12/11 = G1 Heart
-  "trigrams/011.svg",      // 13/11 = G4 Wind
-  "trigrams/001.svg"       // 14/11 = G8 Mountain
+  "trigrams/111.svg",      // 13/11 = G5 Heaven
+  "trigrams/000.svg"       // 14/11 = G9 Earth
 ];
 
 const trigramUnfoldIndex =
@@ -6265,12 +6265,12 @@ toneTabSymbol.src = "other/yin.svg";
   occultTabSymbol.src =
     "other/yin.svg";
 
-  // Ajna = rood + 001
+  // Ajna = rood + 101
   guideTab.style.background =
     "rgba(255,0,0,0.7)";
   guideTabSymbol.style.visibility = "visible";
   guideTabSymbol.src =
-    "trigrams/001.svg";
+    "trigrams/101.svg";
 
   // Sahasrara blijft zoals bestaande code hem maakt
 }
@@ -6295,12 +6295,12 @@ toneTabSymbol.src =
   occultTabSymbol.src =
     "animals/13Chicchan.svg";
 
-  // Ajna = blauw + 110
+  // Ajna = blauw + 010
   guideTab.style.background =
     "rgba(0,0,255,0.7)";
   guideTabSymbol.style.visibility = "visible";
   guideTabSymbol.src =
-    "trigrams/110.svg";
+    "trigrams/010.svg";
 }
 
 
@@ -6355,12 +6355,12 @@ toneTabSymbol.src =
   occultTabSymbol.src =
     "animals/13Men.svg";
 
-  // Ajna = wit + 011
+  // Ajna = wit + 111
   guideTab.style.background =
     "rgba(255,255,255,0.7)";
   guideTabSymbol.style.visibility = "visible";
   guideTabSymbol.src =
-    "trigrams/011.svg";
+    "trigrams/111.svg";
 }
 
 
@@ -6385,10 +6385,10 @@ toneTabSymbol.src =
   occultTabSymbol.src =
     "animals/13Ahau.svg";
 
-  // Ajna = geel + 100
+  // Ajna = geel + 000
   guideTabSymbol.style.visibility = "visible";
   guideTabSymbol.src =
-    "trigrams/100.svg";
+    "trigrams/000.svg";
 }
 
 // ===== SVADHISTHANA: 9/11 T/M 14/11 =====

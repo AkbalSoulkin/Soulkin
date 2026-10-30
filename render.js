@@ -1,23 +1,16 @@
-function setPanelBackground(panel, image) {
+function setPanelBackground(panel, image, tint = null) {
   panel.style.background = "";
-  panel.style.backgroundImage = `url("${image}")`;
+
+  panel.style.backgroundImage = tint
+    ? `linear-gradient(${tint}, ${tint}), url("${image}")`
+    : `url("${image}")`;
+
   setPanelBackgroundLayout(panel);
 }
 
 function setPanelBackgroundLayout(panel) {
   panel.style.backgroundSize = "cover";
   panel.style.backgroundPosition = "center";
-}
-
-function setTintedPanelBackground(panel, image, tint) {
-  panel.style.background = "";
-
-  panel.style.backgroundImage = `
-    linear-gradient(${tint}, ${tint}),
-    url("${image}")
-  `;
-
-  setPanelBackgroundLayout(panel);
 }
 
 const historyLevelBackgrounds = {
@@ -285,6 +278,24 @@ const hexagramTints = [
   "rgba(255,220,0,0.25)"      // 49–64 geel
 ];
 
+const ChakraBackgrounds = {
+  muladhara: "rgba(120,0,0,0.35)",
+  svadhisthana: "rgba(255,120,0,0.25)",
+  manipura: "rgba(255,220,0,0.25)",
+  anahata: "rgba(0,128,0,0.25)",
+  vishuddha: "rgba(80,180,255,0.25)",
+  ajna: "rgba(90,70,180,0.28)",
+  sahasrara: "transparent"
+};
+
+const earlyChakraPages = new Set([
+  "muladhara",
+  "svadhisthana",
+  "anahata",
+  "vishuddha",
+  "sahasrara"
+]);
+
 // ===== RENDER CHAKRAPAGINA'S =====
 function updateActivePage(){
 
@@ -297,14 +308,14 @@ function updateActivePage(){
   const content =
     document.getElementById("infoPanelContent");
 
-  const CHAKRA_TEXT_START_DAY =
-    ROOT_OFFSET - 3;
-
 const FIRST_CHAKRA_DAY =
-  CHAKRA_TEXT_START_DAY - 1;
+  ROOT_OFFSET - 4; // 10 november
 
-  const SAHASRARA_TEXT_START_DAY =
-    ROOT_OFFSET + 1;
+const CHAKRA_TEXT_START_DAY =
+  FIRST_CHAKRA_DAY + 1; // 11 november
+
+const SAHASRARA_TEXT_START_DAY =
+  FIRST_CHAKRA_DAY + 5; // 15 november
 
 // ===== HISTORISCHE LONG COUNT CEL =====
 
@@ -363,43 +374,18 @@ title.classList.add("chakraTitle");
     return;
   }
 
-if(
+const isEarlyChakraPage =
   dayOffset < CHAKRA_TEXT_START_DAY &&
-  activePage !== "manipura" &&
-  activePage !== "hexagram64" &&
-  activePage !== "ajna"
-){
+  earlyChakraPages.has(activePage);
 
-  // Alleen kleur tonen, nog geen tekst
-  if(activePage === "muladhara"){
-    panel.style.background =
-      "rgba(120,0,0,0.35)";
-  }
+if(isEarlyChakraPage){
 
-  else if(activePage === "svadhisthana"){
-    panel.style.background =
-      "rgba(255,120,0,0.25)";
-  }
-
-  else if(activePage === "anahata"){
-    panel.style.background =
-      "rgba(0,128,0,0.25)";
-  }
-
-  else if(activePage === "vishuddha"){
-    panel.style.background =
-      "rgba(80,180,255,0.25)";
-  }
-
-  else {
-    // Sahasrara
-    panel.style.background =
-      "transparent";
-  }
+  panel.style.background =
+    ChakraBackgrounds[activePage];
 
   clearPanelContent(title, content);
 
-return;
+  return;
 }
 
 // ===== MULADHARA =====
@@ -407,14 +393,7 @@ return;
 if(activePage === "muladhara"){
 
   panel.style.background =
-    "rgba(120,0,0,0.35)";
-
-  if(dayOffset < FIRST_CHAKRA_DAY){
-
-    clearPanelContent(title, content);
-
-return;
-  }
+    ChakraBackgrounds.muladhara;
 
   setPanelContent(
   title,
@@ -431,79 +410,56 @@ return;
 
 if(activePage === "sahasrara"){
 
-  if(dayOffset >= CHAKRA_TEXT_START_DAY){
-
   setPanelBackground(
-    panel,
-    `backgrounds/toon_${tone}.png`
-  );
+  panel,
+  `backgrounds/toon_${tone}.png`
+);
 
-} else {
-
-    // vóór 11/11: bestaande achtergrond
-    panel.style.background =
-      "rgba(255,255,255,0.18)";
-  }
+const toneText =
+  pages.sahasrara?.[tone] ?? "";
 
 // ===== EERSTE UITVOUWING 11/11 T/M 14/11 =====
 
 if(dayOffset < SAHASRARA_TEXT_START_DAY){
 
-  if(dayOffset >= CHAKRA_TEXT_START_DAY){
+  const specialPageNumber =
+    dayOffset - CHAKRA_TEXT_START_DAY + 1;
 
-    const specialPageNumber =
-      dayOffset - CHAKRA_TEXT_START_DAY + 1;
-
-    const specialText =
-      specialPages?.[language]?.[specialPageNumber] ?? "";
-
-    const toneText =
-      pages.sahasrara?.[tone] ?? "";
-
-    setPanelContent(
-  title,
-  content,
-  lang.sahasrara,
-  buildToneCombinationHTML(
-    toneText,
-    specialText
-  )
-);
-
-  } else {
-
-  clearPanelContent(title, content);
-}
-
-return;
-}
+  const specialText =
+    specialPages?.[language]?.[specialPageNumber] ?? "";
 
   setPanelContent(
-  title,
-  content,
-  lang.sahasrara,
-  ""
-);
+    title,
+    content,
+    lang.sahasrara,
+    buildToneCombinationHTML(
+      toneText,
+      specialText
+    )
+  );
 
-
-// ===== TOON 1–13 =====
-
-const toneText =
-  pages.sahasrara?.[tone] ?? "";
-
+  return;
+}
 
 // ===== 260 COMBINATIE =====
 
 const combinationText =
   pages.sahasraraKin?.[mechanismKin + 1] ?? "";
 
-content.innerHTML = combinationText
+const sahasraraText = combinationText
   ? buildToneCombinationHTML(toneText, combinationText)
   : `
     <div class="toneText">
       ${toneText}
     </div>
   `;
+
+setPanelContent(
+  title,
+  content,
+  lang.sahasrara,
+  sahasraraText
+);
 
   return;
 }
@@ -513,14 +469,7 @@ content.innerHTML = combinationText
 if(activePage === "anahata"){
 
   panel.style.background =
-    "rgba(0,128,0,0.25)";
-
-  if(dayOffset < FIRST_CHAKRA_DAY){
-
-  clearPanelContent(title, content);
-
-  return;
-}
+    ChakraBackgrounds.anahata;
 
   const sealKey =
   sealKeys[seal];
@@ -552,7 +501,7 @@ return;
   if(activePage === "vishuddha"){
 
   panel.style.background =
-    "rgba(80,180,255,0.25)";
+    ChakraBackgrounds.vishuddha;
 
   setPanelContent(
     title,
@@ -570,7 +519,7 @@ return;
   if(activePage === "svadhisthana"){
 
   panel.style.background =
-    "rgba(255,120,0,0.25)";
+    ChakraBackgrounds.svadhisthana;
 
   setPanelContent(
     title,
@@ -588,11 +537,11 @@ return;
 if(activePage === "manipura"){
 
   panel.style.background =
-    "rgba(255,220,0,0.25)";
+  ChakraBackgrounds.manipura;
 
-  // ===== POSITIE 0 + 10/11 =====
+// ===== VÓÓR 11/11: GEEN TEKST =====
 // Nog geen Manipura: titel én tekst leeg.
-if(dayOffset <= FIRST_CHAKRA_DAY){
+if(dayOffset < CHAKRA_TEXT_START_DAY){
 
   clearPanelContent(title, content);
 
@@ -615,36 +564,36 @@ return;
 
 if(activePage === "ajna"){
 
+  if(dayOffset < FIRST_CHAKRA_DAY){
+
   panel.style.background =
-    "rgba(90,70,180,0.28)";
+    ChakraBackgrounds.ajna;
+
+  clearPanelContent(title, content);
+
+  return;
+}
 
 // ===== EERSTE UITVOUWING 10/11 T/M 14/11 =====
 
 if(dayOffset < SAHASRARA_TEXT_START_DAY){
 
-if(dayOffset >= FIRST_CHAKRA_DAY){
-
   const pentagramPage =
-  dayOffset - FIRST_CHAKRA_DAY + 1;
+    dayOffset - FIRST_CHAKRA_DAY + 1;
 
   setPanelContent(
-  title,
-  content,
-  lang.ajna,
-  pentagramPages?.[language]?.[pentagramPage] ?? ""
-);
+    title,
+    content,
+    lang.ajna,
+    pentagramPages?.[language]?.[pentagramPage] ?? ""
+  );
 
   setPanelBackground(
-  panel,
-  pentagramBackgrounds[pentagramPage - 1]
-);
+    panel,
+    pentagramBackgrounds[pentagramPage - 1]
+  );
 
-} else {
-
-  clearPanelContent(title, content);
-}
-
-return;
+  return;
 }
 
   const nightText =
@@ -677,7 +626,10 @@ const unfoldIndex =
 
 // ===== EERSTE 5 DAGEN =====
 
-if(unfoldIndex >= 0 && unfoldIndex < 5){
+if(
+  unfoldIndex >= 0 &&
+  unfoldIndex < unfoldBackgrounds.length
+){
 
 setPanelContent(
   title,
@@ -696,10 +648,13 @@ setPanelContent(
 
 // ===== 20 WERKVELDEN 15/11 T/M 4/12 =====
 
-if(unfoldIndex >= 5 && unfoldIndex < 25){
+if(
+  unfoldIndex >= unfoldBackgrounds.length &&
+  unfoldIndex < unfoldBackgrounds.length + workfieldTitles.length
+){
 
   const workfieldIndex =
-    unfoldIndex - 5;
+  unfoldIndex - unfoldBackgrounds.length;
 
   // Teksten komen later
 setPanelContent(
@@ -722,7 +677,10 @@ setPanelContent(
 
 if(dayOffset < HEXAGRAM_TEXT_START_DAY){
 
-  if(dayOffset >= HEX16_START_DAY){
+  if(
+  dayOffset >= HEX16_START_DAY &&
+  dayOffset < HEX16_START_DAY + hex16Titles.length
+){
 
     const hex16Index =
       dayOffset - HEX16_START_DAY;
@@ -796,7 +754,7 @@ const colorGroup =
 const hexagramTint =
   hexagramTints[colorGroup];
 
-setTintedPanelBackground(
+setPanelBackground(
   panel,
   "backgrounds/hexagrams.png",
   hexagramTint
