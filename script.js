@@ -469,6 +469,51 @@ function refreshSoulkin() {
   }
 }
 
+
+ // ===== EXPERIMENTELE NIGHTLORD-DAGGRENS =====
+ // Verandert de bestaande Soulkin-berekening niet.
+
+function soulkinTimeMinutes(value) {
+  if (
+    typeof value !== "string" ||
+    !/^(?:[01]\d|2[0-3]):[0-5]\d$/.test(value)
+  ) {
+    throw new Error("Gebruik HH:MM als tijd.");
+  }
+
+  const [hours, minutes] = value.split(":").map(Number);
+  return hours * 60 + minutes;
+}
+
+function compareSoulkinNightlord(calendarG, birthTime, sunsetTime) {
+  if (
+    !Number.isInteger(calendarG) ||
+    calendarG < 1 ||
+    calendarG > 9
+  ) {
+    throw new Error("Gebruik G1 t/m G9.");
+  }
+
+  const afterSunset =
+    soulkinTimeMinutes(birthTime) >=
+    soulkinTimeMinutes(sunsetTime);
+
+  return {
+    calendarG,
+    sunsetG: afterSunset ? (calendarG % 9) + 1 : calendarG,
+    afterSunset
+  };
+}
+
+window.compareSoulkinNightlord = compareSoulkinNightlord;
+
+window.compareCurrentSoulkinNightlord = function(
+  birthTime,
+  sunsetTime
+) {
+  return compareSoulkinNightlord(night, birthTime, sunsetTime);
+};
+
 // ===== DATE PICKER =====
 function goToDate(){
 
@@ -3294,71 +3339,91 @@ const hasSpecialPlanet =
   station819 &&
   [16, 15, 11, 9, 6, 3, 2, 1].includes(planetWorkfieldSeal);
 
+//
+// ===== PLANETAIRE VOORRANG EN GROOTTE =====
+//
 
+// De bijzondere 819-planeet heeft altijd voorrang.
+// Alleen bij Ik mogen Venus en Mars samen verschijnen.
 
-if (mercuryStep === 0 && !hasSpecialPlanet) {
+const specialVenus =
+  hasSpecialPlanet &&
+  [16, 11, 6, 1].includes(planetWorkfieldSeal);
 
-  // Venus valt iedere 585 dagen op een 117-punt
-  if (venusStep === 0) {
+const specialSaturn =
+  hasSpecialPlanet &&
+  [15, 9, 3].includes(planetWorkfieldSeal);
 
-    planetMercury.style.opacity = "0";
+const specialJupiter =
+  hasSpecialPlanet &&
+  planetWorkfieldSeal === 2;
 
-    planetVenus.style.opacity = "1";
-    planetVenus.style.width = "18px";
-    planetVenus.style.height = "18px";
-    planetVenus.style.left = "7px";
-    planetVenus.style.top = "7px";
+const specialMars =
+  hasSpecialPlanet &&
+  planetWorkfieldSeal === 1;
 
-  } else {
+// Begin zonder gewone planeetovergangen.
+// De bijzondere stations zijn hierboven al berekend.
+[
+  planetMercury,
+  planetVenus,
+  planetSaturn,
+  planetJupiter,
+  planetMars
+].forEach(planet => {
+  planet.style.opacity = "0";
+});
 
-    planetVenus.style.opacity = "0";
+function showPlanet(planet, large) {
+  const size = large ? 32 : 18;
+  const position = large ? 0 : 7;
 
-    planetMercury.style.opacity = "1";
-    planetMercury.style.width = "18px";
-    planetMercury.style.height = "18px";
-    planetMercury.style.left = "7px";
-    planetMercury.style.top = "7px";
+  planet.style.opacity = "1";
+  planet.style.width = size + "px";
+  planet.style.height = size + "px";
+  planet.style.left = position + "px";
+  planet.style.top = position + "px";
+}
 
-  }
+// Bijzondere 819-stations krijgen voorrang.
+if (hasSpecialPlanet) {
+
+  if (specialVenus)
+    showPlanet(planetVenus, true);
+
+  if (specialSaturn)
+    showPlanet(planetSaturn, true);
+
+  if (specialJupiter)
+    showPlanet(planetJupiter, true);
+
+  if (specialMars)
+    showPlanet(planetMars, true);
 
 } else {
 
-  planetMercury.style.opacity = "0";
+  // Op een 819-overgang wordt de actieve planeet groot.
+  const large = station819;
+
+  // Mercurius heeft de laagste prioriteit.
+  // Bij samenloop wordt slechts één planeet getoond.
+  if (venusStep === 0) {
+    showPlanet(planetVenus, large);
+
+  } else if (saturnStep === 0) {
+    showPlanet(planetSaturn, large);
+
+  } else if (jupiterStep === 0) {
+    showPlanet(planetJupiter, large);
+
+  } else if (marsStep === 0) {
+    showPlanet(planetMars, large);
+
+  } else if (mercuryStep === 0) {
+    showPlanet(planetMercury, large);
+  }
 }
 
-
-if (
-  saturnStep === 0 &&
-  !station819
-) {
-  planetSaturn.style.opacity = "1";
-  planetSaturn.style.width = "18px";
-  planetSaturn.style.height = "18px";
-  planetSaturn.style.left = "7px";
-  planetSaturn.style.top = "7px";
-}
-
-if (
-  jupiterStep === 0 &&
-  !station819
-) {
-  planetJupiter.style.opacity = "1";
-  planetJupiter.style.width = "18px";
-  planetJupiter.style.height = "18px";
-  planetJupiter.style.left = "7px";
-  planetJupiter.style.top = "7px";
-}
-
-if (
-  marsStep === 0 &&
-  !station819
-) {
-  planetMars.style.opacity = "1";
-  planetMars.style.width = "18px";
-  planetMars.style.height = "18px";
-  planetMars.style.left = "7px";
-  planetMars.style.top = "7px";
-}
 
 // ===== BINNENSTE 4-RING ONTVOUWING =====
 
