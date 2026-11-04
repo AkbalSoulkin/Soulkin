@@ -106,6 +106,12 @@ const planetJupiter = document.getElementById("planetJupiter");
 const planetMars    = document.getElementById("planetMars");
 const planetWorkfield =
   document.getElementById("planetWorkfield");
+const planetMarsVenus = document.createElement("img");
+planetMarsVenus.src = "planets/marsvenus.svg";
+planetMarsVenus.style.position = "absolute";
+planetMarsVenus.style.pointerEvents = "none";
+planetMarsVenus.style.opacity = "0";
+planetMars.parentElement.appendChild(planetMarsVenus);
 
 const letterO  = document.getElementById("letterO");
 const letterOQ = document.getElementById("letterOQ");
@@ -3369,7 +3375,8 @@ const specialMars =
   planetVenus,
   planetSaturn,
   planetJupiter,
-  planetMars
+  planetMars,
+  planetMarsVenus
 ].forEach(planet => {
   planet.style.opacity = "0";
 });
@@ -3388,6 +3395,12 @@ function showPlanet(planet, large) {
 // Bijzondere 819-stations krijgen voorrang.
 if (hasSpecialPlanet) {
 
+  if (specialVenus && specialMars) {
+
+  showPlanet(planetMarsVenus, true);
+
+} else {
+
   if (specialVenus)
     showPlanet(planetVenus, true);
 
@@ -3399,6 +3412,7 @@ if (hasSpecialPlanet) {
 
   if (specialMars)
     showPlanet(planetMars, true);
+}
 
 } else {
 
