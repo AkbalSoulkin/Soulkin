@@ -19,3 +19,4 @@ let beforeOrAtRoot = false;
 let dotVisible = true;
 let wavespellActive = false;
 let operatorActive = false;
+let planetaryWorkfieldActive = false;
