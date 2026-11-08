@@ -460,6 +460,14 @@ function closeOperator(){
 function refreshSoulkin() {
   hoverPath.setAttribute("opacity", "0");
 
+if (
+  planetaryWorkfieldActive &&
+  dayOffset < PLANET_DISPLAY_START_DAY
+) {
+  closePlanetaryWorkfield();
+  activePage = "intro";
+}
+
   render();
 
   if (sourcesActive) {
@@ -3239,6 +3247,14 @@ const toneFractals = [
   "110"  // 13 Vissen
 ];
 
+function closePlanetaryWorkfield() {
+  planetaryWorkfieldActive = false;
+
+  document
+    .getElementById("planetWorkfieldButton")
+    ?.classList.remove("active");
+}
+
 // ===== RENDER =====
 function render(){
 
@@ -3331,6 +3347,31 @@ planetWorkfield.setAttribute(
   "src",
   `animals/${animalFiles[planetWorkfieldSeal]}`
 );
+
+const planetaryWorkfieldBtn =
+  document.getElementById("planetWorkfieldButton");
+
+if (planetaryWorkfieldBtn) {
+  planetaryWorkfieldBtn.classList.toggle(
+    "active",
+    planetaryWorkfieldActive
+  );
+}
+
+// Achtergrondkleur Planetary Workfield-knop
+const planetaryColors = [
+  "rgba(255,0,0,0.7)",     // Rood
+  "rgba(255,255,255,0.7)", // Wit
+  "rgba(0,0,255,0.7)",     // Blauw
+  "rgba(255,255,0,0.7)"    // Geel
+];
+
+const planetaryButton = document.getElementById("planetWorkfieldButton");
+
+if (planetaryButton) {
+  planetaryButton.style.backgroundColor =
+    planetaryColors[planetWorkfieldSeal % 4];
+}
 
 planetWorkfield.style.opacity = "1";
 
@@ -3437,6 +3478,92 @@ if (hasSpecialPlanet) {
     showPlanet(planetMercury, large);
   }
 }
+
+function showPlanetaryWorkfieldText() {
+
+  const pages = ({
+    en: planetary_workfields_en,
+    nl: planetary_workfields_nl,
+    jp: planetary_workfields_jp,
+    ru: planetary_workfields_ru,
+    tr: planetary_workfields_tr
+  })[language] || planetary_workfields_en;
+
+  const planetDays = dayOffset - PLANET_ANCHOR_DAY;
+  const stationNumber = Math.floor(planetDays / 819);
+
+  const seal =
+    ((16 - stationNumber) % 20 + 20) % 20;
+
+  const planetaryNames = [
+  "imix", "ik", "akbal", "kan", "chicchan",
+  "cimi", "manik", "lamat", "muluc", "oc",
+  "chuen", "eb", "ben", "ix", "men",
+  "cib", "caban", "etznab", "cauac", "ahau"
+];
+
+const name = planetaryNames[seal];
+
+  const panel = document.getElementById("infoPanel");
+  const title = document.getElementById("infoPanelTitle");
+  const content = document.getElementById("infoPanelContent");
+
+  title.classList.remove("chakraTitle");
+  title.textContent = pages.title || "Planetary Workfield";
+
+  content.innerHTML = pages[seal + 1] ?? "";
+
+  panel.style.backgroundImage =
+    `url("backgrounds/${name}.png")`;
+
+  panel.style.backgroundSize = "cover";
+  panel.style.backgroundPosition = "center";
+}
+
+const planetaryWorkfieldButton =
+  document.getElementById("planetWorkfieldButton");
+
+planetaryWorkfieldButton.onclick = () => {
+
+if (dayOffset < PLANET_DISPLAY_START_DAY) {
+  closePlanetaryWorkfield();
+  activePage = "intro";
+  updateActivePage();
+  return;
+}
+
+  if (planetaryWorkfieldActive) {
+    planetaryWorkfieldActive = false;
+    planetaryWorkfieldButton.classList.remove("active");
+
+    activePage = "intro";
+    updateActivePage();
+    return;
+  }
+
+  closeSources();
+  closeOperator();
+  closeWavespell();
+
+  activeHistoryCell = null;
+
+  document
+    .querySelectorAll(".activeHistoryCell")
+    .forEach(cell => cell.classList.remove("activeHistoryCell"));
+
+  document
+    .querySelectorAll(".infoTab")
+    .forEach(tab => tab.classList.remove("activeTab"));
+
+  activePage = "intro";
+  planetaryWorkfieldActive = true;
+
+  planetaryWorkfieldButton.classList.add("active");
+
+  render();
+  showPlanetaryWorkfieldText();
+};
+
 
 
 // ===== BINNENSTE 4-RING ONTVOUWING =====
@@ -3853,6 +3980,8 @@ function toggleOperator(){
   if(dayOffset < OPERATOR_FIRST_DAY){
     return;
   }
+
+closePlanetaryWorkfield();
 
   if(operatorActive){
 
@@ -6007,6 +6136,7 @@ wavespellButton.onclick = () => {
     return;
   }
 
+closePlanetaryWorkfield();
 
   // Zelfde fractal opnieuw → intro
   if(wavespellActive){
@@ -6856,6 +6986,11 @@ if(
 
 updateActivePage();
 
+// Planetary Workfield behoudt zijn pagina bij datum- en taalwissels.
+if (planetaryWorkfieldActive) {
+  showPlanetaryWorkfieldText();
+}
+
 // ===== LOCK HIGHLIGHT VAN GESELECTEERDE KIN =====
 
 const lockedKinByPage = {
@@ -7029,6 +7164,7 @@ function closeWavespell(){
 
 function showSources(){
 
+closePlanetaryWorkfield();
   closeWavespell();
   closeOperator();
   activeHistoryCell = null;
@@ -7109,6 +7245,7 @@ sourcesButton.onclick = () => {
 
 function toggleHistoryCell(level, key, cell){
 
+closePlanetaryWorkfield();
 closeSources();
 closeWavespell();
 closeOperator();
@@ -7174,6 +7311,7 @@ render();
 
 function setActivePage(pageName, tabId){
 
+closePlanetaryWorkfield();
   closeSources();
   closeOperator();
   closeWavespell();
@@ -7221,6 +7359,7 @@ hexagramBackground.onclick = () => {
     return;
   }
 
+closePlanetaryWorkfield();
   closeSources();
   closeOperator();
   closeWavespell();
