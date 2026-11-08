@@ -744,12 +744,45 @@ body,
   opacity: 0;
 }
 
-#planetWorkfield {
-  left: 42px !important;
+#planetWorkfieldButton {
+  position: absolute;
+  left: 42px;
   top: 0;
-  width: 32px !important;
-  height: 32px !important;
+
+  width: 32px;
+  height: 32px;
+
+  padding: 0;
+  margin: 0;
+
+  border: 2px solid black;
+  border-radius: 6px;
+  background: transparent;
+
+  box-sizing: border-box;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+#planetWorkfieldButton #planetWorkfield {
+  position: absolute;
+  left: 0 !important;
+  top: 0 !important;
+
+  width: 100% !important;
+  height: 100% !important;
+
   opacity: 1;
+  object-fit: contain;
+  pointer-events: none;
+}
+
+#planetWorkfieldButton.active {
+  transform: translateY(-4px);
+
+  box-shadow:
+    0 0 8px rgba(255,255,255,0.9),
+    0 0 16px rgba(255,255,255,0.65);
 }
 
 #crownTabSymbol {
